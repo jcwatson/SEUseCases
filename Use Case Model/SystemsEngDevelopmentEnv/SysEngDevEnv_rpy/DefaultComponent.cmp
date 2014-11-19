@@ -1,0 +1,309 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 8169320
+{ IComponent 
+	- _id = GUID bfdb8f53-2bc6-49d2-8bed-99a758995a97;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- _modifiedTimeWeak = 1.2.1990::0:0:0;
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID 7eaf509d-f01d-4513-a37c-7aa661a6ac21;
+		- _myState = 73728;
+		- _name = "Files";
+		- _modifiedTimeWeak = 8.21.2014::13:20:42;
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 4fb2c3fd-cb2d-4a79-b63d-d4ca6b028a36;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 4fb2c3fd-cb2d-4a79-b63d-d4ca6b028a36;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 3e6625f0-f4e2-4367-933c-157af32c2155;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\watsonjc\\Documents\\Work Folder\\CE&T\\Systems Modeling COE\\OMG\\SysML Roadmap\\SE_UseCaseModel\\DefaultComponent\\DefaultConfig\\DefaultComponent.mak";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 93ad4236-9e04-4926-b5d4-46c240926ce9;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:\\Users\\watsonjc\\Documents\\Work Folder\\CE&T\\Systems Modeling COE\\OMG\\SysML Roadmap\\SE_UseCaseModel\\DefaultComponent\\DefaultConfig\\MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _root = { IFolder 
+				- _id = GUID adc4159a-c59c-4eb4-88a7-3b5e3ebdc1c7;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- _modifiedTimeWeak = 1.2.1990::0:0:0;
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 24;
+		- value = 
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SysML";
+			- _id = GUID d9689b73-885e-44c4-896b-de43defa0a33;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$SCRIPTROOT\\MSEM\\MSEM.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "MSEM";
+			- _id = GUID f128df21-428e-4790-a6c2-544541b18e0e;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "SE_Dev_Profile.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SE_Dev_Profile";
+			- _id = GUID b505e3dc-e3bc-489b-b15d-d48ef5689d67;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "DocGen Profile";
+			- _id = GUID 2ded90a0-df63-48d4-997c-2dded836f245;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$SCRIPTROOT\\DiagramMarkers\\DiagramMarkers.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "DiagramMarkers";
+			- _id = GUID bddef719-a68f-46fb-abc7-678eeca3283a;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$SCRIPTROOT\\MSEM\\IPM.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "IPM";
+			- _id = GUID 92d09cf3-df1a-4bda-a3d7-8cf2729b94ae;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$SCRIPTROOT\\MDE\\MDE.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "MDE";
+			- _id = GUID bc8c6401-e797-4e2b-8c3b-8260a0a6c8dc;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$SCRIPTROOT\\RequirementsExtensions\\Requirements_Extensions.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Requirements Extensions";
+			- _id = GUID 31bfc017-6665-402e-83d3-7b478a16d3de;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$SCRIPTROOT\\SpellChecker\\SpellChecker.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SpellChecker";
+			- _id = GUID 32ca40bc-f44e-4b81-a568-f05258e9a423;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre80Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre80Cpp";
+			- _id = GUID cdc61ea8-5d48-43f9-9f97-af672c36c918;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "SysML_Pre80.sbs.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SysML_Pre80";
+			- _id = GUID 4b435a8c-5c01-4ecd-a419-aa0b116ac54d;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre803Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre803Cpp";
+			- _id = GUID 2c6673a1-7843-43a4-92d5-93795ef7e229;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "SysML_Pre803.sbs.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "SysML_Pre803";
+			- _id = GUID 67eda4ca-5ff1-42c5-a7ef-804c356b1cec;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Model_Walkthrough.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Model Walkthrough";
+			- _id = GUID c257fb7c-0e1f-4030-919b-d384e2804c01;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "System_Engineering_Operations.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "System Engineering Operations";
+			- _id = GUID 6cfa223b-3cca-4a39-932e-465247fcef40;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "SE_Development_System_Workflow_Use_Cases.sbs";
+			- _subsystem = "System Engineering Operations::System Engineering Development System::Document - SE Development System Workflow Documents";
+			- _class = "";
+			- _name = "SE Development System Workflow Use Cases";
+			- _id = GUID c7e5f24a-df6e-42a9-b470-a8156ff560c4;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Imported_Library\\Imported_Library.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Imported__Libraries";
+			- _id = GUID b7fb2034-0c0e-42bd-bc42-62da3ac643b6;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "C:\\Users\\watsonjc\\Documents\\Work Folder\\LM_ProfilesAndScripts_8\\IssueManagementLibrary\\IssueManagementLibrary.sbs";
+			- _subsystem = "Imported__Libraries";
+			- _class = "";
+			- _name = "IssueManagementLibrary";
+			- _id = GUID 51e44ad1-c988-4f4b-b318-77138dd1d9b1;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Imported_Library\\..\\..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\MetricsViewLibrary\\Model_Metrics_View_Library.sbs";
+			- _subsystem = "Imported__Libraries";
+			- _class = "";
+			- _name = "Model Metrics View Library";
+			- _id = GUID fae44b01-4b2a-4341-a2db-b1551f4e7f46;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$SCRIPTROOT\\ProbabilityDistributionProfile\\ProbabilityDistributionProfile.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "ProbabilityDistributionProfile";
+			- _id = GUID 4e9a70d5-4877-41cb-bc68-07a7424c2db8;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre805Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre805Cpp";
+			- _id = GUID a32649f4-8029-4846-82f3-6deba65e416d;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "..\\..\\..\\..\\..\\..\\..\\..\\IBM\\Rational\\Rhapsody\\8.1\\Share\\Profiles\\MicroC\\ExtendedTableCapabilities.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "ExtendedTableCapabilities";
+			- _id = GUID 305908cd-5da2-4b10-8ba9-bcff3246b79a;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Information_Model.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Information Model";
+			- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre81Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre81Cpp";
+			- _id = GUID dcd2cdb5-4c74-4d47-99ca-1b358b271e5f;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 1.2.1990::0:0:0;
+	- strongCGTime = 1.2.1990::0:0:0;
+}
+

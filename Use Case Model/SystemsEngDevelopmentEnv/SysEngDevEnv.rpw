@@ -1,0 +1,328 @@
+I-Logix-RPY-Archive version 8.10.0 * 8169320
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 8;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = 0;
+				- m_nTop = 10;
+				- m_nRight = 799;
+				- m_nBottom = 476;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "SE_Development_System_Workflow_Use_Cases.sbs";
+				- _subsystem = "System Engineering Operations::System Engineering Development System::Document - SE Development System Workflow Documents::SE Development System Workflow Use Cases::Addendum";
+				- _class = "";
+				- _name = "Addendum Content";
+				- _id = GUID 46759593-8d6a-4d23-acb1-95752a1da7d3;
+			}
+			- _UpLeft = 0 38 ;
+			- _DownRight = 762 445 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = 222;
+				- m_nTop = 1;
+				- m_nRight = 1172;
+				- m_nBottom = 451;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "System_Engineering_Operations.sbs";
+				- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+				- _class = "";
+				- _name = "SE Developemt Environment";
+				- _id = GUID f7e1cddc-77d1-4faa-827b-1eb3b35b1066;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 913 391 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 5;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = 50;
+				- m_nTop = 50;
+				- m_nRight = 728;
+				- m_nBottom = 705;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "System_Engineering_Operations.sbs";
+				- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+				- _class = "SE Development System";
+				- _name = "Measure Change Impact()";
+				- _id = GUID 1e7d1c8e-daff-4f7c-b0d7-63a5a95e1d10;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 641 596 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = 28;
+				- m_nTop = -3;
+				- m_nRight = 1071;
+				- m_nBottom = 604;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStructureDiagram";
+				- _filename = "System_Engineering_Operations.sbs";
+				- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+				- _class = "SE Development System";
+				- _name = "SE Development System Internal Interconnections";
+				- _id = GUID d967e98d-ec9c-419d-9241-484ac940d2ff;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1006 548 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 7;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = 535;
+				- m_nTop = 507;
+				- m_nRight = 1485;
+				- m_nBottom = 1138;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "System_Engineering_Operations.sbs";
+				- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure";
+				- _class = "";
+				- _name = "Product Development Domain Structure";
+				- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
+			}
+			- _UpLeft = 0 19 ;
+			- _DownRight = 913 591 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 6;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = 51;
+				- m_nTop = 29;
+				- m_nRight = 1026;
+				- m_nBottom = 525;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "System_Engineering_Operations.sbs";
+				- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Exploratory and Concept Stage";
+				- _class = "Plan a Response to a Customer Request";
+				- _name = "ActivityDiagram";
+				- _id = GUID 908b4940-972c-4ff3-acee-bfadadb98ab4;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 938 437 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = 232;
+				- m_nTop = 152;
+				- m_nRight = 1182;
+				- m_nBottom = 810;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IUCDiagram";
+				- _filename = "System_Engineering_Operations.sbs";
+				- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::System Development Stage::SE Domain Workflow Use Cases";
+				- _class = "";
+				- _name = "Specialty Engineering";
+				- _id = GUID 31336da8-8544-453c-998b-53dbde80990e;
+			}
+			- _UpLeft = 0 18 ;
+			- _DownRight = 1496 1000 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 4;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = 20;
+				- m_nTop = 96;
+				- m_nRight = 995;
+				- m_nBottom = 726;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "System_Engineering_Operations.sbs";
+				- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Worflow Patterns";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID 6e02c411-6583-4c68-be51-14360258c224;
+			}
+			- _UpLeft = 0 73 ;
+			- _DownRight = 938 624 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+	}
+	- _fullName = "C:\\Users\\watsonjc\\Documents\\Work Folder\\CE&T\\Systems Modeling COE\\OMG\\SysML Roadmap\\SystemsEngDevelopmentEnv\\SysEngDevEnv";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingCustomBrowserView = 0;
+	- bUsingQueries = 1;
+	- bApplyOnDiagrams = 1;
+	- liQueryIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- liElementTypes = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+
+	- tableMatrixColWidth = {
+		count=9;
+		{ - TableMatrixView
+			id=a3370548-e995-4f3e-a5ca-ae4bda450fed;
+			colwidth=;223;279;;
+		}
+		{ - TableMatrixView
+			id=40f15fe2-2ce9-4f13-b19a-fe8fdf37caf7;
+			colwidth=;258;175;188;;
+		}
+		{ - TableMatrixView
+			id=ac55221f-bcba-4ef7-bc03-4693d26534da;
+			colwidth=;137;141;431;;
+		}
+		{ - TableMatrixView
+			id=5befc027-2b9b-442f-bc74-35a2500268ca;
+			colwidth=;243;210;115;141;;
+		}
+		{ - TableMatrixView
+			id=167ed2f8-d4c2-4c85-a8c4-e1cc20ed1a95;
+			colwidth=;203;182;138;133;183;;
+		}
+		{ - TableMatrixView
+			id=351d5624-c1ac-46b4-a3fd-d3605c2eb183;
+			colwidth=;207;143;143;;
+		}
+		{ - TableMatrixView
+			id=429b51c8-6818-498e-87d6-4207584bdf1c;
+			colwidth=;58;146;343;66;44;93;51;72;;
+		}
+		{ - TableMatrixView
+			id=d04be6f9-6938-430b-8042-8a0a04a4169c;
+			colwidth=;187;166;75;187;;
+		}
+		{ - TableMatrixView
+			id=2d1dad35-45d5-4ded-8d37-a772789c76b6;
+			colwidth=;111;146;624;66;44;93;51;72;;
+		}
+	}
+
+
+	- tableMatrixRowAdditionHight = {
+		count=5;
+		{ - TableMatrixView
+			id=a3370548-e995-4f3e-a5ca-ae4bda450fed;
+			rowAdditionalHight=onalHight=onalHight=onalHight=;
+		}
+		{ - TableMatrixView
+			id=40f15fe2-2ce9-4f13-b19a-fe8fdf37caf7;
+			rowAdditionalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=;
+		}
+		{ - TableMatrixView
+			id=5befc027-2b9b-442f-bc74-35a2500268ca;
+			rowAdditionalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=;
+		}
+		{ - TableMatrixView
+			id=ac55221f-bcba-4ef7-bc03-4693d26534da;
+			rowAdditionalHight=onalHight=onalHight=onalHight=onalHight=;
+		}
+		{ - TableMatrixView
+			id=1d7fce83-ef88-4217-962c-dd16be261334;
+			rowAdditionalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=onalHight=;
+		}
+	}
+
+	- mapOslcRmActiveCollections = { IRPYRawContainer 
+		- size = 0;
+	}
+}
+

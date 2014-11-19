@@ -1,0 +1,110 @@
+I-Logix-RPY-Archive version 8.8.0 C++ 6118532
+{ IProfile 
+	- _id = GUID 67eda4ca-5ff1-42c5-a7ef-804c356b1cec;
+	- _name = "SysML_Pre803";
+	- Stereotypes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IHandle 
+			- _m2Class = "IStereotype";
+			- _filename = "PredefinedTypes.sbs";
+			- _subsystem = "PredefinedTypes";
+			- _class = "";
+			- _name = "Settings";
+			- _id = GUID c4916b7f-5ca2-41a3-b8a9-6ac22b145b51;
+		}
+	}
+	- _modifiedTimeWeak = 12.12.2013::21:36:57;
+	- Declaratives = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IStereotype 
+			- _id = GUID 32060d65-992d-41c1-8fa8-44d6171d8830;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 2;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Graphics";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "SysMLPort";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "SysMLNotation";
+										- _Value = "service";
+										- _Type = Enum;
+										- _ExtraTypeInfo = "service,flow,structure";
+									}
+								}
+							}
+						}
+					}
+					{ IPropertySubject 
+						- _Name = "Model";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "Stereotype";
+								- Properties = { IRPYRawContainer 
+									- size = 3;
+									- value = 
+									{ IProperty 
+										- _Name = "BrowserIcon";
+										- _Value = "../icons/ServicePort.ico";
+										- _Type = File;
+									}
+									{ IProperty 
+										- _Name = "Name";
+										- _Value = "StandardPort";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "PluralName";
+										- _Value = "Standard Ports";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "standardPort";
+			- _modifiedTimeWeak = 3.14.2013::11:20:10;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Port"; 
+			}
+			- _newTerm = 1;
+		}
+	}
+	- weakCGTime = 12.12.2013::21:36:57;
+	- strongCGTime = 3.14.2013::11:14:20;
+	- _defaultComposite = GUID 6094ccea-ca4e-40dd-944b-b7d772316ae9;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 6094ccea-ca4e-40dd-944b-b7d772316ae9;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 8.5.2013::21:54:31;
+			- weakCGTime = 8.5.2013::21:54:31;
+			- strongCGTime = 3.14.2013::11:14:20;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+
