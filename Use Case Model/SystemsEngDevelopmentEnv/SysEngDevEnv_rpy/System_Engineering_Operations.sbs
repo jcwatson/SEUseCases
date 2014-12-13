@@ -1,9 +1,9 @@
-I-Logix-RPY-Archive version 8.10.0 C++ 8169320
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
 	- _id = GUID 6cfa223b-3cca-4a39-932e-465247fcef40;
 	- _myState = 8192;
 	- _name = "System Engineering Operations";
-	- _modifiedTimeWeak = 9.13.2014::12:10:16;
+	- _modifiedTimeWeak = 12.13.2014::13:42:56;
 	- _lastID = 4;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -12,7 +12,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 			- _id = GUID 0ab040f7-e724-40c5-a608-9b9e41fdbd2f;
 			- _myState = 8192;
 			- _name = "System Engineering Development System";
-			- _modifiedTimeWeak = 9.13.2014::12:10:16;
+			- _modifiedTimeWeak = 12.13.2014::13:42:56;
 			- _lastID = 2;
 			- Declaratives = { IRPYRawContainer 
 				- size = 3;
@@ -6310,7 +6310,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 									}
 								}
 							}
-							- weakCGTime = 9.11.2014::14:53:7;
+							- weakCGTime = 12.13.2014::13:44:32;
 							- strongCGTime = 6.9.2014::14:34:51;
 							- _defaultComposite = GUID 8873c3a7-1850-4123-a5a8-4a67aaf217b7;
 							- _eventsBaseID = -1;
@@ -27060,7 +27060,7 @@ Configuration Management\\fs20\\par
 							- _configurationRelatedTime = 8.1.2014::16:40:53;
 						}
 					}
-					- weakCGTime = 9.11.2014::18:17:20;
+					- weakCGTime = 12.13.2014::13:44:32;
 					- strongCGTime = 6.9.2014::14:34:51;
 					- _defaultComposite = GUID f0bda8dd-70a6-43c0-a98a-ceeecc279ff9;
 					- _eventsBaseID = -1;
@@ -29025,7 +29025,7 @@ Configuration Management\\fs20\\par
 					- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
 					- _myState = 8192;
 					- _name = "SE Life Cycle Workflow Use Cases";
-					- _modifiedTimeWeak = 9.13.2014::12:13:56;
+					- _modifiedTimeWeak = 12.13.2014::13:42:56;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -30052,6 +30052,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "";
+														- _class = "";
+														- _name = "";
 														- _id = GUID 399e5f15-af07-4539-b24a-c5d3e13a1ecb;
 													}
 													- _modelElement = { IHandle 
@@ -30217,6 +30221,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "";
+														- _class = "";
+														- _name = "";
 														- _id = GUID 399e5f15-af07-4539-b24a-c5d3e13a1ecb;
 													}
 													- _modelElement = { IHandle 
@@ -33362,7 +33370,7 @@ Configuration Management\\fs20\\par
 									}
 								}
 							}
-							- weakCGTime = 9.13.2014::12:10:16;
+							- weakCGTime = 12.13.2014::13:44:33;
 							- strongCGTime = 6.9.2014::14:34:51;
 							- _defaultComposite = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 							- _eventsBaseID = -1;
@@ -42362,7 +42370,7 @@ A System Requirement Specification may also be produced including many of the ca
 							- _id = GUID 1cac8b15-93af-4e74-8c1e-6da70b8dc4d1;
 							- _myState = 8192;
 							- _name = "System Development Stage";
-							- _modifiedTimeWeak = 9.13.2014::12:10:16;
+							- _modifiedTimeWeak = 12.13.2014::13:42:56;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -42375,7 +42383,7 @@ A System Requirement Specification may also be produced including many of the ca
 									- _id = GUID 9c9eecbf-70ef-447f-bcb2-895c6548c211;
 									- _myState = 8192;
 									- _name = "Management Workflow Use Cases";
-									- _modifiedTimeWeak = 8.13.2014::16:25:29;
+									- _modifiedTimeWeak = 12.13.2014::13:42:56;
 									- _lastID = 12;
 									- Declaratives = { IRPYRawContainer 
 										- size = 1;
@@ -44371,7 +44379,7 @@ A System Requirement Specification may also be produced including many of the ca
 											}
 										}
 									}
-									- weakCGTime = 8.13.2014::16:25:29;
+									- weakCGTime = 12.13.2014::13:42:56;
 									- strongCGTime = 8.13.2014::16:25:29;
 									- _defaultComposite = GUID fe4eb5fb-1d04-4ab7-bbe9-079bf695b50f;
 									- _eventsBaseID = -1;
@@ -44547,12 +44555,12 @@ A System Requirement Specification may also be produced including many of the ca
 											}
 											- _description = { IDescription 
 												- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fswiss\\fprq2\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to manage the planned development efforts to ensure it is manage to successful completion on time and within budget constraints. \\b\\par
+\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to manage the planned development tasks assigned to Systems Engineering to ensure they are manage to successful completion on time and within budget constraints. \\b\\par
 Primary Actor \\b0 - Engineering Manager\\par
 \\b Secondary Actors\\b0  - Systems Engineers\\par
 \\b Preconditions\\b0  - A Development Plan exists\\par
 \\b Activity -\\par
-\\b0 This use case can occur at any time during the development cycle however, it must be execute at least at every development iteration and program milestone. The intent is to detect and react to issues as early as possible. \\par
+\\b0 This use case can occur at any time during the development cycle however, it must be execute at least at every development iteration and program milestone. The intent is to detect and react to issues as early as possible. Management of these tasks is usually part of a much larger effort, that os management of all engineering tasks associated with this itineration or project.   (This Use Case name and text was updated by John as part of a GiTHub Test) \\par
 \\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 1.\\tab Collect metric data associated with progress and costs\\par
 2.\\tab Measure these results against the Development Plan.\\f1\\fs20\\par
 \\f0\\fs22 3.\\tab Adjust the Development Plan appropriately\\par
@@ -52878,7 +52886,7 @@ iii.\\tab Show traceability from Hazards to Risk mitigation requirements to syst
 													- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
 												}
 											}
-											- _modifiedTimeWeak = 7.23.2014::20:45:53;
+											- _modifiedTimeWeak = 9.13.2014::12:10:16;
 											- _theMainDiagram = { IHandle 
 												- _m2Class = "IUCDiagram";
 												- _id = GUID d76fa43d-2901-4b59-87b4-43e07dcec73a;
@@ -60182,7 +60190,7 @@ Post Conditions\\b0  -\\par
 									- _configurationRelatedTime = 1.2.1990::0:0:0;
 								}
 							}
-							- weakCGTime = 9.13.2014::12:10:16;
+							- weakCGTime = 12.13.2014::13:42:56;
 							- strongCGTime = 6.9.2014::14:34:51;
 							- _defaultComposite = GUID a0aa9553-c6d0-479a-b0ed-689e968e0945;
 							- _eventsBaseID = -1;
@@ -64202,7 +64210,7 @@ Post Conditions\\b0  -\\par
 							- _id = GUID c27fc8c5-127d-4141-8990-da58e0eda24b;
 							- _myState = 8192;
 							- _name = "Worflow Patterns";
-							- _modifiedTimeWeak = 9.13.2014::12:14:13;
+							- _modifiedTimeWeak = 9.14.2014::12:25:27;
 							- weakCGTime = 9.14.2014::12:25:27;
 							- strongCGTime = 9.14.2014::12:25:27;
 							- _defaultComposite = GUID df02ea96-e8b4-49e6-ae1b-3fa1ceb45ceb;
@@ -67798,10 +67806,10 @@ John Watson, 8/24/2014\\par
 									- _classModifier = Unspecified;
 								}
 							}
-							- _configurationRelatedTime = 12.31.1969::19:0:0;
+							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 9.13.2014::12:13:56;
+					- weakCGTime = 12.13.2014::13:42:56;
 					- strongCGTime = 8.13.2014::14:1:3;
 					- _defaultComposite = GUID 096ed2a3-f9af-4729-b836-e0906b514d83;
 					- _eventsBaseID = -1;
@@ -67837,7 +67845,7 @@ John Watson, 8/24/2014\\par
 							- _name = "TitlePageUC_Survey.docx";
 							- _modifiedTimeWeak = 8.21.2014::13:38:56;
 							- _MayNeedToRelocate = 0;
-							- _LastKnownFullPath = "C:\\Users\\watsonjc\\Documents\\Work Folder\\CE&T\\Systems Modeling COE\\OMG\\SysML Roadmap\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\TitlePageUC_Survey.docx";
+							- _LastKnownFullPath = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap2\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\TitlePageUC_Survey.docx";
 						}
 					}
 					- _lastID = 7;
@@ -69101,7 +69109,7 @@ John Watson, 8/24/2014\\par
 													- m_targetType = 'T';
 													- m_direction = ' ';
 													- m_rpn = { CGIText 
-														- m_str = "next";
+														- m_str = "(U) next";
 														- m_style = "Arial" 10 0 0 0 1 ;
 														- m_color = { IColor 
 															- m_fgColor = 0;
@@ -69246,7 +69254,7 @@ John Watson, 8/24/2014\\par
 													- m_targetType = 'T';
 													- m_direction = ' ';
 													- m_rpn = { CGIText 
-														- m_str = "next";
+														- m_str = "(U) next";
 														- m_style = "Arial" 10 0 0 0 1 ;
 														- m_color = { IColor 
 															- m_fgColor = 0;
@@ -69320,7 +69328,7 @@ John Watson, 8/24/2014\\par
 													- m_targetType = 'T';
 													- m_direction = ' ';
 													- m_rpn = { CGIText 
-														- m_str = "next";
+														- m_str = "(U) next";
 														- m_style = "Arial" 10 0 0 0 1 ;
 														- m_color = { IColor 
 															- m_fgColor = 0;
@@ -69396,7 +69404,7 @@ John Watson, 8/24/2014\\par
 													- m_targetType = 'T';
 													- m_direction = ' ';
 													- m_rpn = { CGIText 
-														- m_str = "next";
+														- m_str = "(U) next";
 														- m_style = "Arial" 10 0 0 0 1 ;
 														- m_color = { IColor 
 															- m_fgColor = 0;
@@ -69539,7 +69547,7 @@ John Watson, 8/24/2014\\par
 													- m_targetType = 'T';
 													- m_direction = ' ';
 													- m_rpn = { CGIText 
-														- m_str = "next";
+														- m_str = "(U) next";
 														- m_style = "Arial" 10 0 0 0 1 ;
 														- m_color = { IColor 
 															- m_fgColor = 0;
@@ -69684,7 +69692,7 @@ John Watson, 8/24/2014\\par
 													- m_targetType = 'T';
 													- m_direction = ' ';
 													- m_rpn = { CGIText 
-														- m_str = "next";
+														- m_str = "(U) next";
 														- m_style = "Arial" 10 0 0 0 1 ;
 														- m_color = { IColor 
 															- m_fgColor = 0;
@@ -70722,7 +70730,7 @@ John Watson, 8/24/2014\\par
 					- _configurationRelatedTime = 8.1.2014::20:56:37;
 				}
 			}
-			- weakCGTime = 9.13.2014::12:10:16;
+			- weakCGTime = 12.13.2014::13:42:56;
 			- strongCGTime = 6.9.2014::14:34:51;
 			- _defaultComposite = GUID 2509bcdc-191a-402b-a19c-86c64ba04d5c;
 			- _eventsBaseID = -1;
@@ -70746,7 +70754,7 @@ John Watson, 8/24/2014\\par
 			- _configurationRelatedTime = 6.10.2014::15:13:23;
 		}
 	}
-	- weakCGTime = 9.13.2014::12:10:16;
+	- weakCGTime = 12.13.2014::13:42:56;
 	- strongCGTime = 6.9.2014::14:34:51;
 	- _defaultComposite = GUID 297a057e-07b1-4fdc-84a1-a9df6c8312bf;
 	- _eventsBaseID = -1;
@@ -70757,8 +70765,8 @@ John Watson, 8/24/2014\\par
 			- _id = GUID 297a057e-07b1-4fdc-84a1-a9df6c8312bf;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 9.11.2014::14:39:29;
-			- weakCGTime = 9.11.2014::14:39:29;
+			- _modifiedTimeWeak = 9.13.2014::12:10:16;
+			- weakCGTime = 9.13.2014::12:10:16;
 			- strongCGTime = 6.9.2014::14:34:51;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
