@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 6cfa223b-3cca-4a39-932e-465247fcef40;
 	- _myState = 8192;
 	- _name = "System Engineering Operations";
-	- _modifiedTimeWeak = 12.13.2014::13:42:56;
+	- _modifiedTimeWeak = 12.13.2014::14:39:22;
 	- _lastID = 4;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -12,7 +12,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 0ab040f7-e724-40c5-a608-9b9e41fdbd2f;
 			- _myState = 8192;
 			- _name = "System Engineering Development System";
-			- _modifiedTimeWeak = 12.13.2014::13:42:56;
+			- _modifiedTimeWeak = 12.13.2014::14:39:22;
 			- _lastID = 2;
 			- Declaratives = { IRPYRawContainer 
 				- size = 3;
@@ -45,7 +45,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _body = "";
 						}
 					}
-					- _modifiedTimeWeak = 9.11.2014::18:17:20;
+					- _modifiedTimeWeak = 12.13.2014::13:44:32;
 					- _lastID = 66;
 					- Declaratives = { IRPYRawContainer 
 						- size = 4;
@@ -343,7 +343,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "9.11.2014::17:12:49";
+							- _lastModifiedTime = "12.13.2014::14:44:25";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID dd247740-f192-4704-9372-bd5a52e68d0a;
 								- m_type = 0;
@@ -4725,7 +4725,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID 144d9bad-b054-4df1-b127-f61eb172b95b;
 							- _myState = 8192;
 							- _name = "Stakeholders";
-							- _modifiedTimeWeak = 9.11.2014::14:53:7;
+							- _modifiedTimeWeak = 12.13.2014::13:44:32;
 							- _lastID = 4;
 							- Declaratives = { IRPYRawContainer 
 								- size = 1;
@@ -5043,7 +5043,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 										}
 									}
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
-									- _lastModifiedTime = "9.14.2014::11:56:20";
+									- _lastModifiedTime = "12.13.2014::14:44:25";
 									- _graphicChart = { CGIClassChart 
 										- _id = GUID 52f19606-0407-478a-a9bb-7eae83c2b55a;
 										- m_type = 0;
@@ -7181,7 +7181,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 												}
 											}
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
-											- _lastModifiedTime = "9.11.2014::18:13:3";
+											- _lastModifiedTime = "12.13.2014::14:44:25";
 											- _graphicChart = { CGIClassChart 
 												- _id = GUID 58b79df1-f02e-4149-a90f-956b25cd99d7;
 												- m_type = 0;
@@ -29025,7 +29025,7 @@ Configuration Management\\fs20\\par
 					- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
 					- _myState = 8192;
 					- _name = "SE Life Cycle Workflow Use Cases";
-					- _modifiedTimeWeak = 12.13.2014::13:42:56;
+					- _modifiedTimeWeak = 12.13.2014::14:39:22;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -29161,6 +29161,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Actor Layout";
 														- _id = GUID 0270a1e5-520d-4288-9667-0c52e589ce2d;
 													}
 													- _modelElement = { IHandle 
@@ -29176,6 +29180,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Actor Layout";
 														- _id = GUID 0270a1e5-520d-4288-9667-0c52e589ce2d;
 													}
 													- _modelElement = { IHandle 
@@ -29187,6 +29195,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Actor Layout";
 														- _id = GUID 0270a1e5-520d-4288-9667-0c52e589ce2d;
 													}
 													- _modelElement = { IHandle 
@@ -29198,6 +29210,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Actor Layout";
 														- _id = GUID 0270a1e5-520d-4288-9667-0c52e589ce2d;
 													}
 													- _modelElement = { IHandle 
@@ -29214,6 +29230,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Actor Layout";
 														- _id = GUID 0270a1e5-520d-4288-9667-0c52e589ce2d;
 													}
 													- _modelElement = { IHandle 
@@ -29229,6 +29249,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Actor Layout";
 														- _id = GUID 0270a1e5-520d-4288-9667-0c52e589ce2d;
 													}
 													- _modelElement = { IHandle 
@@ -29323,6 +29347,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Description Layout";
 														- _id = GUID 1b7fef36-dd14-49fa-909c-2a358af3a2a2;
 													}
 													- _modelElement = { IHandle 
@@ -29338,6 +29366,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Description Layout";
 														- _id = GUID 1b7fef36-dd14-49fa-909c-2a358af3a2a2;
 													}
 													- _modelElement = { IHandle 
@@ -29349,6 +29381,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Description Layout";
 														- _id = GUID 1b7fef36-dd14-49fa-909c-2a358af3a2a2;
 													}
 													- _modelElement = { IHandle 
@@ -29360,6 +29396,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Description Layout";
 														- _id = GUID 1b7fef36-dd14-49fa-909c-2a358af3a2a2;
 													}
 													- _modelElement = { IHandle 
@@ -29375,6 +29415,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Actor Layout";
 														- _id = GUID 0270a1e5-520d-4288-9667-0c52e589ce2d;
 													}
 													- _modelElement = { IHandle 
@@ -29390,6 +29434,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Cases Actor Layout";
 														- _id = GUID 0270a1e5-520d-4288-9667-0c52e589ce2d;
 													}
 													- _modelElement = { IHandle 
@@ -29586,6 +29634,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "UCImporter";
 														- _id = GUID 9b19ab13-1b37-4fb0-a743-a39d49044c20;
 													}
 													- _modelElement = { IHandle 
@@ -29601,6 +29653,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "UCImporter";
 														- _id = GUID 9b19ab13-1b37-4fb0-a743-a39d49044c20;
 													}
 													- _modelElement = { IHandle 
@@ -29646,6 +29702,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Case List and Organization";
 														- _id = GUID 0de9637a-ba26-43f4-9159-5beb301e6c29;
 													}
 													- _modelElement = { IHandle 
@@ -29661,6 +29721,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Case List and Organization";
 														- _id = GUID 0de9637a-ba26-43f4-9159-5beb301e6c29;
 													}
 													- _modelElement = { IHandle 
@@ -29672,6 +29736,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Case List and Organization";
 														- _id = GUID 0de9637a-ba26-43f4-9159-5beb301e6c29;
 													}
 													- _modelElement = { IHandle 
@@ -29683,11 +29751,15 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Case List and Organization";
 														- _id = GUID 0de9637a-ba26-43f4-9159-5beb301e6c29;
 													}
 													- _modelElement = { IHandle 
 														- _m2Class = "ITag";
-														- _filename = "SE_Dev_Profile.sbs";
+														- _filename = "";
 														- _subsystem = "SE_Dev_Profile";
 														- _class = "UC_Properties";
 														- _name = "Selection";
@@ -29700,11 +29772,15 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Case List and Organization";
 														- _id = GUID 0de9637a-ba26-43f4-9159-5beb301e6c29;
 													}
 													- _modelElement = { IHandle 
 														- _m2Class = "ITag";
-														- _filename = "SE_Dev_Profile.sbs";
+														- _filename = "";
 														- _subsystem = "SE_Dev_Profile";
 														- _class = "UC_Properties";
 														- _name = "Maturity";
@@ -30053,9 +30129,9 @@ Configuration Management\\fs20\\par
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
 														- _filename = "";
-														- _subsystem = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
 														- _class = "";
-														- _name = "";
+														- _name = "UC - Evolving Description";
 														- _id = GUID 399e5f15-af07-4539-b24a-c5d3e13a1ecb;
 													}
 													- _modelElement = { IHandle 
@@ -30222,9 +30298,9 @@ Configuration Management\\fs20\\par
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
 														- _filename = "";
-														- _subsystem = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
 														- _class = "";
-														- _name = "";
+														- _name = "UC - Evolving Description";
 														- _id = GUID 399e5f15-af07-4539-b24a-c5d3e13a1ecb;
 													}
 													- _modelElement = { IHandle 
@@ -30390,6 +30466,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "UC - Evolving Description";
 														- _id = GUID 399e5f15-af07-4539-b24a-c5d3e13a1ecb;
 													}
 													- _modelElement = { IHandle 
@@ -30555,6 +30635,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "UC - Evolving Description";
 														- _id = GUID 399e5f15-af07-4539-b24a-c5d3e13a1ecb;
 													}
 													- _modelElement = { IHandle 
@@ -30720,6 +30804,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "UC - Evolving Description";
 														- _id = GUID 399e5f15-af07-4539-b24a-c5d3e13a1ecb;
 													}
 													- _modelElement = { IHandle 
@@ -30885,6 +30973,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "UC - Evolving Description";
 														- _id = GUID 399e5f15-af07-4539-b24a-c5d3e13a1ecb;
 													}
 													- _modelElement = { IHandle 
@@ -31050,6 +31142,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "UC - Evolving Description";
 														- _id = GUID 399e5f15-af07-4539-b24a-c5d3e13a1ecb;
 													}
 													- _modelElement = { IHandle 
@@ -31096,6 +31192,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Case List and Organization";
 														- _id = GUID 0de9637a-ba26-43f4-9159-5beb301e6c29;
 													}
 													- _modelElement = { IHandle 
@@ -31111,6 +31211,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Case List";
 														- _id = GUID c7baf13d-9f17-4421-9857-97e393742ccc;
 													}
 													- _modelElement = { IHandle 
@@ -31122,6 +31226,10 @@ Configuration Management\\fs20\\par
 												{ TableDataDefinition 
 													- _myTable = { IHandle 
 														- _m2Class = "ITableLayout";
+														- _filename = "";
+														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views::Layouts";
+														- _class = "";
+														- _name = "Use Case List";
 														- _id = GUID c7baf13d-9f17-4421-9857-97e393742ccc;
 													}
 													- _modelElement = { IHandle 
@@ -31384,7 +31492,7 @@ Configuration Management\\fs20\\par
 							- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
 							- _myState = 8192;
 							- _name = "Actors";
-							- _modifiedTimeWeak = 9.13.2014::12:10:16;
+							- _modifiedTimeWeak = 12.13.2014::14:39:22;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -31598,7 +31706,7 @@ Configuration Management\\fs20\\par
 										}
 									}
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
-									- _lastModifiedTime = "9.14.2014::11:56:20";
+									- _lastModifiedTime = "12.13.2014::14:44:25";
 									- _graphicChart = { CGIClassChart 
 										- _id = GUID 7cc8a4c8-63ea-4dd6-b694-8253828ea795;
 										- m_type = 0;
@@ -33370,7 +33478,7 @@ Configuration Management\\fs20\\par
 									}
 								}
 							}
-							- weakCGTime = 12.13.2014::13:44:33;
+							- weakCGTime = 12.13.2014::14:39:22;
 							- strongCGTime = 6.9.2014::14:34:51;
 							- _defaultComposite = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 							- _eventsBaseID = -1;
@@ -33664,7 +33772,7 @@ Configuration Management\\fs20\\par
 									- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
 									- _myState = 8192;
 									- _name = "Systems Engineer";
-									- _modifiedTimeWeak = 6.9.2014::14:34:51;
+									- _modifiedTimeWeak = 12.13.2014::14:39:22;
 									- _theMainDiagram = { IHandle 
 										- _m2Class = "IDiagram";
 										- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
@@ -33675,7 +33783,7 @@ anufacture, deployment, use and disposal. The systems engineer must analyze, spe
 A systems engineer helps ensure the elements of the system fit together to accomplish the objectives of the whole, and ultimately satisfy the needs of the customers and other stakeholders who will acquire and use the system.
 ";
 									}
-									- weakCGTime = 6.9.2014::14:34:51;
+									- weakCGTime = 12.13.2014::14:39:22;
 									- strongCGTime = 6.9.2014::14:34:51;
 									- _multiplicity = "";
 									- _itsStateChart = { IHandle 
@@ -33765,7 +33873,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 										{ IAssociationEnd 
 											- _id = GUID e2c2b282-c357-4130-a7a0-e93606531162;
 											- _myState = 10240;
-											- _name = "itsManage Development Progress";
+											- _name = "itsManage SE Development Progress";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
 											- _multiplicity = "1";
 											- _otherClass = { IClassifierHandle 
@@ -34423,12 +34531,12 @@ A systems engineer helps ensure the elements of the system fit together to accom
 									- _id = GUID 6b0768e0-04b9-42c8-92c7-614d21e43924;
 									- _myState = 8192;
 									- _name = "Engineering Mgr.";
-									- _modifiedTimeWeak = 6.9.2014::14:34:51;
+									- _modifiedTimeWeak = 12.13.2014::14:39:22;
 									- _theMainDiagram = { IHandle 
 										- _m2Class = "IDiagram";
 										- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
 									}
-									- weakCGTime = 6.9.2014::14:34:51;
+									- weakCGTime = 12.13.2014::14:39:22;
 									- strongCGTime = 6.9.2014::14:34:51;
 									- _multiplicity = "";
 									- _itsStateChart = { IHandle 
@@ -34470,7 +34578,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 										{ IAssociationEnd 
 											- _id = GUID b5eae204-5d50-48aa-b087-45168be493dc;
 											- _myState = 10240;
-											- _name = "itsManage Development Progress";
+											- _name = "itsManage SE Development Progress";
 											- Stereotypes = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -35455,7 +35563,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 									}
 									- _name = "Exploratory and Concept Stage Workflow Use Cases";
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
-									- _lastModifiedTime = "9.11.2014::17:12:49";
+									- _lastModifiedTime = "12.13.2014::14:44:25";
 									- _graphicChart = { CGIClassChart 
 										- _id = GUID ff4926df-a6ac-4b04-9c83-f69a46cedb29;
 										- m_type = 0;
@@ -42370,7 +42478,7 @@ A System Requirement Specification may also be produced including many of the ca
 							- _id = GUID 1cac8b15-93af-4e74-8c1e-6da70b8dc4d1;
 							- _myState = 8192;
 							- _name = "System Development Stage";
-							- _modifiedTimeWeak = 12.13.2014::13:42:56;
+							- _modifiedTimeWeak = 12.13.2014::14:39:22;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -42383,7 +42491,7 @@ A System Requirement Specification may also be produced including many of the ca
 									- _id = GUID 9c9eecbf-70ef-447f-bcb2-895c6548c211;
 									- _myState = 8192;
 									- _name = "Management Workflow Use Cases";
-									- _modifiedTimeWeak = 12.13.2014::13:42:56;
+									- _modifiedTimeWeak = 12.13.2014::14:39:22;
 									- _lastID = 12;
 									- Declaratives = { IRPYRawContainer 
 										- size = 1;
@@ -42653,7 +42761,7 @@ A System Requirement Specification may also be produced including many of the ca
 											}
 											- _name = "Management Workflow Use Cases";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
-											- _lastModifiedTime = "9.11.2014::17:12:49";
+											- _lastModifiedTime = "12.13.2014::14:44:25";
 											- _graphicChart = { CGIClassChart 
 												- _id = GUID ab1ca819-1561-4569-86ae-29f0f0ef42ac;
 												- m_type = 0;
@@ -42855,7 +42963,7 @@ A System Requirement Specification may also be produced including many of the ca
 													}
 													- m_pParent = GUID 4e2893f3-cd94-4616-ba6f-bff0046a7fe8;
 													- m_name = { CGIText 
-														- m_str = "Manage Development Progress";
+														- m_str = "Manage SE Development Progress";
 														- m_style = "Arial" 10 0 0 0 1 ;
 														- m_color = { IColor 
 															- m_fgColor = 0;
@@ -44379,7 +44487,7 @@ A System Requirement Specification may also be produced including many of the ca
 											}
 										}
 									}
-									- weakCGTime = 12.13.2014::13:42:56;
+									- weakCGTime = 12.13.2014::14:39:22;
 									- strongCGTime = 8.13.2014::16:25:29;
 									- _defaultComposite = GUID fe4eb5fb-1d04-4ab7-bbe9-079bf695b50f;
 									- _eventsBaseID = -1;
@@ -44535,7 +44643,7 @@ A System Requirement Specification may also be produced including many of the ca
 										{ IUseCase 
 											- _id = GUID 3caf7e04-9be5-450a-886c-f97c58758c90;
 											- _myState = 8192;
-											- _name = "Manage Development Progress";
+											- _name = "Manage SE Development Progress";
 											- Stereotypes = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -45360,7 +45468,7 @@ vi.\\tab If the requirement change impacts the architecture, follow the predefin
 											}
 											- _name = "SE Domain Workflow Use Cases";
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
-											- _lastModifiedTime = "9.13.2014::12:10:16";
+											- _lastModifiedTime = "12.13.2014::14:44:25";
 											- _graphicChart = { CGIClassChart 
 												- _id = GUID a7b8c694-b1d8-4ca8-a28e-266ece045eb3;
 												- m_type = 0;
@@ -60190,7 +60298,7 @@ Post Conditions\\b0  -\\par
 									- _configurationRelatedTime = 1.2.1990::0:0:0;
 								}
 							}
-							- weakCGTime = 12.13.2014::13:42:56;
+							- weakCGTime = 12.13.2014::14:39:22;
 							- strongCGTime = 6.9.2014::14:34:51;
 							- _defaultComposite = GUID a0aa9553-c6d0-479a-b0ed-689e968e0945;
 							- _eventsBaseID = -1;
@@ -63270,7 +63378,7 @@ Post Conditions\\b0  -\\par
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "9.13.2014::12:13:56";
+							- _lastModifiedTime = "12.13.2014::14:44:25";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 5fa92e41-f767-4fe4-817c-a9b877ad2321;
 								- m_type = 0;
@@ -67809,7 +67917,7 @@ John Watson, 8/24/2014\\par
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 12.13.2014::13:42:56;
+					- weakCGTime = 12.13.2014::14:39:22;
 					- strongCGTime = 8.13.2014::14:1:3;
 					- _defaultComposite = GUID 096ed2a3-f9af-4729-b836-e0906b514d83;
 					- _eventsBaseID = -1;
@@ -68639,7 +68747,7 @@ John Watson, 8/24/2014\\par
 												}
 											}
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
-											- _lastModifiedTime = "9.11.2014::17:12:49";
+											- _lastModifiedTime = "12.13.2014::14:44:25";
 											- _graphicChart = { CGIClassChart 
 												- _id = GUID 279f823e-9996-4c82-b9e7-7da6ded6e214;
 												- m_type = 0;
@@ -69995,7 +70103,7 @@ John Watson, 8/24/2014\\par
 												}
 											}
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
-											- _lastModifiedTime = "9.11.2014::17:12:49";
+											- _lastModifiedTime = "12.13.2014::14:44:25";
 											- _graphicChart = { CGIClassChart 
 												- _id = GUID 24a2e728-89c0-48d4-8357-6e791358ca72;
 												- m_type = 0;
@@ -70457,7 +70565,7 @@ John Watson, 8/24/2014\\par
 												}
 											}
 											- _modifiedTimeWeak = 1.2.1990::0:0:0;
-											- _lastModifiedTime = "9.11.2014::17:12:49";
+											- _lastModifiedTime = "12.13.2014::14:44:25";
 											- _graphicChart = { CGIClassChart 
 												- _id = GUID 6fb3a308-cc20-4d15-9520-a89143411928;
 												- m_type = 0;
@@ -70730,7 +70838,7 @@ John Watson, 8/24/2014\\par
 					- _configurationRelatedTime = 8.1.2014::20:56:37;
 				}
 			}
-			- weakCGTime = 12.13.2014::13:42:56;
+			- weakCGTime = 12.13.2014::14:39:22;
 			- strongCGTime = 6.9.2014::14:34:51;
 			- _defaultComposite = GUID 2509bcdc-191a-402b-a19c-86c64ba04d5c;
 			- _eventsBaseID = -1;
@@ -70754,7 +70862,7 @@ John Watson, 8/24/2014\\par
 			- _configurationRelatedTime = 6.10.2014::15:13:23;
 		}
 	}
-	- weakCGTime = 12.13.2014::13:42:56;
+	- weakCGTime = 12.13.2014::14:39:22;
 	- strongCGTime = 6.9.2014::14:34:51;
 	- _defaultComposite = GUID 297a057e-07b1-4fdc-84a1-a9df6c8312bf;
 	- _eventsBaseID = -1;
