@@ -985,7 +985,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 8.21.2014::13:33:55;
+	- _modifiedTimeWeak = 1.19.2015::19:45:11;
 	- _lastID = 26;
 	- _unitSccProjName = "ClearCase";
 	- _unitSccProjPath = "ClearCase";
@@ -1185,7 +1185,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "12.1.2014::9:2:50";
+					- _lastModifiedTime = "1.19.2015::19:45:16";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID f32e45c8-3c1c-4479-bc31-89f2924a31e0;
 						- m_type = 0;
@@ -1250,7 +1250,28 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- m_nNameFormat = 0;
 							- m_nIsNameFormat = 0;
 							- Compartments = { IRPYRawContainer 
-								- size = 0;
+								- size = 2;
+								- value = 
+								{ CGICompartment 
+									- _id = GUID 07d16c9d-6b47-41f1-ac04-fff584d08f89;
+									- m_name = "Attribute";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
+								{ CGICompartment 
+									- _id = GUID 09585d0e-15f9-4d73-8e85-b73fcca7fcf8;
+									- m_name = "Operation";
+									- m_displayOption = Explicit;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+									- Items = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
 							}
 							- Attrs = { IRPYRawContainer 
 								- size = 0;
@@ -1542,7 +1563,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 		{ IProfile 
 			- fileName = "ExtendedTableCapabilities";
-			- _persistAs = "L:\\Rhapsody811\\Share\\Profiles\\MicroC";
+			- _persistAs = "$OMROOT\\Profiles\\MicroC";
 			- _id = GUID 305908cd-5da2-4b10-8ba9-bcff3246b79a;
 			- _isReference = 1;
 		}
@@ -1557,7 +1578,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 		{ IProfile 
 			- fileName = "ModelBasedDocumentGeneration";
-			- _persistAs = "L:\\Rhapsody811\\Share\\Profiles\\ModelBasedDocumentGeneration";
+			- _persistAs = "$OMROOT\\Profiles\\ModelBasedDocumentGeneration";
 			- _id = GUID 7b488349-0f81-419c-9a89-cfdfc5b3cff5;
 			- _isReference = 1;
 		}
