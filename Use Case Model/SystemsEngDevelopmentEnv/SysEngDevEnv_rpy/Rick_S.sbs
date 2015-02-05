@@ -1,0 +1,38 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 8169320
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "Playground_Temp.sbs";
+		- _subsystem = "";
+		- _class = "";
+		- _name = "Playground Temp";
+		- _id = GUID e14f70a9-2bf9-4c79-a5e7-7eccacc7251b;
+	}
+	- _id = GUID 2cc90d53-e945-48b7-a778-3e1d3bf56feb;
+	- _myState = 8192;
+	- _name = "Rick S";
+	- _modifiedTimeWeak = 11.17.2014::14:12:41;
+	- weakCGTime = 11.17.2014::14:12:41;
+	- strongCGTime = 11.17.2014::14:12:41;
+	- _defaultComposite = GUID 5ceee3f8-f775-4995-bdec-bbbe5c1dc781;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 5ceee3f8-f775-4995-bdec-bbbe5c1dc781;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

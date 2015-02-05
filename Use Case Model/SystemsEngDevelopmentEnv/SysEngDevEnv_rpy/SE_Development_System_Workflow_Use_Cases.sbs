@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.10.0 C++ 8169320
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
@@ -817,7 +817,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 9.16.2014::16:43:36;
+	- _modifiedTimeWeak = 2.4.2015::17:49:4;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID bf097a8d-2c8d-4b22-8f23-fce72ebb39d0;
@@ -1169,7 +1169,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 					- _id = GUID 5814e68d-7d4b-4642-a346-baf24f072419;
 				}
 			}
-			- _modifiedTimeWeak = 9.8.2014::19:19:57;
+			- _modifiedTimeWeak = 12.22.2014::21:2:10;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID c2375d07-3277-4251-b0c7-8ae5484dbcba;
@@ -1297,26 +1297,27 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 									- _id = GUID 6e074eeb-958f-426f-8e16-74902786095a;
 								}
 							}
-							- _modifiedTimeWeak = 9.8.2014::19:19:57;
+							- _modifiedTimeWeak = 11.17.2014::13:52:26;
 							- _description = { IDescription 
-								- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\froman\\fprq2\\fcharset2 Symbol;}}
-\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\f0\\fs22 The motivation to create this document surfaced during the planning of the OMG SysML 1.5 RTF activity. This planning activity determined a need to assess the degree to which SysML has addressed the original \"UML for SE RFP\" requirements and to define a roadmap for the continuing evolution of the SysML language. One of the approaches for this assessment was to develop a set of Systems Engineering (SE) Workflow Use Cases. \\par
-The intent of the SE Workflow Use Cases is to capture the needed capabilities and infrastructure required by SE to develop large complex systems across the entire product lifecycle.  Therefore the context of these use cases will be the Systems Engineering Development System (SEDS).  The SEDS\\rquote s use cases, the system context, system domain and system structure will be captured within a SysML model using some of the workflows described in the SE workflow use cases. The longer-term intent of this model i
-s to derive a reference architecture of a fully integrated SEDS, where each derived component incorporates important design considerations such as separation of concerns, encapsulation, maximum cohesion, minimal coupling and a defined interface.  The SEDS architecture should include all aspects of system design considerations including reliability, security, maintainability, usability, extensibility, availability, extensibility, etc. \\par
-This SEDS reference architecture then can be used by our tool vendors to help identify products that are needed to support and automate this MBSE development environment. In addition, this information can be used by industry standards bodies to identify what industry standards are needed and why. \\par
-Of course the immediate need is to help define the roadmap for future SysML enhancements. The SE use cases should justify existing features of SysML and help discover additional needs including areas such as model presentation; model construction and change; interoperability with other models and other tools;, managing the model content and managing the model content through change; analyzing the model content within a model or analyzing this content with other models and tools.  \\par
-Without this SEDS context understanding the needs to perform SE would be very difficult to develop a SEDS environment that would be fully integrated, cost effective, automated, and highly productive. Today we struggle trying to integrate many disparate tools. We often fall on point-to-point tool integration solutions that add complexity and maintenance issues that distract us from our intended workflow and are costly to create and maintain.  \\par
-SysML was developed to provide a common SE language that supports the specification, analysis, design, verification, and validation of a broad range of systems, especially complex systems.  Initially the primary use of SysML within Systems Engineering was to derive and capture a system's architecture and flowdown of requirements within this context.  These architectural models provided the traceability from the original customer needs to all structural and behavioral aspects of the system and therefore rat
-ionalize all aspects of the system's behavior and structure back to the original customer needs. \\par
+								- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f2\\froman\\fprq2\\fcharset2 Symbol;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\f0\\fs22 The motivation to create this document surfaced during the planning of the OMG SysML 1.5 RTF activity. This planning activity determined a need to assess the degree to which SysML has addressed the original \"UML for SE RFP\" requirements and to define a roadmap for the continuing evolution of the SysML language. One of the approaches for this assessment was to develop a set of Systems Engineering (SE) Workflow Use Cases. \\par
+The audience of this document is intended to be experienced systems engineers that are familiar with the efforts of the SysML Roadmap activities and the terminology defined in well-known SE reference artifacts such as those sited in the \\ldblquote References\\rdblquote  section of this document.  \\par
+The intent of the SE Workflow Use Cases is to capture the needed capabilities and infrastructure required by SE to develop large complex systems across the entire product lifecycle.  The context of these use cases will be the Systems Engineering Development System (SEDS).  The SEDS's use cases, the context, domain and structure will be captured within a SysML model in fact using some of the same workflows described in the SE Workflow use cases. \\f1\\par
+\\f0 The longer-term goal of this model is to provide a reference architecture of derived logical components and their interfaces. This representation of the SEDS would not only provide definition for the SE workflows but would also rationalize the user\\rquote s functional needs required by the SEDS components.  The hope is this will assist the tool vendors by providing a clearer and more complete understanding of the user needs and also help identify products that are needed to automate this MBSE development
+ environment. In addition, this information may be used by industry standards bodies to identify other industry standards that are needed and why.\\f1\\par
+\\f0  Without this SEDS understanding it would be very difficult to implement an environment that would be fully integrated, cost effective, automated, and highly productive. Today we struggle trying to integrate many disparate tools. We often settle on point-to-point tool integration solutions that add complexity, maintenance issues, distract us from our intended workflow, and are costly to create and maintain.  \\par
+Of course the immediate need is to help define the roadmap for future SysML enhancements. The SE use cases should justify existing features of SysML and help discover additional needs including areas such as model presentation; model construction and change; interoperability with other models and other tools;, managing the model content and managing the model content through change; analyzing the model content within a model or analyzing this content with other models and tools.  \\f1\\par
+\\{\\f0 Add SEDS context Diagram when available\\} \\par
+\\f1 SysML was developed to provide a common SE language that supports the specification, analysis, design, verification, and validation of a broad range of systems, especially complex systems.  Initially the primary use of SysML within Systems Engineering was to derive and capture a system's architecture and flowdown of requirements within this context.  These architectural models provided the traceability from the original customer needs to all structural and behavioral aspects of the system and therefore 
+rationalize all aspects of the system's behavior and structure back to the original customer needs. \\par
 As the use of SysML progressed it became more apparent that the SysML Architectural System model could provide even more value. Some of the earlier observations saw value with integrating the implementation disciplines, including the software, mechanical and electrical engineering disciplines. Specialty engineering implementation disciplines could also be layered on the foundational system architectural model and extend linkages to other specialty tools and artifacts. These specialty-engineering aspects in
 clude security, safety, integration and test, SWaP (Size, Weight and Power), RMA (reliability, maintainability and accessibility) network management, environmental engineering, performance analysis and more.\\par
 These informational threads allow us to: \\par
-\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1\\f1\\'b7\\tab\\f0 Easily share, communicate and exchange information with all engineering disciplines \\par
-\\f1\\'b7\\tab\\f0 Effectively measure change impact across these disciplines and throughout the entire life cycle of the product\\par
-\\f1\\'b7\\tab\\f0 Minimize redundant information by defining information once within the most appropriate domain and sharing this information across all domains that required it\\par
-\\f1\\'b7\\tab\\f0 Create an environment for automation and validation of the information content\\par
-\\pard\\sa200\\sl276\\slmult1 With such an environment the architectural model becomes a significant engineering information hub providing a path to connect all engineering information back to the customer needs.\\par
-\\par
+\\pard\\ltrpar\\fi-360\\li720\\sa200\\sl276\\slmult1\\f2\\'b7\\tab\\f1 Easily share, communicate and exchange information with all engineering disciplines \\par
+\\f2\\'b7\\tab\\f1 Effectively measure change impact across these disciplines and throughout the entire life cycle of the product\\par
+\\f2\\'b7\\tab\\f1 Minimize redundant information by defining information once within the most appropriate domain and sharing this information across all domains that required it\\par
+\\f2\\'b7\\tab\\f1 Create an environment for automation and validation of the information content\\par
+\\pard\\ltrpar With such an environment the architectural model becomes a significant engineering information hub providing a path to connect all engineering information back to the customer needs.\\f0\\par
 }
 ";
 							}
@@ -1360,13 +1361,13 @@ These informational threads allow us to: \\par
 							- _body = "";
 						}
 					}
-					- _modifiedTimeWeak = 9.8.2014::19:19:57;
+					- _modifiedTimeWeak = 11.17.2014::13:52:26;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID c2375d07-3277-4251-b0c7-8ae5484dbcba;
 					}
 					- _lastID = 1;
-					- weakCGTime = 9.8.2014::19:19:57;
+					- weakCGTime = 11.17.2014::13:52:26;
 					- strongCGTime = 9.7.2014::19:52:36;
 					- _defaultComposite = GUID 6e3f55ce-d695-4d1b-9c0c-073f8dabee42;
 					- _eventsBaseID = -1;
@@ -1472,26 +1473,27 @@ These informational threads allow us to: \\par
 									- _id = GUID 6e074eeb-958f-426f-8e16-74902786095a;
 								}
 							}
-							- _modifiedTimeWeak = 9.8.2014::19:54:53;
+							- _modifiedTimeWeak = 11.17.2014::13:56:17;
 							- _description = { IDescription 
-								- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}}
-\\viewkind4\\uc1\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1\\f0\\fs22 1.\\tab A SysML Roadmap Workflow Use Case Team will be brought together. This team will be responsible for managing the capture of a set of SE Workflow Use Cases within a SysML model.\\par
+								- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fprq4\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fi-360\\li720\\sa200\\sl276\\slmult1\\f0\\fs22 1.\\tab A SysML Roadmap Workflow Use Case Team will be brought together. This team will be responsible for managing the capture of a set of SE Workflow Use Cases within a SysML model.\\par
 2.\\tab The initial model effort will:\\par
-\\pard\\fi-360\\li1440\\sa200\\sl276\\slmult1 a.\\tab  Define a context for a set of SE workflow use cases. This context will be called the Systems Engineering Development System (SEDS). \\par
+\\pard\\ltrpar\\fi-360\\li1440\\sa200\\sl276\\slmult1 a.\\tab  Define a context for a set of SE workflow use cases. This context will be called the Systems Engineering Development System (SEDS). \\par
 b.\\tab  Capture a set of SE workflow use cases. This set of use cases will be referred to as a Use Case Survey. \\par
 c.\\tab  The information source used to derive this SE Case Survey will be derived from at least the ISO/IEC 15288-2008, INCOSE Systems Engineering Handbook, and the on-line System Engineering Book of Knowledge (SEBok). Other industry references could be used. \\par
-d.\\tab The workflow use cases will span across an entire product life-cycle \\par
+d.\\tab\\f1 The set of workflow use cases will address all phases of the entire product life cycle, from acquisition to disposal. \\f0\\par
 e.\\tab  As a first step for each use case the team will capture:\\par
-\\pard\\fi-180\\li2160\\sa200\\sl276\\slmult1 i.\\tab  The primary actor and the use case of the primary actor and the primary actor \\par
+\\pard\\ltrpar\\fi-180\\li2160\\sa200\\sl276\\slmult1 i.\\tab  The primary actor and the use case of the primary actor and the primary actor \\par
 ii.\\tab  The primary actors can include Systems Engineers, Architects, implementers, analysts, engineering management, test engineers, Program Management, subcontractors, etc.\\par
 iii.\\tab  Additional preliminary information can also be collected at this point if available including preconditions, post conditions, and set of workflow steps needed to achieve the use case goal. This can be represented in a textual form and/or an activity diagram. \\par
-\\pard\\fi-360\\li1440\\sa200\\sl276\\slmult1 f.\\tab  The intent of the SE workflow use cases will be to identify \"what\" steps are taken to achieve each use case goal. At this point, the use case will not describe how each step is realized or.  Each use case step could conceivably be realized by a human, by a tool or a combination of both. \\par
-\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 3.\\tab As the initial use case survey efforts conclude, the SysML Roadmap Use Case Team will solicit help from experts across the industry to help refine and complete each of the use cases. \\par
+i.v. i.\\f1\\tab The applicable life cycle phase of the use case\\f0\\par
+\\pard\\ltrpar\\fi-360\\li1440\\sa200\\sl276\\slmult1 f.\\tab  The intent of the SE workflow use cases will be to identify \"what\" steps are taken to achieve each use case goal. At this point, the use case will not describe how each step is realized or.  Each use case step could conceivably be realized by a human, by a tool or a combination of both. \\par
+\\pard\\ltrpar\\fi-360\\li720\\sa200\\sl276\\slmult1 3.\\tab As the initial use case survey efforts conclude, the SysML Roadmap Use Case Team will solicit help from experts across the industry to help refine and complete each of the use cases. \\par
 4.\\tab Because of the anticipated large effort involved in creating and maturing these use cases, the use cases will be prioritized. \\par
 5.\\tab SysML Roadmap Workflow Use Case Team can add, delete or replace use cases at any time during their development. \\par
 6.\\tab Periodically the progress of this effort will be provided to the full SysML Roadmap Team and to the SysML RTF team. \\par
 7.\\tab The ultimate intent of this information is to help define the capabilities and infrastructure required by SE to utilize and integrated Systems Engineering across the lifecycle of a products. The benefits include: \\par
-\\pard\\fi-360\\li1440\\sa200\\sl276\\slmult1 a.\\tab  This information can be used by our tool vendors to make products that are needed to support an MBSE environment\\par
+\\pard\\ltrpar\\fi-360\\li1440\\sa200\\sl276\\slmult1 a.\\tab  This information can be used by our tool vendors to make products that are needed to support an MBSE environment\\par
 b.\\tab  This information can be used by the industry standards bodies to identify what industry standards are needed and why. The immediate need is to help define the roadmap for future\\par
 c.\\tab  Without this understanding up front, it would be very difficult to develop a SEDS environment that is highly integrated, cost effective, highly automated, and highly productive\\par
 }
@@ -1500,13 +1502,13 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _body = "";
 						}
 					}
-					- _modifiedTimeWeak = 9.8.2014::19:54:53;
+					- _modifiedTimeWeak = 11.17.2014::13:56:17;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID c2375d07-3277-4251-b0c7-8ae5484dbcba;
 					}
 					- _lastID = 3;
-					- weakCGTime = 9.8.2014::19:54:53;
+					- weakCGTime = 11.17.2014::13:56:17;
 					- strongCGTime = 9.7.2014::19:52:36;
 					- _defaultComposite = GUID f0edbc46-df6a-4b4e-8e65-b6044b379dd1;
 					- _eventsBaseID = -1;
@@ -1641,12 +1643,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							{ IPropertySubject 
 								- _Name = "Format";
 								- Metaclasses = { IRPYRawContainer 
-									- size = 5;
+									- size = 6;
 									- value = 
 									{ IPropertyMetaclass 
 										- _Name = "Comment";
 										- Properties = { IRPYRawContainer 
-											- size = 6;
+											- size = 7;
 											- value = 
 											{ IProperty 
 												- _Name = "DefaultSize";
@@ -1666,6 +1668,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											{ IProperty 
 												- _Name = "Font.Size";
 												- _Value = "8";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+												- _Value = "6";
 												- _Type = Int;
 											}
 											{ IProperty 
@@ -1828,6 +1835,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											}
 										}
 									}
+									{ IPropertyMetaclass 
+										- _Name = "problem";
+										- Properties = { IRPYRawContainer 
+											- size = 7;
+											- value = 
+											{ IProperty 
+												- _Name = "DefaultSize";
+												- _Value = "0,0,116,60";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Fill.FillColor";
+												- _Value = "255,255,255";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Font.Font";
+												- _Value = "Tahoma";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "8";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+												- _Value = "6";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Line.LineColor";
+												- _Value = "194,192,192";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Line.LineWidth";
+												- _Value = "1";
+												- _Type = Int;
+											}
+										}
+									}
 								}
 							}
 						}
@@ -1846,7 +1895,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "9.11.2014::17:12:49";
+					- _lastModifiedTime = "12.22.2014::21:2:16";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID e007e7a2-f95e-471c-bfb4-dcc1eff10906;
 						- m_type = 0;
@@ -2941,7 +2990,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					}
 				}
 			}
-			- weakCGTime = 9.8.2014::19:19:57;
+			- weakCGTime = 12.22.2014::21:2:10;
 			- strongCGTime = 6.9.2014::14:34:51;
 			- _defaultComposite = GUID 06c7940b-6917-47a6-a3df-b2e002414f5b;
 			- _eventsBaseID = -1;
@@ -3255,7 +3304,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 8.10.2014::18:30:10;
+			- _modifiedTimeWeak = 12.22.2014::21:2:10;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID bf097a8d-2c8d-4b22-8f23-fce72ebb39d0;
@@ -3655,7 +3704,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _body = "";
 						}
 					}
-					- _modifiedTimeWeak = 8.10.2014::18:30:10;
+					- _modifiedTimeWeak = 12.22.2014::21:2:10;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID d194e411-bc18-4091-bff5-d7119c9ebf3a;
@@ -3774,12 +3823,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									{ IPropertySubject 
 										- _Name = "Format";
 										- Metaclasses = { IRPYRawContainer 
-											- size = 5;
+											- size = 6;
 											- value = 
 											{ IPropertyMetaclass 
 												- _Name = "Comment";
 												- Properties = { IRPYRawContainer 
-													- size = 6;
+													- size = 7;
 													- value = 
 													{ IProperty 
 														- _Name = "DefaultSize";
@@ -3799,6 +3848,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													{ IProperty 
 														- _Name = "Font.Size";
 														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
 														- _Type = Int;
 													}
 													{ IProperty 
@@ -3976,6 +4030,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													}
 												}
 											}
+											{ IPropertyMetaclass 
+												- _Name = "problem";
+												- Properties = { IRPYRawContainer 
+													- size = 7;
+													- value = 
+													{ IProperty 
+														- _Name = "DefaultSize";
+														- _Value = "0,0,116,60";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Fill.FillColor";
+														- _Value = "255,255,255";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Font.Font";
+														- _Value = "Tahoma";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Font.Size";
+														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Line.LineColor";
+														- _Value = "194,192,192";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Line.LineWidth";
+														- _Value = "1";
+														- _Type = Int;
+													}
+												}
+											}
 										}
 									}
 									{ IPropertySubject 
@@ -4053,7 +4149,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "9.11.2014::17:12:49";
+							- _lastModifiedTime = "12.22.2014::21:2:16";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 1119af2a-7916-4ed0-8de4-5e56fa5bd90f;
 								- m_type = 0;
@@ -4861,12 +4957,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									{ IPropertySubject 
 										- _Name = "Format";
 										- Metaclasses = { IRPYRawContainer 
-											- size = 8;
+											- size = 9;
 											- value = 
 											{ IPropertyMetaclass 
 												- _Name = "Comment";
 												- Properties = { IRPYRawContainer 
-													- size = 6;
+													- size = 7;
 													- value = 
 													{ IProperty 
 														- _Name = "DefaultSize";
@@ -4886,6 +4982,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													{ IProperty 
 														- _Name = "Font.Size";
 														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
 														- _Type = Int;
 													}
 													{ IProperty 
@@ -5139,6 +5240,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													}
 												}
 											}
+											{ IPropertyMetaclass 
+												- _Name = "problem";
+												- Properties = { IRPYRawContainer 
+													- size = 7;
+													- value = 
+													{ IProperty 
+														- _Name = "DefaultSize";
+														- _Value = "0,0,116,60";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Fill.FillColor";
+														- _Value = "255,255,255";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Font.Font";
+														- _Value = "Tahoma";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Font.Size";
+														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Line.LineColor";
+														- _Value = "194,192,192";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Line.LineWidth";
+														- _Value = "1";
+														- _Type = Int;
+													}
+												}
+											}
 										}
 									}
 									{ IPropertySubject 
@@ -5176,7 +5319,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "8.10.2014::18:30:10";
+							- _lastModifiedTime = "12.22.2014::21:2:16";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 8a6663fc-fea9-439d-9ff8-6f69d29c070c;
 								- m_type = 0;
@@ -5932,7 +6075,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							}
 						}
 					}
-					- weakCGTime = 8.10.2014::18:30:10;
+					- weakCGTime = 12.22.2014::21:2:10;
 					- strongCGTime = 6.9.2014::14:34:51;
 					- _defaultComposite = GUID 497f840e-0d4b-4274-94dc-340de86d1d7c;
 					- _eventsBaseID = -1;
@@ -6194,7 +6337,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					- _configurationRelatedTime = 1.2.1990::0:0:0;
 				}
 			}
-			- weakCGTime = 8.10.2014::18:30:10;
+			- weakCGTime = 12.22.2014::21:2:10;
 			- strongCGTime = 8.1.2014::18:48:25;
 			- _defaultComposite = GUID 9b787889-5bae-4989-b960-9574f8a158a1;
 			- _eventsBaseID = -1;
@@ -6446,7 +6589,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 9.11.2014::15:24:24;
+			- _modifiedTimeWeak = 2.4.2015::17:49:4;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID bf097a8d-2c8d-4b22-8f23-fce72ebb39d0;
@@ -6465,12 +6608,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							{ IPropertySubject 
 								- _Name = "Format";
 								- Metaclasses = { IRPYRawContainer 
-									- size = 4;
+									- size = 5;
 									- value = 
 									{ IPropertyMetaclass 
 										- _Name = "Comment";
 										- Properties = { IRPYRawContainer 
-											- size = 6;
+											- size = 7;
 											- value = 
 											{ IProperty 
 												- _Name = "DefaultSize";
@@ -6490,6 +6633,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											{ IProperty 
 												- _Name = "Font.Size";
 												- _Value = "8";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+												- _Value = "6";
 												- _Type = Int;
 											}
 											{ IProperty 
@@ -6625,6 +6773,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											}
 										}
 									}
+									{ IPropertyMetaclass 
+										- _Name = "problem";
+										- Properties = { IRPYRawContainer 
+											- size = 7;
+											- value = 
+											{ IProperty 
+												- _Name = "DefaultSize";
+												- _Value = "0,0,116,60";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Fill.FillColor";
+												- _Value = "255,255,255";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Font.Font";
+												- _Value = "Tahoma";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "8";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+												- _Value = "6";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Line.LineColor";
+												- _Value = "194,192,192";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Line.LineWidth";
+												- _Value = "1";
+												- _Type = Int;
+											}
+										}
+									}
 								}
 							}
 						}
@@ -6643,7 +6833,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "9.11.2014::15:24:24";
+					- _lastModifiedTime = "2.4.2015::17:49:4";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 27b60378-cb41-430d-8ee9-c4e09f92371a;
 						- m_type = 0;
@@ -7211,7 +7401,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					}
 				}
 			}
-			- weakCGTime = 9.11.2014::15:24:24;
+			- weakCGTime = 2.4.2015::17:49:4;
 			- strongCGTime = 8.13.2014::17:39:0;
 			- _defaultComposite = GUID c776850f-d9dc-4880-8c0a-2c288d01f5b4;
 			- _eventsBaseID = -1;
@@ -7492,7 +7682,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 9.10.2014::19:0:43;
+			- _modifiedTimeWeak = 12.22.2014::21:2:10;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 77dc102e-3b1b-4b1b-a154-2020564e5461;
@@ -7711,14 +7901,14 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _body = "";
 						}
 					}
-					- _modifiedTimeWeak = 8.13.2014::19:52:57;
+					- _modifiedTimeWeak = 12.22.2014::21:2:10;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID c8fb3c1e-5527-4189-af49-29a94d140ad2;
 					}
 					- _lastID = 20;
 					- Declaratives = { IRPYRawContainer 
-						- size = 3;
+						- size = 2;
 						- value = 
 						{ IDiagram 
 							- _id = GUID c8fb3c1e-5527-4189-af49-29a94d140ad2;
@@ -7730,7 +7920,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									{ IPropertySubject 
 										- _Name = "Format";
 										- Metaclasses = { IRPYRawContainer 
-											- size = 8;
+											- size = 9;
 											- value = 
 											{ IPropertyMetaclass 
 												- _Name = "Class";
@@ -7782,7 +7972,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											{ IPropertyMetaclass 
 												- _Name = "Comment";
 												- Properties = { IRPYRawContainer 
-													- size = 6;
+													- size = 7;
 													- value = 
 													{ IProperty 
 														- _Name = "DefaultSize";
@@ -7802,6 +7992,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													{ IProperty 
 														- _Name = "Font.Size";
 														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
 														- _Type = Int;
 													}
 													{ IProperty 
@@ -8043,6 +8238,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													}
 												}
 											}
+											{ IPropertyMetaclass 
+												- _Name = "problem";
+												- Properties = { IRPYRawContainer 
+													- size = 7;
+													- value = 
+													{ IProperty 
+														- _Name = "DefaultSize";
+														- _Value = "0,0,116,60";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Fill.FillColor";
+														- _Value = "255,255,255";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Font.Font";
+														- _Value = "Tahoma";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Font.Size";
+														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Line.LineColor";
+														- _Value = "194,192,192";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Line.LineWidth";
+														- _Value = "1";
+														- _Type = Int;
+													}
+												}
+											}
 										}
 									}
 									{ IPropertySubject 
@@ -8120,7 +8357,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "9.11.2014::17:12:49";
+							- _lastModifiedTime = "12.22.2014::21:2:16";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 8e62b9fe-7edf-4719-a9ae-fd4cb7e1cfff;
 								- m_type = 0;
@@ -8144,7 +8381,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								}
 								- m_drawBehavior = 0;
 								- m_bIsPreferencesInitialized = 0;
-								- elementList = 24;
+								- elementList = 23;
 								{ CGIClass 
 									- _id = GUID a9850a14-0c8a-48f1-804c-06a7b0245727;
 									- m_type = 78;
@@ -8236,7 +8473,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										- m_nOrientationCtrlPt = 8;
 									}
 									- m_drawBehavior = 4096;
-									- m_transform = 4.16667 0 0 5.20455 20 20 ;
+									- m_transform = 3.98148 0 0 5.0303 20 20 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -8327,75 +8564,6 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										- size = 0;
 									}
 								}
-								{ CGIGenericElement 
-									- _id = GUID 91b3c71a-c577-4b42-a303-744c2af31bfc;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "FitBoxToItsTextuals";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 200;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IType";
-										- _id = GUID eb8a349f-fbfd-4a86-9a3f-6c368aa06028;
-									}
-									- m_pParent = GUID a9850a14-0c8a-48f1-804c-06a7b0245727;
-									- m_name = { CGIText 
-										- m_str = "ExConceptUseCases";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 5;
-									}
-									- m_drawBehavior = 4104;
-									- m_transform = 0.131868 0 0 0.0443714 504 210.133 ;
-									- m_bIsPreferencesInitialized = 1;
-									- m_AdditionalLabel = { CGIText 
-										- m_str = "";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 1;
-									}
-									- m_polygon = 4 0 -3  0 1214  1183 1214  1183 -3  ;
-									- m_nNameFormat = 0;
-									- m_nIsNameFormat = 0;
-									- Compartments = { IRPYRawContainer 
-										- size = 0;
-									}
-								}
 								{ CGIPackage 
 									- _id = GUID b4f8596b-fb27-463f-ba27-09e618dd784c;
 									- _properties = { IPropertyContainer 
@@ -8447,7 +8615,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										- m_nOrientationCtrlPt = 5;
 									}
 									- m_drawBehavior = 4104;
-									- m_transform = 0.192434 0 0 0.0625543 600 72.2649 ;
+									- m_transform = 0.1875 0 0 0.0625543 642 36.2649 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -8538,8 +8706,8 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 0;
-									- m_SourcePort = 592 267 ;
-									- m_TargetPort = 281 667 ;
+									- m_SourcePort = 1138 403 ;
+									- m_TargetPort = 31 571 ;
 									- m_ShowName = 0;
 									- m_ShowStereotype = 1;
 								}
@@ -8575,9 +8743,9 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										- _m2Class = "IComment";
 										- _id = GUID c1549868-4c6b-4d5d-a59a-847c73c3eb27;
 									}
-									- m_pParent = GUID a9850a14-0c8a-48f1-804c-06a7b0245727;
+									- m_pParent = GUID dcc8838b-64e0-4c26-96ff-a1de5bc6f554;
 									- m_name = { CGIText 
-										- m_str = "ECStageUC::ExConUC Text";
+										- m_str = "ExConUC Text";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -8590,7 +8758,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										- m_nOrientationCtrlPt = 5;
 									}
 									- m_drawBehavior = 2056;
-									- m_transform = 0.265683 0 0 0.100658 420 360.337 ;
+									- m_transform = 0.897423 0 0 0.669696 40.5334 273.246 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -8679,7 +8847,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- m_bIsPreferencesInitialized = 1;
 									- m_pSource = GUID 97c982f1-b4cf-4cb6-abd4-bb91394d00df;
 									- m_sourceType = 'F';
-									- m_pTarget = GUID 1c19812b-7646-482e-aa27-319a08a26fcb;
+									- m_pTarget = GUID dcc8838b-64e0-4c26-96ff-a1de5bc6f554;
 									- m_targetType = 'T';
 									- m_direction = ' ';
 									- m_rpn = { CGIText 
@@ -8693,17 +8861,17 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										- m_position = 4 -6 -9  63 -9  63 5  -6 5  ;
 										- m_nIdent = 0;
 										- m_bImplicitSetRectPoints = 0;
-										- m_transform = 1 0 0 1 368 339 ;
-										- m_nHorizontalSpacing = 4;
-										- m_nVerticalSpacing = 1;
+										- m_transform = 1 0 0 1 356 315 ;
+										- m_nHorizontalSpacing = -4;
+										- m_nVerticalSpacing = -6;
 										- m_nOrientationCtrlPt = 8;
 									}
-									- m_arrow = 1 422 324  ;
+									- m_arrow = 1 330 336  ;
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 0;
-									- m_SourcePort = 1216 725 ;
-									- m_TargetPort = 75 56 ;
+									- m_SourcePort = 1216 1033 ;
+									- m_TargetPort = 23 318 ;
 									- m_ShowName = 0;
 									- m_ShowStereotype = 1;
 								}
@@ -8755,7 +8923,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									}
 									- m_drawBehavior = 4104;
 									- m_bIsPreferencesInitialized = 1;
-									- m_pSource = GUID 1c19812b-7646-482e-aa27-319a08a26fcb;
+									- m_pSource = GUID 93b39a4f-4c17-4154-8771-c0ceab4516a5;
 									- m_sourceType = 'F';
 									- m_pTarget = GUID 97c982f1-b4cf-4cb6-abd4-bb91394d00df;
 									- m_targetType = 'T';
@@ -8771,17 +8939,17 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										- m_position = 4 -6 -9  83 -9  83 5  -6 5  ;
 										- m_nIdent = 0;
 										- m_bImplicitSetRectPoints = 0;
-										- m_transform = 1 0 0 1 302 375 ;
-										- m_nHorizontalSpacing = -22;
-										- m_nVerticalSpacing = -38;
+										- m_transform = 1 0 0 1 204 495 ;
+										- m_nHorizontalSpacing = -41;
+										- m_nVerticalSpacing = 7;
 										- m_nOrientationCtrlPt = 8;
 									}
-									- m_arrow = 1 362 396  ;
+									- m_arrow = 1 294 522  ;
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 0;
-									- m_SourcePort = 30 354 ;
-									- m_TargetPort = 1081 1135 ;
+									- m_SourcePort = 0 322 ;
+									- m_TargetPort = 743 1009 ;
 									- m_ShowName = 0;
 									- m_ShowStereotype = 1;
 								}
@@ -8909,7 +9077,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										- m_nOrientationCtrlPt = 5;
 									}
 									- m_drawBehavior = 4104;
-									- m_transform = 0.177632 0 0 0.0417029 124 281.932 ;
+									- m_transform = 0.177632 0 0 0.0417029 60 293.932 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -9015,605 +9183,6 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									}
 									- _iTempdisplayTextFlag = 2;
 									- m_bIsBoxStyle = 1;
-								}
-								{ CGIInheritance 
-									- _id = GUID 614c941b-b588-4eb0-a8a9-4acc56c73e8e;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "ShowLabels";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 128;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IDependency";
-										- _id = GUID b20bb451-78bc-43ae-86ce-73ca877595d9;
-									}
-									- m_pParent = ;
-									- m_name = { CGIText 
-										- m_str = "Use Case Activity Diagrams _ EC Stage";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_drawBehavior = 4104;
-									- m_bIsPreferencesInitialized = 1;
-									- m_pSource = GUID 97c982f1-b4cf-4cb6-abd4-bb91394d00df;
-									- m_sourceType = 'F';
-									- m_pTarget = GUID ce33cf3c-1f91-425a-b3d6-68b366407573;
-									- m_targetType = 'T';
-									- m_direction = ' ';
-									- m_rpn = { CGIText 
-										- m_str = "next";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 4 -6 -9  38 -9  38 5  -6 5  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_transform = 1 0 0 1 142 363 ;
-										- m_nHorizontalSpacing = 2;
-										- m_nVerticalSpacing = 2;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_anglePoint1 = 0 0 ;
-									- m_anglePoint2 = 0 0 ;
-									- m_line_style = 0;
-									- m_SourcePort = 169 851 ;
-									- m_TargetPort = 131 241 ;
-									- m_ShowName = 0;
-									- m_ShowStereotype = 1;
-								}
-								{ CGIGenericElement 
-									- _id = GUID 6b300660-1035-4ced-b444-53381595cb15;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "FitBoxToItsTextuals";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 200;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IType";
-										- _id = GUID b06fe7df-d22f-4451-a4ad-5d975167bb3f;
-									}
-									- m_pParent = GUID a9850a14-0c8a-48f1-804c-06a7b0245727;
-									- m_name = { CGIText 
-										- m_str = "ExConceptActivityDiagrams";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 5;
-									}
-									- m_drawBehavior = 4104;
-									- m_transform = 0.187658 0 0 0.0443714 688 492.133 ;
-									- m_bIsPreferencesInitialized = 1;
-									- m_AdditionalLabel = { CGIText 
-										- m_str = "";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 1;
-									}
-									- m_polygon = 4 0 -3  0 1214  1183 1214  1183 -3  ;
-									- m_nNameFormat = 0;
-									- m_nIsNameFormat = 0;
-									- Compartments = { IRPYRawContainer 
-										- size = 0;
-									}
-								}
-								{ CGIInheritance 
-									- _id = GUID 21e8fa8a-ac4b-453e-b571-17438a7cfc36;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "ShowLabels";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 128;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IDependency";
-										- _id = GUID 44106bae-7d81-4c69-8aac-9b0ff5cfac7e;
-									}
-									- m_pParent = ;
-									- m_name = { CGIText 
-										- m_str = "";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_drawBehavior = 4104;
-									- m_bIsPreferencesInitialized = 0;
-									- m_pSource = GUID 6b300660-1035-4ced-b444-53381595cb15;
-									- m_sourceType = 'F';
-									- m_pTarget = GUID b4f8596b-fb27-463f-ba27-09e618dd784c;
-									- m_targetType = 'T';
-									- m_direction = ' ';
-									- m_rpn = { CGIText 
-										- m_str = "referenceTo";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_anglePoint1 = 0 0 ;
-									- m_anglePoint2 = 0 0 ;
-									- m_line_style = 0;
-									- m_SourcePort = 602 583 ;
-									- m_TargetPort = 1039 955 ;
-									- m_ShowName = 0;
-									- m_ShowStereotype = 1;
-								}
-								{ CGIAnnotation 
-									- _id = GUID 1f05e6b0-e704-44bf-9d8c-ed0bfdf9c48f;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "FitBoxToItsTextuals";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 174;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IComment";
-										- _id = GUID 4ab1cc3b-6086-413d-b239-1a5da4bd9dc1;
-									}
-									- m_pParent = GUID a9850a14-0c8a-48f1-804c-06a7b0245727;
-									- m_name = { CGIText 
-										- m_str = "Workflow Use Case Activity Diagrams - EC Stage::Workflow Use Case Diagram List::ActivityDiagrams";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 5;
-									}
-									- m_drawBehavior = 2056;
-									- m_transform = 0.387454 0 0 0.104205 100 582.687 ;
-									- m_bIsPreferencesInitialized = 1;
-									- m_AdditionalLabel = { CGIText 
-										- m_str = "";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 1;
-									}
-									- m_bFramesetModified = 1;
-									- m_polygon = 4 0 3  0 1097  1084 1097  1084 3  ;
-									- m_nNameFormat = 0;
-									- m_nIsNameFormat = 0;
-									- frameset = "<frameset rows=64%,36%>
-<frame name=DescriptionCompartment>
-<frame name=TagListCompartment>";
-									- Compartments = { IRPYRawContainer 
-										- size = 1;
-										- value = 
-										{ CGICompartment 
-											- _id = GUID 92f20e64-61fe-4b28-bc8c-cbbde499437d;
-											- m_name = "Tag";
-											- m_displayOption = Explicit;
-											- m_bShowInherited = 0;
-											- m_bOrdered = 0;
-											- Items = { IRPYRawContainer 
-												- size = 0;
-											}
-										}
-									}
-									- _iTempdisplayTextFlag = 2;
-									- m_bIsBoxStyle = 1;
-								}
-								{ CGIInheritance 
-									- _id = GUID ee0afb21-2c81-486c-aada-798fee487aa8;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "ShowLabels";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 128;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IDependency";
-										- _id = GUID 344e0556-194f-45b7-be3d-d5bdae4910d4;
-									}
-									- m_pParent = ;
-									- m_name = { CGIText 
-										- m_str = "Use Case Diagram List";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_drawBehavior = 4104;
-									- m_bIsPreferencesInitialized = 1;
-									- m_pSource = GUID 1f05e6b0-e704-44bf-9d8c-ed0bfdf9c48f;
-									- m_sourceType = 'F';
-									- m_pTarget = GUID d6f10b0c-9c9c-4b96-9764-df36d95878ae;
-									- m_targetType = 'T';
-									- m_direction = ' ';
-									- m_rpn = { CGIText 
-										- m_str = "continueLoop";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_arrow = 2 43 636  43 498  ;
-									- m_anglePoint1 = 0 0 ;
-									- m_anglePoint2 = 0 0 ;
-									- m_line_style = 2;
-									- m_SourcePort = 0 512 ;
-									- m_TargetPort = 372 618 ;
-									- m_ShowName = 0;
-									- m_ShowStereotype = 1;
-								}
-								{ CGIInheritance 
-									- _id = GUID c5dd3659-c827-4b9e-b31c-47ac249c0b41;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "ShowLabels";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 128;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IDependency";
-										- _id = GUID b7582309-ed97-466e-823c-92f7fc29a79d;
-									}
-									- m_pParent = ;
-									- m_name = { CGIText 
-										- m_str = "ActivityDiagrams";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_drawBehavior = 4104;
-									- m_bIsPreferencesInitialized = 1;
-									- m_pSource = GUID d6f10b0c-9c9c-4b96-9764-df36d95878ae;
-									- m_sourceType = 'F';
-									- m_pTarget = GUID 1f05e6b0-e704-44bf-9d8c-ed0bfdf9c48f;
-									- m_targetType = 'T';
-									- m_direction = ' ';
-									- m_rpn = { CGIText 
-										- m_str = "startLoop";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_arrow = 2 285 546  478 546  ;
-									- m_anglePoint1 = 0 0 ;
-									- m_anglePoint2 = 0 0 ;
-									- m_line_style = 2;
-									- m_SourcePort = 974 795 ;
-									- m_TargetPort = 976 147 ;
-									- m_ShowName = 0;
-									- m_ShowStereotype = 1;
-								}
-								{ CGIInheritance 
-									- _id = GUID a8e7c254-30d1-4d6f-b2c4-212cb179bd44;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "ShowLabels";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 128;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IDependency";
-										- _id = GUID 95b2bd72-7cb8-4a9c-9f0d-4b882b1e51a1;
-									}
-									- m_pParent = ;
-									- m_name = { CGIText 
-										- m_str = "ExConceptActivityDiagrams";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_drawBehavior = 4104;
-									- m_bIsPreferencesInitialized = 1;
-									- m_pSource = GUID d6f10b0c-9c9c-4b96-9764-df36d95878ae;
-									- m_sourceType = 'F';
-									- m_pTarget = GUID 6b300660-1035-4ced-b444-53381595cb15;
-									- m_targetType = 'T';
-									- m_direction = ' ';
-									- m_rpn = { CGIText 
-										- m_str = "referenceTo";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_anglePoint1 = 0 0 ;
-									- m_anglePoint2 = 0 0 ;
-									- m_line_style = 0;
-									- m_SourcePort = 1115 795 ;
-									- m_TargetPort = 85 380 ;
-									- m_ShowName = 0;
-									- m_ShowStereotype = 1;
-								}
-								{ CGIPackage 
-									- _id = GUID d6f10b0c-9c9c-4b96-9764-df36d95878ae;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "FitBoxToItsTextuals";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 127;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "ISubsystem";
-										- _id = GUID d22a7511-8389-43a6-bfd3-5ef99639c4d8;
-									}
-									- m_pParent = GUID a9850a14-0c8a-48f1-804c-06a7b0245727;
-									- m_name = { CGIText 
-										- m_str = "Workflow Use Case Diagram List";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 5;
-									}
-									- m_drawBehavior = 4104;
-									- m_transform = 0.177632 0 0 0.0677672 112 456.12 ;
-									- m_bIsPreferencesInitialized = 1;
-									- m_AdditionalLabel = { CGIText 
-										- m_str = "";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 1;
-									}
-									- m_polygon = 4 0 0  0 1151  1216 1151  1216 0  ;
-									- m_nNameFormat = 0;
-									- m_nIsNameFormat = 0;
-									- Compartments = { IRPYRawContainer 
-										- size = 0;
-									}
 								}
 								{ CGIInheritance 
 									- _id = GUID cf64ee21-01be-4914-af72-9e493b5b6888;
@@ -9758,87 +9327,13 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 0;
-									- m_SourcePort = 512 611 ;
+									- m_SourcePort = 201 732 ;
 									- m_TargetPort = 135 284 ;
 									- m_ShowName = 0;
 									- m_ShowStereotype = 1;
 								}
-								{ CGIInheritance 
-									- _id = GUID a7339dbe-14a2-4f2e-bac4-a02dcac74f74;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "ShowLabels";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 128;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IDependency";
-										- _id = GUID 60c5bf45-e527-4f0f-b12b-cdeac28375bc;
-									}
-									- m_pParent = ;
-									- m_name = { CGIText 
-										- m_str = "Use Case Diagram List";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_drawBehavior = 4104;
-									- m_bIsPreferencesInitialized = 1;
-									- m_pSource = GUID ce33cf3c-1f91-425a-b3d6-68b366407573;
-									- m_sourceType = 'F';
-									- m_pTarget = GUID d6f10b0c-9c9c-4b96-9764-df36d95878ae;
-									- m_targetType = 'T';
-									- m_direction = ' ';
-									- m_rpn = { CGIText 
-										- m_str = "next";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_anglePoint1 = 0 0 ;
-									- m_anglePoint2 = 0 0 ;
-									- m_line_style = 0;
-									- m_SourcePort = 131 586 ;
-									- m_TargetPort = 236 352 ;
-									- m_ShowName = 0;
-									- m_ShowStereotype = 1;
-								}
 								{ CGIPackage 
-									- _id = GUID ce33cf3c-1f91-425a-b3d6-68b366407573;
+									- _id = GUID dcc8838b-64e0-4c26-96ff-a1de5bc6f554;
 									- _properties = { IPropertyContainer 
 										- Subjects = { IRPYRawContainer 
 											- size = 1;
@@ -9867,11 +9362,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- m_type = 127;
 									- m_pModelObject = { IHandle 
 										- _m2Class = "ISubsystem";
-										- _id = GUID 185ed184-3374-42f1-94b1-6463feb914f2;
+										- _id = GUID 914beb30-b91a-472f-87f3-57b30e181e65;
 									}
 									- m_pParent = GUID a9850a14-0c8a-48f1-804c-06a7b0245727;
 									- m_name = { CGIText 
-										- m_str = "Workflow Use Case Activity Diagrams - EC Stage";
+										- m_str = "Description";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -9884,7 +9379,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										- m_nOrientationCtrlPt = 5;
 									}
 									- m_drawBehavior = 4104;
-									- m_transform = 0.182566 0 0 0.0477844 130 378.413 ;
+									- m_transform = 0.296052 0 0 0.150303 366 325.267 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -9905,6 +9400,712 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- Compartments = { IRPYRawContainer 
 										- size = 0;
 									}
+								}
+								{ CGIPackage 
+									- _id = GUID 93b39a4f-4c17-4154-8771-c0ceab4516a5;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "FitBoxToItsTextuals";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 127;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "ISubsystem";
+										- _id = GUID 26c9bd5a-dc39-4df3-9320-8218635cb2e4;
+									}
+									- m_pParent = GUID a9850a14-0c8a-48f1-804c-06a7b0245727;
+									- m_name = { CGIText 
+										- m_str = "Activity Diagram";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 5;
+									}
+									- m_drawBehavior = 4104;
+									- m_transform = 0.241776 0 0 0.142485 366 510.125 ;
+									- m_bIsPreferencesInitialized = 1;
+									- m_AdditionalLabel = { CGIText 
+										- m_str = "";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 1;
+									}
+									- m_polygon = 4 0 0  0 1151  1216 1151  1216 0  ;
+									- m_nNameFormat = 0;
+									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
+								{ CGIInheritance 
+									- _id = GUID da7f53e5-7b98-4692-853e-6cd13cae881e;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "ShowLabels";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 128;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IDependency";
+										- _id = GUID 0bd8028c-52d8-4dd6-a315-fdd82b785b33;
+									}
+									- m_pParent = ;
+									- m_name = { CGIText 
+										- m_str = "Activity Diagram";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_drawBehavior = 4104;
+									- m_bIsPreferencesInitialized = 1;
+									- m_pSource = GUID dcc8838b-64e0-4c26-96ff-a1de5bc6f554;
+									- m_sourceType = 'F';
+									- m_pTarget = GUID 93b39a4f-4c17-4154-8771-c0ceab4516a5;
+									- m_targetType = 'T';
+									- m_direction = ' ';
+									- m_rpn = { CGIText 
+										- m_str = "next";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_anglePoint1 = 0 0 ;
+									- m_anglePoint2 = 0 0 ;
+									- m_line_style = 0;
+									- m_SourcePort = 1055 1117 ;
+									- m_TargetPort = 819 936 ;
+									- m_ShowName = 0;
+									- m_ShowStereotype = 1;
+								}
+								{ CGIGenericElement 
+									- _id = GUID 91b3c71a-c577-4b42-a303-744c2af31bfc;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "FitBoxToItsTextuals";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 200;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IType";
+										- _id = GUID eb8a349f-fbfd-4a86-9a3f-6c368aa06028;
+									}
+									- m_pParent = GUID a9850a14-0c8a-48f1-804c-06a7b0245727;
+									- m_name = { CGIText 
+										- m_str = "ExConceptUseCases";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 5;
+									}
+									- m_drawBehavior = 4104;
+									- m_transform = 0.131868 0 0 0.0443714 384 54.133 ;
+									- m_bIsPreferencesInitialized = 1;
+									- m_AdditionalLabel = { CGIText 
+										- m_str = "";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 1;
+									}
+									- m_polygon = 4 0 -3  0 1214  1183 1214  1183 -3  ;
+									- m_nNameFormat = 0;
+									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
+								}
+								{ CGIInheritance 
+									- _id = GUID 950673c9-35f8-4992-93c1-ea36e3c5d58c;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "ShowLabels";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 128;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IDependency";
+										- _id = GUID 4806bc02-1f2a-4da7-ba02-247477d0eaf5;
+									}
+									- m_pParent = ;
+									- m_name = { CGIText 
+										- m_str = "Activity";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_drawBehavior = 4104;
+									- m_bIsPreferencesInitialized = 1;
+									- m_pSource = GUID 93b39a4f-4c17-4154-8771-c0ceab4516a5;
+									- m_sourceType = 'F';
+									- m_pTarget = GUID e5eb962a-163d-4a35-8758-8df22376e285;
+									- m_targetType = 'T';
+									- m_direction = ' ';
+									- m_rpn = { CGIText 
+										- m_str = "startLoop";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 4 -6 -9  38 -9  38 5  -6 5  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_transform = 1 0 0 1 660 603 ;
+										- m_nVerticalSpacing = -3;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_anglePoint1 = 0 0 ;
+									- m_anglePoint2 = 0 0 ;
+									- m_line_style = 0;
+									- m_SourcePort = 893 220 ;
+									- m_TargetPort = 751 38 ;
+									- m_ShowName = 0;
+									- m_ShowStereotype = 1;
+								}
+								{ CGIGenericElement 
+									- _id = GUID 4a941b82-e7c0-4b75-8174-915c0bfbf338;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 2;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "FitBoxToItsTextuals";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+											{ IPropertySubject 
+												- _Name = "ObjectModelGe";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "DataType";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "Compartments";
+																- _Value = "Tag,Constraint,";
+																- _Type = MultiLine;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 200;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IType";
+										- _id = GUID 6843ade8-4d57-4bb1-844b-cf9732987619;
+									}
+									- m_pParent = GUID a9850a14-0c8a-48f1-804c-06a7b0245727;
+									- m_name = { CGIText 
+										- m_str = "EC_Activity";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 5;
+									}
+									- m_drawBehavior = 4104;
+									- m_transform = 0.243449 0 0 0.108463 474 152.325 ;
+									- m_bIsPreferencesInitialized = 1;
+									- m_AdditionalLabel = { CGIText 
+										- m_str = "";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 1;
+									}
+									- m_bFramesetModified = 1;
+									- m_polygon = 4 0 -3  0 1214  1183 1214  1183 -3  ;
+									- m_nNameFormat = 0;
+									- m_nIsNameFormat = 0;
+									- frameset = "<frameset rows=78%,22%>
+<frame name=TagListCompartment>
+<frame name=ConstraintListCompartment>";
+									- Compartments = { IRPYRawContainer 
+										- size = 2;
+										- value = 
+										{ CGICompartment 
+											- _id = GUID 04bd3aa4-0e61-4232-a783-84805401decd;
+											- m_name = "Tag";
+											- m_displayOption = All;
+											- m_bShowInherited = 0;
+											- m_bOrdered = 0;
+										}
+										{ CGICompartment 
+											- _id = GUID 4bf619da-9718-4dce-a707-4ac32ac5ce71;
+											- m_name = "Constraint";
+											- m_displayOption = All;
+											- m_bShowInherited = 0;
+											- m_bOrdered = 0;
+										}
+									}
+								}
+								{ CGIInheritance 
+									- _id = GUID 4e780d6d-9730-4621-bf8b-82f93d8f5d35;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "ShowLabels";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 128;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IDependency";
+										- _id = GUID b153e762-bb5c-4c4d-9801-9b725baf2c1b;
+									}
+									- m_pParent = ;
+									- m_name = { CGIText 
+										- m_str = "ExConceptUseCases";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_drawBehavior = 4104;
+									- m_bIsPreferencesInitialized = 1;
+									- m_pSource = GUID 4a941b82-e7c0-4b75-8174-915c0bfbf338;
+									- m_sourceType = 'F';
+									- m_pTarget = GUID 91b3c71a-c577-4b42-a303-744c2af31bfc;
+									- m_targetType = 'T';
+									- m_direction = ' ';
+									- m_rpn = { CGIText 
+										- m_str = "referenceTo";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 4 -6 -9  77 -9  77 5  -6 5  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_transform = 1 0 0 1 408 141 ;
+										- m_nHorizontalSpacing = -50;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_anglePoint1 = 0 0 ;
+									- m_anglePoint2 = 0 0 ;
+									- m_line_style = 0;
+									- m_SourcePort = 49 218 ;
+									- m_TargetPort = 592 1079 ;
+									- m_ShowName = 0;
+									- m_ShowStereotype = 1;
+								}
+								{ CGIAnnotation 
+									- _id = GUID e5eb962a-163d-4a35-8758-8df22376e285;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "FitBoxToItsTextuals";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 174;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IComment";
+										- _id = GUID b46cdae1-eb8c-476b-82e3-5c48445e7163;
+									}
+									- m_pParent = GUID 93b39a4f-4c17-4154-8771-c0ceab4516a5;
+									- m_name = { CGIText 
+										- m_str = "Activity";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 5;
+									}
+									- m_drawBehavior = 4104;
+									- m_transform = 0.961518 0 0 0.502503 74.4491 487.797 ;
+									- m_bIsPreferencesInitialized = 1;
+									- m_AdditionalLabel = { CGIText 
+										- m_str = "";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 1;
+									}
+									- m_bFramesetModified = 1;
+									- m_polygon = 4 0 3  0 1097  1084 1097  1084 3  ;
+									- m_nNameFormat = 0;
+									- m_nIsNameFormat = 0;
+									- frameset = "<frameset rows=78%,22%>
+<frame name=DescriptionCompartment>
+<frame name=TagListCompartment>";
+									- Compartments = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ CGICompartment 
+											- _id = GUID fbdec0af-3a29-4e87-ab5d-622e23d167dd;
+											- m_name = "Tag";
+											- m_displayOption = Explicit;
+											- m_bShowInherited = 0;
+											- m_bOrdered = 0;
+											- Items = { IRPYRawContainer 
+												- size = 0;
+											}
+										}
+									}
+									- _iTempdisplayTextFlag = 2;
+									- m_bIsBoxStyle = 1;
+								}
+								{ CGIInheritance 
+									- _id = GUID ff3f5642-1812-43f6-b35f-ba0bc3570000;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "ShowLabels";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 128;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IDependency";
+										- _id = GUID 74d428d6-ab05-4738-9824-0476b98dfaef;
+									}
+									- m_pParent = ;
+									- m_name = { CGIText 
+										- m_str = "Activity Diagram";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_drawBehavior = 4104;
+									- m_bIsPreferencesInitialized = 1;
+									- m_pSource = GUID e5eb962a-163d-4a35-8758-8df22376e285;
+									- m_sourceType = 'F';
+									- m_pTarget = GUID e5eb962a-163d-4a35-8758-8df22376e285;
+									- m_targetType = 'T';
+									- m_direction = ' ';
+									- m_rpn = { CGIText 
+										- m_str = "continueLoop";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_arrow = 1 432 557  ;
+									- m_anglePoint1 = 0 0 ;
+									- m_anglePoint2 = 0 0 ;
+									- m_line_style = 0;
+									- m_SourcePort = 108 19 ;
+									- m_TargetPort = 310 19 ;
+									- m_ShowName = 0;
+									- m_ShowStereotype = 1;
+								}
+								{ CGIInheritance 
+									- _id = GUID 0383a2e2-6795-454f-bace-417ce9b75765;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "ShowLabels";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 128;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IDependency";
+										- _id = GUID 652a1e04-d582-4a91-bcf7-1c8f867643e4;
+									}
+									- m_pParent = ;
+									- m_name = { CGIText 
+										- m_str = "ExConUC Text";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_drawBehavior = 4104;
+									- m_bIsPreferencesInitialized = 1;
+									- m_pSource = GUID dcc8838b-64e0-4c26-96ff-a1de5bc6f554;
+									- m_sourceType = 'F';
+									- m_pTarget = GUID 1c19812b-7646-482e-aa27-319a08a26fcb;
+									- m_targetType = 'T';
+									- m_direction = ' ';
+									- m_rpn = { CGIText 
+										- m_str = "next";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_anglePoint1 = 0 0 ;
+									- m_anglePoint2 = 0 0 ;
+									- m_line_style = 0;
+									- m_SourcePort = 1135 191 ;
+									- m_TargetPort = 1080 454 ;
+									- m_ShowName = 0;
+									- m_ShowStereotype = 1;
 								}
 								
 								- m_access = 'Z';
@@ -9954,7 +10155,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							}
 							- _name = "ECStageUC";
 							- Dependencies = { IRPYRawContainer 
-								- size = 3;
+								- size = 2;
 								- value = 
 								{ IDependency 
 									- _id = GUID 4d1fd2e2-ba90-49c2-bc7d-330b94b8173a;
@@ -9981,7 +10182,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								{ IDependency 
 									- _id = GUID deaf5708-2fca-4d4e-9ec3-7a32eb441bec;
 									- _myState = 2048;
-									- _name = "ExConUC Text";
+									- _name = "Description";
 									- Stereotypes = { IRPYRawContainer 
 										- size = 1;
 										- value = 
@@ -9994,32 +10195,10 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											- _id = GUID cf23906d-5ee8-44f1-86a0-715f6c3f5963;
 										}
 									}
-									- _modifiedTimeWeak = 2.27.2014::20:27:10;
-									- _dependsOn = { INObjectHandle 
-										- _m2Class = "IComment";
-										- _id = GUID c1549868-4c6b-4d5d-a59a-847c73c3eb27;
-									}
-								}
-								{ IDependency 
-									- _id = GUID b20bb451-78bc-43ae-86ce-73ca877595d9;
-									- _myState = 2048;
-									- _name = "Workflow Use Case Activity Diagrams _ EC Stage";
-									- Stereotypes = { IRPYRawContainer 
-										- size = 1;
-										- value = 
-										{ IHandle 
-											- _m2Class = "IStereotype";
-											- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-											- _subsystem = "DocGen Profile";
-											- _class = "";
-											- _name = "next";
-											- _id = GUID c1fd0048-9b35-4746-bb1c-91d904768163;
-										}
-									}
-									- _modifiedTimeWeak = 8.13.2014::17:40:8;
+									- _modifiedTimeWeak = 10.22.2014::18:37:9;
 									- _dependsOn = { INObjectHandle 
 										- _m2Class = "ISubsystem";
-										- _id = GUID 185ed184-3374-42f1-94b1-6463feb914f2;
+										- _id = GUID 914beb30-b91a-472f-87f3-57b30e181e65;
 									}
 								}
 							}
@@ -10035,76 +10214,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 								}
 							}
-							- Annotations = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IComment 
-									- _id = GUID c1549868-4c6b-4d5d-a59a-847c73c3eb27;
-									- _myState = 8192;
-									- _name = "ExConUC Text";
-									- Dependencies = { IRPYRawContainer 
-										- size = 1;
-										- value = 
-										{ IDependency 
-											- _id = GUID c1c62374-3722-4133-9d5d-8ea7e239fc18;
-											- _myState = 2048;
-											- _name = "ECStageUC";
-											- Stereotypes = { IRPYRawContainer 
-												- size = 1;
-												- value = 
-												{ IHandle 
-													- _m2Class = "IStereotype";
-													- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-													- _subsystem = "DocGen Profile";
-													- _class = "";
-													- _name = "continueLoop";
-													- _id = GUID c22204bc-f8ca-470b-bfea-20a981412b56;
-												}
-											}
-											- _modifiedTimeWeak = 8.4.2014::12:13:51;
-											- _dependsOn = { INObjectHandle 
-												- _m2Class = "ISubsystem";
-												- _id = GUID 40f56ff3-723d-4b56-83e1-e77e1d39c1b5;
-											}
-										}
-									}
-									- Stereotypes = { IRPYRawContainer 
-										- size = 1;
-										- value = 
-										{ IHandle 
-											- _m2Class = "IStereotype";
-											- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-											- _subsystem = "DocGen Profile";
-											- _class = "";
-											- _name = "paragraph";
-											- _id = GUID 6e074eeb-958f-426f-8e16-74902786095a;
-										}
-									}
-									- _modifiedTimeWeak = 8.4.2014::14:59:21;
-									- _description = { IDescription 
-										- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}}
-{\\colortbl ;\\red0\\green0\\blue255;}
-\\viewkind4\\uc1\\pard\\f0\\fs22 <ref>\\cf1\\ul\\protect ExConceptUseCases\\cf0\\protect0 :description<ref>\\ulnone\\f1\\fs20\\par
-}
-";
-										- Hyperlinks = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IInternalHyperlink 
-												- _name = "ExConceptUseCases";
-												- _textType = "FREE";
-												- _target = { IHandle 
-													- _m2Class = "IType";
-													- _id = GUID eb8a349f-fbfd-4a86-9a3f-6c368aa06028;
-												}
-											}
-										}
-									}
-									- _lastID = 2;
-									- _body = "";
-								}
-							}
-							- _modifiedTimeWeak = 8.13.2014::17:40:8;
+							- _modifiedTimeWeak = 10.29.2014::15:13:34;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID c8fb3c1e-5527-4189-af49-29a94d140ad2;
@@ -10128,9 +10238,353 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									}
 								}
 							}
-							- _lastID = 1;
-							- weakCGTime = 8.13.2014::17:40:8;
-							- strongCGTime = 8.13.2014::17:40:8;
+							- _lastID = 2;
+							- Declaratives = { IRPYRawContainer 
+								- size = 2;
+								- value = 
+								{ ISubsystem 
+									- _id = GUID 914beb30-b91a-472f-87f3-57b30e181e65;
+									- _myState = 8192;
+									- _name = "Description";
+									- Dependencies = { IRPYRawContainer 
+										- size = 2;
+										- value = 
+										{ IDependency 
+											- _id = GUID 0bd8028c-52d8-4dd6-a315-fdd82b785b33;
+											- _myState = 2048;
+											- _name = "Activity Diagram";
+											- Stereotypes = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ IHandle 
+													- _m2Class = "IStereotype";
+													- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+													- _subsystem = "DocGen Profile";
+													- _class = "";
+													- _name = "next";
+													- _id = GUID c1fd0048-9b35-4746-bb1c-91d904768163;
+												}
+											}
+											- _modifiedTimeWeak = 10.22.2014::13:16:42;
+											- _dependsOn = { INObjectHandle 
+												- _m2Class = "ISubsystem";
+												- _id = GUID 26c9bd5a-dc39-4df3-9320-8218635cb2e4;
+											}
+										}
+										{ IDependency 
+											- _id = GUID 652a1e04-d582-4a91-bcf7-1c8f867643e4;
+											- _myState = 2048;
+											- _name = "ExConUC Text";
+											- Stereotypes = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ IHandle 
+													- _m2Class = "IStereotype";
+													- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+													- _subsystem = "DocGen Profile";
+													- _class = "";
+													- _name = "next";
+													- _id = GUID c1fd0048-9b35-4746-bb1c-91d904768163;
+												}
+											}
+											- _modifiedTimeWeak = 10.22.2014::18:42:56;
+											- _dependsOn = { INObjectHandle 
+												- _m2Class = "IComment";
+												- _id = GUID c1549868-4c6b-4d5d-a59a-847c73c3eb27;
+											}
+										}
+									}
+									- Stereotypes = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IHandle 
+											- _m2Class = "IStereotype";
+											- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+											- _subsystem = "DocGen Profile";
+											- _class = "";
+											- _name = "section";
+											- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
+										}
+									}
+									- Annotations = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IComment 
+											- _id = GUID c1549868-4c6b-4d5d-a59a-847c73c3eb27;
+											- _myState = 8192;
+											- _name = "ExConUC Text";
+											- Stereotypes = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ IHandle 
+													- _m2Class = "IStereotype";
+													- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+													- _subsystem = "DocGen Profile";
+													- _class = "";
+													- _name = "paragraph";
+													- _id = GUID 6e074eeb-958f-426f-8e16-74902786095a;
+												}
+											}
+											- _modifiedTimeWeak = 10.22.2014::16:22:27;
+											- _description = { IDescription 
+												- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}}
+{\\colortbl ;\\red0\\green0\\blue255;}
+\\viewkind4\\uc1\\pard\\f0\\fs22 <ref>\\cf1\\ul\\protect ExConceptUseCases\\cf0\\protect0 :description<ref>\\f1\\fs20\\par
+}
+";
+												- Hyperlinks = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IInternalHyperlink 
+														- _name = "ExConceptUseCases";
+														- _textType = "FREE";
+														- _target = { IHandle 
+															- _m2Class = "IType";
+															- _id = GUID eb8a349f-fbfd-4a86-9a3f-6c368aa06028;
+														}
+													}
+												}
+											}
+											- _lastID = 3;
+											- _body = "";
+										}
+									}
+									- _modifiedTimeWeak = 10.22.2014::18:42:56;
+									- _theMainDiagram = { IHandle 
+										- _m2Class = "IDiagram";
+										- _id = GUID c8fb3c1e-5527-4189-af49-29a94d140ad2;
+									}
+									- _description = { IDescription 
+										- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\f0\\fs22 Use Case Description\\f1\\fs20\\par
+}
+";
+									}
+									- _lastID = 2;
+									- weakCGTime = 10.22.2014::18:42:56;
+									- strongCGTime = 10.22.2014::18:42:56;
+									- _defaultComposite = GUID 7839938c-b8d4-4ee3-b23b-d5856fecdfb1;
+									- _eventsBaseID = -1;
+									- Classes = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IClass 
+											- _id = GUID 7839938c-b8d4-4ee3-b23b-d5856fecdfb1;
+											- _myState = 40960;
+											- _name = "TopLevel";
+											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- weakCGTime = 1.2.1990::0:0:0;
+											- strongCGTime = 1.2.1990::0:0:0;
+											- _multiplicity = "";
+											- _itsStateChart = { IHandle 
+												- _m2Class = "";
+											}
+											- _classModifier = Unspecified;
+										}
+									}
+									- _configurationRelatedTime = 1.2.1990::0:0:0;
+								}
+								{ ISubsystem 
+									- _id = GUID 26c9bd5a-dc39-4df3-9320-8218635cb2e4;
+									- _myState = 8192;
+									- _name = "Activity Diagram";
+									- Dependencies = { IRPYRawContainer 
+										- size = 2;
+										- value = 
+										{ IDependency 
+											- _id = GUID c1c62374-3722-4133-9d5d-8ea7e239fc18;
+											- _myState = 2048;
+											- _name = "ECStageUC";
+											- Stereotypes = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ IHandle 
+													- _m2Class = "IStereotype";
+													- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+													- _subsystem = "DocGen Profile";
+													- _class = "";
+													- _name = "continueLoop";
+													- _id = GUID c22204bc-f8ca-470b-bfea-20a981412b56;
+												}
+											}
+											- _modifiedTimeWeak = 10.22.2014::13:13:23;
+											- _dependsOn = { INObjectHandle 
+												- _m2Class = "ISubsystem";
+												- _id = GUID 40f56ff3-723d-4b56-83e1-e77e1d39c1b5;
+											}
+										}
+										{ IDependency 
+											- _id = GUID 4806bc02-1f2a-4da7-ba02-247477d0eaf5;
+											- _myState = 2048;
+											- _name = "Activity";
+											- Stereotypes = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ IHandle 
+													- _m2Class = "IStereotype";
+													- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+													- _subsystem = "DocGen Profile";
+													- _class = "";
+													- _name = "startLoop";
+													- _id = GUID cf23906d-5ee8-44f1-86a0-715f6c3f5963;
+												}
+											}
+											- _modifiedTimeWeak = 10.22.2014::16:33:33;
+											- _dependsOn = { INObjectHandle 
+												- _m2Class = "IComment";
+												- _id = GUID b46cdae1-eb8c-476b-82e3-5c48445e7163;
+											}
+										}
+									}
+									- Stereotypes = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IHandle 
+											- _m2Class = "IStereotype";
+											- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+											- _subsystem = "DocGen Profile";
+											- _class = "";
+											- _name = "section";
+											- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
+										}
+									}
+									- Annotations = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IComment 
+											- _id = GUID b46cdae1-eb8c-476b-82e3-5c48445e7163;
+											- _myState = 8192;
+											- _name = "Activity";
+											- Dependencies = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ IDependency 
+													- _id = GUID 74d428d6-ab05-4738-9824-0476b98dfaef;
+													- _myState = 2048;
+													- _name = "Activity";
+													- Stereotypes = { IRPYRawContainer 
+														- size = 1;
+														- value = 
+														{ IHandle 
+															- _m2Class = "IStereotype";
+															- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+															- _subsystem = "DocGen Profile";
+															- _class = "";
+															- _name = "continueLoop";
+															- _id = GUID c22204bc-f8ca-470b-bfea-20a981412b56;
+														}
+													}
+													- _modifiedTimeWeak = 10.22.2014::16:34:9;
+													- _dependsOn = { INObjectHandle 
+														- _m2Class = "IComment";
+														- _id = GUID b46cdae1-eb8c-476b-82e3-5c48445e7163;
+													}
+												}
+											}
+											- Stereotypes = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ IHandle 
+													- _m2Class = "IStereotype";
+													- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+													- _subsystem = "DocGen Profile";
+													- _class = "";
+													- _name = "figure";
+													- _id = GUID d4b529bd-1e99-4397-8384-0d4623170d0a;
+												}
+											}
+											- _modifiedTimeWeak = 10.22.2014::18:21:53;
+											- _description = { IDescription 
+												- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+{\\colortbl ;\\red0\\green0\\blue255;}
+\\viewkind4\\uc1\\pard\\fs20 <ref>\\cf1\\ul\\protect EC_Activity\\cf0\\protect0 <ref>\\par
+}
+";
+												- Hyperlinks = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IInternalHyperlink 
+														- _name = "EC_Activity";
+														- _textType = "NAME";
+														- _target = { IHandle 
+															- _m2Class = "IType";
+															- _id = GUID 6843ade8-4d57-4bb1-844b-cf9732987619;
+														}
+													}
+												}
+											}
+											- Tags = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ ITag 
+													- _id = GUID c702e6fe-8d98-4c8f-81c4-bac20da0c71d;
+													- _myState = 8192;
+													- _name = "sizeOption";
+													- _modifiedTimeWeak = 10.22.2014::18:21:53;
+													- ValueSpecifications = { IRPYRawContainer 
+														- size = 1;
+														- value = 
+														{ ILiteralSpecification 
+															- _id = GUID 8eeb8bc1-40f0-41db-b80d-d619ff2d2d1f;
+															- _modifiedTimeWeak = 10.22.2014::18:21:53;
+															- _value = "Percent_80";
+														}
+													}
+													- _typeOf = { IHandle 
+														- _m2Class = "IType";
+														- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+														- _subsystem = "DocGen Profile";
+														- _class = "";
+														- _name = "FigureSizeOptions";
+														- _id = GUID 975b8457-2e48-445e-aff5-775809701d60;
+													}
+													- _isOrdered = 0;
+													- _base = { IHandle 
+														- _m2Class = "ITag";
+														- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+														- _subsystem = "DocGen Profile";
+														- _class = "figure";
+														- _name = "sizeOption";
+														- _id = GUID b1f373f7-25fd-4ce2-ac7e-8f3f1a558fc1;
+													}
+												}
+											}
+											- _lastID = 1;
+											- _body = "";
+										}
+									}
+									- _modifiedTimeWeak = 10.22.2014::18:21:53;
+									- _theMainDiagram = { IHandle 
+										- _m2Class = "IDiagram";
+										- _id = GUID c8fb3c1e-5527-4189-af49-29a94d140ad2;
+									}
+									- _lastID = 3;
+									- weakCGTime = 10.22.2014::18:21:53;
+									- strongCGTime = 10.22.2014::16:33:33;
+									- _defaultComposite = GUID f2f3fa0d-9f19-43ff-8312-6ba34ef85a2c;
+									- _eventsBaseID = -1;
+									- Classes = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IClass 
+											- _id = GUID f2f3fa0d-9f19-43ff-8312-6ba34ef85a2c;
+											- _myState = 40960;
+											- _name = "TopLevel";
+											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- weakCGTime = 1.2.1990::0:0:0;
+											- strongCGTime = 1.2.1990::0:0:0;
+											- _multiplicity = "";
+											- _itsStateChart = { IHandle 
+												- _m2Class = "";
+											}
+											- _classModifier = Unspecified;
+										}
+									}
+									- _configurationRelatedTime = 1.2.1990::0:0:0;
+								}
+							}
+							- weakCGTime = 10.29.2014::15:13:34;
+							- strongCGTime = 10.22.2014::18:37:9;
 							- _defaultComposite = GUID 3d835d0a-9b4b-4725-a46f-4cdf6583e907;
 							- _eventsBaseID = -1;
 							- Classes = { IRPYRawContainer 
@@ -10151,7 +10605,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								}
 							}
 							- Types = { IRPYRawContainer 
-								- size = 1;
+								- size = 2;
 								- value = 
 								{ IType 
 									- _id = GUID eb8a349f-fbfd-4a86-9a3f-6c368aa06028;
@@ -10248,95 +10702,17 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- _declaration = "";
 									- _kind = Language;
 								}
-							}
-							- _configurationRelatedTime = 8.4.2014::14:59:29;
-						}
-						{ ISubsystem 
-							- _id = GUID 185ed184-3374-42f1-94b1-6463feb914f2;
-							- _myState = 8192;
-							- _name = "Workflow Use Case Activity Diagrams - EC Stage";
-							- Dependencies = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IDependency 
-									- _id = GUID 60c5bf45-e527-4f0f-b12b-cdeac28375bc;
-									- _myState = 2048;
-									- _name = "Workflow Use Case Diagram List";
-									- Stereotypes = { IRPYRawContainer 
+								{ IType 
+									- _id = GUID 6843ade8-4d57-4bb1-844b-cf9732987619;
+									- _myState = 8192;
+									- _name = "EC_Activity";
+									- Dependencies = { IRPYRawContainer 
 										- size = 1;
 										- value = 
-										{ IHandle 
-											- _m2Class = "IStereotype";
-											- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-											- _subsystem = "DocGen Profile";
-											- _class = "";
-											- _name = "next";
-											- _id = GUID c1fd0048-9b35-4746-bb1c-91d904768163;
-										}
-									}
-									- _modifiedTimeWeak = 8.13.2014::17:40:36;
-									- _dependsOn = { INObjectHandle 
-										- _m2Class = "ISubsystem";
-										- _id = GUID d22a7511-8389-43a6-bfd3-5ef99639c4d8;
-									}
-								}
-							}
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-									- _subsystem = "DocGen Profile";
-									- _class = "";
-									- _name = "section";
-									- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
-								}
-							}
-							- _modifiedTimeWeak = 8.13.2014::19:52:56;
-							- _theMainDiagram = { IHandle 
-								- _m2Class = "IDiagram";
-								- _id = GUID c8fb3c1e-5527-4189-af49-29a94d140ad2;
-							}
-							- _description = { IDescription 
-								- _text = "<ref>Workflow Use Case Activity Diagrams<ref>";
-							}
-							- Declaratives = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ ISubsystem 
-									- _id = GUID d22a7511-8389-43a6-bfd3-5ef99639c4d8;
-									- _myState = 8192;
-									- _name = "Workflow Use Case Diagram List";
-									- Dependencies = { IRPYRawContainer 
-										- size = 2;
-										- value = 
 										{ IDependency 
-											- _id = GUID b7582309-ed97-466e-823c-92f7fc29a79d;
+											- _id = GUID b153e762-bb5c-4c4d-9801-9b725baf2c1b;
 											- _myState = 2048;
-											- _name = "ActivityDiagrams";
-											- Stereotypes = { IRPYRawContainer 
-												- size = 1;
-												- value = 
-												{ IHandle 
-													- _m2Class = "IStereotype";
-													- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-													- _subsystem = "DocGen Profile";
-													- _class = "";
-													- _name = "startLoop";
-													- _id = GUID cf23906d-5ee8-44f1-86a0-715f6c3f5963;
-												}
-											}
-											- _modifiedTimeWeak = 8.4.2014::14:33:36;
-											- _dependsOn = { INObjectHandle 
-												- _m2Class = "IComment";
-												- _id = GUID 4ab1cc3b-6086-413d-b239-1a5da4bd9dc1;
-											}
-										}
-										{ IDependency 
-											- _id = GUID 95b2bd72-7cb8-4a9c-9f0d-4b882b1e51a1;
-											- _myState = 2048;
-											- _name = "ExConceptActivityDiagrams";
+											- _name = "ExConceptUseCases";
 											- Stereotypes = { IRPYRawContainer 
 												- size = 1;
 												- value = 
@@ -10349,266 +10725,79 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													- _id = GUID cba29595-91aa-482a-a972-e058da5adc40;
 												}
 											}
-											- _modifiedTimeWeak = 8.4.2014::14:34:3;
+											- _modifiedTimeWeak = 10.22.2014::13:26:15;
 											- _dependsOn = { INObjectHandle 
 												- _m2Class = "IType";
-												- _id = GUID b06fe7df-d22f-4451-a4ad-5d975167bb3f;
+												- _id = GUID eb8a349f-fbfd-4a86-9a3f-6c368aa06028;
 											}
 										}
 									}
 									- Stereotypes = { IRPYRawContainer 
-										- size = 1;
+										- size = 2;
 										- value = 
+										{ IHandle 
+											- _m2Class = "IStereotype";
+											- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+											- _subsystem = "SysML::Blocks";
+											- _class = "";
+											- _name = "DataType";
+											- _id = GUID 39bf6572-6f61-4cbf-b651-64241e075688;
+										}
 										{ IHandle 
 											- _m2Class = "IStereotype";
 											- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
 											- _subsystem = "DocGen Profile";
 											- _class = "";
-											- _name = "section";
-											- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
+											- _name = "dataReference";
+											- _id = GUID 5fa8031c-8919-4442-becf-ecdba38bbc13;
 										}
 									}
-									- Annotations = { IRPYRawContainer 
+									- _modifiedTimeWeak = 10.29.2014::15:13:34;
+									- Tags = { IRPYRawContainer 
 										- size = 1;
 										- value = 
-										{ IComment 
-											- _id = GUID 4ab1cc3b-6086-413d-b239-1a5da4bd9dc1;
+										{ ITag 
+											- _id = GUID c857bf29-545f-4c36-8eba-647aba28b48c;
 											- _myState = 8192;
-											- _name = "ActivityDiagrams";
-											- Dependencies = { IRPYRawContainer 
+											- _name = "element";
+											- _modifiedTimeWeak = 10.22.2014::13:51:14;
+											- ValueSpecifications = { IRPYRawContainer 
 												- size = 1;
 												- value = 
-												{ IDependency 
-													- _id = GUID 344e0556-194f-45b7-be3d-d5bdae4910d4;
-													- _myState = 2048;
-													- _name = "Workflow Use Case Diagram List";
-													- Stereotypes = { IRPYRawContainer 
-														- size = 1;
-														- value = 
-														{ IHandle 
-															- _m2Class = "IStereotype";
-															- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-															- _subsystem = "DocGen Profile";
-															- _class = "";
-															- _name = "continueLoop";
-															- _id = GUID c22204bc-f8ca-470b-bfea-20a981412b56;
-														}
-													}
-													- _modifiedTimeWeak = 8.13.2014::17:40:36;
-													- _dependsOn = { INObjectHandle 
-														- _m2Class = "ISubsystem";
-														- _id = GUID d22a7511-8389-43a6-bfd3-5ef99639c4d8;
-													}
+												{ ILiteralSpecification 
+													- _id = GUID 1d557eb2-148c-4aea-8c14-5f2014d6a593;
+													- _modifiedTimeWeak = 10.22.2014::13:51:14;
+													- _value = "ActivityDiagram";
 												}
 											}
-											- Stereotypes = { IRPYRawContainer 
-												- size = 1;
-												- value = 
-												{ IHandle 
-													- _m2Class = "IStereotype";
-													- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-													- _subsystem = "DocGen Profile";
-													- _class = "";
-													- _name = "figure";
-													- _id = GUID d4b529bd-1e99-4397-8384-0d4623170d0a;
-												}
+											- _typeOf = { IHandle 
+												- _m2Class = "IType";
+												- _filename = "PredefinedTypes.sbs";
+												- _subsystem = "PredefinedTypes";
+												- _class = "";
+												- _name = "RhpString";
+												- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 											}
-											- _modifiedTimeWeak = 8.13.2014::17:40:36;
-											- _description = { IDescription 
-												- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-{\\colortbl ;\\red0\\green0\\blue255;}
-\\viewkind4\\uc1\\pard\\fs20 <ref>\\cf1\\ul\\protect ExConceptActivityDiagrams\\cf0\\protect0 <ref>\\par
-}
-";
-												- Hyperlinks = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IInternalHyperlink 
-														- _name = "ExConceptActivityDiagrams";
-														- _textType = "NAME";
-														- _target = { IHandle 
-															- _m2Class = "IType";
-															- _id = GUID b06fe7df-d22f-4451-a4ad-5d975167bb3f;
-														}
-													}
-												}
-											}
-											- _lastID = 3;
-											- _body = "";
-										}
-									}
-									- _modifiedTimeWeak = 8.13.2014::17:40:36;
-									- _theMainDiagram = { IHandle 
-										- _m2Class = "IDiagram";
-										- _id = GUID c8fb3c1e-5527-4189-af49-29a94d140ad2;
-									}
-									- _description = { IDescription 
-										- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-{\\colortbl ;\\red0\\green0\\blue255;}
-\\viewkind4\\uc1\\pard\\fs20 <ref>\\cf1\\ul\\protect ExConceptActivityDiagrams\\cf0\\protect0 :name<ref>\\par
-}
-";
-										- Hyperlinks = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IInternalHyperlink 
-												- _name = "ExConceptActivityDiagrams";
-												- _textType = "NAME";
-												- _target = { IHandle 
-													- _m2Class = "IType";
-													- _id = GUID b06fe7df-d22f-4451-a4ad-5d975167bb3f;
-												}
+											- _isOrdered = 0;
+											- _base = { IHandle 
+												- _m2Class = "ITag";
+												- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+												- _subsystem = "DocGen Profile";
+												- _class = "dataReference";
+												- _name = "element";
+												- _id = GUID 9a8161b5-d9cb-4dab-8ad7-f4ad54efedd7;
 											}
 										}
 									}
-									- weakCGTime = 8.13.2014::17:40:36;
-									- strongCGTime = 8.13.2014::17:40:36;
-									- _defaultComposite = GUID bac60bfa-a5c5-414d-8736-da1f3a59ac81;
-									- _eventsBaseID = -1;
-									- Classes = { IRPYRawContainer 
-										- size = 1;
-										- value = 
-										{ IClass 
-											- _id = GUID bac60bfa-a5c5-414d-8736-da1f3a59ac81;
-											- _myState = 40960;
-											- _name = "TopLevel";
-											- _modifiedTimeWeak = 1.2.1990::0:0:0;
-											- weakCGTime = 1.2.1990::0:0:0;
-											- strongCGTime = 1.2.1990::0:0:0;
-											- _multiplicity = "";
-											- _itsStateChart = { IHandle 
-												- _m2Class = "";
-											}
-											- _classModifier = Unspecified;
-										}
-									}
-									- Types = { IRPYRawContainer 
-										- size = 1;
-										- value = 
-										{ IType 
-											- _id = GUID b06fe7df-d22f-4451-a4ad-5d975167bb3f;
-											- _myState = 8192;
-											- _name = "ExConceptActivityDiagrams";
-											- Dependencies = { IRPYRawContainer 
-												- size = 1;
-												- value = 
-												{ IDependency 
-													- _id = GUID 44106bae-7d81-4c69-8aac-9b0ff5cfac7e;
-													- _myState = 2048;
-													- _name = "Exploratory and Concept Stage";
-													- Stereotypes = { IRPYRawContainer 
-														- size = 1;
-														- value = 
-														{ IHandle 
-															- _m2Class = "IStereotype";
-															- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-															- _subsystem = "DocGen Profile";
-															- _class = "";
-															- _name = "referenceTo";
-															- _id = GUID cba29595-91aa-482a-a972-e058da5adc40;
-														}
-													}
-													- _modifiedTimeWeak = 8.4.2014::14:15:32;
-													- _dependsOn = { INObjectHandle 
-														- _m2Class = "ISubsystem";
-														- _filename = "System_Engineering_Operations.sbs";
-														- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases";
-														- _class = "";
-														- _name = "Exploratory and Concept Stage";
-														- _id = GUID 5d69c9d4-3a32-49fc-829e-51b39c74246d;
-													}
-												}
-											}
-											- Stereotypes = { IRPYRawContainer 
-												- size = 2;
-												- value = 
-												{ IHandle 
-													- _m2Class = "IStereotype";
-													- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-													- _subsystem = "SysML::Blocks";
-													- _class = "";
-													- _name = "DataType";
-													- _id = GUID 39bf6572-6f61-4cbf-b651-64241e075688;
-												}
-												{ IHandle 
-													- _m2Class = "IStereotype";
-													- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-													- _subsystem = "DocGen Profile";
-													- _class = "";
-													- _name = "dataReference";
-													- _id = GUID 5fa8031c-8919-4442-becf-ecdba38bbc13;
-												}
-											}
-											- _modifiedTimeWeak = 8.4.2014::14:35:34;
-											- Tags = { IRPYRawContainer 
-												- size = 1;
-												- value = 
-												{ ITag 
-													- _id = GUID 7a01f6de-9f3b-4f99-bb36-2888e0a7dea0;
-													- _myState = 8192;
-													- _name = "element";
-													- _modifiedTimeWeak = 8.1.2014::22:9:51;
-													- ValueSpecifications = { IRPYRawContainer 
-														- size = 1;
-														- value = 
-														{ ILiteralSpecification 
-															- _id = GUID f11b26cb-dfc8-4a75-9f40-b57e2f23b03d;
-															- _modifiedTimeWeak = 8.1.2014::22:9:51;
-															- _value = "activityDiagram";
-														}
-													}
-													- _typeOf = { IHandle 
-														- _m2Class = "IType";
-														- _filename = "PredefinedTypes.sbs";
-														- _subsystem = "PredefinedTypes";
-														- _class = "";
-														- _name = "RhpString";
-														- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
-													}
-													- _isOrdered = 0;
-													- _base = { IHandle 
-														- _m2Class = "ITag";
-														- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
-														- _subsystem = "DocGen Profile";
-														- _class = "dataReference";
-														- _name = "element";
-														- _id = GUID 9a8161b5-d9cb-4dab-8ad7-f4ad54efedd7;
-													}
-												}
-											}
-											- _lastID = 3;
-											- _declaration = "";
-											- _kind = Language;
-										}
-									}
-									- _configurationRelatedTime = 8.4.2014::14:41:2;
+									- _lastID = 4;
+									- _declaration = "";
+									- _kind = Language;
 								}
 							}
-							- weakCGTime = 8.13.2014::19:52:56;
-							- strongCGTime = 8.13.2014::17:40:36;
-							- _defaultComposite = GUID 49b548d7-bc6e-4d12-9cdd-7f1eb02dd35c;
-							- _eventsBaseID = -1;
-							- Classes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IClass 
-									- _id = GUID 49b548d7-bc6e-4d12-9cdd-7f1eb02dd35c;
-									- _myState = 40960;
-									- _name = "TopLevel";
-									- _modifiedTimeWeak = 8.4.2014::15:59:35;
-									- weakCGTime = 8.4.2014::15:59:35;
-									- strongCGTime = 8.4.2014::15:59:35;
-									- _multiplicity = "";
-									- _itsStateChart = { IHandle 
-										- _m2Class = "";
-									}
-									- _classModifier = Unspecified;
-								}
-							}
-							- _configurationRelatedTime = 1.2.1990::0:0:0;
+							- _configurationRelatedTime = 8.4.2014::14:59:29;
 						}
 					}
-					- weakCGTime = 8.13.2014::19:52:57;
+					- weakCGTime = 12.22.2014::21:2:10;
 					- strongCGTime = 8.13.2014::17:41:48;
 					- _defaultComposite = GUID ad778637-683a-4c4d-8a35-718584a50074;
 					- _eventsBaseID = -1;
@@ -10629,7 +10818,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _classModifier = Unspecified;
 						}
 					}
-					- _configurationRelatedTime = 8.4.2014::16:1:3;
+					- _configurationRelatedTime = 10.22.2014::18:36:51;
 				}
 				{ ISubsystem 
 					- _id = GUID b91fa9cc-a5de-49b7-8074-024b80011504;
@@ -10695,7 +10884,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 8.13.2014::19:13:14;
+					- _modifiedTimeWeak = 12.22.2014::21:2:10;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID c8fb3c1e-5527-4189-af49-29a94d140ad2;
@@ -10877,7 +11066,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- _body = "";
 								}
 							}
-							- _modifiedTimeWeak = 8.13.2014::17:50:17;
+							- _modifiedTimeWeak = 12.22.2014::21:2:10;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID c8fb3c1e-5527-4189-af49-29a94d140ad2;
@@ -11176,7 +11365,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											{ IPropertySubject 
 												- _Name = "Format";
 												- Metaclasses = { IRPYRawContainer 
-													- size = 6;
+													- size = 7;
 													- value = 
 													{ IPropertyMetaclass 
 														- _Name = "Comment";
@@ -11410,6 +11599,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 															}
 														}
 													}
+													{ IPropertyMetaclass 
+														- _Name = "problem";
+														- Properties = { IRPYRawContainer 
+															- size = 7;
+															- value = 
+															{ IProperty 
+																- _Name = "DefaultSize";
+																- _Value = "0,0,116,60";
+																- _Type = String;
+															}
+															{ IProperty 
+																- _Name = "Fill.FillColor";
+																- _Value = "255,255,255";
+																- _Type = Color;
+															}
+															{ IProperty 
+																- _Name = "Font.Font";
+																- _Value = "Tahoma";
+																- _Type = String;
+															}
+															{ IProperty 
+																- _Name = "Font.Size";
+																- _Value = "8";
+																- _Type = Int;
+															}
+															{ IProperty 
+																- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+																- _Value = "6";
+																- _Type = Int;
+															}
+															{ IProperty 
+																- _Name = "Line.LineColor";
+																- _Value = "194,192,192";
+																- _Type = Color;
+															}
+															{ IProperty 
+																- _Name = "Line.LineWidth";
+																- _Value = "1";
+																- _Type = Int;
+															}
+														}
+													}
 												}
 											}
 											{ IPropertySubject 
@@ -11477,7 +11708,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										}
 									}
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
-									- _lastModifiedTime = "9.11.2014::17:12:49";
+									- _lastModifiedTime = "12.22.2014::21:2:16";
 									- _graphicChart = { CGIClassChart 
 										- _id = GUID 65df93d6-0b40-4e51-91a2-065d28e4b3dc;
 										- m_type = 0;
@@ -12476,7 +12707,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									}
 								}
 							}
-							- weakCGTime = 8.13.2014::17:50:17;
+							- weakCGTime = 12.22.2014::21:2:10;
 							- strongCGTime = 8.13.2014::17:50:17;
 							- _defaultComposite = GUID 419b141a-08c4-4d7c-a085-f1a0cbd73d6b;
 							- _eventsBaseID = -1;
@@ -12882,7 +13113,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- _body = "";
 								}
 							}
-							- _modifiedTimeWeak = 8.13.2014::19:12:38;
+							- _modifiedTimeWeak = 12.22.2014::21:2:10;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID c8fb3c1e-5527-4189-af49-29a94d140ad2;
@@ -13203,12 +13434,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											{ IPropertySubject 
 												- _Name = "Format";
 												- Metaclasses = { IRPYRawContainer 
-													- size = 6;
+													- size = 7;
 													- value = 
 													{ IPropertyMetaclass 
 														- _Name = "Comment";
 														- Properties = { IRPYRawContainer 
-															- size = 6;
+															- size = 7;
 															- value = 
 															{ IProperty 
 																- _Name = "DefaultSize";
@@ -13228,6 +13459,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 															{ IProperty 
 																- _Name = "Font.Size";
 																- _Value = "8";
+																- _Type = Int;
+															}
+															{ IProperty 
+																- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+																- _Value = "6";
 																- _Type = Int;
 															}
 															{ IProperty 
@@ -13432,6 +13668,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 															}
 														}
 													}
+													{ IPropertyMetaclass 
+														- _Name = "problem";
+														- Properties = { IRPYRawContainer 
+															- size = 7;
+															- value = 
+															{ IProperty 
+																- _Name = "DefaultSize";
+																- _Value = "0,0,116,60";
+																- _Type = String;
+															}
+															{ IProperty 
+																- _Name = "Fill.FillColor";
+																- _Value = "255,255,255";
+																- _Type = Color;
+															}
+															{ IProperty 
+																- _Name = "Font.Font";
+																- _Value = "Tahoma";
+																- _Type = String;
+															}
+															{ IProperty 
+																- _Name = "Font.Size";
+																- _Value = "8";
+																- _Type = Int;
+															}
+															{ IProperty 
+																- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+																- _Value = "6";
+																- _Type = Int;
+															}
+															{ IProperty 
+																- _Name = "Line.LineColor";
+																- _Value = "194,192,192";
+																- _Type = Color;
+															}
+															{ IProperty 
+																- _Name = "Line.LineWidth";
+																- _Value = "1";
+																- _Type = Int;
+															}
+														}
+													}
 												}
 											}
 										}
@@ -13450,7 +13728,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										}
 									}
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
-									- _lastModifiedTime = "8.13.2014::19:10:16";
+									- _lastModifiedTime = "12.22.2014::21:2:16";
 									- _graphicChart = { CGIClassChart 
 										- _id = GUID 2abaa3cd-a3a8-49cd-a8a3-82c78ab69b2b;
 										- m_type = 0;
@@ -15789,7 +16067,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- _configurationRelatedTime = 1.2.1990::0:0:0;
 								}
 							}
-							- weakCGTime = 8.13.2014::19:12:38;
+							- weakCGTime = 12.22.2014::21:2:10;
 							- strongCGTime = 8.13.2014::19:12:38;
 							- _defaultComposite = GUID 6288d192-f92a-42cd-b735-58cae05ff9eb;
 							- _eventsBaseID = -1;
@@ -15822,8 +16100,50 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									{ IPropertySubject 
 										- _Name = "Format";
 										- Metaclasses = { IRPYRawContainer 
-											- size = 4;
+											- size = 6;
 											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Comment";
+												- Properties = { IRPYRawContainer 
+													- size = 7;
+													- value = 
+													{ IProperty 
+														- _Name = "DefaultSize";
+														- _Value = "0,0,116,60";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Fill.FillColor";
+														- _Value = "255,255,255";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Font.Font";
+														- _Value = "Tahoma";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Font.Size";
+														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Line.LineColor";
+														- _Value = "194,192,192";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Line.LineWidth";
+														- _Value = "1";
+														- _Type = Int;
+													}
+												}
+											}
 											{ IPropertyMetaclass 
 												- _Name = "ContainArrow";
 												- Properties = { IRPYRawContainer 
@@ -15972,6 +16292,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													}
 												}
 											}
+											{ IPropertyMetaclass 
+												- _Name = "problem";
+												- Properties = { IRPYRawContainer 
+													- size = 7;
+													- value = 
+													{ IProperty 
+														- _Name = "DefaultSize";
+														- _Value = "0,0,116,60";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Fill.FillColor";
+														- _Value = "255,255,255";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Font.Font";
+														- _Value = "Tahoma";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Font.Size";
+														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Line.LineColor";
+														- _Value = "194,192,192";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Line.LineWidth";
+														- _Value = "1";
+														- _Type = Int;
+													}
+												}
+											}
 										}
 									}
 								}
@@ -15990,7 +16352,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "9.11.2014::17:12:49";
+							- _lastModifiedTime = "12.22.2014::21:2:16";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID ea8d6bbf-f9e7-4d2c-93c1-b344352db4f8;
 								- m_type = 0;
@@ -16795,7 +17157,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									- _body = "";
 								}
 							}
-							- _modifiedTimeWeak = 8.13.2014::19:12:38;
+							- _modifiedTimeWeak = 12.22.2014::21:2:10;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 546797fd-292c-48f7-8c47-e724ec70847f;
@@ -16995,12 +17357,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											{ IPropertySubject 
 												- _Name = "Format";
 												- Metaclasses = { IRPYRawContainer 
-													- size = 6;
+													- size = 7;
 													- value = 
 													{ IPropertyMetaclass 
 														- _Name = "Comment";
 														- Properties = { IRPYRawContainer 
-															- size = 6;
+															- size = 7;
 															- value = 
 															{ IProperty 
 																- _Name = "DefaultSize";
@@ -17020,6 +17382,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 															{ IProperty 
 																- _Name = "Font.Size";
 																- _Value = "8";
+																- _Type = Int;
+															}
+															{ IProperty 
+																- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+																- _Value = "6";
 																- _Type = Int;
 															}
 															{ IProperty 
@@ -17224,6 +17591,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 															}
 														}
 													}
+													{ IPropertyMetaclass 
+														- _Name = "problem";
+														- Properties = { IRPYRawContainer 
+															- size = 7;
+															- value = 
+															{ IProperty 
+																- _Name = "DefaultSize";
+																- _Value = "0,0,116,60";
+																- _Type = String;
+															}
+															{ IProperty 
+																- _Name = "Fill.FillColor";
+																- _Value = "255,255,255";
+																- _Type = Color;
+															}
+															{ IProperty 
+																- _Name = "Font.Font";
+																- _Value = "Tahoma";
+																- _Type = String;
+															}
+															{ IProperty 
+																- _Name = "Font.Size";
+																- _Value = "8";
+																- _Type = Int;
+															}
+															{ IProperty 
+																- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+																- _Value = "6";
+																- _Type = Int;
+															}
+															{ IProperty 
+																- _Name = "Line.LineColor";
+																- _Value = "194,192,192";
+																- _Type = Color;
+															}
+															{ IProperty 
+																- _Name = "Line.LineWidth";
+																- _Value = "1";
+																- _Type = Int;
+															}
+														}
+													}
 												}
 											}
 										}
@@ -17242,7 +17651,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 										}
 									}
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
-									- _lastModifiedTime = "9.11.2014::17:12:49";
+									- _lastModifiedTime = "12.22.2014::21:2:16";
 									- _graphicChart = { CGIClassChart 
 										- _id = GUID 73d6baec-3ae4-477b-babb-afb2b42622ac;
 										- m_type = 0;
@@ -18262,7 +18671,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									}
 								}
 							}
-							- weakCGTime = 8.13.2014::19:12:38;
+							- weakCGTime = 12.22.2014::21:2:10;
 							- strongCGTime = 8.13.2014::19:12:38;
 							- _defaultComposite = GUID d0957f60-3266-4c90-a12b-52cbf8bf35cc;
 							- _eventsBaseID = -1;
@@ -18385,7 +18794,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 8.13.2014::19:13:14;
+					- weakCGTime = 12.22.2014::21:2:10;
 					- strongCGTime = 8.13.2014::19:13:14;
 					- _defaultComposite = GUID 1bfedd3b-aad7-4c52-9dfd-ae7da98e3f6b;
 					- _eventsBaseID = -1;
@@ -18581,7 +18990,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _body = "";
 						}
 					}
-					- _modifiedTimeWeak = 8.13.2014::19:13:47;
+					- _modifiedTimeWeak = 12.22.2014::21:2:10;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 290d165f-08e8-4b99-bad0-43c35fe3b723;
@@ -18781,12 +19190,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									{ IPropertySubject 
 										- _Name = "Format";
 										- Metaclasses = { IRPYRawContainer 
-											- size = 6;
+											- size = 7;
 											- value = 
 											{ IPropertyMetaclass 
 												- _Name = "Comment";
 												- Properties = { IRPYRawContainer 
-													- size = 6;
+													- size = 7;
 													- value = 
 													{ IProperty 
 														- _Name = "DefaultSize";
@@ -18806,6 +19215,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													{ IProperty 
 														- _Name = "Font.Size";
 														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
 														- _Type = Int;
 													}
 													{ IProperty 
@@ -19010,6 +19424,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													}
 												}
 											}
+											{ IPropertyMetaclass 
+												- _Name = "problem";
+												- Properties = { IRPYRawContainer 
+													- size = 7;
+													- value = 
+													{ IProperty 
+														- _Name = "DefaultSize";
+														- _Value = "0,0,116,60";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Fill.FillColor";
+														- _Value = "255,255,255";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Font.Font";
+														- _Value = "Tahoma";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Font.Size";
+														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Line.LineColor";
+														- _Value = "194,192,192";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Line.LineWidth";
+														- _Value = "1";
+														- _Type = Int;
+													}
+												}
+											}
 										}
 									}
 								}
@@ -19028,7 +19484,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "9.11.2014::17:12:49";
+							- _lastModifiedTime = "12.22.2014::21:2:16";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 3be9553a-f0d2-48cb-be68-51e5482a2cee;
 								- m_type = 0;
@@ -20048,7 +20504,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							}
 						}
 					}
-					- weakCGTime = 8.13.2014::19:13:47;
+					- weakCGTime = 12.22.2014::21:2:10;
 					- strongCGTime = 8.13.2014::19:13:47;
 					- _defaultComposite = GUID 0e94daad-56b5-43cb-8f50-5fcf7ec025fe;
 					- _eventsBaseID = -1;
@@ -20413,7 +20869,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _body = "";
 						}
 					}
-					- _modifiedTimeWeak = 8.13.2014::23:56:37;
+					- _modifiedTimeWeak = 12.22.2014::21:2:10;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 694f4201-cd1b-4a6c-9bc8-0979eca57426;
@@ -20613,12 +21069,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									{ IPropertySubject 
 										- _Name = "Format";
 										- Metaclasses = { IRPYRawContainer 
-											- size = 6;
+											- size = 7;
 											- value = 
 											{ IPropertyMetaclass 
 												- _Name = "Comment";
 												- Properties = { IRPYRawContainer 
-													- size = 6;
+													- size = 7;
 													- value = 
 													{ IProperty 
 														- _Name = "DefaultSize";
@@ -20638,6 +21094,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													{ IProperty 
 														- _Name = "Font.Size";
 														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
 														- _Type = Int;
 													}
 													{ IProperty 
@@ -20842,6 +21303,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													}
 												}
 											}
+											{ IPropertyMetaclass 
+												- _Name = "problem";
+												- Properties = { IRPYRawContainer 
+													- size = 7;
+													- value = 
+													{ IProperty 
+														- _Name = "DefaultSize";
+														- _Value = "0,0,116,60";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Fill.FillColor";
+														- _Value = "255,255,255";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Font.Font";
+														- _Value = "Tahoma";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Font.Size";
+														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Line.LineColor";
+														- _Value = "194,192,192";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Line.LineWidth";
+														- _Value = "1";
+														- _Type = Int;
+													}
+												}
+											}
 										}
 									}
 								}
@@ -20860,7 +21363,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "9.11.2014::17:12:49";
+							- _lastModifiedTime = "12.22.2014::21:2:16";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 12ec2291-85fa-47ec-9081-439ab848fb36;
 								- m_type = 0;
@@ -22050,7 +22553,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							}
 						}
 					}
-					- weakCGTime = 8.13.2014::23:56:37;
+					- weakCGTime = 12.22.2014::21:2:10;
 					- strongCGTime = 8.13.2014::23:56:37;
 					- _defaultComposite = GUID f6220120-b4a4-4e0a-97c1-1d4ee947c3a3;
 					- _eventsBaseID = -1;
@@ -22214,7 +22717,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 9.10.2014::19:0:43;
+					- _modifiedTimeWeak = 12.22.2014::21:2:10;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 77dc102e-3b1b-4b1b-a154-2020564e5461;
@@ -22233,7 +22736,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									{ IPropertySubject 
 										- _Name = "Format";
 										- Metaclasses = { IRPYRawContainer 
-											- size = 7;
+											- size = 8;
 											- value = 
 											{ IPropertyMetaclass 
 												- _Name = "Association";
@@ -22312,7 +22815,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											{ IPropertyMetaclass 
 												- _Name = "Comment";
 												- Properties = { IRPYRawContainer 
-													- size = 6;
+													- size = 7;
 													- value = 
 													{ IProperty 
 														- _Name = "DefaultSize";
@@ -22332,6 +22835,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													{ IProperty 
 														- _Name = "Font.Size";
 														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
 														- _Type = Int;
 													}
 													{ IProperty 
@@ -22509,6 +23017,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 													}
 												}
 											}
+											{ IPropertyMetaclass 
+												- _Name = "problem";
+												- Properties = { IRPYRawContainer 
+													- size = 7;
+													- value = 
+													{ IProperty 
+														- _Name = "DefaultSize";
+														- _Value = "0,0,116,60";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Fill.FillColor";
+														- _Value = "255,255,255";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Font.Font";
+														- _Value = "Tahoma";
+														- _Type = String;
+													}
+													{ IProperty 
+														- _Name = "Font.Size";
+														- _Value = "8";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+														- _Value = "6";
+														- _Type = Int;
+													}
+													{ IProperty 
+														- _Name = "Line.LineColor";
+														- _Value = "194,192,192";
+														- _Type = Color;
+													}
+													{ IProperty 
+														- _Name = "Line.LineWidth";
+														- _Value = "1";
+														- _Type = Int;
+													}
+												}
+											}
 										}
 									}
 								}
@@ -22527,7 +23077,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "9.11.2014::17:12:49";
+							- _lastModifiedTime = "12.22.2014::21:2:16";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 341213c0-8285-4d43-a40b-a32dde34eead;
 								- m_type = 0;
@@ -23713,7 +24263,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 9.10.2014::19:0:43;
+					- weakCGTime = 12.22.2014::21:2:10;
 					- strongCGTime = 8.13.2014::23:56:37;
 					- _defaultComposite = GUID 6be02381-dc4e-4f2c-abfa-122c0715a3ed;
 					- _eventsBaseID = -1;
@@ -23746,12 +24296,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							{ IPropertySubject 
 								- _Name = "Format";
 								- Metaclasses = { IRPYRawContainer 
-									- size = 5;
+									- size = 6;
 									- value = 
 									{ IPropertyMetaclass 
 										- _Name = "Comment";
 										- Properties = { IRPYRawContainer 
-											- size = 6;
+											- size = 7;
 											- value = 
 											{ IProperty 
 												- _Name = "DefaultSize";
@@ -23771,6 +24321,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											{ IProperty 
 												- _Name = "Font.Size";
 												- _Value = "8";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+												- _Value = "6";
 												- _Type = Int;
 											}
 											{ IProperty 
@@ -23933,6 +24488,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 											}
 										}
 									}
+									{ IPropertyMetaclass 
+										- _Name = "problem";
+										- Properties = { IRPYRawContainer 
+											- size = 7;
+											- value = 
+											{ IProperty 
+												- _Name = "DefaultSize";
+												- _Value = "0,0,116,60";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Fill.FillColor";
+												- _Value = "255,255,255";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Font.Font";
+												- _Value = "Tahoma";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "8";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+												- _Value = "6";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Line.LineColor";
+												- _Value = "194,192,192";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Line.LineWidth";
+												- _Value = "1";
+												- _Type = Int;
+											}
+										}
+									}
 								}
 							}
 						}
@@ -23951,7 +24548,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "9.11.2014::17:12:49";
+					- _lastModifiedTime = "12.22.2014::21:2:16";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 7ad9c6f5-1888-4dc7-b59c-238a342b5109;
 						- m_type = 0;
@@ -24067,7 +24664,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								- m_nOrientationCtrlPt = 8;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 2.63889 0 0 4.77273 20 20 ;
+							- m_transform = 2.63889 0 0 4.78788 20 20 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -24153,15 +24750,15 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								- m_position = 4 -6 -9  38 -9  38 5  -6 5  ;
 								- m_nIdent = 0;
 								- m_bImplicitSetRectPoints = 0;
-								- m_transform = 1 0 0 1 506 591 ;
-								- m_nHorizontalSpacing = 36;
-								- m_nVerticalSpacing = -8;
+								- m_transform = 1 0 0 1 504 129 ;
+								- m_nHorizontalSpacing = 25;
+								- m_nVerticalSpacing = 2;
 								- m_nOrientationCtrlPt = 8;
 							}
 							- m_anglePoint1 = 0 0 ;
 							- m_anglePoint2 = 0 0 ;
 							- m_line_style = 0;
-							- m_SourcePort = 1215 234 ;
+							- m_SourcePort = 1183 81 ;
 							- m_TargetPort = 1073 651 ;
 							- m_ShowName = 0;
 							- m_ShowStereotype = 1;
@@ -24592,7 +25189,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.375196 0 0 0.515983 84.2207 46.4196 ;
+							- m_transform = 0.375196 0 0 0.515983 84.2207 48.4196 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -25217,7 +25814,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					}
 				}
 			}
-			- weakCGTime = 9.10.2014::19:0:43;
+			- weakCGTime = 12.22.2014::21:2:10;
 			- strongCGTime = 9.7.2014::20:2:35;
 			- _defaultComposite = GUID 0055d724-0bc3-457d-a875-3770cd49cd78;
 			- _eventsBaseID = -1;
@@ -25250,12 +25847,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					{ IPropertySubject 
 						- _Name = "Format";
 						- Metaclasses = { IRPYRawContainer 
-							- size = 5;
+							- size = 6;
 							- value = 
 							{ IPropertyMetaclass 
 								- _Name = "Comment";
 								- Properties = { IRPYRawContainer 
-									- size = 6;
+									- size = 7;
 									- value = 
 									{ IProperty 
 										- _Name = "DefaultSize";
@@ -25275,6 +25872,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									{ IProperty 
 										- _Name = "Font.Size";
 										- _Value = "8";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+										- _Value = "6";
 										- _Type = Int;
 									}
 									{ IProperty 
@@ -25437,6 +26039,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									}
 								}
 							}
+							{ IPropertyMetaclass 
+								- _Name = "problem";
+								- Properties = { IRPYRawContainer 
+									- size = 7;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,0,116,60";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "255,255,255";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Tahoma";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "8";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+										- _Value = "6";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "194,192,192";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "1";
+										- _Type = Int;
+									}
+								}
+							}
 						}
 					}
 					{ IPropertySubject 
@@ -25504,7 +26148,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "9.11.2014::17:12:49";
+			- _lastModifiedTime = "12.22.2014::21:2:16";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 11b34c28-c201-49da-89e7-4298215c2922;
 				- m_type = 0;
@@ -27848,12 +28492,12 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					{ IPropertySubject 
 						- _Name = "Format";
 						- Metaclasses = { IRPYRawContainer 
-							- size = 4;
+							- size = 5;
 							- value = 
 							{ IPropertyMetaclass 
 								- _Name = "Comment";
 								- Properties = { IRPYRawContainer 
-									- size = 6;
+									- size = 7;
 									- value = 
 									{ IProperty 
 										- _Name = "DefaultSize";
@@ -27873,6 +28517,11 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									{ IProperty 
 										- _Name = "Font.Size";
 										- _Value = "8";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+										- _Value = "6";
 										- _Type = Int;
 									}
 									{ IProperty 
@@ -28008,6 +28657,48 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 									}
 								}
 							}
+							{ IPropertyMetaclass 
+								- _Name = "problem";
+								- Properties = { IRPYRawContainer 
+									- size = 7;
+									- value = 
+									{ IProperty 
+										- _Name = "DefaultSize";
+										- _Value = "0,0,116,60";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "255,255,255";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Tahoma";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "8";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+										- _Value = "6";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "194,192,192";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "1";
+										- _Type = Int;
+									}
+								}
+							}
 						}
 					}
 					{ IPropertySubject 
@@ -28075,7 +28766,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "9.8.2014::19:19:57";
+			- _lastModifiedTime = "12.22.2014::21:2:16";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 19f3862a-4f38-4507-b8c9-51137cc66c58;
 				- m_type = 0;
@@ -29291,23 +29982,32 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 							- _id = GUID 6e074eeb-958f-426f-8e16-74902786095a;
 						}
 					}
-					- _modifiedTimeWeak = 9.8.2014::20:14:48;
+					- _modifiedTimeWeak = 11.17.2014::14:3:34;
 					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f2\\fnil\\fcharset0 Calibri;}}
-{\\colortbl ;\\red0\\green0\\blue0;}
-\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\f0\\fs22 INCOSE\\u8208?TP\\u8208?2003\\u8208?002\\u8208?03.2.2, INCOSE Systems Engineering Handbook v. 3.2.2, October 2011\\par
-\\par
-\\ulwave Pyster\\ulnone , A. and D.H. \\ulwave Olwell\\ulnone  (\\ulwave eds\\ulnone ). 2013. The Guide to the Systems Engineering Body of Knowledge (SEBoK), v. 1.2. Hoboken, NJ: The Trustees of the Stevens Institute of Technology. Accessed DATE. www.\\ulwave sebokwiki\\ulnone .\\ulwave org\\ulnone / \\par
-\\par
-International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 2008-02-01, Systems and software engineering - System life cycle processes\\f1\\par
-\\pard\\cf1\\kerning24\\f2\\fs36\\par
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f2\\fnil\\fprq4\\fcharset0 Calibri;}}
+{\\colortbl ;\\red0\\green0\\blue255;\\red0\\green0\\blue0;}
+\\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\lang1024\\f0\\fs22 1.     Watson, John C. \\lang1033 System Engineering Workflow Use Cases (Document and Rhapsody Model), \\lang1024 September 14, 2014, Lockheed Martin Corporation\\par
+2.     \\lang1033\\f1 I\\f2 NCOSE. 2011. INCOSE Systems Engineering Handbook, Version 3.2.2. San Diego, CA, USA: International Council on Systems Engineering (INCOSE), INCOSE-TP-2003-002-03.2.2. \\par
+3.     Pyster, A. and D.H. Olwell (eds). 2013. The Guide to the Systems Engineering Body of Knowledge (SEBoK), v. 1.2. Hoboken, NJ: The Trustees of the Stevens Institute of Technology. Accessed DATE. \\cf1\\ul\\protect www.sebokwiki.org\\cf0\\protect0\\f1\\par
+\\f2 4.     International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 2008-02-01, Systems and software engineering - System life cycle processes\\par
+5.     ISO/IEC 2008. Systems and Software Engineering -- System Life Cycle Processes. Geneva, Switzerland: International Organisation for Standardisation / International Electrotechnical Commissions. ISO/IEC/IEEE 15288:2008 (E).\\par
+\\cf2\\kerning24\\fs36\\par
 }
 ";
+						- Hyperlinks = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IExternalHyperlink 
+								- _name = "www.sebokwiki.org";
+								- _textType = "FREE";
+								- _target = "http://www.sebokwiki.org";
+							}
+						}
 					}
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 9.8.2014::20:14:48;
+			- _modifiedTimeWeak = 12.22.2014::21:2:10;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 16d4dee2-fd89-435c-82d6-fd7dc8d33577;
@@ -29326,12 +30026,12 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 							{ IPropertySubject 
 								- _Name = "Format";
 								- Metaclasses = { IRPYRawContainer 
-									- size = 3;
+									- size = 4;
 									- value = 
 									{ IPropertyMetaclass 
 										- _Name = "Comment";
 										- Properties = { IRPYRawContainer 
-											- size = 6;
+											- size = 7;
 											- value = 
 											{ IProperty 
 												- _Name = "DefaultSize";
@@ -29351,6 +30051,11 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 											{ IProperty 
 												- _Name = "Font.Size";
 												- _Value = "8";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+												- _Value = "6";
 												- _Type = Int;
 											}
 											{ IProperty 
@@ -29454,6 +30159,48 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 											}
 										}
 									}
+									{ IPropertyMetaclass 
+										- _Name = "problem";
+										- Properties = { IRPYRawContainer 
+											- size = 7;
+											- value = 
+											{ IProperty 
+												- _Name = "DefaultSize";
+												- _Value = "0,0,116,60";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Fill.FillColor";
+												- _Value = "255,255,255";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Font.Font";
+												- _Value = "Tahoma";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "8";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+												- _Value = "6";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Line.LineColor";
+												- _Value = "194,192,192";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Line.LineWidth";
+												- _Value = "1";
+												- _Type = Int;
+											}
+										}
+									}
 								}
 							}
 						}
@@ -29472,7 +30219,7 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "9.11.2014::17:12:49";
+					- _lastModifiedTime = "12.22.2014::21:2:16";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 14538db0-4ae2-4d1b-a739-2adea441241d;
 						- m_type = 0;
@@ -29496,7 +30243,7 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 						}
 						- m_drawBehavior = 0;
 						- m_bIsPreferencesInitialized = 0;
-						- elementList = 5;
+						- elementList = 4;
 						{ CGIClass 
 							- _id = GUID ca31c8c1-2bd3-497c-a154-fa61f460a09f;
 							- m_type = 78;
@@ -29588,7 +30335,7 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 								- m_nOrientationCtrlPt = 8;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 3.03704 0 0 6.7197 20 20 ;
+							- m_transform = 3.03704 0 0 3.87121 20 20 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -29609,52 +30356,6 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 							- Compartments = { IRPYRawContainer 
 								- size = 0;
 							}
-						}
-						{ CGIAnnotation 
-							- _id = GUID b84b3328-ff65-4519-8b28-a96a969bec9c;
-							- m_type = 173;
-							- m_pModelObject = { IHandle 
-								- _m2Class = "IComment";
-								- _id = GUID 0d6133dd-3abd-4c22-9c1c-7fe3a9b4dec9;
-							}
-							- m_pParent = GUID ca31c8c1-2bd3-497c-a154-fa61f460a09f;
-							- m_name = { CGIText 
-								- m_str = "";
-								- m_style = "Arial" 10 0 0 0 1 ;
-								- m_color = { IColor 
-									- m_fgColor = 0;
-									- m_bgColor = 0;
-									- m_bgFlag = 0;
-								}
-								- m_position = 1 0 0  ;
-								- m_nIdent = 0;
-								- m_bImplicitSetRectPoints = 0;
-								- m_nOrientationCtrlPt = 5;
-							}
-							- m_drawBehavior = 2056;
-							- m_transform = 0.107011 0 0 0.704753 138 123.886 ;
-							- m_bIsPreferencesInitialized = 1;
-							- m_AdditionalLabel = { CGIText 
-								- m_str = "";
-								- m_style = "Arial" 10 0 0 0 1 ;
-								- m_color = { IColor 
-									- m_fgColor = 0;
-									- m_bgColor = 0;
-									- m_bgFlag = 0;
-								}
-								- m_position = 1 0 0  ;
-								- m_nIdent = 0;
-								- m_bImplicitSetRectPoints = 0;
-								- m_nOrientationCtrlPt = 1;
-							}
-							- m_polygon = 4 0 3  0 1097  1084 1097  1084 3  ;
-							- m_nNameFormat = 0;
-							- m_nIsNameFormat = 0;
-							- Compartments = { IRPYRawContainer 
-								- size = 0;
-							}
-							- _iTempdisplayTextFlag = 2;
-							- m_bIsBoxStyle = 0;
 						}
 						{ CGIPackage 
 							- _id = GUID 41435905-aaa6-4f18-b889-9d0de54e955f;
@@ -29703,7 +30404,7 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.488487 0 0 0.269331 72 63.8915 ;
+							- m_transform = 0.488487 0 0 0.409209 72 50.3153 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -29772,7 +30473,7 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 2056;
-							- m_transform = 1.09911 0 0 0.790774 12.2828 206.043 ;
+							- m_transform = 1.09911 0 0 0.790774 12.2828 166.943 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -29815,7 +30516,7 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 					}
 				}
 			}
-			- weakCGTime = 9.8.2014::20:14:48;
+			- weakCGTime = 12.22.2014::21:2:10;
 			- strongCGTime = 9.7.2014::20:3:0;
 			- _defaultComposite = GUID c896afe8-0dbd-4035-a660-e8170cf7b7be;
 			- _eventsBaseID = -1;
@@ -29854,7 +30555,7 @@ International Standard - ISO/IEC 15288 and IEEE 15288 - 2008, Second Edition 200
 					- _id = GUID 5814e68d-7d4b-4642-a346-baf24f072419;
 				}
 			}
-			- _modifiedTimeWeak = 9.16.2014::16:43:36;
+			- _modifiedTimeWeak = 12.22.2014::21:2:10;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID bf097a8d-2c8d-4b22-8f23-fce72ebb39d0;
@@ -30470,12 +31171,12 @@ Post Conditions\\b0  -\\par
 							{ IPropertySubject 
 								- _Name = "Format";
 								- Metaclasses = { IRPYRawContainer 
-									- size = 4;
+									- size = 5;
 									- value = 
 									{ IPropertyMetaclass 
 										- _Name = "Comment";
 										- Properties = { IRPYRawContainer 
-											- size = 6;
+											- size = 7;
 											- value = 
 											{ IProperty 
 												- _Name = "DefaultSize";
@@ -30495,6 +31196,11 @@ Post Conditions\\b0  -\\par
 											{ IProperty 
 												- _Name = "Font.Size";
 												- _Value = "8";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+												- _Value = "6";
 												- _Type = Int;
 											}
 											{ IProperty 
@@ -30630,6 +31336,48 @@ Post Conditions\\b0  -\\par
 											}
 										}
 									}
+									{ IPropertyMetaclass 
+										- _Name = "problem";
+										- Properties = { IRPYRawContainer 
+											- size = 7;
+											- value = 
+											{ IProperty 
+												- _Name = "DefaultSize";
+												- _Value = "0,0,116,60";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Fill.FillColor";
+												- _Value = "255,255,255";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Font.Font";
+												- _Value = "Tahoma";
+												- _Type = String;
+											}
+											{ IProperty 
+												- _Name = "Font.Size";
+												- _Value = "8";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Font.Size@Child.NameCompartment@Stereotype";
+												- _Value = "6";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Line.LineColor";
+												- _Value = "194,192,192";
+												- _Type = Color;
+											}
+											{ IProperty 
+												- _Name = "Line.LineWidth";
+												- _Value = "1";
+												- _Type = Int;
+											}
+										}
+									}
 								}
 							}
 						}
@@ -30648,7 +31396,7 @@ Post Conditions\\b0  -\\par
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "9.16.2014::16:43:50";
+					- _lastModifiedTime = "12.22.2014::21:2:16";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 87c1887c-45f6-47f8-bf07-ccf89b823721;
 						- m_type = 0;
@@ -30902,7 +31650,7 @@ Post Conditions\\b0  -\\par
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4104;
-							- m_transform = 0.719298 0 0 0.253333 149.333 749.638 ;
+							- m_transform = 0.719298 0 0 0.28 149.333 738.083 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -31216,7 +31964,7 @@ Post Conditions\\b0  -\\par
 							- m_anglePoint1 = 0 0 ;
 							- m_anglePoint2 = 0 0 ;
 							- m_line_style = 0;
-							- m_SourcePort = 1003 288 ;
+							- m_SourcePort = 1043 207 ;
 							- m_TargetPort = 915 124 ;
 							- m_ShowName = 0;
 							- m_ShowStereotype = 1;
@@ -31268,7 +32016,7 @@ Post Conditions\\b0  -\\par
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 2056;
-							- m_transform = 0.875527 0 0 0.436383 148.292 649.547 ;
+							- m_transform = 0.875527 0 0 0.394823 148.292 647.225 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -31848,7 +32596,7 @@ Post Conditions\\b0  -\\par
 					}
 				}
 			}
-			- weakCGTime = 9.16.2014::16:43:36;
+			- weakCGTime = 12.22.2014::21:2:10;
 			- strongCGTime = 6.9.2014::14:34:51;
 			- _defaultComposite = GUID 68327269-75f2-4d2e-9201-2972c4dcea9b;
 			- _eventsBaseID = -1;
@@ -31872,7 +32620,7 @@ Post Conditions\\b0  -\\par
 			- _configurationRelatedTime = 3.12.2014::12:18:27;
 		}
 	}
-	- weakCGTime = 9.16.2014::16:43:36;
+	- weakCGTime = 2.4.2015::17:49:4;
 	- strongCGTime = 8.13.2014::16:32:42;
 	- _defaultComposite = GUID b5e6522c-4213-4f31-8750-48c4843ab519;
 	- _eventsBaseID = -1;
@@ -31883,8 +32631,8 @@ Post Conditions\\b0  -\\par
 			- _id = GUID b5e6522c-4213-4f31-8750-48c4843ab519;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 9.14.2014::12:11:24;
-			- weakCGTime = 9.14.2014::12:11:24;
+			- _modifiedTimeWeak = 1.25.2015::14:52:28;
+			- weakCGTime = 1.25.2015::14:52:28;
 			- strongCGTime = 8.13.2014::16:32:42;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

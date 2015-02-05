@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.9.0 C++ 7139044
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { IProfile 
 	- _id = GUID b505e3dc-e3bc-489b-b15d-d48ef5689d67;
 	- _myState = 8192;
@@ -28,7 +28,7 @@ I-Logix-RPY-Archive version 8.9.0 C++ 7139044
 		}
 	}
 	- _name = "SE_Dev_Profile";
-	- _modifiedTimeWeak = 6.16.2014::0:7:20;
+	- _modifiedTimeWeak = 1.20.2015::19:6:23;
 	- _description = { IDescription 
 		- _text = "This profile is a default profile for a project or program.  The intent is to use a copy of this profile to capture those profile elements specific to a project or program.  The reason it is here is to solve a program level issue associated with sharing a common Property file across multiple models.  
 It does this by using the property in this profile called \"Model::Profile::PropertyFile\".  Here you can reference a file containing default properties that can be common to and shared across multiple models.  By using this technique, it overrides the Factory and site property files but not the project level.
@@ -45,9 +45,9 @@ Nov 10, 2008  Version: 01.02.01
 1. Updated Project_profile description field.
 *********************************************************************************************";
 	}
-	- _lastID = 5;
+	- _lastID = 9;
 	- Declaratives = { IRPYRawContainer 
-		- size = 3;
+		- size = 6;
 		- value = 
 		{ IStereotype 
 			- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
@@ -157,14 +157,193 @@ Nov 10, 2008  Version: 01.02.01
 			- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 			- _myState = 8192;
 			- _name = "Definition";
-			- _modifiedTimeWeak = 6.10.2014::15:11:14;
+			- _modifiedTimeWeak = 1.20.2015::19:6:23;
+			- Tags = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ ITag 
+					- _id = GUID dd989ee7-e736-4ae2-8908-17dc66de3535;
+					- _myState = 8192;
+					- _name = "Notes";
+					- _modifiedTimeWeak = 12.15.2014::14:35:46;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+				}
+				{ ITag 
+					- _id = GUID 08693686-daa3-43f2-a8d6-90f35d54e9bb;
+					- _myState = 8192;
+					- _name = "Examples";
+					- _modifiedTimeWeak = 12.15.2014::14:36:2;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+				}
+				{ ITag 
+					- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
+					- _myState = 8192;
+					- _name = "Number";
+					- _modifiedTimeWeak = 1.20.2015::19:6:23;
+					- _description = { IDescription 
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fprq4\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs20 This is the \"Number\" column from the original draft 12 of the Concept Model Semantic Dictionary. The definitions are referred  to as an \\ldblquote ordered set\\rdblquote , and that both the ordering and numbering are of significance.  Higher numbered definitions tend to rely on lower numbered definitions. Therefore this field was included in the import.  \\par
+\\par
+}
+";
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+				}
+			}
+			- _lastID = 3;
 			- _m2Classes = { IRPYRawContainer 
 				- size = 1;
 				- value = "Class"; 
 			}
 		}
+		{ IStereotype 
+			- _id = GUID dbce54f5-2533-4450-85f9-b3ce04076312;
+			- _myState = 8192;
+			- _name = "stakeholder";
+			- _modifiedTimeWeak = 11.17.2014::14:25:13;
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\froman\\fcharset0 TimesNewRomanPSMT;}{\\f1\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\f0\\fs20 A stakeholder represents a role, group or individual who has concerns that will be addressed by the View of the model.\\f1\\par
+}
+";
+			}
+			- Tags = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ ITag 
+					- _id = GUID 2c10c326-8873-41db-803c-729fa6495a1c;
+					- _myState = 8192;
+					- _name = "concernList";
+					- _modifiedTimeWeak = 11.17.2014::14:22:8;
+					- _description = { IDescription 
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\froman\\fcharset0 TimesNewRomanPSMT;}{\\f1\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\f0\\fs20 The interests of this stakeholder.\\f1\\par
+}
+";
+					}
+					- myTypeOf = { IType 
+						- _id = GUID 9a2b055c-d68f-4abc-91b4-f7d42100b932;
+						- _myState = 8192;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _declaration = "Comment";
+						- _kind = Language;
+					}
+					- _multiplicity = "*";
+					- _isOrdered = 0;
+				}
+				{ ITag 
+					- _id = GUID 7c2834d7-7ffb-452f-a044-aa6b5316e464;
+					- _myState = 8192;
+					- _name = "concern";
+					- _modifiedTimeWeak = 11.17.2014::14:22:48;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _multiplicity = "*";
+					- _isOrdered = 0;
+				}
+			}
+			- _lastID = 2;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Class"; 
+			}
+			- _newTerm = 1;
+		}
+		{ IStereotype 
+			- _id = GUID 8c2865e3-c7c9-42f3-85b4-c0680ea2fa62;
+			- _myState = 8192;
+			- _name = "SysML_IOI";
+			- _modifiedTimeWeak = 12.22.2014::19:29:1;
+			- _description = { IDescription 
+				- _text = "SysML Item of Interest (IOI) - This comment identifies a workflow item that the SysML Roadmap team may examine as an item to address in SysML. ";
+			}
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Comment"; 
+			}
+		}
+		{ IStereotype 
+			- _id = GUID fe7a817d-e8f9-4f6d-ad0b-bbd338adfa1f;
+			- _myState = 8192;
+			- _name = "ModelIssue";
+			- _modifiedTimeWeak = 12.22.2014::19:53:30;
+			- Tags = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ ITag 
+					- _id = GUID e2580a63-e0ee-4b21-ab35-6b9ec68f7538;
+					- _myState = 8192;
+					- _name = "Status";
+					- _modifiedTimeWeak = 12.22.2014::19:53:30;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 214279b8-040e-45ef-899b-d476dd6119a5;
+							- _modifiedTimeWeak = 12.22.2014::19:53:30;
+							- _value = "New";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _id = GUID 90b6fbf5-827c-4f55-8a62-f33e1094aa86;
+					}
+					- _isOrdered = 0;
+				}
+				{ ITag 
+					- _id = GUID c67d7342-1990-4b58-88c6-9142969ad40a;
+					- _myState = 8192;
+					- _name = "Resolution";
+					- _modifiedTimeWeak = 12.22.2014::19:51:41;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+				}
+			}
+			- _lastID = 2;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Comment"; 
+			}
+		}
 	}
-	- weakCGTime = 6.16.2014::0:7:20;
+	- weakCGTime = 1.20.2015::19:6:23;
 	- strongCGTime = 3.12.2014::15:28:38;
 	- _defaultComposite = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 	- _eventsBaseID = -1;
@@ -175,8 +354,8 @@ Nov 10, 2008  Version: 01.02.01
 			- _id = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 6.10.2014::15:11:14;
-			- weakCGTime = 6.10.2014::15:11:14;
+			- _modifiedTimeWeak = 12.22.2014::19:53:30;
+			- weakCGTime = 12.22.2014::19:53:30;
 			- strongCGTime = 3.12.2014::15:28:38;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -186,7 +365,7 @@ Nov 10, 2008  Version: 01.02.01
 		}
 	}
 	- Types = { IRPYRawContainer 
-		- size = 3;
+		- size = 4;
 		- value = 
 		{ IType 
 			- _id = GUID 58e0bf6c-b1dc-4c95-84e1-59db274b654a;
@@ -336,6 +515,48 @@ Nov 10, 2008  Version: 01.02.01
 					- _id = GUID f1425a1b-c6ad-45f2-8323-71688fe9e7a3;
 					- _name = "Selected & Pattern";
 					- _modifiedTimeWeak = 6.16.2014::0:6:14;
+					- _value = "";
+				}
+			}
+			- _kind = Enumeration;
+		}
+		{ IType 
+			- _id = GUID 90b6fbf5-827c-4f55-8a62-f33e1094aa86;
+			- _myState = 8192;
+			- _name = "Status";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "DataType";
+					- _id = GUID 39bf6572-6f61-4cbf-b651-64241e075688;
+				}
+			}
+			- _modifiedTimeWeak = 12.22.2014::19:52:55;
+			- _lastID = 3;
+			- Literals = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IEnumerationLiteral 
+					- _id = GUID f3deb1ef-7e78-4969-9f40-22065c545113;
+					- _name = "New";
+					- _modifiedTimeWeak = 12.22.2014::19:52:45;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 8a77097b-a344-4831-8695-b623071347c3;
+					- _name = "Assigned";
+					- _modifiedTimeWeak = 12.22.2014::19:52:54;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID abb10231-582c-49d2-b461-76ff50b6457f;
+					- _name = "Closed";
+					- _modifiedTimeWeak = 12.22.2014::19:52:26;
 					- _value = "";
 				}
 			}

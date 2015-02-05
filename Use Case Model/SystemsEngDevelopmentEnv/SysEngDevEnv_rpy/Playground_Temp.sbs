@@ -1,0 +1,56 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _id = GUID e14f70a9-2bf9-4c79-a5e7-7eccacc7251b;
+	- _myState = 8192;
+	- _name = "Playground Temp";
+	- _modifiedTimeWeak = 11.17.2014::14:12:41;
+	- _lastID = 15;
+	- Declaratives = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ ISubsystem 
+			- fileName = "John_W";
+			- _id = GUID 020784e3-4e45-4ed8-be41-43ceab262ad6;
+			- _name = "John W";
+		}
+		{ ISubsystem 
+			- fileName = "Eldad_P";
+			- _id = GUID 87827fc9-fbc1-4466-8d73-4a71bdb18543;
+			- _name = "Eldad P";
+		}
+		{ ISubsystem 
+			- fileName = "Rick_S";
+			- _id = GUID 2cc90d53-e945-48b7-a778-3e1d3bf56feb;
+			- _name = "Rick S";
+		}
+		{ ISubsystem 
+			- fileName = "Dick_W";
+			- _id = GUID 05588822-7236-45c4-b727-2fbd5378a502;
+			- _name = "Dick W";
+		}
+	}
+	- weakCGTime = 11.17.2014::14:12:41;
+	- strongCGTime = 11.15.2014::13:13:36;
+	- _defaultComposite = GUID 044fa4c5-8042-4e43-ab97-485d08c6c761;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 044fa4c5-8042-4e43-ab97-485d08c6c761;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 11.17.2014::14:12:41;
+			- _lastID = 2;
+			- weakCGTime = 11.17.2014::14:12:41;
+			- strongCGTime = 11.15.2014::13:13:36;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 11.17.2014::14:11:30;
+}
+
