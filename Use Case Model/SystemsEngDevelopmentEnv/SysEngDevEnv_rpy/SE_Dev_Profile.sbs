@@ -28,7 +28,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- _name = "SE_Dev_Profile";
-	- _modifiedTimeWeak = 1.20.2015::19:6:23;
+	- _modifiedTimeWeak = 2.12.2015::19:36:56;
 	- _description = { IDescription 
 		- _text = "This profile is a default profile for a project or program.  The intent is to use a copy of this profile to capture those profile elements specific to a project or program.  The reason it is here is to solve a program level issue associated with sharing a common Property file across multiple models.  
 It does this by using the property in this profile called \"Model::Profile::PropertyFile\".  Here you can reference a file containing default properties that can be common to and shared across multiple models.  By using this technique, it overrides the Factory and site property files but not the project level.
@@ -343,7 +343,7 @@ Nov 10, 2008  Version: 01.02.01
 			}
 		}
 	}
-	- weakCGTime = 1.20.2015::19:6:23;
+	- weakCGTime = 2.12.2015::19:36:56;
 	- strongCGTime = 3.12.2014::15:28:38;
 	- _defaultComposite = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 	- _eventsBaseID = -1;
@@ -354,8 +354,8 @@ Nov 10, 2008  Version: 01.02.01
 			- _id = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 12.22.2014::19:53:30;
-			- weakCGTime = 12.22.2014::19:53:30;
+			- _modifiedTimeWeak = 1.20.2015::19:6:23;
+			- weakCGTime = 1.20.2015::19:6:23;
 			- strongCGTime = 3.12.2014::15:28:38;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -536,10 +536,10 @@ Nov 10, 2008  Version: 01.02.01
 					- _id = GUID 39bf6572-6f61-4cbf-b651-64241e075688;
 				}
 			}
-			- _modifiedTimeWeak = 12.22.2014::19:52:55;
-			- _lastID = 3;
+			- _modifiedTimeWeak = 2.12.2015::19:36:56;
+			- _lastID = 5;
 			- Literals = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ IEnumerationLiteral 
 					- _id = GUID f3deb1ef-7e78-4969-9f40-22065c545113;
@@ -551,6 +551,12 @@ Nov 10, 2008  Version: 01.02.01
 					- _id = GUID 8a77097b-a344-4831-8695-b623071347c3;
 					- _name = "Assigned";
 					- _modifiedTimeWeak = 12.22.2014::19:52:54;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 30eada36-8fbe-480e-9918-2b1c8b1c2458;
+					- _name = "Changed";
+					- _modifiedTimeWeak = 2.12.2015::19:36:56;
 					- _value = "";
 				}
 				{ IEnumerationLiteral 
