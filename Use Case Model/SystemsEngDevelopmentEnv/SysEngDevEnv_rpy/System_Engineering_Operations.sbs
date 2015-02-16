@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 6cfa223b-3cca-4a39-932e-465247fcef40;
 	- _myState = 8192;
 	- _name = "System Engineering Operations";
-	- _modifiedTimeWeak = 2.12.2015::20:41:18;
+	- _modifiedTimeWeak = 2.16.2015::15:19:38;
 	- _lastID = 5;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -12,7 +12,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 0ab040f7-e724-40c5-a608-9b9e41fdbd2f;
 			- _myState = 8192;
 			- _name = "System Engineering Development System";
-			- _modifiedTimeWeak = 2.12.2015::20:41:18;
+			- _modifiedTimeWeak = 2.16.2015::15:19:38;
 			- _lastID = 2;
 			- Declaratives = { IRPYRawContainer 
 				- size = 3;
@@ -65,7 +65,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _body = "";
 						}
 					}
-					- _modifiedTimeWeak = 2.12.2015::20:41:18;
+					- _modifiedTimeWeak = 2.16.2015::15:19:33;
 					- _lastID = 67;
 					- Declaratives = { IRPYRawContainer 
 						- size = 4;
@@ -4904,7 +4904,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID 144d9bad-b054-4df1-b127-f61eb172b95b;
 							- _myState = 8192;
 							- _name = "Stakeholders";
-							- _modifiedTimeWeak = 2.12.2015::20:21:14;
+							- _modifiedTimeWeak = 2.12.2015::20:41:35;
 							- _lastID = 4;
 							- Declaratives = { IRPYRawContainer 
 								- size = 1;
@@ -5306,7 +5306,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 										}
 									}
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
-									- _lastModifiedTime = "2.12.2015::20:21:14";
+									- _lastModifiedTime = "2.16.2015::15:50:58";
 									- _graphicChart = { CGIClassChart 
 										- _id = GUID 52f19606-0407-478a-a9bb-7eae83c2b55a;
 										- m_type = 0;
@@ -7332,7 +7332,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 								}
 							}
 							- _name = "Development Systems";
-							- _modifiedTimeWeak = 2.12.2015::20:41:18;
+							- _modifiedTimeWeak = 2.16.2015::15:19:32;
 							- _lastID = 1;
 							- Declaratives = { IRPYRawContainer 
 								- size = 1;
@@ -7559,7 +7559,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 										}
 									}
 									- _name = "Systems Engineering Development System";
-									- _modifiedTimeWeak = 2.12.2015::20:41:18;
+									- _modifiedTimeWeak = 2.16.2015::15:19:32;
 									- _lastID = 20;
 									- Declaratives = { IRPYRawContainer 
 										- size = 2;
@@ -14851,7 +14851,7 @@ Configuration Management\\fs20\\par
 											- _configurationRelatedTime = 1.2.1990::0:0:0;
 										}
 									}
-									- weakCGTime = 2.12.2015::20:41:18;
+									- weakCGTime = 2.16.2015::15:19:32;
 									- strongCGTime = 2.12.2015::20:12:33;
 									- _defaultComposite = GUID 278f99f4-66e8-4501-8eb9-67a17cc85022;
 									- _eventsBaseID = 5201;
@@ -14920,7 +14920,7 @@ Configuration Management\\fs20\\par
 													- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 												}
 											}
-											- _modifiedTimeWeak = 2.12.2015::20:41:18;
+											- _modifiedTimeWeak = 2.16.2015::15:48:37;
 											- _theMainDiagram = { IHandle 
 												- _m2Class = "IDiagram";
 												- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
@@ -18905,7 +18905,7 @@ Configuration Management\\fs20\\par
 													}
 												}
 											}
-											- weakCGTime = 2.12.2015::20:41:18;
+											- weakCGTime = 2.16.2015::15:48:37;
 											- strongCGTime = 9.9.2014::18:50:55;
 											- Operations = { IRPYRawContainer 
 												- size = 9;
@@ -29570,7 +29570,7 @@ On new programs it is often useful to transform data from previous similar progr
 														}
 													}
 													- _name = "Analyze Requirements";
-													- _modifiedTimeWeak = 2.12.2015::20:41:18;
+													- _modifiedTimeWeak = 2.16.2015::15:48:37;
 													- _lastID = 1;
 													- _virtual = 1;
 													- Args = { IRPYRawContainer 
@@ -29594,9 +29594,9 @@ On new programs it is often useful to transform data from previous similar progr
 														- _id = GUID 3294940e-59fb-40bc-8fab-d31ee024d6ed;
 														- _myState = 8192;
 														- _name = "Analyze Requirements";
-														- _modifiedTimeWeak = 2.12.2015::20:41:18;
+														- _modifiedTimeWeak = 2.16.2015::15:48:37;
 														- _lastID = 107;
-														- weakCGTime = 2.12.2015::20:41:18;
+														- weakCGTime = 2.16.2015::15:48:37;
 														- strongCGTime = 12.22.2014::19:16:0;
 														- _multiplicity = "";
 														- _itsStateChart = { IHandle 
@@ -30504,15 +30504,15 @@ On new programs it is often useful to transform data from previous similar progr
 																		- _id = GUID 51c3acf0-07f1-4786-825e-c01378393cfc;
 																	}
 																}
-																- _modifiedTimeWeak = 2.12.2015::20:0:15;
+																- _modifiedTimeWeak = 2.16.2015::15:28:41;
 																- _itsLabel = { ILabel 
 																	- _id = GUID b2d7ad28-8d79-4d7a-a293-8e7157b6bd18;
-																	- _modifiedTimeWeak = 2.12.2015::20:0:15;
+																	- _modifiedTimeWeak = 2.16.2015::15:28:41;
 																	- _itsTrigger = NULL;
 																	- _itsGuard = { IGuard 
 																		- _id = GUID 48c6e42b-1bad-4517-8660-402cb1f970db;
-																		- _modifiedTimeWeak = 1.2.1990::0:0:0;
-																		- _body = "Catorization Incomplete";
+																		- _modifiedTimeWeak = 2.16.2015::15:28:41;
+																		- _body = "Categorization Incomplete";
 																	}
 																	- _itsAction = NULL;
 																}
@@ -31177,8 +31177,8 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 															}
 															{ IState 
 																- _id = GUID 3ef2b44e-7b5f-4063-8294-c92b3ae33811;
-																- _name = "Show Requirement Satisfaction";
-																- _modifiedTimeWeak = 1.30.2015::22:30:13;
+																- _name = "Show how Requirement is intended to be Satisfied";
+																- _modifiedTimeWeak = 2.16.2015::15:48:37;
 																- _parent = GUID 86a1fea0-984c-4c56-a7f4-7b86cf242d94;
 																- _stateType = Action;
 																- _defaultTrans = ;
@@ -31308,8 +31308,8 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 															}
 															{ IState 
 																- _id = GUID 250eaa2a-abb8-48ff-b59e-527e1e2d5432;
-																- _name = "Integrate with other Requirement Sets";
-																- _modifiedTimeWeak = 2.12.2015::19:32:38;
+																- _name = "Integrate Set with other Requirement Sets";
+																- _modifiedTimeWeak = 2.16.2015::15:34:59;
 																- _parent = GUID 86a1fea0-984c-4c56-a7f4-7b86cf242d94;
 																- _stateType = Action;
 																- _defaultTrans = ;
@@ -31336,7 +31336,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 															}
 															{ IReferenceActivity 
 																- _id = GUID 55126702-26f6-4d2e-b82d-8460faa3ed77;
-																- _name = "Catorgorize Requirement";
+																- _name = "Categorize Requirement";
 																- Stereotypes = { IRPYRawContainer 
 																	- size = 1;
 																	- value = 
@@ -31349,13 +31349,13 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																		- _id = GUID 0110440a-b3de-47b1-acbd-2b6644e6a47e;
 																	}
 																}
-																- _modifiedTimeWeak = 2.12.2015::19:59:36;
+																- _modifiedTimeWeak = 2.16.2015::15:27:37;
 																- _parent = GUID 86a1fea0-984c-4c56-a7f4-7b86cf242d94;
 																- _stateType = ReferenceActivity;
 																- _defaultTrans = ;
 															}
 														}
-														- _version = 2.12.2015::15:41:23;
+														- _version = 2.16.2015::10:48:37;
 														- _baseVersion = 1.2.1990::0:0:0;
 														- _diagram = GUID 59dae7a5-e6f9-49b1-b635-8e38a589b381;
 														- Views = { IRPYRawContainer 
@@ -31846,8 +31846,8 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																	}
 																}
 																- _name = "Analyze Stakeholder Requirements";
-																- _modifiedTimeWeak = 2.12.2015::20:41:18;
-																- _lastModifiedTime = "2.12.2015::20:41:23";
+																- _modifiedTimeWeak = 2.16.2015::15:19:31;
+																- _lastModifiedTime = "2.16.2015::15:48:37";
 																- _graphicChart = { CGIStateChart 
 																	- _id = GUID b0131157-9992-40e4-a0ce-adbedbc1b219;
 																	- m_type = 0;
@@ -33208,7 +33208,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																		}
 																		- m_pParent = GUID 0cb2a97b-c871-40a4-b774-93b816d6212b;
 																		- m_name = { CGIText 
-																			- m_str = "Show Requirement Satisfaction";
+																			- m_str = "Show how Requirement is intended to be Satisfied";
 																			- m_style = "Arial" 10 0 0 0 1 ;
 																			- m_color = { IColor 
 																				- m_fgColor = 0;
@@ -35396,7 +35396,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																		- m_anglePoint2 = 0 0 ;
 																		- m_line_style = 2;
 																		- m_SourcePort = 49 63 ;
-																		- m_TargetPort = 527 425 ;
+																		- m_TargetPort = 520 425 ;
 																		- m_pInheritsFrom = { IHandle 
 																			- _m2Class = "";
 																		}
@@ -35524,7 +35524,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																		}
 																		- m_pParent = GUID 0cb2a97b-c871-40a4-b774-93b816d6212b;
 																		- m_name = { CGIText 
-																			- m_str = "Integrate with other Requirement Sets";
+																			- m_str = "Integrate Set with other Requirement Sets";
 																			- m_style = "Arial" 10 0 0 0 1 ;
 																			- m_color = { IColor 
 																				- m_fgColor = 0;
@@ -35537,7 +35537,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																			- m_nOrientationCtrlPt = 5;
 																		}
 																		- m_drawBehavior = 4096;
-																		- m_transform = 0.218265 0 0 0.0339623 288 930.577 ;
+																		- m_transform = 0.240183 0 0 0.0339623 278 930.577 ;
 																		- m_bIsPreferencesInitialized = 1;
 																		- m_AdditionalLabel = { CGIText 
 																			- m_str = "";
@@ -35636,7 +35636,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																		- m_anglePoint1 = 0 0 ;
 																		- m_anglePoint2 = 0 0 ;
 																		- m_line_style = 2;
-																		- m_SourcePort = 536 955 ;
+																		- m_SourcePort = 529 955 ;
 																		- m_TargetPort = 12 4 ;
 																		- m_pInheritsFrom = { IHandle 
 																			- _m2Class = "";
@@ -36004,7 +36004,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																			- m_nOrientationCtrlPt = 5;
 																		}
 																		- m_drawBehavior = 2056;
-																		- m_transform = 0.197417 0 0 0.108775 548 741.506 ;
+																		- m_transform = 0.197417 0 0 0.125228 548 741.583 ;
 																		- m_bIsPreferencesInitialized = 1;
 																		- m_AdditionalLabel = { CGIText 
 																			- m_str = "";
@@ -36049,7 +36049,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																		}
 																		- m_pParent = GUID 0cb2a97b-c871-40a4-b774-93b816d6212b;
 																		- m_name = { CGIText 
-																			- m_str = "Catorgorize Requirement";
+																			- m_str = "Categorize Requirement";
 																			- m_style = "Arial" 10 0 0 0 1 ;
 																			- m_color = { IColor 
 																				- m_fgColor = 0;
@@ -36146,7 +36146,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																		- m_targetType = 'T';
 																		- m_direction = ' ';
 																		- m_rpn = { CGIText 
-																			- m_str = "[Catorization Incomplete]";
+																			- m_str = "[Categorization Incomplete]";
 																			- m_style = "Arial" 10 0 0 0 1 ;
 																			- m_color = { IColor 
 																				- m_fgColor = 0;
@@ -36156,8 +36156,8 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 																			- m_position = 4 -6 -9  132 -9  132 5  -6 5  ;
 																			- m_nIdent = 0;
 																			- m_bImplicitSetRectPoints = 1;
-																			- m_transform = 0.594203 0 0 2.28571 571.565 530.571 ;
-																			- m_nHorizontalSpacing = 50;
+																			- m_transform = 0.630435 0 0 2.28571 569.782 530.571 ;
+																			- m_nHorizontalSpacing = 47;
 																			- m_nVerticalSpacing = 138;
 																			- m_nOrientationCtrlPt = 0;
 																		}
@@ -36637,7 +36637,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 									- _configurationRelatedTime = 9.11.2014::14:40:49;
 								}
 							}
-							- weakCGTime = 2.12.2015::20:41:18;
+							- weakCGTime = 2.16.2015::15:19:32;
 							- strongCGTime = 8.1.2014::18:20:24;
 							- _defaultComposite = GUID 9fe7f6b9-2981-49b3-9ccd-bf1172872021;
 							- _eventsBaseID = -1;
@@ -37285,7 +37285,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 							- _configurationRelatedTime = 8.1.2014::16:40:53;
 						}
 					}
-					- weakCGTime = 2.12.2015::20:41:18;
+					- weakCGTime = 2.16.2015::15:19:33;
 					- strongCGTime = 6.9.2014::14:34:51;
 					- _defaultComposite = GUID f0bda8dd-70a6-43c0-a98a-ceeecc279ff9;
 					- _eventsBaseID = -1;
@@ -41061,7 +41061,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 					- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
 					- _myState = 8192;
 					- _name = "SE Life Cycle Workflow Use Cases";
-					- _modifiedTimeWeak = 2.12.2015::20:21:15;
+					- _modifiedTimeWeak = 2.12.2015::20:41:35;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -43887,7 +43887,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 							- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
 							- _myState = 8192;
 							- _name = "Actors";
-							- _modifiedTimeWeak = 2.12.2015::20:21:15;
+							- _modifiedTimeWeak = 2.12.2015::20:41:35;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -44185,7 +44185,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 										}
 									}
 									- _modifiedTimeWeak = 1.2.1990::0:0:0;
-									- _lastModifiedTime = "2.12.2015::20:21:15";
+									- _lastModifiedTime = "2.16.2015::15:51:1";
 									- _graphicChart = { CGIClassChart 
 										- _id = GUID 7cc8a4c8-63ea-4dd6-b694-8253828ea795;
 										- m_type = 0;
@@ -88454,7 +88454,7 @@ John Watson, 8/24/2014\\par
 					- _configurationRelatedTime = 8.1.2014::20:56:37;
 				}
 			}
-			- weakCGTime = 2.12.2015::20:41:18;
+			- weakCGTime = 2.16.2015::15:19:38;
 			- strongCGTime = 6.9.2014::14:34:51;
 			- _defaultComposite = GUID 2509bcdc-191a-402b-a19c-86c64ba04d5c;
 			- _eventsBaseID = -1;
@@ -88478,7 +88478,7 @@ John Watson, 8/24/2014\\par
 			- _configurationRelatedTime = 6.10.2014::15:13:23;
 		}
 	}
-	- weakCGTime = 2.12.2015::20:41:18;
+	- weakCGTime = 2.16.2015::15:19:38;
 	- strongCGTime = 6.9.2014::14:34:51;
 	- _defaultComposite = GUID 297a057e-07b1-4fdc-84a1-a9df6c8312bf;
 	- _eventsBaseID = -1;
@@ -88489,8 +88489,8 @@ John Watson, 8/24/2014\\par
 			- _id = GUID 297a057e-07b1-4fdc-84a1-a9df6c8312bf;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 2.12.2015::17:0:43;
-			- weakCGTime = 2.12.2015::17:0:43;
+			- _modifiedTimeWeak = 2.12.2015::20:41:18;
+			- weakCGTime = 2.12.2015::20:41:18;
 			- strongCGTime = 6.9.2014::14:34:51;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
