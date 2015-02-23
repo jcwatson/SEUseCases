@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 2.23.2015::12:22:22;
+	- _modifiedTimeWeak = 2.23.2015::14:27:47;
 	- _lastID = 27;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
@@ -1583,7 +1583,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _id = GUID 3a04fbcd-2fe6-42da-b48b-82a46d0ca9a2;
 			- _myState = 8192;
 			- _name = "Definitions";
-			- _modifiedTimeWeak = 2.17.2015::19:41:53;
+			- _modifiedTimeWeak = 2.23.2015::14:27:47;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
@@ -2048,7 +2048,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "2.17.2015::19:41:53";
+					- _lastModifiedTime = "2.23.2015::14:29:27";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 473c149b-73ed-4d35-9577-ba7388012652;
 						- m_type = 0;
@@ -3236,7 +3236,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 					}
 				}
 			}
-			- weakCGTime = 2.17.2015::19:41:53;
+			- weakCGTime = 2.23.2015::14:27:47;
 			- strongCGTime = 7.29.2014::21:23:19;
 			- AssociationElements = { IRPYRawContainer 
 				- size = 2;
@@ -3756,7 +3756,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 2.17.2015::19:41:53;
+					- _modifiedTimeWeak = 2.23.2015::14:27:47;
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f1\\fnil\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\f0\\fs24 Product Development System (PDS) is the system used to provide an integrated environment of tools and capabilities required to develop products that are systems.  This includes the environment for systems engineering, software design and implementation engineering, mechanical design and implementation engineering, electrical design and implementation engineering and interfaces to external domains including manufacturing support and product management.\\f1\\fs20\\par
@@ -4103,7 +4103,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "2.17.2015::19:41:53";
+							- _lastModifiedTime = "2.23.2015::14:31:3";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 022a40de-f2b9-401e-97e7-c4098dc15440;
 								- m_type = 0;
@@ -5526,114 +5526,6 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 									}
 								}
 								{ CGIObjectInstance 
-									- _id = GUID 86f09ea2-7c5f-4c77-9c5e-27251e959b97;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "ShowLabels";
-																- _Value = "True";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 111;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IPart";
-										- _filename = "System_Engineering_Operations.sbs";
-										- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure";
-										- _class = "Product Development Domian";
-										- _name = "PM";
-										- _id = GUID b5f3fb33-fd86-443a-8a21-6357ed35f6aa;
-									}
-									- m_pParent = GUID db0ef2c9-7e55-4066-883e-b71353e49ec2;
-									- m_name = { CGIText 
-										- m_str = "PM";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 5;
-									}
-									- m_drawBehavior = 2816;
-									- m_transform = 0.0849858 0 0 0.0374332 53.83 113.684 ;
-									- m_bIsPreferencesInitialized = 1;
-									- m_bIsMisplaced = 1;
-									- m_AdditionalLabel = { CGIText 
-										- m_str = "";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 1;
-									}
-									- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
-									- m_nNameFormat = 0;
-									- m_nIsNameFormat = 0;
-									- Compartments = { IRPYRawContainer 
-										- size = 2;
-										- value = 
-										{ CGICompartment 
-											- _id = GUID c38b5d51-baee-48c4-9882-2e447c35670c;
-											- m_name = "Attribute";
-											- m_displayOption = Public;
-											- m_bShowInherited = 0;
-											- m_bOrdered = 0;
-										}
-										{ CGICompartment 
-											- _id = GUID 7b42f639-123c-41f8-a89d-b1f7d6b499f7;
-											- m_name = "Operation";
-											- m_displayOption = Public;
-											- m_bShowInherited = 0;
-											- m_bOrdered = 0;
-										}
-									}
-									- Attrs = { IRPYRawContainer 
-										- size = 0;
-									}
-									- Operations = { IRPYRawContainer 
-										- size = 0;
-									}
-									- m_multiplicity = { CGIText 
-										- m_str = "1";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-								}
-								{ CGIObjectInstance 
 									- _id = GUID 5fdd2122-a10c-4c1d-adbd-06d67da1cfd1;
 									- _properties = { IPropertyContainer 
 										- Subjects = { IRPYRawContainer 
@@ -5847,6 +5739,114 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 									}
 									- m_multiplicity = { CGIText 
 										- m_str = "*";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+								}
+								{ CGIObjectInstance 
+									- _id = GUID 86f09ea2-7c5f-4c77-9c5e-27251e959b97;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "ShowLabels";
+																- _Value = "True";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 111;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IPart";
+										- _filename = "System_Engineering_Operations.sbs";
+										- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure";
+										- _class = "Product Development Domian";
+										- _name = "PM";
+										- _id = GUID b5f3fb33-fd86-443a-8a21-6357ed35f6aa;
+									}
+									- m_pParent = GUID db0ef2c9-7e55-4066-883e-b71353e49ec2;
+									- m_name = { CGIText 
+										- m_str = "PM";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 5;
+									}
+									- m_drawBehavior = 2816;
+									- m_transform = 0.0849858 0 0 0.0374332 53.83 113.684 ;
+									- m_bIsPreferencesInitialized = 1;
+									- m_bIsMisplaced = 1;
+									- m_AdditionalLabel = { CGIText 
+										- m_str = "";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 1;
+									}
+									- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+									- m_nNameFormat = 0;
+									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 2;
+										- value = 
+										{ CGICompartment 
+											- _id = GUID c38b5d51-baee-48c4-9882-2e447c35670c;
+											- m_name = "Attribute";
+											- m_displayOption = Public;
+											- m_bShowInherited = 0;
+											- m_bOrdered = 0;
+										}
+										{ CGICompartment 
+											- _id = GUID 7b42f639-123c-41f8-a89d-b1f7d6b499f7;
+											- m_name = "Operation";
+											- m_displayOption = Public;
+											- m_bShowInherited = 0;
+											- m_bOrdered = 0;
+										}
+									}
+									- Attrs = { IRPYRawContainer 
+										- size = 0;
+									}
+									- Operations = { IRPYRawContainer 
+										- size = 0;
+									}
+									- m_multiplicity = { CGIText 
+										- m_str = "1";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -6100,7 +6100,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							}
 						}
 					}
-					- weakCGTime = 2.17.2015::19:41:53;
+					- weakCGTime = 2.23.2015::14:27:47;
 					- strongCGTime = 7.29.2014::21:24:8;
 					- Attrs = { IRPYRawContainer 
 						- size = 1;
@@ -6734,7 +6734,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _name = "Conceptual Model Definitions";
 		}
 	}
-	- weakCGTime = 2.23.2015::12:22:22;
+	- weakCGTime = 2.23.2015::14:27:47;
 	- strongCGTime = 7.23.2014::14:9:53;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
