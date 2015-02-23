@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.11.0 C++ 8254044
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 	- _id = GUID 05588822-7236-45c4-b727-2fbd5378a502;
 	- _myState = 8192;
 	- _name = "Dick W";
-	- _modifiedTimeWeak = 2.17.2015::19:28:37;
+	- _modifiedTimeWeak = 2.23.2015::12:22:59;
 	- _lastID = 1;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -422,7 +422,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			}
 			- _name = "Exploratory and Concept Stage Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "2.17.2015::19:28:37";
+			- _lastModifiedTime = "2.23.2015::12:22:59";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 9227a255-ea1e-4c5d-8342-1e054720c7a1;
 				- m_type = 0;
@@ -2154,7 +2154,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.0360111 0 0 0.0577933 450.662 115.436 ;
+					- m_transform = 0.0360111 0 0 0.0577933 455.662 109.436 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2350,7 +2350,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			}
 		}
 	}
-	- weakCGTime = 2.17.2015::19:28:37;
+	- weakCGTime = 2.23.2015::12:22:59;
 	- strongCGTime = 2.17.2015::19:28:37;
 	- _defaultComposite = GUID 0286d2b2-f0e4-4e6c-a7a1-de1e35a0a3a0;
 	- _eventsBaseID = -1;
@@ -2364,7 +2364,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _modifiedTimeWeak = 2.17.2015::19:28:37;
 			- _lastID = 1;
 			- weakCGTime = 2.17.2015::19:28:37;
-			- strongCGTime = 1.12.2015::12:43:1;
+			- strongCGTime = 2.17.2015::19:28:37;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 
 				- size = 2;
@@ -7501,7 +7501,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 						}
 					}
 					- _version = 2.17.2015::12:28:37;
-					- _baseVersion = 12.31.1969::17:0:0;
+					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = GUID ae32b263-acc5-4e2d-8c55-6ae592685135;
 					- Views = { IRPYRawContainer 
 						- size = 1;

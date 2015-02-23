@@ -1,9 +1,9 @@
-I-Logix-RPY-Archive version 8.11.0 C++ 8254044
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 2.17.2015::19:41:53;
+	- _modifiedTimeWeak = 2.23.2015::12:22:22;
 	- _lastID = 27;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
@@ -71,7 +71,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					}
 				}
 			}
-			- _modifiedTimeWeak = 12.22.2014::21:2:10;
+			- _modifiedTimeWeak = 2.23.2015::12:22:22;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
@@ -389,7 +389,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "12.22.2014::21:2:16";
+					- _lastModifiedTime = "2.23.2015::12:22:22";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 8486e5a0-99f0-4f38-a3d5-af59bc2d7c31;
 						- m_type = 0;
@@ -649,7 +649,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4102;
-							- m_transform = 0.11898 0 0 0.0427807 257.762 105.925 ;
+							- m_transform = 0.11898 0 0 0.0427807 245.762 87.925 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -1293,7 +1293,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 					}
 				}
 			}
-			- weakCGTime = 12.22.2014::21:2:10;
+			- weakCGTime = 2.23.2015::12:22:22;
 			- strongCGTime = 7.29.2014::21:22:24;
 			- _defaultComposite = GUID 127fe8ad-766e-481f-9586-c51b83b7a23d;
 			- _eventsBaseID = -1;
@@ -6734,7 +6734,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _name = "Conceptual Model Definitions";
 		}
 	}
-	- weakCGTime = 2.17.2015::19:41:53;
+	- weakCGTime = 2.23.2015::12:22:22;
 	- strongCGTime = 7.23.2014::14:9:53;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
@@ -6745,8 +6745,8 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _id = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 2.4.2015::17:49:4;
-			- weakCGTime = 2.4.2015::17:49:4;
+			- _modifiedTimeWeak = 2.17.2015::19:41:53;
+			- weakCGTime = 2.17.2015::19:41:53;
 			- strongCGTime = 7.23.2014::14:9:53;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

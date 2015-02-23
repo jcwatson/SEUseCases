@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.11.0 C++ 8254044
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { IProject 
 	- _id = GUID d84478ea-c8fb-444f-aecc-3acdf582da60;
 	- _myState = 8192;
@@ -1171,8 +1171,8 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 1.19.2015::19:58:24;
-	- _lastID = 28;
+	- _modifiedTimeWeak = 2.23.2015::12:24:42;
+	- _lastID = 29;
 	- _unitSccProjName = "ClearCase";
 	- _unitSccProjPath = "ClearCase";
 	- _UserColors = { IRPYRawContainer 
@@ -1325,9 +1325,33 @@ I-Logix-RPY-Archive version 8.11.0 C++ 8254044
 			- _id = GUID 2d884707-2787-40bd-b7e2-e74c48aa8db8;
 			- _isReference = 1;
 		}
-		{ IProfile 
-			- fileName = "CGCompatibilityPre812Cpp";
-			- _id = GUID 3026d3ea-02b4-49ae-b086-6982c27412f0;
+		{ ISubsystem 
+			- _id = GUID af2b6f5f-c94a-45b7-a689-95ca444007a0;
+			- _myState = 8192;
+			- _name = "Temp";
+			- _modifiedTimeWeak = 2.23.2015::12:24:46;
+			- weakCGTime = 2.23.2015::12:24:46;
+			- strongCGTime = 2.23.2015::12:24:46;
+			- _defaultComposite = GUID 76911e3c-4590-470f-904e-31a8cdca6c54;
+			- _eventsBaseID = -1;
+			- Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IClass 
+					- _id = GUID 76911e3c-4590-470f-904e-31a8cdca6c54;
+					- _myState = 40960;
+					- _name = "TopLevel";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- weakCGTime = 1.2.1990::0:0:0;
+					- strongCGTime = 1.2.1990::0:0:0;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+			}
+			- _configurationRelatedTime = 12.31.1969::19:0:0;
 		}
 	}
 	- Diagrams = { IRPYRawContainer 
