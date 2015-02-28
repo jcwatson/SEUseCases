@@ -11,10 +11,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 05588822-7236-45c4-b727-2fbd5378a502;
 	- _myState = 8192;
 	- _name = "Dick W";
-	- _modifiedTimeWeak = 2.23.2015::12:22:59;
-	- _lastID = 1;
+	- _modifiedTimeWeak = 2.28.2015::19:27:34;
+	- _lastID = 5;
 	- Declaratives = { IRPYRawContainer 
-		- size = 1;
+		- size = 3;
 		- value = 
 		{ IUCDiagram 
 			- _id = GUID fd3372a7-55f2-4ecb-b1b0-ea9d599363c2;
@@ -2349,8 +2349,49 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				- _id = GUID 05588822-7236-45c4-b727-2fbd5378a502;
 			}
 		}
+		{ IStereotype 
+			- _id = GUID f2973b63-12f2-40be-a25d-ef197bfcd4a5;
+			- _myState = 8192;
+			- _name = "FunctionalReq";
+			- _modifiedTimeWeak = 2.28.2015::19:27:34;
+			- _description = { IDescription 
+				- _text = "Applied to what a system must do: function, operation, etc.";
+			}
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Requirement"; 
+			}
+		}
+		{ IStereotype 
+			- _id = GUID e50c21b5-e7a1-4646-a878-3784b9adbe7c;
+			- _myState = 8192;
+			- _name = "NonFunctionalReq";
+			- _modifiedTimeWeak = 2.28.2015::19:26:28;
+			- Tags = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ITag 
+					- _id = GUID a4fb3198-fa9b-4f7a-85f1-38ae3f424057;
+					- _myState = 8192;
+					- _name = "NFRequirementKind";
+					- _modifiedTimeWeak = 2.28.2015::19:26:28;
+					- _description = { IDescription 
+						- _text = "Categories of non-functional requirements";
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _id = GUID 0353419a-da51-4436-98e2-a0263f0a7889;
+					}
+					- _isOrdered = 0;
+				}
+			}
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Requirement"; 
+			}
+		}
 	}
-	- weakCGTime = 2.23.2015::12:22:59;
+	- weakCGTime = 2.28.2015::19:27:34;
 	- strongCGTime = 2.17.2015::19:28:37;
 	- _defaultComposite = GUID 0286d2b2-f0e4-4e6c-a7a1-de1e35a0a3a0;
 	- _eventsBaseID = -1;
@@ -2361,9 +2402,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 0286d2b2-f0e4-4e6c-a7a1-de1e35a0a3a0;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 2.17.2015::19:28:37;
+			- _modifiedTimeWeak = 2.23.2015::12:22:59;
 			- _lastID = 1;
-			- weakCGTime = 2.17.2015::19:28:37;
+			- weakCGTime = 2.23.2015::12:22:59;
 			- strongCGTime = 2.17.2015::19:28:37;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 
@@ -7781,6 +7822,118 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 				- _m2Class = "";
 			}
 			- _classModifier = Unspecified;
+		}
+	}
+	- Types = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IType 
+			- _id = GUID 0353419a-da51-4436-98e2-a0263f0a7889;
+			- _myState = 8192;
+			- _name = "NonFunctionalRequirementKind";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "DataType";
+					- _id = GUID 39bf6572-6f61-4cbf-b651-64241e075688;
+				}
+			}
+			- _modifiedTimeWeak = 2.28.2015::19:18:51;
+			- _lastID = 14;
+			- Literals = { IRPYRawContainer 
+				- size = 14;
+				- value = 
+				{ IEnumerationLiteral 
+					- _id = GUID 6af56ed9-34c2-41f3-b269-7d67bd558f51;
+					- _name = "Performance";
+					- _modifiedTimeWeak = 2.28.2015::19:15:51;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 02f9e5e6-4110-4133-978a-242c8c62dba6;
+					- _name = "Scalability";
+					- _modifiedTimeWeak = 2.28.2015::19:16:2;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 9f6eba8b-a58e-446f-9d76-c4870e7abe90;
+					- _name = "Capacity";
+					- _modifiedTimeWeak = 2.28.2015::19:16:11;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 22fa2ab8-8c18-4cdc-a506-018fd298d577;
+					- _name = "Availability";
+					- _modifiedTimeWeak = 2.28.2015::19:16:32;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 17799975-8024-4766-bf63-1a1772ca5715;
+					- _name = "Reliability";
+					- _modifiedTimeWeak = 2.28.2015::19:16:40;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 74f3545b-6172-48d2-a939-08953e8273eb;
+					- _name = "Recoverability";
+					- _modifiedTimeWeak = 2.28.2015::19:16:47;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 5c460588-6e58-4e75-860d-8781fe75e2f1;
+					- _name = "Maintainability";
+					- _modifiedTimeWeak = 2.28.2015::19:16:57;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 98949e6d-a063-4480-9414-79cbe9ed1bf3;
+					- _name = "Servicability";
+					- _modifiedTimeWeak = 2.28.2015::19:17:17;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID f7246795-80f7-4906-b695-5c972def0059;
+					- _name = "Security";
+					- _modifiedTimeWeak = 2.28.2015::19:17:24;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 961f6d18-f6d2-46fa-ad08-00af6be0d6ae;
+					- _name = "Manageability";
+					- _modifiedTimeWeak = 2.28.2015::19:17:43;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 3c68b1d5-46d3-49d7-a246-69004cce722d;
+					- _name = "Environmental";
+					- _modifiedTimeWeak = 2.28.2015::19:18:12;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 59fde1c8-128f-4cbf-ad44-09253d7d36b7;
+					- _name = "DataIntegrity";
+					- _modifiedTimeWeak = 2.28.2015::19:18:26;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID f48538c6-5645-4067-ae8a-3422c2b9ff0c;
+					- _name = "Usability";
+					- _modifiedTimeWeak = 2.28.2015::19:18:32;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID 52b04504-49cc-453e-b0ef-91296130a7d1;
+					- _name = "Interoperabilty";
+					- _modifiedTimeWeak = 2.28.2015::19:18:41;
+					- _value = "";
+				}
+			}
+			- _kind = Enumeration;
 		}
 	}
 	- _configurationRelatedTime = 1.2.1990::0:0:0;
