@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 05588822-7236-45c4-b727-2fbd5378a502;
 	- _myState = 8192;
 	- _name = "Dick W";
-	- _modifiedTimeWeak = 2.28.2015::19:27:34;
+	- _modifiedTimeWeak = 3.2.2015::16:21:10;
 	- _lastID = 5;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
@@ -2391,7 +2391,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 2.28.2015::19:27:34;
+	- weakCGTime = 3.2.2015::16:21:10;
 	- strongCGTime = 2.17.2015::19:28:37;
 	- _defaultComposite = GUID 0286d2b2-f0e4-4e6c-a7a1-de1e35a0a3a0;
 	- _eventsBaseID = -1;
@@ -2402,9 +2402,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 0286d2b2-f0e4-4e6c-a7a1-de1e35a0a3a0;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 2.23.2015::12:22:59;
+			- _modifiedTimeWeak = 2.28.2015::19:27:34;
 			- _lastID = 1;
-			- weakCGTime = 2.23.2015::12:22:59;
+			- weakCGTime = 2.28.2015::19:27:34;
 			- strongCGTime = 2.17.2015::19:28:37;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 
@@ -7843,10 +7843,10 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 					- _id = GUID 39bf6572-6f61-4cbf-b651-64241e075688;
 				}
 			}
-			- _modifiedTimeWeak = 2.28.2015::19:18:51;
-			- _lastID = 14;
+			- _modifiedTimeWeak = 3.2.2015::16:21:10;
+			- _lastID = 15;
 			- Literals = { IRPYRawContainer 
-				- size = 14;
+				- size = 15;
 				- value = 
 				{ IEnumerationLiteral 
 					- _id = GUID 6af56ed9-34c2-41f3-b269-7d67bd558f51;
@@ -7930,6 +7930,12 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 					- _id = GUID 52b04504-49cc-453e-b0ef-91296130a7d1;
 					- _name = "Interoperabilty";
 					- _modifiedTimeWeak = 2.28.2015::19:18:41;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID e2ff8e73-2027-44f6-8674-5e220da1961b;
+					- _name = "Safety";
+					- _modifiedTimeWeak = 3.2.2015::16:21:10;
 					- _value = "";
 				}
 			}
