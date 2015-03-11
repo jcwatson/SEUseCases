@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 020784e3-4e45-4ed8-be41-43ceab262ad6;
 	- _myState = 8192;
 	- _name = "John W";
-	- _modifiedTimeWeak = 3.11.2015::13:41:43;
+	- _modifiedTimeWeak = 3.11.2015::15:5:14;
 	- EmbededFiles = { IRPYRawContainer 
 		- size = 1;
 		- value = 
@@ -2106,7 +2106,7 @@ These informational threads allow us to: \\par
 			- _id = GUID 07a0630b-566b-4efe-891d-b365d5c76783;
 			- _myState = 8192;
 			- _name = "Analyze Stakeholder Needs Artifacts";
-			- _modifiedTimeWeak = 3.11.2015::13:41:43;
+			- _modifiedTimeWeak = 3.11.2015::15:5:14;
 			- _lastID = 2;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -2350,7 +2350,7 @@ These informational threads allow us to: \\par
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "3.11.2015::13:44:41";
+					- _lastModifiedTime = "3.11.2015::15:5:44";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID e0d5849a-abaa-4a9e-abf6-a35c5f64bc10;
 						- m_type = 0;
@@ -5520,7 +5520,7 @@ These informational threads allow us to: \\par
 					}
 				}
 			}
-			- weakCGTime = 3.11.2015::13:41:43;
+			- weakCGTime = 3.11.2015::15:5:14;
 			- strongCGTime = 3.11.2015::13:41:43;
 			- _defaultComposite = GUID 2645246f-821e-4f2a-a0f4-148c87440aee;
 			- _eventsBaseID = -1;
@@ -5545,7 +5545,7 @@ These informational threads allow us to: \\par
 					- _myState = 8192;
 					- _name = "Stakeholder Requirements Traceability";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -5555,8 +5555,16 @@ These informational threads allow us to: \\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:9:45;
+					- _modifiedTimeWeak = 3.11.2015::15:5:14;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -5627,8 +5635,8 @@ These informational threads allow us to: \\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.11.2015::13:9:45;
-					- strongCGTime = 3.11.2015::13:4:9;
+					- weakCGTime = 3.11.2015::15:5:14;
+					- strongCGTime = 3.11.2015::15:5:14;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -5640,7 +5648,7 @@ These informational threads allow us to: \\par
 					- _myState = 8192;
 					- _name = "Concept of Deployment";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -5650,8 +5658,16 @@ These informational threads allow us to: \\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:9:45;
+					- _modifiedTimeWeak = 3.11.2015::15:5:34;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -5692,8 +5708,8 @@ These informational threads allow us to: \\par
 							}
 						}
 					}
-					- weakCGTime = 3.11.2015::13:9:45;
-					- strongCGTime = 3.11.2015::12:10:37;
+					- weakCGTime = 3.11.2015::15:5:34;
+					- strongCGTime = 3.11.2015::15:5:34;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -5705,7 +5721,7 @@ These informational threads allow us to: \\par
 					- _myState = 8192;
 					- _name = "Concept of Operations";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -5715,8 +5731,16 @@ These informational threads allow us to: \\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:9:45;
+					- _modifiedTimeWeak = 3.11.2015::15:5:35;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -5801,8 +5825,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.11.2015::13:9:45;
-					- strongCGTime = 3.11.2015::12:19:58;
+					- weakCGTime = 3.11.2015::15:5:35;
+					- strongCGTime = 3.11.2015::15:5:35;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -5814,7 +5838,7 @@ operation, maintenance, and support personnel.\\par
 					- _myState = 8192;
 					- _name = "Concept of Support";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -5824,8 +5848,16 @@ operation, maintenance, and support personnel.\\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:9:45;
+					- _modifiedTimeWeak = 3.11.2015::15:5:36;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -5873,8 +5905,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.11.2015::13:9:45;
-					- strongCGTime = 3.11.2015::12:56:41;
+					- weakCGTime = 3.11.2015::15:5:36;
+					- strongCGTime = 3.11.2015::15:5:36;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -5886,7 +5918,7 @@ operation, maintenance, and support personnel.\\par
 					- _myState = 8192;
 					- _name = "Concept of Production";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -5896,8 +5928,16 @@ operation, maintenance, and support personnel.\\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:16:40;
+					- _modifiedTimeWeak = 3.11.2015::15:5:37;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -5945,8 +5985,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.11.2015::13:16:40;
-					- strongCGTime = 3.11.2015::13:16:40;
+					- weakCGTime = 3.11.2015::15:5:37;
+					- strongCGTime = 3.11.2015::15:5:37;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -5958,7 +5998,7 @@ operation, maintenance, and support personnel.\\par
 					- _myState = 8192;
 					- _name = "Measures of Effectiveness Needs";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -5968,8 +6008,16 @@ operation, maintenance, and support personnel.\\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:9:45;
+					- _modifiedTimeWeak = 3.11.2015::15:5:39;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -6049,8 +6097,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.11.2015::13:9:45;
-					- strongCGTime = 3.11.2015::13:0:6;
+					- weakCGTime = 3.11.2015::15:5:39;
+					- strongCGTime = 3.11.2015::15:5:39;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -6062,7 +6110,7 @@ operation, maintenance, and support personnel.\\par
 					- _myState = 8192;
 					- _name = "Stakeholder Requirements";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -6072,8 +6120,16 @@ operation, maintenance, and support personnel.\\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:16:25;
+					- _modifiedTimeWeak = 3.11.2015::15:5:40;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -6121,8 +6177,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.11.2015::13:16:25;
-					- strongCGTime = 3.11.2015::13:16:25;
+					- weakCGTime = 3.11.2015::15:5:40;
+					- strongCGTime = 3.11.2015::15:5:40;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -6134,7 +6190,7 @@ operation, maintenance, and support personnel.\\par
 					- _myState = 8192;
 					- _name = "Validation Criteria";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -6144,8 +6200,16 @@ operation, maintenance, and support personnel.\\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:9:45;
+					- _modifiedTimeWeak = 3.11.2015::15:5:41;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -6193,8 +6257,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.11.2015::13:9:45;
-					- strongCGTime = 3.11.2015::13:1:44;
+					- weakCGTime = 3.11.2015::15:5:41;
+					- strongCGTime = 3.11.2015::15:5:41;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -6206,7 +6270,7 @@ operation, maintenance, and support personnel.\\par
 					- _myState = 8192;
 					- _name = "MOE Data";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -6216,8 +6280,16 @@ operation, maintenance, and support personnel.\\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:18:15;
+					- _modifiedTimeWeak = 3.11.2015::15:5:42;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -6265,8 +6337,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.11.2015::13:18:15;
-					- strongCGTime = 3.11.2015::13:18:15;
+					- weakCGTime = 3.11.2015::15:5:42;
+					- strongCGTime = 3.11.2015::15:5:42;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -6278,7 +6350,7 @@ operation, maintenance, and support personnel.\\par
 					- _myState = 8192;
 					- _name = "Initial RVTM";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -6288,8 +6360,16 @@ operation, maintenance, and support personnel.\\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:18:21;
+					- _modifiedTimeWeak = 3.11.2015::15:5:43;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -6369,8 +6449,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.11.2015::13:18:21;
-					- strongCGTime = 3.11.2015::13:18:21;
+					- weakCGTime = 3.11.2015::15:5:43;
+					- strongCGTime = 3.11.2015::15:5:43;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -6382,7 +6462,7 @@ operation, maintenance, and support personnel.\\par
 					- _myState = 8192;
 					- _name = "Outputs Analyze Stakeholder Needs";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -6392,8 +6472,16 @@ operation, maintenance, and support personnel.\\par
 							- _name = "Definition";
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
 					}
-					- _modifiedTimeWeak = 3.11.2015::13:43:20;
+					- _modifiedTimeWeak = 3.11.2015::15:5:44;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -6464,8 +6552,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.11.2015::13:43:20;
-					- strongCGTime = 3.11.2015::13:9:24;
+					- weakCGTime = 3.11.2015::15:5:44;
+					- strongCGTime = 3.11.2015::15:5:44;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -6638,7 +6726,7 @@ operation, maintenance, and support personnel.\\par
 			- _configurationRelatedTime = 3.11.2015::13:7:45;
 		}
 	}
-	- weakCGTime = 3.11.2015::13:41:43;
+	- weakCGTime = 3.11.2015::15:5:14;
 	- strongCGTime = 11.17.2014::14:11:20;
 	- _defaultComposite = GUID f353f638-10b9-42f0-83ce-f1d5b78f6fba;
 	- _eventsBaseID = -1;

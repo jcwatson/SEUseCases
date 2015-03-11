@@ -1,0 +1,355 @@
+Subject General
+	Metaclass Graphics
+		Property grid_snap Bool "True"
+		Property grid_spacing_horizontal Double "0.0625"
+		Property grid_spacing_vertical Double "0.0625"
+		Property ShowLabels   Bool   "False"
+		Property ShowDiagramFrame Bool "True"
+		Property ShowCompartmentsTitle   Bool   "False"
+		Property StructureDiagramContext Enum "Default,ClassOwner" "ClassOwner"
+		Property AdditionalCompartments String ""
+		Property WrapNameCompartmentText Bool "True"
+	end
+	Metaclass Workspace
+        	Property OpenWindowsWhenLoadingProject  Bool  "True"
+		Property OpenDiagramWithLastPlacement  Bool  "False"
+	end	
+	Metaclass Model
+		Property NamesRegExp String "^(([a-zA-Z_\(][a-zA-Z0-9 _!@#$%^&-\)]*)|(operator.+))$"
+		Property HelpersFile String ""
+		Property AutoSaveInterval Int    "60"
+		Property DescriptionEditorSupportsRTF  Bool "True"
+		Property DescriptionEditor File "C:\\Program Files\\Microsoft Office\\OFFICE11\\WINWORD.EXE"
+		Property ClassIsSavedUnit  Bool   "False"
+		Property PackageIsSavedUnit		Bool	"False"
+		Property ComponentIsSavedUnit	Bool	"True"
+		Property DiagramIsSavedUnit		Bool	"False"
+		Property ObjectIsSavedUnit  Bool   "False"
+		Property FileIsSavedUnit  Bool   "False"
+		Property BlockIsSavedUnit  Bool   "False"
+		Property UndoBufferSize Int "40"
+		Property UnresolvedSymbol String "(Unres)"
+		Property CommonClassifiers String "InvalidDirectory"
+		Property DefaultDirectoryScheme Enum "Flat, PackageAsDirectory" "Flat"
+		Property ReferenceUnitPath Enum "Absolute, Relative" "Relative"
+		Property PathInProjectList Enum "Absolute, Relative" "Relative"
+		Property RenameUnusedFiles  Bool "True"
+		Property RenameUnusedFilesWith String ".deleted"
+	end
+	Metaclass Profile
+		Property Autocopied String ""
+		Property AutoReferences String ""
+	end
+end
+
+Subject Model
+	Metaclass Stereotype
+		Property RequirementNotation Enum "Note_Style,Box_Style" "Box_Style"
+		Property CommentNotation Enum "Note_Style,Box_Style" "Note_Style"
+		Property ConstraintNotation Enum "Note_Style,Box_Style" "Note_Style"		
+	end
+end
+
+Subject Browser
+	Metaclass Settings
+		Property DisplayMode Enum "Flat,Meta-class" "Flat"
+		Property ShowLabels Bool "False"
+		Property ShowOrder Bool "True"
+		Property ShowImplementationArgument Bool "True"
+	end
+end
+Subject Statechart
+	Metaclass StateDiagram
+		Property Fillcolor Color "255,255,255"
+	end
+	Metaclass Requirement
+		Property Compartments MultiLine ""
+		Property RequirementNotation Enum "Note_Style,Box_Style" "Note_Style"
+		Property ShowAnnotationContents Enum  "Name,Specification,Description,Label" "Name"
+		Property ShowForm Enum "Plain,Note,Pushpin" "Pushpin"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+end
+Subject ConfigurationManagement
+	Metaclass General
+		Property CMTool Enum "None,ClearCase,SourceIntegrity,PVCS" "ClearCase"
+		Property UseSCCtool Enum "Yes,No" "Yes"
+		Property DefaultLockReserveOnCheckOut Bool "False"
+		Property ReportLoadingError Enum "Output Window,Message Box, Both, None" "Both"
+		Property ToolCommandTimeOut Int "60000"
+		Property UseUnitTimeStamps Bool "True"
+	end
+	Metaclass ClearCase
+		Property Archive File ""
+		Property ArchiveSelection Enum "Directory,File,None" "Directory"
+		Property SaveOnCheckOut Bool "False"
+		Property UnLockItem String "cleartool uncheckout $UnitPath"
+		Property RenameActivation Enum  "Disable,UserConfirmation,Automatic" "UserConfirmation"
+		Property DeleteActivation Enum  "Disable,UserConfirmation,Automatic" "UserConfirmation"
+		Property MoveActivation Enum  "Disable,UserConfirmation,Automatic" "UserConfirmation"
+	end
+	Metaclass SCC
+		Property AddNewUnitsToArchiveDuringCheckin Bool "True"
+		Property DeleteActivation Enum  "Disable,UserConfirmation,Automatic" "UserConfirmation"
+		Property RenameActivation Enum  "Disable,UserConfirmation,Automatic" "UserConfirmation"
+		Property MoveActivation Enum  "Disable,UserConfirmation,Automatic" "UserConfirmation"
+	end
+end
+Subject ObjectModelGe
+	Metaclass ClassDiagram
+		Property Fillcolor Color "255,255,255"
+		Property TreeContainmentStyle Bool "True"
+	end
+	Metaclass Package
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+		Property Compartments MultiLine ""
+	end
+	Metaclass Class
+		Property ShowAttributes Enum "All,None,Public,Explicit" "None"
+		Property ShowOperations Enum "All,None,Public,Explicit" "None"
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowPorts Bool "False"
+		Property ShowPortsInterfaces Bool "False"
+	end
+	Metaclass Object
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowPorts Bool "True"
+		Property ShowPortsInterfaces Bool "False"
+		Property MultilineNameCompartment Bool "False"
+	end
+	Metaclass Aggregation
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows" "rectilinear_arrows"
+		Property ShowName Enum  "Name,Label,None" "None"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+		Property ShowSourceMultiplicity Bool "False"
+		Property ShowSourceQualifier Bool "True"
+		Property ShowSourceRole Bool "False"
+		Property ShowTargetMultiplicity Bool "True"
+		Property ShowTargetQualifier Bool "True"
+		Property ShowTargetRole Bool "True"
+	end
+	Metaclass UseCase
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+	end
+	Metaclass Actor
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+	end
+	Metaclass Requirement
+		Property Compartments MultiLine "ID, Specification"
+		Property RequirementNotation Enum "Note_Style,Box_Style" "Note_Style"
+		Property ShowAnnotationContents Enum  "Name,Specification,Description,Label" "Specification"
+		Property ShowForm Enum "Plain,Note,Pushpin" "Pushpin"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end	
+	Metaclass Composition
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows" "rectilinear_arrows"
+		Property ShowName Enum  "Name,Label,None" "Name"
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+		Property ShowSourceRole Bool "False"
+		Property ShowTargetRole Bool "True"
+		Property ShowSourceMultiplicity Bool "True"
+		Property ShowTargetMultiplicity Bool "True"
+		Property ShowSourceQualifier Bool "True"
+		Property ShowTargetQualifier Bool "True"
+		Property RepresentParts Bool "True"
+	end
+
+	Metaclass Inheritance
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows,tree" "tree"
+		Property ShowName Enum  "Name,Label,None" "None"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+	Metaclass flowPort
+		Property ShowName Enum "Name,NameAndType,Type,Label" "NameAndType"
+		Property ShowStereotype Enum "Label,None" "None"
+	end
+
+	Metaclass Link
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows" "rectilinear_arrows"
+		Property ShowName Enum  "Name,Label,None" "None"
+	end	
+
+
+end
+Subject UseCaseGe
+	Metaclass Actor
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+	end
+	Metaclass Association
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows" "straight_arrows"
+		Property ShowName Enum  "Name,Label,None" "None"
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+		Property ShowSourceRole Bool "False"
+		Property ShowTargetRole Bool "False"
+		Property ShowSourceMultiplicity Bool "False"
+		Property ShowTargetMultiplicity Bool "False"
+		Property ShowSourceQualifier Bool "False"
+		Property ShowTargetQualifier Bool "False"
+	end
+
+	Metaclass ClassDiagram
+		Property Fillcolor Color "255,255,255"
+	end
+	Metaclass Requirement
+		Property Compartments MultiLine ""
+		Property RequirementNotation Enum "Note_Style,Box_Style" "Note_Style"
+		Property ShowAnnotationContents Enum  "Name,Specification,Description,Label" "Name"
+		Property ShowForm Enum "Plain,Note,Pushpin" "Pushpin"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+	Metaclass UseCaseDiagram
+		Property Fillcolor Color "255,255,255"
+	end
+	Metaclass UseCase
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+		Property LabelsStyle Enum  "Caption,Default" "Caption"
+	end
+	Metaclass Package
+		Property Compartments MultiLine ""
+	end
+end
+Subject Activity_diagram
+	Metaclass StateDiagram
+		Property Fillcolor Color "255,255,255"
+	end
+	Metaclass General
+		Property DefaultMode Enum "Design,Analysis" "Analysis"
+		Property DeleteConfirmation  Enum  "Never,WhenNeeded,Always" "Never"
+	end
+	Metaclass Transition
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows" "rectilinear_arrows"
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+		Property ShowName Enum  "Name,Label,None" "Name"
+	end
+	Metaclass ObjectFlow
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows" "rectilinear_arrows"
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+		Property ShowName Enum  "Name,Label,None" "Name"
+	end
+	Metaclass ControlFlow	
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows" "rectilinear_arrows"
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+		Property ShowName Enum  "Name,Label,None" "Name"
+	end
+	Metaclass LoopTransition
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows" "rectilinear_arrows"
+	end
+	Metaclass Action
+		Property ShowName Enum "Name,Label,None" "Name"		
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+		Property ShowAction Enum "Action,Description,Label" "Action"
+	end
+	Metaclass ActionBlock
+		Property showName Enum "Name,Label,None" "Name"		
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+	end
+	Metaclass ActionPin
+		Property showName Enum "Name,NameAndType,Type,Label" "NameAndType"
+		Property ShowStereotype Enum "Label,None" "Label"
+	end
+	Metaclass ActivityParameter
+		Property ShowName Enum "Name,NameAndType,Type,Label" "NameAndType"	
+		Property ShowStereotype Enum "Label,None" "Label"
+	end
+	Metaclass Depends
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows" "rectilinear_arrows"
+	end
+	Metaclass DefaultTransition
+		Property line_style Enum "straight_arrows,rectilinear_arrows,spline_arrows" "rectilinear_arrows"
+	end
+	Metaclass ReferenceActivity
+		Property showName Enum "Name,Label,None" "Name"		
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+	Metaclass SubActivityState
+		Property showName Enum "Name,Label,None" "Label"		
+		Property ShowStereotype Enum "Label,Bitmap,None" "None"
+	end
+	Metaclass Requirement
+		Property Compartments MultiLine "ID, Specification"
+		Property RequirementNotation Enum "Note_Style,Box_Style" "Note_Style"
+		Property ShowAnnotationContents Enum  "Name,Specification,Description,Label" "Name"
+		Property ShowForm Enum "Plain,Note,Pushpin" "Pushpin"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Name_only"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+	Metaclass Swimlane
+		Property ShowName Enum "Represents,Name_only,Label,RepresentsOnly" "Represents"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+end
+
+
+Subject SequenceDiagram
+	Metaclass Comment
+		Property Compartments MultiLine ""
+		Property CommentNotation Enum "Note_Style,Box_Style" "Note_Style"
+		Property ShowAnnotationContents Enum  "Name,Description,Label" "Description"
+		Property ShowForm Enum "Plain,Note,Pushpin" "Note"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Relative"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+	Metaclass SequenceDiagram
+		Property Fillcolor Color "255,255,255"
+	end
+end
+Subject ComponentDiagram 
+	Metaclass ComponentDiagramGE
+		Property Fillcolor Color "255,255,255"
+	end
+	Metaclass Comment
+		Property Compartments MultiLine ""
+		Property CommentNotation Enum "Note_Style,Box_Style" "Note_Style"
+		Property ShowAnnotationContents Enum  "Name,Description,Label" "Description"
+		Property ShowForm Enum "Plain,Note,Pushpin" "Note"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Relative"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+
+end
+Subject DeploymentDiagram
+	Metaclass DeploymentDiagramGE
+		Property Fillcolor Color "255,255,255"
+	end
+	Metaclass Comment
+		Property Compartments MultiLine ""
+		Property CommentNotation Enum "Note_Style,Box_Style" "Note_Style"
+		Property ShowAnnotationContents Enum  "Name,Description,Label" "Description"
+		Property ShowForm Enum "Plain,Note,Pushpin" "Note"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Relative"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+end
+Subject Collaboration_Diagram
+	Metaclass Comment
+		Property Compartments MultiLine ""
+		Property CommentNotation Enum "Note_Style,Box_Style" "Note_Style"
+		Property ShowAnnotationContents Enum  "Name,Description,Label" "Description"
+		Property ShowForm Enum "Plain,Note,Pushpin" "Note"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Relative"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+	Metaclass CollaborationDiagramGE
+		Property Fillcolor Color "255,255,255"
+	end
+end
+Subject StructureDiagram
+	Metaclass Comment
+		Property Compartments MultiLine ""
+		Property CommentNotation Enum "Note_Style,Box_Style" "Note_Style"
+		Property ShowAnnotationContents Enum  "Name,Description,Label" "Description"
+		Property ShowForm Enum "Plain,Note,Pushpin" "Note"
+		Property ShowName Enum  "Full_path,Relative,Name_only,Label" "Relative"
+		Property ShowStereotype Enum "Label,Bitmap,None" "Label"
+	end
+end
