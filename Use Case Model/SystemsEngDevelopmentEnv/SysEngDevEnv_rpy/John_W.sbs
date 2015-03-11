@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 020784e3-4e45-4ed8-be41-43ceab262ad6;
 	- _myState = 8192;
 	- _name = "John W";
-	- _modifiedTimeWeak = 3.6.2015::14:27:59;
+	- _modifiedTimeWeak = 3.11.2015::12:10:37;
 	- EmbededFiles = { IRPYRawContainer 
 		- size = 1;
 		- value = 
@@ -20,12 +20,12 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _name = "TitlePageUC_Survey_copy.docx";
 			- _modifiedTimeWeak = 1.14.2015::13:49:38;
 			- _MayNeedToRelocate = 0;
-			- _LastKnownFullPath = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\TitlePageUC_Survey_copy.docx";
+			- _LastKnownFullPath = "C:\\Users\\watsonjc\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\TitlePageUC_Survey_copy.docx";
 		}
 	}
-	- _lastID = 2;
+	- _lastID = 3;
 	- Declaratives = { IRPYRawContainer 
-		- size = 2;
+		- size = 3;
 		- value = 
 		{ ISubsystem 
 			- _id = GUID d1189084-8d2c-44bd-be32-725a85df1721;
@@ -2102,8 +2102,238 @@ These informational threads allow us to: \\par
 			- _id = GUID 7283aeee-38c8-4576-b332-42d032b1a462;
 			- _name = "Analyze Stakeholders Needs";
 		}
+		{ ISubsystem 
+			- _id = GUID 07a0630b-566b-4efe-891d-b365d5c76783;
+			- _myState = 8192;
+			- _name = "Additions to Info Model";
+			- _modifiedTimeWeak = 3.11.2015::12:19:23;
+			- weakCGTime = 3.11.2015::12:19:23;
+			- strongCGTime = 3.11.2015::12:0:6;
+			- _defaultComposite = GUID 2645246f-821e-4f2a-a0f4-148c87440aee;
+			- _eventsBaseID = -1;
+			- Classes = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IClass 
+					- _id = GUID 2645246f-821e-4f2a-a0f4-148c87440aee;
+					- _myState = 40960;
+					- _name = "TopLevel";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- weakCGTime = 1.2.1990::0:0:0;
+					- strongCGTime = 1.2.1990::0:0:0;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID e97f0025-ffd9-4e3e-94d6-c2cd53a35a9c;
+					- _myState = 8192;
+					- _name = "Concept of Production";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 3.11.2015::12:18:46;
+					- _description = { IDescription 
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
+\\viewkind4\\uc1\\pard\\f0\\fs24 Describes the way the system will be manufactured, including any hazardous materials used in the process.\\f1\\fs17\\par
+}
+";
+					}
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 5d604ee6-4f4f-40c0-8224-0a09eca8dec0;
+							- _myState = 8192;
+							- _name = "RefSource";
+							- _modifiedTimeWeak = 3.11.2015::12:18:46;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID 77dcab50-5000-49bd-ab2b-63504d53124e;
+									- _modifiedTimeWeak = 3.11.2015::12:18:46;
+									- _value = " INCOSE Systems Engineering Handbook v.3.2.2, INCOSE-TP-2003-002-03.2.2, October 2011, Section 4.1";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpString";
+								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "SE_Dev_Profile.sbs";
+								- _subsystem = "SE_Dev_Profile";
+								- _class = "Definition";
+								- _name = "RefSource";
+								- _id = GUID 91045cc6-154c-4d09-b835-998aceb34bef;
+							}
+						}
+					}
+					- _lastID = 1;
+					- weakCGTime = 3.11.2015::12:18:46;
+					- strongCGTime = 3.11.2015::12:10:37;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID bc6e271a-41c0-49a4-962f-e9ec64d2ee8d;
+					- _myState = 8192;
+					- _name = "Concept of Deployment";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 3.11.2015::12:19:4;
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 4062a8af-cfec-4905-8f23-accd83e51f37;
+							- _myState = 8192;
+							- _name = "RefSource";
+							- _modifiedTimeWeak = 3.11.2015::12:19:4;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID 5036d687-5749-45de-90cb-9a43970677f6;
+									- _modifiedTimeWeak = 3.11.2015::12:19:4;
+									- _value = " INCOSE Systems Engineering Handbook v.3.2.2, INCOSE-TP-2003-002-03.2.2, October 2011, Section 4.1";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpString";
+								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "SE_Dev_Profile.sbs";
+								- _subsystem = "SE_Dev_Profile";
+								- _class = "Definition";
+								- _name = "RefSource";
+								- _id = GUID 91045cc6-154c-4d09-b835-998aceb34bef;
+							}
+						}
+					}
+					- weakCGTime = 3.11.2015::12:19:4;
+					- strongCGTime = 3.11.2015::12:10:37;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 23a80553-b92b-49e3-a339-1341769e1b69;
+					- _myState = 8192;
+					- _name = "Concept of Operations";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 3.11.2015::12:21:39;
+					- _description = { IDescription 
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Arial;}{\\f1\\fswiss\\fcharset0 Calibri-Italic;}{\\f2\\fswiss\\fcharset0 Calibri;}}
+{\\colortbl ;\\red0\\green0\\blue0;}
+\\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 Also know as \"ConOps\"\\cf0\\f1\\fs24  \\f2 - Describes the way the system\\par
+works from the operator\\rquote s perspective. The ConOps includes\\par
+the user description and summarizes the needs, goals, and\\par
+characteristics of the system\\rquote s user community. This includes\\par
+operation, maintenance, and support personnel.\\par
+}
+";
+					}
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 77f162da-3cb1-4275-b7cc-fac6fd474d18;
+							- _myState = 8192;
+							- _name = "RefSource";
+							- _modifiedTimeWeak = 3.11.2015::12:18:46;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID 43fbebed-c5ee-46de-9199-efe532d3d15d;
+									- _modifiedTimeWeak = 3.11.2015::12:18:46;
+									- _value = " INCOSE Systems Engineering Handbook v.3.2.2, INCOSE-TP-2003-002-03.2.2, October 2011, Section 4.1";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpString";
+								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "SE_Dev_Profile.sbs";
+								- _subsystem = "SE_Dev_Profile";
+								- _class = "Definition";
+								- _name = "RefSource";
+								- _id = GUID 91045cc6-154c-4d09-b835-998aceb34bef;
+							}
+						}
+					}
+					- _lastID = 1;
+					- weakCGTime = 3.11.2015::12:21:39;
+					- strongCGTime = 3.11.2015::12:19:58;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+			}
+			- _configurationRelatedTime = 12.31.1969::19:0:0;
+		}
 	}
-	- weakCGTime = 3.6.2015::14:27:59;
+	- weakCGTime = 3.11.2015::12:10:37;
 	- strongCGTime = 11.17.2014::14:11:20;
 	- _defaultComposite = GUID f353f638-10b9-42f0-83ce-f1d5b78f6fba;
 	- _eventsBaseID = -1;
@@ -2114,8 +2344,8 @@ These informational threads allow us to: \\par
 			- _id = GUID f353f638-10b9-42f0-83ce-f1d5b78f6fba;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 1.14.2015::18:56:36;
-			- weakCGTime = 1.14.2015::18:56:36;
+			- _modifiedTimeWeak = 3.6.2015::14:27:59;
+			- weakCGTime = 3.6.2015::14:27:59;
 			- strongCGTime = 11.17.2014::14:11:20;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

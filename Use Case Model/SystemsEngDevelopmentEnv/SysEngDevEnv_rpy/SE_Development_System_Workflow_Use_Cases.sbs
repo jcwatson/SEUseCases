@@ -817,7 +817,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 3.1.2015::5:43:8;
+	- _modifiedTimeWeak = 3.11.2015::12:31:4;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID bf097a8d-2c8d-4b22-8f23-fce72ebb39d0;
@@ -3223,7 +3223,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 								- _textType = "NAME";
 								- _target = { IHandle 
 									- _m2Class = "IDiagram";
-									- _filename = "";
+									- _filename = "Information_Model.sbs";
 									- _subsystem = "Information Model::Definitions";
 									- _class = "";
 									- _name = "Terminology and their Relationships";
@@ -4389,10 +4389,6 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 												- value = 
 												{ IHandle 
 													- _m2Class = "ITag";
-													- _filename = "";
-													- _subsystem = "Definition of Terms Table";
-													- _class = "";
-													- _name = "heading";
 													- _id = GUID 162e6706-ec13-4964-869e-e4bb31cc1cff;
 												}
 											}
@@ -4649,10 +4645,6 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 												- value = 
 												{ IHandle 
 													- _m2Class = "ITag";
-													- _filename = "";
-													- _subsystem = "Definition of Terms Table";
-													- _class = "";
-													- _name = "heading";
 													- _id = GUID 53347fd7-ef89-4c0d-aa96-a011550ffc9f;
 												}
 											}
@@ -4840,10 +4832,6 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 												- value = 
 												{ IHandle 
 													- _m2Class = "ITag";
-													- _filename = "";
-													- _subsystem = "Definition of Terms Table";
-													- _class = "";
-													- _name = "heading";
 													- _id = GUID ef80ad94-8c6d-4417-ba2d-37a459dea2c2;
 												}
 											}
@@ -6589,7 +6577,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 3.1.2015::5:43:8;
+			- _modifiedTimeWeak = 3.11.2015::12:31:4;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID bf097a8d-2c8d-4b22-8f23-fce72ebb39d0;
@@ -6833,7 +6821,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "3.1.2015::5:43:8";
+					- _lastModifiedTime = "3.11.2015::12:31:13";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 27b60378-cb41-430d-8ee9-c4e09f92371a;
 						- m_type = 0;
@@ -7401,7 +7389,7 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					}
 				}
 			}
-			- weakCGTime = 3.1.2015::5:43:8;
+			- weakCGTime = 3.11.2015::12:31:4;
 			- strongCGTime = 3.1.2015::5:39:27;
 			- _defaultComposite = GUID c776850f-d9dc-4880-8c0a-2c288d01f5b4;
 			- _eventsBaseID = -1;
@@ -31134,7 +31122,7 @@ Post Conditions\\b0  -\\par
 							- _name = "Industry Available Product Phases.jpg";
 							- _modifiedTimeWeak = 8.26.2014::12:28:25;
 							- _MayNeedToRelocate = 0;
-							- _LastKnownFullPath = "C:\\Users\\skygazer\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\Industry Available Product Phases.jpg";
+							- _LastKnownFullPath = "C:\\Users\\watsonjc\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\Industry Available Product Phases.jpg";
 						}
 					}
 					- _lastID = 1;
@@ -32620,7 +32608,7 @@ Post Conditions\\b0  -\\par
 			- _configurationRelatedTime = 3.12.2014::12:18:27;
 		}
 	}
-	- weakCGTime = 3.1.2015::5:43:8;
+	- weakCGTime = 3.11.2015::12:31:4;
 	- strongCGTime = 3.1.2015::5:39:27;
 	- _defaultComposite = GUID b5e6522c-4213-4f31-8750-48c4843ab519;
 	- _eventsBaseID = -1;
@@ -32631,8 +32619,8 @@ Post Conditions\\b0  -\\par
 			- _id = GUID b5e6522c-4213-4f31-8750-48c4843ab519;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.1.2015::5:39:27;
-			- weakCGTime = 3.1.2015::5:39:27;
+			- _modifiedTimeWeak = 3.1.2015::5:43:8;
+			- weakCGTime = 3.1.2015::5:43:8;
 			- strongCGTime = 3.1.2015::5:39:27;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

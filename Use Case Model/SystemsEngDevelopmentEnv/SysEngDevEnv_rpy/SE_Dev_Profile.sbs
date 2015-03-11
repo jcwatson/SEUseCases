@@ -28,7 +28,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- _name = "SE_Dev_Profile";
-	- _modifiedTimeWeak = 2.12.2015::19:36:56;
+	- _modifiedTimeWeak = 3.11.2015::12:28:14;
 	- _description = { IDescription 
 		- _text = "This profile is a default profile for a project or program.  The intent is to use a copy of this profile to capture those profile elements specific to a project or program.  The reason it is here is to solve a program level issue associated with sharing a common Property file across multiple models.  
 It does this by using the property in this profile called \"Model::Profile::PropertyFile\".  Here you can reference a file containing default properties that can be common to and shared across multiple models.  By using this technique, it overrides the Factory and site property files but not the project level.
@@ -157,9 +157,9 @@ Nov 10, 2008  Version: 01.02.01
 			- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 			- _myState = 8192;
 			- _name = "Definition";
-			- _modifiedTimeWeak = 1.20.2015::19:6:23;
+			- _modifiedTimeWeak = 3.11.2015::12:28:14;
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 5;
 				- value = 
 				{ ITag 
 					- _id = GUID dd989ee7-e736-4ae2-8908-17dc66de3535;
@@ -195,10 +195,12 @@ Nov 10, 2008  Version: 01.02.01
 					- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					- _myState = 8192;
 					- _name = "Number";
-					- _modifiedTimeWeak = 1.20.2015::19:6:23;
+					- _modifiedTimeWeak = 3.11.2015::12:16:1;
 					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fprq4\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs20 This is the \"Number\" column from the original draft 12 of the Concept Model Semantic Dictionary. The definitions are referred  to as an \\ldblquote ordered set\\rdblquote , and that both the ordering and numbering are of significance.  Higher numbered definitions tend to rely on lower numbered definitions. Therefore this field was included in the import.  \\par
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fprq4\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\f0\\fs20 This tag is used to provide an additiona reference to the definition, i.e. a paragraph number or a unique reference number forom the source document. \\par
+\\par
+For definitions originating from the Concept Model Semantic Dictionary, draft 12, this entry is from the \"Number\" column. The definitions are referred  to as an \\ldblquote ordered set\\rdblquote , and that both the ordering and numbering are of significance.  Higher numbered definitions tend to rely on lower numbered definitions. Therefore this field was included in the import.  \\par
 \\par
 }
 ";
@@ -213,8 +215,41 @@ Nov 10, 2008  Version: 01.02.01
 					}
 					- _isOrdered = 0;
 				}
+				{ ITag 
+					- _id = GUID 91045cc6-154c-4d09-b835-998aceb34bef;
+					- _myState = 8192;
+					- _name = "RefSource";
+					- _modifiedTimeWeak = 3.11.2015::12:9:47;
+					- _description = { IDescription 
+						- _text = "This tag provides a reference to the original source of information. ";
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+				}
+				{ ITag 
+					- _id = GUID d7864f58-2469-478e-b6fe-dcbdc6e53250;
+					- _myState = 8192;
+					- _name = "Acronym";
+					- _modifiedTimeWeak = 3.11.2015::12:28:14;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+				}
 			}
-			- _lastID = 3;
+			- _lastID = 5;
 			- _m2Classes = { IRPYRawContainer 
 				- size = 1;
 				- value = "Class"; 
@@ -343,7 +378,7 @@ Nov 10, 2008  Version: 01.02.01
 			}
 		}
 	}
-	- weakCGTime = 2.12.2015::19:36:56;
+	- weakCGTime = 3.11.2015::12:28:14;
 	- strongCGTime = 3.12.2014::15:28:38;
 	- _defaultComposite = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 	- _eventsBaseID = -1;
@@ -354,8 +389,8 @@ Nov 10, 2008  Version: 01.02.01
 			- _id = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 1.20.2015::19:6:23;
-			- weakCGTime = 1.20.2015::19:6:23;
+			- _modifiedTimeWeak = 2.12.2015::19:36:56;
+			- weakCGTime = 2.12.2015::19:36:56;
 			- strongCGTime = 3.12.2014::15:28:38;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
