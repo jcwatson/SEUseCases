@@ -28,14 +28,14 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- _name = "SE_Dev_Profile";
-	- _modifiedTimeWeak = 3.11.2015::12:28:14;
+	- _modifiedTimeWeak = 3.11.2015::12:54:56;
 	- _description = { IDescription 
 		- _text = "This profile is a default profile for a project or program.  The intent is to use a copy of this profile to capture those profile elements specific to a project or program.  The reason it is here is to solve a program level issue associated with sharing a common Property file across multiple models.  
 It does this by using the property in this profile called \"Model::Profile::PropertyFile\".  Here you can reference a file containing default properties that can be common to and shared across multiple models.  By using this technique, it overrides the Factory and site property files but not the project level.
 There is a default Property File available in the System Modeling CoE website that can be used as a default containing many of the settings to support the MSEM method.  The intent of providing this file is to avoid the programs needing to repeat the tedious process of creating it.  However, once copied, this can be tailored to meet the individual program practices.
 
 ****Please update the following fields each time this profile is modified************
-Version: 01.02.02
+Version: 01.03.00
 
 Change History:
 Jun 6, 2012  Version: 01.02.02
@@ -43,6 +43,10 @@ Jun 6, 2012  Version: 01.02.02
 
 Nov 10, 2008  Version: 01.02.01
 1. Updated Project_profile description field.
+
+Mar 11 2015 Version 01.03.00
+1,  Added \"acrontm\" Tag to the Definition Stereotype
+
 *********************************************************************************************";
 	}
 	- _lastID = 9;
@@ -378,7 +382,7 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 			}
 		}
 	}
-	- weakCGTime = 3.11.2015::12:28:14;
+	- weakCGTime = 3.11.2015::12:54:56;
 	- strongCGTime = 3.12.2014::15:28:38;
 	- _defaultComposite = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 	- _eventsBaseID = -1;
