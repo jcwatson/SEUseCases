@@ -824,7 +824,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- value = 
 							{ IProperty 
 								- _Name = "AutoSaveInterval";
-								- _Value = "60";
+								- _Value = "30";
 								- _Type = Int;
 							}
 							{ IProperty 
@@ -1171,7 +1171,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 2.23.2015::12:24:42;
+	- _modifiedTimeWeak = 3.11.2015::17:11:24;
 	- _lastID = 29;
 	- _unitSccProjName = "ClearCase";
 	- _unitSccProjPath = "ClearCase";
@@ -1200,7 +1200,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		- value = 
 		{ IMultiplicityItem 
 			- _name = "1";
-			- _count = 82;
+			- _count = 84;
 		}
 		{ IMultiplicityItem 
 			- _name = "*";
@@ -1351,7 +1351,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _classModifier = Unspecified;
 				}
 			}
-			- _configurationRelatedTime = 12.31.1969::19:0:0;
+			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
 	- Diagrams = { IRPYRawContainer 
