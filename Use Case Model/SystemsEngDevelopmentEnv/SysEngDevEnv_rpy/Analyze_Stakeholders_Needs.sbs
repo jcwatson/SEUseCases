@@ -11,10 +11,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 7283aeee-38c8-4576-b332-42d032b1a462;
 	- _myState = 8192;
 	- _name = "Analyze Stakeholders Needs";
-	- _modifiedTimeWeak = 3.11.2015::21:20:5;
+	- _modifiedTimeWeak = 3.13.2015::15:38:39;
 	- _lastID = 1;
-	- weakCGTime = 3.11.2015::21:38:41;
-	- strongCGTime = 3.11.2015::13:30:14;
+	- weakCGTime = 3.13.2015::15:38:39;
+	- strongCGTime = 3.12.2015::20:41:49;
 	- _defaultComposite = GUID f4098e74-c4d4-414b-890d-87d8210251cb;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
@@ -24,9 +24,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID f4098e74-c4d4-414b-890d-87d8210251cb;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.11.2015::21:38:41;
-			- weakCGTime = 3.11.2015::21:38:41;
-			- strongCGTime = 3.10.2015::18:11:8;
+			- _modifiedTimeWeak = 3.13.2015::15:38:39;
+			- weakCGTime = 3.13.2015::15:38:39;
+			- strongCGTime = 3.12.2015::20:41:49;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 
 				- size = 1;
@@ -35,9 +35,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID 405816a4-2457-409f-93c0-b11d72eae657;
 					- _myState = 8192;
 					- _name = "Analyze Stakeholders Needs Outputs";
-					- _modifiedTimeWeak = 3.11.2015::21:38:41;
+					- _modifiedTimeWeak = 3.13.2015::15:38:39;
 					- _lastID = 69;
-					- weakCGTime = 3.11.2015::21:38:41;
+					- weakCGTime = 3.13.2015::15:38:39;
 					- strongCGTime = 3.11.2015::13:30:14;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -832,13 +832,49 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 											- _id = GUID fe7a817d-e8f9-4f6d-ad0b-bbd338adfa1f;
 										}
 									}
-									- _modifiedTimeWeak = 12.22.2014::20:29:22;
+									- _modifiedTimeWeak = 3.13.2015::15:38:39;
 									- _description = { IDescription 
 										- _text = "Get more complete list artifacts obtained from customer, For example:
 1.  Customer Specification
 2.  Existing Mission analysis
 3.  Standards and regulatory documents
 4. Others? ";
+									}
+									- Tags = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ ITag 
+											- _id = GUID 9cea495d-ba0e-412a-b5c5-9353c9564dcb;
+											- _myState = 8192;
+											- _name = "Status";
+											- _modifiedTimeWeak = 3.13.2015::15:38:39;
+											- ValueSpecifications = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ ILiteralSpecification 
+													- _id = GUID a42a6ad4-ad22-4090-97e4-e45c4d3f43a7;
+													- _modifiedTimeWeak = 3.13.2015::15:38:39;
+													- _value = "Closed";
+												}
+											}
+											- _typeOf = { IHandle 
+												- _m2Class = "IType";
+												- _filename = "SE_Dev_Profile.sbs";
+												- _subsystem = "SE_Dev_Profile";
+												- _class = "";
+												- _name = "Status";
+												- _id = GUID 90b6fbf5-827c-4f55-8a62-f33e1094aa86;
+											}
+											- _isOrdered = 0;
+											- _base = { IHandle 
+												- _m2Class = "ITag";
+												- _filename = "SE_Dev_Profile.sbs";
+												- _subsystem = "SE_Dev_Profile";
+												- _class = "ModelIssue";
+												- _name = "Status";
+												- _id = GUID e2580a63-e0ee-4b21-ab35-6b9ec68f7538;
+											}
+										}
 									}
 									- _lastID = 2;
 									- _body = "";
@@ -974,7 +1010,7 @@ Also
 									}
 								}
 							}
-							- _modifiedTimeWeak = 3.11.2015::21:38:41;
+							- _modifiedTimeWeak = 3.13.2015::15:38:39;
 							- _parent = ;
 							- _defaultTrans = GUID f92491de-8b97-4d61-b02d-9be5b63582fd;
 						}
