@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 05588822-7236-45c4-b727-2fbd5378a502;
 	- _myState = 8192;
 	- _name = "Dick W";
-	- _modifiedTimeWeak = 3.16.2015::13:11:54;
+	- _modifiedTimeWeak = 3.16.2015::21:37:17;
 	- _lastID = 5;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
@@ -422,7 +422,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "Exploratory and Concept Stage Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "3.16.2015::13:11:54";
+			- _lastModifiedTime = "3.16.2015::21:37:17";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 9227a255-ea1e-4c5d-8342-1e054720c7a1;
 				- m_type = 0;
@@ -2353,7 +2353,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID f2973b63-12f2-40be-a25d-ef197bfcd4a5;
 			- _myState = 8192;
 			- _name = "FunctionalReq";
-			- _modifiedTimeWeak = 2.28.2015::19:27:34;
+			- _modifiedTimeWeak = 3.16.2015::21:20:42;
 			- _description = { IDescription 
 				- _text = "Applied to what a system must do: function, operation, etc.";
 			}
@@ -2366,7 +2366,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID e50c21b5-e7a1-4646-a878-3784b9adbe7c;
 			- _myState = 8192;
 			- _name = "NonFunctionalReq";
-			- _modifiedTimeWeak = 2.28.2015::19:26:28;
+			- _modifiedTimeWeak = 3.16.2015::21:20:42;
 			- Tags = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -2391,8 +2391,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 3.16.2015::13:11:54;
-	- strongCGTime = 2.17.2015::19:28:37;
+	- weakCGTime = 3.16.2015::21:37:17;
+	- strongCGTime = 3.16.2015::21:20:42;
 	- _defaultComposite = GUID 0286d2b2-f0e4-4e6c-a7a1-de1e35a0a3a0;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
@@ -2402,10 +2402,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 0286d2b2-f0e4-4e6c-a7a1-de1e35a0a3a0;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.2.2015::16:21:10;
+			- _modifiedTimeWeak = 3.16.2015::21:27:11;
 			- _lastID = 1;
-			- weakCGTime = 3.2.2015::16:21:10;
-			- strongCGTime = 2.17.2015::19:28:37;
+			- weakCGTime = 3.16.2015::21:27:11;
+			- strongCGTime = 3.16.2015::21:20:42;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 
 				- size = 2;
@@ -2414,9 +2414,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f5dd73e8-bf1a-4b67-b559-7c7f819f2c82;
 					- _myState = 8192;
 					- _name = "Plan a Response to a Customer Request";
-					- _modifiedTimeWeak = 1.12.2015::16:14:18;
+					- _modifiedTimeWeak = 3.16.2015::21:27:11;
 					- _lastID = 76;
-					- weakCGTime = 1.12.2015::16:14:18;
+					- weakCGTime = 3.16.2015::21:27:11;
 					- strongCGTime = 7.29.2014::19:56:51;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -3065,16 +3065,16 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						{ IPin 
 							- _id = GUID c2bf5c16-314f-4d7a-bdaf-ca6e41064ec8;
 							- _name = "prop";
-							- _modifiedTimeWeak = 1.10.2015::20:29:44;
+							- _modifiedTimeWeak = 3.16.2015::21:27:11;
 							- _parent = GUID 9f7e203d-bad4-4c20-83f5-88842d7608c6;
 							- _connectorType = InPin;
 							- m_type = { IHandle 
 								- _m2Class = "IClass";
 								- _filename = "Information_Model.sbs";
-								- _subsystem = "Information Model::Development Artifacts";
+								- _subsystem = "Information Model::Analyze Stakeholder Needs Artifacts";
 								- _class = "";
-								- _name = "Proposal Request";
-								- _id = GUID af7cc053-34ba-455e-babd-b84cc429dfeb;
+								- _name = "Inputs Analyze Needs";
+								- _id = GUID e35d6da6-5997-4cad-b245-da40c8c347b1;
 							}
 							- m_isParameterPin = 1;
 							- m_corePin = { IHandle 
@@ -3118,7 +3118,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- m_type = { IHandle 
 								- _m2Class = "IClass";
 								- _filename = "Information_Model.sbs";
-								- _subsystem = "Information Model::Development Artifacts";
+								- _subsystem = "Information Model::Analyze Stakeholder Needs Artifacts";
 								- _class = "";
 								- _name = "Conceptual System Architecture";
 								- _id = GUID 8021f75a-f2ff-4429-baa3-e6d4a6f369f0;
@@ -3137,7 +3137,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- m_type = { IHandle 
 								- _m2Class = "IClass";
 								- _filename = "Information_Model.sbs";
-								- _subsystem = "Information Model::Development Artifacts";
+								- _subsystem = "Information Model::Analyze Stakeholder Needs Artifacts";
 								- _class = "";
 								- _name = "Conceptual System Architecture";
 								- _id = GUID 8021f75a-f2ff-4429-baa3-e6d4a6f369f0;
@@ -3150,16 +3150,16 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						{ IPin 
 							- _id = GUID 2037ddbe-3b2b-495d-98a3-0e476967d7de;
 							- _name = "pin_62";
-							- _modifiedTimeWeak = 1.10.2015::20:31:40;
+							- _modifiedTimeWeak = 3.16.2015::21:26:54;
 							- _parent = GUID 858b982a-a1e7-4a27-8bf6-9979fcbf84c3;
 							- _connectorType = InPin;
 							- m_type = { IHandle 
 								- _m2Class = "IClass";
 								- _filename = "Information_Model.sbs";
-								- _subsystem = "Information Model::Development Artifacts";
+								- _subsystem = "Information Model::Analyze Stakeholder Needs Artifacts";
 								- _class = "";
-								- _name = "Proposal Request";
-								- _id = GUID af7cc053-34ba-455e-babd-b84cc429dfeb;
+								- _name = "Inputs Analyze Needs";
+								- _id = GUID e35d6da6-5997-4cad-b245-da40c8c347b1;
 							}
 							- m_isParameterPin = 0;
 							- m_corePin = { IHandle 
@@ -3475,7 +3475,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 							- _defaultTrans = ;
 						}
 					}
-					- _version = 1.12.2015::11:15:1;
+					- _version = 3.16.2015::17:27:12;
 					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = GUID d8309d8f-66fe-43c9-bc03-a4242c3f02ba;
 					- Views = { IRPYRawContainer 
@@ -4033,8 +4033,8 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 								}
 							}
 							- _name = "activitydiagram_0";
-							- _modifiedTimeWeak = 1.12.2015::16:14:18;
-							- _lastModifiedTime = "1.12.2015::16:15:1";
+							- _modifiedTimeWeak = 3.16.2015::21:26:54;
+							- _lastModifiedTime = "3.16.2015::21:27:15";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID 91625442-579e-4026-bc14-0ef5cbcd525d;
 								- m_type = 0;
@@ -4970,7 +4970,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 										- m_nOrientationCtrlPt = 8;
 									}
 									- m_drawBehavior = 524296;
-									- m_transform = 0.297265 0 0 0.154272 -8.05973 12.9362 ;
+									- m_transform = 0.297265 0 0 0.233202 -8.05973 11.5259 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_position = 4 0 0  0 36  55 36  55 0  ;
 									- m_pInheritsFrom = { IHandle 
@@ -7015,9 +7015,9 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 										- m_position = 4 -6 -9  122 -9  122 9  -6 9  ;
 										- m_nIdent = 0;
 										- m_bImplicitSetRectPoints = 1;
-										- m_transform = 0.671875 0 0 2.38889 39.0313 153.5 ;
+										- m_transform = 0.671875 0 0 3 39.0313 159 ;
 										- m_nHorizontalSpacing = -9;
-										- m_nVerticalSpacing = 42;
+										- m_nVerticalSpacing = 53;
 										- m_nOrientationCtrlPt = 4;
 									}
 									- m_drawBehavior = 524288;
@@ -7489,7 +7489,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
-									- m_SourcePort = 39 6 ;
+									- m_SourcePort = 39 10 ;
 									- m_TargetPort = 6 5 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -7814,9 +7814,9 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 1.12.2015::12:43:1;
-			- weakCGTime = 1.12.2015::12:43:1;
-			- strongCGTime = 1.12.2015::12:43:1;
+			- _modifiedTimeWeak = 3.16.2015::21:20:42;
+			- weakCGTime = 3.16.2015::21:20:42;
+			- strongCGTime = 3.16.2015::21:20:42;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -7843,7 +7843,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 					- _id = GUID 39bf6572-6f61-4cbf-b651-64241e075688;
 				}
 			}
-			- _modifiedTimeWeak = 3.2.2015::16:21:10;
+			- _modifiedTimeWeak = 3.16.2015::21:20:42;
 			- _lastID = 15;
 			- Literals = { IRPYRawContainer 
 				- size = 15;
