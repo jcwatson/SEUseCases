@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 3.16.2015::21:29:24;
+	- _modifiedTimeWeak = 3.22.2015::14:52:43;
 	- _lastID = 27;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -6489,7 +6489,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _id = GUID 07a0630b-566b-4efe-891d-b365d5c76783;
 			- _myState = 8192;
 			- _name = "Analyze Stakeholder Needs Artifacts";
-			- _modifiedTimeWeak = 3.16.2015::21:23:57;
+			- _modifiedTimeWeak = 3.22.2015::14:52:43;
 			- _lastID = 2;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -6888,7 +6888,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "3.16.2015::21:23:57";
+					- _lastModifiedTime = "3.22.2015::14:45:28";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID e0d5849a-abaa-4a9e-abf6-a35c5f64bc10;
 						- m_type = 0;
@@ -7079,7 +7079,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							}
 							- m_pParent = GUID 556e9fa9-6a5a-4d4a-8b41-55647385c87b;
 							- m_name = { CGIText 
-								- m_str = "Outputs Analyze Needs";
+								- m_str = "Analyze Needs Outputs";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -10107,7 +10107,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							}
 							- m_pParent = GUID 556e9fa9-6a5a-4d4a-8b41-55647385c87b;
 							- m_name = { CGIText 
-								- m_str = "Inputs Analyze Needs";
+								- m_str = "Analyze Needs Inputs";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -10996,7 +10996,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							}
 							- m_pParent = GUID 556e9fa9-6a5a-4d4a-8b41-55647385c87b;
 							- m_name = { CGIText 
-								- m_str = "Controls and Enablers Analyze Needs";
+								- m_str = "Analyze Needs Controls and Enablers";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -11056,7 +11056,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 					}
 				}
 			}
-			- weakCGTime = 3.16.2015::21:23:57;
+			- weakCGTime = 3.22.2015::14:52:43;
 			- strongCGTime = 3.16.2015::21:23:23;
 			- _defaultComposite = GUID 2645246f-821e-4f2a-a0f4-148c87440aee;
 			- _eventsBaseID = -1;
@@ -11905,14 +11905,14 @@ operation, maintenance, and support personnel.\\par
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
 					}
-					- _modifiedTimeWeak = 3.16.2015::21:20:4;
+					- _modifiedTimeWeak = 3.22.2015::14:52:43;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 					}
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri-Italic;}{\\f1\\fswiss\\fcharset0 Calibri;}{\\f2\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\i\\f0\\fs24 Initial Requirements Verification and Traceability Matrix - \\i0\\f1 A list of requirements, their verification attributes, and their traces.\\f2\\fs17\\par
+\\viewkind4\\uc1\\pard\\i\\f0\\fs24 Initial Requirements Verification and Traceability Matrix - \\i0\\f1 A list of requirements, their verification attributes, and traceability.\\f2\\fs17\\par
 }
 ";
 					}
@@ -11985,7 +11985,7 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.16.2015::21:20:4;
+					- weakCGTime = 3.22.2015::14:52:43;
 					- strongCGTime = 3.16.2015::21:20:4;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -11996,7 +11996,7 @@ operation, maintenance, and support personnel.\\par
 				{ IClass 
 					- _id = GUID 7691c28d-f8e4-4994-aca7-b20f55afd5d4;
 					- _myState = 8192;
-					- _name = "Outputs Analyze Needs";
+					- _name = "Analyze Needs Outputs";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -12017,7 +12017,7 @@ operation, maintenance, and support personnel.\\par
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
 					}
-					- _modifiedTimeWeak = 3.16.2015::21:20:4;
+					- _modifiedTimeWeak = 3.22.2015::14:45:3;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -12088,8 +12088,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.16.2015::21:20:4;
-					- strongCGTime = 3.16.2015::21:20:4;
+					- weakCGTime = 3.22.2015::14:45:3;
+					- strongCGTime = 3.22.2015::14:45:3;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -12257,7 +12257,7 @@ operation, maintenance, and support personnel.\\par
 				{ IClass 
 					- _id = GUID e35d6da6-5997-4cad-b245-da40c8c347b1;
 					- _myState = 8192;
-					- _name = "Inputs Analyze Needs";
+					- _name = "Analyze Needs Inputs";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -12278,7 +12278,7 @@ operation, maintenance, and support personnel.\\par
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
 					}
-					- _modifiedTimeWeak = 3.16.2015::21:20:4;
+					- _modifiedTimeWeak = 3.22.2015::14:44:51;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -12349,8 +12349,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.16.2015::21:20:4;
-					- strongCGTime = 3.16.2015::21:20:4;
+					- weakCGTime = 3.22.2015::14:44:51;
+					- strongCGTime = 3.22.2015::14:44:51;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -12564,7 +12564,7 @@ operation, maintenance, and support personnel.\\par
 				{ IClass 
 					- _id = GUID 1461e3b2-6a6b-4a1f-8a1b-aac6569dee6d;
 					- _myState = 8192;
-					- _name = "Controls and Enablers Analyze Needs";
+					- _name = "Analyze Needs Controls and Enablers";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -12585,7 +12585,7 @@ operation, maintenance, and support personnel.\\par
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
 					}
-					- _modifiedTimeWeak = 3.16.2015::21:20:4;
+					- _modifiedTimeWeak = 3.22.2015::14:45:28;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -12667,8 +12667,8 @@ operation, maintenance, and support personnel.\\par
 						}
 					}
 					- _lastID = 1;
-					- weakCGTime = 3.16.2015::21:20:4;
-					- strongCGTime = 3.16.2015::21:20:4;
+					- weakCGTime = 3.22.2015::14:45:28;
+					- strongCGTime = 3.22.2015::14:45:28;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -12807,7 +12807,7 @@ The CSA describes the basic concepts and approach of the actual system architect
 			- _configurationRelatedTime = 3.11.2015::13:7:45;
 		}
 	}
-	- weakCGTime = 3.16.2015::21:29:24;
+	- weakCGTime = 3.22.2015::14:52:43;
 	- strongCGTime = 2.23.2015::15:58:43;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
@@ -12818,8 +12818,8 @@ The CSA describes the basic concepts and approach of the actual system architect
 			- _id = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.11.2015::15:4:27;
-			- weakCGTime = 3.11.2015::15:4:27;
+			- _modifiedTimeWeak = 3.16.2015::21:29:24;
+			- weakCGTime = 3.16.2015::21:29:24;
 			- strongCGTime = 2.23.2015::15:58:43;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
