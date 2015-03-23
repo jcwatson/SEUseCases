@@ -4,7 +4,7 @@ The intent of capturing these use cases is to identify the capabilities and infr
 
 
 
-We have created an empty license.txt file for you. Well, actually, it says,
+Original Comments:We have created an empty license.txt file for you. Well, actually, it says,
 "<Replace this text with the license you've chosen for your project.>" We 
 recommend you edit this and include text for license terms under which you're
 making your code available. A good resource for open source licenses is the 
