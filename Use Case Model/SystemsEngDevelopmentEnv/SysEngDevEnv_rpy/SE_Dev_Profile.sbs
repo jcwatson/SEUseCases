@@ -28,7 +28,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- _name = "SE_Dev_Profile";
-	- _modifiedTimeWeak = 3.25.2015::18:56:56;
+	- _modifiedTimeWeak = 3.25.2015::20:40:44;
 	- _description = { IDescription 
 		- _text = "This profile is a default profile for a project or program.  The intent is to use a copy of this profile to capture those profile elements specific to a project or program.  The reason it is here is to solve a program level issue associated with sharing a common Property file across multiple models.  
 It does this by using the property in this profile called \"Model::Profile::PropertyFile\".  Here you can reference a file containing default properties that can be common to and shared across multiple models.  By using this technique, it overrides the Factory and site property files but not the project level.
@@ -386,7 +386,7 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 			- _id = GUID 12fae5c9-5629-4f92-874a-9cb9f32057cb;
 			- _myState = 8192;
 			- _name = "ACTReference";
-			- _modifiedTimeWeak = 3.25.2015::18:56:56;
+			- _modifiedTimeWeak = 3.25.2015::20:40:44;
 			- Tags = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -394,7 +394,7 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 					- _id = GUID 82b15322-7a2e-49c3-9c33-5b84069b7510;
 					- _myState = 8192;
 					- _name = "RefSource";
-					- _modifiedTimeWeak = 3.25.2015::18:56:56;
+					- _modifiedTimeWeak = 3.25.2015::20:40:44;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
 						- _filename = "PredefinedTypes.sbs";
@@ -403,6 +403,7 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 						- _name = "RhpString";
 						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 					}
+					- _multiplicity = "1..*";
 					- _isOrdered = 0;
 				}
 			}
@@ -413,7 +414,7 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 			}
 		}
 	}
-	- weakCGTime = 3.25.2015::18:56:56;
+	- weakCGTime = 3.25.2015::20:40:44;
 	- strongCGTime = 3.11.2015::17:10:7;
 	- _defaultComposite = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 	- _eventsBaseID = -1;

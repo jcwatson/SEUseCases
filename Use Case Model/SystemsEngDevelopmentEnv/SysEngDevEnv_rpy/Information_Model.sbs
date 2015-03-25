@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 3.25.2015::18:42:43;
+	- _modifiedTimeWeak = 3.25.2015::20:33:52;
 	- _lastID = 27;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -6489,7 +6489,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _id = GUID 07a0630b-566b-4efe-891d-b365d5c76783;
 			- _myState = 8192;
 			- _name = "Analyze Stakeholder Needs Artifacts";
-			- _modifiedTimeWeak = 3.25.2015::18:42:43;
+			- _modifiedTimeWeak = 3.25.2015::20:33:52;
 			- _lastID = 2;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -11056,7 +11056,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 					}
 				}
 			}
-			- weakCGTime = 3.25.2015::18:42:43;
+			- weakCGTime = 3.25.2015::20:33:52;
 			- strongCGTime = 3.16.2015::21:23:23;
 			- _defaultComposite = GUID 2645246f-821e-4f2a-a0f4-148c87440aee;
 			- _eventsBaseID = -1;
@@ -11100,7 +11100,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
 					}
-					- _modifiedTimeWeak = 3.25.2015::18:57:29;
+					- _modifiedTimeWeak = 3.25.2015::20:33:52;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -11112,7 +11112,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 ";
 					}
 					- Tags = { IRPYRawContainer 
-						- size = 2;
+						- size = 3;
 						- value = 
 						{ ITag 
 							- _id = GUID 5d604ee6-4f4f-40c0-8224-0a09eca8dec0;
@@ -11170,9 +11170,41 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 								- _id = GUID d7864f58-2469-478e-b6fe-dcbdc6e53250;
 							}
 						}
+						{ ITag 
+							- _id = GUID 80644269-c610-4957-8d3c-8a3c1846f8d9;
+							- _myState = 8192;
+							- _name = "Examples";
+							- _modifiedTimeWeak = 3.25.2015::20:33:52;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID 12d12cd2-8817-4370-b8a0-b1c4d5e29374;
+									- _modifiedTimeWeak = 3.25.2015::20:33:52;
+									- _value = "None";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpString";
+								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "SE_Dev_Profile.sbs";
+								- _subsystem = "SE_Dev_Profile";
+								- _class = "Definition";
+								- _name = "Examples";
+								- _id = GUID 08693686-daa3-43f2-a8d6-90f35d54e9bb;
+							}
+						}
 					}
 					- _lastID = 2;
-					- weakCGTime = 3.25.2015::18:57:29;
+					- weakCGTime = 3.25.2015::20:33:52;
 					- strongCGTime = 3.16.2015::21:20:4;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -12822,7 +12854,7 @@ The CSA describes the basic concepts and approach of the actual system architect
 			- _configurationRelatedTime = 3.11.2015::13:7:45;
 		}
 	}
-	- weakCGTime = 3.25.2015::18:42:43;
+	- weakCGTime = 3.25.2015::20:33:52;
 	- strongCGTime = 2.23.2015::15:58:43;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
