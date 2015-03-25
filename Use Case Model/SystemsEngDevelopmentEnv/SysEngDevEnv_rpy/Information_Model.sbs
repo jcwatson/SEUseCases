@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 3.22.2015::14:52:43;
+	- _modifiedTimeWeak = 3.25.2015::18:42:43;
 	- _lastID = 27;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -1319,7 +1319,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _id = GUID 3a04fbcd-2fe6-42da-b48b-82a46d0ca9a2;
 			- _myState = 8192;
 			- _name = "Context Definitions";
-			- _modifiedTimeWeak = 3.16.2015::21:29:24;
+			- _modifiedTimeWeak = 3.25.2015::18:51:6;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
@@ -2972,7 +2972,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 					}
 				}
 			}
-			- weakCGTime = 3.16.2015::21:29:24;
+			- weakCGTime = 3.25.2015::18:51:6;
 			- strongCGTime = 3.16.2015::21:29:24;
 			- AssociationElements = { IRPYRawContainer 
 				- size = 2;
@@ -3500,7 +3500,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 3.16.2015::21:34:23;
+					- _modifiedTimeWeak = 3.25.2015::18:51:6;
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f1\\fnil\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\f0\\fs24 Product Development System (PDS) is the system used to provide an integrated environment of tools and capabilities required to develop products that are systems.  This includes the environment for systems engineering, software design and implementation engineering, mechanical design and implementation engineering, electrical design and implementation engineering and interfaces to external domains including manufacturing support and product management.\\f1\\fs20\\par
@@ -3883,7 +3883,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "3.16.2015::21:34:23";
+							- _lastModifiedTime = "3.25.2015::18:51:10";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 022a40de-f2b9-401e-97e7-c4098dc15440;
 								- m_type = 0;
@@ -5306,6 +5306,114 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 									}
 								}
 								{ CGIObjectInstance 
+									- _id = GUID 86f09ea2-7c5f-4c77-9c5e-27251e959b97;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "ShowLabels";
+																- _Value = "True";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 111;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IPart";
+										- _filename = "System_Engineering_Operations.sbs";
+										- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure";
+										- _class = "Product Development Domian";
+										- _name = "PM";
+										- _id = GUID b5f3fb33-fd86-443a-8a21-6357ed35f6aa;
+									}
+									- m_pParent = GUID db0ef2c9-7e55-4066-883e-b71353e49ec2;
+									- m_name = { CGIText 
+										- m_str = "PM";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 5;
+									}
+									- m_drawBehavior = 2816;
+									- m_transform = 0.0849858 0 0 0.0374332 53.83 113.684 ;
+									- m_bIsPreferencesInitialized = 1;
+									- m_bIsMisplaced = 1;
+									- m_AdditionalLabel = { CGIText 
+										- m_str = "";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 1;
+									}
+									- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+									- m_nNameFormat = 0;
+									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 2;
+										- value = 
+										{ CGICompartment 
+											- _id = GUID c38b5d51-baee-48c4-9882-2e447c35670c;
+											- m_name = "Attribute";
+											- m_displayOption = Public;
+											- m_bShowInherited = 0;
+											- m_bOrdered = 0;
+										}
+										{ CGICompartment 
+											- _id = GUID 7b42f639-123c-41f8-a89d-b1f7d6b499f7;
+											- m_name = "Operation";
+											- m_displayOption = Public;
+											- m_bShowInherited = 0;
+											- m_bOrdered = 0;
+										}
+									}
+									- Attrs = { IRPYRawContainer 
+										- size = 0;
+									}
+									- Operations = { IRPYRawContainer 
+										- size = 0;
+									}
+									- m_multiplicity = { CGIText 
+										- m_str = "1";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+								}
+								{ CGIObjectInstance 
 									- _id = GUID 5fdd2122-a10c-4c1d-adbd-06d67da1cfd1;
 									- _properties = { IPropertyContainer 
 										- Subjects = { IRPYRawContainer 
@@ -5519,114 +5627,6 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 									}
 									- m_multiplicity = { CGIText 
 										- m_str = "*";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-								}
-								{ CGIObjectInstance 
-									- _id = GUID 86f09ea2-7c5f-4c77-9c5e-27251e959b97;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "ShowLabels";
-																- _Value = "True";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 111;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IPart";
-										- _filename = "System_Engineering_Operations.sbs";
-										- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure";
-										- _class = "Product Development Domian";
-										- _name = "PM";
-										- _id = GUID b5f3fb33-fd86-443a-8a21-6357ed35f6aa;
-									}
-									- m_pParent = GUID db0ef2c9-7e55-4066-883e-b71353e49ec2;
-									- m_name = { CGIText 
-										- m_str = "PM";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 5;
-									}
-									- m_drawBehavior = 2816;
-									- m_transform = 0.0849858 0 0 0.0374332 53.83 113.684 ;
-									- m_bIsPreferencesInitialized = 1;
-									- m_bIsMisplaced = 1;
-									- m_AdditionalLabel = { CGIText 
-										- m_str = "";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 1;
-									}
-									- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
-									- m_nNameFormat = 0;
-									- m_nIsNameFormat = 0;
-									- Compartments = { IRPYRawContainer 
-										- size = 2;
-										- value = 
-										{ CGICompartment 
-											- _id = GUID c38b5d51-baee-48c4-9882-2e447c35670c;
-											- m_name = "Attribute";
-											- m_displayOption = Public;
-											- m_bShowInherited = 0;
-											- m_bOrdered = 0;
-										}
-										{ CGICompartment 
-											- _id = GUID 7b42f639-123c-41f8-a89d-b1f7d6b499f7;
-											- m_name = "Operation";
-											- m_displayOption = Public;
-											- m_bShowInherited = 0;
-											- m_bOrdered = 0;
-										}
-									}
-									- Attrs = { IRPYRawContainer 
-										- size = 0;
-									}
-									- Operations = { IRPYRawContainer 
-										- size = 0;
-									}
-									- m_multiplicity = { CGIText 
-										- m_str = "1";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -5880,7 +5880,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							}
 						}
 					}
-					- weakCGTime = 3.16.2015::21:34:23;
+					- weakCGTime = 3.25.2015::18:51:6;
 					- strongCGTime = 2.23.2015::15:58:43;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -6489,7 +6489,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _id = GUID 07a0630b-566b-4efe-891d-b365d5c76783;
 			- _myState = 8192;
 			- _name = "Analyze Stakeholder Needs Artifacts";
-			- _modifiedTimeWeak = 3.22.2015::14:52:43;
+			- _modifiedTimeWeak = 3.25.2015::18:42:43;
 			- _lastID = 2;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -11056,7 +11056,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 					}
 				}
 			}
-			- weakCGTime = 3.22.2015::14:52:43;
+			- weakCGTime = 3.25.2015::18:42:43;
 			- strongCGTime = 3.16.2015::21:23:23;
 			- _defaultComposite = GUID 2645246f-821e-4f2a-a0f4-148c87440aee;
 			- _eventsBaseID = -1;
@@ -11100,7 +11100,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
 					}
-					- _modifiedTimeWeak = 3.16.2015::21:20:4;
+					- _modifiedTimeWeak = 3.25.2015::18:57:29;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -11118,14 +11118,14 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							- _id = GUID 5d604ee6-4f4f-40c0-8224-0a09eca8dec0;
 							- _myState = 8192;
 							- _name = "RefSource";
-							- _modifiedTimeWeak = 3.11.2015::12:18:46;
+							- _modifiedTimeWeak = 3.25.2015::18:57:29;
 							- ValueSpecifications = { IRPYRawContainer 
 								- size = 1;
 								- value = 
 								{ ILiteralSpecification 
-									- _id = GUID 77dcab50-5000-49bd-ab2b-63504d53124e;
-									- _modifiedTimeWeak = 3.11.2015::12:18:46;
-									- _value = " INCOSE Systems Engineering Handbook v.3.2.2, INCOSE-TP-2003-002-03.2.2, October 2011, Section 4.1";
+									- _id = GUID 0f51a43e-a54d-414c-b281-8332d1fd5801;
+									- _modifiedTimeWeak = 3.25.2015::18:57:29;
+									- _value = "INCOSE Systems Engineering Handbook v.3.2.2, INCOSE-TP-2003-002-03.2.2, October 2011, Section 4.1";
 								}
 							}
 							- _typeOf = { IHandle 
@@ -11136,6 +11136,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -11170,8 +11171,8 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							}
 						}
 					}
-					- _lastID = 1;
-					- weakCGTime = 3.16.2015::21:20:4;
+					- _lastID = 2;
+					- weakCGTime = 3.25.2015::18:57:29;
 					- strongCGTime = 3.16.2015::21:20:4;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -11233,6 +11234,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -11317,6 +11319,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -11429,6 +11432,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -11509,6 +11513,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -11589,6 +11594,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -11701,6 +11707,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -11781,6 +11788,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -11861,6 +11869,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -11941,6 +11950,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -12053,6 +12063,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -12314,6 +12325,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -12463,6 +12475,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -12542,6 +12555,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -12632,6 +12646,7 @@ operation, maintenance, and support personnel.\\par
 								- _name = "RhpString";
 								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
 							}
+							- _multiplicity = "1..*";
 							- _isOrdered = 0;
 							- _base = { IHandle 
 								- _m2Class = "ITag";
@@ -12807,7 +12822,7 @@ The CSA describes the basic concepts and approach of the actual system architect
 			- _configurationRelatedTime = 3.11.2015::13:7:45;
 		}
 	}
-	- weakCGTime = 3.22.2015::14:52:43;
+	- weakCGTime = 3.25.2015::18:42:43;
 	- strongCGTime = 2.23.2015::15:58:43;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
@@ -12818,8 +12833,8 @@ The CSA describes the basic concepts and approach of the actual system architect
 			- _id = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.16.2015::21:29:24;
-			- weakCGTime = 3.16.2015::21:29:24;
+			- _modifiedTimeWeak = 3.22.2015::14:52:43;
+			- weakCGTime = 3.22.2015::14:52:43;
 			- strongCGTime = 2.23.2015::15:58:43;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
