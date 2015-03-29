@@ -1171,7 +1171,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 3.11.2015::17:11:24;
+	- _modifiedTimeWeak = 3.29.2015::16:16:45;
 	- _lastID = 29;
 	- _unitSccProjName = "ClearCase";
 	- _unitSccProjPath = "ClearCase";
@@ -1250,7 +1250,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 		{ IProfile 
 			- fileName = "DocGen_Profile";
-			- _persistAs = "C:\\Users\\b283118\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy";
+			- _persistAs = "$SCRIPTROOT\\DocGen";
 			- _id = GUID 2ded90a0-df63-48d4-997c-2dded836f245;
 			- _name = "DocGen Profile";
 			- _isReference = 1;
@@ -1321,7 +1321,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 		{ IProfile 
 			- fileName = "ExportImport";
-			- _persistAs = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\ExportImport";
+			- _persistAs = "$SCRIPTROOT\\ExportImport";
 			- _id = GUID 2d884707-2787-40bd-b7e2-e74c48aa8db8;
 			- _isReference = 1;
 		}
