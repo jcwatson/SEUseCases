@@ -1,0 +1,66 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "System_Engineering_Operations.sbs";
+		- _subsystem = "System Engineering Operations::System Engineering Development System";
+		- _class = "";
+		- _name = "SE Life Cycle Workflow Use Cases";
+		- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
+	}
+	- _id = GUID 1cac8b15-93af-4e74-8c1e-6da70b8dc4d1;
+	- _myState = 8192;
+	- _name = "System Development Stage";
+	- _modifiedTimeWeak = 3.30.2015::18:19:46;
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "System_Engineering_Operations.sbs";
+		- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases";
+		- _class = "";
+		- _name = "Lifecycle Use Case Organization";
+		- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
+	}
+	- _lastID = 3;
+	- Declaratives = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ ISubsystem 
+			- fileName = "Management_Workflow_Use_Cases";
+			- _id = GUID 9c9eecbf-70ef-447f-bcb2-895c6548c211;
+			- _name = "Management Workflow Use Cases";
+		}
+		{ ISubsystem 
+			- fileName = "SE_Domain_Workflow_Use_Cases";
+			- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
+			- _name = "SE Domain Workflow Use Cases";
+		}
+		{ ISubsystem 
+			- fileName = "Validation_and_Verification_Workflow_Use_Cases";
+			- _id = GUID d50621e9-6d94-4e96-a575-8d3ee5c2e7f0;
+			- _name = "Validation and Verification Workflow Use Cases";
+		}
+	}
+	- weakCGTime = 3.30.2015::18:19:46;
+	- strongCGTime = 3.29.2015::15:52:25;
+	- _defaultComposite = GUID a0aa9553-c6d0-479a-b0ed-689e968e0945;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID a0aa9553-c6d0-479a-b0ed-689e968e0945;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 3.29.2015::15:52:25;
+			- weakCGTime = 3.29.2015::15:52:25;
+			- strongCGTime = 3.29.2015::15:52:25;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 2.27.2014::18:38:49;
+}
+

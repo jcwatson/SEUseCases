@@ -19,7 +19,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 3.30.2015::17:51:22;
+	- _modifiedTimeWeak = 3.30.2015::18:22:17;
 	- _lastID = 30;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -689,7 +689,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "3.30.2015::17:51:22";
+			- _lastModifiedTime = "3.30.2015::18:22:17";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 8340da79-0c2e-4315-af1a-a69253f80036;
 				- m_type = 0;
@@ -1138,7 +1138,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 					- m_type = 241;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IDiagram";
-						- _filename = "System_Engineering_Operations.sbs";
+						- _filename = "SE_Development_System_Structure.sbs";
 						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure";
 						- _class = "";
 						- _name = "Product Development Domain Structure";
@@ -1231,7 +1231,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 					- m_type = 241;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IUCDiagram";
-						- _filename = "System_Engineering_Operations.sbs";
+						- _filename = "Exploratory_and_Concept_Stage.sbs";
 						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Exploratory and Concept Stage";
 						- _class = "";
 						- _name = "Exploratory and Concept Stage Workflow Use Cases";
@@ -7452,7 +7452,7 @@ f3c79a65ac56ba678f7c37a9ea17373a86a7e1T3b0b4b7b4b0b3b9ba9a6bab986358e16f9b76d53f
 								- _textType = "NAME";
 								- _target = { IHandle 
 									- _m2Class = "IUCDiagram";
-									- _filename = "System_Engineering_Operations.sbs";
+									- _filename = "Exploratory_and_Concept_Stage.sbs";
 									- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Exploratory and Concept Stage";
 									- _class = "";
 									- _name = "Exploratory and Concept Stage Workflow Use Cases";
@@ -8438,7 +8438,7 @@ The table will also allow easy navigation from item in the table to the item of 
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 3.30.2015::17:51:22;
+	- weakCGTime = 3.30.2015::18:22:17;
 	- strongCGTime = 3.29.2015::15:52:42;
 	- _defaultComposite = GUID a43dc825-9c86-4d0c-8adf-37d59dd41233;
 	- _eventsBaseID = -1;
