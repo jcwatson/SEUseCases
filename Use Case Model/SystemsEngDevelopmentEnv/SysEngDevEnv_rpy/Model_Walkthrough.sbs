@@ -19,7 +19,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 3.30.2015::18:22:17;
+	- _modifiedTimeWeak = 3.31.2015::17:33:7;
 	- _lastID = 30;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -7908,7 +7908,7 @@ f3c79a65ac56ba678f7c37a9ea17373a86a7e1T3b0b4b7b4b0b3b9ba9a6bab986358e16f9b76d53f
 			- _myState = 8192;
 			- _name = "Modeling Practices";
 			- Annotations = { IRPYRawContainer 
-				- size = 2;
+				- size = 3;
 				- value = 
 				{ IComment 
 					- _id = GUID 2a152e45-4279-484a-9277-d157f032351d;
@@ -7948,9 +7948,31 @@ The table will also allow easy navigation from item in the table to the item of 
 					}
 					- _body = "";
 				}
+				{ IComment 
+					- _id = GUID 6f6c553a-653c-4ab7-bfda-19775c3887fc;
+					- _myState = 8192;
+					- _name = "Adding References and Citations";
+					- _modifiedTimeWeak = 3.31.2015::17:33:7;
+					- _description = { IDescription 
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs22 Adding References and Citations to the model:\\par
+\\par
+\\pard\\ltrpar\\fi-360\\li720 1.\\tab References and Citations are collected in a single location in the model. \\par
+2.\\tab A new reference or a citation is added to a Comment element, called \"Reference and Citation List\", located in the package \\ldblquote Information Model/References and Citations\\rdblquote\\fs24\\par
+\\fs22 3.\\tab All References and Citations are assigned an item number. \\par
+\\pard\\ltrpar\\fi-360\\li1440 a.\\tab This number is the next sequential number in the listed references and citations.\\par
+b.\\tab A item number should never be changed unless all references throughout the model are updated to the correct item number. \\par
+\\pard\\ltrpar\\fi-360\\li720 4.\\tab The item number is used to identify the specific reference or citation within a text fields of a model element. \\par
+\\pard\\ltrpar\\fi-360\\li1440 a.\\tab  The item number is placed within square brackets and added in-line within a model element\\rquote s text field. \\par
+\\pard\\ltrpar\\f1\\fs17\\par
+}
+";
+					}
+					- _body = "";
+				}
 			}
-			- _modifiedTimeWeak = 3.29.2015::15:52:42;
-			- _lastID = 3;
+			- _modifiedTimeWeak = 3.31.2015::17:33:7;
+			- _lastID = 4;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -7964,7 +7986,7 @@ The table will also allow easy navigation from item in the table to the item of 
 							{ IPropertySubject 
 								- _Name = "Format";
 								- Metaclasses = { IRPYRawContainer 
-									- size = 2;
+									- size = 3;
 									- value = 
 									{ IPropertyMetaclass 
 										- _Name = "Comment";
@@ -8055,6 +8077,43 @@ The table will also allow easy navigation from item in the table to the item of 
 											}
 										}
 									}
+									{ IPropertyMetaclass 
+										- _Name = "FreeText";
+										- Properties = { IRPYRawContainer 
+											- size = 6;
+											- value = 
+											{ IProperty 
+												- _Name = "Fill.Transparent_Fill";
+												- _Value = "1";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "HorzAlign";
+												- _Value = "0";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Line.Transparent";
+												- _Value = "1";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Multiline";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+											{ IProperty 
+												- _Name = "VertAlign";
+												- _Value = "0";
+												- _Type = Int;
+											}
+											{ IProperty 
+												- _Name = "Wordbreak";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
 								}
 							}
 						}
@@ -8073,7 +8132,7 @@ The table will also allow easy navigation from item in the table to the item of 
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "1.5.2015::16:31:39";
+					- _lastModifiedTime = "3.31.2015::17:33:7";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 93ae2e32-ee91-46b0-b9a1-aea41261874f;
 						- m_type = 0;
@@ -8097,7 +8156,7 @@ The table will also allow easy navigation from item in the table to the item of 
 						}
 						- m_drawBehavior = 0;
 						- m_bIsPreferencesInitialized = 0;
-						- elementList = 4;
+						- elementList = 5;
 						{ CGIClass 
 							- _id = GUID 6f9b542b-a60c-4640-8728-f46d9861bbfb;
 							- m_type = 78;
@@ -8189,7 +8248,7 @@ The table will also allow easy navigation from item in the table to the item of 
 								- m_nOrientationCtrlPt = 8;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 3.42593 0 0 6.11364 2 20 ;
+							- m_transform = 3.42593 0 0 7.09848 2 20 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -8277,7 +8336,7 @@ The table will also allow easy navigation from item in the table to the item of 
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 2056;
-							- m_transform = 0.662362 0 0 0.377459 14 42.9852 ;
+							- m_transform = 0.662362 0 0 0.377459 12 42.9852 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -8395,6 +8454,79 @@ The table will also allow easy navigation from item in the table to the item of 
 							- _iTempdisplayTextFlag = 2;
 							- m_bIsBoxStyle = 1;
 						}
+						{ CGIAnnotation 
+							- _id = GUID 8c110514-0195-4af1-b119-3b94724a837d;
+							- _properties = { IPropertyContainer 
+								- Subjects = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertySubject 
+										- _Name = "ObjectModelGe";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Comment";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "Compartments";
+														- _Value = "Description,";
+														- _Type = MultiLine;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							- m_type = 174;
+							- m_pModelObject = { IHandle 
+								- _m2Class = "IComment";
+								- _id = GUID 6f6c553a-653c-4ab7-bfda-19775c3887fc;
+							}
+							- m_pParent = GUID 6f9b542b-a60c-4640-8728-f46d9861bbfb;
+							- m_name = { CGIText 
+								- m_str = "Adding References and Citations";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 5;
+							}
+							- m_drawBehavior = 2056;
+							- m_transform = 0.619926 0 0 0.107829 12 828.711 ;
+							- m_bIsPreferencesInitialized = 1;
+							- m_AdditionalLabel = { CGIText 
+								- m_str = "";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 1;
+							}
+							- m_polygon = 4 0 3  0 1097  1084 1097  1084 3  ;
+							- m_nNameFormat = 0;
+							- m_nIsNameFormat = 0;
+							- frameset = "<frameset rows=100%>
+<frame name=DescriptionCompartment>";
+							- Compartments = { IRPYRawContainer 
+								- size = 0;
+							}
+							- _iTempdisplayTextFlag = 2;
+							- m_bIsBoxStyle = 1;
+						}
 						
 						- m_access = 'Z';
 						- m_modified = 'N';
@@ -8414,7 +8546,7 @@ The table will also allow easy navigation from item in the table to the item of 
 					}
 				}
 			}
-			- weakCGTime = 3.29.2015::15:52:42;
+			- weakCGTime = 3.31.2015::17:33:7;
 			- strongCGTime = 3.29.2015::15:52:42;
 			- _defaultComposite = GUID 35772d43-a0c2-4efb-899d-9adec248ecce;
 			- _eventsBaseID = -1;
@@ -8438,7 +8570,7 @@ The table will also allow easy navigation from item in the table to the item of 
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 3.30.2015::18:22:17;
+	- weakCGTime = 3.31.2015::17:33:7;
 	- strongCGTime = 3.29.2015::15:52:42;
 	- _defaultComposite = GUID a43dc825-9c86-4d0c-8adf-37d59dd41233;
 	- _eventsBaseID = -1;
@@ -8449,8 +8581,8 @@ The table will also allow easy navigation from item in the table to the item of 
 			- _id = GUID a43dc825-9c86-4d0c-8adf-37d59dd41233;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.29.2015::15:52:42;
-			- weakCGTime = 3.29.2015::15:52:42;
+			- _modifiedTimeWeak = 3.31.2015::17:33:7;
+			- weakCGTime = 3.31.2015::17:33:7;
 			- strongCGTime = 3.29.2015::15:52:42;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

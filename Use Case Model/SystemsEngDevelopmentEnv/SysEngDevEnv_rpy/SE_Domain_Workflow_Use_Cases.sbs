@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
 	- _myState = 8192;
 	- _name = "SE Domain Workflow Use Cases";
-	- _modifiedTimeWeak = 3.30.2015::18:20:5;
+	- _modifiedTimeWeak = 3.31.2015::16:6:4;
 	- _lastID = 16;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
@@ -7771,7 +7771,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 3.30.2015::18:20:5;
+	- weakCGTime = 3.31.2015::16:6:4;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 	- _eventsBaseID = -1;
@@ -8005,7 +8005,8 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 				- _id = GUID d76fa43d-2901-4b59-87b4-43e07dcec73a;
 			}
 			- _description = { IDescription 
-				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fswiss\\fprq2\\fcharset0 Arial;}}
+				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fswiss\\fprq2\\fcharset0 Arial;}{\\f2\\fnil\\fcharset0 Calibri;}}
+{\\colortbl ;\\red0\\green0\\blue0;}
 \\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to evaluate the system for safety related hazards and derive a plan to mitigate these risks. \\par
 \\b Primary Actor\\b0  -\\par
 \\b Secondary Actors\\b0  -\\par
@@ -8028,6 +8029,11 @@ ii.\\tab Show how these requirements are satisfied\\par
 iii.\\tab Show traceability from Hazards to Risk mitigation requirements to system elements satisfying those requirements.\\par
 \\pard\\ltrpar\\fi-360\\li720\\sa200\\sl276\\slmult1 10.\\tab Verify solution to determine if Hazard has been appropriately addressed. \\par
 \\pard\\ltrpar\\b\\f1\\fs20 Post Conditions -\\b0\\par
+\\par
+\\pard\\ltrpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22\\par
+References and Citations: \\cf1\\b0\\f2\\par
+\\cf0\\f0        \\cf1\\f2 7.   Douglas, Bruce: Safety Analysis of UML Models\\cf0\\f0\\par
+\\pard\\ltrpar\\f1\\fs20\\par
 \\b\\f0\\fs22\\par
 }
 ";
