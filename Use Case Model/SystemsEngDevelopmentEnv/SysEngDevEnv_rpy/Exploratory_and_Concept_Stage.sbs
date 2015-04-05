@@ -11,10 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 5d69c9d4-3a32-49fc-829e-51b39c74246d;
 	- _myState = 8192;
 	- _name = "Exploratory and Concept Stage";
-	- Annotations = { IRPYRawContainer 
-		- size = 0;
-	}
-	- _modifiedTimeWeak = 3.30.2015::18:19:24;
+	- _modifiedTimeWeak = 4.5.2015::15:41:24;
 	- _lastID = 6;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -2202,7 +2199,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 3.30.2015::18:19:24;
+	- weakCGTime = 4.5.2015::15:41:24;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a4a4050b-d10d-49f3-91c4-5fe6ec60261f;
 	- _eventsBaseID = -1;
@@ -2213,9 +2210,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID a4a4050b-d10d-49f3-91c4-5fe6ec60261f;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.29.2015::15:52:25;
+			- _modifiedTimeWeak = 3.30.2015::18:19:24;
 			- _lastID = 1;
-			- weakCGTime = 3.29.2015::15:52:25;
+			- weakCGTime = 3.30.2015::18:19:24;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -12086,7 +12083,7 @@ Also
 					- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
 				}
 			}
-			- _modifiedTimeWeak = 3.25.2015::20:32:52;
+			- _modifiedTimeWeak = 3.30.2015::15:6:18;
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f2\\fnil\\fcharset0 FreeSerif;}}
 \\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to derive a set of system level requirements for the system-of-interest based on the all stakeholder\\rquote s needs requirements.  \\par
@@ -12198,7 +12195,7 @@ A System Requirement Specification may also be produced including many of the ca
 				}
 			}
 			- _lastID = 6;
-			- weakCGTime = 3.30.2015::15:6:18;
+			- weakCGTime = 4.5.2015::15:41:24;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 
@@ -12208,9 +12205,9 @@ A System Requirement Specification may also be produced including many of the ca
 					- _id = GUID ae9e81bd-e408-4b5d-a2f7-a4d75692445d;
 					- _myState = 8192;
 					- _name = "Derive System Requirements";
-					- _modifiedTimeWeak = 3.30.2015::15:6:18;
+					- _modifiedTimeWeak = 4.5.2015::15:41:24;
 					- _lastID = 54;
-					- weakCGTime = 3.30.2015::15:6:18;
+					- weakCGTime = 4.5.2015::15:41:24;
 					- strongCGTime = 3.16.2015::13:12:34;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -13035,7 +13032,7 @@ A System Requirement Specification may also be produced including many of the ca
 									- _id = GUID 12fae5c9-5629-4f92-874a-9cb9f32057cb;
 								}
 							}
-							- _modifiedTimeWeak = 3.25.2015::19:0:20;
+							- _modifiedTimeWeak = 4.5.2015::15:41:24;
 							- Tags = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -13043,14 +13040,14 @@ A System Requirement Specification may also be produced including many of the ca
 									- _id = GUID cd2e6d3b-858e-420c-ad5d-c78eff2ea8e4;
 									- _myState = 8192;
 									- _name = "RefSource";
-									- _modifiedTimeWeak = 3.25.2015::19:0:20;
+									- _modifiedTimeWeak = 4.5.2015::15:41:24;
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
 										{ ILiteralSpecification 
-											- _id = GUID 70365ada-129e-446d-90c3-12a16e28352b;
-											- _modifiedTimeWeak = 3.25.2015::19:0:20;
-											- _value = "INCOSE Systems Engineering Handbook v.3.2.2, INCOSE-TP-2003-002-03.2.2, October 2011, Section 4.2.1.5";
+											- _id = GUID 1a6c7c36-efe6-4ac0-81a4-6f2c010ab690;
+											- _modifiedTimeWeak = 4.5.2015::15:41:24;
+											- _value = "[2] INCOSE Systems Engineering Handbook, Section 4.2.1.5";
 										}
 									}
 									- _typeOf = { IHandle 
@@ -13399,8 +13396,8 @@ A System Requirement Specification may also be produced including many of the ca
 								}
 							}
 							- _name = "activitydiagram_0";
-							- _modifiedTimeWeak = 3.30.2015::15:6:18;
-							- _lastModifiedTime = "3.30.2015::15:6:18";
+							- _modifiedTimeWeak = 4.5.2015::15:41:24;
+							- _lastModifiedTime = "4.5.2015::15:41:24";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID 1dfe2d66-73b4-4d22-a60c-74ce2c90466a;
 								- m_type = 0;

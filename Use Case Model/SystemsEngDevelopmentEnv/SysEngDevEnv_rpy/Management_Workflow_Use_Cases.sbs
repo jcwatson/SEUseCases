@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 9c9eecbf-70ef-447f-bcb2-895c6548c211;
 	- _myState = 8192;
 	- _name = "Management Workflow Use Cases";
-	- _modifiedTimeWeak = 3.30.2015::18:19:54;
+	- _modifiedTimeWeak = 4.5.2015::12:57:43;
 	- _lastID = 12;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -2135,7 +2135,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 3.30.2015::18:19:54;
+	- weakCGTime = 4.5.2015::12:57:43;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID fe4eb5fb-1d04-4ab7-bbe9-079bf695b50f;
 	- _eventsBaseID = -1;
@@ -2146,8 +2146,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID fe4eb5fb-1d04-4ab7-bbe9-079bf695b50f;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.29.2015::15:52:25;
-			- weakCGTime = 3.29.2015::15:52:25;
+			- _modifiedTimeWeak = 3.30.2015::18:19:54;
+			- weakCGTime = 3.30.2015::18:19:54;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2191,6 +2191,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 \\pard\\fi-360\\li360\\sa200\\sl276\\slmult1 1.\\tab Identify program stakeholders and their needs\\par
 2.\\tab Define the development tasks\\par
 3.\\tab Identify Processes/Methods to use\\par
+         a.    Establish Requirment categorizations and their valid values \\par
 4.\\tab Allocate the appropriate roles and people to accomplish the tasks\\par
 5.\\tab Evaluate the development environment to determine if the correct set of tools and the revision level of those tools are appropriate\\par
 6.\\tab Schedule tasks\\par
@@ -2477,10 +2478,12 @@ Primary Actor \\b0 - Engineering Manager\\par
 \\par
 \\b Primary Actor\\b0  - Engineering Manager\\par
 \\b Secondary Actors\\b0  -\\par
-\\b Preconditions\\b0  -\\par
+\\b Preconditions\\b0  - \\par
+          1.   The Methodology and guidelines to support that methodology have been  established.\\par
+  \\par
 \\b Activity -\\par
 \\b0 This activity consists of a number of simultaneous monitoring activities to evaluate the integrity of the SE Development environment and to take action when required. These activities can include:\\par
-\\pard\\fi-360\\li720 1.\\tab Manage user access - This activity defines and manages the access groups and assigns users within each group their appropriate access privileges, e.g. read and write access.  \\par
+\\pard\\fi-360\\li720 1.\\tab Manage user access - This activity defines and manages the access groups and their appropriate access privileges, e.g. read and write access, and assigns users within each group.  \\par
 2.\\tab Manage Tool Upgrades - The goals of this activity are to plan and manage the execution of a tool upgrade within the SE Development Environment while minimizing the impact on the development team.\\par
 \\pard\\fi-360\\li1440 a.\\tab Evaluate the compatibility of the new release of the tool with other existing tools and the development environment infrastructure.  \\par
 b.\\tab Determine what other tools and/or scripts need to be upgraded to be compatible with the new upgraded tool. \\par
@@ -2498,16 +2501,16 @@ d.\\tab The integrity of links should be measured to ensure completeness, direct
 e.\\tab The intent is to ensure the quality and completeness of all controlled project information is maintained at the highest level possible.  \\par
 f.\\tab This activity should be conducted on a regular periodic base.  \\par
 g.\\tab When problems are found they should addressed as soon as possible. \\par
-\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 4.\\tab Synchronize Requirements - The goal of this activity is to ensure that all copies of the requirements within the SE Development System are periodically synchronized to the most appropriate revision level.  \\par
-\\pard\\fi-360\\li1440 a.\\tab Background - If the development environment maintains multiple copies of requirement data there will be a need to periodically synchronize the multiple copies throughout the development iteration cycle and when baselines occur. The frequency of this will vary depending on the process used, for example these changes may be propagated immediately as they occur, nightly or on planned events.  Synchronization maybe required when requirement changes occur from a different abstraction laye
-r or within the same abstraction layer. \\par
+\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 4.\\tab Synchronize SE Information - The goal of this activity is to ensure that all copies of the SE Information within the SE Development System are periodically synchronized to the most appropriate revision level.  This SE information includes information like requirements and any other shared information. \\par
+\\pard\\fi-360\\li1440 a.\\tab Background - If the development environment maintains multiple copies of requirement data there will be a need to periodically synchronize the multiple copies throughout the development iteration cycle and when baselines occur. The frequency of this will vary depending on the process used, for example these changes may be propagated immediately as they occur, nightly or on planned events.  Synchronization may be required when requirement changes occur from a different abstraction lay
+er or within the same abstraction layer. \\par
 b.\\tab Capabilities -\\par
-\\pard\\fi-180\\li2160 i.\\tab Identify the master and copies of each requirement set. \\par
-ii.\\tab Provide a synchronization mechanism, e.g. transfer, OSLC linking, for each requirement set. \\par
-iii.\\tab Configure the system to update the various copies at a pre-arranged event or time. \\par
-iv.\\tab Provide an easy and quick mechanism to allow an SE user that has received an update to select each requirement and measure the change impact on the model. \\par
+\\pard\\fi-180\\li2160 i.\\tab     Identify the master and copies of each requirement set. \\par
+ii.    Provide a synchronization mechanism, e.g. transfer, OSLC linking, for each requirement set. \\par
+iii.     Configure the system to update the various copies at a pre-arranged event or time. \\par
+iv.      Provide an easy and quick mechanism to allow an SE user that has received an update to select each requirement and measure the change impact on the model. \\par
 v.\\tab If there are no further impacts to the model, accept the change, one at a time or by selecting a group.\\par
-vi.\\tab If the requirement change impacts the architecture, follow the predefine process to return the rejected change to the change source, or update the architecture to make model consistent with requirement change.\\b  \\par
+vi.      If the requirement change impacts the architecture, follow the predefine process to return the rejected change to the change source, or update the architecture to make model consistent with requirement change.\\b  \\par
 \\pard Post Conditions\\b0  -\\par
 \\pard\\sa200\\sl276\\slmult1\\par
 \\pard\\b\\par
