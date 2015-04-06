@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
 	- _myState = 8192;
 	- _name = "SE Domain Workflow Use Cases";
-	- _modifiedTimeWeak = 4.5.2015::16:35:52;
+	- _modifiedTimeWeak = 4.6.2015::19:13:41;
 	- _lastID = 16;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
@@ -501,7 +501,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "SE Domain Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "3.30.2015::17:43:32";
+			- _lastModifiedTime = "4.6.2015::19:13:41";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID a7b8c694-b1d8-4ca8-a28e-266ece045eb3;
 				- m_type = 0;
@@ -645,7 +645,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "System Architect";
 						- _id = GUID d212247c-a8ef-41b9-bccc-0300333ccebc;
@@ -665,7 +665,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.0350877 0 0 0.0577933 38 301 ;
+					- m_transform = 0.0350877 0 0 0.0577933 50 301 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1358,7 +1358,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "System Architect";
 						- _name = "itsDerive Product Architecture";
 						- _id = GUID 757f79fe-c4e7-41ee-a769-a38da8d33b36;
@@ -2443,7 +2443,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "System Architect";
 						- _name = "itsManage Product Lines";
 						- _id = GUID f030f0d4-10c8-4d0e-9cfb-ab178b233d25;
@@ -2613,7 +2613,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "System Architect";
 						- _name = "itsAnalyze Behavior Correctness";
 						- _id = GUID 886e17da-e768-4f4d-a189-0024855e9c73;
@@ -3638,7 +3638,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Safety SysEng";
 						- _id = GUID 207b1c75-abde-4030-bb1a-bc95cf32cc4e;
@@ -3687,7 +3687,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Security SysEng";
 						- _id = GUID 97ed14b0-e316-46a7-b75d-13ce07f91401;
@@ -3761,7 +3761,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Safety SysEng";
 						- _name = "itsEvaluate System Safety";
 						- _id = GUID c0f4d325-50bd-47cc-9f1f-2285efe6806a;
@@ -3931,7 +3931,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Security SysEng";
 						- _name = "itsApply System Security Engineering";
 						- _id = GUID 58eb0b3a-179e-4175-b313-2e2b4b8b8edd;
@@ -4076,7 +4076,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Environmental SysEng";
 						- _id = GUID c2183bfe-73b1-48cd-97f1-290089b0ba60;
@@ -4782,7 +4782,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -4855,7 +4855,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsCollaborate with Implementation Domain Team";
 						- _id = GUID 5ff4a422-3f76-4967-851f-7632a9bde45f;
@@ -5025,7 +5025,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Environmental SysEng";
 						- _name = "itsPerform Environmental Engineering";
 						- _id = GUID ac06c722-594f-4d20-bcc0-71c845b275f2;
@@ -5170,7 +5170,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "EMI SysEng";
 						- _id = GUID f43aa42d-a0f9-4d01-889a-46dbf1e64fee;
@@ -5218,7 +5218,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Human Factors SysEng";
 						- _id = GUID 3925b1f0-307e-4db5-b3b0-65951b579084;
@@ -5292,7 +5292,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Human Factors SysEng";
 						- _name = "itsIntegrate Human Domain Constraints";
 						- _id = GUID 48255473-ee0d-4222-9115-405bbf7dc803;
@@ -5462,7 +5462,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "EMI SysEng";
 						- _name = "itsPerform EMI Engineering";
 						- _id = GUID d9c6df8d-8e73-44a7-ab51-4e4d3cfe869e;
@@ -6439,7 +6439,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "SWaP SysEng";
 						- _id = GUID bb82ba7b-ab29-478c-b473-fcdab1c0a9a5;
@@ -6489,7 +6489,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Analyst";
 						- _id = GUID 0e9f507b-3061-48b1-931f-86dd5816e209;
@@ -6539,7 +6539,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "System Architect";
 						- _id = GUID d212247c-a8ef-41b9-bccc-0300333ccebc;
@@ -6657,7 +6657,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "SWaP SysEng";
 						- _name = "itsAllocate and Manage SWaP";
 						- _id = GUID a04960a1-ff85-4fa3-a954-5bc6c77a8284;
@@ -6759,7 +6759,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "RMA SysEng";
 						- _id = GUID f7901bf5-ddde-4ec0-8055-6dd105f91124;
@@ -6810,7 +6810,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Analyst";
 						- _id = GUID 0e9f507b-3061-48b1-931f-86dd5816e209;
@@ -6885,7 +6885,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "RMA SysEng";
 						- _name = "itsPerform System RMA Engineering";
 						- _id = GUID 56882cfb-c418-4a89-8dc2-bf74fed931ba;
@@ -7055,7 +7055,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Analyst";
 						- _name = "itsAnalyze System Performance";
 						- _id = GUID 93bd629d-6373-4d20-acb1-a0fffee093e8;
@@ -7225,7 +7225,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Analyst";
 						- _name = "itsPerform a Trade Study";
 						- _id = GUID 5948bf85-c6d3-46d7-88a9-293c649e8157;
@@ -7395,7 +7395,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "System Architect";
 						- _name = "itsAnalyze Behavior Correctness";
 						- _id = GUID 886e17da-e768-4f4d-a189-0024855e9c73;
@@ -7771,7 +7771,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 4.5.2015::16:35:52;
+	- weakCGTime = 4.6.2015::19:13:41;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 	- _eventsBaseID = -1;
@@ -7934,7 +7934,7 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "System Architect";
 						- _id = GUID d212247c-a8ef-41b9-bccc-0300333ccebc;
@@ -7942,7 +7942,7 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "System Architect";
 						- _name = "itsDerive Product Architecture";
 						- _id = GUID 757f79fe-c4e7-41ee-a769-a38da8d33b36;
@@ -14244,7 +14244,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Safety SysEng";
 						- _id = GUID 207b1c75-abde-4030-bb1a-bc95cf32cc4e;
@@ -14252,7 +14252,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Safety SysEng";
 						- _name = "itsEvaluate System Safety";
 						- _id = GUID c0f4d325-50bd-47cc-9f1f-2285efe6806a;
@@ -14421,7 +14421,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "RMA SysEng";
 						- _id = GUID f7901bf5-ddde-4ec0-8055-6dd105f91124;
@@ -14429,7 +14429,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "RMA SysEng";
 						- _name = "itsPerform System RMA Engineering";
 						- _id = GUID 56882cfb-c418-4a89-8dc2-bf74fed931ba;
@@ -18514,7 +18514,7 @@ d.\\tab Determine and capture the level of security required for the information
 							- _represents = { IHandle 
 								- _m2Class = "IActor";
 								- _filename = "Actors.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 								- _class = "";
 								- _name = "Security SysEng";
 								- _id = GUID 97ed14b0-e316-46a7-b75d-13ce07f91401;
@@ -18554,7 +18554,7 @@ d.\\tab Determine and capture the level of security required for the information
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Security SysEng";
 						- _id = GUID 97ed14b0-e316-46a7-b75d-13ce07f91401;
@@ -18562,7 +18562,7 @@ d.\\tab Determine and capture the level of security required for the information
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Security SysEng";
 						- _name = "itsApply System Security Engineering";
 						- _id = GUID 58eb0b3a-179e-4175-b313-2e2b4b8b8edd;
@@ -18728,7 +18728,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Analyst";
 						- _id = GUID 0e9f507b-3061-48b1-931f-86dd5816e209;
@@ -18736,7 +18736,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Analyst";
 						- _name = "itsAnalyze System Performance";
 						- _id = GUID 93bd629d-6373-4d20-acb1-a0fffee093e8;
@@ -18918,7 +18918,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "SWaP SysEng";
 						- _id = GUID bb82ba7b-ab29-478c-b473-fcdab1c0a9a5;
@@ -18926,7 +18926,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "SWaP SysEng";
 						- _name = "itsAllocate and Manage SWaP";
 						- _id = GUID a04960a1-ff85-4fa3-a954-5bc6c77a8284;
@@ -18944,7 +18944,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "EMI SysEng";
 						- _id = GUID f43aa42d-a0f9-4d01-889a-46dbf1e64fee;
@@ -18965,7 +18965,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Human Factors SysEng";
 						- _id = GUID 3925b1f0-307e-4db5-b3b0-65951b579084;
@@ -19128,7 +19128,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Analyst";
 						- _id = GUID 0e9f507b-3061-48b1-931f-86dd5816e209;
@@ -19136,7 +19136,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Analyst";
 						- _name = "itsPerform a Trade Study";
 						- _id = GUID 5948bf85-c6d3-46d7-88a9-293c649e8157;
@@ -19299,7 +19299,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "System Architect";
 						- _id = GUID d212247c-a8ef-41b9-bccc-0300333ccebc;
@@ -19307,7 +19307,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "System Architect";
 						- _name = "itsAnalyze Behavior Correctness";
 						- _id = GUID 886e17da-e768-4f4d-a189-0024855e9c73;
@@ -19467,7 +19467,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "System Architect";
 						- _id = GUID d212247c-a8ef-41b9-bccc-0300333ccebc;
@@ -19475,7 +19475,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "System Architect";
 						- _name = "itsManage Product Lines";
 						- _id = GUID f030f0d4-10c8-4d0e-9cfb-ab178b233d25;
@@ -19640,7 +19640,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Human Factors SysEng";
 						- _id = GUID 3925b1f0-307e-4db5-b3b0-65951b579084;
@@ -19648,7 +19648,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Human Factors SysEng";
 						- _name = "itsIntegrate Human Domain Constraints";
 						- _id = GUID 48255473-ee0d-4222-9115-405bbf7dc803;
@@ -19808,7 +19808,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Environmental SysEng";
 						- _id = GUID c2183bfe-73b1-48cd-97f1-290089b0ba60;
@@ -19816,7 +19816,7 @@ The results are captured and provided to the requesting party.  \\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Environmental SysEng";
 						- _name = "itsPerform Environmental Engineering";
 						- _id = GUID ac06c722-594f-4d20-bcc0-71c845b275f2;
@@ -19975,7 +19975,7 @@ Post Conditions\\b0  -\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -19983,7 +19983,7 @@ Post Conditions\\b0  -\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsCollaborate with Implementation Domain Team";
 						- _id = GUID 5ff4a422-3f76-4967-851f-7632a9bde45f;
@@ -20222,7 +20222,7 @@ Post Conditions\\b0  -\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "EMI SysEng";
 						- _id = GUID f43aa42d-a0f9-4d01-889a-46dbf1e64fee;
@@ -20230,7 +20230,7 @@ Post Conditions\\b0  -\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "EMI SysEng";
 						- _name = "itsPerform EMI Engineering";
 						- _id = GUID d9c6df8d-8e73-44a7-ab51-4e4d3cfe869e;
