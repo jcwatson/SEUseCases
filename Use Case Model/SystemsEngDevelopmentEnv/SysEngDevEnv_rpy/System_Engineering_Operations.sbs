@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 6cfa223b-3cca-4a39-932e-465247fcef40;
 	- _myState = 8192;
 	- _name = "System Engineering Operations";
-	- _modifiedTimeWeak = 3.30.2015::18:19:4;
+	- _modifiedTimeWeak = 4.6.2015::18:14:16;
 	- _lastID = 5;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -12,7 +12,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 0ab040f7-e724-40c5-a608-9b9e41fdbd2f;
 			- _myState = 8192;
 			- _name = "System Engineering Development System";
-			- _modifiedTimeWeak = 3.30.2015::18:19:4;
+			- _modifiedTimeWeak = 4.6.2015::18:14:16;
 			- _lastID = 2;
 			- Declaratives = { IRPYRawContainer 
 				- size = 3;
@@ -26,7 +26,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
 					- _myState = 8192;
 					- _name = "SE Life Cycle Workflow Use Cases";
-					- _modifiedTimeWeak = 3.30.2015::18:19:24;
+					- _modifiedTimeWeak = 4.6.2015::18:14:16;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -39,12 +39,12 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID c469f8a5-924d-4311-8ccb-368e28548a19;
 							- _myState = 8192;
 							- _name = "Use Case Table Views";
-							- _modifiedTimeWeak = 3.29.2015::15:52:25;
+							- _modifiedTimeWeak = 4.6.2015::18:16:43;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
 							}
-							- _lastID = 5;
+							- _lastID = 7;
 							- Declaratives = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -52,9 +52,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 									- _id = GUID d055f618-defb-432d-bb0e-0ca8d7a21e23;
 									- _myState = 8192;
 									- _name = "Layouts";
-									- _modifiedTimeWeak = 3.29.2015::15:52:25;
+									- _modifiedTimeWeak = 4.5.2015::17:5:54;
 									- _lastID = 4;
-									- weakCGTime = 3.29.2015::15:52:25;
+									- weakCGTime = 4.5.2015::17:5:54;
 									- strongCGTime = 3.29.2015::15:52:25;
 									- _defaultComposite = GUID bbbd3333-2dfa-4340-9395-df75e84cca70;
 									- _eventsBaseID = -1;
@@ -76,7 +76,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 										}
 									}
 									- TableLayouts = { IRPYRawContainer 
-										- size = 15;
+										- size = 16;
 										- value = 
 										{ ITableLayout 
 											- _id = GUID 0270a1e5-520d-4288-9667-0c52e589ce2d;
@@ -2564,11 +2564,94 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 												}
 											}
 										}
+										{ ITableLayout 
+											- _id = GUID 5e4dfa1e-8675-4c2c-a8e9-524ff4ef883e;
+											- _myState = 8192;
+											- _properties = { IPropertyContainer 
+												- Subjects = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertySubject 
+														- _Name = "Model";
+														- Metaclasses = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IPropertyMetaclass 
+																- _Name = "TableLayout";
+																- Properties = { IRPYRawContainer 
+																	- size = 1;
+																	- value = 
+																	{ IProperty 
+																		- _Name = "CollapseFirstColumn";
+																		- _Value = "False";
+																		- _Type = Bool;
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+											- _name = "Available Activities Table Layout";
+											- _modifiedTimeWeak = 4.5.2015::17:5:54;
+											- TableElementTypes = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ TableDataDefinition 
+													- _myTable = { IHandle 
+														- _m2Class = "ITableLayout";
+														- _id = GUID 5e4dfa1e-8675-4c2c-a8e9-524ff4ef883e;
+													}
+													- _modelElement = { IHandle 
+														- _m2Class = "";
+													}
+													- _name = "ActivityDiagram";
+													- _DataType = 2;
+												}
+											}
+											- DataColumns = { IRPYRawContainer 
+												- size = 3;
+												- value = 
+												{ TableDataDefinition 
+													- _myTable = { IHandle 
+														- _m2Class = "ITableLayout";
+														- _id = GUID 5e4dfa1e-8675-4c2c-a8e9-524ff4ef883e;
+													}
+													- _modelElement = { IHandle 
+														- _m2Class = "";
+													}
+													- _name = "General.Name";
+													- _columnName = "Name";
+												}
+												{ TableDataDefinition 
+													- _myTable = { IHandle 
+														- _m2Class = "ITableLayout";
+														- _id = GUID 5e4dfa1e-8675-4c2c-a8e9-524ff4ef883e;
+													}
+													- _modelElement = { IHandle 
+														- _m2Class = "";
+													}
+													- _name = "General.Owner";
+													- _columnName = "Owner";
+												}
+												{ TableDataDefinition 
+													- _myTable = { IHandle 
+														- _m2Class = "ITableLayout";
+														- _id = GUID 5e4dfa1e-8675-4c2c-a8e9-524ff4ef883e;
+													}
+													- _modelElement = { IHandle 
+														- _m2Class = "";
+													}
+													- _name = "General.Full path name";
+													- _columnName = "Full path name";
+												}
+											}
+										}
 									}
 									- _configurationRelatedTime = 1.2.1990::0:0:0;
 								}
 							}
-							- weakCGTime = 3.29.2015::15:52:25;
+							- weakCGTime = 4.6.2015::18:16:43;
 							- strongCGTime = 3.29.2015::15:52:25;
 							- _defaultComposite = GUID 57acf9df-3d8f-404d-889f-d6f81f515dc3;
 							- _eventsBaseID = -1;
@@ -2590,7 +2673,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								}
 							}
 							- TableInstances = { IRPYRawContainer 
-								- size = 6;
+								- size = 7;
 								- value = 
 								{ ITableInstance 
 									- _id = GUID ac55221f-bcba-4ef7-bc03-4693d26534da;
@@ -2626,7 +2709,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 										}
 									}
 									- _name = "Use Case Description Table View";
-									- _modifiedTimeWeak = 3.22.2015::14:12:9;
+									- _modifiedTimeWeak = 4.5.2015::16:47:18;
 									- LayoutHandle = { IHandle 
 										- _m2Class = "ITableLayout";
 										- _id = GUID 1b7fef36-dd14-49fa-909c-2a358af3a2a2;
@@ -2752,7 +2835,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 											- _id = GUID 852d68e8-b380-45fd-a997-66cc2aaf9289;
 										}
 									}
-									- _modifiedTimeWeak = 8.20.2014::13:10:49;
+									- _modifiedTimeWeak = 4.5.2015::17:7:59;
 									- LayoutHandle = { IHandle 
 										- _m2Class = "ITableLayout";
 										- _id = GUID 8d318d1b-111e-4a8e-9a9c-4f30e723aca8;
@@ -2854,6 +2937,53 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 										{ IHandle 
 											- _m2Class = "ISubsystem";
 											- _id = GUID 6cfa223b-3cca-4a39-932e-465247fcef40;
+										}
+									}
+								}
+								{ ITableInstance 
+									- _id = GUID 120c3ddc-baa5-49ef-a293-7d5b2adfb477;
+									- _myState = 8192;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "TableView";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "TableSortColumnState";
+																- _Value = "1,0,0";
+																- _Type = String;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- _name = "Available Activities Table View";
+									- _modifiedTimeWeak = 4.6.2015::18:16:43;
+									- LayoutHandle = { IHandle 
+										- _m2Class = "ITableLayout";
+										- _id = GUID 5e4dfa1e-8675-4c2c-a8e9-524ff4ef883e;
+									}
+									- ScopeHandles = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IHandle 
+											- _m2Class = "IProject";
+											- _filename = "";
+											- _subsystem = "";
+											- _class = "";
+											- _name = "SysEngDevEnv";
+											- _id = GUID d84478ea-c8fb-444f-aecc-3acdf582da60;
 										}
 									}
 								}
@@ -3146,7 +3276,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "3.29.2015::16:16:51";
+							- _lastModifiedTime = "4.6.2015::18:15:6";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 5fa92e41-f767-4fe4-817c-a9b877ad2321;
 								- m_type = 0;
@@ -3318,7 +3448,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 									}
 									- m_pParent = GUID 26365f2f-587f-41ec-bd43-8170e079aaa0;
 									- m_name = { CGIText 
-										- m_str = "Use Case Table Views";
+										- m_str = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -3330,8 +3460,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 										- m_bImplicitSetRectPoints = 0;
 										- m_nOrientationCtrlPt = 5;
 									}
-									- m_drawBehavior = 4104;
-									- m_transform = 0.292682 0 0 0.119298 79.0893 83.9167 ;
+									- m_drawBehavior = 1032;
+									- m_transform = 0.375368 0 0 0.157894 78.8914 42.4693 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -4120,7 +4250,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _name = "Worflow Patterns";
 						}
 					}
-					- weakCGTime = 3.30.2015::18:19:24;
+					- weakCGTime = 4.6.2015::18:14:16;
 					- strongCGTime = 3.29.2015::15:52:25;
 					- _defaultComposite = GUID 096ed2a3-f9af-4729-b836-e0906b514d83;
 					- _eventsBaseID = -1;
@@ -7327,7 +7457,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _configurationRelatedTime = 8.1.2014::20:56:37;
 				}
 			}
-			- weakCGTime = 3.30.2015::18:19:4;
+			- weakCGTime = 4.6.2015::18:14:16;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _defaultComposite = GUID 2509bcdc-191a-402b-a19c-86c64ba04d5c;
 			- _eventsBaseID = -1;
@@ -7351,7 +7481,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _configurationRelatedTime = 6.10.2014::15:13:23;
 		}
 	}
-	- weakCGTime = 3.30.2015::18:19:4;
+	- weakCGTime = 4.6.2015::18:14:16;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 297a057e-07b1-4fdc-84a1-a9df6c8312bf;
 	- _eventsBaseID = -1;
@@ -7362,8 +7492,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 297a057e-07b1-4fdc-84a1-a9df6c8312bf;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.29.2015::15:52:25;
-			- weakCGTime = 3.29.2015::15:52:25;
+			- _modifiedTimeWeak = 4.5.2015::17:5:0;
+			- weakCGTime = 4.5.2015::17:5:0;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
