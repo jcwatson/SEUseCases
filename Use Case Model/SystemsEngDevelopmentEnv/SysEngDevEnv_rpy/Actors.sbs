@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
 	- _myState = 8192;
 	- _name = "Actors";
-	- _modifiedTimeWeak = 4.6.2015::19:12:33;
+	- _modifiedTimeWeak = 4.6.2015::21:13:3;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "System_Engineering_Operations.sbs";
@@ -313,7 +313,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.6.2015::19:12:33";
+			- _lastModifiedTime = "4.6.2015::23:46:2";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 7cc8a4c8-63ea-4dd6-b694-8253828ea795;
 				- m_type = 0;
@@ -4630,7 +4630,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 4.6.2015::19:12:33;
+	- weakCGTime = 4.6.2015::21:13:3;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 	- _eventsBaseID = -1;
@@ -4658,12 +4658,19 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _id = GUID 1d952e78-b8a0-4a0b-8756-6fe73444e0e4;
 			- _myState = 8192;
 			- _name = "Manufacturing Engineer";
-			- _modifiedTimeWeak = 4.6.2015::18:24:37;
+			- _modifiedTimeWeak = 4.6.2015::23:48:34;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
 			}
-			- weakCGTime = 4.6.2015::18:24:37;
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\f0\\fs22 Manufacturing engineering is a discipline of engineering dealing with different manufacturing practices and includes the research, design and development of systems, processes, machines, tools and equipment. The manufacturing engineer's primary focus is to turn raw materials into a new or updated product in the most economic, efficient and effective way possible [8]. \\par
+\\pard\\ltrpar\\b\\par
+}
+";
+			}
+			- weakCGTime = 4.6.2015::23:48:34;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -4753,12 +4760,18 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _id = GUID 6b0768e0-04b9-42c8-92c7-614d21e43924;
 			- _myState = 8192;
 			- _name = "Engineering Mgr.";
-			- _modifiedTimeWeak = 4.6.2015::18:23:53;
+			- _modifiedTimeWeak = 4.6.2015::23:50:0;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
 			}
-			- weakCGTime = 4.6.2015::18:23:53;
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\f0\\fs22 Engineering Management is a specialized form of management that is concerned with the application of engineering principles to business practice. Engineering management is a career that brings together the technological problem-solving savvy of engineering and the organizational, administrative, and planning abilities of management in order to oversee complex enterprises from conception to completion. [8]\\f1\\fs17\\par
+}
+";
+			}
+			- weakCGTime = 4.6.2015::23:50:0;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -4902,13 +4915,19 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _id = GUID 402f6023-92ba-4390-a405-32962ae7bef8;
 			- _myState = 8192;
 			- _name = "Customer";
-			- _modifiedTimeWeak = 4.6.2015::18:25:31;
+			- _modifiedTimeWeak = 4.6.2015::23:51:12;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
 			}
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\f0\\fs22 A customer (sometimes known as a client, buyer, or purchaser) is the recipient of a good, service, product, or idea, obtained from a seller, vendor, or supplier for a monetary or other valuable consideration. [8]\\f1\\fs17\\par
+}
+";
+			}
 			- _lastID = 2;
-			- weakCGTime = 4.6.2015::18:25:31;
+			- weakCGTime = 4.6.2015::23:51:12;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -4934,12 +4953,15 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _id = GUID 9d2cb40f-c05e-42a0-a112-6a34d73b1f20;
 			- _myState = 8192;
 			- _name = "Software Engineer";
-			- _modifiedTimeWeak = 4.6.2015::18:24:7;
+			- _modifiedTimeWeak = 4.6.2015::21:17:19;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
 			}
-			- weakCGTime = 4.6.2015::18:24:7;
+			- _description = { IDescription 
+				- _text = "Software engineers apply the principles of software engineering to the design, development, maintenance, testing, and evaluation of the software and systems that make computers or anything containing software work.[8]";
+			}
+			- weakCGTime = 4.6.2015::21:17:19;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -4995,12 +5017,19 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _id = GUID 6cc6027a-eeb0-4556-b38c-fabce847dad8;
 			- _myState = 8192;
 			- _name = "Mechanical Engineer";
-			- _modifiedTimeWeak = 4.6.2015::18:24:19;
+			- _modifiedTimeWeak = 4.6.2015::23:47:1;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
 			}
-			- weakCGTime = 4.6.2015::18:24:19;
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
+{\\colortbl ;\\red0\\green0\\blue0;}
+\\viewkind4\\uc1\\pard\\cf1\\f0\\fs22 Mechanical engineering is the discipline that applies the principles of engineering, physics, and materials science for the design, analysis, manufacturing, and maintenance of mechanical systems. It is the branch of engineering that involves the design, production, and operation of machinery [8].\\cf0\\f1\\fs17\\par
+}
+";
+			}
+			- weakCGTime = 4.6.2015::23:47:1;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -5082,12 +5111,18 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _id = GUID 1667f313-3cdc-4d22-9f51-616cf30f0cc4;
 			- _myState = 8192;
 			- _name = "Electrical Engineer";
-			- _modifiedTimeWeak = 4.6.2015::18:24:32;
+			- _modifiedTimeWeak = 4.6.2015::21:29:33;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
 			}
-			- weakCGTime = 4.6.2015::18:24:32;
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\f0\\fs22 Electrical engineers apply the principles of electrical engineering to the design, development, maintenance and testing of electrical equipment. Electrical engineering includes the study and application of electricity, electronics, and electromagnetism. [8]\\f1\\fs17\\par
+}
+";
+			}
+			- weakCGTime = 4.6.2015::21:29:33;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -5143,12 +5178,15 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _id = GUID ad033bc4-009c-4395-9da6-3c272207b006;
 			- _myState = 8192;
 			- _name = "Stakeholder";
-			- _modifiedTimeWeak = 3.29.2015::15:52:25;
+			- _modifiedTimeWeak = 4.6.2015::21:16:10;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
 			}
-			- weakCGTime = 3.29.2015::15:52:25;
+			- _description = { IDescription 
+				- _text = "A person, group or organization with an interest in a project. [8]";
+			}
+			- weakCGTime = 4.6.2015::21:16:10;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
