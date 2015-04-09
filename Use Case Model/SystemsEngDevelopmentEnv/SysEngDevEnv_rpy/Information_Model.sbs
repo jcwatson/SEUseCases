@@ -3,12 +3,12 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 4.6.2015::21:15:39;
+	- _modifiedTimeWeak = 4.8.2015::21:48:57;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
 	}
-	- _lastID = 29;
+	- _lastID = 31;
 	- Declaratives = { IRPYRawContainer 
 		- size = 6;
 		- value = 
@@ -2740,7 +2740,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							- m_pModelObject = { IHandle 
 								- _m2Class = "ISubsystem";
 								- _filename = "SE_Development_System_Workflow_Use_Cases.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::Document - SE Development System Workflow Documents::SE Development System Workflow Use Cases";
+								- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::SE Development System Workflow Use Cases";
 								- _class = "";
 								- _name = "References";
 								- _id = GUID d09eaa2c-ec0c-482b-b05e-78bb300686fb;
@@ -2897,7 +2897,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 4.6.2015::21:15:39;
+	- weakCGTime = 4.8.2015::21:48:57;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
@@ -2908,14 +2908,249 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _id = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.31.2015::21:29:51;
-			- weakCGTime = 3.31.2015::21:29:51;
+			- _modifiedTimeWeak = 4.6.2015::21:15:39;
+			- weakCGTime = 4.6.2015::21:15:39;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
 			- _classModifier = Unspecified;
+		}
+	}
+	- TableLayouts = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ITableLayout 
+			- _id = GUID e25aa5e8-3fdc-4da6-8cf2-73ddaf4ac1d2;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Model";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "TableLayout";
+								- Properties = { IRPYRawContainer 
+									- size = 2;
+									- value = 
+									{ IProperty 
+										- _Name = "CollapseFirstColumn";
+										- _Value = "False";
+										- _Type = Bool;
+									}
+									{ IProperty 
+										- _Name = "EnableCriteriaCheck";
+										- _Value = "True";
+										- _Type = Bool;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Item Types Table Layout";
+			- _modifiedTimeWeak = 4.8.2015::21:48:57;
+			- Tags = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ ITag 
+					- _id = GUID 1047f960-6805-48dd-9cd7-3301a070805a;
+					- _myState = 8192;
+					- _name = "Conform_Viewpoint";
+					- _modifiedTimeWeak = 4.8.2015::21:27:20;
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+				}
+				{ ITag 
+					- _id = GUID 78fe40b4-d0ae-4f49-bf7d-1f687ef23caf;
+					- _myState = 8192;
+					- _name = "Or_And_Veiwpoint";
+					- _modifiedTimeWeak = 4.8.2015::21:33:37;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 48c98579-1a5c-4182-82f7-86ed87909ed5;
+							- _modifiedTimeWeak = 4.8.2015::21:33:37;
+							- _value = "or";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+				}
+				{ ITag 
+					- _id = GUID 56d33520-5db4-4c0b-a9c3-a0d7cc5bdd69;
+					- _myState = 8192;
+					- _name = "Stereotype_Requirement";
+					- _modifiedTimeWeak = 4.8.2015::21:27:45;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IInstanceValue 
+							- _id = GUID c1708550-faa5-41b8-9579-a88cab8193aa;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- _value = { IHandle 
+								- _m2Class = "IStereotype";
+								- _filename = "SE_Dev_Profile.sbs";
+								- _subsystem = "SE_Dev_Profile";
+								- _class = "";
+								- _name = "Definition";
+								- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+							}
+						}
+					}
+					- myTypeOf = { IType 
+						- _id = GUID 6c964463-9fc9-436f-afa0-87ebec13e0d5;
+						- _myState = 8192;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
+						- _declaration = "Stereotype";
+						- _kind = Language;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "Query";
+						- _name = "Stereotype_Requirement";
+						- _id = GUID a249681c-22f5-4a25-b372-3cf2758f1473;
+					}
+				}
+			}
+			- TableElementTypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ TableDataDefinition 
+					- _myTable = { IHandle 
+						- _m2Class = "ITableLayout";
+						- _id = GUID e25aa5e8-3fdc-4da6-8cf2-73ddaf4ac1d2;
+					}
+					- _modelElement = { IHandle 
+						- _m2Class = "";
+					}
+					- _name = "Block";
+					- _DataType = 2;
+				}
+			}
+			- DataColumns = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ TableDataDefinition 
+					- _myTable = { IHandle 
+						- _m2Class = "ITableLayout";
+						- _id = GUID e25aa5e8-3fdc-4da6-8cf2-73ddaf4ac1d2;
+					}
+					- _modelElement = { IHandle 
+						- _m2Class = "";
+					}
+					- _name = "General.Name";
+					- _columnName = "Name";
+				}
+				{ TableDataDefinition 
+					- _myTable = { IHandle 
+						- _m2Class = "ITableLayout";
+						- _id = GUID e25aa5e8-3fdc-4da6-8cf2-73ddaf4ac1d2;
+					}
+					- _modelElement = { IHandle 
+						- _m2Class = "";
+					}
+					- _name = "General.Description";
+					- _columnName = "Description";
+				}
+			}
+			- TableFromElementTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- TableToElementTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- TableInstances = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ITableInstance 
+			- _id = GUID dcd26acf-9e32-4e32-acb7-c4741359af0d;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "General";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "TableView";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "TableSortColumnState";
+										- _Value = "1,0";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "Item Type Table View";
+			- _modifiedTimeWeak = 4.8.2015::21:33:29;
+			- LayoutHandle = { IHandle 
+				- _m2Class = "ITableLayout";
+				- _id = GUID e25aa5e8-3fdc-4da6-8cf2-73ddaf4ac1d2;
+			}
+			- ScopeHandles = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IHandle 
+					- _m2Class = "ISubsystem";
+					- _filename = "Analyze_Stakeholder_Needs_Artifacts.sbs";
+					- _subsystem = "Information Model";
+					- _class = "";
+					- _name = "Analyze Stakeholder Needs Artifacts";
+					- _id = GUID 07a0630b-566b-4efe-891d-b365d5c76783;
+				}
+				{ IHandle 
+					- _m2Class = "ISubsystem";
+					- _id = GUID f109723a-476b-475b-bc87-79e24d1efb83;
+				}
+				{ IHandle 
+					- _m2Class = "ISubsystem";
+					- _filename = "Context_Definitions.sbs";
+					- _subsystem = "Information Model";
+					- _class = "";
+					- _name = "Context Definitions";
+					- _id = GUID 3a04fbcd-2fe6-42da-b48b-82a46d0ca9a2;
+				}
+				{ IHandle 
+					- _m2Class = "ISubsystem";
+					- _id = GUID 38d2bbd1-6f3f-4a48-ad36-4863d2955c0a;
+				}
+			}
 		}
 	}
 	- _configurationRelatedTime = 7.29.2014::21:24:8;

@@ -11,11 +11,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
 	- _myState = 8192;
 	- _name = "SE Domain Workflow Use Cases";
-	- _modifiedTimeWeak = 4.8.2015::18:38:6;
+	- _modifiedTimeWeak = 4.9.2015::14:57:24;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "System_Engineering_Operations.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Use Case Review Document::Use Cases";
+		- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Use Case Review Document::Review Items";
 		- _class = "";
 		- _name = "Use Cases";
 		- _id = GUID 79ecaadf-4e2c-492c-97ed-faa11ea5a03c;
@@ -7779,7 +7779,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 4.8.2015::18:38:6;
+	- weakCGTime = 4.9.2015::14:57:24;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 	- _eventsBaseID = -1;
@@ -8013,14 +8013,14 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 				- _id = GUID d76fa43d-2901-4b59-87b4-43e07dcec73a;
 			}
 			- _description = { IDescription 
-				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fswiss\\fprq2\\fcharset0 Arial;}{\\f2\\fnil\\fcharset0 Calibri;}}
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fswiss\\fprq2\\fcharset0 Arial;}{\\f2\\fnil\\fcharset0 Calibri;}}
 {\\colortbl ;\\red0\\green0\\blue0;}
-\\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to evaluate the system for safety related hazards and derive a plan to mitigate these risks. \\par
+\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to evaluate the system for safety related hazards and derive a plan to mitigate these risks. \\par
 \\b Primary Actor\\b0  -\\par
 \\b Secondary Actors\\b0  -\\par
 \\b Preconditions\\b0  -\\par
 \\b Activity\\b0  -\\par
-\\pard\\ltrpar\\fi-360\\li720\\sa200\\sl276\\slmult1 1.\\tab Identify applicable safety standards \\par
+\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 1.\\tab Identify applicable safety standards \\par
 2.\\tab Identify Safety Hazards undesired events and their causes\\par
 3.\\tab Determine Risk level of each hazard\\par
 4.\\tab Analyze Hazard\\rquote s faults and failures\\par
@@ -8029,19 +8029,19 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 7.\\tab Provide traceability from Safety measures to faults and to hazards\\par
 8.\\tab Conduct analysis to determine the severity level, the probability of occurrence and assess the level of risk. \\par
 9.\\tab Determine if the analysis results are acceptable for use. \\par
-\\pard\\ltrpar\\fi-360\\li1440\\sa200\\sl276\\slmult1 a.\\tab If it is acceptable, capture these results and show tractability to identified Hazard. \\par
+\\pard\\fi-360\\li1440\\sa200\\sl276\\slmult1 a.\\tab If it is acceptable, capture these results and show tractability to identified Hazard. \\par
 b.\\tab If not, determine best corrective solution to eliminate or minimize the level of risk. This could be by design and/or by procedure/process\\par
 c.\\tab Update Model and other information base \\par
-\\pard\\ltrpar\\fi-180\\li2160\\sa200\\sl276\\slmult1 i.\\tab Derive Safety related requirements that address Hazards. \\par
+\\pard\\fi-180\\li2160\\sa200\\sl276\\slmult1 i.\\tab Derive Safety related requirements that address Hazards. \\par
 ii.\\tab Show how these requirements are satisfied\\par
 iii.\\tab Show traceability from Hazards to Risk mitigation requirements to system elements satisfying those requirements.\\par
-\\pard\\ltrpar\\fi-360\\li720\\sa200\\sl276\\slmult1 10.\\tab Verify solution to determine if Hazard has been appropriately addressed. \\par
-\\pard\\ltrpar\\b\\f1\\fs20 Post Conditions -\\b0\\par
+\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 10.\\tab Verify solution to determine if Hazard has been appropriately addressed. \\par
+\\pard\\b\\f1\\fs20 Post Conditions -\\b0\\par
 \\par
-\\pard\\ltrpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22\\par
+\\pard\\sa200\\sl276\\slmult1\\b\\f0\\fs22\\par
 References and Citations: \\cf1\\b0\\f2\\par
-\\cf0\\f0        \\cf1\\f2 7.   Douglas, Bruce: Safety Analysis of UML Models\\cf0\\f0\\par
-\\pard\\ltrpar\\f1\\fs20\\par
+\\cf0\\f0        [\\cf1\\f2 7]   Douglas, Bruce: Safety Analysis of UML Models\\cf0\\f0\\par
+\\pard\\f1\\fs20\\par
 \\b\\f0\\fs22\\par
 }
 ";
@@ -8053,14 +8053,14 @@ References and Citations: \\cf1\\b0\\f2\\par
 					- _id = GUID 241b0480-4b8d-4e8b-9773-a116bb295e3d;
 					- _myState = 8192;
 					- _name = "Maturity";
-					- _modifiedTimeWeak = 6.9.2014::17:27:53;
+					- _modifiedTimeWeak = 4.8.2015::21:58:26;
 					- ValueSpecifications = { IRPYRawContainer 
 						- size = 1;
 						- value = 
 						{ ILiteralSpecification 
-							- _id = GUID 2f6a9e7b-0358-4af4-babf-c09e77272a8b;
-							- _modifiedTimeWeak = 6.9.2014::17:27:53;
-							- _value = "Evolving Description";
+							- _id = GUID 743dcbc8-5df7-4323-811a-ecdf3ee6d60c;
+							- _modifiedTimeWeak = 4.8.2015::21:58:26;
+							- _value = "Early Activity";
 						}
 					}
 					- _typeOf = { IHandle 
@@ -8085,14 +8085,14 @@ References and Citations: \\cf1\\b0\\f2\\par
 					- _id = GUID 403cec70-5a69-400b-b5e0-02c019bedc2f;
 					- _myState = 8192;
 					- _name = "Selection";
-					- _modifiedTimeWeak = 6.16.2014::0:21:57;
+					- _modifiedTimeWeak = 4.8.2015::22:1:55;
 					- ValueSpecifications = { IRPYRawContainer 
 						- size = 1;
 						- value = 
 						{ ILiteralSpecification 
-							- _id = GUID b9904801-90e6-428b-b90e-7e2eb311e31c;
-							- _modifiedTimeWeak = 6.16.2014::0:21:57;
-							- _value = "Pattern";
+							- _id = GUID 4b8896ed-f83c-4aff-99be-14b949991b27;
+							- _modifiedTimeWeak = 4.8.2015::22:1:55;
+							- _value = "Selected & Pattern";
 						}
 					}
 					- _typeOf = { IHandle 
@@ -8115,7 +8115,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 				}
 			}
 			- _lastID = 4;
-			- weakCGTime = 4.5.2015::16:40:56;
+			- weakCGTime = 4.8.2015::22:1:55;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 

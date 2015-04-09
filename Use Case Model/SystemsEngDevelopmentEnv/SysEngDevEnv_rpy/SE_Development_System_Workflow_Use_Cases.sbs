@@ -817,7 +817,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 4.8.2015::17:50:20;
+	- _modifiedTimeWeak = 4.9.2015::13:38:23;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID bf097a8d-2c8d-4b22-8f23-fce72ebb39d0;
@@ -1049,7 +1049,37 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 2808b111-1b3c-4b40-a345-032abd5bd13a;
 			- _myState = 8192;
 			- _name = "first_footer";
-			- _modifiedTimeWeak = 4.8.2015::16:22:49;
+			- Dependencies = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IDependency 
+					- _id = GUID a3ecd92d-2d27-4f0a-bec7-1f308008924d;
+					- _myState = 2048;
+					- _name = "UC Description";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+							- _subsystem = "DocGen Profile";
+							- _class = "";
+							- _name = "next";
+							- _id = GUID c1fd0048-9b35-4746-bb1c-91d904768163;
+						}
+					}
+					- _modifiedTimeWeak = 4.8.2015::21:47:24;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IComment";
+						- _filename = "System_Engineering_Operations.sbs";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Use Case Review Document::Review Items::Use Case Under Review::Use Case Description";
+						- _class = "";
+						- _name = "UC Description";
+						- _id = GUID a57499eb-807f-4b0e-a5f6-5b396949935e;
+					}
+				}
+			}
+			- _modifiedTimeWeak = 4.8.2015::21:47:24;
 			- ValueSpecifications = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -32337,7 +32367,7 @@ Post Conditions\\b0  -\\par
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.8.2015::17:55:3";
+			- _lastModifiedTime = "4.9.2015::13:38:23";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 92778acf-e925-4ed0-86b0-492c62f74cf6;
 				- m_type = 0;
@@ -32361,7 +32391,7 @@ Post Conditions\\b0  -\\par
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 19;
+				- elementList = 20;
 				{ CGIClass 
 					- _id = GUID 9c71077a-aa00-4d17-9961-0f0ec52db6cf;
 					- m_type = 78;
@@ -32690,12 +32720,12 @@ Post Conditions\\b0  -\\par
 						- _filename = "System_Engineering_Operations.sbs";
 						- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Use Case Review Document";
 						- _class = "";
-						- _name = "Use Cases";
+						- _name = "Review Items";
 						- _id = GUID 0c3ae043-1c46-4585-8c18-eab8e8c18fe8;
 					}
 					- m_pParent = GUID 4c91071c-eea2-4056-b7ec-ef0a12a5f019;
 					- m_name = { CGIText 
-						- m_str = "Use Cases";
+						- m_str = "Review Items";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -33882,12 +33912,12 @@ Post Conditions\\b0  -\\par
 						- _filename = "System_Engineering_Operations.sbs";
 						- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Use Case Review Document::Context";
 						- _class = "";
-						- _name = "Use Cases";
+						- _name = "Review Items";
 						- _id = GUID 64ae5aa0-ffb2-417b-a645-f39126b28865;
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "Use Cases";
+						- m_str = "Review Items";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -33927,6 +33957,98 @@ Post Conditions\\b0  -\\par
 					- m_ShowName = 0;
 					- m_ShowStereotype = 1;
 				}
+				{ CGIPackage 
+					- _id = GUID 49b46f78-da02-4193-bc25-5f790da35389;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "ObjectModelGe";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Package";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Compartments";
+												- _Value = "";
+												- _Type = MultiLine;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 127;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "ISubsystem";
+						- _filename = "System_Engineering_Operations.sbs";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Use Case Review Document";
+						- _class = "";
+						- _name = "Appendix";
+						- _id = GUID 7cd40e10-f479-42f5-b374-cf4a2d12d7c0;
+					}
+					- m_pParent = GUID 4c91071c-eea2-4056-b7ec-ef0a12a5f019;
+					- m_name = { CGIText 
+						- m_str = "Appendix";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 4104;
+					- m_transform = 0.391304 0 0 0.127466 185.043 901.216 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 0 0  0 1151  1216 1151  1216 0  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
 				
 				- m_access = 'Z';
 				- m_modified = 'N';
@@ -33946,7 +34068,7 @@ Post Conditions\\b0  -\\par
 			}
 		}
 	}
-	- weakCGTime = 4.8.2015::17:50:20;
+	- weakCGTime = 4.9.2015::13:38:23;
 	- strongCGTime = 4.8.2015::16:22:49;
 	- _defaultComposite = GUID b5e6522c-4213-4f31-8750-48c4843ab519;
 	- _eventsBaseID = -1;
