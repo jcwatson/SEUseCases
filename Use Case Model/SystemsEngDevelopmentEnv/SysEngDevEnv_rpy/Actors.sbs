@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
 	- _myState = 8192;
 	- _name = "Actors";
-	- _modifiedTimeWeak = 4.8.2015::20:55:57;
+	- _modifiedTimeWeak = 4.10.2015::19:55:4;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "System_Engineering_Operations.sbs";
@@ -313,7 +313,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.8.2015::21:23:55";
+			- _lastModifiedTime = "4.10.2015::21:25:25";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 7cc8a4c8-63ea-4dd6-b694-8253828ea795;
 				- m_type = 0;
@@ -4630,7 +4630,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 4.8.2015::20:55:57;
+	- weakCGTime = 4.10.2015::19:55:4;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 	- _eventsBaseID = -1;
@@ -5257,7 +5257,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 				}
 			}
 			- _name = "Actor List Table Layout";
-			- _modifiedTimeWeak = 4.6.2015::18:33:36;
+			- _modifiedTimeWeak = 4.10.2015::19:54:55;
 			- TableElementTypes = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -5274,7 +5274,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 				}
 			}
 			- DataColumns = { IRPYRawContainer 
-				- size = 3;
+				- size = 2;
 				- value = 
 				{ TableDataDefinition 
 					- _myTable = { IHandle 
@@ -5297,17 +5297,6 @@ A systems engineer helps ensure the elements of the system fit together to accom
 					}
 					- _name = "General.Description";
 					- _columnName = "Description";
-				}
-				{ TableDataDefinition 
-					- _myTable = { IHandle 
-						- _m2Class = "ITableLayout";
-						- _id = GUID 7ecd3e2f-bcaf-4f88-9e98-8895133401b2;
-					}
-					- _modelElement = { IHandle 
-						- _m2Class = "";
-					}
-					- _name = "General.Full path name";
-					- _columnName = "Full path name";
 				}
 			}
 		}
@@ -5343,8 +5332,8 @@ A systems engineer helps ensure the elements of the system fit together to accom
 					}
 				}
 			}
-			- _name = "Acto List Table View";
-			- _modifiedTimeWeak = 4.8.2015::20:55:57;
+			- _name = "Actor List Table View";
+			- _modifiedTimeWeak = 4.10.2015::19:55:4;
 			- LayoutHandle = { IHandle 
 				- _m2Class = "ITableLayout";
 				- _id = GUID 7ecd3e2f-bcaf-4f88-9e98-8895133401b2;

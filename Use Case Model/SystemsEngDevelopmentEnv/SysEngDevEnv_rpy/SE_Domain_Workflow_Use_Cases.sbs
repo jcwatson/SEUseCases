@@ -11,11 +11,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
 	- _myState = 8192;
 	- _name = "SE Domain Workflow Use Cases";
-	- _modifiedTimeWeak = 4.9.2015::14:57:24;
+	- _modifiedTimeWeak = 4.10.2015::18:56:37;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
-		- _filename = "System_Engineering_Operations.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Use Case Review Document::Review Items";
+		- _filename = "Documents_Generated\\Documents_Generated.sbs";
+		- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Use Case Review Document::Items To Be Reviewed";
 		- _class = "";
 		- _name = "Use Cases";
 		- _id = GUID 79ecaadf-4e2c-492c-97ed-faa11ea5a03c;
@@ -7779,7 +7779,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 4.9.2015::14:57:24;
+	- weakCGTime = 4.10.2015::18:56:37;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 	- _eventsBaseID = -1;
@@ -8020,18 +8020,18 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 \\b Secondary Actors\\b0  -\\par
 \\b Preconditions\\b0  -\\par
 \\b Activity\\b0  -\\par
-\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 1.\\tab Identify applicable safety standards \\par
+\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 1.\\tab Identify applicable safety standards\\par
 2.\\tab Identify Safety Hazards undesired events and their causes\\par
 3.\\tab Determine Risk level of each hazard\\par
 4.\\tab Analyze Hazard\\rquote s faults and failures\\par
-5.\\tab Define the Safety Measures \\par
+5.\\tab Define the Safety Measures\\par
 6.\\tab Create Safety Requirements\\par
 7.\\tab Provide traceability from Safety measures to faults and to hazards\\par
 8.\\tab Conduct analysis to determine the severity level, the probability of occurrence and assess the level of risk. \\par
 9.\\tab Determine if the analysis results are acceptable for use. \\par
 \\pard\\fi-360\\li1440\\sa200\\sl276\\slmult1 a.\\tab If it is acceptable, capture these results and show tractability to identified Hazard. \\par
 b.\\tab If not, determine best corrective solution to eliminate or minimize the level of risk. This could be by design and/or by procedure/process\\par
-c.\\tab Update Model and other information base \\par
+c.\\tab Update Model and other information base\\par
 \\pard\\fi-180\\li2160\\sa200\\sl276\\slmult1 i.\\tab Derive Safety related requirements that address Hazards. \\par
 ii.\\tab Show how these requirements are satisfied\\par
 iii.\\tab Show traceability from Hazards to Risk mitigation requirements to system elements satisfying those requirements.\\par

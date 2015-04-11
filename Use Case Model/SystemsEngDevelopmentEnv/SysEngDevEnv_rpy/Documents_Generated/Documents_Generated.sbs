@@ -1,0 +1,72 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "System_Engineering_Operations.sbs";
+		- _subsystem = "System Engineering Operations";
+		- _class = "";
+		- _name = "System Engineering Development System";
+		- _id = GUID 0ab040f7-e724-40c5-a608-9b9e41fdbd2f;
+	}
+	- _id = GUID ec647722-1ed8-4c1e-add4-60795884cdaa;
+	- _myState = 8192;
+	- _name = "Documents Generated";
+	- _modifiedTimeWeak = 4.10.2015::19:24:9;
+	- EmbededFiles = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IEmbededFile 
+			- _id = GUID 6990a3cc-a9bb-4a63-8afb-b818aebb3889;
+			- _name = "TitlePageUC_Survey.docx";
+			- _modifiedTimeWeak = 8.21.2014::13:38:56;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\Documents_Generated\\TitlePageUC_Survey.docx";
+		}
+	}
+	- _lastID = 7;
+	- Declaratives = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ ISubsystem 
+			- fileName = "Use_Case_Review_Document";
+			- _persistAs = "Use_Case_Review_Document";
+			- _id = GUID c45ac290-e7d6-4c81-8589-70c79c5eaed6;
+			- _name = "Use Case Review Document";
+		}
+		{ ISubsystem 
+			- fileName = "Use_Case_Tables";
+			- _persistAs = "Use_Case_Tables";
+			- _id = GUID 8a3e01bc-496b-4536-aad6-9e3179c9ee22;
+			- _name = "Use Case Tables";
+		}
+		{ ISubsystem 
+			- fileName = "SE_Development_System_Workflow_Use_Cases";
+			- _persistAs = "SE_Development_System_Workflow_Use_Cases";
+			- _id = GUID c7e5f24a-df6e-42a9-b470-a8156ff560c4;
+			- _name = "SE Development System Workflow Use Cases";
+		}
+	}
+	- weakCGTime = 4.10.2015::19:24:9;
+	- strongCGTime = 4.10.2015::19:19:41;
+	- _defaultComposite = GUID ebc4fe54-ecba-42da-9803-5ad160cfbb20;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID ebc4fe54-ecba-42da-9803-5ad160cfbb20;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 4.10.2015::19:20:21;
+			- weakCGTime = 4.10.2015::19:20:21;
+			- strongCGTime = 4.10.2015::19:19:41;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 8.1.2014::20:56:37;
+}
+
