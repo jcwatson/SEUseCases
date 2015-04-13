@@ -11,7 +11,15 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 5d69c9d4-3a32-49fc-829e-51b39c74246d;
 	- _myState = 8192;
 	- _name = "Exploratory and Concept Stage";
-	- _modifiedTimeWeak = 4.8.2015::21:58:41;
+	- _modifiedTimeWeak = 4.13.2015::17:36:34;
+	- _theMainDiagram = { IHandle 
+		- _m2Class = "IDiagram";
+		- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Review_Document_-Analyze_Stakeholders_Needs.sbs";
+		- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Review Document Models and Documents::Review Document -Analyze Stakeholders Needs::Items to Review";
+		- _class = "";
+		- _name = "Use Case being  Reviewed";
+		- _id = GUID f5acf1de-a859-4352-8b35-2f9e37a005a1;
+	}
 	- _lastID = 6;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -422,7 +430,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "Exploratory and Concept Stage Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.6.2015::19:13:24";
+			- _lastModifiedTime = "4.13.2015::12:14:0";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID ff4926df-a6ac-4b04-9c83-f69a46cedb29;
 				- m_type = 0;
@@ -2199,7 +2207,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 4.8.2015::21:58:41;
+	- weakCGTime = 4.13.2015::17:36:34;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a4a4050b-d10d-49f3-91c4-5fe6ec60261f;
 	- _eventsBaseID = -1;
@@ -6979,14 +6987,12 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 			}
 			- _modifiedTimeWeak = 3.22.2015::14:45:43;
 			- _description = { IDescription 
-				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 FreeSerif;}{\\f2\\fnil\\fcharset0 Arial;}{\\f3\\fswiss\\fcharset0 Calibri;}{\\f4\\fnil\\fcharset0 Calibri;}{\\f5\\froman\\fprq2\\fcharset2 Symbol;}{\\f6\\fswiss\\fprq2\\fcharset0 Arial,Bold;}}
-\\viewkind4\\uc1\\pard\\nowidctlpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to identify all stakeholders and better understand and capture their required needs \\f1\\fs20 expectations, goals, and objectives \\f0\\fs22 across the entire product life cycle.\\par
+				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 FreeSerif;}{\\f2\\fnil\\fcharset0 Arial;}{\\f3\\fswiss\\fcharset0 Calibri;}{\\f4\\fswiss\\fprq2\\fcharset0 Arial,Bold;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\nowidctlpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to identify all stakeholders and better understand and capture their required needs \\f1\\fs20 expectations, goals, and objectives \\f0\\fs22 across the entire product life cycle.\\par
 \\b Primary Actor\\b0  - System Architect\\par
 \\b Secondary Actors\\b0  - Stakeholders\\par
-\\b Preconditions\\b0  - \\par
+\\b Preconditions\\b0  -\\par
 \\b Activity -\\par
-\\pard\\b0\\f2\\fs20 References: \\f3\\fs22  INCOSE Systems Engineering Handbook v. 3.2.2\\par
-\\pard\\nowidctlpar\\sa200\\sl276\\slmult1          INCOSE\\f4\\u8208?\\f3 TP\\f4\\u8208?\\f3 2003\\f4\\u8208?\\f3 002\\f4\\u8208?\\f3 03.2.2, October 2011, Section 4.1\\b\\f0\\par
 \\b0    1.  Define Stakeholders and their Needs/Goals - \\f1\\fs20 In this task the primary actor identifies and captures the system-of-interest stakeholders from across all life cycle stages. The intent is to elicit and capture a set of stakeholder needs, expectations, goals, or objectives for a desired solution.  \\f0\\fs22\\par
    2.  Define the system domain level model\\f1\\fs20  - This task is to evaluate and capture the existing \\f0\\fs22 domain structure with and \\f1\\fs20 without the system-of-interest\\f0\\fs22  included. In this task the definition of the appropriate domain entities and their relationship to other entities are captured. These definitions can include stakeholders, other systems, organizations or roles that participate with or influence the system-of-interest. Also captured are the primary interfaces for each.\\f1\\fs20   \\pa
 r
@@ -7000,9 +7006,11 @@ r
 \\par
 \\b Post Conditions\\b0  -\\par
 1.  A domain level model is available including all stakeholders, appropriate mission level use cases, the required needs of the stakeholders, the system-of-interest\\rquote s boundaries and its key interfaces to other entities. \\par
-\\pard\\sa200\\sl276\\slmult1\\b References\\par
-\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1\\b0\\f5\\fs20\\'b7\\tab\\f6 ISO/IEC 15288-2008 - 6.4.1 Stakeholder Requirements Definition Process\\par
-\\pard\\f5         \\'b7\\tab\\f6 SEBok - Concept Definition\\b\\f0\\fs22\\par
+\\pard\\ltrpar\\sa200\\sl276\\slmult1\\b References and Citations: \\par
+\\pard\\ltrpar\\nowidctlpar\\sa200\\sl276\\slmult1\\b0\\f2\\fs20       [2\\} References: \\f3\\fs22  INCOSE Systems Engineering Handbook, Section 4.1\\par
+\\pard\\ltrpar\\nowidctlpar\\sa200\\sl276\\slmult1\\f2\\fs20       \\f4 [3] SEBok - Concept Definition\\par
+ \\f2      \\f4 [4] ISO/IEC 15288-2008 - 6.4.1 Stakeholder Requirements Definition Process\\par
+\\pard\\ltrpar\\b\\f0\\fs22\\par
 }
 ";
 			}

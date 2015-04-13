@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 07a0630b-566b-4efe-891d-b365d5c76783;
 	- _myState = 8192;
 	- _name = "Analyze Stakeholder Needs Artifacts";
-	- _modifiedTimeWeak = 4.10.2015::18:46:13;
+	- _modifiedTimeWeak = 4.13.2015::16:7:2;
 	- _lastID = 2;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -410,7 +410,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "3.29.2015::16:16:51";
+			- _lastModifiedTime = "4.13.2015::12:14:24";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID e0d5849a-abaa-4a9e-abf6-a35c5f64bc10;
 				- m_type = 0;
@@ -4578,7 +4578,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 4.10.2015::18:46:13;
+	- weakCGTime = 4.13.2015::16:7:2;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID 2645246f-821e-4f2a-a0f4-148c87440aee;
 	- _eventsBaseID = -1;
@@ -4622,14 +4622,14 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 3.29.2015::15:52:32;
+			- _modifiedTimeWeak = 4.13.2015::16:7:2;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
-				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Calibri;}{\\f2\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 All stakeholder requirements should have bi\\f1\\u8208?\\f0 directional traceability, including to their source, such as the source document or the stakeholder need.\\f2\\fs17\\par
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
+\\viewkind4\\uc1\\pard\\f0\\fs24 All stakeholder requirements should have bidirectional traceability, including to their source, such as the source document or the stakeholder need.\\f1\\fs17\\par
 }
 ";
 			}
@@ -4726,7 +4726,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _lastID = 2;
-			- weakCGTime = 3.29.2015::15:52:32;
+			- weakCGTime = 4.13.2015::16:7:2;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -6149,7 +6149,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 3.29.2015::15:52:32;
+			- _modifiedTimeWeak = 4.13.2015::16:9:13;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -6157,7 +6157,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Calibri;}{\\f2\\fnil\\fcharset2 Symbol;}}
 {\\colortbl ;\\red0\\green0\\blue0;}
-\\viewkind4\\uc1\\pard\\f0\\fs24 A collection control and enabler artifacts required for the Stakeholder Requirements Definition Process.\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 A collection of artifacts that control and enable the Stakeholder Requirements Definition Process.\\par
 \\par
 \\cf1\\f1 This includes:\\par
 \\pard{\\pntext\\f2\\'B7\\tab}{\\*\\pn\\pnlvlblt\\pnf2\\pnindent0{\\pntxtb\\'B7}}\\fi-360\\li360 Applicable Laws and Regulations\\par
@@ -6232,7 +6232,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _lastID = 1;
-			- weakCGTime = 3.29.2015::15:52:32;
+			- weakCGTime = 4.13.2015::16:9:13;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

@@ -11,13 +11,13 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
 	- _myState = 8192;
 	- _name = "SE Domain Workflow Use Cases";
-	- _modifiedTimeWeak = 4.10.2015::18:56:37;
+	- _modifiedTimeWeak = 4.13.2015::17:49:48;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
-		- _filename = "Documents_Generated\\Documents_Generated.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Use Case Review Document::Items To Be Reviewed";
+		- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
+		- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Review Document Models and Documents::Use Case Review Document Template::Items to Review";
 		- _class = "";
-		- _name = "Use Cases";
+		- _name = "Use Case being  Reviewed";
 		- _id = GUID 79ecaadf-4e2c-492c-97ed-faa11ea5a03c;
 	}
 	- _lastID = 16;
@@ -509,7 +509,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "SE Domain Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.6.2015::19:13:41";
+			- _lastModifiedTime = "4.13.2015::12:14:1";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID a7b8c694-b1d8-4ca8-a28e-266ece045eb3;
 				- m_type = 0;
@@ -7779,7 +7779,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 4.10.2015::18:56:37;
+	- weakCGTime = 4.13.2015::17:49:48;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 	- _eventsBaseID = -1;
@@ -8013,14 +8013,14 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 				- _id = GUID d76fa43d-2901-4b59-87b4-43e07dcec73a;
 			}
 			- _description = { IDescription 
-				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fswiss\\fprq2\\fcharset0 Arial;}{\\f2\\fnil\\fcharset0 Calibri;}}
+				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fswiss\\fprq2\\fcharset0 Arial;}{\\f2\\fnil\\fcharset0 Calibri;}{\\f3\\fnil\\fcharset0 Arial;}{\\f4\\fswiss\\fcharset0 Calibri;}{\\f5\\fswiss\\fprq2\\fcharset0 Arial,Bold;}}
 {\\colortbl ;\\red0\\green0\\blue0;}
-\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to evaluate the system for safety related hazards and derive a plan to mitigate these risks. \\par
+\\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to evaluate the system for safety related hazards and derive a plan to mitigate these risks. \\par
 \\b Primary Actor\\b0  -\\par
 \\b Secondary Actors\\b0  -\\par
 \\b Preconditions\\b0  -\\par
 \\b Activity\\b0  -\\par
-\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 1.\\tab Identify applicable safety standards\\par
+\\pard\\ltrpar\\fi-360\\li720\\sa200\\sl276\\slmult1 1.\\tab Identify applicable safety standards\\par
 2.\\tab Identify Safety Hazards undesired events and their causes\\par
 3.\\tab Determine Risk level of each hazard\\par
 4.\\tab Analyze Hazard\\rquote s faults and failures\\par
@@ -8029,19 +8029,21 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 7.\\tab Provide traceability from Safety measures to faults and to hazards\\par
 8.\\tab Conduct analysis to determine the severity level, the probability of occurrence and assess the level of risk. \\par
 9.\\tab Determine if the analysis results are acceptable for use. \\par
-\\pard\\fi-360\\li1440\\sa200\\sl276\\slmult1 a.\\tab If it is acceptable, capture these results and show tractability to identified Hazard. \\par
+\\pard\\ltrpar\\fi-360\\li1440\\sa200\\sl276\\slmult1 a.\\tab If it is acceptable, capture these results and show tractability to identified Hazard. \\par
 b.\\tab If not, determine best corrective solution to eliminate or minimize the level of risk. This could be by design and/or by procedure/process\\par
 c.\\tab Update Model and other information base\\par
-\\pard\\fi-180\\li2160\\sa200\\sl276\\slmult1 i.\\tab Derive Safety related requirements that address Hazards. \\par
+\\pard\\ltrpar\\fi-180\\li2160\\sa200\\sl276\\slmult1 i.\\tab Derive Safety related requirements that address Hazards. \\par
 ii.\\tab Show how these requirements are satisfied\\par
 iii.\\tab Show traceability from Hazards to Risk mitigation requirements to system elements satisfying those requirements.\\par
-\\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 10.\\tab Verify solution to determine if Hazard has been appropriately addressed. \\par
-\\pard\\b\\f1\\fs20 Post Conditions -\\b0\\par
+\\pard\\ltrpar\\fi-360\\li720\\sa200\\sl276\\slmult1 10.\\tab Verify solution to determine if Hazard has been appropriately addressed. \\par
+\\pard\\ltrpar\\b\\f1\\fs20 Post Conditions -\\b0\\par
 \\par
-\\pard\\sa200\\sl276\\slmult1\\b\\f0\\fs22\\par
+\\pard\\ltrpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22\\par
 References and Citations: \\cf1\\b0\\f2\\par
-\\cf0\\f0        [\\cf1\\f2 7]   Douglas, Bruce: Safety Analysis of UML Models\\cf0\\f0\\par
-\\pard\\f1\\fs20\\par
+\\pard\\ltrpar\\nowidctlpar\\sa200\\sl276\\slmult1\\cf0\\f3\\fs20       [2\\} References: \\f4\\fs22  INCOSE Systems Engineering Handbook\\par
+\\pard\\ltrpar\\sa200\\sl276\\slmult1\\f3\\fs20       \\f5 [3] SEBok - Concept Definition\\par
+ \\f0\\fs22        [\\cf1\\f2 7]   Douglas, Bruce: Safety Analysis of UML Models\\cf0\\f0\\par
+\\pard\\ltrpar\\f1\\fs20\\par
 \\b\\f0\\fs22\\par
 }
 ";
@@ -9394,7 +9396,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 							}
 							- _name = "activitydiagram_0";
 							- _modifiedTimeWeak = 4.5.2015::16:38:31;
-							- _lastModifiedTime = "4.5.2015::16:40:56";
+							- _lastModifiedTime = "4.10.2015::22:3:32";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID 0dcb0aa4-d987-4aad-a815-0151e7ab6578;
 								- m_type = 0;
@@ -11463,6 +11465,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 									}
 									- m_nInheritanceMask = 0;
 									- m_pDefaultComponentRelation = ;
+									- m_moveAndLineTimeStamp = 1.2.1990::0:0:0;
 									- m_NameDisplayMode = ShowName;
 									- m_ActDescLablDiaplayMode = DisplayAction;
 								}
@@ -14271,6 +14274,9 @@ References and Citations: \\cf1\\b0\\f2\\par
 				}
 			}
 			- _classModifier = Unspecified;
+			- Diagrams = { IRPYRawContainer 
+				- size = 0;
+			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}

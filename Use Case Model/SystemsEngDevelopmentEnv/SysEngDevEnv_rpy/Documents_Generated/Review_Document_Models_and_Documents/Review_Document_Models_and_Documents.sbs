@@ -1,0 +1,63 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "Documents_Generated\\Documents_Generated.sbs";
+		- _subsystem = "System Engineering Operations::System Engineering Development System";
+		- _class = "";
+		- _name = "Documents Generated";
+		- _id = GUID ec647722-1ed8-4c1e-add4-60795884cdaa;
+	}
+	- _id = GUID a7d34dad-ac31-4bf9-969b-f615889f2ca7;
+	- _myState = 8192;
+	- _name = "Review Document Models and Documents";
+	- _modifiedTimeWeak = 4.13.2015::16:17:42;
+	- Declaratives = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ ISubsystem 
+			- fileName = "Generated_Review_Documents";
+			- _persistAs = "Generated_Review_Documents";
+			- _id = GUID a7e8bddd-0872-46d9-8a31-53e769b69458;
+			- _name = "Generated Review Documents";
+		}
+		{ ISubsystem 
+			- fileName = "Use_Case_Review_Document_Template";
+			- _id = GUID c45ac290-e7d6-4c81-8589-70c79c5eaed6;
+			- _name = "Use Case Review Document Template";
+		}
+		{ ISubsystem 
+			- fileName = "Review_Document_-Analyze_Stakeholders_Needs";
+			- _id = GUID 5e0efa4c-c327-4ba4-942d-dea17f87983b;
+			- _name = "Review Document -Analyze Stakeholders Needs";
+		}
+		{ ISubsystem 
+			- fileName = "Review_Document_-_Evaluate_System_Safety";
+			- _id = GUID 608e4bc4-3eea-4fdb-88e7-7d5bfea29b17;
+			- _name = "Review Document - Evaluate System Safety";
+		}
+	}
+	- weakCGTime = 4.13.2015::16:17:42;
+	- strongCGTime = 4.13.2015::15:56:26;
+	- _defaultComposite = GUID 5a6b14b6-7b64-4aff-abd7-4d3532c3aa0c;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 5a6b14b6-7b64-4aff-abd7-4d3532c3aa0c;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 4.13.2015::15:57:22;
+			- weakCGTime = 4.13.2015::15:57:22;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 12.31.1969::19:0:0;
+}
+
