@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID c27fc8c5-127d-4141-8990-da58e0eda24b;
 	- _myState = 8192;
 	- _name = "Worflow Patterns";
-	- _modifiedTimeWeak = 3.30.2015::18:20:56;
+	- _modifiedTimeWeak = 4.13.2015::18:55:39;
 	- _lastID = 1;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -27,7 +27,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 3.30.2015::18:20:56;
+	- weakCGTime = 4.13.2015::18:55:39;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID df02ea96-e8b4-49e6-ae1b-3fa1ceb45ceb;
 	- _eventsBaseID = -1;
@@ -38,9 +38,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID df02ea96-e8b4-49e6-ae1b-3fa1ceb45ceb;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.30.2015::17:50:16;
+			- _modifiedTimeWeak = 4.13.2015::18:55:39;
 			- _lastID = 1;
-			- weakCGTime = 3.30.2015::17:50:16;
+			- weakCGTime = 4.13.2015::18:55:39;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 
@@ -58,9 +58,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
 						}
 					}
-					- _modifiedTimeWeak = 3.30.2015::17:50:16;
+					- _modifiedTimeWeak = 4.13.2015::18:55:39;
 					- _lastID = 46;
-					- weakCGTime = 3.30.2015::17:50:16;
+					- weakCGTime = 4.13.2015::18:55:39;
 					- strongCGTime = 9.23.2014::1:12:46;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -737,7 +737,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 						{ IReferenceActivity 
 							- _id = GUID d5507ff3-4fd1-4a2a-9b8c-ce9e5569e981;
-							- _name = "Import Relevant Reference Materiel into Model";
+							- _name = "Import Reference Material";
 							- Stereotypes = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -750,7 +750,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 									- _id = GUID 0110440a-b3de-47b1-acbd-2b6644e6a47e;
 								}
 							}
-							- _modifiedTimeWeak = 7.23.2014::20:45:31;
+							- _modifiedTimeWeak = 4.13.2015::18:55:39;
 							- _parent = GUID adc77fe2-a67b-4a14-bd5c-30356ef789a1;
 							- _stateType = ReferenceActivity;
 							- _defaultTrans = ;
@@ -763,12 +763,12 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								- _filename = "SE_Development_System_Structure.sbs";
 								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
 								- _class = "SE Development System";
-								- _name = "Import Reference Materiel()";
+								- _name = "Import Reference Material()";
 								- _id = GUID bc1f668d-6306-4a81-8cd3-05ca7e66f58b;
 							}
 						}
 					}
-					- _version = 12.15.2014::9:49:50;
+					- _version = 4.13.2015::14:55:39;
 					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = GUID 6e02c411-6583-4c68-be51-14360258c224;
 					- Views = { IRPYRawContainer 
@@ -1249,8 +1249,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								}
 							}
 							- _name = "activitydiagram_0";
-							- _modifiedTimeWeak = 3.30.2015::17:49:55;
-							- _lastModifiedTime = "3.30.2015::17:50:16";
+							- _modifiedTimeWeak = 4.13.2015::18:55:39;
+							- _lastModifiedTime = "4.13.2015::18:55:39";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID 48402b53-bd64-4c08-bdba-a6f7cf0c43d5;
 								- m_type = 0;
@@ -3468,7 +3468,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 									}
 									- m_pParent = GUID 0efa48f4-ff16-4038-957a-a94535586a11;
 									- m_name = { CGIText 
-										- m_str = "Import Relevant Reference Materiel into Model";
+										- m_str = "Import Reference Material";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -3708,7 +3708,7 @@ John Watson, 8/24/2014\\par
 							- _represents = { IHandle 
 								- _m2Class = "IClass";
 								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System::Systems Engineers";
+								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Stakeholders";
 								- _class = "";
 								- _name = "Systems Engineer";
 								- _id = GUID 1c54e64e-93e7-427d-9f0f-87525d89acb2;

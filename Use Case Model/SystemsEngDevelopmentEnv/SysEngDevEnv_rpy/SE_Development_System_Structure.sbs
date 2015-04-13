@@ -55,7 +55,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 4.13.2015::15:25:43;
+	- _modifiedTimeWeak = 4.13.2015::18:55:21;
 	- _lastID = 67;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -7175,7 +7175,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "4.13.2015::15:29:12";
+					- _lastModifiedTime = "4.13.2015::15:57:35";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 52f19606-0407-478a-a9bb-7eae83c2b55a;
 						- m_type = 0;
@@ -8442,7 +8442,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- weakCGTime = 4.13.2015::12:13:45;
+			- weakCGTime = 4.13.2015::18:56:33;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _defaultComposite = GUID 8873c3a7-1850-4123-a5a8-4a67aaf217b7;
 			- _eventsBaseID = -1;
@@ -9303,7 +9303,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 				}
 			}
 			- _name = "Development Systems";
-			- _modifiedTimeWeak = 4.13.2015::15:25:43;
+			- _modifiedTimeWeak = 4.13.2015::18:55:21;
 			- _lastID = 1;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -9530,10 +9530,10 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 						}
 					}
 					- _name = "Systems Engineering Development System";
-					- _modifiedTimeWeak = 4.13.2015::15:25:43;
+					- _modifiedTimeWeak = 4.13.2015::18:55:21;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
-						- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template\\Use_Case_Review_Document_Template.sbs";
+						- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
 						- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Review Document Models and Documents::Use Case Review Document Template::Supporting Information::Called Activities";
 						- _class = "";
 						- _name = "Called Activities";
@@ -16968,7 +16968,7 @@ Configuration Management\\fs20\\par
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 4.13.2015::15:25:43;
+					- weakCGTime = 4.13.2015::18:55:21;
 					- strongCGTime = 3.29.2015::15:52:25;
 					- _defaultComposite = GUID 278f99f4-66e8-4501-8eb9-67a17cc85022;
 					- _eventsBaseID = 5201;
@@ -17040,7 +17040,7 @@ Configuration Management\\fs20\\par
 									- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 								}
 							}
-							- _modifiedTimeWeak = 4.13.2015::15:27:45;
+							- _modifiedTimeWeak = 4.13.2015::18:55:39;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
@@ -21072,7 +21072,7 @@ Configuration Management\\fs20\\par
 									}
 								}
 							}
-							- weakCGTime = 4.13.2015::15:27:45;
+							- weakCGTime = 4.13.2015::18:55:39;
 							- strongCGTime = 3.29.2015::15:52:25;
 							- Operations = { IRPYRawContainer 
 								- size = 10;
@@ -27901,8 +27901,34 @@ The Content Owner needs to manage the comments originating from various reviewer
 								{ IPrimitiveOperation 
 									- _id = GUID af3edff7-ed32-438b-ad0a-30d646fe837e;
 									- _myState = 8192;
-									- _name = "Import Reference Materiel";
-									- _modifiedTimeWeak = 3.29.2015::18:10:24;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "CPP_CG";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Operation";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "Kind";
+																- _Value = "common";
+																- _Type = Enum;
+																- _ExtraTypeInfo = "common,virtual,abstract";
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- _name = "Import Reference Material";
+									- _modifiedTimeWeak = 4.13.2015::18:55:39;
 									- _lastID = 1;
 									- _virtual = 1;
 									- Args = { IRPYRawContainer 
@@ -27925,7 +27951,7 @@ The Content Owner needs to manage the comments originating from various reviewer
 									- _itsActivityGraph = { IActivityGraph 
 										- _id = GUID bc1f668d-6306-4a81-8cd3-05ca7e66f58b;
 										- _myState = 8192;
-										- _name = "Import Reference Materiel into Model";
+										- _name = "Import Reference Material";
 										- Stereotypes = { IRPYRawContainer 
 											- size = 1;
 											- value = 
@@ -27938,10 +27964,10 @@ The Content Owner needs to manage the comments originating from various reviewer
 												- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
 											}
 										}
-										- _modifiedTimeWeak = 3.29.2015::18:10:24;
+										- _modifiedTimeWeak = 4.13.2015::18:55:39;
 										- _lastID = 41;
-										- weakCGTime = 3.29.2015::18:10:24;
-										- strongCGTime = 9.23.2014::1:16:48;
+										- weakCGTime = 4.13.2015::18:55:39;
+										- strongCGTime = 4.13.2015::18:55:39;
 										- _multiplicity = "";
 										- _itsStateChart = { IHandle 
 											- _m2Class = "";
@@ -29034,8 +29060,8 @@ On new programs it is often useful to transform data from previous similar progr
 													}
 												}
 												- _name = "activitydiagram_0";
-												- _modifiedTimeWeak = 3.29.2015::18:8:16;
-												- _lastModifiedTime = "3.29.2015::18:10:48";
+												- _modifiedTimeWeak = 4.13.2015::18:55:23;
+												- _lastModifiedTime = "4.13.2015::18:55:39";
 												- _graphicChart = { CGIStateChart 
 													- _id = GUID 16fbdb5f-a6fe-4829-b647-84ca1143a350;
 													- m_type = 0;
@@ -42801,7 +42827,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 					- _configurationRelatedTime = 4.6.2015::23:52:26;
 				}
 			}
-			- weakCGTime = 4.13.2015::15:25:43;
+			- weakCGTime = 4.13.2015::18:55:21;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _defaultComposite = GUID 9fe7f6b9-2981-49b3-9ccd-bf1172872021;
 			- _eventsBaseID = -1;
@@ -43577,7 +43603,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 			- _configurationRelatedTime = 8.1.2014::16:40:53;
 		}
 	}
-	- weakCGTime = 4.13.2015::15:25:43;
+	- weakCGTime = 4.13.2015::18:55:21;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID f0bda8dd-70a6-43c0-a98a-ceeecc279ff9;
 	- _eventsBaseID = -1;
