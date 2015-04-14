@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 9fb47b2f-4b24-4419-9bd7-4b00febba526;
 	- _myState = 8192;
 	- _name = "Definitions from Concept Model";
-	- _modifiedTimeWeak = 1.20.2015::20:19:9;
+	- _modifiedTimeWeak = 4.14.2015::16:7:3;
 	- _lastID = 1066;
-	- weakCGTime = 1.20.2015::20:19:9;
+	- weakCGTime = 4.14.2015::16:7:3;
 	- strongCGTime = 12.10.2014::4:22:57;
 	- _defaultComposite = GUID 6fe92712-2939-4d3e-9939-c70a8fc265c8;
 	- _eventsBaseID = -1;
@@ -24,8 +24,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 6fe92712-2939-4d3e-9939-c70a8fc265c8;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 12.29.2014::18:38:36;
-			- weakCGTime = 12.29.2014::18:38:36;
+			- _modifiedTimeWeak = 1.20.2015::20:19:9;
+			- weakCGTime = 1.20.2015::20:19:9;
 			- strongCGTime = 12.10.2014::4:22:57;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1091,7 +1091,7 @@ t or of a type of product. It is a collector of data common to all revisions of 
 		{ IClass 
 			- _id = GUID 55af40cf-fe54-45bb-9d76-59090edc0308;
 			- _myState = 8192;
-			- _name = "System";
+			- _name = "System - C";
 			- Stereotypes = { IRPYRawContainer 
 				- size = 2;
 				- value = 
@@ -1112,7 +1112,7 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 4.14.2015::16:7:3;
 			- _description = { IDescription 
 				- _text = "Element with a well defined boundary with respect to all other elements, outside of it and in the domain of interest, with which it interacts.";
 			}
@@ -1216,8 +1216,8 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					}
 				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
-			- strongCGTime = 12.15.2014::16:25:58;
+			- weakCGTime = 4.14.2015::16:7:3;
+			- strongCGTime = 4.14.2015::16:7:3;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
