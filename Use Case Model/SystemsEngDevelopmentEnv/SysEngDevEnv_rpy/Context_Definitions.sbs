@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 3a04fbcd-2fe6-42da-b48b-82a46d0ca9a2;
 	- _myState = 8192;
 	- _name = "Context Definitions";
-	- _modifiedTimeWeak = 4.13.2015::18:55:24;
+	- _modifiedTimeWeak = 4.14.2015::22:20:10;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "Information_Model.sbs";
@@ -1668,7 +1668,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 4.13.2015::18:55:24;
+	- weakCGTime = 4.14.2015::22:20:10;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- AssociationElements = { IRPYRawContainer 
 		- size = 2;
@@ -4914,7 +4914,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		{ IClass 
 			- _id = GUID 49a70c87-e962-4a0e-a34e-79a0c15dce41;
 			- _myState = 8192;
-			- _name = "System Of Interest";
+			- _name = "System of Interest";
 			- Stereotypes = { IRPYRawContainer 
 				- size = 2;
 				- value = 
@@ -4935,11 +4935,21 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 3.29.2015::15:52:32;
+			- _modifiedTimeWeak = 4.14.2015::22:23:19;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "Information_Model.sbs";
+				- _subsystem = "Information Model::Common Terms";
+				- _class = "";
+				- _name = "Common Terms";
+				- _id = GUID 2f96cc84-b904-453f-9661-2b03ad12bfb0;
+			}
 			- _description = { IDescription 
-				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri-Italic;}{\\f1\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\f0\\fs20 The system whose life cycle is under consideration (INCOSE SE Handbook). \\par
-\\f1\\par
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}{\\f1\\fswiss\\fcharset0 Calibri-Italic;}}
+{\\colortbl ;\\red0\\green0\\blue0;}
+\\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 The system whose life cycle is under consideration.[2]\\par
+\\par
+A specific system in the context of a set of systems that is the primary focus of evaluation, analysis or development. \\cf0\\f1\\par
 }
 ";
 			}
@@ -4979,8 +4989,26 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- weakCGTime = 3.29.2015::15:52:32;
-			- strongCGTime = 3.29.2015::15:52:32;
+			- weakCGTime = 4.14.2015::22:23:19;
+			- strongCGTime = 4.14.2015::22:21:47;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 72c5bf3c-ca5f-4223-811a-d4a27a1997ee;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IClass";
+						- _filename = "Information_Model.sbs";
+						- _subsystem = "Information Model::Common Terms";
+						- _class = "";
+						- _name = "System";
+						- _id = GUID 2b46f4ee-7634-40c4-bc09-bddce7007330;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";

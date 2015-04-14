@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 9fb47b2f-4b24-4419-9bd7-4b00febba526;
 	- _myState = 8192;
 	- _name = "Definitions from Concept Model";
-	- _modifiedTimeWeak = 4.14.2015::16:7:3;
+	- _modifiedTimeWeak = 4.14.2015::21:29:28;
 	- _lastID = 1066;
-	- weakCGTime = 4.14.2015::16:7:3;
+	- weakCGTime = 4.14.2015::21:29:28;
 	- strongCGTime = 12.10.2014::4:22:57;
 	- _defaultComposite = GUID 6fe92712-2939-4d3e-9939-c70a8fc265c8;
 	- _eventsBaseID = -1;
@@ -209,7 +209,7 @@ Revision          Date              Author    Description\\par
 		{ IClass 
 			- _id = GUID b9c60e27-d024-4ae2-95d3-5974f4f6d297;
 			- _myState = 8192;
-			- _name = "Element";
+			- _name = "Element - C";
 			- Stereotypes = { IRPYRawContainer 
 				- size = 2;
 				- value = 
@@ -230,7 +230,7 @@ Revision          Date              Author    Description\\par
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 4.14.2015::21:29:28;
 			- _description = { IDescription 
 				- _text = "That which is discernable by reproducible measurement of its characteristics.";
 			}
@@ -336,8 +336,8 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					}
 				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
-			- strongCGTime = 12.15.2014::16:25:58;
+			- weakCGTime = 4.14.2015::21:29:28;
+			- strongCGTime = 4.14.2015::21:29:28;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
