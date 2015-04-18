@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 07a0630b-566b-4efe-891d-b365d5c76783;
 	- _myState = 8192;
 	- _name = "Analyze Stakeholder Needs Artifacts";
-	- _modifiedTimeWeak = 4.16.2015::13:41:47;
+	- _modifiedTimeWeak = 4.17.2015::20:35:42;
 	- _lastID = 2;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -4578,7 +4578,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 4.16.2015::13:41:47;
+	- weakCGTime = 4.17.2015::20:35:42;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID 2645246f-821e-4f2a-a0f4-148c87440aee;
 	- _eventsBaseID = -1;
@@ -4622,7 +4622,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.16.2015::13:38:38;
+			- _modifiedTimeWeak = 4.17.2015::20:35:42;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -4634,31 +4634,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 ";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 2;
+				- size = 1;
 				- value = 
-				{ ITag 
-					- _id = GUID f1d3601b-83e1-460d-9490-ee28b21052b6;
-					- _myState = 8192;
-					- _name = "Acronym";
-					- _modifiedTimeWeak = 3.11.2015::13:4:3;
-					- _typeOf = { IHandle 
-						- _m2Class = "IType";
-						- _filename = "PredefinedTypes.sbs";
-						- _subsystem = "PredefinedTypes";
-						- _class = "";
-						- _name = "RhpString";
-						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
-					}
-					- _isOrdered = 0;
-					- _base = { IHandle 
-						- _m2Class = "ITag";
-						- _filename = "SE_Dev_Profile.sbs";
-						- _subsystem = "SE_Dev_Profile";
-						- _class = "Definition";
-						- _name = "Acronym";
-						- _id = GUID d7864f58-2469-478e-b6fe-dcbdc6e53250;
-					}
-				}
 				{ ITag 
 					- _id = GUID 80644269-c610-4957-8d3c-8a3c1846f8d9;
 					- _myState = 8192;
@@ -4693,7 +4670,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _lastID = 2;
-			- weakCGTime = 4.16.2015::13:38:38;
+			- weakCGTime = 4.17.2015::20:35:42;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5247,7 +5224,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.15.2015::22:25:23;
+			- _modifiedTimeWeak = 4.17.2015::20:36:13;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -5259,34 +5236,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 ";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ ITag 
-					- _id = GUID 48b6938b-ea7f-4f72-9da1-4050ddc79c2c;
-					- _myState = 8192;
-					- _name = "Acronym";
-					- _modifiedTimeWeak = 3.11.2015::13:4:3;
-					- _typeOf = { IHandle 
-						- _m2Class = "IType";
-						- _filename = "PredefinedTypes.sbs";
-						- _subsystem = "PredefinedTypes";
-						- _class = "";
-						- _name = "RhpString";
-						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
-					}
-					- _isOrdered = 0;
-					- _base = { IHandle 
-						- _m2Class = "ITag";
-						- _filename = "SE_Dev_Profile.sbs";
-						- _subsystem = "SE_Dev_Profile";
-						- _class = "Definition";
-						- _name = "Acronym";
-						- _id = GUID d7864f58-2469-478e-b6fe-dcbdc6e53250;
-					}
-				}
+				- size = 0;
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.15.2015::22:25:23;
+			- weakCGTime = 4.17.2015::20:36:13;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5476,7 +5429,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.15.2015::22:25:30;
+			- _modifiedTimeWeak = 4.17.2015::20:36:33;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -5488,34 +5441,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 ";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ ITag 
-					- _id = GUID 4b859f41-8e72-4fe2-a1f7-a983420b93cf;
-					- _myState = 8192;
-					- _name = "Acronym";
-					- _modifiedTimeWeak = 3.11.2015::13:4:3;
-					- _typeOf = { IHandle 
-						- _m2Class = "IType";
-						- _filename = "PredefinedTypes.sbs";
-						- _subsystem = "PredefinedTypes";
-						- _class = "";
-						- _name = "RhpString";
-						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
-					}
-					- _isOrdered = 0;
-					- _base = { IHandle 
-						- _m2Class = "ITag";
-						- _filename = "SE_Dev_Profile.sbs";
-						- _subsystem = "SE_Dev_Profile";
-						- _class = "Definition";
-						- _name = "Acronym";
-						- _id = GUID d7864f58-2469-478e-b6fe-dcbdc6e53250;
-					}
-				}
+				- size = 0;
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.15.2015::22:25:30;
+			- weakCGTime = 4.17.2015::20:36:33;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5685,7 +5614,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.16.2015::13:41:13;
+			- _modifiedTimeWeak = 4.17.2015::20:36:50;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -5708,34 +5637,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 ";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ ITag 
-					- _id = GUID a0b665e8-9943-466d-a46b-ef70c62a758d;
-					- _myState = 8192;
-					- _name = "Acronym";
-					- _modifiedTimeWeak = 3.11.2015::13:4:3;
-					- _typeOf = { IHandle 
-						- _m2Class = "IType";
-						- _filename = "PredefinedTypes.sbs";
-						- _subsystem = "PredefinedTypes";
-						- _class = "";
-						- _name = "RhpString";
-						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
-					}
-					- _isOrdered = 0;
-					- _base = { IHandle 
-						- _m2Class = "ITag";
-						- _filename = "SE_Dev_Profile.sbs";
-						- _subsystem = "SE_Dev_Profile";
-						- _class = "Definition";
-						- _name = "Acronym";
-						- _id = GUID d7864f58-2469-478e-b6fe-dcbdc6e53250;
-					}
-				}
+				- size = 0;
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.16.2015::13:41:13;
+			- weakCGTime = 4.17.2015::20:36:50;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
