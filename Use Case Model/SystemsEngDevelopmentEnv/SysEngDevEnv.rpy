@@ -829,7 +829,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							}
 							{ IProperty 
 								- _Name = "DescriptionEditor";
-								- _Value = "C:\\Program Files (x86)\\Microsoft Office\\Office14\\WINWORD.EXE";
+								- _Value = "C:\\Program Files\\Microsoft Office 15\\root\\office15\\WINWORD.EXE";
 								- _Type = File;
 							}
 							{ IProperty 
@@ -1171,7 +1171,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 4.18.2015::18:11:51;
+	- _modifiedTimeWeak = 4.20.2015::16:25:4;
 	- _lastID = 33;
 	- _unitSccProjName = "ClearCase";
 	- _unitSccProjPath = "ClearCase";
