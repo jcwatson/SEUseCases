@@ -55,7 +55,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 4.13.2015::18:55:21;
+	- _modifiedTimeWeak = 4.21.2015::14:37:24;
 	- _lastID = 67;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -6773,7 +6773,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 144d9bad-b054-4df1-b127-f61eb172b95b;
 			- _myState = 8192;
 			- _name = "Stakeholders";
-			- _modifiedTimeWeak = 4.13.2015::12:13:45;
+			- _modifiedTimeWeak = 4.21.2015::14:29:5;
 			- _lastID = 4;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -7175,7 +7175,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "4.13.2015::15:57:35";
+					- _lastModifiedTime = "4.22.2015::21:43:52";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 52f19606-0407-478a-a9bb-7eae83c2b55a;
 						- m_type = 0;
@@ -8442,7 +8442,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- weakCGTime = 4.13.2015::18:56:33;
+			- weakCGTime = 4.21.2015::14:29:5;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _defaultComposite = GUID 8873c3a7-1850-4123-a5a8-4a67aaf217b7;
 			- _eventsBaseID = -1;
@@ -9303,7 +9303,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 				}
 			}
 			- _name = "Development Systems";
-			- _modifiedTimeWeak = 4.13.2015::18:55:21;
+			- _modifiedTimeWeak = 4.21.2015::14:37:24;
 			- _lastID = 1;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -9530,7 +9530,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 						}
 					}
 					- _name = "Systems Engineering Development System";
-					- _modifiedTimeWeak = 4.13.2015::18:55:21;
+					- _modifiedTimeWeak = 4.21.2015::14:37:24;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
@@ -16968,7 +16968,7 @@ Configuration Management\\fs20\\par
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 4.13.2015::18:55:21;
+					- weakCGTime = 4.21.2015::14:37:24;
 					- strongCGTime = 3.29.2015::15:52:25;
 					- _defaultComposite = GUID 278f99f4-66e8-4501-8eb9-67a17cc85022;
 					- _eventsBaseID = 5201;
@@ -17017,9 +17017,6 @@ Configuration Management\\fs20\\par
 								}
 							}
 							- _name = "SE Development System";
-							- Dependencies = { IRPYRawContainer 
-								- size = 0;
-							}
 							- Stereotypes = { IRPYRawContainer 
 								- size = 2;
 								- value = 
@@ -17040,7 +17037,7 @@ Configuration Management\\fs20\\par
 									- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 								}
 							}
-							- _modifiedTimeWeak = 4.13.2015::18:55:39;
+							- _modifiedTimeWeak = 4.21.2015::14:37:24;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
@@ -21072,7 +21069,7 @@ Configuration Management\\fs20\\par
 									}
 								}
 							}
-							- weakCGTime = 4.13.2015::18:55:39;
+							- weakCGTime = 4.21.2015::14:37:24;
 							- strongCGTime = 3.29.2015::15:52:25;
 							- Operations = { IRPYRawContainer 
 								- size = 10;
@@ -27928,7 +27925,7 @@ The Content Owner needs to manage the comments originating from various reviewer
 										}
 									}
 									- _name = "Import Reference Material";
-									- _modifiedTimeWeak = 4.13.2015::18:55:39;
+									- _modifiedTimeWeak = 4.21.2015::14:37:24;
 									- _lastID = 1;
 									- _virtual = 1;
 									- Args = { IRPYRawContainer 
@@ -27964,9 +27961,9 @@ The Content Owner needs to manage the comments originating from various reviewer
 												- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
 											}
 										}
-										- _modifiedTimeWeak = 4.13.2015::18:55:39;
+										- _modifiedTimeWeak = 4.21.2015::14:37:24;
 										- _lastID = 41;
-										- weakCGTime = 4.13.2015::18:55:39;
+										- weakCGTime = 4.21.2015::14:37:24;
 										- strongCGTime = 4.13.2015::18:55:39;
 										- _multiplicity = "";
 										- _itsStateChart = { IHandle 
@@ -28663,7 +28660,7 @@ On new programs it is often useful to transform data from previous similar progr
 												- _defaultTrans = ;
 											}
 										}
-										- _version = 3.29.2015::14:10:48;
+										- _version = 4.21.2015::10:52:3;
 										- _baseVersion = 1.2.1990::0:0:0;
 										- _diagram = GUID 930d645d-66cc-4b0c-807f-82e1c4e43798;
 										- Views = { IRPYRawContainer 
@@ -29046,8 +29043,13 @@ On new programs it is often useful to transform data from previous similar progr
 																{ IPropertyMetaclass 
 																	- _Name = "Graphics";
 																	- Properties = { IRPYRawContainer 
-																		- size = 1;
+																		- size = 2;
 																		- value = 
+																		{ IProperty 
+																			- _Name = "grid_display";
+																			- _Value = "False";
+																			- _Type = Bool;
+																		}
 																		{ IProperty 
 																			- _Name = "grid_snap";
 																			- _Value = "False";
@@ -29060,8 +29062,8 @@ On new programs it is often useful to transform data from previous similar progr
 													}
 												}
 												- _name = "activitydiagram_0";
-												- _modifiedTimeWeak = 4.13.2015::18:55:23;
-												- _lastModifiedTime = "4.13.2015::18:55:39";
+												- _modifiedTimeWeak = 4.21.2015::14:37:24;
+												- _lastModifiedTime = "4.21.2015::14:52:3";
 												- _graphicChart = { CGIStateChart 
 													- _id = GUID 16fbdb5f-a6fe-4829-b647-84ca1143a350;
 													- m_type = 0;
@@ -29278,7 +29280,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 0;
-														- m_transform = 1 0 0 1.04 451 612 ;
+														- m_transform = 1 0 0 1.04 446 612 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_position = 4 0 0  0 25  25 25  25 0  ;
 														- m_pInheritsFrom = { IHandle 
@@ -29351,16 +29353,16 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_position = 4 -6 -9  33 -9  33 5  -6 5  ;
 															- m_nIdent = 0;
 															- m_bImplicitSetRectPoints = 0;
-															- m_transform = 1 0 0 1 466 201 ;
-															- m_nHorizontalSpacing = -12;
-															- m_nVerticalSpacing = -18;
+															- m_transform = 1 0 0 1 471 200 ;
+															- m_nHorizontalSpacing = -7;
+															- m_nVerticalSpacing = -12;
 															- m_nOrientationCtrlPt = 0;
 														}
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
 														- m_SourcePort = 534 1027 ;
-														- m_TargetPort = 540 88 ;
+														- m_TargetPort = 530 88 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -29436,8 +29438,8 @@ On new programs it is often useful to transform data from previous similar progr
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
-														- m_SourcePort = 551 886 ;
-														- m_TargetPort = 539 601 ;
+														- m_SourcePort = 555 886 ;
+														- m_TargetPort = 543 601 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -29510,11 +29512,11 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 1 742 506  ;
+														- m_arrow = 1 753 506  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
-														- m_SourcePort = 548 807 ;
+														- m_SourcePort = 521 886 ;
 														- m_TargetPort = 418 184 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
@@ -29569,7 +29571,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.180822 0 0 0.124528 70 230.117 ;
+														- m_transform = 0.180822 0 0 0.124528 76 215.117 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -29646,7 +29648,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.279452 0 0 0.15283 306 218.598 ;
+														- m_transform = 0.279452 0 0 0.15283 309 215.598 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -29723,7 +29725,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.230137 0 0 0.045283 336 408.77 ;
+														- m_transform = 0.230137 0 0 0.045283 336 410.77 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -29800,7 +29802,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.235616 0 0 0.0792453 622 229.347 ;
+														- m_transform = 0.235616 0 0 0.0792453 628 214.347 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -29855,7 +29857,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.0722892 0 0 0.0458015 426.434 539.954 ;
+														- m_transform = 0.0722892 0 0 0.0458015 421.434 539.954 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_position = 4 -6 1  -6 1049  1073 1049  1073 1  ;
 														- m_pInheritsFrom = { IHandle 
@@ -29888,7 +29890,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.0722892 0 0 0.0458015 418.434 143.954 ;
+														- m_transform = 0.0722892 0 0 0.0458015 418.434 138.954 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_position = 4 -6 1  -6 1049  1073 1049  1073 1  ;
 														- m_pInheritsFrom = { IHandle 
@@ -29961,17 +29963,17 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_position = 4 -6 -9  63 -9  63 5  -6 5  ;
 															- m_nIdent = 0;
 															- m_bImplicitSetRectPoints = 0;
-															- m_transform = 1 0 0 1 186 201 ;
+															- m_transform = 1 0 0 1 194 200 ;
 															- m_nHorizontalSpacing = -85;
-															- m_nVerticalSpacing = 39;
+															- m_nVerticalSpacing = 38;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 1 172 168  ;
+														- m_arrow = 1 172 163  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
 														- m_SourcePort = 5 523 ;
-														- m_TargetPort = 564 103 ;
+														- m_TargetPort = 531 103 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -30000,7 +30002,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.0714286 0 0 0.0817439 453.143 491 ;
+														- m_transform = 0.0714286 0 0 0.0817439 443.143 491 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_position = 4 -2 0  -2 367  418 367  418 0  ;
 														- m_pInheritsFrom = { IHandle 
@@ -30075,11 +30077,11 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 2 467 471  468 471  ;
+														- m_arrow = 2 460 471  458 471  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
-														- m_SourcePort = 569 800 ;
+														- m_SourcePort = 539 866 ;
 														- m_TargetPort = 208 0 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
@@ -30134,7 +30136,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.164384 0 0 0.0481132 85 479.818 ;
+														- m_transform = 0.164384 0 0 0.0481132 85 409.818 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -30233,8 +30235,8 @@ On new programs it is often useful to transform data from previous similar progr
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
-														- m_SourcePort = 581 971 ;
-														- m_TargetPort = 541 170 ;
+														- m_SourcePort = 531 923 ;
+														- m_TargetPort = 529 4 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -30307,10 +30309,11 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
+														- m_arrow = 1 173 506  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
-														- m_SourcePort = 1095 544 ;
+														- m_SourcePort = 535 918 ;
 														- m_TargetPort = -2 183 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
@@ -30384,7 +30387,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 1 465 521  ;
+														- m_arrow = 2 458 530  460 530  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
@@ -30460,16 +30463,16 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_position = 4 -6 -9  30 -9  30 5  -6 5  ;
 															- m_nIdent = 0;
 															- m_bImplicitSetRectPoints = 0;
-															- m_transform = 1 0 0 1 469 561 ;
-															- m_nHorizontalSpacing = -3;
-															- m_nVerticalSpacing = -6;
+															- m_transform = 1 0 0 1 473 598 ;
+															- m_nHorizontalSpacing = -8;
+															- m_nVerticalSpacing = -11;
 															- m_nOrientationCtrlPt = 0;
 														}
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
 														- m_SourcePort = 533 1027 ;
-														- m_TargetPort = 14 4 ;
+														- m_TargetPort = 14 5 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -30540,17 +30543,17 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_position = 4 -6 -9  60 -9  60 5  -6 5  ;
 															- m_nIdent = 0;
 															- m_bImplicitSetRectPoints = 0;
-															- m_transform = 1 0 0 1 756 201 ;
-															- m_nHorizontalSpacing = 98;
-															- m_nVerticalSpacing = 39;
+															- m_transform = 1 0 0 1 759 200 ;
+															- m_nHorizontalSpacing = 108;
+															- m_nVerticalSpacing = 38;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 1 748 168  ;
+														- m_arrow = 1 748 163  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
 														- m_SourcePort = 1062 523 ;
-														- m_TargetPort = 535 210 ;
+														- m_TargetPort = 509 210 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -30621,17 +30624,17 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_position = 4 -6 -9  27 -9  27 5  -6 5  ;
 															- m_nIdent = 0;
 															- m_bImplicitSetRectPoints = 0;
-															- m_transform = 1 0 0 1 391 525 ;
-															- m_nHorizontalSpacing = 308;
-															- m_nVerticalSpacing = 211;
+															- m_transform = 1 0 0 1 397 553 ;
+															- m_nHorizontalSpacing = 315;
+															- m_nVerticalSpacing = 223;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 2 61 564  61 103  ;
+														- m_arrow = 2 61 564  61 99  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
 														- m_SourcePort = 8 525 ;
-														- m_TargetPort = 110 269 ;
+														- m_TargetPort = 2 183 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -30716,7 +30719,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.153425 0 0 0.0509434 658 360.866 ;
+														- m_transform = 0.153425 0 0 0.0509434 673 407.866 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -30815,8 +30818,8 @@ On new programs it is often useful to transform data from previous similar progr
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
-														- m_SourcePort = 484 967 ;
-														- m_TargetPort = 515 395 ;
+														- m_SourcePort = 531 904 ;
+														- m_TargetPort = 521 395 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -30966,7 +30969,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.273973 0 0 0.219812 906 201.737 ;
+														- m_transform = 0.273973 0 0 0.219812 906 216.737 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -31134,20 +31137,20 @@ On new programs it is often useful to transform data from previous similar progr
 																- m_bgColor = 0;
 																- m_bgFlag = 0;
 															}
-															- m_position = 4 -6 -9  116 -9  116 5  -6 5  ;
+															- m_position = 4 -6 -9  76 -9  76 5  -6 5  ;
 															- m_nIdent = 0;
 															- m_bImplicitSetRectPoints = 0;
-															- m_transform = 1 0 0 1 1062 177 ;
-															- m_nHorizontalSpacing = 266;
-															- m_nVerticalSpacing = 15;
+															- m_transform = 1 0 0 1 1058 200 ;
+															- m_nHorizontalSpacing = 257;
+															- m_nVerticalSpacing = 38;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 1 1050 168  ;
+														- m_arrow = 1 1048 163  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
 														- m_SourcePort = 1062 523 ;
-														- m_TargetPort = 526 133 ;
+														- m_TargetPort = 518 -8 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -31297,11 +31300,11 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 2 744 504  744 506  ;
+														- m_arrow = 2 744 507  744 506  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
-														- m_SourcePort = 24 572 ;
+														- m_SourcePort = 262 631 ;
 														- m_TargetPort = 418 183 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
@@ -33111,10 +33114,7 @@ Dick will take a pass at the activity.
 														}
 														- _modifiedTimeWeak = 3.16.2015::21:33:27;
 														- _description = { IDescription 
-															- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20 Remove SysML terminology and replace with more common terms\\par
-}
-";
+															- _text = "Remove SysML terminology and replace with more common terms";
 														}
 														- Tags = { IRPYRawContainer 
 															- size = 2;
@@ -33344,10 +33344,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 												- _name = "Isolate a set of Requirement Categories";
 												- _modifiedTimeWeak = 4.5.2015::13:45:26;
 												- _description = { IDescription 
-													- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033\\deflangfe1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20 This action addresses the grouping and filtering of requirements for a particular task. Once a set of requirements are isolated, the set is examined to determine if they are complete and well-formed. \\par
-}
-";
+													- _text = "This action addresses the grouping and filtering of requirements for a particular task. Once a set of requirements are isolated, the set is examined to determine if they are complete and well-formed. ";
 												}
 												- _parent = GUID 86a1fea0-984c-4c56-a7f4-7b86cf242d94;
 												- _stateType = Action;
@@ -42827,7 +42824,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 					- _configurationRelatedTime = 4.6.2015::23:52:26;
 				}
 			}
-			- weakCGTime = 4.13.2015::18:55:21;
+			- weakCGTime = 4.21.2015::14:37:24;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _defaultComposite = GUID 9fe7f6b9-2981-49b3-9ccd-bf1172872021;
 			- _eventsBaseID = -1;
@@ -43603,7 +43600,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 			- _configurationRelatedTime = 8.1.2014::16:40:53;
 		}
 	}
-	- weakCGTime = 4.13.2015::18:55:21;
+	- weakCGTime = 4.21.2015::14:37:24;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID f0bda8dd-70a6-43c0-a98a-ceeecc279ff9;
 	- _eventsBaseID = -1;
@@ -43614,8 +43611,8 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 			- _id = GUID f0bda8dd-70a6-43c0-a98a-ceeecc279ff9;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.6.2015::23:52:26;
-			- weakCGTime = 4.6.2015::23:52:26;
+			- _modifiedTimeWeak = 4.13.2015::18:55:21;
+			- weakCGTime = 4.13.2015::18:55:21;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
