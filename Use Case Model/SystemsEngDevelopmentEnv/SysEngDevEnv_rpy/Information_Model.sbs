@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 4.20.2015::21:27:22;
+	- _modifiedTimeWeak = 4.27.2015::16:35:45;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
@@ -16,8 +16,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 55811343-13cb-48e1-8be3-e8205e2e1cf5;
 			- _myState = 8192;
 			- _name = "Common Terms";
-			- _modifiedTimeWeak = 4.18.2015::18:29:58;
-			- _lastID = 45;
+			- _modifiedTimeWeak = 4.27.2015::16:35:45;
+			- _lastID = 46;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -326,7 +326,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "4.20.2015::22:21:47";
+					- _lastModifiedTime = "4.27.2015::16:24:12";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 8ca9c00c-d1c4-4301-af92-417ed02633d1;
 						- m_type = 0;
@@ -3478,12 +3478,12 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- weakCGTime = 4.18.2015::18:29:58;
+			- weakCGTime = 4.27.2015::16:35:45;
 			- strongCGTime = 4.14.2015::16:4:3;
 			- _defaultComposite = GUID aed56898-4eed-4916-a5e6-d6f4f8a9ee01;
 			- _eventsBaseID = -1;
 			- Classes = { IRPYRawContainer 
-				- size = 23;
+				- size = 24;
 				- value = 
 				{ IClass 
 					- _id = GUID aed56898-4eed-4916-a5e6-d6f4f8a9ee01;
@@ -4865,6 +4865,52 @@ de-off decisions when performance exceeds the threshold. [9]\\f1\\fs17\\par
 							- _isVirtual = 0;
 						}
 					}
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID e560ce51-cd86-42f1-bc53-b61991c7c6e3;
+					- _myState = 8192;
+					- _name = "Engineering Artifact";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 4.27.2015::16:35:45;
+					- _theMainDiagram = { IHandle 
+						- _m2Class = "IDiagram";
+						- _filename = "Analyze_Stakeholder_Needs_Artifacts.sbs";
+						- _subsystem = "Information Model::Analyze Stakeholder Needs Artifacts";
+						- _class = "";
+						- _name = "Artifacts Associated With Analyzing Stakeholder Needs";
+						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
+					}
+					- _description = { IDescription 
+						- _text = "This term is used to represent any type of Engineering artifact, including a document, spreadsheet, analysis or test data and any type of model, etc.
+
+This term is useful when a very generalized behavior requires input or output data without specifying this data for a specific speciality area. ";
+					}
+					- weakCGTime = 4.27.2015::16:35:45;
+					- strongCGTime = 4.27.2015::16:35:45;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -8814,7 +8860,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _configurationRelatedTime = 4.18.2015::18:11:9;
 		}
 	}
-	- weakCGTime = 4.20.2015::21:27:22;
+	- weakCGTime = 4.27.2015::16:35:45;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;

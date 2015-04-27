@@ -55,7 +55,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 4.21.2015::14:37:24;
+	- _modifiedTimeWeak = 4.27.2015::16:26:4;
 	- _lastID = 67;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -7175,7 +7175,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "4.22.2015::21:43:52";
+					- _lastModifiedTime = "4.27.2015::16:24:9";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 52f19606-0407-478a-a9bb-7eae83c2b55a;
 						- m_type = 0;
@@ -8442,7 +8442,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- weakCGTime = 4.21.2015::14:29:5;
+			- weakCGTime = 4.27.2015::16:26:36;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _defaultComposite = GUID 8873c3a7-1850-4123-a5a8-4a67aaf217b7;
 			- _eventsBaseID = -1;
@@ -9303,7 +9303,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 				}
 			}
 			- _name = "Development Systems";
-			- _modifiedTimeWeak = 4.21.2015::14:37:24;
+			- _modifiedTimeWeak = 4.27.2015::16:26:4;
 			- _lastID = 1;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -9530,7 +9530,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 						}
 					}
 					- _name = "Systems Engineering Development System";
-					- _modifiedTimeWeak = 4.21.2015::14:37:24;
+					- _modifiedTimeWeak = 4.27.2015::16:26:4;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
@@ -16968,7 +16968,7 @@ Configuration Management\\fs20\\par
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 4.21.2015::14:37:24;
+					- weakCGTime = 4.27.2015::16:26:4;
 					- strongCGTime = 3.29.2015::15:52:25;
 					- _defaultComposite = GUID 278f99f4-66e8-4501-8eb9-67a17cc85022;
 					- _eventsBaseID = 5201;
@@ -17037,7 +17037,7 @@ Configuration Management\\fs20\\par
 									- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 								}
 							}
-							- _modifiedTimeWeak = 4.21.2015::14:37:24;
+							- _modifiedTimeWeak = 4.27.2015::16:26:4;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
@@ -21069,7 +21069,7 @@ Configuration Management\\fs20\\par
 									}
 								}
 							}
-							- weakCGTime = 4.21.2015::14:37:24;
+							- weakCGTime = 4.27.2015::16:26:4;
 							- strongCGTime = 3.29.2015::15:52:25;
 							- Operations = { IRPYRawContainer 
 								- size = 10;
@@ -27925,11 +27925,28 @@ The Content Owner needs to manage the comments originating from various reviewer
 										}
 									}
 									- _name = "Import Reference Material";
-									- _modifiedTimeWeak = 4.21.2015::14:37:24;
+									- _modifiedTimeWeak = 4.27.2015::16:15:10;
 									- _lastID = 1;
 									- _virtual = 1;
 									- Args = { IRPYRawContainer 
-										- size = 0;
+										- size = 1;
+										- value = 
+										{ IArgument 
+											- _id = GUID d46fd3f4-1e76-4db3-9f63-54dfafc4f190;
+											- _myState = 8192;
+											- _name = "prm_41";
+											- _modifiedTimeWeak = 4.27.2015::16:15:10;
+											- _typeOf = { IHandle 
+												- _m2Class = "IClass";
+												- _filename = "Information_Model.sbs";
+												- _subsystem = "Information Model::Common Terms";
+												- _class = "";
+												- _name = "Engineering Artifact";
+												- _id = GUID e560ce51-cd86-42f1-bc53-b61991c7c6e3;
+											}
+											- _isOrdered = 0;
+											- _argumentDirection = In;
+										}
 									}
 									- _returnType = { IHandle 
 										- _m2Class = "IType";
@@ -27961,24 +27978,24 @@ The Content Owner needs to manage the comments originating from various reviewer
 												- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
 											}
 										}
-										- _modifiedTimeWeak = 4.21.2015::14:37:24;
-										- _lastID = 41;
-										- weakCGTime = 4.21.2015::14:37:24;
+										- _modifiedTimeWeak = 4.27.2015::16:13:29;
+										- _lastID = 47;
+										- weakCGTime = 4.27.2015::16:13:29;
 										- strongCGTime = 4.13.2015::18:55:39;
 										- _multiplicity = "";
 										- _itsStateChart = { IHandle 
 											- _m2Class = "";
 										}
 										- _classModifier = Unspecified;
-										- _defNumber = 14;
+										- _defNumber = 15;
 										- Transitions = { IRPYRawContainer 
-											- size = 17;
+											- size = 19;
 											- value = 
 											{ IDefaultDrvdTrans 
 												- _id = GUID 588cd765-78ae-459f-84d2-2b4187c5bf4c;
 												- _myState = 2048;
 												- _name = "defaulttransition_1";
-												- _modifiedTimeWeak = 7.23.2014::20:38:50;
+												- _modifiedTimeWeak = 4.27.2015::16:9:20;
 												- _itsLabel = { ILabel 
 													- _id = GUID 9a675c74-ac33-4508-a2c0-5c26876a6f57;
 													- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -27986,7 +28003,7 @@ The Content Owner needs to manage the comments originating from various reviewer
 													- _itsGuard = NULL;
 													- _itsAction = NULL;
 												}
-												- _itsTarget = GUID a2b648bc-4a54-4299-956e-d0243e962efb;
+												- _itsTarget = GUID 806b7e95-8219-4859-9697-d89fe4ec49ad;
 												- _staticReaction = 0;
 												- _itsSource = ;
 												- _ofState = GUID 2cc7d291-287d-4b64-afd6-e5ff99b362bb;
@@ -28463,9 +28480,65 @@ The Content Owner needs to manage the comments originating from various reviewer
 												- _staticReaction = 0;
 												- _itsSource = GUID 0030dba0-4a0f-455f-8263-0c90289f752c;
 											}
+											{ ITransition 
+												- _id = GUID 292e2a7e-776a-4a6a-9b7d-face8bca096d;
+												- _myState = 2048;
+												- _name = "controlflow_44";
+												- Stereotypes = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IHandle 
+														- _m2Class = "IStereotype";
+														- _filename = "PredefinedTypes.sbs";
+														- _subsystem = "PredefinedTypes";
+														- _class = "";
+														- _name = "ControlFlow";
+														- _id = GUID 51c3acf0-07f1-4786-825e-c01378393cfc;
+													}
+												}
+												- _modifiedTimeWeak = 4.27.2015::16:10:11;
+												- _itsLabel = { ILabel 
+													- _id = GUID af9e9cb6-6435-41c4-91a5-3acc6e77fb5f;
+													- _modifiedTimeWeak = 1.2.1990::0:0:0;
+													- _itsTrigger = NULL;
+													- _itsGuard = NULL;
+													- _itsAction = NULL;
+												}
+												- _itsTarget = GUID a2b648bc-4a54-4299-956e-d0243e962efb;
+												- _staticReaction = 0;
+												- _itsSource = GUID 806b7e95-8219-4859-9697-d89fe4ec49ad;
+											}
+											{ ITransition 
+												- _id = GUID 4f8bf707-1830-4c80-8f9e-e719280fc685;
+												- _myState = 2048;
+												- _name = "objectflow_46";
+												- Stereotypes = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IHandle 
+														- _m2Class = "IStereotype";
+														- _filename = "PredefinedTypes.sbs";
+														- _subsystem = "PredefinedTypes";
+														- _class = "";
+														- _name = "ObjectFlow";
+														- _id = GUID fe69ed4f-3377-4ccd-87cf-71a943d98e12;
+													}
+												}
+												- _modifiedTimeWeak = 4.27.2015::16:10:27;
+												- _itsLabel = { ILabel 
+													- _id = GUID 34dbb0f9-d859-4377-99ae-1082830d0f31;
+													- _modifiedTimeWeak = 1.2.1990::0:0:0;
+													- _itsTrigger = NULL;
+													- _itsGuard = NULL;
+													- _itsAction = NULL;
+												}
+												- _itsTarget = GUID 3764d05f-232c-48a1-b742-aed58236cd45;
+												- _staticReaction = 0;
+												- _itsSource = GUID 398897f4-f6c2-44b0-a3c7-f8d92c643e58;
+											}
 										}
 										- Connectors = { IRPYRawContainer 
-											- size = 4;
+											- size = 6;
 											- value = 
 											{ IBranch 
 												- _id = GUID bfc936e1-2f54-4bee-a040-5bcaa05dd046;
@@ -28540,17 +28613,55 @@ The Content Owner needs to manage the comments originating from various reviewer
 														- _id = GUID 80f3771a-7820-4e54-9d7c-ef3dee85323e;
 													}
 												}
-												- _modifiedTimeWeak = 7.23.2014::20:41:2;
+												- _modifiedTimeWeak = 4.27.2015::16:10:11;
 												- _parent = GUID 2cc7d291-287d-4b64-afd6-e5ff99b362bb;
 												- _connectorType = Junction;
 											}
+											{ IPin 
+												- _id = GUID 398897f4-f6c2-44b0-a3c7-f8d92c643e58;
+												- _name = "prm_41";
+												- _modifiedTimeWeak = 4.27.2015::16:10:27;
+												- _parent = GUID 2cc7d291-287d-4b64-afd6-e5ff99b362bb;
+												- _connectorType = InPin;
+												- m_type = { IHandle 
+													- _m2Class = "IClass";
+													- _filename = "Information_Model.sbs";
+													- _subsystem = "Information Model::Common Terms";
+													- _class = "";
+													- _name = "Engineering Artifact";
+													- _id = GUID e560ce51-cd86-42f1-bc53-b61991c7c6e3;
+												}
+												- m_isParameterPin = 1;
+												- m_corePin = { IHandle 
+													- _m2Class = "";
+												}
+											}
+											{ IPin 
+												- _id = GUID 3764d05f-232c-48a1-b742-aed58236cd45;
+												- _name = "pin_42";
+												- _modifiedTimeWeak = 4.27.2015::16:10:27;
+												- _parent = GUID 806b7e95-8219-4859-9697-d89fe4ec49ad;
+												- _connectorType = InPin;
+												- m_type = { IHandle 
+													- _m2Class = "IClass";
+													- _filename = "Information_Model.sbs";
+													- _subsystem = "Information Model::Common Terms";
+													- _class = "";
+													- _name = "Engineering Artifact";
+													- _id = GUID e560ce51-cd86-42f1-bc53-b61991c7c6e3;
+												}
+												- m_isParameterPin = 0;
+												- m_corePin = { IHandle 
+													- _m2Class = "";
+												}
+											}
 										}
 										- States = { IRPYRawContainer 
-											- size = 10;
+											- size = 11;
 											- value = 
 											{ IState 
 												- _id = GUID 2cc7d291-287d-4b64-afd6-e5ff99b362bb;
-												- _modifiedTimeWeak = 1.30.2015::20:24:27;
+												- _modifiedTimeWeak = 4.27.2015::16:8:51;
 												- _parent = ;
 												- _defaultTrans = GUID 588cd765-78ae-459f-84d2-2b4187c5bf4c;
 											}
@@ -28659,8 +28770,16 @@ On new programs it is often useful to transform data from previous similar progr
 												- _stateType = Action;
 												- _defaultTrans = ;
 											}
+											{ IState 
+												- _id = GUID 806b7e95-8219-4859-9697-d89fe4ec49ad;
+												- _name = "Aquire Engineering Artifact";
+												- _modifiedTimeWeak = 4.27.2015::16:13:29;
+												- _parent = GUID 2cc7d291-287d-4b64-afd6-e5ff99b362bb;
+												- _stateType = Action;
+												- _defaultTrans = ;
+											}
 										}
-										- _version = 4.21.2015::10:52:3;
+										- _version = 4.27.2015::12:13:29;
 										- _baseVersion = 1.2.1990::0:0:0;
 										- _diagram = GUID 930d645d-66cc-4b0c-807f-82e1c4e43798;
 										- Views = { IRPYRawContainer 
@@ -28708,7 +28827,7 @@ On new programs it is often useful to transform data from previous similar progr
 														{ IPropertySubject 
 															- _Name = "Format";
 															- Metaclasses = { IRPYRawContainer 
-																- size = 9;
+																- size = 10;
 																- value = 
 																{ IPropertyMetaclass 
 																	- _Name = "Action";
@@ -28723,6 +28842,38 @@ On new programs it is often useful to transform data from previous similar progr
 																		{ IProperty 
 																			- _Name = "Fill.FillColor";
 																			- _Value = "225,235,245";
+																			- _Type = Color;
+																		}
+																		{ IProperty 
+																			- _Name = "Line.LineColor";
+																			- _Value = "109,163,217";
+																			- _Type = Color;
+																		}
+																		{ IProperty 
+																			- _Name = "Line.LineWidth";
+																			- _Value = "1";
+																			- _Type = Int;
+																		}
+																	}
+																}
+																{ IPropertyMetaclass 
+																	- _Name = "ActionPin";
+																	- Properties = { IRPYRawContainer 
+																		- size = 5;
+																		- value = 
+																		{ IProperty 
+																			- _Name = "DefaultSize";
+																			- _Value = "0,0,12,12";
+																			- _Type = String;
+																		}
+																		{ IProperty 
+																			- _Name = "Fill.FillColor@Child.PinInArrow";
+																			- _Value = "$<asParent>LineColor";
+																			- _Type = Color;
+																		}
+																		{ IProperty 
+																			- _Name = "Fill.FillColor@Child.PinOutArrow";
+																			- _Value = "$<asParent>LineColor";
 																			- _Type = Color;
 																		}
 																		{ IProperty 
@@ -29062,8 +29213,8 @@ On new programs it is often useful to transform data from previous similar progr
 													}
 												}
 												- _name = "activitydiagram_0";
-												- _modifiedTimeWeak = 4.21.2015::14:37:24;
-												- _lastModifiedTime = "4.21.2015::14:52:3";
+												- _modifiedTimeWeak = 4.27.2015::16:9:36;
+												- _lastModifiedTime = "4.27.2015::16:13:29";
 												- _graphicChart = { CGIStateChart 
 													- _id = GUID 16fbdb5f-a6fe-4829-b647-84ca1143a350;
 													- m_type = 0;
@@ -29087,7 +29238,7 @@ On new programs it is often useful to transform data from previous similar progr
 													}
 													- m_drawBehavior = 4096;
 													- m_bIsPreferencesInitialized = 1;
-													- elementList = 32;
+													- elementList = 37;
 													{ CGIState 
 														- _id = GUID d3f64119-1931-44ce-a8d9-01e626c43908;
 														- m_type = 5;
@@ -29158,7 +29309,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 5.53704 0 0 4.75758 20 20 ;
+														- m_transform = 5.625 0 0 5.44697 1 20 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -29230,7 +29381,7 @@ On new programs it is often useful to transform data from previous similar progr
 														- m_bIsPreferencesInitialized = 1;
 														- m_pSource = GUID d3f64119-1931-44ce-a8d9-01e626c43908;
 														- m_sourceType = 'F';
-														- m_pTarget = GUID 24b1605d-9c14-4946-a203-ded11b6f2d0e;
+														- m_pTarget = GUID fadce034-28df-4768-893a-2acce055d620;
 														- m_targetType = 'T';
 														- m_direction = ' ';
 														- m_rpn = { CGIText 
@@ -29246,12 +29397,11 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 2 454 78  457 78  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
-														- m_SourcePort = 460 48 ;
-														- m_TargetPort = 208 4 ;
+														- m_SourcePort = 459 54 ;
+														- m_TargetPort = 539 248 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -29280,7 +29430,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 0;
-														- m_transform = 1 0 0 1.04 446 612 ;
+														- m_transform = 1 0 0 1.04 446 703 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_position = 4 0 0  0 25  25 25  25 0  ;
 														- m_pInheritsFrom = { IHandle 
@@ -29512,7 +29662,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 1 753 506  ;
+														- m_arrow = 1 753 597  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
@@ -29571,7 +29721,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.180822 0 0 0.124528 76 215.117 ;
+														- m_transform = 0.180822 0 0 0.124528 76 306.117 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -29648,7 +29798,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.279452 0 0 0.15283 309 215.598 ;
+														- m_transform = 0.279452 0 0 0.15283 309 306.598 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -29725,7 +29875,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.230137 0 0 0.045283 336 410.77 ;
+														- m_transform = 0.230137 0 0 0.045283 336 501.77 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -29802,7 +29952,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.235616 0 0 0.0792453 628 214.347 ;
+														- m_transform = 0.235616 0 0 0.0792453 628 305.347 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -29857,7 +30007,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.0722892 0 0 0.0458015 421.434 539.954 ;
+														- m_transform = 0.0722892 0 0 0.0458015 421.434 630.954 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_position = 4 -6 1  -6 1049  1073 1049  1073 1  ;
 														- m_pInheritsFrom = { IHandle 
@@ -29890,7 +30040,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.0722892 0 0 0.0458015 418.434 138.954 ;
+														- m_transform = 0.0722892 0 0 0.0458015 418.434 229.954 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_position = 4 -6 1  -6 1049  1073 1049  1073 1  ;
 														- m_pInheritsFrom = { IHandle 
@@ -29968,7 +30118,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nVerticalSpacing = 38;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 1 172 163  ;
+														- m_arrow = 1 172 254  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
@@ -30002,7 +30152,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.0714286 0 0 0.0817439 443.143 491 ;
+														- m_transform = 0.0714286 0 0 0.0817439 443.143 582 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_position = 4 -2 0  -2 367  418 367  418 0  ;
 														- m_pInheritsFrom = { IHandle 
@@ -30077,7 +30227,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 2 460 471  458 471  ;
+														- m_arrow = 2 460 562  458 562  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
@@ -30136,7 +30286,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.164384 0 0 0.0481132 85 409.818 ;
+														- m_transform = 0.164384 0 0 0.0481132 85 500.818 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -30309,7 +30459,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 1 173 506  ;
+														- m_arrow = 1 173 597  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
@@ -30387,7 +30537,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 2 458 530  460 530  ;
+														- m_arrow = 2 458 621  460 621  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
@@ -30548,7 +30698,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nVerticalSpacing = 38;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 1 748 163  ;
+														- m_arrow = 1 748 254  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
@@ -30629,7 +30779,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nVerticalSpacing = 223;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 2 61 564  61 99  ;
+														- m_arrow = 2 61 655  61 190  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
@@ -30663,7 +30813,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.0714286 0 0 0.0817439 442.143 84 ;
+														- m_transform = 0.0714286 0 0 0.0817439 442.143 175 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_position = 4 -2 0  -2 367  418 367  418 0  ;
 														- m_pInheritsFrom = { IHandle 
@@ -30719,7 +30869,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.153425 0 0 0.0509434 673 407.866 ;
+														- m_transform = 0.153425 0 0 0.0509434 673 498.866 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -30969,7 +31119,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.273973 0 0 0.219812 906 216.737 ;
+														- m_transform = 0.273973 0 0 0.219812 906 307.737 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -31046,7 +31196,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 0.126027 0 0 0.0509434 984 474.866 ;
+														- m_transform = 0.126027 0 0 0.0509434 984 565.866 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -31145,7 +31295,7 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_nVerticalSpacing = 38;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 1 1048 163  ;
+														- m_arrow = 1 1048 254  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
@@ -31300,12 +31450,322 @@ On new programs it is often useful to transform data from previous similar progr
 															- m_bImplicitSetRectPoints = 0;
 															- m_nOrientationCtrlPt = 0;
 														}
-														- m_arrow = 2 744 507  744 506  ;
+														- m_arrow = 2 744 598  744 597  ;
 														- m_anglePoint1 = 0 0 ;
 														- m_anglePoint2 = 0 0 ;
 														- m_line_style = 2;
 														- m_SourcePort = 262 631 ;
 														- m_TargetPort = 418 183 ;
+														- m_pInheritsFrom = { IHandle 
+															- _m2Class = "";
+														}
+														- m_nInheritanceMask = 0;
+														- m_bShowName = 1;
+													}
+													{ CGIConnector 
+														- _id = GUID 8c9a8e0a-acca-425e-ac40-aa740f2d96b9;
+														- m_type = 195;
+														- m_pModelObject = { IHandle 
+															- _m2Class = "IPin";
+															- _id = GUID 398897f4-f6c2-44b0-a3c7-f8d92c643e58;
+														}
+														- m_pParent = GUID 08f68f0f-67f8-4c01-b8ee-e72fb3411d0e;
+														- m_name = { CGIText 
+															- m_str = "";
+															- m_style = "Arial" 10 0 0 0 1 ;
+															- m_color = { IColor 
+																- m_fgColor = 0;
+																- m_bgColor = 0;
+																- m_bgFlag = 0;
+															}
+															- m_position = 1 0 0  ;
+															- m_nIdent = 0;
+															- m_bImplicitSetRectPoints = 0;
+															- m_nOrientationCtrlPt = 8;
+														}
+														- m_drawBehavior = 524296;
+														- m_transform = 0.294141 0 0 0.265183 -8 16.8901 ;
+														- m_bIsPreferencesInitialized = 1;
+														- m_position = 4 0 0  0 36  55 36  55 0  ;
+														- m_pInheritsFrom = { IHandle 
+															- _m2Class = "";
+														}
+														- m_nInheritanceMask = 0;
+														- m_SubType = 0;
+													}
+													{ CGIActionState 
+														- _id = GUID fadce034-28df-4768-893a-2acce055d620;
+														- _properties = { IPropertyContainer 
+															- Subjects = { IRPYRawContainer 
+																- size = 1;
+																- value = 
+																{ IPropertySubject 
+																	- _Name = "General";
+																	- Metaclasses = { IRPYRawContainer 
+																		- size = 1;
+																		- value = 
+																		{ IPropertyMetaclass 
+																			- _Name = "Graphics";
+																			- Properties = { IRPYRawContainer 
+																				- size = 1;
+																				- value = 
+																				{ IProperty 
+																					- _Name = "FitBoxToItsTextuals";
+																					- _Value = "False";
+																					- _Type = Bool;
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+														- m_type = 132;
+														- m_pModelObject = { IHandle 
+															- _m2Class = "IState";
+															- _id = GUID 806b7e95-8219-4859-9697-d89fe4ec49ad;
+														}
+														- m_pParent = GUID d3f64119-1931-44ce-a8d9-01e626c43908;
+														- m_name = { CGIText 
+															- m_str = "Aquire Engineering Artifact";
+															- m_style = "Arial" 10 0 0 0 1 ;
+															- m_color = { IColor 
+																- m_fgColor = 0;
+																- m_bgColor = 0;
+																- m_bgFlag = 0;
+															}
+															- m_position = 1 0 0  ;
+															- m_nIdent = 0;
+															- m_bImplicitSetRectPoints = 0;
+															- m_nOrientationCtrlPt = 5;
+														}
+														- m_drawBehavior = 4096;
+														- m_transform = 0.187215 0 0 0.0377358 358 106.642 ;
+														- m_bIsPreferencesInitialized = 1;
+														- m_AdditionalLabel = { CGIText 
+															- m_str = "";
+															- m_style = "Arial" 10 0 0 0 1 ;
+															- m_color = { IColor 
+																- m_fgColor = 0;
+																- m_bgColor = 0;
+																- m_bgFlag = 0;
+															}
+															- m_position = 1 0 0  ;
+															- m_nIdent = 0;
+															- m_bImplicitSetRectPoints = 0;
+															- m_nOrientationCtrlPt = 1;
+														}
+														- m_polygon = 4 0 -17  0 1043  1095 1043  1095 -17  ;
+														- m_nNameFormat = 0;
+														- m_nIsNameFormat = 0;
+														- Compartments = { IRPYRawContainer 
+															- size = 0;
+														}
+														- nAndLineCount = 0;
+														- m_pInheritsFrom = { IHandle 
+															- _m2Class = "";
+														}
+														- m_nInheritanceMask = 0;
+														- m_pDefaultComponentRelation = ;
+														- m_NameDisplayMode = ShowName;
+														- m_ActDescLablDiaplayMode = DisplayDescription;
+													}
+													{ CGIConnector 
+														- _id = GUID 291e5b34-a860-42ac-9d79-7dd25c8df9e0;
+														- m_type = 194;
+														- m_pModelObject = { IHandle 
+															- _m2Class = "IPin";
+															- _id = GUID 3764d05f-232c-48a1-b742-aed58236cd45;
+														}
+														- m_pParent = GUID fadce034-28df-4768-893a-2acce055d620;
+														- m_name = { CGIText 
+															- m_str = "";
+															- m_style = "Arial" 10 0 0 0 1 ;
+															- m_color = { IColor 
+																- m_fgColor = 0;
+																- m_bgColor = 0;
+																- m_bgFlag = 0;
+															}
+															- m_position = 4 -6 -9  139 -9  139 9  -6 9  ;
+															- m_nIdent = 0;
+															- m_bImplicitSetRectPoints = 1;
+															- m_transform = 0.675862 0 0 1.94444 248.055 93.5 ;
+															- m_nHorizontalSpacing = -16;
+															- m_nVerticalSpacing = -10;
+															- m_nOrientationCtrlPt = 4;
+														}
+														- m_drawBehavior = 524296;
+														- m_transform = -1.77654e-005 -26.5 5.34146 -8.81373e-005 -64.0974 821.501 ;
+														- m_bIsPreferencesInitialized = 1;
+														- m_AdditionalLabel = { CGIText 
+															- m_str = "";
+															- m_style = "Arial" 10 0 0 0 1 ;
+															- m_color = { IColor 
+																- m_fgColor = 0;
+																- m_bgColor = 0;
+																- m_bgFlag = 0;
+															}
+															- m_position = 1 0 0  ;
+															- m_nIdent = 0;
+															- m_bImplicitSetRectPoints = 0;
+															- m_nVerticalSpacing = 17;
+															- m_nOrientationCtrlPt = 4;
+														}
+														- m_position = 4 0 0  0 12  12 12  12 0  ;
+														- m_pInheritsFrom = { IHandle 
+															- _m2Class = "";
+														}
+														- m_nInheritanceMask = 0;
+														- m_SubType = 0;
+													}
+													{ CGITrans 
+														- _id = GUID e4597968-7b49-4993-aef2-c99f019116ea;
+														- _properties = { IPropertyContainer 
+															- Subjects = { IRPYRawContainer 
+																- size = 1;
+																- value = 
+																{ IPropertySubject 
+																	- _Name = "General";
+																	- Metaclasses = { IRPYRawContainer 
+																		- size = 1;
+																		- value = 
+																		{ IPropertyMetaclass 
+																			- _Name = "Graphics";
+																			- Properties = { IRPYRawContainer 
+																				- size = 1;
+																				- value = 
+																				{ IProperty 
+																					- _Name = "ShowLabels";
+																					- _Value = "False";
+																					- _Type = Bool;
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+														- m_type = 28;
+														- m_pModelObject = { IHandle 
+															- _m2Class = "ITransition";
+															- _id = GUID 292e2a7e-776a-4a6a-9b7d-face8bca096d;
+														}
+														- m_pParent = ;
+														- m_name = { CGIText 
+															- m_str = "ControlFlow";
+															- m_style = "Arial" 10 0 0 0 1 ;
+															- m_color = { IColor 
+																- m_fgColor = 0;
+																- m_bgColor = 0;
+																- m_bgFlag = 0;
+															}
+															- m_position = 1 0 0  ;
+															- m_nIdent = 0;
+															- m_bImplicitSetRectPoints = 0;
+															- m_nOrientationCtrlPt = 8;
+														}
+														- m_drawBehavior = 4096;
+														- m_bIsPreferencesInitialized = 1;
+														- m_pSource = GUID fadce034-28df-4768-893a-2acce055d620;
+														- m_sourceType = 'F';
+														- m_pTarget = GUID 24b1605d-9c14-4946-a203-ded11b6f2d0e;
+														- m_targetType = 'T';
+														- m_direction = ' ';
+														- m_rpn = { CGIText 
+															- m_str = "";
+															- m_style = "Arial" 10 0 0 0 1 ;
+															- m_color = { IColor 
+																- m_fgColor = 0;
+																- m_bgColor = 0;
+																- m_bgFlag = 0;
+															}
+															- m_position = 1 0 0  ;
+															- m_nIdent = 0;
+															- m_bImplicitSetRectPoints = 0;
+															- m_nOrientationCtrlPt = 0;
+														}
+														- m_anglePoint1 = 0 0 ;
+														- m_anglePoint2 = 0 0 ;
+														- m_line_style = 2;
+														- m_SourcePort = 529 804 ;
+														- m_TargetPort = 208 4 ;
+														- m_pInheritsFrom = { IHandle 
+															- _m2Class = "";
+														}
+														- m_nInheritanceMask = 0;
+														- m_bShowName = 1;
+													}
+													{ CGITrans 
+														- _id = GUID f7e64086-0f76-454d-a329-e80fe0f54a13;
+														- _properties = { IPropertyContainer 
+															- Subjects = { IRPYRawContainer 
+																- size = 1;
+																- value = 
+																{ IPropertySubject 
+																	- _Name = "General";
+																	- Metaclasses = { IRPYRawContainer 
+																		- size = 1;
+																		- value = 
+																		{ IPropertyMetaclass 
+																			- _Name = "Graphics";
+																			- Properties = { IRPYRawContainer 
+																				- size = 1;
+																				- value = 
+																				{ IProperty 
+																					- _Name = "ShowLabels";
+																					- _Value = "False";
+																					- _Type = Bool;
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+														- m_type = 28;
+														- m_pModelObject = { IHandle 
+															- _m2Class = "ITransition";
+															- _id = GUID 4f8bf707-1830-4c80-8f9e-e719280fc685;
+														}
+														- m_pParent = ;
+														- m_name = { CGIText 
+															- m_str = "ObjectFlow";
+															- m_style = "Arial" 10 0 0 0 1 ;
+															- m_color = { IColor 
+																- m_fgColor = 0;
+																- m_bgColor = 0;
+																- m_bgFlag = 0;
+															}
+															- m_position = 1 0 0  ;
+															- m_nIdent = 0;
+															- m_bImplicitSetRectPoints = 0;
+															- m_nOrientationCtrlPt = 8;
+														}
+														- m_drawBehavior = 4096;
+														- m_bIsPreferencesInitialized = 1;
+														- m_pSource = GUID 8c9a8e0a-acca-425e-ac40-aa740f2d96b9;
+														- m_sourceType = 'F';
+														- m_pTarget = GUID 291e5b34-a860-42ac-9d79-7dd25c8df9e0;
+														- m_targetType = 'T';
+														- m_direction = ' ';
+														- m_rpn = { CGIText 
+															- m_str = "";
+															- m_style = "Arial" 10 0 0 0 1 ;
+															- m_color = { IColor 
+																- m_fgColor = 0;
+																- m_bgColor = 0;
+																- m_bgFlag = 0;
+															}
+															- m_position = 1 0 0  ;
+															- m_nIdent = 0;
+															- m_bImplicitSetRectPoints = 0;
+															- m_nOrientationCtrlPt = 0;
+														}
+														- m_anglePoint1 = 0 0 ;
+														- m_anglePoint2 = 0 0 ;
+														- m_line_style = 2;
+														- m_SourcePort = 47 14 ;
+														- m_TargetPort = 6 6 ;
 														- m_pInheritsFrom = { IHandle 
 															- _m2Class = "";
 														}
@@ -31781,7 +32241,7 @@ On new programs it is often useful to transform data from previous similar progr
 										}
 									}
 									- _name = "Analyze Requirements";
-									- _modifiedTimeWeak = 4.13.2015::15:27:45;
+									- _modifiedTimeWeak = 4.27.2015::16:26:4;
 									- _lastID = 1;
 									- _virtual = 1;
 									- Args = { IRPYRawContainer 
@@ -31805,9 +32265,9 @@ On new programs it is often useful to transform data from previous similar progr
 										- _id = GUID 3294940e-59fb-40bc-8fab-d31ee024d6ed;
 										- _myState = 8192;
 										- _name = "Analyze Requirements";
-										- _modifiedTimeWeak = 4.13.2015::15:27:45;
+										- _modifiedTimeWeak = 4.27.2015::16:26:4;
 										- _lastID = 113;
-										- weakCGTime = 4.13.2015::15:27:45;
+										- weakCGTime = 4.27.2015::16:26:4;
 										- strongCGTime = 12.22.2014::19:16:0;
 										- _multiplicity = "";
 										- _itsStateChart = { IHandle 
@@ -33012,7 +33472,7 @@ On new programs it is often useful to transform data from previous similar progr
 																- _id = GUID fe7a817d-e8f9-4f6d-ad0b-bbd338adfa1f;
 															}
 														}
-														- _modifiedTimeWeak = 2.28.2015::18:30:41;
+														- _modifiedTimeWeak = 4.27.2015::15:51:11;
 														- _description = { IDescription 
 															- _text = "Review categorization/distribution of requirements to system elements
 Dick will take a pass at the activity. 
@@ -33025,14 +33485,14 @@ Dick will take a pass at the activity.
 																- _id = GUID 425c12a0-1927-4526-82af-c330d8c456a0;
 																- _myState = 8192;
 																- _name = "Status";
-																- _modifiedTimeWeak = 2.12.2015::20:1:59;
+																- _modifiedTimeWeak = 4.27.2015::15:51:11;
 																- ValueSpecifications = { IRPYRawContainer 
 																	- size = 1;
 																	- value = 
 																	{ ILiteralSpecification 
-																		- _id = GUID 82214fac-7091-4ef0-b0f5-1a2cf952e1fd;
-																		- _modifiedTimeWeak = 2.12.2015::20:1:59;
-																		- _value = "Changed";
+																		- _id = GUID 8396daa7-df31-446c-a21a-296581a544bd;
+																		- _modifiedTimeWeak = 4.27.2015::15:51:11;
+																		- _value = "Closed";
 																	}
 																}
 																- _typeOf = { IHandle 
@@ -33335,7 +33795,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 														}
 													}
 												}
-												- _modifiedTimeWeak = 4.5.2015::14:39:4;
+												- _modifiedTimeWeak = 4.27.2015::15:51:11;
 												- _parent = ;
 												- _defaultTrans = GUID ea5f7a38-20a0-4b5c-b5c6-a17f65847851;
 											}
@@ -33594,7 +34054,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 												}
 											}
 										}
-										- _version = 4.13.2015::11:28:5;
+										- _version = 4.27.2015::12:26:6;
 										- _baseVersion = 1.2.1990::0:0:0;
 										- _diagram = GUID 59dae7a5-e6f9-49b1-b635-8e38a589b381;
 										- Views = { IRPYRawContainer 
@@ -34184,8 +34644,8 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 													}
 												}
 												- _name = "Analyze Requirements";
-												- _modifiedTimeWeak = 4.13.2015::15:25:45;
-												- _lastModifiedTime = "4.13.2015::15:28:5";
+												- _modifiedTimeWeak = 4.27.2015::16:26:4;
+												- _lastModifiedTime = "4.27.2015::16:26:6";
 												- _graphicChart = { CGIStateChart 
 													- _id = GUID b0131157-9992-40e4-a0ce-adbedbc1b219;
 													- m_type = 0;
@@ -34209,7 +34669,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 													}
 													- m_drawBehavior = 4096;
 													- m_bIsPreferencesInitialized = 1;
-													- elementList = 62;
+													- elementList = 61;
 													{ CGIState 
 														- _id = GUID 0cb2a97b-c871-40a4-b774-93b816d6212b;
 														- m_type = 5;
@@ -34280,7 +34740,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 															- m_nOrientationCtrlPt = 8;
 														}
 														- m_drawBehavior = 4096;
-														- m_transform = 3.8287 0 0 9.28788 6 20 ;
+														- m_transform = 3.82407 0 0 9.28788 7 20 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -36831,7 +37291,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 2056;
-														- m_transform = 0.222324 0 0 0.110413 24 1017.88 ;
+														- m_transform = 0.216789 0 0 0.158776 7 1012.05 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -37247,108 +37707,6 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 														- m_nInheritanceMask = 0;
 														- m_bShowName = 1;
 													}
-													{ CGIAnnotation 
-														- _id = GUID 3a036450-2c55-4cd8-a685-b94b6828fd0e;
-														- _properties = { IPropertyContainer 
-															- Subjects = { IRPYRawContainer 
-																- size = 2;
-																- value = 
-																{ IPropertySubject 
-																	- _Name = "Activity_diagram";
-																	- Metaclasses = { IRPYRawContainer 
-																		- size = 1;
-																		- value = 
-																		{ IPropertyMetaclass 
-																			- _Name = "problem";
-																			- Properties = { IRPYRawContainer 
-																				- size = 1;
-																				- value = 
-																				{ IProperty 
-																					- _Name = "Compartments";
-																					- _Value = "Description,Tag,";
-																					- _Type = MultiLine;
-																				}
-																			}
-																		}
-																	}
-																}
-																{ IPropertySubject 
-																	- _Name = "General";
-																	- Metaclasses = { IRPYRawContainer 
-																		- size = 1;
-																		- value = 
-																		{ IPropertyMetaclass 
-																			- _Name = "Graphics";
-																			- Properties = { IRPYRawContainer 
-																				- size = 1;
-																				- value = 
-																				{ IProperty 
-																					- _Name = "FitBoxToItsTextuals";
-																					- _Value = "False";
-																					- _Type = Bool;
-																				}
-																			}
-																		}
-																	}
-																}
-															}
-														}
-														- m_type = 174;
-														- m_pModelObject = { IHandle 
-															- _m2Class = "IComment";
-															- _id = GUID 413e00b8-828a-4cd6-930c-a1181bbd5aaa;
-														}
-														- m_pParent = GUID 0cb2a97b-c871-40a4-b774-93b816d6212b;
-														- m_name = { CGIText 
-															- m_str = "Req Categories";
-															- m_style = "Arial" 10 0 0 0 1 ;
-															- m_color = { IColor 
-																- m_fgColor = 0;
-																- m_bgColor = 0;
-																- m_bgFlag = 0;
-															}
-															- m_position = 1 0 0  ;
-															- m_nIdent = 0;
-															- m_bImplicitSetRectPoints = 0;
-															- m_nOrientationCtrlPt = 5;
-														}
-														- m_drawBehavior = 2056;
-														- m_transform = 0.197417 0 0 0.125228 549 989.583 ;
-														- m_bIsPreferencesInitialized = 1;
-														- m_AdditionalLabel = { CGIText 
-															- m_str = "";
-															- m_style = "Arial" 10 0 0 0 1 ;
-															- m_color = { IColor 
-																- m_fgColor = 0;
-																- m_bgColor = 0;
-																- m_bgFlag = 0;
-															}
-															- m_position = 1 0 0  ;
-															- m_nIdent = 0;
-															- m_bImplicitSetRectPoints = 0;
-															- m_nOrientationCtrlPt = 1;
-														}
-														- m_bFramesetModified = 1;
-														- m_polygon = 4 0 3  0 1097  1084 1097  1084 3  ;
-														- m_nNameFormat = 0;
-														- m_nIsNameFormat = 0;
-														- frameset = "<frameset rows=45%,55%>
-<frame name=DescriptionCompartment>
-<frame name=TagListCompartment>";
-														- Compartments = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ CGICompartment 
-																- _id = GUID dd3d757f-e348-4d98-9b8d-85f0f310ec6e;
-																- m_name = "Tag";
-																- m_displayOption = All;
-																- m_bShowInherited = 0;
-																- m_bOrdered = 0;
-															}
-														}
-														- _iTempdisplayTextFlag = 2;
-														- m_bIsBoxStyle = 1;
-													}
 													{ CGITrans 
 														- _id = GUID 2588acf0-1220-493a-981e-7d9df16daf02;
 														- _properties = { IPropertyContainer 
@@ -37574,7 +37932,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 															- m_nOrientationCtrlPt = 5;
 														}
 														- m_drawBehavior = 2056;
-														- m_transform = 0.27583 0 0 0.120658 500 423.344 ;
+														- m_transform = 0.27583 0 0 0.136197 500 406.388 ;
 														- m_bIsPreferencesInitialized = 1;
 														- m_AdditionalLabel = { CGIText 
 															- m_str = "";
@@ -42824,7 +43182,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 					- _configurationRelatedTime = 4.6.2015::23:52:26;
 				}
 			}
-			- weakCGTime = 4.21.2015::14:37:24;
+			- weakCGTime = 4.27.2015::16:26:4;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _defaultComposite = GUID 9fe7f6b9-2981-49b3-9ccd-bf1172872021;
 			- _eventsBaseID = -1;
@@ -43600,7 +43958,7 @@ Changes\" and \"Integrate with other Requirement Sets\"";
 			- _configurationRelatedTime = 8.1.2014::16:40:53;
 		}
 	}
-	- weakCGTime = 4.21.2015::14:37:24;
+	- weakCGTime = 4.27.2015::16:26:4;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID f0bda8dd-70a6-43c0-a98a-ceeecc279ff9;
 	- _eventsBaseID = -1;
