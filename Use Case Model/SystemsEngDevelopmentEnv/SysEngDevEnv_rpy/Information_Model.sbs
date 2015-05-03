@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 4.27.2015::16:35:45;
+	- _modifiedTimeWeak = 5.3.2015::18:33:29;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
@@ -16,7 +16,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 55811343-13cb-48e1-8be3-e8205e2e1cf5;
 			- _myState = 8192;
 			- _name = "Common Terms";
-			- _modifiedTimeWeak = 4.27.2015::16:35:45;
+			- _modifiedTimeWeak = 5.3.2015::18:33:29;
 			- _lastID = 46;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -326,7 +326,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "4.27.2015::16:24:12";
+					- _lastModifiedTime = "5.3.2015::17:24:53";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 8ca9c00c-d1c4-4301-af92-417ed02633d1;
 						- m_type = 0;
@@ -3478,7 +3478,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- weakCGTime = 4.27.2015::16:35:45;
+			- weakCGTime = 5.3.2015::18:33:29;
 			- strongCGTime = 4.14.2015::16:4:3;
 			- _defaultComposite = GUID aed56898-4eed-4916-a5e6-d6f4f8a9ee01;
 			- _eventsBaseID = -1;
@@ -3522,19 +3522,30 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 4.14.2015::16:30:42;
+					- _modifiedTimeWeak = 5.3.2015::17:20:14;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 2f96cc84-b904-453f-9661-2b03ad12bfb0;
 					}
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Arial;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-{\\colortbl ;\\red0\\green0\\blue0;}
-\\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 The stakeholder that acquires or procures a product or service from a supplier. [2]\\cf0\\f1\\fs17\\par
+{\\colortbl ;\\red0\\green0\\blue0;\\red0\\green0\\blue255;}
+\\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 The stakeholder that acquires or procures a product or service from a supplier. [2]\\par
+\\par
+\\cf2\\ul\\protect\\f1\\fs17 SEBoK Definition\\cf0\\protect0  [3]\\par
 }
 ";
+						- Hyperlinks = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IExternalHyperlink 
+								- _name = "SEBoK Definition";
+								- _textType = "FREE";
+								- _target = "http://sebokwiki.org/wiki/Acquirer_%28glossary%29";
+							}
+						}
 					}
-					- weakCGTime = 4.14.2015::16:30:42;
+					- weakCGTime = 5.3.2015::17:20:14;
 					- strongCGTime = 4.14.2015::16:22:4;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -3566,20 +3577,32 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 4.14.2015::16:23:8;
+					- _modifiedTimeWeak = 5.3.2015::17:24:1;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 2f96cc84-b904-453f-9661-2b03ad12bfb0;
 					}
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-{\\colortbl ;\\red0\\green0\\blue0;}
+{\\colortbl ;\\red0\\green0\\blue0;\\red0\\green0\\blue255;}
 \\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 The gate\\u8208?controlled step\\u8208?by\\u8208?step elaboration of business, budget, functional, performance, and physical characteristics, mutually agreed to by buyer and seller, and under formal change control.\\par
-Baselines can be modified between formal decision gates by mutual consent through the change control process. [2]\\cf0\\f1\\fs17\\par
+Baselines can be modified between formal decision gates by mutual consent through the change control process. [2]\\par
+\\par
+\\cf2\\ul\\protect\\f1\\fs17 SEBoK Definition\\cf0\\protect0  [3]\\par
+\\par
 }
 ";
+						- Hyperlinks = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IExternalHyperlink 
+								- _name = "SEBoK Definition";
+								- _textType = "FREE";
+								- _target = "http://sebokwiki.org/wiki/Baseline_(glossary)";
+							}
+						}
 					}
-					- weakCGTime = 4.14.2015::16:23:8;
+					- weakCGTime = 5.3.2015::17:24:1;
 					- strongCGTime = 4.14.2015::16:22:25;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -3690,17 +3713,30 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 4.15.2015::21:51:26;
+					- _modifiedTimeWeak = 5.3.2015::17:19:34;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 2f96cc84-b904-453f-9661-2b03ad12bfb0;
 					}
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs20 A system element comprised of multiple parts; a cleanly identified item. [2]\\f1\\fs17\\par
-}";
+{\\colortbl ;\\red0\\green0\\blue255;}
+\\viewkind4\\uc1\\pard\\f0\\fs20 A system element comprised of multiple parts; a cleanly identified item. [2]\\par
+\\par
+\\cf1\\ul\\protect\\f1\\fs17 SEBoK Definition\\cf0\\protect0  [3]\\par
+}
+";
+						- Hyperlinks = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IExternalHyperlink 
+								- _name = "SEBoK Definition";
+								- _textType = "FREE";
+								- _target = "http://sebokwiki.org/wiki/Component_(glossary)";
+							}
+						}
 					}
-					- weakCGTime = 4.15.2015::21:51:26;
+					- weakCGTime = 5.3.2015::17:19:34;
 					- strongCGTime = 4.15.2015::21:51:26;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -4895,7 +4931,7 @@ de-off decisions when performance exceeds the threshold. [9]\\f1\\fs17\\par
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 4.27.2015::16:35:45;
+					- _modifiedTimeWeak = 5.3.2015::18:34:25;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Analyze_Stakeholder_Needs_Artifacts.sbs";
@@ -4905,11 +4941,14 @@ de-off decisions when performance exceeds the threshold. [9]\\f1\\fs17\\par
 						- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 					}
 					- _description = { IDescription 
-						- _text = "This term is used to represent any type of Engineering artifact, including a document, spreadsheet, analysis or test data and any type of model, etc.
-
-This term is useful when a very generalized behavior requires input or output data without specifying this data for a specific speciality area. ";
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 This term is used to represent any type of Engineering artifact, including a document, spreadsheet, analysis or test data and any type of model, etc.\\par
+\\par
+This term is useful when a generalized behavior requires input or output data without specifying this data for a specific \\f1\\fs22 specialty \\f0\\fs20 area. \\par
+}
+";
 					}
-					- weakCGTime = 4.27.2015::16:35:45;
+					- weakCGTime = 5.3.2015::18:34:25;
 					- strongCGTime = 4.27.2015::16:35:45;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -8860,7 +8899,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _configurationRelatedTime = 4.18.2015::18:11:9;
 		}
 	}
-	- weakCGTime = 4.27.2015::16:35:45;
+	- weakCGTime = 5.3.2015::18:33:29;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;

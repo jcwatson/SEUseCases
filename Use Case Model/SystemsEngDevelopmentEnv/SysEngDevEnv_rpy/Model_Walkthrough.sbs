@@ -19,7 +19,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 4.30.2015::22:1:0;
+	- _modifiedTimeWeak = 5.3.2015::18:16:11;
 	- _lastID = 30;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -689,7 +689,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.30.2015::22:1:13";
+			- _lastModifiedTime = "5.3.2015::13:14:34";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 8340da79-0c2e-4315-af1a-a69253f80036;
 				- m_type = 0;
@@ -1176,7 +1176,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 					}
 					- m_pImageViewData = { IHandle 
 						- _m2Class = "OMGEElement";
-						- _id = GUID 13605562-fbc0-4544-b10d-43ed921d9e2e;
+						- _id = GUID 72671151-c50c-456e-947e-34e83f5ec38a;
 					}
 					- m_polygon = 4 0 0  0 108  264 108  264 0  ;
 					- m_nNameFormat = 0;
@@ -6509,7 +6509,7 @@ bdba8Q34f3fbZGW7aZG4b5f11ZG84d34cZGQ3f8fbfYd77c4bZGe64a8ff84d34cffa03f8fbZG0d77c
 					- m_fileModifiedTime = 4.27.2015::10:20:50;
 				}
 				{ CGIImageData 
-					- _id = GUID 13605562-fbc0-4544-b10d-43ed921d9e2e;
+					- _id = GUID 72671151-c50c-456e-947e-34e83f5ec38a;
 					- m_type = 0;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "";
@@ -7675,7 +7675,7 @@ e3c6dZG8743e26fZG35f5e8d450177ddff5ZG0cbee3ce7fe1Kf84ffe7e3c6dZG8743e26fZG35f47f
 3ZG0aafc27ff3f1e36ffc3a1f137ff9afa3fe155f84ZGe7e3c6dff8743e26ZGf35f5e8d450177ddZG5fYcbX3ce7fe155f84ZGe7e3c6dff8743e26ZGf35f47fc2abf09ZGcfc78dbfYe87c4dZGe6bebd1a8a02efTfebfe197dc79cffc2abf09ZGcfc78dbfYe87c4dZGe6be8ff8K7e13ZG9f8f1b7fe1d0f89bZGcd7d7a351405df77fd7fc32fb8f39ff8K7e13ZG9f8f1b7fe1d0f89bZGcd7d1fYRfc27ZG3f1e36ZGc3a1f137ZG9afaf46a280bbeeffaZG865f71e73fYRfc27ZG3f1e36ZGc3a1f137ZG9afa3fe1Kf84ffe7e3c6dZG8743e26fZG35f5e8d450177ddff5ZG0cbee3ce7fe1Kf84ffe7e3c6dZG8743e26fZG35f47fc2abY9ffcfc78dbZG0e87c4dffe6beb
 d1a8Q2efbbfebfe197dc79cZGc2abY9ffcfc78dbZG0e87c4dffe6be8ZG8557e13ff9f8f1b7fe1d0f89bffcd7d7a351J5df77fd7fc32fb8f39ZG8557e13ff9f8f1b7fe1d0f89bffcd7d1ZG0aafc27ff3f1e36ffc3a1f137ff9afaf46a2NTXZGaff865f71e73ZG0aafc27ff3f1e36ffc3a1f137ff9afa3fe155f84ZGe7e3c6dff8743e26ZGf35f5e8d450177ddZG5fYcbX3ce7fe155f84ZGe7e3c6dff8743e26ZGf35f5d7683Qe97e19d2e1d1b4686782c209efX512e6ff50d4ee5X753d42eb54d42e2e350d52eaf750ba9eef50bdbaba965baba9a4324cU30JRT14502bbee145145007Zd9";
 					- m_srcFile = "C:\\Users\\John\\AppData\\Local\\Temp\\Product Development Domain Structure\\6b333c0f-624b-401e-bcf2-e59ea05cc4b3Snapshot.JPG";
-					- m_fileModifiedTime = 4.30.2015::18:1:2;
+					- m_fileModifiedTime = 4.30.2015::18:31:16;
 				}
 				
 				- m_access = 'Z';
@@ -8322,14 +8322,14 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					- _id = GUID bf87222f-1c49-44df-81dd-fdcc3719a4f8;
 					- _myState = 8192;
 					- _name = "Modeling Assumptions";
-					- _modifiedTimeWeak = 4.28.2015::17:49:42;
+					- _modifiedTimeWeak = 5.3.2015::18:19:22;
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}}
 \\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\f0\\fs22 1.\\tab The workflow use cases defined are intended to be used on large complex systems supported by large geographically diverse development teams. With smaller and simpler systems some of the use cases or use case behavior may not be needed. \\par
 2.\\tab The workflow use cases are described assuming a model-based approach will ultimately be used to develop a system. However, many of the use cases are not dependent on using model-based techniques, since they are the very same use cases System Engineers have been using before model-based techniques were available. \\par
 3.            Activity diagrams are used to capture the Systems Engineering workflow behaviors. The first pass of the activities may not have swimlanes. The focus on these initial activities will be to discovery \"what\" needs to be done, not \"who\" does it.  Therefore, this is to be interpreted that the actions can be performed by the actors, the SE Development System or both. Later revisions may add swimlanes. At that point the swimlanes will delineate what actions are performed by the actors, the SE Developmen
 t System or parts of the SE Development System.\\par
-\\pard 4.\\tab The . \\par
+\\pard 4.\\tab Each Activity provides a default order of actions and decisions. However, in real life the order of these actions may vary. Many of these actions may continue as others start, and as progress is made in one action it may cause a previous run action to re-start. \\par
 }
 ";
 					}
@@ -8419,7 +8419,7 @@ t System or parts of the SE Development System.\\par
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 4.29.2015::21:31:37;
+			- _modifiedTimeWeak = 5.3.2015::18:19:22;
 			- _lastID = 7;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -9105,7 +9105,7 @@ t System or parts of the SE Development System.\\par
 					}
 				}
 			}
-			- weakCGTime = 4.29.2015::21:31:37;
+			- weakCGTime = 5.3.2015::18:19:22;
 			- strongCGTime = 4.8.2015::15:41:6;
 			- _defaultComposite = GUID 35772d43-a0c2-4efb-899d-9adec248ecce;
 			- _eventsBaseID = -1;
@@ -9252,7 +9252,7 @@ t System or parts of the SE Development System.\\par
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 4.30.2015::22:1:0;
+	- weakCGTime = 5.3.2015::18:16:11;
 	- strongCGTime = 3.29.2015::15:52:42;
 	- _defaultComposite = GUID a43dc825-9c86-4d0c-8adf-37d59dd41233;
 	- _eventsBaseID = -1;
