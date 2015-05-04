@@ -19,8 +19,8 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 5.3.2015::18:16:11;
-	- _lastID = 30;
+	- _modifiedTimeWeak = 5.4.2015::19:40:24;
+	- _lastID = 32;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
 		- value = 
@@ -689,7 +689,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "5.3.2015::13:14:34";
+			- _lastModifiedTime = "5.4.2015::19:38:30";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 8340da79-0c2e-4315-af1a-a69253f80036;
 				- m_type = 0;
@@ -805,7 +805,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 3.00926 0 0 5.33333 12 20 ;
+					- m_transform = 3.00926 0 0 5.4697 12 20 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -887,7 +887,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 					- m_transform = 0.741279 0 0 1.875 -44.5639 -81.75 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 222 66  910 66  910 98  222 98  ;
-					- m_text = "System Engineering Development System
+					- m_text = "System Engineering Workflow Use Cases
                       View Summary";
 				}
 				{ CGIAnnotation 
@@ -937,7 +937,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.210332 0 0 0.180987 48 515.456 ;
+					- m_transform = 0.210332 0 0 0.19744 48 515.407 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -7706,12 +7706,14 @@ d1a8Q2efbbfebfe197dc79cZGc2abY9ffcfc78dbZG0e87c4dffe6be8ZG8557e13ff9f8f1b7fe1d0f
 					- _id = GUID 2c10dd4a-33b2-40ba-ab33-7ded44834cde;
 					- _myState = 8192;
 					- _name = "Use Case and Actor View";
-					- _modifiedTimeWeak = 9.23.2014::1:30:5;
+					- _modifiedTimeWeak = 5.4.2015::19:34:45;
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
 {\\colortbl ;\\red0\\green0\\blue0;\\red0\\green0\\blue255;}
 \\viewkind4\\uc1\\pard\\cf1\\fs20 Table Views:\\par
-\\cf2\\ul\\protect Use Case and Actor Table View\\cf0\\protect0\\par
+\\cf2\\ul\\protect A Table of Tables View\\cf1\\protect0\\par
+\\par
+\\cf2\\protect Use Case and Actor Table View\\cf0\\protect0\\par
 \\par
 \\cf2\\protect Use Case Description Table View\\cf0\\protect0\\par
 \\par
@@ -7721,8 +7723,16 @@ d1a8Q2efbbfebfe197dc79cZGc2abY9ffcfc78dbZG0e87c4dffe6be8ZG8557e13ff9f8f1b7fe1d0f
 }
 ";
 						- Hyperlinks = { IRPYRawContainer 
-							- size = 4;
+							- size = 5;
 							- value = 
+							{ IInternalHyperlink 
+								- _name = "A Table of Model Views";
+								- _textType = "NAME";
+								- _target = { IHandle 
+									- _m2Class = "ITableInstance";
+									- _id = GUID 3ec2b04e-2a11-49c6-b1eb-de2b660b3f4f;
+								}
+							}
 							{ IInternalHyperlink 
 								- _name = "Use Case and Actor Table View";
 								- _textType = "NAME";
@@ -7806,8 +7816,8 @@ d1a8Q2efbbfebfe197dc79cZGc2abY9ffcfc78dbZG0e87c4dffe6be8ZG8557e13ff9f8f1b7fe1d0f
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 3.29.2015::15:52:42;
-			- weakCGTime = 3.29.2015::15:52:42;
+			- _modifiedTimeWeak = 5.4.2015::19:34:45;
+			- weakCGTime = 5.4.2015::19:34:45;
 			- strongCGTime = 3.29.2015::15:52:42;
 			- _defaultComposite = GUID 537d43c6-5020-4209-af4b-666e2ab6aadf;
 			- _eventsBaseID = -1;
@@ -7834,9 +7844,9 @@ d1a8Q2efbbfebfe197dc79cZGc2abY9ffcfc78dbZG0e87c4dffe6be8ZG8557e13ff9f8f1b7fe1d0f
 			- _id = GUID c4a00657-f190-49ff-be07-50ad20a54f3a;
 			- _myState = 8192;
 			- _name = "Model Walkthrough Table Layouts";
-			- _modifiedTimeWeak = 3.29.2015::15:52:42;
+			- _modifiedTimeWeak = 5.4.2015::19:41:23;
 			- _lastID = 1;
-			- weakCGTime = 3.29.2015::15:52:42;
+			- weakCGTime = 5.4.2015::19:41:23;
 			- strongCGTime = 3.29.2015::15:52:42;
 			- _defaultComposite = GUID 35f49861-2474-42f5-ad81-8799309b060b;
 			- _eventsBaseID = -1;
@@ -7858,7 +7868,7 @@ d1a8Q2efbbfebfe197dc79cZGc2abY9ffcfc78dbZG0e87c4dffe6be8ZG8557e13ff9f8f1b7fe1d0f
 				}
 			}
 			- TableLayouts = { IRPYRawContainer 
-				- size = 2;
+				- size = 3;
 				- value = 
 				{ ITableLayout 
 					- _id = GUID cb5149f6-2c30-469d-852f-749b3b048906;
@@ -7894,7 +7904,7 @@ d1a8Q2efbbfebfe197dc79cZGc2abY9ffcfc78dbZG0e87c4dffe6be8ZG8557e13ff9f8f1b7fe1d0f
 						}
 					}
 					- _name = "Model Notes and Issues Layout";
-					- _modifiedTimeWeak = 3.25.2015::14:51:40;
+					- _modifiedTimeWeak = 5.4.2015::19:35:51;
 					- Tags = { IRPYRawContainer 
 						- size = 3;
 						- value = 
@@ -8086,7 +8096,7 @@ d1a8Q2efbbfebfe197dc79cZGc2abY9ffcfc78dbZG0e87c4dffe6be8ZG8557e13ff9f8f1b7fe1d0f
 						}
 					}
 					- _name = "SysML IOI Layout";
-					- _modifiedTimeWeak = 3.25.2015::14:51:46;
+					- _modifiedTimeWeak = 5.4.2015::19:35:15;
 					- Tags = { IRPYRawContainer 
 						- size = 4;
 						- value = 
@@ -8240,6 +8250,117 @@ d1a8Q2efbbfebfe197dc79cZGc2abY9ffcfc78dbZG0e87c4dffe6be8ZG8557e13ff9f8f1b7fe1d0f
 							- _name = "General.Description";
 							- _columnName = "Description";
 						}
+					}
+				}
+				{ ITableLayout 
+					- _id = GUID ba6f8314-1c70-495e-8e03-8b6971df533a;
+					- _myState = 8192;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Model";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "TableLayout";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "CollapseFirstColumn";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- _name = "Table of Model Views Layout";
+					- _modifiedTimeWeak = 5.4.2015::19:41:23;
+					- TableElementTypes = { IRPYRawContainer 
+						- size = 4;
+						- value = 
+						{ TableDataDefinition 
+							- _myTable = { IHandle 
+								- _m2Class = "ITableLayout";
+								- _id = GUID ba6f8314-1c70-495e-8e03-8b6971df533a;
+							}
+							- _modelElement = { IHandle 
+								- _m2Class = "";
+							}
+							- _name = "ControlledFile";
+							- _DataType = 2;
+						}
+						{ TableDataDefinition 
+							- _myTable = { IHandle 
+								- _m2Class = "ITableLayout";
+								- _id = GUID ba6f8314-1c70-495e-8e03-8b6971df533a;
+							}
+							- _modelElement = { IHandle 
+								- _m2Class = "";
+							}
+							- _name = "MatrixView";
+							- _DataType = 2;
+						}
+						{ TableDataDefinition 
+							- _myTable = { IHandle 
+								- _m2Class = "ITableLayout";
+								- _id = GUID ba6f8314-1c70-495e-8e03-8b6971df533a;
+							}
+							- _modelElement = { IHandle 
+								- _m2Class = "";
+							}
+							- _name = "Metrics View";
+							- _DataType = 2;
+						}
+						{ TableDataDefinition 
+							- _myTable = { IHandle 
+								- _m2Class = "ITableLayout";
+								- _id = GUID ba6f8314-1c70-495e-8e03-8b6971df533a;
+							}
+							- _modelElement = { IHandle 
+								- _m2Class = "";
+							}
+							- _name = "TableView";
+							- _DataType = 2;
+						}
+					}
+					- DataColumns = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ TableDataDefinition 
+							- _myTable = { IHandle 
+								- _m2Class = "ITableLayout";
+								- _id = GUID ba6f8314-1c70-495e-8e03-8b6971df533a;
+							}
+							- _modelElement = { IHandle 
+								- _m2Class = "";
+							}
+							- _name = "General.Name";
+							- _columnName = "Name";
+						}
+						{ TableDataDefinition 
+							- _myTable = { IHandle 
+								- _m2Class = "ITableLayout";
+								- _id = GUID ba6f8314-1c70-495e-8e03-8b6971df533a;
+							}
+							- _modelElement = { IHandle 
+								- _m2Class = "";
+							}
+							- _name = "General.Owner";
+							- _columnName = "Owner";
+						}
+					}
+					- TableFromElementTypes = { IRPYRawContainer 
+						- size = 0;
+					}
+					- TableToElementTypes = { IRPYRawContainer 
+						- size = 0;
 					}
 				}
 			}
@@ -8419,7 +8540,7 @@ t System or parts of the SE Development System.\\par
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 5.3.2015::18:19:22;
+			- _modifiedTimeWeak = 5.4.2015::14:57:57;
 			- _lastID = 7;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -9105,7 +9226,7 @@ t System or parts of the SE Development System.\\par
 					}
 				}
 			}
-			- weakCGTime = 5.3.2015::18:19:22;
+			- weakCGTime = 5.4.2015::14:57:57;
 			- strongCGTime = 4.8.2015::15:41:6;
 			- _defaultComposite = GUID 35772d43-a0c2-4efb-899d-9adec248ecce;
 			- _eventsBaseID = -1;
@@ -9234,7 +9355,7 @@ t System or parts of the SE Development System.\\par
 						}
 					}
 					- _name = "Modeling Practice Summary Table";
-					- _modifiedTimeWeak = 4.29.2015::21:31:37;
+					- _modifiedTimeWeak = 5.4.2015::14:57:57;
 					- LayoutHandle = { IHandle 
 						- _m2Class = "ITableLayout";
 						- _id = GUID 5cfcf4d8-efd8-44d2-ae73-7b9765ab36bd;
@@ -9252,7 +9373,7 @@ t System or parts of the SE Development System.\\par
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 5.3.2015::18:16:11;
+	- weakCGTime = 5.4.2015::19:40:24;
 	- strongCGTime = 3.29.2015::15:52:42;
 	- _defaultComposite = GUID a43dc825-9c86-4d0c-8adf-37d59dd41233;
 	- _eventsBaseID = -1;
@@ -9273,8 +9394,11 @@ t System or parts of the SE Development System.\\par
 			- _classModifier = Unspecified;
 		}
 	}
+	- TableLayouts = { IRPYRawContainer 
+		- size = 0;
+	}
 	- TableInstances = { IRPYRawContainer 
-		- size = 2;
+		- size = 3;
 		- value = 
 		{ ITableInstance 
 			- _id = GUID a1be16fe-a5eb-4ce5-bdbd-09fafd0aa177;
@@ -9357,6 +9481,53 @@ t System or parts of the SE Development System.\\par
 				- value = 
 				{ IHandle 
 					- _m2Class = "";
+				}
+			}
+		}
+		{ ITableInstance 
+			- _id = GUID 3ec2b04e-2a11-49c6-b1eb-de2b660b3f4f;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "General";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "TableView";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "TableSortColumnState";
+										- _Value = "1,0";
+										- _Type = String;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "A Table of Model Views";
+			- _modifiedTimeWeak = 5.4.2015::19:38:30;
+			- LayoutHandle = { IHandle 
+				- _m2Class = "ITableLayout";
+				- _id = GUID ba6f8314-1c70-495e-8e03-8b6971df533a;
+			}
+			- ScopeHandles = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IProject";
+					- _filename = "";
+					- _subsystem = "";
+					- _class = "";
+					- _name = "SysEngDevEnv";
+					- _id = GUID d84478ea-c8fb-444f-aecc-3acdf582da60;
 				}
 			}
 		}
