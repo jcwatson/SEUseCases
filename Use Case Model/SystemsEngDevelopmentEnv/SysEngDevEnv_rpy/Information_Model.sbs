@@ -3,14 +3,14 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 5.3.2015::18:33:29;
+	- _modifiedTimeWeak = 5.9.2015::22:41:41;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
 	}
-	- _lastID = 33;
+	- _lastID = 34;
 	- Declaratives = { IRPYRawContainer 
-		- size = 8;
+		- size = 9;
 		- value = 
 		{ ISubsystem 
 			- _id = GUID 55811343-13cb-48e1-8be3-e8205e2e1cf5;
@@ -3478,7 +3478,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- weakCGTime = 5.3.2015::18:33:29;
+			- weakCGTime = 5.9.2015::22:43:48;
 			- strongCGTime = 4.14.2015::16:4:3;
 			- _defaultComposite = GUID aed56898-4eed-4916-a5e6-d6f4f8a9ee01;
 			- _eventsBaseID = -1;
@@ -8898,8 +8898,531 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			}
 			- _configurationRelatedTime = 4.18.2015::18:11:9;
 		}
+		{ ISubsystem 
+			- _id = GUID 3144d13c-67e2-4ad6-ac2d-e5aafa61acfc;
+			- _myState = 8192;
+			- _name = "Verification and Validation Related Terms";
+			- _modifiedTimeWeak = 5.9.2015::22:42:34;
+			- weakCGTime = 5.9.2015::22:42:34;
+			- strongCGTime = 5.9.2015::22:42:34;
+			- _defaultComposite = GUID 96dbe4a0-4f30-4616-9bdc-c6b9dd652b0e;
+			- _eventsBaseID = -1;
+			- Classes = { IRPYRawContainer 
+				- size = 16;
+				- value = 
+				{ IClass 
+					- _id = GUID 96dbe4a0-4f30-4616-9bdc-c6b9dd652b0e;
+					- _myState = 40960;
+					- _name = "TopLevel";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- weakCGTime = 1.2.1990::0:0:0;
+					- strongCGTime = 1.2.1990::0:0:0;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID f970e7f3-f71c-4a8f-b3f7-290735429a06;
+					- _myState = 8192;
+					- _name = "Concept Documents";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 86d0d042-5bd1-4a0a-a84b-9ce2c2f31c3b;
+					- _myState = 8192;
+					- _name = "Final RVTM";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 2daafb8d-9438-47c2-85fb-ba53c8095eb0;
+					- _myState = 8192;
+					- _name = "Applicable Laws and Regulations";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 97a0e27a-52a2-446c-bfca-87530eb453c7;
+					- _myState = 8192;
+					- _name = "Industry Standards";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID e29adbd9-f7d4-41bf-a657-c58f87c543b5;
+					- _myState = 8192;
+					- _name = "Agreements";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 6d3039db-5bba-41e7-a5ee-713ae56cab30;
+					- _myState = 8192;
+					- _name = "Project Procedures and Standards";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 849c8036-b002-4d8c-9f5e-0eb1e566a814;
+					- _myState = 8192;
+					- _name = "Project Directives";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID e72d4a31-469c-4ff5-8fba-512796a8daa3;
+					- _myState = 8192;
+					- _name = "Organization-Enterprise Policy Procedures and Standards";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID fcad2cd8-7cf1-4c03-96fb-ce98514e670f;
+					- _myState = 8192;
+					- _name = "Project Infrastructure";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 0e8c889b-1b5b-4cf0-ade9-83e17651d1cb;
+					- _myState = 8192;
+					- _name = "Validation Enabling Systems";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 2dd19607-cf59-479c-9041-db97f0b3fcfe;
+					- _myState = 8192;
+					- _name = "Validation Strategy";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID db80eea9-2ebb-476d-9b66-762941a71466;
+					- _myState = 8192;
+					- _name = "Validation Enabling System Requirements";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID fb2656c9-dab9-4167-b200-2844b4cb5028;
+					- _myState = 8192;
+					- _name = "Validation Constraints on Design";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 35eac7e1-ebf3-4091-a62c-c6171ff29d77;
+					- _myState = 8192;
+					- _name = "Validated System";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 830c1dc9-835c-4e6a-8f18-0a9fea0f7051;
+					- _myState = 8192;
+					- _name = "Validation Report";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 5.9.2015::22:42:19;
+					- weakCGTime = 5.9.2015::22:42:19;
+					- strongCGTime = 5.9.2015::22:42:19;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+			}
+			- _configurationRelatedTime = 12.31.1969::16:0:0;
+		}
 	}
-	- weakCGTime = 5.3.2015::18:33:29;
+	- weakCGTime = 5.9.2015::22:41:41;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
@@ -8910,8 +9433,8 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _id = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.18.2015::18:28:1;
-			- weakCGTime = 4.18.2015::18:28:1;
+			- _modifiedTimeWeak = 5.3.2015::18:33:29;
+			- weakCGTime = 5.3.2015::18:33:29;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
