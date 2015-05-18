@@ -11,11 +11,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
 	- _myState = 8192;
 	- _name = "SE Domain Workflow Use Cases";
-	- _modifiedTimeWeak = 4.27.2015::15:58:14;
+	- _modifiedTimeWeak = 5.18.2015::19:36:35;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Review Document Models and Documents::Use Case Review Document Template::Items to Review";
+		- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Review Document Models and Documents::Use Case Review Document Template::Items to be reviewed";
 		- _class = "";
 		- _name = "Use Case being  Reviewed";
 		- _id = GUID 79ecaadf-4e2c-492c-97ed-faa11ea5a03c;
@@ -509,7 +509,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "SE Domain Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.13.2015::12:14:1";
+			- _lastModifiedTime = "5.18.2015::19:31:59";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID a7b8c694-b1d8-4ca8-a28e-266ece045eb3;
 				- m_type = 0;
@@ -7779,7 +7779,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 4.27.2015::15:58:14;
+	- weakCGTime = 5.18.2015::19:36:35;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 	- _eventsBaseID = -1;
@@ -7790,8 +7790,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.20.2015::15:36:42;
-			- weakCGTime = 4.20.2015::15:36:42;
+			- _modifiedTimeWeak = 4.27.2015::15:58:14;
+			- weakCGTime = 4.27.2015::15:58:14;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -7856,7 +7856,7 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 ";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 2;
+				- size = 3;
 				- value = 
 				{ ITag 
 					- _id = GUID ddf748c5-a5df-4c8d-8748-1d11659fbd3e;
@@ -7909,7 +7909,7 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -7918,13 +7918,45 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
+						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
+					}
+				}
+				{ ITag 
+					- _id = GUID 1d6681af-0f60-4f45-8707-ea2352a175ed;
+					- _myState = 8192;
+					- _name = "Priority";
+					- _modifiedTimeWeak = 5.18.2015::19:36:41;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 3570da63-c595-4fa6-b39c-6adcb537d8b1;
+							- _modifiedTimeWeak = 5.18.2015::19:36:41;
+							- _value = "High";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Priority";
+						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "UC_Properties";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
 			}
-			- _lastID = 1;
-			- weakCGTime = 6.16.2014::0:14:42;
+			- _lastID = 2;
+			- weakCGTime = 5.18.2015::19:36:41;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -8007,7 +8039,7 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 					- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
 				}
 			}
-			- _modifiedTimeWeak = 4.13.2015::18:55:23;
+			- _modifiedTimeWeak = 4.27.2015::16:6:20;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IUCDiagram";
 				- _id = GUID d76fa43d-2901-4b59-87b4-43e07dcec73a;
@@ -8049,7 +8081,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 ";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 2;
+				- size = 3;
 				- value = 
 				{ ITag 
 					- _id = GUID 241b0480-4b8d-4e8b-9773-a116bb295e3d;
@@ -8102,7 +8134,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -8111,13 +8143,45 @@ References and Citations: \\cf1\\b0\\f2\\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
+						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
+					}
+				}
+				{ ITag 
+					- _id = GUID 0dd3a8af-27b1-41e1-8f96-506af206f9a8;
+					- _myState = 8192;
+					- _name = "Priority";
+					- _modifiedTimeWeak = 5.18.2015::19:36:58;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID ecab54be-1ab5-4f09-a20c-85ab82d8ab01;
+							- _modifiedTimeWeak = 5.18.2015::19:36:58;
+							- _value = "High";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Priority";
+						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "UC_Properties";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
 			}
-			- _lastID = 4;
-			- weakCGTime = 4.27.2015::16:6:20;
+			- _lastID = 5;
+			- weakCGTime = 5.18.2015::19:36:58;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 
@@ -14621,7 +14685,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -14630,7 +14694,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
@@ -14817,7 +14881,7 @@ d.\\tab Determine and capture the level of security required for the information
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -14826,7 +14890,7 @@ d.\\tab Determine and capture the level of security required for the information
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
@@ -18928,7 +18992,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -18937,7 +19001,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
@@ -19106,7 +19170,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -19115,7 +19179,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
@@ -19499,7 +19563,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -19508,7 +19572,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
@@ -19667,7 +19731,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -19676,7 +19740,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
@@ -19840,7 +19904,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -19849,7 +19913,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
@@ -20008,7 +20072,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -20017,7 +20081,7 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
@@ -20422,7 +20486,7 @@ Post Conditions\\b0  -\\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -20431,7 +20495,7 @@ Post Conditions\\b0  -\\par
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}

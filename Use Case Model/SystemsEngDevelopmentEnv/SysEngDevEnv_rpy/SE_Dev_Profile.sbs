@@ -28,7 +28,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- _name = "SE_Dev_Profile";
-	- _modifiedTimeWeak = 4.17.2015::14:45:36;
+	- _modifiedTimeWeak = 5.18.2015::19:34:25;
 	- _description = { IDescription 
 		- _text = "This profile is a default profile for a project or program.  The intent is to use a copy of this profile to capture those profile elements specific to a project or program.  The reason it is here is to solve a program level issue associated with sharing a common Property file across multiple models.  
 It does this by using the property in this profile called \"Model::Profile::PropertyFile\".  Here you can reference a file containing default properties that can be common to and shared across multiple models.  By using this technique, it overrides the Factory and site property files but not the project level.
@@ -57,7 +57,7 @@ Mar 11 2015 Version 01.03.00
 			- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
 			- _myState = 8192;
 			- _name = "UC_Properties";
-			- _modifiedTimeWeak = 6.16.2014::0:7:2;
+			- _modifiedTimeWeak = 5.18.2015::19:34:25;
 			- Tags = { IRPYRawContainer 
 				- size = 3;
 				- value = 
@@ -98,15 +98,15 @@ Mar 11 2015 Version 01.03.00
 				{ ITag 
 					- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					- _myState = 8192;
-					- _name = "Selection";
-					- _modifiedTimeWeak = 6.16.2014::0:7:2;
+					- _name = "Priority";
+					- _modifiedTimeWeak = 5.18.2015::19:34:25;
 					- ValueSpecifications = { IRPYRawContainer 
 						- size = 1;
 						- value = 
 						{ ILiteralSpecification 
-							- _id = GUID e7da32bf-5eac-4b69-b9d3-6fab28e11ca0;
-							- _modifiedTimeWeak = 6.16.2014::0:7:2;
-							- _value = "Goal Only";
+							- _id = GUID 5a459ca0-3f0a-447f-9704-251f98b80055;
+							- _modifiedTimeWeak = 5.18.2015::19:34:25;
+							- _value = "Medium";
 						}
 					}
 					- _typeOf = { IHandle 
@@ -395,7 +395,7 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 			}
 		}
 	}
-	- weakCGTime = 4.17.2015::14:45:36;
+	- weakCGTime = 5.18.2015::19:34:25;
 	- strongCGTime = 3.11.2015::17:10:7;
 	- _defaultComposite = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 	- _eventsBaseID = -1;
@@ -406,8 +406,8 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 			- _id = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.25.2015::20:40:44;
-			- weakCGTime = 3.25.2015::20:40:44;
+			- _modifiedTimeWeak = 4.17.2015::14:45:36;
+			- weakCGTime = 4.17.2015::14:45:36;
 			- strongCGTime = 3.11.2015::17:10:7;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -527,7 +527,7 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 		{ IType 
 			- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 			- _myState = 8192;
-			- _name = "Selection";
+			- _name = "Priority";
 			- Stereotypes = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -540,33 +540,33 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 					- _id = GUID 39bf6572-6f61-4cbf-b651-64241e075688;
 				}
 			}
-			- _modifiedTimeWeak = 6.16.2014::0:6:35;
+			- _modifiedTimeWeak = 5.18.2015::19:33:33;
 			- _lastID = 4;
 			- Literals = { IRPYRawContainer 
 				- size = 4;
 				- value = 
 				{ IEnumerationLiteral 
 					- _id = GUID feae9609-6caa-41fa-850b-8e7340eda855;
-					- _name = "Not Selected";
-					- _modifiedTimeWeak = 6.16.2014::0:6:34;
+					- _name = "Not Prioritized";
+					- _modifiedTimeWeak = 5.18.2015::19:33:13;
 					- _value = "";
 				}
 				{ IEnumerationLiteral 
 					- _id = GUID bdca68b4-24a8-41fe-bb6f-4cc075d7cfc3;
-					- _name = "Selected";
-					- _modifiedTimeWeak = 6.16.2014::0:5:40;
+					- _name = "High";
+					- _modifiedTimeWeak = 5.18.2015::19:33:4;
 					- _value = "";
 				}
 				{ IEnumerationLiteral 
 					- _id = GUID 93a39bf2-ed51-4d6f-96cc-290938b9d38e;
-					- _name = "Pattern";
-					- _modifiedTimeWeak = 6.16.2014::0:5:58;
+					- _name = "Medium";
+					- _modifiedTimeWeak = 5.18.2015::19:33:24;
 					- _value = "";
 				}
 				{ IEnumerationLiteral 
 					- _id = GUID f1425a1b-c6ad-45f2-8323-71688fe9e7a3;
-					- _name = "Selected & Pattern";
-					- _modifiedTimeWeak = 6.16.2014::0:6:14;
+					- _name = "Low";
+					- _modifiedTimeWeak = 5.18.2015::19:33:33;
 					- _value = "";
 				}
 			}
