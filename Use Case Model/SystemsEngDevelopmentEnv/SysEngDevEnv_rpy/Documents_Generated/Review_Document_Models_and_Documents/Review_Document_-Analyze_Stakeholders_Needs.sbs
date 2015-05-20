@@ -49,7 +49,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 08b6490a-136b-45a0-b15d-ac1cd6fa8667;
 		}
 	}
-	- _modifiedTimeWeak = 5.19.2015::18:37:7;
+	- _modifiedTimeWeak = 5.20.2015::13:32:57;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 64687222-64d0-45c4-8ce0-744a835f47bd;
@@ -9763,7 +9763,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					- _id = GUID 5814e68d-7d4b-4642-a346-baf24f072419;
 				}
 			}
-			- _modifiedTimeWeak = 4.13.2015::16:17:22;
+			- _modifiedTimeWeak = 5.20.2015::13:33:30;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 64687222-64d0-45c4-8ce0-744a835f47bd;
@@ -12240,7 +12240,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 4.13.2015::16:17:22;
+					- _modifiedTimeWeak = 5.20.2015::13:33:30;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 64687222-64d0-45c4-8ce0-744a835f47bd;
@@ -12264,7 +12264,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 5ae89a24-ad76-45d5-8f25-480df996d8f6;
 								}
 							}
-							- _modifiedTimeWeak = 4.13.2015::16:17:22;
+							- _modifiedTimeWeak = 5.20.2015::13:33:31;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 64687222-64d0-45c4-8ce0-744a835f47bd;
@@ -12293,7 +12293,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 								}
 							}
 							- Tags = { IRPYRawContainer 
-								- size = 2;
+								- size = 3;
 								- value = 
 								{ ITag 
 									- _id = GUID 3b9b7721-7253-40bd-ba21-14014dd53471;
@@ -12331,14 +12331,14 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 5803e9ba-27d2-4d41-8462-b1f07e62ca0b;
 									- _myState = 8192;
 									- _name = "pageBreakAfter";
-									- _modifiedTimeWeak = 4.11.2015::19:22:20;
+									- _modifiedTimeWeak = 5.20.2015::13:33:30;
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
 										{ ILiteralSpecification 
-											- _id = GUID 8550d8bc-0c22-43f0-ae76-c7f419df6cb0;
-											- _modifiedTimeWeak = 4.11.2015::19:22:20;
-											- _value = "True";
+											- _id = GUID 21658495-e8a0-4250-a731-b60e0a25522a;
+											- _modifiedTimeWeak = 5.20.2015::13:33:30;
+											- _value = "False";
 										}
 									}
 									- _typeOf = { IHandle 
@@ -12359,9 +12359,41 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 										- _id = GUID 6f8d2c2b-f0a6-451b-9237-bfeb228f41c8;
 									}
 								}
+								{ ITag 
+									- _id = GUID ff50490f-d091-4c98-8a64-5c598cfdb247;
+									- _myState = 8192;
+									- _name = "pageBreakBefore";
+									- _modifiedTimeWeak = 5.20.2015::13:33:31;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ ILiteralSpecification 
+											- _id = GUID 4b23bdc9-a9e8-41d5-8703-c4fdda715be7;
+											- _modifiedTimeWeak = 5.20.2015::13:33:31;
+											- _value = "True";
+										}
+									}
+									- _typeOf = { IHandle 
+										- _m2Class = "IType";
+										- _filename = "PredefinedTypes.sbs";
+										- _subsystem = "PredefinedTypes";
+										- _class = "";
+										- _name = "RhpBoolean";
+										- _id = GUID f19b56f2-78ab-44fa-860e-6ead487ecb07;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+										- _subsystem = "DocGen Profile";
+										- _class = "docComponent";
+										- _name = "pageBreakBefore";
+										- _id = GUID ff1854c5-1810-4b52-a444-fa0b795a1f31;
+									}
+								}
 							}
 							- _lastID = 1;
-							- weakCGTime = 4.13.2015::16:17:22;
+							- weakCGTime = 5.20.2015::13:33:31;
 							- strongCGTime = 4.13.2015::12:21:32;
 							- _defaultComposite = GUID e21ed60f-cf31-4961-844a-73d683b44b4c;
 							- _eventsBaseID = -1;
@@ -12385,7 +12417,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 4.13.2015::16:17:22;
+					- weakCGTime = 5.20.2015::13:33:30;
 					- strongCGTime = 4.13.2015::12:21:32;
 					- _defaultComposite = GUID e9c4b08b-fda8-4bfa-9407-d23b3af42d9d;
 					- _eventsBaseID = -1;
@@ -12450,7 +12482,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 4.13.2015::16:17:22;
+					- _modifiedTimeWeak = 5.20.2015::13:33:35;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 64687222-64d0-45c4-8ce0-744a835f47bd;
@@ -12474,7 +12506,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 5ae89a24-ad76-45d5-8f25-480df996d8f6;
 								}
 							}
-							- _modifiedTimeWeak = 4.13.2015::16:17:22;
+							- _modifiedTimeWeak = 5.20.2015::13:33:37;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 64687222-64d0-45c4-8ce0-744a835f47bd;
@@ -12503,7 +12535,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 								}
 							}
 							- Tags = { IRPYRawContainer 
-								- size = 2;
+								- size = 3;
 								- value = 
 								{ ITag 
 									- _id = GUID 1c7de592-d857-4f31-a073-dab0e8f60ede;
@@ -12541,14 +12573,14 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 6c610d9c-4bbf-4f9a-9050-e0bcfd9478fe;
 									- _myState = 8192;
 									- _name = "pageBreakAfter";
-									- _modifiedTimeWeak = 4.11.2015::19:22:3;
+									- _modifiedTimeWeak = 5.20.2015::13:33:35;
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
 										{ ILiteralSpecification 
-											- _id = GUID c2e52a5d-226a-4119-8942-6a63d8bd9ca1;
-											- _modifiedTimeWeak = 4.11.2015::19:22:3;
-											- _value = "True";
+											- _id = GUID 7d54a4e8-5000-4c75-8693-423134031e56;
+											- _modifiedTimeWeak = 5.20.2015::13:33:35;
+											- _value = "False";
 										}
 									}
 									- _typeOf = { IHandle 
@@ -12569,9 +12601,41 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 										- _id = GUID 6f8d2c2b-f0a6-451b-9237-bfeb228f41c8;
 									}
 								}
+								{ ITag 
+									- _id = GUID d791011c-0ba7-4991-83ae-367a6a865aea;
+									- _myState = 8192;
+									- _name = "pageBreakBefore";
+									- _modifiedTimeWeak = 5.20.2015::13:33:37;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ ILiteralSpecification 
+											- _id = GUID 6aaa055d-19e1-45e2-8cce-20a230602c4a;
+											- _modifiedTimeWeak = 5.20.2015::13:33:37;
+											- _value = "True";
+										}
+									}
+									- _typeOf = { IHandle 
+										- _m2Class = "IType";
+										- _filename = "PredefinedTypes.sbs";
+										- _subsystem = "PredefinedTypes";
+										- _class = "";
+										- _name = "RhpBoolean";
+										- _id = GUID f19b56f2-78ab-44fa-860e-6ead487ecb07;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+										- _subsystem = "DocGen Profile";
+										- _class = "docComponent";
+										- _name = "pageBreakBefore";
+										- _id = GUID ff1854c5-1810-4b52-a444-fa0b795a1f31;
+									}
+								}
 							}
 							- _lastID = 1;
-							- weakCGTime = 4.13.2015::16:17:22;
+							- weakCGTime = 5.20.2015::13:33:37;
 							- strongCGTime = 4.13.2015::12:21:32;
 							- _defaultComposite = GUID 03827495-9903-42c0-830d-4f1de1736759;
 							- _eventsBaseID = -1;
@@ -12595,7 +12659,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 4.13.2015::16:17:22;
+					- weakCGTime = 5.20.2015::13:33:35;
 					- strongCGTime = 4.13.2015::12:21:32;
 					- _defaultComposite = GUID 099fafd2-148f-4c5d-ad73-83e68e97d917;
 					- _eventsBaseID = -1;
@@ -12634,7 +12698,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 4.13.2015::16:17:22;
+					- _modifiedTimeWeak = 5.20.2015::13:33:42;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 64687222-64d0-45c4-8ce0-744a835f47bd;
@@ -12658,7 +12722,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 5ae89a24-ad76-45d5-8f25-480df996d8f6;
 								}
 							}
-							- _modifiedTimeWeak = 4.13.2015::16:17:22;
+							- _modifiedTimeWeak = 5.20.2015::13:33:43;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 64687222-64d0-45c4-8ce0-744a835f47bd;
@@ -12687,7 +12751,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 								}
 							}
 							- Tags = { IRPYRawContainer 
-								- size = 2;
+								- size = 3;
 								- value = 
 								{ ITag 
 									- _id = GUID 3b0ad154-3e3a-410c-b2b6-715a7a77e2a6;
@@ -12725,14 +12789,14 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 6f32ccd6-afd8-4c11-9b9b-46516b8c8804;
 									- _myState = 8192;
 									- _name = "pageBreakAfter";
-									- _modifiedTimeWeak = 4.11.2015::19:23:14;
+									- _modifiedTimeWeak = 5.20.2015::13:33:42;
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
 										{ ILiteralSpecification 
-											- _id = GUID 37cc16ec-5586-485f-807a-52c61cccfca3;
-											- _modifiedTimeWeak = 4.11.2015::19:23:14;
-											- _value = "True";
+											- _id = GUID 47f7dbb1-cea8-4c96-b1ba-3b59c22cd3d3;
+											- _modifiedTimeWeak = 5.20.2015::13:33:42;
+											- _value = "False";
 										}
 									}
 									- _typeOf = { IHandle 
@@ -12753,8 +12817,40 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 										- _id = GUID 6f8d2c2b-f0a6-451b-9237-bfeb228f41c8;
 									}
 								}
+								{ ITag 
+									- _id = GUID f289d639-77e8-42dc-9c49-a918ef5d2497;
+									- _myState = 8192;
+									- _name = "pageBreakBefore";
+									- _modifiedTimeWeak = 5.20.2015::13:33:43;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ ILiteralSpecification 
+											- _id = GUID 9b83f499-9cdb-4655-90ab-60aac7154cf4;
+											- _modifiedTimeWeak = 5.20.2015::13:33:43;
+											- _value = "True";
+										}
+									}
+									- _typeOf = { IHandle 
+										- _m2Class = "IType";
+										- _filename = "PredefinedTypes.sbs";
+										- _subsystem = "PredefinedTypes";
+										- _class = "";
+										- _name = "RhpBoolean";
+										- _id = GUID f19b56f2-78ab-44fa-860e-6ead487ecb07;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+										- _subsystem = "DocGen Profile";
+										- _class = "docComponent";
+										- _name = "pageBreakBefore";
+										- _id = GUID ff1854c5-1810-4b52-a444-fa0b795a1f31;
+									}
+								}
 							}
-							- weakCGTime = 4.13.2015::16:17:22;
+							- weakCGTime = 5.20.2015::13:33:43;
 							- strongCGTime = 4.13.2015::12:21:32;
 							- _defaultComposite = GUID 93878168-3fc4-4268-91fe-1b5917bbb49e;
 							- _eventsBaseID = -1;
@@ -12778,7 +12874,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 4.13.2015::16:17:22;
+					- weakCGTime = 5.20.2015::13:33:42;
 					- strongCGTime = 4.13.2015::12:21:32;
 					- _defaultComposite = GUID 44340760-0b66-40cb-a97c-a0282a24249e;
 					- _eventsBaseID = -1;
@@ -12802,7 +12898,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					- _configurationRelatedTime = 1.2.1990::0:0:0;
 				}
 			}
-			- weakCGTime = 4.13.2015::16:17:22;
+			- weakCGTime = 5.20.2015::13:33:30;
 			- strongCGTime = 4.13.2015::12:21:32;
 			- _defaultComposite = GUID 8696f394-8d7c-4549-9a45-71c117fc12c4;
 			- _eventsBaseID = -1;
@@ -13106,7 +13202,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "5.18.2015::19:31:59";
+			- _lastModifiedTime = "5.20.2015::13:33:26";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 2fd5acdd-b26f-42b4-8bbf-507b63c2bfd3;
 				- m_type = 0;
@@ -14706,7 +14802,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.95036 0 0 0.182749 31.2749 432.782 ;
+					- m_transform = 0.95036 0 0 0.487331 0.874893 424.834 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -14923,7 +15019,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 			}
 		}
 	}
-	- weakCGTime = 5.19.2015::18:37:7;
+	- weakCGTime = 5.20.2015::13:32:57;
 	- strongCGTime = 4.13.2015::15:55:16;
 	- _defaultComposite = GUID b6eb161a-095e-4354-b436-9c4dcfe37386;
 	- _eventsBaseID = -1;
