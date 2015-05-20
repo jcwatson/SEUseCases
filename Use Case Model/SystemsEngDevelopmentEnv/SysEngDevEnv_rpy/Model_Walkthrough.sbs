@@ -19,7 +19,7 @@ The original foundational model was created by Lockheed Martin Corporation in Se
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 5.20.2015::11:23:38;
+	- _modifiedTimeWeak = 5.20.2015::16:46:31;
 	- _lastID = 32;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -8128,14 +8128,16 @@ c.\\tab  Without this understanding up front, it would be very difficult to deve
 					- _id = GUID bf87222f-1c49-44df-81dd-fdcc3719a4f8;
 					- _myState = 8192;
 					- _name = "Modeling Assumptions";
-					- _modifiedTimeWeak = 5.3.2015::18:19:22;
+					- _modifiedTimeWeak = 5.20.2015::16:46:31;
 					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}}
-\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\f0\\fs22 1.\\tab The workflow use cases defined are intended to be used on large complex systems supported by large geographically diverse development teams. With smaller and simpler systems some of the use cases or use case behavior may not be needed. \\par
-2.\\tab The workflow use cases are described assuming a model-based approach will ultimately be used to develop a system. However, many of the use cases are not dependent on using model-based techniques, since they are the very same use cases System Engineers have been using before model-based techniques were available. \\par
-3.            Activity diagrams are used to capture the Systems Engineering workflow behaviors. The first pass of the activities may not have swimlanes. The focus on these initial activities will be to discovery \"what\" needs to be done, not \"who\" does it.  Therefore, this is to be interpreted that the actions can be performed by the actors, the SE Development System or both. Later revisions may add swimlanes. At that point the swimlanes will delineate what actions are performed by the actors, the SE Developmen
-t System or parts of the SE Development System.\\par
-\\pard 4.\\tab Each Activity provides a default order of actions and decisions. However, in real life the order of these actions may vary. Many of these actions may continue as others start, and as progress is made in one action it may cause a previous run action to re-start. \\par
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\f0\\fs22 1.\\tab Initial Activities - The first passes of the activities are based on the foundational material references. The intent is to capture what is described in these foundational artifacts as a starting point and to use a review process to refine and enhance their content based on industry expertise. Therefore this initial passes represents a \\ldblquote stake in the ground\\rdblquote  that we can measure from and are a synthesis of the material from this foundation
+al material and other common knowledge. The reviews will provide the mechanism to hone them into the most current practices across the industry. \\par
+2.          Context Assumptions -\\par
+                 a.    The workflow use cases defined are intended to be used on large complex systems supported by large geographically diverse development teams. With smaller and simpler systems some of the use cases or use case behavior may not be needed. \\par
+                  b.   The workflow use cases are described assuming a model-based approach will ultimately be used to develop a system. However, many of the use cases are not dependent on using model-based techniques, since they are the very same use cases System Engineers have been using before model-based techniques were available. \\par
+3.         What vs. Who - Activity diagrams are used to capture the Systems Engineering workflow behaviors. The first passes of these activities may not have swimlanes. The focus on these initial activities will be to discovery \"what\" needs to be done, not \"who\" does it.  Therefore, this is to be interpreted that the actions can be performed by the actors, the SE Development System or both. Later revisions may add swimlanes. At that point the swimlanes will delineate what actions are performed by the actors, t
+he SE Development System or parts of the SE Development System.\\par
 }
 ";
 					}
@@ -8225,7 +8227,7 @@ t System or parts of the SE Development System.\\par
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 5.4.2015::14:57:57;
+			- _modifiedTimeWeak = 5.20.2015::16:46:31;
 			- _lastID = 7;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -8911,7 +8913,7 @@ t System or parts of the SE Development System.\\par
 					}
 				}
 			}
-			- weakCGTime = 5.4.2015::14:57:57;
+			- weakCGTime = 5.20.2015::16:46:31;
 			- strongCGTime = 4.8.2015::15:41:6;
 			- _defaultComposite = GUID 35772d43-a0c2-4efb-899d-9adec248ecce;
 			- _eventsBaseID = -1;
@@ -9058,7 +9060,7 @@ t System or parts of the SE Development System.\\par
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 5.20.2015::11:23:38;
+	- weakCGTime = 5.20.2015::16:46:31;
 	- strongCGTime = 3.29.2015::15:52:42;
 	- _defaultComposite = GUID a43dc825-9c86-4d0c-8adf-37d59dd41233;
 	- _eventsBaseID = -1;
