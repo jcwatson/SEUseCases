@@ -49,7 +49,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 08b6490a-136b-45a0-b15d-ac1cd6fa8667;
 		}
 	}
-	- _modifiedTimeWeak = 5.20.2015::14:2:34;
+	- _modifiedTimeWeak = 6.15.2015::15:13:1;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
@@ -9750,7 +9750,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 				{ IDependency 
 					- _id = GUID aa2d3779-6004-4664-b2ad-db393b0f2397;
 					- _myState = 2048;
-					- _name = "Called Activities";
+					- _name = "Intro to Supporting items";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -9763,10 +9763,10 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _id = GUID c1fd0048-9b35-4746-bb1c-91d904768163;
 						}
 					}
-					- _modifiedTimeWeak = 4.12.2015::18:55:11;
+					- _modifiedTimeWeak = 6.15.2015::15:16:3;
 					- _dependsOn = { INObjectHandle 
-						- _m2Class = "ISubsystem";
-						- _id = GUID e751b686-5eb6-45c7-aadc-7b5fd3c22991;
+						- _m2Class = "IComment";
+						- _id = GUID 023d3351-959b-48c3-9a48-909eac8afd8b;
 					}
 				}
 			}
@@ -9782,14 +9782,70 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					- _id = GUID 5814e68d-7d4b-4642-a346-baf24f072419;
 				}
 			}
-			- _modifiedTimeWeak = 5.20.2015::13:34:21;
+			- Annotations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IComment 
+					- _id = GUID 023d3351-959b-48c3-9a48-909eac8afd8b;
+					- _myState = 8192;
+					- _name = "Intro to Supporting items";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID fb6dfc56-74f8-4f39-9faf-c0023248c95c;
+							- _myState = 2048;
+							- _name = "Called Activities";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+									- _subsystem = "DocGen Profile";
+									- _class = "";
+									- _name = "next";
+									- _id = GUID c1fd0048-9b35-4746-bb1c-91d904768163;
+								}
+							}
+							- _modifiedTimeWeak = 6.15.2015::15:16:20;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "ISubsystem";
+								- _id = GUID e751b686-5eb6-45c7-aadc-7b5fd3c22991;
+							}
+						}
+					}
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+							- _subsystem = "DocGen Profile";
+							- _class = "";
+							- _name = "paragraph";
+							- _id = GUID 6e074eeb-958f-426f-8e16-74902786095a;
+						}
+					}
+					- _modifiedTimeWeak = 6.15.2015::15:16:20;
+					- _description = { IDescription 
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\f0\\fs22 The items in this section are intended to provide information that will assist the reviewer in reviewing the material in section 3, \\ldblquote Items to be reviewed\\rdblquote . This material is not part of the review, however comments for this material will also be considered. \\f1\\fs20\\par
+}
+";
+					}
+					- _lastID = 1;
+					- _body = "";
+				}
+			}
+			- _modifiedTimeWeak = 6.15.2015::15:16:20;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
 			}
-			- _lastID = 6;
+			- _lastID = 7;
 			- Declaratives = { IRPYRawContainer 
-				- size = 4;
+				- size = 5;
 				- value = 
 				{ ISubsystem 
 					- _id = GUID e751b686-5eb6-45c7-aadc-7b5fd3c22991;
@@ -12259,10 +12315,46 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 5.20.2015::13:34:21;
+					- _modifiedTimeWeak = 6.15.2015::14:29:32;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
+					}
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 4ab7abbd-dc25-4e89-90ff-f355c2fed26a;
+							- _myState = 8192;
+							- _name = "pageBreakBefore";
+							- _modifiedTimeWeak = 6.15.2015::14:29:32;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID aa5b2e6e-7268-4eaa-9f5a-0c6dbe6f5251;
+									- _modifiedTimeWeak = 6.15.2015::14:29:32;
+									- _value = "True";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpBoolean";
+								- _id = GUID f19b56f2-78ab-44fa-860e-6ead487ecb07;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+								- _subsystem = "DocGen Profile";
+								- _class = "docComponent";
+								- _name = "pageBreakBefore";
+								- _id = GUID ff1854c5-1810-4b52-a444-fa0b795a1f31;
+							}
+						}
 					}
 					- Declaratives = { IRPYRawContainer 
 						- size = 1;
@@ -12283,7 +12375,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 5ae89a24-ad76-45d5-8f25-480df996d8f6;
 								}
 							}
-							- _modifiedTimeWeak = 5.20.2015::13:34:24;
+							- _modifiedTimeWeak = 6.15.2015::14:29:26;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
@@ -12382,14 +12474,14 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 1724c047-567b-4e4c-aeb9-348641cbd83c;
 									- _myState = 8192;
 									- _name = "pageBreakBefore";
-									- _modifiedTimeWeak = 5.20.2015::13:34:24;
+									- _modifiedTimeWeak = 6.15.2015::14:29:26;
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
 										{ ILiteralSpecification 
-											- _id = GUID e61deb57-ff40-4e6c-a910-b3f034388489;
-											- _modifiedTimeWeak = 5.20.2015::13:34:24;
-											- _value = "True";
+											- _id = GUID f4298c81-b645-4435-9b36-41428b5d3ef6;
+											- _modifiedTimeWeak = 6.15.2015::14:29:26;
+											- _value = "False";
 										}
 									}
 									- _typeOf = { IHandle 
@@ -12412,7 +12504,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 								}
 							}
 							- _lastID = 1;
-							- weakCGTime = 5.20.2015::13:34:24;
+							- weakCGTime = 6.15.2015::14:29:26;
 							- strongCGTime = 4.12.2015::19:31:49;
 							- _defaultComposite = GUID bd8ad6af-635c-4a8a-be51-519117d88188;
 							- _eventsBaseID = -1;
@@ -12436,7 +12528,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 5.20.2015::13:34:21;
+					- weakCGTime = 6.15.2015::14:29:32;
 					- strongCGTime = 4.12.2015::19:44:21;
 					- _defaultComposite = GUID 0c9853ed-6865-46b9-b982-092ed6668668;
 					- _eventsBaseID = -1;
@@ -12501,10 +12593,46 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 5.20.2015::13:34:28;
+					- _modifiedTimeWeak = 6.15.2015::14:29:48;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
+					}
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 563db6a6-eb50-4990-a1da-d90754ea5550;
+							- _myState = 8192;
+							- _name = "pageBreakBefore";
+							- _modifiedTimeWeak = 6.15.2015::14:29:48;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID 5ac3b133-1b7b-4faf-9561-1d5f615de1d9;
+									- _modifiedTimeWeak = 6.15.2015::14:29:48;
+									- _value = "True";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpBoolean";
+								- _id = GUID f19b56f2-78ab-44fa-860e-6ead487ecb07;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+								- _subsystem = "DocGen Profile";
+								- _class = "docComponent";
+								- _name = "pageBreakBefore";
+								- _id = GUID ff1854c5-1810-4b52-a444-fa0b795a1f31;
+							}
+						}
 					}
 					- Declaratives = { IRPYRawContainer 
 						- size = 1;
@@ -12525,7 +12653,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 5ae89a24-ad76-45d5-8f25-480df996d8f6;
 								}
 							}
-							- _modifiedTimeWeak = 5.20.2015::13:34:30;
+							- _modifiedTimeWeak = 6.15.2015::14:29:52;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
@@ -12624,14 +12752,14 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 143d617f-6045-47ad-b6d7-e95c83f54def;
 									- _myState = 8192;
 									- _name = "pageBreakBefore";
-									- _modifiedTimeWeak = 5.20.2015::13:34:30;
+									- _modifiedTimeWeak = 6.15.2015::14:29:52;
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
 										{ ILiteralSpecification 
-											- _id = GUID f07aa71e-9669-4b04-868d-a0933c33adbe;
-											- _modifiedTimeWeak = 5.20.2015::13:34:30;
-											- _value = "True";
+											- _id = GUID b6fc6f0a-0ab9-44cc-9482-68d7ecce0814;
+											- _modifiedTimeWeak = 6.15.2015::14:29:52;
+											- _value = "False";
 										}
 									}
 									- _typeOf = { IHandle 
@@ -12654,7 +12782,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 								}
 							}
 							- _lastID = 1;
-							- weakCGTime = 5.20.2015::13:34:30;
+							- weakCGTime = 6.15.2015::14:29:52;
 							- strongCGTime = 4.12.2015::19:33:29;
 							- _defaultComposite = GUID 3eae7d65-d9d4-4ed5-b871-74f5794ba4cf;
 							- _eventsBaseID = -1;
@@ -12678,7 +12806,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 5.20.2015::13:34:28;
+					- weakCGTime = 6.15.2015::14:29:48;
 					- strongCGTime = 4.12.2015::19:44:21;
 					- _defaultComposite = GUID 4ec73845-d8cd-49ba-a198-10e6f7fc1cfb;
 					- _eventsBaseID = -1;
@@ -12705,6 +12833,32 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					- _id = GUID 715d78b2-8965-464b-87e8-d5cfd46bc82f;
 					- _myState = 8192;
 					- _name = "Table of Actors";
+					- Dependencies = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IDependency 
+							- _id = GUID 215c4d57-2dae-4319-b3e6-bd342d325733;
+							- _myState = 2048;
+							- _name = "References and Citations List";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+									- _subsystem = "DocGen Profile";
+									- _class = "";
+									- _name = "next";
+									- _id = GUID c1fd0048-9b35-4746-bb1c-91d904768163;
+								}
+							}
+							- _modifiedTimeWeak = 6.15.2015::15:2:50;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "ISubsystem";
+								- _id = GUID 96ada642-3e35-4ccf-a671-0016e218bcce;
+							}
+						}
+					}
 					- Stereotypes = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -12717,11 +12871,48 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 5.20.2015::13:34:41;
+					- _modifiedTimeWeak = 6.15.2015::15:2:50;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
 					}
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID fb59344c-c79d-47fe-8ca9-bdca4f56232d;
+							- _myState = 8192;
+							- _name = "pageBreakBefore";
+							- _modifiedTimeWeak = 6.15.2015::14:30:2;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID 480b2d62-543a-4699-95c1-17323ea28704;
+									- _modifiedTimeWeak = 6.15.2015::14:30:2;
+									- _value = "True";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpBoolean";
+								- _id = GUID f19b56f2-78ab-44fa-860e-6ead487ecb07;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+								- _subsystem = "DocGen Profile";
+								- _class = "docComponent";
+								- _name = "pageBreakBefore";
+								- _id = GUID ff1854c5-1810-4b52-a444-fa0b795a1f31;
+							}
+						}
+					}
+					- _lastID = 1;
 					- Declaratives = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -12741,7 +12932,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 5ae89a24-ad76-45d5-8f25-480df996d8f6;
 								}
 							}
-							- _modifiedTimeWeak = 5.20.2015::13:34:42;
+							- _modifiedTimeWeak = 6.15.2015::14:30:9;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
@@ -12840,14 +13031,14 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID 0a43767f-0245-4621-9c4d-9e2bae893b4d;
 									- _myState = 8192;
 									- _name = "pageBreakBefore";
-									- _modifiedTimeWeak = 5.20.2015::13:34:42;
+									- _modifiedTimeWeak = 6.15.2015::14:30:9;
 									- ValueSpecifications = { IRPYRawContainer 
 										- size = 1;
 										- value = 
 										{ ILiteralSpecification 
-											- _id = GUID 3c4db7b0-09f4-46e4-abec-9d146f13727d;
-											- _modifiedTimeWeak = 5.20.2015::13:34:42;
-											- _value = "True";
+											- _id = GUID f4faf295-31db-45f1-8919-107f7e9aa3a4;
+											- _modifiedTimeWeak = 6.15.2015::14:30:9;
+											- _value = "False";
 										}
 									}
 									- _typeOf = { IHandle 
@@ -12869,7 +13060,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									}
 								}
 							}
-							- weakCGTime = 5.20.2015::13:34:42;
+							- weakCGTime = 6.15.2015::14:30:9;
 							- strongCGTime = 4.12.2015::19:33:39;
 							- _defaultComposite = GUID fe7bb967-e14e-4c3e-9880-f658049caf53;
 							- _eventsBaseID = -1;
@@ -12893,8 +13084,8 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 5.20.2015::13:34:41;
-					- strongCGTime = 4.12.2015::19:44:21;
+					- weakCGTime = 6.15.2015::15:2:50;
+					- strongCGTime = 6.15.2015::15:2:50;
 					- _defaultComposite = GUID 6b90a472-7a77-4de0-84b4-ae8b9d595a21;
 					- _eventsBaseID = -1;
 					- Classes = { IRPYRawContainer 
@@ -12916,9 +13107,136 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					}
 					- _configurationRelatedTime = 1.2.1990::0:0:0;
 				}
+				{ ISubsystem 
+					- _id = GUID 96ada642-3e35-4ccf-a671-0016e218bcce;
+					- _myState = 8192;
+					- _name = "References and Citations List";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+							- _subsystem = "DocGen Profile";
+							- _class = "";
+							- _name = "section";
+							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
+						}
+					}
+					- Annotations = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IComment 
+							- _id = GUID dd6cbe53-0d6c-42dd-9de9-4cd2c269e0a9;
+							- _myState = 8192;
+							- _name = "Ref to Citation Text";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+									- _subsystem = "DocGen Profile";
+									- _class = "";
+									- _name = "paragraph";
+									- _id = GUID 6e074eeb-958f-426f-8e16-74902786095a;
+								}
+							}
+							- _modifiedTimeWeak = 6.15.2015::14:59:13;
+							- _description = { IDescription 
+								- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+{\\colortbl ;\\red0\\green0\\blue255;}
+\\viewkind4\\uc1\\pard\\fs20 <ref>\\cf1\\ul\\protect Reference and Citation List\\cf0\\protect0 :description<ref>\\par
+}
+";
+								- Hyperlinks = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IInternalHyperlink 
+										- _name = "Reference and Citation List";
+										- _textType = "NAME";
+										- _target = { IHandle 
+											- _m2Class = "IComment";
+											- _filename = "Information_Model.sbs";
+											- _subsystem = "Information Model::References and Citations";
+											- _class = "";
+											- _name = "Reference and Citation List";
+											- _id = GUID 0d6133dd-3abd-4c22-9c1c-7fe3a9b4dec9;
+										}
+									}
+								}
+							}
+							- _body = "";
+						}
+					}
+					- _modifiedTimeWeak = 6.15.2015::15:3:5;
+					- _theMainDiagram = { IHandle 
+						- _m2Class = "IDiagram";
+						- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
+					}
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID cc8cfaa0-0561-4e1b-b932-2db1a58ffcbe;
+							- _myState = 8192;
+							- _name = "pageBreakBefore";
+							- _modifiedTimeWeak = 6.15.2015::15:3:5;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID 48e2b0e4-342c-4904-97b4-92a2038adff4;
+									- _modifiedTimeWeak = 6.15.2015::15:3:5;
+									- _value = "True";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpBoolean";
+								- _id = GUID f19b56f2-78ab-44fa-860e-6ead487ecb07;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
+								- _subsystem = "DocGen Profile";
+								- _class = "docComponent";
+								- _name = "pageBreakBefore";
+								- _id = GUID ff1854c5-1810-4b52-a444-fa0b795a1f31;
+							}
+						}
+					}
+					- _lastID = 1;
+					- weakCGTime = 6.15.2015::15:3:5;
+					- strongCGTime = 6.15.2015::14:52:33;
+					- _defaultComposite = GUID 6bfd7c45-c530-4dd0-b3e2-e2dbc25c1d6a;
+					- _eventsBaseID = -1;
+					- Classes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IClass 
+							- _id = GUID 6bfd7c45-c530-4dd0-b3e2-e2dbc25c1d6a;
+							- _myState = 40960;
+							- _name = "TopLevel";
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- weakCGTime = 1.2.1990::0:0:0;
+							- strongCGTime = 1.2.1990::0:0:0;
+							- _multiplicity = "";
+							- _itsStateChart = { IHandle 
+								- _m2Class = "";
+							}
+							- _classModifier = Unspecified;
+						}
+					}
+					- _configurationRelatedTime = 12.31.1969::19:0:0;
+				}
 			}
-			- weakCGTime = 5.20.2015::13:34:21;
-			- strongCGTime = 4.12.2015::18:55:11;
+			- weakCGTime = 6.15.2015::15:16:20;
+			- strongCGTime = 6.15.2015::15:16:3;
 			- _defaultComposite = GUID 0f765757-a2c4-4d05-86b4-5a8ba548a485;
 			- _eventsBaseID = -1;
 			- Classes = { IRPYRawContainer 
@@ -13221,7 +13539,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "5.20.2015::14:2:34";
+			- _lastModifiedTime = "6.15.2015::15:17:6";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 9c4f16eb-ba73-4fb1-bc3b-582f4de20184;
 				- m_type = 0;
@@ -13245,7 +13563,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 22;
+				- elementList = 26;
 				{ CGIClass 
 					- _id = GUID 779f5e19-81a3-42b1-82f8-29c326f887b3;
 					- m_type = 78;
@@ -13337,7 +13655,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 2.63889 0 0 5.90909 20 20 ;
+					- m_transform = 2.63889 0 0 7.10606 20 20 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -13425,7 +13743,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.261513 0 0 0.639444 54 53.7776 ;
+					- m_transform = 0.261513 0 0 0.785404 54 44.1588 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -13513,7 +13831,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.679245 0 0 0.0749379 45.8867 65.5593 ;
+					- m_transform = 0.679245 0 0 0.0606798 45.8867 73.2296 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -13601,7 +13919,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.679245 0 0 0.0728129 45.8867 170.296 ;
+					- m_transform = 0.679245 0 0 0.0589591 45.8867 150.441 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -13843,7 +14161,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.867924 0 0 0.667113 45.8867 367.271 ;
+					- m_transform = 0.867924 0 0 0.721722 45.8867 297.946 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -14082,7 +14400,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.679245 0 0 0.0566322 45.8867 273.151 ;
+					- m_transform = 0.679245 0 0 0.045857 45.8867 233.726 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -14170,7 +14488,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.847826 0 0 0.103376 52.8691 110.404 ;
+					- m_transform = 0.847826 0 0 0.0773734 52.8691 185.693 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -14418,7 +14736,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					- m_bIsPreferencesInitialized = 1;
 					- m_pSource = GUID 7e69864f-0c21-4286-afa7-2bf6f0bc9773;
 					- m_sourceType = 'F';
-					- m_pTarget = GUID 81fdcd59-b4b5-4f3d-8240-91c9b21910c2;
+					- m_pTarget = GUID b0fc4eba-9846-40a9-aa89-9bbf377d5830;
 					- m_targetType = 'T';
 					- m_direction = ' ';
 					- m_rpn = { CGIText 
@@ -14437,8 +14755,8 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 1;
-					- m_SourcePort = 995 69 ;
-					- m_TargetPort = 944 823 ;
+					- m_SourcePort = 991 69 ;
+					- m_TargetPort = 999 394 ;
 					- m_ShowName = 0;
 					- m_ShowStereotype = 1;
 				}
@@ -14733,7 +15051,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.869565 0 0 0.192054 52.8696 251.322 ;
+					- m_transform = 0.869565 0 0 0.143746 52.8696 291.166 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -14909,7 +15227,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.869565 0 0 0.230465 52.8696 505.352 ;
+					- m_transform = 0.869565 0 0 0.172495 52.8696 481.299 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -14997,7 +15315,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 4104;
-					- m_transform = 0.869565 0 0 0.26034 52.8696 813.604 ;
+					- m_transform = 0.869565 0 0 0.194856 52.8696 712.015 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -15019,6 +15337,333 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						- size = 0;
 					}
 				}
+				{ CGIPackage 
+					- _id = GUID ead2f855-10f6-4ebe-b3b5-5b87cc4277b5;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "ObjectModelGe";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Package";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Compartments";
+												- _Value = "";
+												- _Type = MultiLine;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 127;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "ISubsystem";
+						- _id = GUID 96ada642-3e35-4ccf-a671-0016e218bcce;
+					}
+					- m_pParent = GUID 349d95a7-2245-486a-bad6-59d1216d84ab;
+					- m_name = { CGIText 
+						- m_str = "References and Citations List";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 4104;
+					- m_transform = 0.679245 0 0 0.0929204 114.717 998.11 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 0 0  0 1151  1216 1151  1216 0  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIInheritance 
+					- _id = GUID c9ad60b0-69f5-4a8f-a9e1-c2042da37aad;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _id = GUID 215c4d57-2dae-4319-b3e6-bd342d325733;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "References and Citations List";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 4104;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID 41fa194e-6776-4328-840e-500013e3ddaf;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID ead2f855-10f6-4ebe-b3b5-5b87cc4277b5;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "next";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 1;
+					- m_SourcePort = 1064 1107 ;
+					- m_TargetPort = 1115 684 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
+				{ CGIAnnotation 
+					- _id = GUID b0fc4eba-9846-40a9-aa89-9bbf377d5830;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 2;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "FitBoxToItsTextuals";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+							{ IPropertySubject 
+								- _Name = "ObjectModelGe";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Comment";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "Compartments";
+												- _Value = "";
+												- _Type = MultiLine;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 174;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IComment";
+						- _id = GUID 023d3351-959b-48c3-9a48-909eac8afd8b;
+					}
+					- m_pParent = GUID 7e69864f-0c21-4286-afa7-2bf6f0bc9773;
+					- m_name = { CGIText 
+						- m_str = "Intro to Supporting items";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 2056;
+					- m_transform = 0.780364 0 0 0.0852433 79.3047 68.4578 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 0 3  0 1097  1084 1097  1084 3  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- frameset = "<frameset rows=>";
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- _iTempdisplayTextFlag = 2;
+					- m_bIsBoxStyle = 1;
+				}
+				{ CGIInheritance 
+					- _id = GUID 89bb10d6-500c-4734-9821-82e4b7315e6b;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 128;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IDependency";
+						- _id = GUID fb6dfc56-74f8-4f39-9faf-c0023248c95c;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "Called Activities";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 4104;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID b0fc4eba-9846-40a9-aa89-9bbf377d5830;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 81fdcd59-b4b5-4f3d-8240-91c9b21910c2;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "next";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 1;
+					- m_SourcePort = 881 890 ;
+					- m_TargetPort = 894 925 ;
+					- m_ShowName = 0;
+					- m_ShowStereotype = 1;
+				}
 				
 				- m_access = 'Z';
 				- m_modified = 'N';
@@ -15038,7 +15683,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 			}
 		}
 	}
-	- weakCGTime = 5.20.2015::14:2:34;
+	- weakCGTime = 6.15.2015::15:13:1;
 	- strongCGTime = 4.13.2015::15:55:23;
 	- _defaultComposite = GUID 09fea4e7-c951-4899-9985-aa80e188b14c;
 	- _eventsBaseID = -1;
@@ -15049,8 +15694,8 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 			- _id = GUID 09fea4e7-c951-4899-9985-aa80e188b14c;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 5.3.2015::18:16:11;
-			- weakCGTime = 5.3.2015::18:16:11;
+			- _modifiedTimeWeak = 5.20.2015::14:2:34;
+			- weakCGTime = 5.20.2015::14:2:34;
 			- strongCGTime = 4.13.2015::15:55:23;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
