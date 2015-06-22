@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 5.9.2015::22:41:41;
+	- _modifiedTimeWeak = 6.22.2015::13:40:29;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
@@ -16,7 +16,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 55811343-13cb-48e1-8be3-e8205e2e1cf5;
 			- _myState = 8192;
 			- _name = "Common Terms";
-			- _modifiedTimeWeak = 5.3.2015::18:33:29;
+			- _modifiedTimeWeak = 5.9.2015::22:43:48;
 			- _lastID = 46;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -326,7 +326,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "5.3.2015::17:24:53";
+					- _lastModifiedTime = "6.22.2015::14:1:44";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 8ca9c00c-d1c4-4301-af92-417ed02633d1;
 						- m_type = 0;
@@ -6320,8 +6320,8 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _id = GUID 38d2bbd1-6f3f-4a48-ad36-4863d2955c0a;
 			- _myState = 8192;
 			- _name = "Safety Related Terms";
-			- _modifiedTimeWeak = 4.16.2015::13:44:1;
-			- _lastID = 9;
+			- _modifiedTimeWeak = 6.22.2015::13:40:29;
+			- _lastID = 10;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -6449,7 +6449,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "4.13.2015::12:14:24";
+					- _lastModifiedTime = "6.22.2015::13:51:31";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID a3108e8e-41d1-471a-8bd9-904feaad3769;
 						- m_type = 0;
@@ -6473,7 +6473,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 						}
 						- m_drawBehavior = 0;
 						- m_bIsPreferencesInitialized = 0;
-						- elementList = 6;
+						- elementList = 7;
 						{ CGIClass 
 							- _id = GUID 803fdc05-7501-4b1e-9397-bb6680c1d70b;
 							- m_type = 78;
@@ -6565,7 +6565,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 								- m_nOrientationCtrlPt = 8;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 2.87037 0 0 3.63636 20 20 ;
+							- m_transform = 2.9537 0 0 3.78788 20 20 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -7008,7 +7008,103 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4102;
-							- m_transform = 0.192635 0 0 0.0748663 53.6147 317.369 ;
+							- m_transform = 0.192635 0 0 0.0748663 53.6147 299.369 ;
+							- m_bIsPreferencesInitialized = 1;
+							- m_AdditionalLabel = { CGIText 
+								- m_str = "";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 1;
+							}
+							- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+							- m_nNameFormat = 0;
+							- m_nIsNameFormat = 0;
+							- frameset = "<frameset rows=100%>
+<frame name=DescriptionCompartment>";
+							- Compartments = { IRPYRawContainer 
+								- size = 0;
+							}
+							- Attrs = { IRPYRawContainer 
+								- size = 0;
+							}
+							- Operations = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+						{ CGIClass 
+							- _id = GUID a054254d-36b4-4e1a-af94-eddaac938b31;
+							- _properties = { IPropertyContainer 
+								- Subjects = { IRPYRawContainer 
+									- size = 2;
+									- value = 
+									{ IPropertySubject 
+										- _Name = "General";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Graphics";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "FitBoxToItsTextuals";
+														- _Value = "False";
+														- _Type = Bool;
+													}
+												}
+											}
+										}
+									}
+									{ IPropertySubject 
+										- _Name = "ObjectModelGe";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Block";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "Compartments";
+														- _Value = "Description,";
+														- _Type = MultiLine;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							- m_type = 87;
+							- m_pModelObject = { IHandle 
+								- _m2Class = "IClass";
+								- _id = GUID 77c89e6c-178f-45fb-aa0b-70998d6429e7;
+							}
+							- m_pParent = GUID 803fdc05-7501-4b1e-9397-bb6680c1d70b;
+							- m_name = { CGIText 
+								- m_str = "FMEA";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 5;
+							}
+							- m_drawBehavior = 4102;
+							- m_transform = 0.31728 0 0 0.165775 311.365 269.46 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -7057,12 +7153,12 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 					}
 				}
 			}
-			- weakCGTime = 4.16.2015::13:44:1;
+			- weakCGTime = 6.22.2015::13:40:29;
 			- strongCGTime = 3.31.2015::13:4:34;
 			- _defaultComposite = GUID 6104969a-6fb0-49b5-b3d9-58a203a247f3;
 			- _eventsBaseID = -1;
 			- Classes = { IRPYRawContainer 
-				- size = 5;
+				- size = 6;
 				- value = 
 				{ IClass 
 					- _id = GUID 6104969a-6fb0-49b5-b3d9-58a203a247f3;
@@ -7246,6 +7342,85 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 					}
 					- weakCGTime = 3.31.2015::21:32:29;
 					- strongCGTime = 3.31.2015::21:30:10;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 77c89e6c-178f-45fb-aa0b-70998d6429e7;
+					- _myState = 8192;
+					- _name = "FMEA";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 6.22.2015::13:51:12;
+					- _theMainDiagram = { IHandle 
+						- _m2Class = "IDiagram";
+						- _id = GUID cb90a1c3-c4b0-48be-a811-3f9d3f3dd043;
+					}
+					- _description = { IDescription 
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f2\\froman\\fcharset0 Times New Roman;}}
+\\viewkind4\\uc1\\pard\\fs20 Failure mode and effects analysis (FMEA) is an inductive reasoning (forward logic) single point of failure analysis and is a core task in reliability engineering, safety engineering and quality engineering. A successful FMEA activity helps to identify potential failure modes based on experience with similar products and processes - or based on common physics of failure logic. \\f1\\fs24  \\f2 [8, Topic: Failure mode and effects analysis]\\f0\\fs20\\par
+}
+";
+					}
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 8ff7c7bc-bcfa-46a2-810e-34a512af53e5;
+							- _myState = 8192;
+							- _name = "Acronym";
+							- _modifiedTimeWeak = 6.22.2015::13:43:51;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID dcfd6280-96c4-4edc-95e8-b5043c8d31a3;
+									- _modifiedTimeWeak = 6.22.2015::13:43:51;
+									- _value = "FMEA";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpString";
+								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "SE_Dev_Profile.sbs";
+								- _subsystem = "SE_Dev_Profile";
+								- _class = "Definition";
+								- _name = "Acronym";
+								- _id = GUID d7864f58-2469-478e-b6fe-dcbdc6e53250;
+							}
+						}
+					}
+					- weakCGTime = 6.22.2015::13:51:12;
+					- strongCGTime = 6.22.2015::13:43:41;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9419,10 +9594,10 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 					- _classModifier = Unspecified;
 				}
 			}
-			- _configurationRelatedTime = 12.31.1969::16:0:0;
+			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 5.9.2015::22:41:41;
+	- weakCGTime = 6.22.2015::13:40:29;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
@@ -9433,8 +9608,8 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 			- _id = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 5.3.2015::18:33:29;
-			- weakCGTime = 5.3.2015::18:33:29;
+			- _modifiedTimeWeak = 5.9.2015::22:41:41;
+			- weakCGTime = 5.9.2015::22:41:41;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

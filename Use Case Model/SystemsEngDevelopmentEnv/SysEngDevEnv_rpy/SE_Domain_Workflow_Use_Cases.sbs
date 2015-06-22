@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
 	- _myState = 8192;
 	- _name = "SE Domain Workflow Use Cases";
-	- _modifiedTimeWeak = 6.15.2015::15:59:27;
+	- _modifiedTimeWeak = 6.22.2015::15:13:19;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
@@ -7779,7 +7779,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 6.15.2015::15:59:27;
+	- weakCGTime = 6.22.2015::15:13:19;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 	- _eventsBaseID = -1;
@@ -7790,8 +7790,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 5.19.2015::20:25:37;
-			- weakCGTime = 5.19.2015::20:25:37;
+			- _modifiedTimeWeak = 6.15.2015::15:59:27;
+			- weakCGTime = 6.15.2015::15:59:27;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -14621,7 +14621,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 \\b0 This use case begins early in the development cycle and continues through the development as the product becomes more mature. \\par
 \\pard\\fi-360\\li720\\sa200\\sl276\\slmult1 1.\\tab Establish RMA Goals from customer needs\\par
 2.\\tab Capture the reliability of the various system components. \\par
-3.\\tab Perform analysis to determine the system RMA. \\par
+3.\\tab Perform FMEA analysis to determine the system RMA. \\par
 4.\\tab Refine component reliability numbers as they become available as the system development matures. \\par
 5.\\tab If the proposed design does not meet the System RMA goals it can be adjusted through various strategies including mitigation of critical failure risks, increasing the fault tolerance of the system, fault avoidance, preventive maintenance, and controlling the environment of the system. \\par
 6.\\tab Early in the development process there may not be sufficient detail of the design or component reliability.  Therefore assumptions and experience fills in those voids. The ability to capture these early assumptions is necessary. \\par
