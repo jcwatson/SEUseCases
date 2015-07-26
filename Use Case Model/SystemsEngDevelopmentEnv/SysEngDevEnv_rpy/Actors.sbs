@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
 	- _myState = 8192;
 	- _name = "Actors";
-	- _modifiedTimeWeak = 4.14.2015::16:1:22;
+	- _modifiedTimeWeak = 7.26.2015::13:44:52;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "System_Engineering_Operations.sbs";
@@ -313,7 +313,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "4.14.2015::16:17:6";
+			- _lastModifiedTime = "7.26.2015::13:46:5";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 7cc8a4c8-63ea-4dd6-b694-8253828ea795;
 				- m_type = 0;
@@ -2940,9 +2940,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 2420edb1-7f7f-4109-ae3f-2bdefe78a6ca;
 			- _myState = 8192;
 			- _name = "Systemss Engineering Actors";
-			- _modifiedTimeWeak = 4.6.2015::18:22:54;
+			- _modifiedTimeWeak = 7.26.2015::13:44:52;
 			- _lastID = 1;
-			- weakCGTime = 4.6.2015::18:22:54;
+			- weakCGTime = 7.26.2015::13:44:52;
 			- strongCGTime = 4.6.2015::18:22:54;
 			- _defaultComposite = GUID ab198b1e-9ae8-4bd2-92a4-bb96085ffd1c;
 			- _eventsBaseID = -1;
@@ -3288,7 +3288,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
 					- _myState = 8192;
 					- _name = "Systems Engineer";
-					- _modifiedTimeWeak = 4.6.2015::18:23:59;
+					- _modifiedTimeWeak = 7.26.2015::13:44:52;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
@@ -3299,7 +3299,7 @@ anufacture, deployment, use and disposal. The systems engineer must analyze, spe
 A systems engineer helps ensure the elements of the system fit together to accomplish the objectives of the whole, and ultimately satisfy the needs of the customers and other stakeholders who will acquire and use the system.
 ";
 					}
-					- weakCGTime = 4.6.2015::18:23:59;
+					- weakCGTime = 7.26.2015::13:44:52;
 					- strongCGTime = 3.30.2015::17:43:32;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -3320,7 +3320,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 						- _m2Class = "";
 					}
 					- Associations = { IRPYRawContainer 
-						- size = 11;
+						- size = 12;
 						- value = 
 						{ IAssociationEnd 
 							- _id = GUID 5ff4a422-3f76-4967-851f-7632a9bde45f;
@@ -3699,6 +3699,32 @@ A systems engineer helps ensure the elements of the system fit together to accom
 								- _class = "Architect Sustainability System";
 								- _name = "itsSystems Engineer";
 								- _id = GUID 5dae0858-513b-459c-b2c7-8067e1ba908a;
+							}
+							- _linkName = "";
+							- _linkType = Assoc;
+							- _navigability = Navigable;
+						}
+						{ IAssociationEnd 
+							- _id = GUID 4f85fc45-2752-425d-8d24-090ff805043a;
+							- _myState = 10240;
+							- _name = "itsManage Product Lines";
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IUseCase";
+								- _filename = "SE_Domain_Workflow_Use_Cases.sbs";
+								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::System Development Stage::SE Domain Workflow Use Cases";
+								- _class = "";
+								- _name = "Manage Product Lines";
+								- _id = GUID 9b5c7196-b54a-48f9-aea4-e2a89028ce50;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "IAssociationEnd";
+								- _filename = "SE_Domain_Workflow_Use_Cases.sbs";
+								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::System Development Stage::SE Domain Workflow Use Cases";
+								- _class = "Manage Product Lines";
+								- _name = "itsSystems Engineer";
+								- _id = GUID bcaa4534-56e4-45f8-a034-c6609b4e1bc7;
 							}
 							- _linkName = "";
 							- _linkType = Assoc;
@@ -4630,7 +4656,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 4.14.2015::16:1:22;
+	- weakCGTime = 7.26.2015::13:44:52;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 	- _eventsBaseID = -1;
@@ -4641,8 +4667,8 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _id = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.6.2015::21:13:3;
-			- weakCGTime = 4.6.2015::21:13:3;
+			- _modifiedTimeWeak = 4.14.2015::16:1:22;
+			- weakCGTime = 4.14.2015::16:1:22;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
