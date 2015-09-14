@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
 	- _myState = 8192;
 	- _name = "SE Domain Workflow Use Cases";
-	- _modifiedTimeWeak = 7.26.2015::13:42:20;
+	- _modifiedTimeWeak = 8.10.2015::13:33:3;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
@@ -8041,7 +8041,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 7.26.2015::13:42:20;
+	- weakCGTime = 8.10.2015::13:33:3;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 	- _eventsBaseID = -1;
@@ -8052,8 +8052,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 7.20.2015::14:42:33;
-			- weakCGTime = 7.20.2015::14:42:33;
+			- _modifiedTimeWeak = 7.26.2015::13:42:20;
+			- weakCGTime = 7.26.2015::13:42:20;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -8447,7 +8447,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 				}
 			}
 			- _lastID = 5;
-			- weakCGTime = 5.18.2015::19:36:58;
+			- weakCGTime = 8.10.2015::13:34:19;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 
@@ -8469,9 +8469,9 @@ References and Citations: \\cf1\\b0\\f2\\par
 							- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
 						}
 					}
-					- _modifiedTimeWeak = 4.27.2015::16:6:20;
+					- _modifiedTimeWeak = 8.10.2015::13:34:19;
 					- _lastID = 63;
-					- weakCGTime = 4.27.2015::16:6:20;
+					- weakCGTime = 8.10.2015::13:34:19;
 					- strongCGTime = 3.29.2015::18:39:7;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -8683,12 +8683,16 @@ References and Citations: \\cf1\\b0\\f2\\par
 									- _id = GUID 51c3acf0-07f1-4786-825e-c01378393cfc;
 								}
 							}
-							- _modifiedTimeWeak = 3.11.2014::12:51:42;
+							- _modifiedTimeWeak = 8.10.2015::13:33:3;
 							- _itsLabel = { ILabel 
 								- _id = GUID 313e4eac-bb33-494c-8e87-f87ed26cba7a;
-								- _modifiedTimeWeak = 1.2.1990::0:0:0;
+								- _modifiedTimeWeak = 8.10.2015::13:33:3;
 								- _itsTrigger = NULL;
-								- _itsGuard = NULL;
+								- _itsGuard = { IGuard 
+									- _id = GUID 0a13558b-8ad7-4f34-bd96-3c48b9f9a58f;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _body = "Yes";
+								}
 								- _itsAction = NULL;
 							}
 							- _itsTarget = GUID 491d384e-328d-455d-8649-aa4e612af51a;
@@ -8739,12 +8743,16 @@ References and Citations: \\cf1\\b0\\f2\\par
 									- _id = GUID 51c3acf0-07f1-4786-825e-c01378393cfc;
 								}
 							}
-							- _modifiedTimeWeak = 3.30.2015::15:23:50;
+							- _modifiedTimeWeak = 8.10.2015::13:33:10;
 							- _itsLabel = { ILabel 
 								- _id = GUID 46a11eb1-4bce-492b-8296-a638e21e1b59;
-								- _modifiedTimeWeak = 1.2.1990::0:0:0;
+								- _modifiedTimeWeak = 8.10.2015::13:33:10;
 								- _itsTrigger = NULL;
-								- _itsGuard = NULL;
+								- _itsGuard = { IGuard 
+									- _id = GUID 02c36dc2-8174-4f54-bd7f-9aa4cc502c44;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
+									- _body = "No";
+								}
 								- _itsAction = NULL;
 							}
 							- _itsTarget = GUID e0b1567c-eede-445c-a1f7-8237da4fe216;
@@ -9089,10 +9097,9 @@ References and Citations: \\cf1\\b0\\f2\\par
 						}
 						{ IState 
 							- _id = GUID e0b1567c-eede-445c-a1f7-8237da4fe216;
-							- _myState = 2048;
-							- _name = "action_12";
+							- _name = "Produce Safety Report";
 							- _displayName = "Produce Safety Report";
-							- _modifiedTimeWeak = 4.2.2015::12:41:11;
+							- _modifiedTimeWeak = 8.10.2015::13:34:19;
 							- _parent = GUID 0b18d505-fb0c-40b7-aa32-63d6fa8b216a;
 							- _stateType = Action;
 							- _defaultTrans = ;
@@ -9216,7 +9223,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 							}
 						}
 					}
-					- _version = 4.27.2015::12:6:2;
+					- _version = 8.10.2015::9:34:19;
 					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = GUID ab7251c2-a812-40be-bc90-446112a2589d;
 					- Views = { IRPYRawContainer 
@@ -9791,8 +9798,8 @@ References and Citations: \\cf1\\b0\\f2\\par
 								}
 							}
 							- _name = "activitydiagram_0";
-							- _modifiedTimeWeak = 4.27.2015::15:58:14;
-							- _lastModifiedTime = "4.27.2015::16:15:10";
+							- _modifiedTimeWeak = 8.10.2015::13:33:3;
+							- _lastModifiedTime = "8.10.2015::13:34:19";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID 0dcb0aa4-d987-4aad-a815-0151e7ab6578;
 								- m_type = 0;
@@ -10721,16 +10728,19 @@ References and Citations: \\cf1\\b0\\f2\\par
 									- m_targetType = 'T';
 									- m_direction = ' ';
 									- m_rpn = { CGIText 
-										- m_str = "";
+										- m_str = "[Yes]";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
 											- m_bgColor = 0;
 											- m_bgFlag = 0;
 										}
-										- m_position = 1 0 0  ;
+										- m_position = 4 -6 -9  30 -9  30 5  -6 5  ;
 										- m_nIdent = 0;
 										- m_bImplicitSetRectPoints = 0;
+										- m_transform = 1 0 0 1 341 750 ;
+										- m_nHorizontalSpacing = -132;
+										- m_nVerticalSpacing = 319;
 										- m_nOrientationCtrlPt = 0;
 									}
 									- m_arrow = 2 452 759  452 124  ;
@@ -10887,7 +10897,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 									}
 									- m_pParent = GUID 0a551d01-e1bf-43c1-803c-759bf67de834;
 									- m_name = { CGIText 
-										- m_str = "";
+										- m_str = "Produce Safety Report";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -10984,16 +10994,19 @@ References and Citations: \\cf1\\b0\\f2\\par
 									- m_targetType = 'T';
 									- m_direction = ' ';
 									- m_rpn = { CGIText 
-										- m_str = "";
+										- m_str = "[No]";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
 											- m_bgColor = 0;
 											- m_bgFlag = 0;
 										}
-										- m_position = 1 0 0  ;
+										- m_position = 4 -6 -9  27 -9  27 5  -6 5  ;
 										- m_nIdent = 0;
 										- m_bImplicitSetRectPoints = 0;
+										- m_transform = 1 0 0 1 306 792 ;
+										- m_nHorizontalSpacing = -12;
+										- m_nVerticalSpacing = -14;
 										- m_nOrientationCtrlPt = 0;
 									}
 									- m_anglePoint1 = 0 0 ;
