@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 6cfa223b-3cca-4a39-932e-465247fcef40;
 	- _myState = 8192;
 	- _name = "System Engineering Operations";
-	- _modifiedTimeWeak = 7.26.2015::13:40:37;
+	- _modifiedTimeWeak = 9.22.2015::19:9:14;
 	- _lastID = 5;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -12,7 +12,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 0ab040f7-e724-40c5-a608-9b9e41fdbd2f;
 			- _myState = 8192;
 			- _name = "System Engineering Development System";
-			- _modifiedTimeWeak = 7.26.2015::13:40:37;
+			- _modifiedTimeWeak = 9.22.2015::19:9:14;
 			- _lastID = 2;
 			- Declaratives = { IRPYRawContainer 
 				- size = 3;
@@ -26,7 +26,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
 					- _myState = 8192;
 					- _name = "SE Life Cycle Workflow Use Cases";
-					- _modifiedTimeWeak = 7.26.2015::13:40:37;
+					- _modifiedTimeWeak = 9.22.2015::19:9:14;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -39,7 +39,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID c469f8a5-924d-4311-8ccb-368e28548a19;
 							- _myState = 8192;
 							- _name = "Use Case Table Views";
-							- _modifiedTimeWeak = 7.26.2015::13:40:37;
+							- _modifiedTimeWeak = 9.22.2015::19:36:48;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -52,9 +52,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 									- _id = GUID d055f618-defb-432d-bb0e-0ca8d7a21e23;
 									- _myState = 8192;
 									- _name = "Layouts";
-									- _modifiedTimeWeak = 7.24.2015::14:47:2;
-									- _lastID = 4;
-									- weakCGTime = 7.24.2015::14:47:2;
+									- _modifiedTimeWeak = 9.22.2015::19:35:26;
+									- _lastID = 5;
+									- weakCGTime = 9.22.2015::19:35:26;
 									- strongCGTime = 3.29.2015::15:52:25;
 									- _defaultComposite = GUID bbbd3333-2dfa-4340-9395-df75e84cca70;
 									- _eventsBaseID = -1;
@@ -76,7 +76,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 										}
 									}
 									- TableLayouts = { IRPYRawContainer 
-										- size = 17;
+										- size = 18;
 										- value = 
 										{ ITableLayout 
 											- _id = GUID 0270a1e5-520d-4288-9667-0c52e589ce2d;
@@ -738,7 +738,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 													- _id = GUID d7835c5f-d908-47bc-8bab-f37bc3dd3f8a;
 												}
 											}
-											- _modifiedTimeWeak = 6.9.2014::17:17:4;
+											- _modifiedTimeWeak = 9.22.2015::19:35:26;
 											- Tags = { IRPYRawContainer 
 												- size = 2;
 												- value = 
@@ -746,19 +746,20 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 													- _id = GUID 236fe128-2922-49aa-938f-f5bb4cd392b2;
 													- _myState = 8192;
 													- _name = "Metrics_Queries";
-													- _modifiedTimeWeak = 6.9.2014::17:17:4;
+													- _modifiedTimeWeak = 9.22.2015::19:35:26;
 													- ValueSpecifications = { IRPYRawContainer 
 														- size = 8;
 														- value = 
 														{ IInstanceValue 
-															- _id = GUID 0dea6d88-d092-42d2-bb80-fdc91325f83f;
+															- _id = GUID 5ec9fe05-d7da-4c88-945a-2ba27936078a;
 															- _modifiedTimeWeak = 1.2.1990::0:0:0;
 															- _value = { IHandle 
-																- _m2Class = "";
+																- _m2Class = "ITableLayout";
+																- _id = GUID b37edbeb-f2e8-4e59-8b34-e0f82efce15e;
 															}
 														}
 														{ IInstanceValue 
-															- _id = GUID 31120f27-7d4c-4e5e-8f4d-5debc715d5a4;
+															- _id = GUID 766f8d98-1904-4e85-97bc-f89ee50287a4;
 															- _modifiedTimeWeak = 1.2.1990::0:0:0;
 															- _value = { IHandle 
 																- _m2Class = "ITableLayout";
@@ -766,7 +767,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 															}
 														}
 														{ IInstanceValue 
-															- _id = GUID b36e5035-70e5-4790-8d08-7c973e07b22a;
+															- _id = GUID 7738ee9f-4835-45d6-80b3-ab38f82b6287;
 															- _modifiedTimeWeak = 1.2.1990::0:0:0;
 															- _value = { IHandle 
 																- _m2Class = "ITableLayout";
@@ -774,7 +775,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 															}
 														}
 														{ IInstanceValue 
-															- _id = GUID 505ed919-c209-4125-9e67-3cfb212832e0;
+															- _id = GUID 3631590a-8778-45d5-84b4-b2059fb2106a;
 															- _modifiedTimeWeak = 1.2.1990::0:0:0;
 															- _value = { IHandle 
 																- _m2Class = "ITableLayout";
@@ -782,7 +783,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 															}
 														}
 														{ IInstanceValue 
-															- _id = GUID 0f5334e2-c89d-4cb2-9ae7-f07e27534b0a;
+															- _id = GUID 713e1d91-7d3a-41d0-b833-50fb4f189f38;
 															- _modifiedTimeWeak = 1.2.1990::0:0:0;
 															- _value = { IHandle 
 																- _m2Class = "ITableLayout";
@@ -790,7 +791,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 															}
 														}
 														{ IInstanceValue 
-															- _id = GUID 7a5ee767-39f4-4874-a60a-25637aa77449;
+															- _id = GUID 8702a129-2fa7-4c6d-b09d-0c210fbad54c;
 															- _modifiedTimeWeak = 1.2.1990::0:0:0;
 															- _value = { IHandle 
 																- _m2Class = "ITableLayout";
@@ -798,7 +799,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 															}
 														}
 														{ IInstanceValue 
-															- _id = GUID fbcc1737-03f8-4a31-8bfa-6ec3bdd36925;
+															- _id = GUID bc5661dc-49f2-430f-a267-a713e5768c0c;
 															- _modifiedTimeWeak = 1.2.1990::0:0:0;
 															- _value = { IHandle 
 																- _m2Class = "ITableLayout";
@@ -806,7 +807,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 															}
 														}
 														{ IInstanceValue 
-															- _id = GUID 755f9086-780c-4156-9fee-25efffa7e686;
+															- _id = GUID 0da6d238-dbe4-4d25-97b8-49cc3ef53308;
 															- _modifiedTimeWeak = 1.2.1990::0:0:0;
 															- _value = { IHandle 
 																- _m2Class = "ITableLayout";
@@ -837,48 +838,48 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 													- _id = GUID ddb08c59-2e40-43cf-bca2-9e14b8479ec5;
 													- _myState = 8192;
 													- _name = "Metrics_DisplayTextList";
-													- _modifiedTimeWeak = 6.9.2014::17:17:4;
+													- _modifiedTimeWeak = 9.22.2015::19:35:26;
 													- ValueSpecifications = { IRPYRawContainer 
 														- size = 8;
 														- value = 
 														{ ILiteralSpecification 
-															- _id = GUID 4932e69d-7203-472b-b9c3-70f8e1ac0726;
-															- _modifiedTimeWeak = 6.9.2014::17:17:4;
+															- _id = GUID bdf27acd-ed67-4c6b-9559-ba02db653f22;
+															- _modifiedTimeWeak = 9.22.2015::19:35:26;
 															- _value = "Total Use Case";
 														}
 														{ ILiteralSpecification 
-															- _id = GUID 3b05c4a5-9411-4e03-83ba-5ff2450cb4e5;
-															- _modifiedTimeWeak = 6.9.2014::17:17:4;
+															- _id = GUID 01c5a8e9-05e3-440c-ae27-f19af0db6984;
+															- _modifiedTimeWeak = 9.22.2015::19:35:26;
 															- _value = "UC - Goal Only";
 														}
 														{ ILiteralSpecification 
-															- _id = GUID 6e52082a-9ce2-4a3a-ab4e-254c88a49100;
-															- _modifiedTimeWeak = 6.9.2014::17:17:4;
+															- _id = GUID b6fe6078-c9af-4940-a80e-c2d895401e16;
+															- _modifiedTimeWeak = 9.22.2015::19:35:26;
 															- _value = "UC -Early Text Description";
 														}
 														{ ILiteralSpecification 
-															- _id = GUID b51690f4-e635-418e-bbca-eacd7fa1eefd;
-															- _modifiedTimeWeak = 6.9.2014::17:17:4;
+															- _id = GUID 0b0ba87f-b7e1-4b56-a803-f4e6c1b89ee7;
+															- _modifiedTimeWeak = 9.22.2015::19:35:26;
 															- _value = "UC - Evolving Description";
 														}
 														{ ILiteralSpecification 
-															- _id = GUID a824a9b7-e252-4e50-8720-90d86e7eccc7;
-															- _modifiedTimeWeak = 6.9.2014::17:17:4;
+															- _id = GUID cfa585c1-3276-4c77-a05c-a275e39af5d0;
+															- _modifiedTimeWeak = 9.22.2015::19:35:26;
 															- _value = "UC - Description Reviewed";
 														}
 														{ ILiteralSpecification 
-															- _id = GUID ba741bcb-2102-4094-909c-1cfefe6f2166;
-															- _modifiedTimeWeak = 6.9.2014::17:17:4;
+															- _id = GUID b912436d-b340-4ca4-8291-3f2b534e6ff2;
+															- _modifiedTimeWeak = 9.22.2015::19:35:26;
 															- _value = "UC - Early Activity";
 														}
 														{ ILiteralSpecification 
-															- _id = GUID b9963c55-b544-42b2-99c9-6c63aa126973;
-															- _modifiedTimeWeak = 6.9.2014::17:17:4;
+															- _id = GUID 6eb8f6db-ac40-43ae-b7df-4d833a257643;
+															- _modifiedTimeWeak = 9.22.2015::19:35:26;
 															- _value = "UC - Evolving Activity";
 														}
 														{ ILiteralSpecification 
-															- _id = GUID 64b683a2-de05-4670-b5bf-0af71ea3141c;
-															- _modifiedTimeWeak = 6.9.2014::17:17:4;
+															- _id = GUID 97228526-28da-4171-907d-c0b1085fd057;
+															- _modifiedTimeWeak = 9.22.2015::19:35:26;
 															- _value = "UC - Activity Complete";
 														}
 													}
@@ -2164,7 +2165,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 												}
 											}
 											- _name = "Workflow Pattern Activities Layout";
-											- _modifiedTimeWeak = 5.18.2015::19:37:50;
+											- _modifiedTimeWeak = 9.22.2015::19:24:11;
 											- Tags = { IRPYRawContainer 
 												- size = 6;
 												- value = 
@@ -2800,11 +2801,53 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 												}
 											}
 										}
+										{ ITableLayout 
+											- _id = GUID b37edbeb-f2e8-4e59-8b34-e0f82efce15e;
+											- _myState = 8192;
+											- _name = "Total Use Cases";
+											- Stereotypes = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ IHandle 
+													- _m2Class = "IStereotype";
+													- _filename = "PredefinedTypes.sbs";
+													- _subsystem = "PredefinedTypes";
+													- _class = "";
+													- _name = "Query";
+													- _id = GUID 4c77a3b1-822f-466e-bd06-76145c9e3b88;
+												}
+											}
+											- _modifiedTimeWeak = 9.22.2015::19:35:4;
+											- TableElementTypes = { IRPYRawContainer 
+												- size = 1;
+												- value = 
+												{ TableDataDefinition 
+													- _myTable = { IHandle 
+														- _m2Class = "ITableLayout";
+														- _id = GUID b37edbeb-f2e8-4e59-8b34-e0f82efce15e;
+													}
+													- _modelElement = { IHandle 
+														- _m2Class = "";
+													}
+													- _name = "UseCase";
+													- _DataType = 2;
+												}
+											}
+											- DataColumns = { IRPYRawContainer 
+												- size = 0;
+											}
+											- TableFromElementTypes = { IRPYRawContainer 
+												- size = 0;
+											}
+											- TableToElementTypes = { IRPYRawContainer 
+												- size = 0;
+											}
+										}
 									}
 									- _configurationRelatedTime = 1.2.1990::0:0:0;
 								}
 							}
-							- weakCGTime = 7.26.2015::13:40:37;
+							- weakCGTime = 9.22.2015::19:36:48;
 							- strongCGTime = 3.29.2015::15:52:25;
 							- _defaultComposite = GUID 57acf9df-3d8f-404d-889f-d6f81f515dc3;
 							- _eventsBaseID = -1;
@@ -2862,7 +2905,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 										}
 									}
 									- _name = "Use Case Description and Stage Table View";
-									- _modifiedTimeWeak = 7.24.2015::14:43:29;
+									- _modifiedTimeWeak = 9.22.2015::19:13:23;
 									- LayoutHandle = { IHandle 
 										- _m2Class = "ITableLayout";
 										- _id = GUID 1b7fef36-dd14-49fa-909c-2a358af3a2a2;
@@ -2895,7 +2938,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 															- value = 
 															{ IProperty 
 																- _Name = "TableFilters";
-																- _Value = "Priority,,High,,TRUE,,FALSE,,FALSE,,FALSE,,FALSE,,FALSE,,FALSE";
+																- _Value = "";
 																- _Type = String;
 															}
 															{ IProperty 
@@ -2910,7 +2953,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 										}
 									}
 									- _name = "Use Case Priority and Maturity Table View";
-									- _modifiedTimeWeak = 5.19.2015::20:45:14;
+									- _modifiedTimeWeak = 9.22.2015::19:36:48;
 									- LayoutHandle = { IHandle 
 										- _m2Class = "ITableLayout";
 										- _id = GUID 0de9637a-ba26-43f4-9159-5beb301e6c29;
@@ -2988,7 +3031,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 											- _id = GUID 852d68e8-b380-45fd-a997-66cc2aaf9289;
 										}
 									}
-									- _modifiedTimeWeak = 4.5.2015::17:7:59;
+									- _modifiedTimeWeak = 9.22.2015::19:32:57;
 									- LayoutHandle = { IHandle 
 										- _m2Class = "ITableLayout";
 										- _id = GUID 8d318d1b-111e-4a8e-9a9c-4f30e723aca8;
@@ -3122,7 +3165,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 										}
 									}
 									- _name = "All Available Activities Table View";
-									- _modifiedTimeWeak = 4.29.2015::21:42:48;
+									- _modifiedTimeWeak = 9.22.2015::19:9:51;
 									- LayoutHandle = { IHandle 
 										- _m2Class = "ITableLayout";
 										- _id = GUID 5e4dfa1e-8675-4c2c-a8e9-524ff4ef883e;
@@ -4494,7 +4537,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _name = "Worflow Patterns";
 						}
 					}
-					- weakCGTime = 7.26.2015::13:40:37;
+					- weakCGTime = 9.22.2015::19:9:14;
 					- strongCGTime = 3.29.2015::15:52:25;
 					- _defaultComposite = GUID 096ed2a3-f9af-4729-b836-e0906b514d83;
 					- _eventsBaseID = -1;
@@ -4524,7 +4567,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _name = "Documents Generated";
 				}
 			}
-			- weakCGTime = 7.26.2015::13:40:37;
+			- weakCGTime = 9.22.2015::19:9:14;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _defaultComposite = GUID 2509bcdc-191a-402b-a19c-86c64ba04d5c;
 			- _eventsBaseID = -1;
@@ -4548,7 +4591,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _configurationRelatedTime = 6.10.2014::15:13:23;
 		}
 	}
-	- weakCGTime = 7.26.2015::13:40:37;
+	- weakCGTime = 9.22.2015::19:9:14;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 297a057e-07b1-4fdc-84a1-a9df6c8312bf;
 	- _eventsBaseID = -1;
@@ -4559,8 +4602,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 297a057e-07b1-4fdc-84a1-a9df6c8312bf;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 7.24.2015::14:42:59;
-			- weakCGTime = 7.24.2015::14:42:59;
+			- _modifiedTimeWeak = 7.26.2015::13:40:37;
+			- weakCGTime = 7.26.2015::13:40:37;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

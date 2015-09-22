@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 9c9eecbf-70ef-447f-bcb2-895c6548c211;
 	- _myState = 8192;
 	- _name = "Management Workflow Use Cases";
-	- _modifiedTimeWeak = 4.5.2015::12:57:43;
+	- _modifiedTimeWeak = 9.22.2015::19:42:27;
 	- _lastID = 12;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -788,7 +788,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -1371,7 +1371,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsCreate a Baseline";
 						- _id = GUID 9b28a4f6-5a4a-4721-a8cd-8e235903fcac;
@@ -1516,7 +1516,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -1632,7 +1632,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsPlan a Development Cycle";
 						- _id = GUID 0d66470a-bcdb-4590-8ad4-8e36a27f7314;
@@ -1802,7 +1802,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsManage SE Development Progress";
 						- _id = GUID e2c2b282-c357-4130-a7a0-e93606531162;
@@ -1904,7 +1904,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -2020,7 +2020,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsManage SE Development Environment";
 						- _id = GUID e9a952da-6690-4d66-acb8-86a955651782;
@@ -2135,7 +2135,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 4.5.2015::12:57:43;
+	- weakCGTime = 9.22.2015::19:42:27;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID fe4eb5fb-1d04-4ab7-bbe9-079bf695b50f;
 	- _eventsBaseID = -1;
@@ -2146,8 +2146,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID fe4eb5fb-1d04-4ab7-bbe9-079bf695b50f;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.30.2015::18:19:54;
-			- weakCGTime = 3.30.2015::18:19:54;
+			- _modifiedTimeWeak = 4.5.2015::12:57:43;
+			- weakCGTime = 4.5.2015::12:57:43;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2282,7 +2282,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -2290,7 +2290,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsPlan a Development Cycle";
 						- _id = GUID 0d66470a-bcdb-4590-8ad4-8e36a27f7314;
@@ -2355,14 +2355,14 @@ Primary Actor \\b0 - Engineering Manager\\par
 					- _id = GUID 759d2dfb-7888-48cd-9905-91f066f19b47;
 					- _myState = 8192;
 					- _name = "Maturity";
-					- _modifiedTimeWeak = 6.9.2014::17:28:43;
+					- _modifiedTimeWeak = 9.22.2015::19:42:27;
 					- ValueSpecifications = { IRPYRawContainer 
 						- size = 1;
 						- value = 
 						{ ILiteralSpecification 
-							- _id = GUID d76440d6-2909-446b-8a98-f09fa2b74ca0;
-							- _modifiedTimeWeak = 6.9.2014::17:28:43;
-							- _value = "Early Text Description";
+							- _id = GUID 6929248b-d3aa-4132-83e8-431254d6c80a;
+							- _modifiedTimeWeak = 9.22.2015::19:42:27;
+							- _value = "Evolving Description";
 						}
 					}
 					- _typeOf = { IHandle 
@@ -2384,7 +2384,7 @@ Primary Actor \\b0 - Engineering Manager\\par
 					}
 				}
 			}
-			- weakCGTime = 6.9.2014::17:28:43;
+			- weakCGTime = 9.22.2015::19:42:27;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2428,7 +2428,7 @@ Primary Actor \\b0 - Engineering Manager\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -2436,7 +2436,7 @@ Primary Actor \\b0 - Engineering Manager\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsManage SE Development Progress";
 						- _id = GUID e2c2b282-c357-4130-a7a0-e93606531162;
@@ -2571,7 +2571,7 @@ vi.      If the requirement change impacts the architecture, follow the predefin
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID bbec9319-348b-4984-adf6-6d0f70f2ca5f;
 					}
 					- _isOrdered = 0;
@@ -2580,7 +2580,7 @@ vi.      If the requirement change impacts the architecture, follow the predefin
 						- _filename = "SE_Dev_Profile.sbs";
 						- _subsystem = "SE_Dev_Profile";
 						- _class = "UC_Properties";
-						- _name = "Selection";
+						- _name = "Priority";
 						- _id = GUID 8f6c2f6d-1d8d-40d2-9569-d028cb8174cd;
 					}
 				}
@@ -2629,7 +2629,7 @@ vi.      If the requirement change impacts the architecture, follow the predefin
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -2637,7 +2637,7 @@ vi.      If the requirement change impacts the architecture, follow the predefin
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsManage SE Development Environment";
 						- _id = GUID e9a952da-6690-4d66-acb8-86a955651782;
@@ -2743,7 +2743,7 @@ vi.      If the requirement change impacts the architecture, follow the predefin
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -2751,7 +2751,7 @@ vi.      If the requirement change impacts the architecture, follow the predefin
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsCreate a Baseline";
 						- _id = GUID 9b28a4f6-5a4a-4721-a8cd-8e235903fcac;

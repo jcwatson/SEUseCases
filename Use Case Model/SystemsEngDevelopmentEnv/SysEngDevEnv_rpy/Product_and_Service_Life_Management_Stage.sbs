@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 6a02d8c1-5bc8-481c-af89-a42c05be3ac5;
 	- _myState = 8192;
 	- _name = "Product and Service Life Management Stage";
-	- _modifiedTimeWeak = 3.30.2015::18:20:44;
+	- _modifiedTimeWeak = 9.22.2015::19:37:40;
 	- _description = { IDescription 
 		- _text = "This section of SE Workflow Use Cases covers the Utilization, Support and Retirement Stages. ";
 	}
@@ -792,7 +792,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -865,7 +865,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsSupport Initial Installation";
 						- _id = GUID 00cf9403-a214-44c8-96c4-e11ab04db840;
@@ -1035,7 +1035,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsEvaluate Change Request";
 						- _id = GUID 9fe987a3-45b0-418f-8fd8-6adc2b9eccf7;
@@ -1205,7 +1205,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsSupport System Modernization Plan";
 						- _id = GUID 5287826e-624c-4748-b3d3-6faa541a2878;
@@ -1375,7 +1375,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsSupport System Disposal and Retirement";
 						- _id = GUID 83ac233f-cf47-49ad-aa3d-64b50300f9be;
@@ -1545,7 +1545,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsArchitect Sustainability System";
 						- _id = GUID d868ac50-5862-4be1-8da6-e93f016f2e10;
@@ -1703,7 +1703,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 3.30.2015::18:20:44;
+	- weakCGTime = 9.22.2015::19:37:40;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 9bd5a820-d959-48a9-b303-eae9b1e6ad70;
 	- _eventsBaseID = -1;
@@ -1714,8 +1714,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 9bd5a820-d959-48a9-b303-eae9b1e6ad70;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.29.2015::15:52:25;
-			- weakCGTime = 3.29.2015::15:52:25;
+			- _modifiedTimeWeak = 3.30.2015::18:20:44;
+			- weakCGTime = 3.30.2015::18:20:44;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1774,7 +1774,7 @@ Post Conditions\\b0  -\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -1782,7 +1782,7 @@ Post Conditions\\b0  -\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsSupport Initial Installation";
 						- _id = GUID 00cf9403-a214-44c8-96c4-e11ab04db840;
@@ -1881,7 +1881,7 @@ There are many aspects to sustainability including:\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -1889,7 +1889,7 @@ There are many aspects to sustainability including:\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsArchitect Sustainability System";
 						- _id = GUID d868ac50-5862-4be1-8da6-e93f016f2e10;
@@ -1994,7 +1994,7 @@ There are many aspects to sustainability including:\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -2002,7 +2002,7 @@ There are many aspects to sustainability including:\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsEvaluate Change Request";
 						- _id = GUID 9fe987a3-45b0-418f-8fd8-6adc2b9eccf7;
@@ -2064,7 +2064,7 @@ Post Conditions\\b0  -\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -2072,7 +2072,7 @@ Post Conditions\\b0  -\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsSupport System Modernization Plan";
 						- _id = GUID 5287826e-624c-4748-b3d3-6faa541a2878;
@@ -2116,7 +2116,44 @@ Post Conditions\\b0  -\\par
 }
 ";
 			}
-			- weakCGTime = 1.2.1990::0:0:0;
+			- Tags = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ITag 
+					- _id = GUID c5fd2e4b-22a1-4a31-811e-4dd6c7c54e28;
+					- _myState = 8192;
+					- _name = "Maturity";
+					- _modifiedTimeWeak = 9.22.2015::19:37:41;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 2f70b8b9-78ef-4203-b55f-8f304d3258e5;
+							- _modifiedTimeWeak = 9.22.2015::19:37:41;
+							- _value = "Goal Only";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "UC_Maturity_Level";
+						- _id = GUID f37a7786-5650-4bb7-944c-a3941ded2ffa;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "UC_Properties";
+						- _name = "Maturity";
+						- _id = GUID f585f3bb-6906-4f3c-83e9-397f5798fed9;
+					}
+				}
+			}
+			- _lastID = 1;
+			- weakCGTime = 9.22.2015::19:37:41;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2134,7 +2171,7 @@ Post Conditions\\b0  -\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
@@ -2142,7 +2179,7 @@ Post Conditions\\b0  -\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::TO BE REMOVED";
+						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
 						- _class = "Systems Engineer";
 						- _name = "itsSupport System Disposal and Retirement";
 						- _id = GUID 83ac233f-cf47-49ad-aa3d-64b50300f9be;
