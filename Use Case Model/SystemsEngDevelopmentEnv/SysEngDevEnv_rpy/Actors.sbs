@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
 	- _myState = 8192;
 	- _name = "Actors";
-	- _modifiedTimeWeak = 7.26.2015::13:44:52;
+	- _modifiedTimeWeak = 10.26.2015::17:39:36;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "System_Engineering_Operations.sbs";
@@ -313,7 +313,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "7.26.2015::13:46:5";
+			- _lastModifiedTime = "10.26.2015::18:12:52";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 7cc8a4c8-63ea-4dd6-b694-8253828ea795;
 				- m_type = 0;
@@ -2940,9 +2940,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 2420edb1-7f7f-4109-ae3f-2bdefe78a6ca;
 			- _myState = 8192;
 			- _name = "Systemss Engineering Actors";
-			- _modifiedTimeWeak = 7.26.2015::13:44:52;
+			- _modifiedTimeWeak = 10.26.2015::17:39:36;
 			- _lastID = 1;
-			- weakCGTime = 7.26.2015::13:44:52;
+			- weakCGTime = 10.26.2015::17:39:36;
 			- strongCGTime = 4.6.2015::18:22:54;
 			- _defaultComposite = GUID ab198b1e-9ae8-4bd2-92a4-bb96085ffd1c;
 			- _eventsBaseID = -1;
@@ -3288,7 +3288,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f650d9b9-1e23-46e0-80c8-76e08de7f54f;
 					- _myState = 8192;
 					- _name = "Systems Engineer";
-					- _modifiedTimeWeak = 7.26.2015::13:44:52;
+					- _modifiedTimeWeak = 10.26.2015::17:39:36;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID f7fd8296-0120-49fa-bdfe-bdec49858238;
@@ -3299,7 +3299,7 @@ anufacture, deployment, use and disposal. The systems engineer must analyze, spe
 A systems engineer helps ensure the elements of the system fit together to accomplish the objectives of the whole, and ultimately satisfy the needs of the customers and other stakeholders who will acquire and use the system.
 ";
 					}
-					- weakCGTime = 7.26.2015::13:44:52;
+					- weakCGTime = 10.26.2015::17:39:36;
 					- strongCGTime = 3.30.2015::17:43:32;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -3555,7 +3555,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 						{ IAssociationEnd 
 							- _id = GUID 9fe987a3-45b0-418f-8fd8-6adc2b9eccf7;
 							- _myState = 10240;
-							- _name = "itsEvaluate Change Request";
+							- _name = "itsProcess Change Request";
 							- Stereotypes = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -3575,14 +3575,14 @@ A systems engineer helps ensure the elements of the system fit together to accom
 								- _filename = "Product_and_Service_Life_Management_Stage.sbs";
 								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Product and Service Life Management Stage";
 								- _class = "";
-								- _name = "Evaluate Change Request";
+								- _name = "Process Change Request";
 								- _id = GUID 0b2ce3df-7f42-4ebf-b40a-fe10007aabe2;
 							}
 							- _inverse = { IHandle 
 								- _m2Class = "IAssociationEnd";
 								- _filename = "Product_and_Service_Life_Management_Stage.sbs";
 								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Product and Service Life Management Stage";
-								- _class = "Evaluate Change Request";
+								- _class = "Process Change Request";
 								- _name = "itsSystems Engineer";
 								- _id = GUID da8a8f9a-67fd-41a6-a91f-2d9004448ccb;
 							}
@@ -4656,7 +4656,7 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 7.26.2015::13:44:52;
+	- weakCGTime = 10.26.2015::17:39:36;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 	- _eventsBaseID = -1;
@@ -4667,8 +4667,8 @@ A systems engineer helps ensure the elements of the system fit together to accom
 			- _id = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.14.2015::16:1:22;
-			- weakCGTime = 4.14.2015::16:1:22;
+			- _modifiedTimeWeak = 7.26.2015::13:44:52;
+			- weakCGTime = 7.26.2015::13:44:52;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
