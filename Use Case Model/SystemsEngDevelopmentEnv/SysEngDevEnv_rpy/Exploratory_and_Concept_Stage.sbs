@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
 		- _filename = "System_Engineering_Operations.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System";
+		- _subsystem = "System Engineering Operations::Product Development Domain";
 		- _class = "";
 		- _name = "SE Life Cycle Workflow Use Cases";
 		- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
@@ -11,11 +11,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 5d69c9d4-3a32-49fc-829e-51b39c74246d;
 	- _myState = 8192;
 	- _name = "Exploratory and Concept Stage";
-	- _modifiedTimeWeak = 9.22.2015::19:37:22;
+	- _modifiedTimeWeak = 11.11.2015::16:0:40;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Review_Document_-Analyze_Stakeholders_Needs.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Review Document Models and Documents::Review Document -Analyze Stakeholders Needs::Items to Review";
+		- _subsystem = "System Engineering Operations::Product Development Domain::Documents Generated::Review Document Models and Documents::Review Document -Analyze Stakeholders Needs::Items to Review";
 		- _class = "";
 		- _name = "Use Case being  Reviewed";
 		- _id = GUID f5acf1de-a859-4352-8b35-2f9e37a005a1;
@@ -34,7 +34,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					{ IPropertySubject 
 						- _Name = "Format";
 						- Metaclasses = { IRPYRawContainer 
-							- size = 7;
+							- size = 8;
 							- value = 
 							{ IPropertyMetaclass 
 								- _Name = "Actor";
@@ -205,6 +205,33 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 									{ IProperty 
 										- _Name = "Line.LineColor";
 										- _Value = "194,192,192";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineWidth";
+										- _Value = "1";
+										- _Type = Int;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "Inheritance";
+								- Properties = { IRPYRawContainer 
+									- size = 4;
+									- value = 
+									{ IProperty 
+										- _Name = "Font.Font";
+										- _Value = "Tahoma";
+										- _Type = String;
+									}
+									{ IProperty 
+										- _Name = "Font.Size";
+										- _Value = "8";
+										- _Type = Int;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "128,128,128";
 										- _Type = Color;
 									}
 									{ IProperty 
@@ -430,7 +457,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "Exploratory and Concept Stage Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "5.18.2015::19:31:59";
+			- _lastModifiedTime = "11.11.2015::16:0:41";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID ff4926df-a6ac-4b04-9c83-f69a46cedb29;
 				- m_type = 0;
@@ -454,7 +481,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 18;
+				- elementList = 14;
 				{ CGIClass 
 					- _id = GUID e7048d9a-b418-4ea0-b683-65b60ebfee24;
 					- m_type = 78;
@@ -613,54 +640,6 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- size = 0;
 					}
 				}
-				{ CGIBasicClass 
-					- _id = GUID b7f94abc-a406-4d42-96a3-386e3b5ab952;
-					- m_type = 124;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IActor";
-						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "";
-						- _name = "System Architect";
-						- _id = GUID d212247c-a8ef-41b9-bccc-0300333ccebc;
-					}
-					- m_pParent = GUID e7048d9a-b418-4ea0-b683-65b60ebfee24;
-					- m_name = { CGIText 
-						- m_str = "System Architect";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.0350877 0 0 0.0577933 59 231 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 176 252  176 1394  1259 1394  1259 252  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
 				{ CGIBox 
 					- _id = GUID b3481431-059c-40e4-a803-d2f1634e746c;
 					- _properties = { IPropertyContainer 
@@ -792,8 +771,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "System Architect";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "Program Management";
 						- _name = "itsResponse to a Customer Request";
 						- _id = GUID ead9521f-a962-4de9-a0e1-527139a2c27d;
 					}
@@ -813,7 +792,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 					- m_drawBehavior = 4096;
 					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID b7f94abc-a406-4d42-96a3-386e3b5ab952;
+					- m_pSource = GUID 5027d8e7-8378-45a7-98b9-4353b9aa93c0;
 					- m_sourceType = 'F';
 					- m_pTarget = GUID a8b26453-4382-4e16-bf6e-cdc614680e50;
 					- m_targetType = 'T';
@@ -834,7 +813,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 0;
-					- m_SourcePort = 1226 675 ;
+					- m_SourcePort = 518 788 ;
 					- m_TargetPort = 163 624 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
@@ -962,8 +941,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "System Architect";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "Program Management";
 						- _name = "itsDerive System Requirements";
 						- _id = GUID 20e81b9f-a77e-4db2-b93a-9ad3609b8709;
 					}
@@ -983,7 +962,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 					- m_drawBehavior = 4096;
 					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID b7f94abc-a406-4d42-96a3-386e3b5ab952;
+					- m_pSource = GUID 5027d8e7-8378-45a7-98b9-4353b9aa93c0;
 					- m_sourceType = 'F';
 					- m_pTarget = GUID deba768b-1b7f-4beb-9bca-de0e7cea823a;
 					- m_targetType = 'T';
@@ -1004,7 +983,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 0;
-					- m_SourcePort = 1197 865 ;
+					- m_SourcePort = 889 1031 ;
 					- m_TargetPort = 220 556 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
@@ -1146,54 +1125,6 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- size = 0;
 					}
 				}
-				{ CGIBasicClass 
-					- _id = GUID a126d2ac-2eb3-40de-8fa5-c0c2b7677b5c;
-					- m_type = 124;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IActor";
-						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "";
-						- _name = "Analyst";
-						- _id = GUID 0e9f507b-3061-48b1-931f-86dd5816e209;
-					}
-					- m_pParent = GUID e7048d9a-b418-4ea0-b683-65b60ebfee24;
-					- m_name = { CGIText 
-						- m_str = "Analyst";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.0387812 0 0 0.0735552 448.174 379.464 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 176 252  176 1394  1259 1394  1259 252  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
 				{ CGIAssociationEnd 
 					- _id = GUID 7743acbd-c9ac-4766-943e-2ee350c62d79;
 					- _properties = { IPropertyContainer 
@@ -1225,8 +1156,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "System Architect";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "Program Management";
 						- _name = "itsAnalyze System Life-cycle Costs";
 						- _id = GUID bb919ec8-84b4-4bc5-8e95-d05a5b79085c;
 					}
@@ -1246,7 +1177,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 					- m_drawBehavior = 4096;
 					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID b7f94abc-a406-4d42-96a3-386e3b5ab952;
+					- m_pSource = GUID 5027d8e7-8378-45a7-98b9-4353b9aa93c0;
 					- m_sourceType = 'F';
 					- m_pTarget = GUID c4342533-c8d9-43c8-abf1-6928195d3dc8;
 					- m_targetType = 'T';
@@ -1267,181 +1198,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 0;
-					- m_SourcePort = 827 969 ;
+					- m_SourcePort = 661 961 ;
 					- m_TargetPort = 210 624 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _id = GUID 21e1c22f-b2c0-4943-9984-c4978f479d06;
-					}
-					- m_pInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_pInverseInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_bShowSourceMultiplicity = 0;
-					- m_bShowSourceRole = 0;
-					- m_bShowTargetMultiplicity = 0;
-					- m_bShowTargetRole = 0;
-					- m_bShowLinkName = 0;
-					- m_bShowSpecificType = 0;
-					- m_bInstance = 0;
-					- m_bShowQualifier1 = 0;
-					- m_bShowQualifier2 = 0;
-					- m_sourceRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 2;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 3;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 4;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 5;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 6;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_targetQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 7;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_specificType = symmetric_type;
-				}
-				{ CGIAssociationEnd 
-					- _id = GUID 9747d88d-3a1d-44be-95ee-a847903ec1bd;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ShowLabels";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 94;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors";
-						- _class = "Program Manager";
-						- _name = "itsResponse to a Customer Request";
-						- _id = GUID 0265bcad-374b-4b42-8597-886dc1e4b2a0;
-					}
-					- m_pParent = ;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_bIsPreferencesInitialized = 0;
-					- m_pSource = GUID 31b7c095-5e60-43ab-a9ba-7bfa695a2942;
-					- m_sourceType = 'F';
-					- m_pTarget = GUID a8b26453-4382-4e16-bf6e-cdc614680e50;
-					- m_targetType = 'T';
-					- m_direction = ' ';
-					- m_rpn = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 7;
-					}
-					- m_anglePoint1 = 0 0 ;
-					- m_anglePoint2 = 0 0 ;
-					- m_line_style = 0;
-					- m_SourcePort = 232 823 ;
-					- m_TargetPort = 1068 514 ;
-					- m_pInverseModelObject = { IAssociationEndHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID 31157920-223c-4031-9465-22199a4049b8;
 					}
 					- m_pInstance = { IObjectLinkHandle 
 						- _m2Class = "";
@@ -1610,9 +1371,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "System Architect";
-						- _name = "itsAnalyze Stakeholders Needs";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "Program Management";
+						- _name = "itsAnalyze Stakeholders Needs_1";
 						- _id = GUID 03b0f3da-4293-443c-8b17-b6f37a9cab17;
 					}
 					- m_pParent = ;
@@ -1631,7 +1392,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 					- m_drawBehavior = 4096;
 					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID b7f94abc-a406-4d42-96a3-386e3b5ab952;
+					- m_pSource = GUID 5027d8e7-8378-45a7-98b9-4353b9aa93c0;
 					- m_sourceType = 'F';
 					- m_pTarget = GUID 68b7591d-d773-4b77-86aa-9bab7b075830;
 					- m_targetType = 'T';
@@ -1652,7 +1413,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_anglePoint1 = 0 0 ;
 					- m_anglePoint2 = 0 0 ;
 					- m_line_style = 0;
-					- m_SourcePort = 713 692 ;
+					- m_SourcePort = 718 875 ;
 					- m_TargetPort = 351 601 ;
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
@@ -1823,7 +1584,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Stakeholder";
 						- _name = "itsAnalyze Stakeholders Needs";
 						- _id = GUID 9d31ba6e-cfd5-4aee-8aa2-93ed8de042aa;
@@ -1922,231 +1683,13 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 					- m_specificType = symmetric_type;
 				}
-				{ CGIAssociationEnd 
-					- _id = GUID 682de51d-7db6-4d6e-b135-b0dc73afcfb0;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ShowLabels";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 94;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _id = GUID e23852e9-0259-4ec0-a1d3-fc3cf64ee35c;
-					}
-					- m_pParent = ;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID c4342533-c8d9-43c8-abf1-6928195d3dc8;
-					- m_sourceType = 'F';
-					- m_pTarget = GUID a126d2ac-2eb3-40de-8fa5-c0c2b7677b5c;
-					- m_targetType = 'T';
-					- m_direction = ' ';
-					- m_rpn = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 7;
-					}
-					- m_anglePoint1 = 0 0 ;
-					- m_anglePoint2 = 0 0 ;
-					- m_line_style = 0;
-					- m_SourcePort = 998 601 ;
-					- m_TargetPort = 253 837 ;
-					- m_pInverseModelObject = { IAssociationEndHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "Analyst";
-						- _name = "itsAnalyze System Life-cycle Costs";
-						- _id = GUID cb626e6b-129b-4daa-9887-4109375d424d;
-					}
-					- m_pInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_pInverseInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_bShowSourceMultiplicity = 0;
-					- m_bShowSourceRole = 0;
-					- m_bShowTargetMultiplicity = 0;
-					- m_bShowTargetRole = 0;
-					- m_bShowLinkName = 0;
-					- m_bShowSpecificType = 0;
-					- m_bInstance = 0;
-					- m_bShowQualifier1 = 0;
-					- m_bShowQualifier2 = 0;
-					- m_sourceRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 2;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 3;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 4;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 5;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 6;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_targetQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 7;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_specificType = symmetric_type;
-				}
-				{ CGIBasicClass 
-					- _id = GUID 31b7c095-5e60-43ab-a9ba-7bfa695a2942;
-					- m_type = 124;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IActor";
-						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors";
-						- _class = "";
-						- _name = "Program Manager";
-						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
-					}
-					- m_pParent = GUID e7048d9a-b418-4ea0-b683-65b60ebfee24;
-					- m_name = { CGIText 
-						- m_str = "Program Manager";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.0360111 0 0 0.0577933 450.662 115.436 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 176 252  176 1394  1259 1394  1259 252  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
 				{ CGIBasicClass 
 					- _id = GUID 8b2dc528-0daa-424a-a969-440aeb706259;
 					- m_type = 124;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
 						- _name = "Stakeholder";
 						- _id = GUID ad033bc4-009c-4395-9da6-3c272207b006;
@@ -2188,6 +1731,54 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- size = 0;
 					}
 				}
+				{ CGIBasicClass 
+					- _id = GUID 5027d8e7-8378-45a7-98b9-4353b9aa93c0;
+					- m_type = 124;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IActor";
+						- _filename = "Actors.sbs";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "";
+						- _name = "Program Management";
+						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
+					}
+					- m_pParent = GUID e7048d9a-b418-4ea0-b683-65b60ebfee24;
+					- m_name = { CGIText 
+						- m_str = "Program Management";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.0350877 0 0 0.0577933 54.8246 230.436 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 176 252  176 1394  1259 1394  1259 252  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
 				
 				- m_access = 'Z';
 				- m_modified = 'N';
@@ -2207,7 +1798,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 9.22.2015::19:37:22;
+	- weakCGTime = 11.11.2015::16:0:40;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a4a4050b-d10d-49f3-91c4-5fe6ec60261f;
 	- _eventsBaseID = -1;
@@ -2218,9 +1809,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID a4a4050b-d10d-49f3-91c4-5fe6ec60261f;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 5.18.2015::20:41:5;
+			- _modifiedTimeWeak = 9.22.2015::19:37:22;
 			- _lastID = 1;
-			- weakCGTime = 5.18.2015::20:41:5;
+			- weakCGTime = 9.22.2015::19:37:22;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3202,8 +2793,8 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 							- _defaultTrans = ;
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Conduct a Review()";
 								- _id = GUID 5f10e503-3b49-42a3-94f6-2613b4827c42;
@@ -3230,8 +2821,8 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 							- _defaultTrans = ;
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Perform a Trade Study()";
 								- _id = GUID 9f5d60b2-e797-4b1f-b658-d0e5a0e67ff8;
@@ -6909,53 +6500,27 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 				- _id = GUID 03f8c3d8-2ac7-44c8-b0e7-6bff27942709;
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 2;
+				- size = 1;
 				- value = 
 				{ IAssociationEnd 
-					- _id = GUID 31157920-223c-4031-9465-22199a4049b8;
+					- _id = GUID 12f29bfe-eb19-4938-adaa-c3e3acb7cd16;
 					- _myState = 10240;
-					- _name = "itsProgram Manager";
+					- _name = "itsProgram Management";
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
-						- _name = "Program Manager";
+						- _name = "Program Management";
 						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors";
-						- _class = "Program Manager";
-						- _name = "itsResponse to a Customer Request";
-						- _id = GUID 0265bcad-374b-4b42-8597-886dc1e4b2a0;
-					}
-					- _linkName = "";
-					- _linkType = Assoc;
-					- _navigability = Navigable;
-				}
-				{ IAssociationEnd 
-					- _id = GUID 12f29bfe-eb19-4938-adaa-c3e3acb7cd16;
-					- _myState = 10240;
-					- _name = "itsSystem Architect";
-					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _multiplicity = "1";
-					- _otherClass = { IClassifierHandle 
-						- _m2Class = "IActor";
-						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "";
-						- _name = "System Architect";
-						- _id = GUID d212247c-a8ef-41b9-bccc-0300333ccebc;
-					}
-					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "System Architect";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "Program Management";
 						- _name = "itsResponse to a Customer Request";
 						- _id = GUID ead9521f-a962-4de9-a0e1-527139a2c27d;
 					}
@@ -6985,7 +6550,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 					- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
 				}
 			}
-			- _modifiedTimeWeak = 6.29.2015::13:33:10;
+			- _modifiedTimeWeak = 9.22.2015::19:37:23;
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 FreeSerif;}{\\f2\\fnil\\fcharset0 Arial;}{\\f3\\fswiss\\fcharset0 Calibri;}{\\f4\\fswiss\\fprq2\\fcharset0 Arial,Bold;}}
 \\viewkind4\\uc1\\pard\\ltrpar\\nowidctlpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to identify all stakeholders and better understand and capture their required needs \\f1\\fs20 expectations, goals, and objectives \\f0\\fs22 across the entire product life cycle.\\par
@@ -8202,8 +7767,8 @@ Also
 							- _defaultTrans = ;
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Conduct a Review()";
 								- _id = GUID 32bd5f2d-7389-4622-81d7-60559915ca64;
@@ -8239,8 +7804,8 @@ Also
 							- _defaultTrans = ;
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Analyze Requirements()";
 								- _id = GUID 88572fe6-289f-4677-af44-3fd46540529f;
@@ -8255,8 +7820,8 @@ Also
 							- _defaultTrans = ;
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Import Reference Material(Engineering Artifact)";
 								- _id = GUID af3edff7-ed32-438b-ad0a-30d646fe837e;
@@ -8271,8 +7836,8 @@ Also
 							- _defaultTrans = ;
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Import Reference Material(Engineering Artifact)";
 								- _id = GUID af3edff7-ed32-438b-ad0a-30d646fe837e;
@@ -12233,7 +11798,7 @@ Also
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
 						- _name = "Stakeholder";
 						- _id = GUID ad033bc4-009c-4395-9da6-3c272207b006;
@@ -12241,7 +11806,7 @@ Also
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Stakeholder";
 						- _name = "itsAnalyze Stakeholders Needs";
 						- _id = GUID 9d31ba6e-cfd5-4aee-8aa2-93ed8de042aa;
@@ -12253,23 +11818,23 @@ Also
 				{ IAssociationEnd 
 					- _id = GUID 06fc1c90-255f-4777-a0b7-c8f3b74ced71;
 					- _myState = 10240;
-					- _name = "itsSystem Architect";
+					- _name = "itsProgram Management";
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
-						- _name = "System Architect";
-						- _id = GUID d212247c-a8ef-41b9-bccc-0300333ccebc;
+						- _name = "Program Management";
+						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "System Architect";
-						- _name = "itsAnalyze Stakeholders Needs";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "Program Management";
+						- _name = "itsAnalyze Stakeholders Needs_1";
 						- _id = GUID 03b0f3da-4293-443c-8b17-b6f37a9cab17;
 					}
 					- _linkName = "";
@@ -13322,8 +12887,8 @@ A System Requirement Specification may also be produced including many of the ca
 							- _defaultTrans = ;
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Define System Context()";
 								- _id = GUID 59b9845a-28c6-4be4-a77d-8deaca5d6222;
@@ -16556,22 +16121,22 @@ A System Requirement Specification may also be produced including many of the ca
 				{ IAssociationEnd 
 					- _id = GUID 550da9df-63b7-4a3b-9627-7385d3407f5b;
 					- _myState = 10240;
-					- _name = "itsSystem Architect";
+					- _name = "itsProgram Management";
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
-						- _name = "System Architect";
-						- _id = GUID d212247c-a8ef-41b9-bccc-0300333ccebc;
+						- _name = "Program Management";
+						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "System Architect";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "Program Management";
 						- _name = "itsDerive System Requirements";
 						- _id = GUID 20e81b9f-a77e-4db2-b93a-9ad3609b8709;
 					}
@@ -16666,53 +16231,27 @@ A System Requirement Specification may also be produced including many of the ca
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 2;
+				- size = 1;
 				- value = 
-				{ IAssociationEnd 
-					- _id = GUID e23852e9-0259-4ec0-a1d3-fc3cf64ee35c;
-					- _myState = 10240;
-					- _name = "itsAnalyst";
-					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _multiplicity = "1";
-					- _otherClass = { IClassifierHandle 
-						- _m2Class = "IActor";
-						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "";
-						- _name = "Analyst";
-						- _id = GUID 0e9f507b-3061-48b1-931f-86dd5816e209;
-					}
-					- _inverse = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "Analyst";
-						- _name = "itsAnalyze System Life-cycle Costs";
-						- _id = GUID cb626e6b-129b-4daa-9887-4109375d424d;
-					}
-					- _linkName = "";
-					- _linkType = Assoc;
-					- _navigability = Navigable;
-				}
 				{ IAssociationEnd 
 					- _id = GUID 21e1c22f-b2c0-4943-9984-c4978f479d06;
 					- _myState = 10240;
-					- _name = "itsSystem Architect";
+					- _name = "itsProgram Management";
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
-						- _name = "System Architect";
-						- _id = GUID d212247c-a8ef-41b9-bccc-0300333ccebc;
+						- _name = "Program Management";
+						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Actors::Systemss Engineering Actors";
-						- _class = "System Architect";
+						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "Program Management";
 						- _name = "itsAnalyze System Life-cycle Costs";
 						- _id = GUID bb919ec8-84b4-4bc5-8e95-d05a5b79085c;
 					}

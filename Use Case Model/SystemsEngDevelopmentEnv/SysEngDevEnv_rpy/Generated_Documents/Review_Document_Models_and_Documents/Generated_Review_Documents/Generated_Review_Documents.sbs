@@ -1,0 +1,70 @@
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+{ ISubsystem 
+	- _ownerHandle = { IHandle 
+		- _m2Class = "ISubsystem";
+		- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Review_Document_Models_and_Documents.sbs";
+		- _subsystem = "Generated Documents";
+		- _class = "";
+		- _name = "Review Document Models and Documents";
+		- _id = GUID a7d34dad-ac31-4bf9-969b-f615889f2ca7;
+	}
+	- _id = GUID a7e8bddd-0872-46d9-8a31-53e769b69458;
+	- _myState = 8192;
+	- _name = "Generated Review Documents";
+	- _modifiedTimeWeak = 5.3.2015::18:41:16;
+	- EmbededFiles = { IRPYRawContainer 
+		- size = 4;
+		- value = 
+		{ IEmbededFile 
+			- _id = GUID 433c0de4-be0b-465b-9cc1-ae9cf5267235;
+			- _name = "Review Document For - Template.docx";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\Generated_Documents\\Review_Document_Models_and_Documents\\Generated_Review_Documents\\Review Document For - Template.docx";
+		}
+		{ IEmbededFile 
+			- _id = GUID 050f4d4a-bb3c-4e4e-975c-72151d486994;
+			- _name = "Review Document For Evaluate System Safety.docx";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\Generated_Documents\\Review_Document_Models_and_Documents\\Generated_Review_Documents\\Review Document For Evaluate System Safety.docx";
+		}
+		{ IEmbededFile 
+			- _id = GUID b52046bd-7189-4d98-9c94-ff9b12076cbf;
+			- _name = "Terminology Definitions List.docx";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\Generated_Documents\\Review_Document_Models_and_Documents\\Generated_Review_Documents\\Terminology Definitions List.docx";
+		}
+		{ IEmbededFile 
+			- _id = GUID 970b980d-88ad-4782-9f7c-56acc29beed6;
+			- _name = "Review Document For Analyze Stakeholders Needs.docx";
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- _MayNeedToRelocate = 0;
+			- _LastKnownFullPath = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv_rpy\\Generated_Documents\\Review_Document_Models_and_Documents\\Generated_Review_Documents\\Review Document For Analyze Stakeholders Needs.docx";
+		}
+	}
+	- weakCGTime = 5.3.2015::18:41:16;
+	- strongCGTime = 4.13.2015::15:55:28;
+	- _defaultComposite = GUID 459caad9-e4fa-45c7-a7ca-e92a6eb04270;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID 459caad9-e4fa-45c7-a7ca-e92a6eb04270;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 5.3.2015::18:41:16;
+			- weakCGTime = 5.3.2015::18:41:16;
+			- strongCGTime = 4.13.2015::15:55:28;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

@@ -2,18 +2,18 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
-		- _filename = "Conceptual_Model_Definitions.sbs";
+		- _filename = "Conceptual_Model_Definitions_-_2003.sbs";
 		- _subsystem = "Information Model";
 		- _class = "";
-		- _name = "Conceptual Model Definitions";
+		- _name = "Conceptual Model Definitions - 2003";
 		- _id = GUID 4e7bfe24-07c5-404f-86b4-73f2883e1e8a;
 	}
 	- _id = GUID 9fb47b2f-4b24-4419-9bd7-4b00febba526;
 	- _myState = 8192;
 	- _name = "Definitions from Concept Model";
-	- _modifiedTimeWeak = 4.14.2015::21:29:28;
+	- _modifiedTimeWeak = 11.5.2015::16:23:11;
 	- _lastID = 1066;
-	- weakCGTime = 4.14.2015::21:29:28;
+	- weakCGTime = 11.5.2015::16:23:11;
 	- strongCGTime = 12.10.2014::4:22:57;
 	- _defaultComposite = GUID 6fe92712-2939-4d3e-9939-c70a8fc265c8;
 	- _eventsBaseID = -1;
@@ -24,8 +24,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 6fe92712-2939-4d3e-9939-c70a8fc265c8;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 1.20.2015::20:19:9;
-			- weakCGTime = 1.20.2015::20:19:9;
+			- _modifiedTimeWeak = 4.14.2015::21:29:28;
+			- weakCGTime = 4.14.2015::21:29:28;
 			- strongCGTime = 12.10.2014::4:22:57;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -57,7 +57,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\ltrpar\\fs20 This list of terms originated from the terms and definitions from the original RFI CSV file titled \\ldblquote SE Conceptual Model Semantic Dictionary (Draft 12_03-27-03)\\rdblquote  located at http://www.omg.org/syseng/SE_Conceptual%20Model/SE_Conceptual_Model.htm.  \\par
@@ -71,7 +71,43 @@ Revision          Date              Author    Description\\par
 }
 ";
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- Tags = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ITag 
+					- _id = GUID 950e450f-1a74-48aa-ab7a-13a0ba33f47d;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 8e54d7a5-4476-4095-a591-6942641729e9;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
+			}
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.29.2014::18:37:55;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -103,12 +139,12 @@ Revision          Date              Author    Description\\par
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:20:29;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "In the Concept Model an aggregation symbol is used with the letter \"C\" imposed on it. This has the meaning that the decomposition is complete in the sense that all of the parts that comprise the whole are listed.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID a5ef5b06-de87-4924-a5a5-5aa5c2d42bf0;
@@ -197,8 +233,40 @@ Revision          Date              Author    Description\\par
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 1394619d-f3fb-4562-a6d9-40f67bfd0c9e;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 2d5b982f-3517-4b88-9d2c-03d5b98eaa9b;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:20:29;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -230,12 +298,12 @@ Revision          Date              Author    Description\\par
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 4.14.2015::21:29:28;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "That which is discernable by reproducible measurement of its characteristics.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 709e94fc-ba1e-40ac-8edf-f7897835b9d8;
@@ -335,8 +403,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 9a8363a0-ab80-4dd9-8c27-6ae7cd0d39c9;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 202b534e-5b57-44f2-abdd-bc155fc3a3d0;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 4.14.2015::21:29:28;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 4.14.2015::21:29:28;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -368,12 +468,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "Categories provide the grouping of Elements into a set based on defined properties that serve as selection criteria for which Elements of all those in the universe belong in that set.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 2d866c76-d437-43f1-8e0a-03be20912298;
@@ -471,8 +571,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 49882af0-07ba-47da-817a-068a66e3c275;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID f7346833-66a8-4951-81a8-91a8d024e313;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -504,12 +636,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:20:29;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "Any Element of the super category may reside in any number of the sub-categories and all members of the super-category are members of at least one of the sub-categories.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID fc54ebc3-4844-4c68-b17e-fbd76ce88751;
@@ -589,8 +721,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID b10258e5-1b14-404c-b84c-1adeb37cc217;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 02b9074d-e544-4ea3-acee-ae7a6eb79812;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:20:29;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -622,12 +786,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:20:29;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "Any Element of the super category may reside in any number of the sub-categories and only some members of the super-category are members of the sub-categories.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 4ac00eb6-ee46-4f02-b519-4553e6a40a8a;
@@ -707,8 +871,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 4764e5dd-f080-4c67-9e9d-6d8aeca94aad;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID c63c4bc6-5417-4ca8-b196-991b3876d2e2;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:20:29;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -740,12 +936,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:20:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "Any Element of the super-category may reside in one and only one of the sub-categories and all members of the super-category are members of at least one of the sub-categories.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 32129832-237f-433f-af1d-e0aee895766d;
@@ -834,8 +1030,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 53d9ba9f-3859-4f90-9ec1-5c649e5152fd;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 41967662-3f1d-4268-b48e-df631e62ed85;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:20:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -867,12 +1095,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:20:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "Any Element of the super-category may reside in one and only one of the sub-categories and only some members of the super-category are members of the sub-categories.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID d9d11639-bf3b-45bc-ad8d-3e95c55b3964;
@@ -952,8 +1180,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID cae11126-6fde-4ec8-b298-07cf39606a19;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 015edb9e-9429-4d9e-9c3a-e21606b613ab;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:20:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -985,12 +1245,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "All elements of interest to the problem at hand.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID d1dd3827-355b-4876-98ba-3db0ee705bd8;
@@ -1079,8 +1339,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID dbcb3585-e453-4f68-8677-d851f3aec810;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 74b55739-b5c7-4cb9-864f-2b4ddbb02749;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1112,12 +1404,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 4.14.2015::16:7:3;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "Element with a well defined boundary with respect to all other elements, outside of it and in the domain of interest, with which it interacts.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID b3bbcefe-b936-48b4-ac11-08e4be78fdde;
@@ -1215,8 +1507,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 0835ecf1-1243-49b4-a1c9-71b165339939;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID b44f73fd-a9e1-42c4-950f-bd240377d685;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 4.14.2015::16:7:3;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 4.14.2015::16:7:3;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1248,12 +1572,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "A collection of elements and related information about the system that are useful and defined for a particular purpose in a particular context.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID b7aec602-d5e6-4bbd-9c0c-c2c2aa8b7a5d;
@@ -1342,8 +1666,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 6fb6b5a7-b956-4684-94b3-862397bf16d5;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID dd5c953d-85b3-4171-ba6f-6ca1050976ec;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1375,12 +1731,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "All elements external to the system that interact with it.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 21825d05-f8e4-49ed-ae85-e4825e753039;
@@ -1478,8 +1834,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID ffdd1bd8-74bd-4d56-ae5a-036c5c62c1dc;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 8edd0a1b-62b1-4fa7-8cdf-db443d9be97b;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1511,12 +1899,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "The people, organizations and institutions that are a part of the system environment because the System provides some benefit to them and they have an interest in the system.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 180a5bce-aa67-4f87-8d5e-be7dc1002155;
@@ -1605,8 +1993,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID e20fce08-5af9-4fcd-b146-94e67606698f;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 5f6a3384-9262-429f-b017-301a5025c100;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1638,12 +2058,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "The benefits That the Stakeholders wish to be satisfied by or delivered by the system when it is implemented and functioning.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID c5778d77-958a-4d5c-8a45-2cb5bf4ffdd7;
@@ -1732,8 +2152,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 49e37d38-d313-44f6-bae8-22eef3a5eee1;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID ad64148a-6eb1-431e-bfc0-7a2851629c13;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1765,12 +2217,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "Any named measurable or observable attribute, quality or characteristic of an Element.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID c7948ca9-470a-4b0d-916d-c9877debaf25;
@@ -1868,8 +2320,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 47d17dc3-3107-4491-8fa3-35300ade8782;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 3f16163c-fb33-4885-8fb2-0ae9d83e94bb;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1901,12 +2385,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "A statement of properties that a system shall exhibit or shall not exhibit when completed.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID caf96643-2bc3-4397-9f90-4d3236b160a3;
@@ -1995,8 +2479,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 6605c700-1ad1-436a-b9b6-a8bbb69f7835;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID fc2e87b1-f1fa-4f09-ace5-6f9fe7c9f8e1;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2028,12 +2544,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "A statement of the document source of information concerning an element or a property of an element, including the tensor characteristics, units, values, value probability distribution, or symmetry.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID dcefd001-24ba-4fec-adb5-2ba347df0dd8;
@@ -2113,8 +2629,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID dfd29d8c-9476-4707-84d2-384030c0351d;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 020cfbf2-6956-41d0-a447-9b8a4aac30f3;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2146,12 +2694,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "What an Element is to do or is not to do in response to excitations it receives from the external Elements in its environment..";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 29897f23-cf29-4ffa-8e1b-38bba0a58be1;
@@ -2249,8 +2797,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID d78ddd57-bfcd-445a-ac10-f5bad8f59420;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID bf0799d5-a5a7-438d-b3f7-cad9cbec7d63;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2282,12 +2862,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "A description of behavior based on function and transformation without reference to state";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 466057ae-4652-4a9b-99d5-fc499c0d785e;
@@ -2367,8 +2947,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 9f644a76-a507-4901-b909-93453c715953;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 52f9599d-bdf9-41df-8c21-1f577dbcc971;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2400,12 +3012,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "What an Element exhibits or does not exhibit in response to excitation and stimulation from auxiliary measurement entities that are not part of its context.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 5115af52-5d80-44b9-b41e-20413a38036b;
@@ -2503,8 +3115,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 9f83bf3c-d999-424c-9852-5621012984a2;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 45eeda50-ee7d-406a-9010-2d633af11d67;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2536,12 +3180,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "The decomposition, interconnection and other static relationship among the parts of the system.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 428a90d8-7b2d-428e-9b26-c6d151002919;
@@ -2639,8 +3283,40 @@ t or of a type of product. It is a collector of data common to all revisions of 
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID c5ccbb4d-fea3-4b52-a9a5-de9b93606d6d;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 62ef6fb2-393b-4462-a1af-fb1dce507273;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2672,12 +3348,12 @@ t or of a type of product. It is a collector of data common to all revisions of 
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "The static parts of the system including their interconnection and interconnection descriptions.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 717ce396-b73d-4fdd-92b3-272b9f7d7ade;
@@ -2767,8 +3443,40 @@ dering several different structures that can provide the desired emergent behavi
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID a7b486dc-9bbe-49fc-85e9-0996d69694a5;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 62721dab-3f95-40b9-8488-33b37302f30a;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2800,12 +3508,12 @@ dering several different structures that can provide the desired emergent behavi
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "A particular kind of Part that is used when it is helpful not to model or specify its details.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 5e736fc3-10cb-4290-97fc-490f2e2a734b;
@@ -2903,8 +3611,40 @@ dering several different structures that can provide the desired emergent behavi
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 55f1d9f3-a0b0-432e-83f4-21c28bce50f7;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 850b00e7-7559-4ab9-8fa4-d3d7734cc873;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2936,12 +3676,12 @@ dering several different structures that can provide the desired emergent behavi
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:11;
 			- _description = { IDescription 
 				- _text = "A connection point on a Part in the Part decomposition hierarchy.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 85015f4d-c182-479c-935b-44dd9ae7e9b7;
@@ -3040,8 +3780,40 @@ two ports, the sound distribution in the water, and the radiation pattern of the
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID d001a9f8-b901-4768-883e-8b9abd0b04d9;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:11;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 36bd5d27-42ad-4684-baaf-74b30d676d3d;
+							- _modifiedTimeWeak = 11.5.2015::16:23:11;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:11;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3073,12 +3845,12 @@ two ports, the sound distribution in the water, and the radiation pattern of the
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "A listing of the ports that interconnect with one another.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 97e2e744-5604-47eb-8b7d-decffe2dcab6;
@@ -3167,8 +3939,40 @@ two ports, the sound distribution in the water, and the radiation pattern of the
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 33ef5abf-defe-44fa-bbb6-685dec9b2bea;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID eb35b7af-cf24-4cac-9b00-e7856d25674f;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3200,12 +4004,12 @@ two ports, the sound distribution in the water, and the radiation pattern of the
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "A description of a Port of a Part that includes the geometric description, I/O description, protocols that must be met, assemblies of parts required to join two ports, allowable defect characteristics, etc.  The interface description includes the emergent properties of the interface that is the result of the two ports interacting, and is not associated with either.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 29178ca7-af7b-4590-bf7b-0821150d1962;
@@ -3303,8 +4107,40 @@ two ports, the sound distribution in the water, and the radiation pattern of the
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID ef2e6ce3-353c-4926-a63b-06e8fed6ed12;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID c08c5418-5fbf-4e91-9a5e-7d65853f8466;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3336,12 +4172,12 @@ two ports, the sound distribution in the water, and the radiation pattern of the
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "The entity in the context of modeling that transforms an input set of Elements into a set of output Elements that may be the same or measurably different from the input set.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 365c5a61-6d1b-44a9-8520-9434aa81085b;
@@ -3440,8 +4276,40 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID b91899cd-e59f-454c-934f-c158d6a24f5d;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 0d722c49-246c-4723-b448-174447882b56;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3473,12 +4341,12 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "A time interval assigned to a function that defines the duration of activity of the function or the probability distribution for the duration.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 3806b84c-2578-4766-b60a-5d9a3d787759;
@@ -3567,8 +4435,40 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 2cab4232-dca1-43a4-b1e3-a6eadf4f8964;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 93c50a43-3ed4-4f77-87da-377dcff92c22;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3600,12 +4500,12 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "An executable textual  language statement assigned to a function to define how that function executes";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 6bff0779-4f0e-417c-a2c5-5606726ecf9c;
@@ -3685,8 +4585,40 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID de8e62ed-20bb-4d19-8778-7d1b6b21df8d;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 3faaeb13-7bbd-4346-a3d5-4ca6c9380d8c;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3718,12 +4650,12 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "A logical entity to which I/O is bound.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 8db307b5-ecb5-4c67-af00-b40a2efb8fa0;
@@ -3803,8 +4735,40 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 334ccb3b-7ed7-4980-83fc-d91854caff45;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 5137ff76-7aaf-4a2c-802f-2cf1abe5b30b;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3836,12 +4800,12 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "A storage entity on a function port that accumulate I/O until needed by the function";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 2c09c5d5-d430-4d78-8a22-cb12b55f6511;
@@ -3930,8 +4894,40 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID eed22e16-4f0c-4766-ae40-ae45acc38826;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 23b7dfaf-25df-4010-a08e-2dd0f07cbdb1;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3963,12 +4959,12 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "A function port that accepts I/O that does not trigger the function";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 52b1d41a-5e84-496a-b045-dcbb653df5b4;
@@ -4048,8 +5044,40 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 88eff64d-7316-4f58-a0bf-d81bfce26215;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 8abfcaa6-11db-4574-8dfc-53fc8429f1e8;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4081,12 +5109,12 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "A function port that accepts I/O that triggers the function";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID ef69448f-d876-407a-99b9-3fdc58e298ee;
@@ -4175,8 +5203,40 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID e9819b1b-773e-43a2-9f13-86823e1ff3fc;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 70f6739f-91db-48b0-9685-7063f8107031;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4208,14 +5268,14 @@ de\”, then the viscosity goes away and the compressibility becomes a fourth rank
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "(1.) the amount of input available to a function or the amount of
 output available from it.
 (2.) or the amount of property of a system available to a function.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 6cc803c4-f76c-4365-8b6f-6989a410afc7;
@@ -4306,8 +5366,40 @@ output available from it.
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 90528176-900a-4b3d-8f1f-9bd66d4108f1;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 02478da6-b563-4ff8-afbb-ca8e3d373e4e;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4339,12 +5431,12 @@ output available from it.
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "A  construct links a functional decomposition to the exit paths identified for the parent function.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID c24e2d65-6fc6-43be-aa5d-ac886e1b15f0;
@@ -4435,8 +5527,40 @@ output available from it.
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 33c1ca63-60cd-4726-ad4b-0af12c9cb8fc;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID d4fb1285-021f-4d93-a9a4-7744daf73b25;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4468,12 +5592,12 @@ output available from it.
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "Elements consumed by a function are Inputs and those generated by a function are Outputs.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 9b52fbd7-d8d3-4eff-8456-426035879193;
@@ -4572,8 +5696,40 @@ l world things transform other things. It is this fact of reality that results i
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 5b627538-6c0b-4338-833c-e7ed14d79fce;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 5448f6e5-374c-4e20-a0fd-b806903dba07;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4605,12 +5761,12 @@ l world things transform other things. It is this fact of reality that results i
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "Function Ordering imposes how functions execute, which may be sequential, concurrent, traversed iteratively, or lie on separate alternative paths.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 0ccf47d9-7d41-432d-9195-d8711b25fd59;
@@ -4709,8 +5865,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID dafb580c-e256-474a-8fdc-28398515ffe4;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 64641426-b5fd-4328-bba5-2fc2612f57fa;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4742,12 +5930,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "Function ordering constructions that establish how the functions are ordered";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 62f7352a-5eda-4e38-a593-bd2e4fedfa47;
@@ -4827,8 +6015,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID a10e0ae4-49f6-4124-b566-d093e72edcc0;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 503830b5-ea7b-4b4c-aba7-13fcca6a5c1e;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4860,12 +6080,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "An ordering operation that replicates a function used many times";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID f07e0449-954d-4f84-964b-e567015beb6b;
@@ -4954,8 +6174,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 30434722-efc4-461a-92c8-390e6e144fbe;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 60cd91d5-bda1-4972-93d3-9092a869fe28;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4987,12 +6239,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "An ordering operation pair that establishes concurrency among functions";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID d6e659fd-687b-45c4-b0a5-21258c2251b7;
@@ -5072,8 +6324,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID ae2f50a2-d851-435e-a810-267d321d02c9;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 295c10bb-ea4b-4029-a626-fb08318334d8;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5105,12 +6389,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:12;
 			- _description = { IDescription 
 				- _text = "An ordering operation that shows the branching our among concurrent functions";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 77661486-f888-47fd-975d-5bf0498ab9c9;
@@ -5190,8 +6474,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 3322c8c5-7754-407e-af5f-4500e65b39b8;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:12;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 854e249e-34a7-4554-bf5c-65fe1cc13e86;
+							- _modifiedTimeWeak = 11.5.2015::16:23:12;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:12;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5223,12 +6539,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "An ordering operation that shows the path rejoining among  concurrent functions";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID eb4ddab1-1699-4ca5-960b-5e0bdf778540;
@@ -5308,8 +6624,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 35d292ac-4dd8-4cd4-8722-252684d889da;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 57320d5f-564e-4720-8eeb-3fab576c3d71;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5341,12 +6689,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "An ordering operation that repeats a function or group of functions";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 6062fcad-01dc-49f4-8caa-54cbda60f52b;
@@ -5426,8 +6774,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 0eb607f6-1293-4dcc-8b3c-34f9719f2ab4;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 9f617383-5c0d-431f-ba20-a004452478cc;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5459,12 +6839,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "An ordering operation that establishes the set over which the iteration is performed.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 8c128236-ded5-4f73-a403-a7149a5592e6;
@@ -5544,8 +6924,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 0ce7ae46-0a43-4190-8660-3f46e4f72436;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 9ba9ca41-7783-4ade-8cb5-a5d826c1a470;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5577,12 +6989,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "An ordering operation that repeats a function or group of functions some number of times";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 89ab7500-2fc9-4821-a470-069c4847f978;
@@ -5662,8 +7074,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 66b98857-c6ad-4ea7-b421-39403a22452d;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 0a64a677-0c98-47ea-bbe6-5819db9001b9;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5695,12 +7139,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "The number  or expression for the number of repetitions in a loop";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID a823bf51-999e-433b-b2b6-0dd33d2b5f9f;
@@ -5780,8 +7224,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 66cf4df9-bd25-45d4-9973-f030dbb2ca06;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID e9f77324-0458-475e-85af-c19c1bc9e770;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5813,12 +7289,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "The ordering operation that terminates a loop and provides correct continuation of the execution path";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 4dd8e945-858e-41ab-9999-22b4c7ac1a11;
@@ -5898,8 +7374,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID f37d9a70-6a24-407d-95e1-7364532672d9;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 5b29fad0-86b0-44c5-a90e-42f64def3056;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5931,12 +7439,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:20:32;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "An ordering operator that establishes sequence among functions";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID a05eb769-0578-48ef-aae5-e07897a4b2ae;
@@ -6007,8 +7515,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 1dc36c22-7fd6-44a3-a593-58a1d6125bbc;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID c08189ad-7d3c-499b-a20a-726c15b1907c;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:20:32;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -6040,12 +7580,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "An ordering operator pair that establishes alternative paths for a group of functions";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID aa688b0a-d91f-4be6-97cc-7433b39f80a0;
@@ -6125,8 +7665,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 58c744d7-e0c3-4b27-a922-9c488c76807c;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 55aabef8-f459-4206-992e-9ec74ceca5a8;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -6158,12 +7730,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "The ordering operation that establishes branching of functions and their alternative paths";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID b906ee06-094b-4ecb-8402-2d5340f1b62d;
@@ -6243,8 +7815,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID acbee839-4709-44c4-abc2-5c47f7559809;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 0d762569-5fcf-4b61-a172-f78a20f4ff96;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -6276,12 +7880,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "The ordering operation that establishes the rejoin of alternative paths";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 0e158009-1b3f-4786-a44f-13fee6015807;
@@ -6361,8 +7965,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 3c59f93d-4905-4753-b0c8-28145d900e8f;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 7f023ea9-705c-4483-9e4c-74d1773fdd0b;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -6394,12 +8030,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "A special function with multiple exit conditions that can serve the same purpose as or out";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 3c491982-0ef6-46ad-a95d-c41960cf69c6;
@@ -6479,8 +8115,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 2277c512-8bf6-4eef-a41c-008841ca5340;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 78edfbcf-9fcc-4edf-9a9c-a69833b5a76e;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -6512,12 +8180,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:13;
 			- _description = { IDescription 
 				- _text = "A set numbers, of sum equal to 1.0, that can be assigned toe the several exit paths of an \"or out\" to establish the relative frequency that each path is taken.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 10b7a229-6730-4c9b-94ac-0e70714db18f;
@@ -6597,8 +8265,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 77cc71e7-5210-49c9-ab00-ceb40655de17;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:13;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID f41f3bf9-1e8f-46b5-862e-94e3de4f2d89;
+							- _modifiedTimeWeak = 11.5.2015::16:23:13;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:13;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -6630,12 +8330,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:14;
 			- _description = { IDescription 
 				- _text = "The set of rules used by an execution engine in a tool to execute the function based behavior";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 6f241405-6610-4921-9411-100467a1a90e;
@@ -6724,8 +8424,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 818c03bb-d428-42b6-b096-9854e6bbf32e;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:14;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 4a15c38f-b77c-48c7-85d4-742b190b6827;
+							- _modifiedTimeWeak = 11.5.2015::16:23:14;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:14;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -6757,12 +8489,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:14;
 			- _description = { IDescription 
 				- _text = "The activation rules that establishes when a function begins to execute";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 1a2f890a-2c02-4c27-8cec-df942eb5009f;
@@ -6842,8 +8574,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID ae53d416-3a0b-45eb-9d10-729c2fda3f68;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:14;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 5239149c-a456-493f-b88d-eb0d7fb7b37b;
+							- _modifiedTimeWeak = 11.5.2015::16:23:14;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:14;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -6875,12 +8639,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:14;
 			- _description = { IDescription 
 				- _text = "The activation rules that establishes how the function executes";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID c9c46234-9b07-449f-9cff-612dafd88300;
@@ -6960,8 +8724,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 22a1eb34-c9a8-4dcb-999d-b63145a43b9b;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:14;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 67c7c957-1e54-45fb-92ae-6d1c537a5c15;
+							- _modifiedTimeWeak = 11.5.2015::16:23:14;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:14;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -6993,12 +8789,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:20:32;
+			- _modifiedTimeWeak = 11.5.2015::16:23:14;
 			- _description = { IDescription 
 				- _text = "The activation rules that establish the conditions under which a functions ceases to execute.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID e6838b74-0be3-454c-9150-e5a894d4333a;
@@ -7069,8 +8865,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 2f533abd-5712-438a-bc8f-ae7e9ce71c2e;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:14;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID aedbdf40-07ad-49ad-beaf-956f4f4550ad;
+							- _modifiedTimeWeak = 11.5.2015::16:23:14;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:20:32;
+			- weakCGTime = 11.5.2015::16:23:14;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -7102,12 +8930,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:20:32;
+			- _modifiedTimeWeak = 11.5.2015::16:23:14;
 			- _description = { IDescription 
 				- _text = "A kind of function that is allocated to and implemented by System/Structure.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 42e19c60-6082-49f5-a08d-dac7757a08e3;
@@ -7187,8 +9015,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 8c21222d-88e0-4225-8073-f710ca0c8e68;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:14;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 1c9b58bb-718c-493e-8c16-8050dfdb57e0;
+							- _modifiedTimeWeak = 11.5.2015::16:23:14;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:20:32;
+			- weakCGTime = 11.5.2015::16:23:14;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -7220,12 +9080,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:20:32;
+			- _modifiedTimeWeak = 11.5.2015::16:23:14;
 			- _description = { IDescription 
 				- _text = "A kind of function that is allocated to and implemented by Elements in the environment.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 94095e6a-2ec2-44b4-9185-39ba005fdb1a;
@@ -7305,8 +9165,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 924d6705-0704-4104-a28c-382ad2359fd6;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:14;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID cb6da621-7626-4aa7-b703-f4613cea4e03;
+							- _modifiedTimeWeak = 11.5.2015::16:23:14;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:20:32;
+			- weakCGTime = 11.5.2015::16:23:14;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -7338,12 +9230,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:14;
 			- _description = { IDescription 
 				- _text = "Establishes the standard of measure against which the values of physical properties shall be stated.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 36f1861b-a7f4-444b-8d3a-9e48f3309c9c;
@@ -7441,8 +9333,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID b429b97d-abda-4ae3-a8c8-0e864f21bf6d;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:14;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID a2405184-b514-4bd6-8774-5aa42263e89d;
+							- _modifiedTimeWeak = 11.5.2015::16:23:14;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:14;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -7474,12 +9398,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:14;
 			- _description = { IDescription 
 				- _text = "A numeric value assigned to  a physical property";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID bcb2bf3b-62fd-4cf7-aea4-941006b1f6bd;
@@ -7577,8 +9501,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 6a90ff35-5a25-44f5-a74d-59f95a87b3ec;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:14;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 90a14d9c-ff7f-47e2-93e4-7f381b34c12b;
+							- _modifiedTimeWeak = 11.5.2015::16:23:14;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:14;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -7610,12 +9566,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:14;
 			- _description = { IDescription 
 				- _text = "A property value allocated to a part by a requirement, or budgeted to that part by analysis.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID d2ccc895-3bd8-4554-9e76-d324f988ebe7;
@@ -7713,8 +9669,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 544909ae-875d-49d5-a7f1-ab21ed1daded;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:14;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID cf660c5d-c71b-4157-aa29-61a7bfbdf8d4;
+							- _modifiedTimeWeak = 11.5.2015::16:23:14;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:14;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -7746,12 +9734,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:15;
 			- _description = { IDescription 
 				- _text = "A property value of a whole calculated or estimated from the values of the parts that assemble to make the whole.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 158e32a4-7ff2-4e5d-988e-1fc95686d454;
@@ -7849,8 +9837,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID dedae5a3-e721-486f-b38e-a38fa5048293;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:15;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID b20442ca-3a0a-426b-acaf-3798d820c91e;
+							- _modifiedTimeWeak = 11.5.2015::16:23:15;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:15;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -7882,12 +9902,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:15;
 			- _description = { IDescription 
 				- _text = "A temporary property value used by a designer as the design work proceeds and different design alternatives are considered.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 5385a2e0-1204-41dc-81c4-7fadda4aa057;
@@ -7985,8 +10005,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID e06ba9c6-86e2-4486-acc3-ecf16a8a53d2;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:15;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 9f5b3969-44a5-4baa-bd41-f46c07c5d2be;
+							- _modifiedTimeWeak = 11.5.2015::16:23:15;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:15;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -8018,12 +10070,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:15;
 			- _description = { IDescription 
 				- _text = "A property value established by measurement of an actual part.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 3574e704-1423-4f66-bf56-57649ad47c4f;
@@ -8121,8 +10173,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 694545b9-9c37-4910-b867-ea4b5de6532b;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:15;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID cbec1275-0bdf-4133-85c6-963f6c1b9eba;
+							- _modifiedTimeWeak = 11.5.2015::16:23:15;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:15;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -8154,12 +10238,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:15;
 			- _description = { IDescription 
 				- _text = "a formally declared variable of the analytical model provided for an external application to populate at execution time in a computing environment";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 49956ea2-24ea-48fb-a8d0-979386e6560b;
@@ -8257,8 +10341,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 35da9153-74de-40c7-8bf8-823e86eae9cf;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:15;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 503ef0b3-03e9-499f-ac5e-53c4676a09e0;
+							- _modifiedTimeWeak = 11.5.2015::16:23:15;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:15;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -8290,12 +10406,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:15;
 			- _description = { IDescription 
 				- _text = "Provides actual values for characteristics declared formally by the model parameter.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 9721bfea-94fc-47ca-9853-a2bdc6ff2902;
@@ -8384,8 +10500,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 249f7815-959c-46e0-bf8a-90725e1d66fd;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:15;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID d8913c24-6b10-4dfd-879d-fe605ecb850a;
+							- _modifiedTimeWeak = 11.5.2015::16:23:15;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:15;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -8417,12 +10565,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:15;
 			- _description = { IDescription 
 				- _text = "Is the association of specific properties of specific system assemblies with an analytical model in order to unambiguously characterize the performance of a specific part.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 53337a1e-9feb-4b82-9a1a-737e9c451712;
@@ -8511,8 +10659,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 5db54593-66a8-41a2-bffb-b098cb590908;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:15;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 684556c7-f31d-464a-8062-83035a5a0373;
+							- _modifiedTimeWeak = 11.5.2015::16:23:15;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:15;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -8544,12 +10724,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:15;
 			- _description = { IDescription 
 				- _text = "Provides a mathematical description of the properties of a system.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID a712ece4-8a4c-4054-b80d-d49db036db04;
@@ -8638,8 +10818,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID f7507f44-8936-462a-b978-ff1cc7f550d0;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:15;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 2124fef8-6828-48a8-9f0d-7f37c0b3e74d;
+							- _modifiedTimeWeak = 11.5.2015::16:23:15;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:15;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -8671,12 +10883,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:15;
 			- _description = { IDescription 
 				- _text = "States what the shall be done by the system to which it is allocated.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID fb2a0b80-3654-419a-9477-ad32c433b012;
@@ -8756,8 +10968,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID bf380fc5-ac3a-47ac-86f9-c05a02026e44;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:15;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID f0df698b-247e-4efc-af04-d94ead20ded0;
+							- _modifiedTimeWeak = 11.5.2015::16:23:15;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:15;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -8789,12 +11033,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:15;
 			- _description = { IDescription 
 				- _text = "States a time duration or a time probability for the completion of a functional requirement or a function as a modeling element.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID a90159c1-eda9-48a7-8231-a89d716b4ae0;
@@ -8874,8 +11118,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 247b8ae1-89fb-4603-b0a2-18768738a3df;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:15;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 56db996e-6fd7-429b-beb9-8645e812c5fe;
+							- _modifiedTimeWeak = 11.5.2015::16:23:15;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:15;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -8907,12 +11183,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:16;
 			- _description = { IDescription 
 				- _text = "States a Physical Property that shall be exhibited by the System or System Assembly to which it is assigned.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 5740edc8-13a0-4e6c-bae8-5dfc1130c234;
@@ -8992,8 +11268,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 2a659585-e722-47f9-bb75-52dc00d27a2f;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:16;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID fa97e2bf-1b8d-4cc3-a8a0-48e5eff12f82;
+							- _modifiedTimeWeak = 11.5.2015::16:23:16;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:16;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -9025,12 +11333,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:16;
 			- _description = { IDescription 
 				- _text = "States the characteristics of the Interface to which it is assigned. Note that it includes the geometric description, I/O description, protocols that must be met, assemblies of parts required to join two ports, allowable defect characteristics, etc.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 42d32ca0-ba25-41ec-8c63-c46bcc043cda;
@@ -9110,8 +11418,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 583ec151-32e0-4206-a124-95eedc95afdf;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:16;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID c1bff412-2df0-4b66-9530-ea5af08d2897;
+							- _modifiedTimeWeak = 11.5.2015::16:23:16;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:16;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -9143,12 +11483,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:16;
 			- _description = { IDescription 
 				- _text = "States particular Elements that shall be used in the design of the System or Part";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID b9b787aa-82fc-4013-b534-4feacfc0f47d;
@@ -9228,8 +11568,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID aae91314-6f6f-4b7b-b22f-1950cc29ceee;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:16;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 322ad005-ade1-48ae-a452-182127d098bb;
+							- _modifiedTimeWeak = 11.5.2015::16:23:16;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:16;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -9261,12 +11633,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:16;
 			- _description = { IDescription 
 				- _text = "States a reference to a source of additional requirements that shall be met by the System or Part. Note that the referenced source may be a requirements document, government requirements for safety, security, environmental quality, etc., or a state or federal law.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 285039a7-2281-4663-b980-43b88e14d189;
@@ -9346,8 +11718,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 95c5096d-6961-424d-a6fc-5cc4f572d367;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:16;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID d1ab9b22-12d8-404c-872f-551ccb10e210;
+							- _modifiedTimeWeak = 11.5.2015::16:23:16;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:16;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -9379,12 +11783,12 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:16;
 			- _description = { IDescription 
 				- _text = "Any requirements document, government regulation or law that contains applicable requirement.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID a5af97c8-664d-471f-bf57-ceed20e1deb1;
@@ -9464,8 +11868,40 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 2edf150e-53e2-45c5-aa25-ee7cd54e90b9;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:16;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID b2f9c5ae-4faa-401a-a141-982e85d288c2;
+							- _modifiedTimeWeak = 11.5.2015::16:23:16;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:16;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -9497,13 +11933,13 @@ unction is deactivated when it completes its work or is deactivated by I/O.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:16;
 			- _description = { IDescription 
 				- _text = "States an optimization condition that a system shall meet. Note that Requirements define the domain of the solution, the solution space. The Effectiveness Measures drive the solution to a particular region in that space. The effectiveness measures are tightly related to stakeholder Needs. Example: the requirements differences between a PC and a laptop are largely in the laptop optimization conditions for minimum weight, minimum thickness, and maximum battery life. These criteria are some of those that custo
 mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 74b12ed9-9083-4aee-83b9-0c4640297367;
@@ -9583,8 +12019,40 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 101f4b73-dea2-40c5-8c1d-fca3ff8eb045;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:16;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 6a0e3e45-4928-40bb-93d5-da44f8ee1ac9;
+							- _modifiedTimeWeak = 11.5.2015::16:23:16;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:16;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -9616,12 +12084,12 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:16;
 			- _description = { IDescription 
 				- _text = "States the direction of optimization, maximize or minimize, for an Effectiveness Measure. Example: for a laptop computer weight and thickness are minimized and battery life is maximized.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID edf928f8-2cd1-42cd-a8dd-212165ce14a8;
@@ -9701,8 +12169,40 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID fa8bcd31-5293-418f-80ab-6aaba62b45fb;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:16;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID f576b470-8c2b-4262-923c-9ddb67a95246;
+							- _modifiedTimeWeak = 11.5.2015::16:23:16;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:16;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -9734,12 +12234,12 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:16;
 			- _description = { IDescription 
 				- _text = "Relative importance of a particular Effectiveness Measure. Note; weights are often expressed in a numerical form. Example: they fix the relative importance in trade off weight, thickness, and battery life. How many minutes of battery life are worth how many tenths of a pound in weight.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 5fabdc95-34e7-401b-8d92-bab8647c24dc;
@@ -9819,8 +12319,40 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 4240a7b0-4b30-4c36-9c4d-940b3bf46a40;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:16;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 44442be7-c713-4bac-a90e-2deb046cf270;
+							- _modifiedTimeWeak = 11.5.2015::16:23:16;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:16;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -9852,12 +12384,12 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:17;
 			- _description = { IDescription 
 				- _text = "an analytic expression that combines effectiveness measures with weights to produce a single number for the goodness of a design option. Note: this corresponds to the regularization function used in optimal control design and in statistical optimization of processes.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 07ab0dc1-45b5-43be-8f47-5e72c169ed53;
@@ -9937,8 +12469,40 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 0e43b4a4-1430-43eb-8b76-1d85e8d5e620;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:17;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 3b720089-50fe-465e-8b88-c35cb80cdec8;
+							- _modifiedTimeWeak = 11.5.2015::16:23:17;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:17;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -9970,12 +12534,12 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:17;
 			- _description = { IDescription 
 				- _text = "Statement of how a system design or instance shall be shown by the development organization using test, analysis, inspection ,  demonstration, simulation, similarity, sampling, or other method to meet a requirement allocated to the system. Note that this is a requirement on the development organization and not on the system. Note that this is performed to confirm that the deployed system will meet the requirements.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 195c9be5-6b77-4a8a-a132-05ef8856ebd4;
@@ -10055,8 +12619,40 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 50c73b78-13a0-4b99-9e33-c06ed9b7296a;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:17;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 1f68f873-748f-4c20-8121-40d4d3a112e1;
+							- _modifiedTimeWeak = 11.5.2015::16:23:17;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:17;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -10088,12 +12684,12 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:17;
 			- _description = { IDescription 
 				- _text = "Occurrence (with date, performer and result) of a comparison of a requirement against the test, analysis, or inspection results of a design or instance of a system.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 43329528-b761-4946-ace2-0177e7ddae80;
@@ -10173,8 +12769,40 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID ee4670e5-1e32-4429-ab56-de53e7cdfd45;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:17;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID a97f684a-b2f2-4961-98ae-792306764cfa;
+							- _modifiedTimeWeak = 11.5.2015::16:23:17;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:17;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -10206,13 +12834,13 @@ mers (one of the kinds of stakeholder) consider in deciding what to purchase.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:17;
 			- _description = { IDescription 
 				- _text = "Describes the process used to compare a requirement against the test, analysis, or inspection results of a design or instance of a system. Example: for a complex digital system the procedure may require the application of a suite of test vectors to the digital system along with environmental tests involving temperature stress and vibration. Example: for a complex metal system the  procedure may require the application of several nondestructive tests to ensure that there are no flaws preset that will cause f
 ailure.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 058daf66-19ce-4117-bca1-c4df6f561ba4;
@@ -10292,8 +12920,40 @@ ailure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID f2d90b03-8d0a-42f2-82b8-06e2912810a3;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:17;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 97a07f49-5015-48aa-8026-982359fdb47a;
+							- _modifiedTimeWeak = 11.5.2015::16:23:17;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:17;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -10325,12 +12985,12 @@ ailure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:17;
 			- _description = { IDescription 
 				- _text = "Arrangement of system and infrastructure necessary to perform the test, analysis, or inspection of a design or instance of a system.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 5e1a0fc3-0201-44a2-8b81-d078e5e92711;
@@ -10410,8 +13070,40 @@ ailure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 902d3f28-3eb0-470d-b9d2-544e6743c8df;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:17;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 93557bde-d8df-4438-b9a0-406bad2d5599;
+							- _modifiedTimeWeak = 11.5.2015::16:23:17;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:17;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -10443,12 +13135,12 @@ ailure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:17;
 			- _description = { IDescription 
 				- _text = "The schedule of tasks, task durations, start times, end times, task inputs, task outputs, goals, and resources (both personnel and infrastructure) to perform the test, analysis, or inspection of a design or instance of a system.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 86df10a4-9230-4497-b00a-2281dcfcd208;
@@ -10528,8 +13220,40 @@ ailure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 3c7d217c-eeb8-421d-a08b-3eed9f44bf67;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:17;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 7a441efc-51bd-4e34-8f3e-326f5c9905fe;
+							- _modifiedTimeWeak = 11.5.2015::16:23:17;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:17;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -10561,12 +13285,12 @@ ailure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:17;
 			- _description = { IDescription 
 				- _text = "Description of the roles of persons in a group or team. Note that this is a subclass of Part, definition (19).";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 45d1206f-b43b-4f8a-a847-60e3abc95086;
@@ -10646,8 +13370,40 @@ ailure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 82d97f88-3418-403b-a005-8b31e0c6559e;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:17;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 983b5d2b-67ea-4e49-8d88-5650f8b51ab2;
+							- _modifiedTimeWeak = 11.5.2015::16:23:17;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:17;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -10679,12 +13435,12 @@ ailure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:18;
 			- _description = { IDescription 
 				- _text = "Any question raised concerning the system or the system development.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 61928600-ff54-4a3b-aed6-a500c6cf202c;
@@ -10764,8 +13520,40 @@ ailure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID b6750b98-76f3-4921-a8e9-84f68cd8f23e;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:18;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 8a3297e0-1777-4fe5-aa6d-dde524609e3a;
+							- _modifiedTimeWeak = 11.5.2015::16:23:18;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:18;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -10797,12 +13585,12 @@ ailure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:18;
 			- _description = { IDescription 
 				- _text = "Likelihood and impact of failure to meet any technical or development program goal.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 6c712e1e-8855-4278-abc0-c4385b64d262;
@@ -10882,8 +13670,40 @@ ailure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID c74a0f18-4351-41d4-a67e-254c7db9391e;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:18;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 92dfb2fb-c009-4756-b9dc-e77465b518e8;
+							- _modifiedTimeWeak = 11.5.2015::16:23:18;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:18;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -10915,13 +13735,13 @@ ailure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:18;
 			- _description = { IDescription 
 				- _text = "Describes the state of a Verification Requirement as Not Yet Planned, Planned, In Progress, Completed - Satisfactory, or  Completed - Unsatisfactory. Example: for a complex digital system the procedure may require the application of a suite of test vectors to the digital system along with environmental tests involving temperature stress and vibration. Example: for a complex metal system the  procedure may require the application of several nondestructive tests to ensure that there are no flaws preset that w
 ill cause failure.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 8c3aaea3-1fd9-4fd2-9345-5bd29c766ca9;
@@ -11001,8 +13821,40 @@ ill cause failure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID e2f55d81-16f5-4e93-a987-ea123048e7c2;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:18;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID d08126a9-34c9-497c-9d97-19d8a769516c;
+							- _modifiedTimeWeak = 11.5.2015::16:23:18;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:18;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -11034,12 +13886,12 @@ ill cause failure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:18;
 			- _description = { IDescription 
 				- _text = "Statement of how a system requirement, design or instance shall be shown by the development organization to meet Stakeholder Needs. Note that this is to confirm that the requirements are suitable for the marketplace. Example: Proctor and Gamble recently acquired an electric toothbrush product, SpinBrush, from four Cleveland area entrepreneurs. Out of a panel of twenty-four consumers, twenty three raved about the product. Sales have been sufficient to boost P&G to #1 position in US oral care.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID ef423102-b36b-4b68-a8d6-4aae1b867191;
@@ -11119,8 +13971,40 @@ ill cause failure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 6b9adec3-022f-4133-82be-088117020755;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:18;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 495bc3f0-7749-4ec5-968f-e569535f43bd;
+							- _modifiedTimeWeak = 11.5.2015::16:23:18;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:18;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -11152,12 +14036,12 @@ ill cause failure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:18;
 			- _description = { IDescription 
 				- _text = "Occurrence (with date, performer and result) of a comparison of a Requirement against the stakeholder needs.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID aff1fb4e-b3a2-444e-8d22-7c63df2613b9;
@@ -11237,8 +14121,40 @@ ill cause failure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID b9235338-e1c7-494a-a081-8bd67179aa73;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:18;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 637379a2-8760-401c-92dc-c2cf8e471973;
+							- _modifiedTimeWeak = 11.5.2015::16:23:18;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:18;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -11270,12 +14186,12 @@ ill cause failure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:18;
 			- _description = { IDescription 
 				- _text = "Describes the process used to compare a Requirement against Stakeholder Needs. Note that this is a requirement on the development organization and not on the system. Note that the procedures may include stakeholder and market surveys, and test marketing.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 240e882e-6851-4227-aa78-1a1ed0f11f29;
@@ -11355,8 +14271,40 @@ ill cause failure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID 2b341713-f10b-4aa1-90c5-af4f9484cf75;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:18;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID bc24ccdd-91dc-4eb4-bb04-191b631b0f25;
+							- _modifiedTimeWeak = 11.5.2015::16:23:18;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:18;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -11388,12 +14336,12 @@ ill cause failure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:19;
 			- _description = { IDescription 
 				- _text = "Arrangement of requirement information and related infrastructure necessary to assess correspondence with stakeholder needs and market realities.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 9ddd7ba8-d702-4596-b873-b8e07d2de249;
@@ -11473,8 +14421,40 @@ ill cause failure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID eb05e527-fbc2-4308-9cce-e2d3832c41f9;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:19;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID e4b1c1e8-e9f3-424d-904b-c62a74ee7eeb;
+							- _modifiedTimeWeak = 11.5.2015::16:23:19;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:19;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -11506,12 +14486,12 @@ ill cause failure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:19;
 			- _description = { IDescription 
 				- _text = "The schedule of tasks, inputs, outputs, goals, and resources, both personnel and infrastructure to perform the comparison of Requirements against Stakeholder Needs..";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 866b8691-471d-42f3-8f3c-5c7a400466f4;
@@ -11591,8 +14571,40 @@ ill cause failure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID b7352513-8900-4df7-b6b7-9b66659faecd;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:19;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 6b0b9c98-1b93-46af-b9c9-175080f4bbb9;
+							- _modifiedTimeWeak = 11.5.2015::16:23:19;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:19;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -11624,12 +14636,12 @@ ill cause failure.";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 1.20.2015::20:36:30;
+			- _modifiedTimeWeak = 11.5.2015::16:23:19;
 			- _description = { IDescription 
 				- _text = "Describes the state of a Validation Requirement as Not Yet Planned, Planned, In Progress, Completed - Satisfactory, or  Completed - Unsatisfactory. Note: entire new product lines have been abandoned after completed development because of unsatisfactory consumer panel responses and unsatisfactory test marketing.";
 			}
 			- Tags = { IRPYRawContainer 
-				- size = 3;
+				- size = 4;
 				- value = 
 				{ ITag 
 					- _id = GUID 645af773-5511-41d9-9099-3c7906a62296;
@@ -11709,8 +14721,40 @@ ill cause failure.";
 						- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 					}
 				}
+				{ ITag 
+					- _id = GUID cf6e689f-fdd9-4377-b972-8c712793f180;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:23:19;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 06d97420-2f1c-4536-b8e7-f5c937b4e7cf;
+							- _modifiedTimeWeak = 11.5.2015::16:23:19;
+							- _value = "Yes";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "";
+						- _name = "Yes-No";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "UML 4SE RFP 2003";
+						- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					}
+				}
 			}
-			- weakCGTime = 1.20.2015::20:36:30;
+			- weakCGTime = 11.5.2015::16:23:19;
 			- strongCGTime = 12.15.2014::16:25:58;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

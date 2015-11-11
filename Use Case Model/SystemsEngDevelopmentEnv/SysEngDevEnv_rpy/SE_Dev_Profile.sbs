@@ -28,7 +28,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- _name = "SE_Dev_Profile";
-	- _modifiedTimeWeak = 5.18.2015::19:34:25;
+	- _modifiedTimeWeak = 11.9.2015::13:25:59;
 	- _description = { IDescription 
 		- _text = "This profile is a default profile for a project or program.  The intent is to use a copy of this profile to capture those profile elements specific to a project or program.  The reason it is here is to solve a program level issue associated with sharing a common Property file across multiple models.  
 It does this by using the property in this profile called \"Model::Profile::PropertyFile\".  Here you can reference a file containing default properties that can be common to and shared across multiple models.  By using this technique, it overrides the Factory and site property files but not the project level.
@@ -49,9 +49,9 @@ Mar 11 2015 Version 01.03.00
 
 *********************************************************************************************";
 	}
-	- _lastID = 10;
+	- _lastID = 11;
 	- Declaratives = { IRPYRawContainer 
-		- size = 7;
+		- size = 8;
 		- value = 
 		{ IStereotype 
 			- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
@@ -161,9 +161,9 @@ Mar 11 2015 Version 01.03.00
 			- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 			- _myState = 8192;
 			- _name = "Definition";
-			- _modifiedTimeWeak = 4.17.2015::14:45:36;
+			- _modifiedTimeWeak = 11.5.2015::16:22:42;
 			- Tags = { IRPYRawContainer 
-				- size = 4;
+				- size = 5;
 				- value = 
 				{ ITag 
 					- _id = GUID dd989ee7-e736-4ae2-8908-17dc66de3535;
@@ -234,8 +234,44 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 					}
 					- _isOrdered = 0;
 				}
+				{ ITag 
+					- _id = GUID 988c693c-97cc-4463-b5c1-ee1035c30973;
+					- _myState = 8192;
+					- _name = "UML 4SE RFP 2003";
+					- _modifiedTimeWeak = 11.5.2015::16:22:42;
+					- _description = { IDescription 
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+{\\colortbl ;\\red0\\green0\\blue255;}
+\\viewkind4\\uc1\\pard\\fs20 This tag when answered \"Yes\" indicates that this item is from the terms and definitions from the original RFI CSV file titled \\ldblquote SE Conceptual Model Semantic Dictionary (Draft 12_03-27-03)\\rdblquote  located at \\cf1\\ul\\protect http://www.omg.org/syseng/SE_Conceptual%20Model/SE_Conceptual_Model.htm.\\cf0\\protect0  \\par
+}
+";
+						- Hyperlinks = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IExternalHyperlink 
+								- _name = "http://www.omg.org/syseng/SE_Conceptual%20Model/SE_Conceptual_Model.htm.";
+								- _textType = "FREE";
+								- _target = "http://www.omg.org/syseng/SE_Conceptual%20Model/SE_Conceptual_Model.htm.";
+							}
+						}
+					}
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID 01735d9c-d969-432f-aa5e-3dbe93009d59;
+							- _modifiedTimeWeak = 11.5.2015::16:22:42;
+							- _value = "No";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+					}
+					- _isOrdered = 0;
+				}
 			}
-			- _lastID = 5;
+			- _lastID = 6;
 			- _m2Classes = { IRPYRawContainer 
 				- size = 1;
 				- value = "Class"; 
@@ -394,8 +430,72 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 				- value = "ActivityDiagram"; "CallOperation"; "State"; 
 			}
 		}
+		{ IStereotype 
+			- _id = GUID 4961adc7-4357-477a-ba61-21c9e0b97ee3;
+			- _myState = 8192;
+			- _properties = { IPropertyContainer 
+				- Subjects = { IRPYRawContainer 
+					- size = 1;
+					- value = 
+					{ IPropertySubject 
+						- _Name = "Format";
+						- Metaclasses = { IRPYRawContainer 
+							- size = 3;
+							- value = 
+							{ IPropertyMetaclass 
+								- _Name = "ActionPin";
+								- Properties = { IRPYRawContainer 
+									- size = 2;
+									- value = 
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "0,0,0";
+										- _Type = Color;
+									}
+									{ IProperty 
+										- _Name = "Line.LineColor";
+										- _Value = "255,251,240";
+										- _Type = Color;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "ActivityFrame";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Font.FontColor";
+										- _Value = "255,251,240";
+										- _Type = Color;
+									}
+								}
+							}
+							{ IPropertyMetaclass 
+								- _Name = "ActivityParameter";
+								- Properties = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IProperty 
+										- _Name = "Fill.FillColor";
+										- _Value = "0,0,0";
+										- _Type = Color;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			- _name = "stream";
+			- _modifiedTimeWeak = 11.9.2015::13:25:59;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "Pin"; 
+			}
+		}
 	}
-	- weakCGTime = 5.18.2015::19:34:25;
+	- weakCGTime = 11.9.2015::13:25:59;
 	- strongCGTime = 3.11.2015::17:10:7;
 	- _defaultComposite = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 	- _eventsBaseID = -1;
@@ -406,8 +506,8 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 			- _id = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.17.2015::14:45:36;
-			- weakCGTime = 4.17.2015::14:45:36;
+			- _modifiedTimeWeak = 5.18.2015::19:34:25;
+			- weakCGTime = 5.18.2015::19:34:25;
 			- strongCGTime = 3.11.2015::17:10:7;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -417,7 +517,7 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 		}
 	}
 	- Types = { IRPYRawContainer 
-		- size = 5;
+		- size = 6;
 		- value = 
 		{ IType 
 			- _id = GUID 58e0bf6c-b1dc-4c95-84e1-59db274b654a;
@@ -652,6 +752,42 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 					- _name = "INCOSE SE Handbook";
 					- _modifiedTimeWeak = 3.25.2015::18:44:4;
 					- _value = " INCOSE Systems Engineering Handbook v.3.2.2, INCOSE-TP-2003-002-03.2.2, October 2011, Section 4.1";
+				}
+			}
+			- _kind = Enumeration;
+		}
+		{ IType 
+			- _id = GUID 04e1b27d-906c-46b7-a41c-f007a4f27ddf;
+			- _myState = 8192;
+			- _name = "Yes-No";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "DataType";
+					- _id = GUID 39bf6572-6f61-4cbf-b651-64241e075688;
+				}
+			}
+			- _modifiedTimeWeak = 11.5.2015::16:22:14;
+			- _lastID = 2;
+			- Literals = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IEnumerationLiteral 
+					- _id = GUID 865d3f3f-4bf7-45cf-b390-985a43f9a8c0;
+					- _name = "No";
+					- _modifiedTimeWeak = 11.5.2015::16:21:47;
+					- _value = "";
+				}
+				{ IEnumerationLiteral 
+					- _id = GUID b5a89e06-14fa-4a2a-80dd-1dd0a0bf5d3a;
+					- _name = "Yes";
+					- _modifiedTimeWeak = 11.5.2015::16:21:54;
+					- _value = "";
 				}
 			}
 			- _kind = Enumeration;

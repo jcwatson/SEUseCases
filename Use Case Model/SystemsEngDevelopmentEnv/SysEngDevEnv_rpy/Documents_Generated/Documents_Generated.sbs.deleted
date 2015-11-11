@@ -1,17 +1,9 @@
 I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
-	- _ownerHandle = { IHandle 
-		- _m2Class = "ISubsystem";
-		- _filename = "System_Engineering_Operations.sbs";
-		- _subsystem = "System Engineering Operations";
-		- _class = "";
-		- _name = "System Engineering Development System";
-		- _id = GUID 0ab040f7-e724-40c5-a608-9b9e41fdbd2f;
-	}
 	- _id = GUID ec647722-1ed8-4c1e-add4-60795884cdaa;
 	- _myState = 8192;
 	- _name = "Documents Generated";
-	- _modifiedTimeWeak = 7.24.2015::14:39:35;
+	- _modifiedTimeWeak = 11.11.2015::17:1:17;
 	- _lastID = 10;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -74,7 +66,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Documents_Generated\\Use_Case_Tables\\Use_Case_Tables.sbs";
-						- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Use Case Tables::List of Use Cases Table";
+						- _subsystem = "Documents Generated::Use Case Tables::List of Use Cases Table";
 						- _class = "";
 						- _name = "block definition diagram_0";
 						- _id = GUID 8b5517d6-b5a5-4b0b-8df3-c154423a78d8;
@@ -93,8 +85,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								- _textType = "NAME";
 								- _target = { IHandle 
 									- _m2Class = "ITableInstance";
-									- _filename = "System_Engineering_Operations.sbs";
-									- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases::Use Case Table Views";
+									- _filename = "";
+									- _subsystem = "SE Life Cycle Workflow Use Cases::Use Case Table Views";
 									- _class = "";
 									- _name = "Use Case Description Table View";
 									- _id = GUID 2a817ce6-118c-46f1-98c8-57e4d7c7f5dc;
@@ -183,11 +175,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _classModifier = Unspecified;
 				}
 			}
-			- _configurationRelatedTime = 12.31.1969::19:0:0;
+			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 7.24.2015::14:39:35;
-	- strongCGTime = 4.10.2015::19:19:41;
+	- weakCGTime = 11.11.2015::17:1:17;
+	- strongCGTime = 11.11.2015::17:1:17;
 	- _defaultComposite = GUID ebc4fe54-ecba-42da-9803-5ad160cfbb20;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
@@ -197,8 +189,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID ebc4fe54-ecba-42da-9803-5ad160cfbb20;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.13.2015::16:19:27;
-			- weakCGTime = 4.13.2015::16:19:27;
+			- _modifiedTimeWeak = 7.24.2015::14:39:35;
+			- weakCGTime = 7.24.2015::14:39:35;
 			- strongCGTime = 4.10.2015::19:19:41;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
