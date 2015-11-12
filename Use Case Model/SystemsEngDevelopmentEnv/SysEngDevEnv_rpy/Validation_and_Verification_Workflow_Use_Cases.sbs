@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
 		- _filename = "System_Development_Stage.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases";
+		- _subsystem = "SE Life Cycle Workflow Use Cases";
 		- _class = "";
 		- _name = "System Development Stage";
 		- _id = GUID 1cac8b15-93af-4e74-8c1e-6da70b8dc4d1;
@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID d50621e9-6d94-4e96-a575-8d3ee5c2e7f0;
 	- _myState = 8192;
 	- _name = "Validation and Verification Workflow Use Cases";
-	- _modifiedTimeWeak = 11.11.2015::13:21:28;
+	- _modifiedTimeWeak = 11.11.2015::19:41:30;
 	- _lastID = 4;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -365,7 +365,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "Validation and Verification Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.11.2015::13:21:32";
+			- _lastModifiedTime = "11.11.2015::19:41:30";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 47022366-8e05-4873-8733-3126580b836a;
 				- m_type = 0;
@@ -536,7 +536,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 					- m_pParent = GUID 3c48a92f-07e2-4ecd-a99d-75bae891ae83;
 					- m_name = { CGIText 
-						- m_str = "SE Development System";
+						- m_str = "Systems Engineering";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -756,7 +756,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 11.11.2015::13:21:28;
+	- weakCGTime = 11.11.2015::19:41:30;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 2aa23c66-5c52-4667-bba9-2454a036d768;
 	- _eventsBaseID = -1;
@@ -767,8 +767,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 2aa23c66-5c52-4667-bba9-2454a036d768;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.30.2015::18:20:17;
-			- weakCGTime = 3.30.2015::18:20:17;
+			- _modifiedTimeWeak = 11.11.2015::13:21:28;
+			- weakCGTime = 11.11.2015::13:21:28;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -855,9 +855,6 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -938,9 +935,6 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -980,9 +974,6 @@ Post Conditions\\b0  -\\par
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -1060,9 +1051,6 @@ Post Conditions\\b0  -\\par
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 

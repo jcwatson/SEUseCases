@@ -2,8 +2,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
-		- _filename = "System_Engineering_Operations.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System";
+		- _filename = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv.rpy";
+		- _subsystem = "";
 		- _class = "";
 		- _name = "SE Life Cycle Workflow Use Cases";
 		- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
@@ -11,23 +11,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID c27fc8c5-127d-4141-8990-da58e0eda24b;
 	- _myState = 8192;
 	- _name = "Worflow Patterns";
-	- _modifiedTimeWeak = 10.30.2015::20:31:51;
+	- _modifiedTimeWeak = 11.11.2015::23:3:50;
 	- _lastID = 1;
-	- Declaratives = { IRPYRawContainer 
-		- size = 1;
-		- value = 
-		{ IStereotype 
-			- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
-			- _myState = 8192;
-			- _name = "WkFlPattern";
-			- _modifiedTimeWeak = 3.29.2015::15:52:25;
-			- _m2Classes = { IRPYRawContainer 
-				- size = 1;
-				- value = "ActivityDiagram"; 
-			}
-		}
-	}
-	- weakCGTime = 10.30.2015::20:32:6;
+	- weakCGTime = 11.11.2015::23:3:50;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID df02ea96-e8b4-49e6-ae1b-3fa1ceb45ceb;
 	- _eventsBaseID = -1;
@@ -55,6 +41,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "WkFlPattern";
 							- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
 						}
 					}
@@ -722,8 +712,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							}
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Import Reference Material(Engineering Artifact)";
 								- _id = GUID af3edff7-ed32-438b-ad0a-30d646fe837e;
@@ -742,8 +732,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							}
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Measure Change Impact(Change Impact Analysis Summary)";
 								- _id = GUID ca33dd23-ea30-4b0b-8b88-73448fa47e4d;
@@ -762,8 +752,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							}
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Conduct a Review()";
 								- _id = GUID 32bd5f2d-7389-4622-81d7-60559915ca64;
@@ -3865,8 +3855,8 @@ John Watson, 8/24/2014\\par
 							- _modifiedTimeWeak = 9.22.2015::23:18:50;
 							- _represents = { IHandle 
 								- _m2Class = "IClass";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Stakeholders";
+								- _filename = "Information_Model.sbs";
+								- _subsystem = "Information Model::Engineering Roles and Disciplines";
 								- _class = "";
 								- _name = "Systems Engineer";
 								- _id = GUID 1c54e64e-93e7-427d-9f0f-87525d89acb2;
@@ -3879,8 +3869,8 @@ John Watson, 8/24/2014\\par
 							- _modifiedTimeWeak = 9.22.2015::23:4:36;
 							- _represents = { IHandle 
 								- _m2Class = "IClass";
-								- _filename = "SE_Development_System_Structure.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure::Development Systems::Systems Engineering Development System";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "";
 								- _name = "SE Development System";
 								- _id = GUID 2b5e590b-3367-47bf-beb0-30bbe333ec00;

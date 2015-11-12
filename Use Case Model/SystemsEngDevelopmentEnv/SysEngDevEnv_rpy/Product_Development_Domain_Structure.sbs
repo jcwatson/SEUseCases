@@ -47,7 +47,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 11.11.2015::17:36:9;
+	- _modifiedTimeWeak = 11.12.2015::20:31:11;
 	- _lastID = 67;
 	- Declaratives = { IRPYRawContainer 
 		- size = 4;
@@ -523,7 +523,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.11.2015::17:36:9";
+			- _lastModifiedTime = "11.12.2015::18:11:23";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID dd247740-f192-4704-9372-bd5a52e68d0a;
 				- m_type = 0;
@@ -1123,7 +1123,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 					- m_pParent = GUID b6423aba-5210-4798-961c-ae23bb87351e;
 					- m_name = { CGIText 
-						- m_str = "Product Development Domian";
+						- m_str = "Product Development Domain";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -6174,7 +6174,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _name = "Stakeholdes";
-			- _modifiedTimeWeak = 11.11.2015::17:33:27;
+			- _modifiedTimeWeak = 11.12.2015::20:31:11;
 			- _lastID = 1;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -6603,7 +6603,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.11.2015::18:3:28";
+					- _lastModifiedTime = "11.12.2015::21:4:34";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID c204119c-bb4d-4ccb-82eb-0c3fc657a43d;
 						- m_type = 0;
@@ -6775,7 +6775,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							}
 							- m_pParent = GUID 17f1d7ec-84d3-4de1-8608-b745f7f8d18d;
 							- m_name = { CGIText 
-								- m_str = "System Stakeholder";
+								- m_str = "Stakeholder";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -8676,7 +8676,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								- _filename = "Information_Model.sbs";
 								- _subsystem = "Information Model::Engineering Roles and Disciplines";
 								- _class = "Manufacturing";
-								- _name = "System Stakeholder";
+								- _name = "Stakeholder";
 								- _id = GUID 1bf2440f-0a15-49ad-a741-1474f449dfbe;
 							}
 							- m_pParent = ;
@@ -8741,7 +8741,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- weakCGTime = 11.11.2015::17:33:27;
+			- weakCGTime = 11.12.2015::20:31:11;
 			- strongCGTime = 11.11.2015::14:36:4;
 			- _defaultComposite = GUID 9fe7f6b9-2981-49b3-9ccd-bf1172872021;
 			- _eventsBaseID = -1;
@@ -8785,7 +8785,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::15:52:2;
+					- _modifiedTimeWeak = 11.12.2015::19:1:40;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
@@ -8794,11 +8794,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f1\\fnil\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\f0\\fs24  The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of electrical and electronic elements; that is, the application of engineering to electrical and electronic elements. [Adapted from SEBoK SW Engineering definition]\\par
 \\par
-Electrical Engineering organization consists of the Electrical Engineers and an environment of integrated tools and capabilities used to to perform Electrical Engineering development activities and tasks.\\f1\\fs20\\par
+Electrical Engineering organization consists of the Electrical Engineers and an environment of integrated tools and capabilities used to perform Electrical Engineering development activities and tasks.\\f1\\fs20\\par
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::15:52:2;
+					- weakCGTime = 11.12.2015::19:1:40;
 					- strongCGTime = 11.11.2015::14:46:51;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -8866,7 +8866,7 @@ Electrical Engineering organization consists of the Electrical Engineers and an 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::15:51:4;
+					- _modifiedTimeWeak = 11.12.2015::18:26:41;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
@@ -8877,12 +8877,12 @@ Electrical Engineering organization consists of the Electrical Engineers and an 
 (2) The study of approaches as in (1). (IEEE 1990)\\par
 [3, SEBoK Glossary]\\par
 \\par
-Software Engineering organization consists of the software engineers and the environment of integrated tools and capabilities used to to perform Software Engineering development activities and tasks.\\par
+Software Engineering organization consists of the software engineers and the environment of integrated tools and capabilities used to perform Software Engineering development activities and tasks.\\par
 \\f1\\fs20\\par
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::15:51:4;
+					- weakCGTime = 11.12.2015::18:26:41;
 					- strongCGTime = 11.4.2015::20:25:45;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -9091,7 +9091,7 @@ Software Engineering organization consists of the software engineers and the env
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::14:35:38;
+					- _modifiedTimeWeak = 11.12.2015::18:12:56;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
@@ -9099,8 +9099,9 @@ Software Engineering organization consists of the software engineers and the env
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}}
 {\\colortbl ;\\red0\\green0\\blue255;}
-\\viewkind4\\uc1\\pard\\f0\\fs22 The organization that is responsible for managing several related projects, often with the intention of improving an organization's performance. It is often closely related to systems engineering and industrial engineering. From Wikipedia at  \\cf1\\ul\\protect http://en.wikipedia.org/wiki/Program_management\\cf0\\protect0 . This can also be referred to as Project Management.\\f1\\fs20\\par
-}";
+\\viewkind4\\uc1\\pard\\f0\\fs22 The organization that is responsible for managing several related projects, often with the intention of improving an organization's performance. It is often closely related to systems engineering and industrial engineering. From Wikipedia at \\cf1\\ul\\protect http://en.wikipedia.org/wiki/Program_management\\cf0\\protect0 . This can also be referred to as Project Management.\\f1\\fs20\\par
+}
+";
 						- Hyperlinks = { IRPYRawContainer 
 							- size = 1;
 							- value = 
@@ -9111,7 +9112,7 @@ Software Engineering organization consists of the software engineers and the env
 							}
 						}
 					}
-					- weakCGTime = 11.11.2015::14:35:38;
+					- weakCGTime = 11.12.2015::18:12:56;
 					- strongCGTime = 11.11.2015::14:35:38;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -9168,7 +9169,7 @@ Software Engineering organization consists of the software engineers and the env
 				{ IClass 
 					- _id = GUID 866e8c5d-da84-4e29-81c0-48395c2ee74e;
 					- _myState = 8192;
-					- _name = "System Stakeholder";
+					- _name = "Stakeholder";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -9189,7 +9190,7 @@ Software Engineering organization consists of the software engineers and the env
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::14:35:38;
+					- _modifiedTimeWeak = 11.11.2015::18:44:29;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
@@ -9197,13 +9198,12 @@ Software Engineering organization consists of the software engineers and the env
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Calibri;}{\\f2\\fnil\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\f0\\fs24 A stakeholder is any entity (individual or organization) with a legitimate interest in the system. Typical stakeholders include users, operators, organization decision\\f1\\u8208?\\f0 makers, parties to the agreement, regulatory bodies, developing agencies, support organizations, and society\\f1\\u8208?\\f0 at\\f1\\u8208?\\f0 large.\\par
-\\par
-\\fs22 INCOSE Systems Engineering Handbook v. 3.2.2, INCOSE\\f1\\u8208?\\f0 TP\\f1\\u8208?\\f0 2003\\f1\\u8208?\\f0 002\\f1\\u8208?\\f0 03.2.2, October 2011, Sec 4.1.1.2\\f2\\fs20\\par
+[2, \\fs22 INCOSE Handbook  Sec 4.1.1.2]\\f2\\fs20\\par
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::14:35:38;
-					- strongCGTime = 11.11.2015::14:35:38;
+					- weakCGTime = 11.11.2015::18:44:29;
+					- strongCGTime = 11.11.2015::18:44:29;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9234,7 +9234,7 @@ Software Engineering organization consists of the software engineers and the env
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::14:35:38;
+					- _modifiedTimeWeak = 11.11.2015::18:44:29;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
@@ -9248,7 +9248,7 @@ Software Engineering organization consists of the software engineers and the env
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::14:35:38;
+					- weakCGTime = 11.11.2015::18:44:29;
 					- strongCGTime = 11.11.2015::14:35:38;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -9294,15 +9294,15 @@ Software Engineering organization consists of the software engineers and the env
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::14:35:38;
+					- _modifiedTimeWeak = 11.12.2015::20:31:11;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
 					}
 					- _description = { IDescription 
-						- _text = "The organization contracted to provide technical support to the customer for the system-of-interest. This can include installation of the systems, answering technical questions, investigating customer issues, planned maintenance, training and removal at the end of the life cycle.  ";
+						- _text = "The discipline is contracted to provide technical support to the customer for the system-of-interest. This can include installation of the systems, answering technical questions, investigating customer issues, planned maintenance, training and removal at the end of the life cycle.  ";
 					}
-					- weakCGTime = 11.11.2015::14:35:38;
+					- weakCGTime = 11.12.2015::20:31:11;
 					- strongCGTime = 11.11.2015::14:35:38;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -9348,7 +9348,7 @@ Software Engineering organization consists of the software engineers and the env
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::14:59:2;
+					- _modifiedTimeWeak = 11.11.2015::18:44:29;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Information_Model.sbs";
@@ -9375,7 +9375,7 @@ Software Engineering organization consists of the software engineers and the env
 							}
 						}
 					}
-					- weakCGTime = 11.11.2015::14:59:2;
+					- weakCGTime = 11.11.2015::18:44:29;
 					- strongCGTime = 11.11.2015::14:38:38;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -9421,7 +9421,7 @@ Software Engineering organization consists of the software engineers and the env
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::14:38:38;
+					- _modifiedTimeWeak = 11.11.2015::18:44:29;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Information_Model.sbs";
@@ -9437,7 +9437,7 @@ Software Engineering organization consists of the software engineers and the env
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::14:38:38;
+					- weakCGTime = 11.11.2015::18:44:29;
 					- strongCGTime = 11.11.2015::14:38:38;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -9483,25 +9483,25 @@ Software Engineering organization consists of the software engineers and the env
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::14:45:42;
+					- _modifiedTimeWeak = 11.12.2015::19:3:48;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
 					}
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}}
-\\viewkind4\\uc1\\pard\\fs20 Engineering is the discipline, art, and profession that applies scientific theory to design, develop, and analyze technological solutions. In the contemporary era, it is generally considered to consist of the major basic branches of chemical engineering, civil engineering, electrical engineering, and mechanical engineering.There are numerous other engineering subdisciplines and interdisciplinary subjects that are derived from concentrations, combinations, or extensions of the major eng
-ineering branches. \\par
+\\viewkind4\\uc1\\pard\\fs20 Engineering is the discipline, art, and profession that applies scientific theory to design, develop, and analyze technological solutions. In the contemporary era, it is generally considered to consist of the major basic branches of chemical engineering, civil engineering, electrical engineering, and mechanical engineering. There are numerous other engineering sub-disciplines and interdisciplinary subjects that are derived from concentrations, combinations, or extensions of the major e
+ngineering branches. \\par
 [8, Wikipedia, List of engineering branches]\\par
 \\par
 \\f1\\fs24\\par
-In this model the Engineering discipline consists of the engineers and the environment of integrated tools and capabilities used to to perform engineering development activities and tasks.\\f0\\fs20\\par
+In this model the Engineering discipline consists of the engineers and the environment of integrated tools and capabilities used to perform engineering development activities and tasks.\\f0\\fs20\\par
 \\par
 \\par
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::14:45:42;
+					- weakCGTime = 11.12.2015::19:3:48;
 					- strongCGTime = 11.11.2015::14:38:38;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -9585,7 +9585,7 @@ In this model the Engineering discipline consists of the engineers and the envir
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::15:58:15;
+					- _modifiedTimeWeak = 11.12.2015::19:58:13;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Information_Model.sbs";
@@ -9595,20 +9595,13 @@ In this model the Engineering discipline consists of the engineers and the envir
 						- _id = GUID 2f96cc84-b904-453f-9661-2b03ad12bfb0;
 					}
 					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fprq9\\fcharset0 Calibri;}{\\f1\\froman\\fprq2\\fcharset0 Times New Roman;}}
-\\viewkind4\\uc1\\pard\\f0\\fs20 Systems Engineering is the context for the Systems Engineering Workflow Use Cases. It includes the roles associated with applyin system wide activities including the Systems Engineering roles, Speciality Engineering roles, V&V (Verification and Validation) roles and it includes the Systems Engineering Development Development System (SEDS) providing the tools to these roles. \\par
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fprq9\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\f0\\fs22 Systems Engineering is the context for the Systems Engineering Workflow Use Cases. It includes the roles associated with applying system wide activities including the Systems Engineering roles, Specialty Engineering roles, V&V (Verification and Validation) roles and it includes the Systems Engineering Development System (SEDS) providing the tools for these roles. [Created for model]\\line\\par
 Systems Engineering (SE) is an interdisciplinary approach and means to enable the realization of successful systems. It focuses on defining customer needs and required functionality early in the development cycle, documenting requirements, and then proceeding with design synthesis and system validation while considering the complete problem: operations, cost and schedule, performance, training and support, test, manufacturing, and disposal. SE considers both the business and the technical needs of all cust
-omers with the goal of providing a quality product that meets the user needs. [2, INCOSE Handbook]\\par
-(1) Interdisciplinary approach governing the total technical and managerial effort required to transform a set of customer needs, expectations, and constraints into a solution and to support that solution throughout its life. (ISO/IEC/IEEE 2010) \\par
- (2) An interdisciplinary approach and means to enable the realization of successful systems. It focuses on defining customer needs and required functionality early in the development cycle, documenting requirements, then proceeding with design synthesis and system validation while considering the complete problem:\\par
-        Operations\\par
-        Performance\\par
-        Test\\par
-        Manufacturing\\par
-        Cost & Schedule\\par
-        Training & Support\\par
-        Disposal\\par
-Systems engineering integrates all the disciplines and specialty groups into a team effort forming a structured development process that proceeds from concept to production to operation. Systems engineering considers both the business and the technical needs of all customers with the goal of providing a quality product that meets the user needs. (INCOSE 2012) [3, SEBoK Glossary]\\f1\\fs24\\par
+omers with the goal of providing a quality product that meets the user needs. [10, INCOSE Handbook, Appendix C]\\par
+\\line (1) Interdisciplinary approach governing the total technical and managerial effort required to transform a set of customer needs, expectations, and constraints into a solution and to support that solution throughout its life. (ISO/IEC/IEEE 2010) \\line  (2) An interdisciplinary approach and means to enable the realization of successful systems. It focuses on defining customer needs and required functionality early in the development cycle, documenting requirements, then proceeding with design synthesis 
+and system validation while considering the complete problem:\\line         Operations\\line         Performance\\line         Test\\line         Manufacturing\\line         Cost & Schedule\\line         Training & Support\\line         Disposal\\line Systems engineering integrates all the disciplines and specialty groups into a team effort forming a structured development process that proceeds from concept to production to operation. Systems engineering considers both the business and the technical needs of all customers w
+ith the goal of providing a quality product that meets the user needs. (INCOSE 2012) [3, SEBoK Glossary]\\f1\\fs20\\par
 }
 ";
 					}
@@ -9648,7 +9641,7 @@ Systems engineering integrates all the disciplines and specialty groups into a t
 							}
 						}
 					}
-					- weakCGTime = 11.11.2015::15:58:15;
+					- weakCGTime = 11.12.2015::19:58:13;
 					- strongCGTime = 11.11.2015::14:58:35;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -10422,7 +10415,7 @@ Systems engineering integrates all the disciplines and specialty groups into a t
 				}
 			}
 			- _name = "Systems Engineering Development System";
-			- _modifiedTimeWeak = 11.11.2015::15:59:50;
+			- _modifiedTimeWeak = 11.12.2015::19:2:3;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
@@ -18800,7 +18793,7 @@ Configuration Management\\fs20\\par
 					- _configurationRelatedTime = 1.2.1990::0:0:0;
 				}
 			}
-			- weakCGTime = 11.11.2015::15:59:50;
+			- weakCGTime = 11.12.2015::19:2:3;
 			- strongCGTime = 11.11.2015::14:32:1;
 			- _defaultComposite = GUID 278f99f4-66e8-4501-8eb9-67a17cc85022;
 			- _eventsBaseID = 5201;
@@ -18869,7 +18862,7 @@ Configuration Management\\fs20\\par
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::15:51:21;
+					- _modifiedTimeWeak = 11.12.2015::19:2:3;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
@@ -19398,7 +19391,7 @@ t and product management domains.\\f1\\fs20\\par
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "11.11.2015::15:7:10";
+							- _lastModifiedTime = "11.12.2015::19:56:1";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 966d7ce6-3781-450f-8bd8-11d85ebfbae9;
 								- m_type = 0;
@@ -22902,7 +22895,7 @@ t and product management domains.\\f1\\fs20\\par
 							}
 						}
 					}
-					- weakCGTime = 11.11.2015::15:51:21;
+					- weakCGTime = 11.12.2015::19:2:3;
 					- strongCGTime = 3.29.2015::15:52:25;
 					- Operations = { IRPYRawContainer 
 						- size = 12;
@@ -22957,8 +22950,8 @@ t and product management domains.\\f1\\fs20\\par
 									- value = 
 									{ IHandle 
 										- _m2Class = "IStereotype";
-										- _filename = "Worflow_Patterns.sbs";
-										- _subsystem = "SE Life Cycle Workflow Use Cases::Worflow Patterns";
+										- _filename = "SE_Dev_Profile.sbs";
+										- _subsystem = "SE_Dev_Profile";
 										- _class = "";
 										- _name = "WkFlPattern";
 										- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
@@ -26160,8 +26153,8 @@ t and product management domains.\\f1\\fs20\\par
 									- value = 
 									{ IHandle 
 										- _m2Class = "IStereotype";
-										- _filename = "Worflow_Patterns.sbs";
-										- _subsystem = "SE Life Cycle Workflow Use Cases::Worflow Patterns";
+										- _filename = "SE_Dev_Profile.sbs";
+										- _subsystem = "SE_Dev_Profile";
 										- _class = "";
 										- _name = "WkFlPattern";
 										- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
@@ -30629,8 +30622,8 @@ The Content Owner needs to manage the comments originating from various reviewer
 									- value = 
 									{ IHandle 
 										- _m2Class = "IStereotype";
-										- _filename = "Worflow_Patterns.sbs";
-										- _subsystem = "SE Life Cycle Workflow Use Cases::Worflow Patterns";
+										- _filename = "SE_Dev_Profile.sbs";
+										- _subsystem = "SE_Dev_Profile";
 										- _class = "";
 										- _name = "WkFlPattern";
 										- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
@@ -34487,8 +34480,8 @@ On new programs it is often useful to transform data from previous similar progr
 									- value = 
 									{ IHandle 
 										- _m2Class = "IStereotype";
-										- _filename = "Worflow_Patterns.sbs";
-										- _subsystem = "SE Life Cycle Workflow Use Cases::Worflow Patterns";
+										- _filename = "SE_Dev_Profile.sbs";
+										- _subsystem = "SE_Dev_Profile";
 										- _class = "";
 										- _name = "WkFlPattern";
 										- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
@@ -48234,7 +48227,7 @@ verify data";
 			- _configurationRelatedTime = 11.4.2015::16:43:0;
 		}
 	}
-	- weakCGTime = 11.11.2015::17:36:9;
+	- weakCGTime = 11.12.2015::20:31:11;
 	- strongCGTime = 11.11.2015::17:3:10;
 	- _defaultComposite = GUID f0bda8dd-70a6-43c0-a98a-ceeecc279ff9;
 	- _eventsBaseID = -1;
@@ -48245,8 +48238,8 @@ verify data";
 			- _id = GUID f0bda8dd-70a6-43c0-a98a-ceeecc279ff9;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.11.2015::17:3:10;
-			- weakCGTime = 11.11.2015::17:3:10;
+			- _modifiedTimeWeak = 11.12.2015::18:11:18;
+			- weakCGTime = 11.12.2015::18:11:18;
 			- strongCGTime = 11.11.2015::17:3:10;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -48257,7 +48250,7 @@ verify data";
 		{ IClass 
 			- _id = GUID 8ac97926-943b-4518-a303-8dbd6cf01eaf;
 			- _myState = 8192;
-			- _name = "Product Development Domian";
+			- _name = "Product Development Domain";
 			- Stereotypes = { IRPYRawContainer 
 				- size = 2;
 				- value = 
@@ -48278,13 +48271,13 @@ verify data";
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 11.11.2015::16:43:52;
+			- _modifiedTimeWeak = 11.12.2015::20:31:14;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
 			}
 			- _description = { IDescription 
-				- _text = "The Product Development Domain provides the systems context for Systems Engineering. Included in this domain are all the entities that influence or interact with the system of interest, i.e Systems Engineering.";
+				- _text = "The Product Development Domain provides the systems context for Systems Engineering. Included in this domain are all the entities that influence or interact with the system of interest, i.e. Systems Engineering.";
 			}
 			- _lastID = 10;
 			- Declaratives = { IRPYRawContainer 
@@ -48713,7 +48706,7 @@ verify data";
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.11.2015::16:43:56";
+					- _lastModifiedTime = "11.12.2015::20:31:14";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID d09b065a-bd5e-42ad-95c0-db653ac99215;
 						- m_type = 0;
@@ -49501,110 +49494,6 @@ verify data";
 							}
 						}
 						{ CGIObjectInstance 
-							- _id = GUID d0e2a120-664f-43df-a980-a9365eb8dde7;
-							- _properties = { IPropertyContainer 
-								- Subjects = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertySubject 
-										- _Name = "General";
-										- Metaclasses = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertyMetaclass 
-												- _Name = "Graphics";
-												- Properties = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IProperty 
-														- _Name = "FitBoxToItsTextuals";
-														- _Value = "False";
-														- _Type = Bool;
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-							- m_type = 111;
-							- m_pModelObject = { IHandle 
-								- _m2Class = "IPart";
-								- _id = GUID 119bae0c-57da-4003-a9e9-232ea2b39819;
-							}
-							- m_pParent = GUID 0ec31cd4-bdf6-415d-a2f1-095449826beb;
-							- m_name = { CGIText 
-								- m_str = ":Mechanical Engineer";
-								- m_style = "Arial" 10 0 0 0 1 ;
-								- m_color = { IColor 
-									- m_fgColor = 0;
-									- m_bgColor = 0;
-									- m_bgFlag = 0;
-								}
-								- m_position = 1 0 0  ;
-								- m_nIdent = 0;
-								- m_bImplicitSetRectPoints = 0;
-								- m_nOrientationCtrlPt = 5;
-							}
-							- m_drawBehavior = 525056;
-							- m_transform = 0.113314 0 0 0.0499109 191.773 379.579 ;
-							- m_bIsPreferencesInitialized = 1;
-							- m_bIsMisplaced = 1;
-							- m_AdditionalLabel = { CGIText 
-								- m_str = "";
-								- m_style = "Arial" 10 0 0 0 1 ;
-								- m_color = { IColor 
-									- m_fgColor = 0;
-									- m_bgColor = 0;
-									- m_bgFlag = 0;
-								}
-								- m_position = 1 0 0  ;
-								- m_nIdent = 0;
-								- m_bImplicitSetRectPoints = 0;
-								- m_nOrientationCtrlPt = 1;
-							}
-							- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
-							- m_nNameFormat = 0;
-							- m_nIsNameFormat = 0;
-							- Compartments = { IRPYRawContainer 
-								- size = 2;
-								- value = 
-								{ CGICompartment 
-									- _id = GUID 8799f6a9-e8ea-4b29-887d-fd79cfa55fea;
-									- m_name = "Attribute";
-									- m_displayOption = Public;
-									- m_bShowInherited = 0;
-									- m_bOrdered = 0;
-								}
-								{ CGICompartment 
-									- _id = GUID 1be6f773-7cf7-416a-849a-1bd044e05294;
-									- m_name = "Operation";
-									- m_displayOption = Public;
-									- m_bShowInherited = 0;
-									- m_bOrdered = 0;
-								}
-							}
-							- Attrs = { IRPYRawContainer 
-								- size = 0;
-							}
-							- Operations = { IRPYRawContainer 
-								- size = 0;
-							}
-							- m_multiplicity = { CGIText 
-								- m_str = "*";
-								- m_style = "Arial" 10 0 0 0 1 ;
-								- m_color = { IColor 
-									- m_fgColor = 0;
-									- m_bgColor = 0;
-									- m_bgFlag = 0;
-								}
-								- m_position = 1 0 0  ;
-								- m_nIdent = 0;
-								- m_bImplicitSetRectPoints = 0;
-								- m_nOrientationCtrlPt = 8;
-							}
-						}
-						{ CGIObjectInstance 
 							- _id = GUID 8b47dd4b-b4ec-471b-93fe-5988095328cc;
 							- _properties = { IPropertyContainer 
 								- Subjects = { IRPYRawContainer 
@@ -49708,6 +49597,110 @@ verify data";
 								- m_nOrientationCtrlPt = 8;
 							}
 						}
+						{ CGIObjectInstance 
+							- _id = GUID d0e2a120-664f-43df-a980-a9365eb8dde7;
+							- _properties = { IPropertyContainer 
+								- Subjects = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertySubject 
+										- _Name = "General";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Graphics";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "FitBoxToItsTextuals";
+														- _Value = "False";
+														- _Type = Bool;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							- m_type = 111;
+							- m_pModelObject = { IHandle 
+								- _m2Class = "IPart";
+								- _id = GUID 119bae0c-57da-4003-a9e9-232ea2b39819;
+							}
+							- m_pParent = GUID 0ec31cd4-bdf6-415d-a2f1-095449826beb;
+							- m_name = { CGIText 
+								- m_str = ":Mechanical Engineer";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 5;
+							}
+							- m_drawBehavior = 525056;
+							- m_transform = 0.113314 0 0 0.0499109 191.773 379.579 ;
+							- m_bIsPreferencesInitialized = 1;
+							- m_bIsMisplaced = 1;
+							- m_AdditionalLabel = { CGIText 
+								- m_str = "";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 1;
+							}
+							- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+							- m_nNameFormat = 0;
+							- m_nIsNameFormat = 0;
+							- Compartments = { IRPYRawContainer 
+								- size = 2;
+								- value = 
+								{ CGICompartment 
+									- _id = GUID 8799f6a9-e8ea-4b29-887d-fd79cfa55fea;
+									- m_name = "Attribute";
+									- m_displayOption = Public;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+								}
+								{ CGICompartment 
+									- _id = GUID 1be6f773-7cf7-416a-849a-1bd044e05294;
+									- m_name = "Operation";
+									- m_displayOption = Public;
+									- m_bShowInherited = 0;
+									- m_bOrdered = 0;
+								}
+							}
+							- Attrs = { IRPYRawContainer 
+								- size = 0;
+							}
+							- Operations = { IRPYRawContainer 
+								- size = 0;
+							}
+							- m_multiplicity = { CGIText 
+								- m_str = "*";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 8;
+							}
+						}
 						
 						- m_access = 'Z';
 						- m_modified = 'N';
@@ -49727,8 +49720,8 @@ verify data";
 					}
 				}
 			}
-			- weakCGTime = 11.11.2015::16:43:52;
-			- strongCGTime = 11.11.2015::16:28:43;
+			- weakCGTime = 11.12.2015::20:31:14;
+			- strongCGTime = 11.12.2015::18:11:21;
 			- Ports = { IRPYRawContainer 
 				- size = 1;
 				- value = 

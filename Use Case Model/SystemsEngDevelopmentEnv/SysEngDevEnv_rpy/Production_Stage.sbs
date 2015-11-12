@@ -2,8 +2,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
-		- _filename = "System_Engineering_Operations.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System";
+		- _filename = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv.rpy";
+		- _subsystem = "";
 		- _class = "";
 		- _name = "SE Life Cycle Workflow Use Cases";
 		- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID e8e5671e-b495-4d41-a575-df3971b040cf;
 	- _myState = 8192;
 	- _name = "Production Stage";
-	- _modifiedTimeWeak = 11.10.2015::22:59:24;
+	- _modifiedTimeWeak = 11.11.2015::19:41:17;
 	- _description = { IDescription 
 		- _text = "This section captures the set of systems engineer process use cases. Therefore it does not include all use cases for all domains.  Often System Engineers are the primary actor for these use cases but the use case can be driven from another stakeholder where the systems engineer is a contributor. 
 The use cases shown are not executed in any particular order nor are they executed one at a time. Typically multiple use cases are being executed parallel and often one is providing more refinement to another.   ";
@@ -369,7 +369,7 @@ The use cases shown are not executed in any particular order nor are they execut
 			}
 			- _name = "Production Stage Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.10.2015::22:59:27";
+			- _lastModifiedTime = "11.11.2015::19:41:17";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 6b4afca5-fc1b-4589-9f29-1b5a68332b1f;
 				- m_type = 0;
@@ -540,7 +540,7 @@ The use cases shown are not executed in any particular order nor are they execut
 					}
 					- m_pParent = GUID 6e254b42-c4b1-4f45-9178-63129f5c7949;
 					- m_name = { CGIText 
-						- m_str = "SE Development System";
+						- m_str = "Systems Engineering";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -626,7 +626,7 @@ The use cases shown are not executed in any particular order nor are they execut
 			}
 		}
 	}
-	- weakCGTime = 11.10.2015::22:59:24;
+	- weakCGTime = 11.11.2015::19:41:17;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 5ec5536e-ebe3-48f0-b0ab-549c7e8c4bc3;
 	- _eventsBaseID = -1;
@@ -637,8 +637,8 @@ The use cases shown are not executed in any particular order nor are they execut
 			- _id = GUID 5ec5536e-ebe3-48f0-b0ab-549c7e8c4bc3;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.30.2015::18:20:33;
-			- weakCGTime = 3.30.2015::18:20:33;
+			- _modifiedTimeWeak = 11.10.2015::22:59:24;
+			- weakCGTime = 11.10.2015::22:59:24;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -724,9 +724,6 @@ The use cases shown are not executed in any particular order nor are they execut
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 

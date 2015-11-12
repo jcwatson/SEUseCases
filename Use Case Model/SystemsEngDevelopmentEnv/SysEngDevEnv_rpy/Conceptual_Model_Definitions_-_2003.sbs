@@ -2,16 +2,16 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
-		- _filename = "Information_Model.sbs";
+		- _filename = "Playground_Temp.sbs";
 		- _subsystem = "";
 		- _class = "";
-		- _name = "Information Model";
-		- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
+		- _name = "Playground Temp";
+		- _id = GUID e14f70a9-2bf9-4c79-a5e7-7eccacc7251b;
 	}
 	- _id = GUID 4e7bfe24-07c5-404f-86b4-73f2883e1e8a;
 	- _myState = 8192;
 	- _name = "Conceptual Model Definitions - 2003";
-	- _modifiedTimeWeak = 11.5.2015::19:25:6;
+	- _modifiedTimeWeak = 11.12.2015::1:38:52;
 	- _lastID = 8;
 	- Declaratives = { IRPYRawContainer 
 		- size = 3;
@@ -209,7 +209,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 									- _value = { IHandle 
 										- _m2Class = "ISubsystem";
 										- _filename = "Definitions_from_Concept_Model.sbs";
-										- _subsystem = "Information Model::Conceptual Model Definitions - 2003";
+										- _subsystem = "Playground Temp::Conceptual Model Definitions - 2003";
 										- _class = "";
 										- _name = "Definitions from Concept Model";
 										- _id = GUID 9fb47b2f-4b24-4419-9bd7-4b00febba526;
@@ -232,6 +232,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						{ TableDataDefinition 
 							- _myTable = { IHandle 
 								- _m2Class = "ITableLayout";
+								- _filename = "";
+								- _subsystem = "";
+								- _class = "";
+								- _name = "";
 								- _id = GUID 2f3ca59d-5d5e-4577-bc70-4961cca82a51;
 							}
 							- _modelElement = { IHandle 
@@ -247,6 +251,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						{ TableDataDefinition 
 							- _myTable = { IHandle 
 								- _m2Class = "ITableLayout";
+								- _filename = "";
+								- _subsystem = "";
+								- _class = "";
+								- _name = "";
 								- _id = GUID 2f3ca59d-5d5e-4577-bc70-4961cca82a51;
 							}
 							- _modelElement = { IHandle 
@@ -258,14 +266,18 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						{ TableDataDefinition 
 							- _myTable = { IHandle 
 								- _m2Class = "ITableLayout";
+								- _filename = "";
+								- _subsystem = "";
+								- _class = "";
+								- _name = "";
 								- _id = GUID 2f3ca59d-5d5e-4577-bc70-4961cca82a51;
 							}
 							- _modelElement = { IHandle 
 								- _m2Class = "ITag";
-								- _filename = "SE_Dev_Profile.sbs";
-								- _subsystem = "SE_Dev_Profile";
-								- _class = "Definition";
-								- _name = "Number";
+								- _filename = "";
+								- _subsystem = "";
+								- _class = "";
+								- _name = "";
 								- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 							}
 							- _name = "Number";
@@ -275,6 +287,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						{ TableDataDefinition 
 							- _myTable = { IHandle 
 								- _m2Class = "ITableLayout";
+								- _filename = "";
+								- _subsystem = "";
+								- _class = "";
+								- _name = "";
 								- _id = GUID 2f3ca59d-5d5e-4577-bc70-4961cca82a51;
 							}
 							- _modelElement = { IHandle 
@@ -286,14 +302,18 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						{ TableDataDefinition 
 							- _myTable = { IHandle 
 								- _m2Class = "ITableLayout";
+								- _filename = "";
+								- _subsystem = "";
+								- _class = "";
+								- _name = "";
 								- _id = GUID 2f3ca59d-5d5e-4577-bc70-4961cca82a51;
 							}
 							- _modelElement = { IHandle 
 								- _m2Class = "ITag";
-								- _filename = "SE_Dev_Profile.sbs";
-								- _subsystem = "SE_Dev_Profile";
-								- _class = "Definition";
-								- _name = "Notes";
+								- _filename = "";
+								- _subsystem = "";
+								- _class = "";
+								- _name = "";
 								- _id = GUID dd989ee7-e736-4ae2-8908-17dc66de3535;
 							}
 							- _name = "Notes";
@@ -303,14 +323,18 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						{ TableDataDefinition 
 							- _myTable = { IHandle 
 								- _m2Class = "ITableLayout";
+								- _filename = "";
+								- _subsystem = "";
+								- _class = "";
+								- _name = "";
 								- _id = GUID 2f3ca59d-5d5e-4577-bc70-4961cca82a51;
 							}
 							- _modelElement = { IHandle 
 								- _m2Class = "ITag";
-								- _filename = "SE_Dev_Profile.sbs";
-								- _subsystem = "SE_Dev_Profile";
-								- _class = "Definition";
-								- _name = "Examples";
+								- _filename = "";
+								- _subsystem = "";
+								- _class = "";
+								- _name = "";
 								- _id = GUID 08693686-daa3-43f2-a8d6-90f35d54e9bb;
 							}
 							- _name = "Examples";
@@ -426,8 +450,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _modifiedTimeWeak = 4.22.2015::22:4:38;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
-								- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
-								- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Review Document Models and Documents::Use Case Review Document Template";
+								- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
+								- _subsystem = "Generated Documents::Review Document Models and Documents::Use Case Review Document Template";
 								- _class = "";
 								- _name = "High Level Contents";
 								- _id = GUID f975e65b-1f6e-4b79-b172-a23bb1d4a6b3;
@@ -454,8 +478,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 									- _modifiedTimeWeak = 4.22.2015::22:10:52;
 									- _theMainDiagram = { IHandle 
 										- _m2Class = "IDiagram";
-										- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
-										- _subsystem = "System Engineering Operations::System Engineering Development System::Documents Generated::Review Document Models and Documents::Use Case Review Document Template";
+										- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
+										- _subsystem = "Generated Documents::Review Document Models and Documents::Use Case Review Document Template";
 										- _class = "";
 										- _name = "High Level Contents";
 										- _id = GUID f975e65b-1f6e-4b79-b172-a23bb1d4a6b3;
@@ -1402,6 +1426,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								{ TableDataDefinition 
 									- _myTable = { IHandle 
 										- _m2Class = "ITableLayout";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID 3d6c94f2-58f2-4f8f-a5ea-ecf0dc6bb914;
 									}
 									- _modelElement = { IHandle 
@@ -1417,14 +1445,18 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								{ TableDataDefinition 
 									- _myTable = { IHandle 
 										- _m2Class = "ITableLayout";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID 3d6c94f2-58f2-4f8f-a5ea-ecf0dc6bb914;
 									}
 									- _modelElement = { IHandle 
 										- _m2Class = "ITag";
-										- _filename = "SE_Dev_Profile.sbs";
-										- _subsystem = "SE_Dev_Profile";
-										- _class = "Definition";
-										- _name = "Number";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID e811d822-fbf0-46dc-81a5-3126b48f3425;
 									}
 									- _name = "Number";
@@ -1434,6 +1466,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								{ TableDataDefinition 
 									- _myTable = { IHandle 
 										- _m2Class = "ITableLayout";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID 3d6c94f2-58f2-4f8f-a5ea-ecf0dc6bb914;
 									}
 									- _modelElement = { IHandle 
@@ -1445,6 +1481,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								{ TableDataDefinition 
 									- _myTable = { IHandle 
 										- _m2Class = "ITableLayout";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID 3d6c94f2-58f2-4f8f-a5ea-ecf0dc6bb914;
 									}
 									- _modelElement = { IHandle 
@@ -1456,14 +1496,18 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								{ TableDataDefinition 
 									- _myTable = { IHandle 
 										- _m2Class = "ITableLayout";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID 3d6c94f2-58f2-4f8f-a5ea-ecf0dc6bb914;
 									}
 									- _modelElement = { IHandle 
 										- _m2Class = "ITag";
-										- _filename = "SE_Dev_Profile.sbs";
-										- _subsystem = "SE_Dev_Profile";
-										- _class = "Definition";
-										- _name = "Notes";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID dd989ee7-e736-4ae2-8908-17dc66de3535;
 									}
 									- _name = "Notes";
@@ -1473,14 +1517,18 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								{ TableDataDefinition 
 									- _myTable = { IHandle 
 										- _m2Class = "ITableLayout";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID 3d6c94f2-58f2-4f8f-a5ea-ecf0dc6bb914;
 									}
 									- _modelElement = { IHandle 
 										- _m2Class = "ITag";
-										- _filename = "SE_Dev_Profile.sbs";
-										- _subsystem = "SE_Dev_Profile";
-										- _class = "Definition";
-										- _name = "Examples";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID 08693686-daa3-43f2-a8d6-90f35d54e9bb;
 									}
 									- _name = "Examples";
@@ -1676,6 +1724,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								{ TableDataDefinition 
 									- _myTable = { IHandle 
 										- _m2Class = "ITableLayout";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID 3d6c94f2-58f2-4f8f-a5ea-ecf0dc6bb914;
 									}
 									- _modelElement = { IHandle 
@@ -1691,6 +1743,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								{ TableDataDefinition 
 									- _myTable = { IHandle 
 										- _m2Class = "ITableLayout";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID 1b79ef9a-075c-418f-98b6-799007793b7f;
 									}
 									- _modelElement = { IHandle 
@@ -1702,6 +1758,10 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								{ TableDataDefinition 
 									- _myTable = { IHandle 
 										- _m2Class = "ITableLayout";
+										- _filename = "";
+										- _subsystem = "";
+										- _class = "";
+										- _name = "";
 										- _id = GUID 1b79ef9a-075c-418f-98b6-799007793b7f;
 									}
 									- _modelElement = { IHandle 
@@ -1830,8 +1890,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 11.5.2015::19:25:6;
-	- strongCGTime = 11.5.2015::16:14:25;
+	- weakCGTime = 11.12.2015::1:38:52;
+	- strongCGTime = 11.12.2015::1:38:52;
 	- _defaultComposite = GUID 93341984-5b07-440d-8b54-1e83f389456b;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
@@ -1841,9 +1901,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 93341984-5b07-440d-8b54-1e83f389456b;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.23.2015::15:6:33;
-			- weakCGTime = 4.23.2015::15:6:33;
-			- strongCGTime = 12.10.2014::4:22:57;
+			- _modifiedTimeWeak = 11.5.2015::19:25:6;
+			- weakCGTime = 11.5.2015::19:25:6;
+			- strongCGTime = 11.5.2015::16:14:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";

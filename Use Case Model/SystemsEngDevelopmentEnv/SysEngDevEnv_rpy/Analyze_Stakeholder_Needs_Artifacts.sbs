@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 07a0630b-566b-4efe-891d-b365d5c76783;
 	- _myState = 8192;
 	- _name = "Analyze Stakeholder Needs Artifacts";
-	- _modifiedTimeWeak = 5.18.2015::14:51:21;
+	- _modifiedTimeWeak = 11.12.2015::15:24:49;
 	- _lastID = 2;
 	- Declaratives = { IRPYRawContainer 
 		- size = 1;
@@ -437,7 +437,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "5.18.2015::19:31:59";
+			- _lastModifiedTime = "11.12.2015::15:41:1";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID e0d5849a-abaa-4a9e-abf6-a35c5f64bc10;
 				- m_type = 0;
@@ -4943,7 +4943,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 5.18.2015::14:51:21;
+	- weakCGTime = 11.12.2015::15:24:49;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID 2645246f-821e-4f2a-a0f4-148c87440aee;
 	- _eventsBaseID = -1;
@@ -4954,8 +4954,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 2645246f-821e-4f2a-a0f4-148c87440aee;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 4.27.2015::16:35:45;
-			- weakCGTime = 4.27.2015::16:35:45;
+			- _modifiedTimeWeak = 5.18.2015::14:51:21;
+			- weakCGTime = 5.18.2015::14:51:21;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -4987,14 +4987,14 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.17.2015::20:35:42;
+			- _modifiedTimeWeak = 11.12.2015::15:33:24;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 All stakeholder requirements should have bidirectional traceability, including to their source, such as the source document or the stakeholder need. [2] (section 4.1)\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 All stakeholder requirements should have bidirectional traceability, including to their source, such as the source document or the stakeholder need.  [2, section 4.1]\\f1\\fs17\\par
 }
 ";
 			}
@@ -5035,7 +5035,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _lastID = 2;
-			- weakCGTime = 4.17.2015::20:35:42;
+			- weakCGTime = 11.12.2015::15:33:24;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5067,18 +5067,18 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.15.2015::22:24:7;
+			- _modifiedTimeWeak = 11.12.2015::15:27:18;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 Describes the way the system will be delivered and installed. [2] (section 4.1)\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 Describes the way the system will be delivered and installed. [2, section 4.1]\\f1\\fs17\\par
 }
 ";
 			}
-			- weakCGTime = 4.15.2015::22:24:7;
+			- weakCGTime = 11.12.2015::15:27:18;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5110,7 +5110,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.15.2015::22:24:27;
+			- _modifiedTimeWeak = 11.12.2015::15:27:38;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -5118,7 +5118,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Arial;}{\\f1\\fswiss\\fcharset0 Calibri-Italic;}{\\f2\\fswiss\\fcharset0 Calibri;}}
 {\\colortbl ;\\red0\\green0\\blue0;}
-\\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 Also known as \"ConOps\"\\cf0\\f1\\fs24  \\f2 - Describes the way the system works from the operator\\rquote s perspective. The ConOps includes the user description and summarizes the needs, goals, and characteristics of the system\\rquote s user community. This includes operation, maintenance, and support personnel. [2]  (section 4.1)\\par
+\\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 Also known as \"ConOps\"\\cf0\\f1\\fs24  \\f2 - Describes the way the system works from the operator\\rquote s perspective. The ConOps includes the user description and summarizes the needs, goals, and characteristics of the system\\rquote s user community. This includes operation, maintenance, and support personnel. [2, section 4.1]\\par
 }
 ";
 			}
@@ -5159,7 +5159,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.15.2015::22:24:27;
+			- weakCGTime = 11.12.2015::15:27:38;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5191,19 +5191,19 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.16.2015::13:38:58;
+			- _modifiedTimeWeak = 11.12.2015::15:28:10;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 Describes the desired support infrastructure and manpower considerations for maintaining the system after it is deployed. This includes specifying equipment, procedures, facilities, and operator training requirements. [2] (section 4.1)\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 Describes the desired support infrastructure and manpower considerations for maintaining the system after it is deployed. This includes specifying equipment, procedures, facilities, and operator training requirements. [2, section 4.1]\\f1\\fs17\\par
 }
 ";
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.16.2015::13:38:58;
+			- weakCGTime = 11.12.2015::15:28:10;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5235,19 +5235,19 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.15.2015::22:24:41;
+			- _modifiedTimeWeak = 11.12.2015::15:27:56;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 Describes the way the system will be manufactured, including any hazardous materials used in the process. [2]  (section 4.1)\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 Describes the way the system will be manufactured, including any hazardous materials used in the process. [2, section 4.1]\\f1\\fs17\\par
 }
 ";
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.15.2015::22:24:41;
+			- weakCGTime = 11.12.2015::15:27:56;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5279,14 +5279,14 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.15.2015::22:24:49;
+			- _modifiedTimeWeak = 11.12.2015::15:30:27;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 Measures of Effectiveness (MOEs) are the \\ldblquote operational\\rdblquote  measures of success that are closely related to the achievement of the mission or operational objective being evaluated, in the intended operational environment under a specified set of conditions (i.e., how well the solution achieves the intended purpose).  [2] (section 4.1)\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 Measures of Effectiveness (MOEs) are the \\ldblquote operational\\rdblquote  measures of success that are closely related to the achievement of the mission or operational objective being evaluated, in the intended operational environment under a specified set of conditions (i.e., how well the solution achieves the intended purpose).  [2, section 4.1]\\f1\\fs17\\par
 }
 ";
 			}
@@ -5327,7 +5327,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.15.2015::22:24:49;
+			- weakCGTime = 11.12.2015::15:30:27;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5359,19 +5359,19 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.15.2015::22:24:56;
+			- _modifiedTimeWeak = 11.12.2015::15:32:38;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 Formally documented and approved stakeholder requirements that will govern the project, including: required system capabilities, functions, and/or services; quality standards; and cost and schedule constraints.  [2] (section 4.1)\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 Formally documented and approved stakeholder requirements that will govern the project, including: required system capabilities, functions, and/or services; quality standards; and cost and schedule constraints. [2, section 4.1]\\f1\\fs17\\par
 }
 ";
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.15.2015::22:24:56;
+			- weakCGTime = 11.12.2015::15:32:38;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5403,19 +5403,19 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.16.2015::13:39:15;
+			- _modifiedTimeWeak = 11.12.2015::15:34:28;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Calibri;}{\\f2\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 May specify who will perform validation activities, and the environments of the system\\f1\\u8208?\\f0 of\\f1\\u8208?\\f0 interest. [2] (section 4.1)\\f2\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 May specify who will perform validation activities, and the environments of the system\\f1\\u8208?\\f0 of\\f1\\u8208?\\f0 interest. [2, section 4.1]\\f2\\fs17\\par
 }
 ";
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.16.2015::13:39:15;
+			- weakCGTime = 11.12.2015::15:34:28;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5447,19 +5447,19 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.15.2015::22:25:9;
+			- _modifiedTimeWeak = 11.12.2015::15:31:21;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 Data provided to measure the MOEs. . [2] (section 4.1)\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 Data provided to measure the MOEs. [2, section 4.1]\\f1\\fs17\\par
 }
 ";
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.15.2015::22:25:9;
+			- weakCGTime = 11.12.2015::15:31:21;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5491,14 +5491,14 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.15.2015::22:25:16;
+			- _modifiedTimeWeak = 11.12.2015::15:29:28;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri-Italic;}{\\f1\\fswiss\\fcharset0 Calibri;}{\\f2\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 Initial Requirements Verification and Traceability Matrix -\\i  \\i0\\f1 A list of requirements, their verification attributes, and traceability. [2] (section 4.1)\\f2\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 Initial Requirements Verification and Traceability Matrix -\\i  \\i0\\f1 A list of requirements, their verification attributes, and traceability. [2, section 4.1]\\f2\\fs17\\par
 }
 ";
 			}
@@ -5539,7 +5539,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.15.2015::22:25:16;
+			- weakCGTime = 11.12.2015::15:29:28;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5571,19 +5571,19 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.27.2015::16:18:16;
+			- _modifiedTimeWeak = 11.12.2015::15:25:56;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 A collection of output artifacts for the Stakeholder Requirements Definition Process establish the initial set of stakeholder requirements for project scope and associated agreements. . [2]  (section 4.1)\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 A collection of output artifacts for the Stakeholder Requirements Definition Process establish the initial set of stakeholder requirements for project scope and associated agreements. . [2, section 4.1]\\f1\\fs17\\par
 }
 ";
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.27.2015::16:18:16;
+			- weakCGTime = 11.12.2015::15:25:56;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -5791,19 +5791,19 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.27.2015::16:18:7;
+			- _modifiedTimeWeak = 11.12.2015::15:25:15;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 A collection input artifacts required for the Stakeholder Requirements Definition Process. . [2]  (section 4.1)\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 A collection input artifacts required for the Stakeholder Requirements Definition Process. . [2, section 4.1]\\f1\\fs17\\par
 }
 ";
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.27.2015::16:18:7;
+			- weakCGTime = 11.12.2015::15:25:15;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -5899,18 +5899,18 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.16.2015::13:39:45;
+			- _modifiedTimeWeak = 11.12.2015::15:32:12;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 Extract, clarify, and prioritize all of the written directives embodied in the source documents relevant to the particular stage of procurement activity. [2]  (section 4.1)\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 Extract, clarify, and prioritize all of the written directives embodied in the source documents relevant to the particular stage of procurement activity. [2, section 4.1]\\f1\\fs17\\par
 }
 ";
 			}
-			- weakCGTime = 4.16.2015::13:39:45;
+			- weakCGTime = 11.12.2015::15:32:12;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5942,18 +5942,18 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.16.2015::13:40:25;
+			- _modifiedTimeWeak = 11.12.2015::15:31:32;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
 			}
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 Includes all other constraints from the stakeholder including cost, schedule, and solution constraints. [2]  (section 4.1)\\par
+\\viewkind4\\uc1\\pard\\f0\\fs24 Includes all other constraints from the stakeholder including cost, schedule, and solution constraints. [2, section 4.1]\\par
 }
 ";
 			}
-			- weakCGTime = 4.16.2015::13:40:25;
+			- weakCGTime = 11.12.2015::15:31:32;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5985,7 +5985,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 				}
 			}
-			- _modifiedTimeWeak = 4.27.2015::16:18:11;
+			- _modifiedTimeWeak = 11.12.2015::15:24:49;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 886cb558-2a4e-4a49-a477-c3dc9d2504bd;
@@ -6003,12 +6003,12 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 {\\pntext\\f2\\'B7\\tab}Project Directives\\par
 {\\pntext\\f2\\'B7\\tab}Organization/Enterprise Policies, Procedures, and Standards - including guidelines and reporting mechanisms\\par
 {\\pntext\\f2\\'B7\\tab}Organization/Enterprise Infrastructure\\par
-{\\pntext\\f2\\'B7\\tab}Project Infrastructure\\cf0\\f0  [2]  (section 4.1)\\cf1\\f1\\par
+{\\pntext\\f2\\'B7\\tab}Project Infrastructure\\cf0\\f0  [2, section 4.1]\\cf1\\f1\\par
 }
 ";
 			}
 			- _lastID = 1;
-			- weakCGTime = 4.27.2015::16:18:11;
+			- weakCGTime = 11.12.2015::15:24:49;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -6058,22 +6058,24 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 4.16.2015::13:41:47;
+			- _modifiedTimeWeak = 11.11.2015::18:41:3;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
-				- _filename = "SE_Development_System_Structure.sbs";
-				- _subsystem = "System Engineering Operations::System Engineering Development System::SE Development System Structure";
+				- _filename = "Product_Development_Domain_Structure.sbs";
+				- _subsystem = "Product Development Domain Structure";
 				- _class = "";
 				- _name = "Product Development Domain Structure";
 				- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
 			}
 			- _description = { IDescription 
-				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\f0\\fs24 Description of users\\rquote  and other stakeholders\\rquote  needs or services that the system of interest will provide. [2]  (section 4.1)\\f1\\fs17\\par
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}{\\f2\\fnil\\fcharset0 MS Sans Serif;}}
+\\viewkind4\\uc1\\pard\\f0\\fs24 Description of users\\rquote  and other stakeholders\\rquote  needs or services that the system of interest will provide. [2, section 4.1)\\par
+\\par
+\\f1\\fs20 The benefits That the Stakeholders wish to be satisfied by or delivered by the system when it is implemented and functioning.\\f2\\fs17\\par
 }
 ";
 			}
-			- weakCGTime = 4.16.2015::13:41:47;
+			- weakCGTime = 11.11.2015::18:41:3;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

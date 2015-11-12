@@ -28,7 +28,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- _name = "SE_Dev_Profile";
-	- _modifiedTimeWeak = 11.9.2015::13:25:59;
+	- _modifiedTimeWeak = 11.11.2015::23:4:3;
 	- _description = { IDescription 
 		- _text = "This profile is a default profile for a project or program.  The intent is to use a copy of this profile to capture those profile elements specific to a project or program.  The reason it is here is to solve a program level issue associated with sharing a common Property file across multiple models.  
 It does this by using the property in this profile called \"Model::Profile::PropertyFile\".  Here you can reference a file containing default properties that can be common to and shared across multiple models.  By using this technique, it overrides the Factory and site property files but not the project level.
@@ -51,7 +51,7 @@ Mar 11 2015 Version 01.03.00
 	}
 	- _lastID = 11;
 	- Declaratives = { IRPYRawContainer 
-		- size = 8;
+		- size = 10;
 		- value = 
 		{ IStereotype 
 			- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
@@ -494,8 +494,28 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 				- value = "Pin"; 
 			}
 		}
+		{ IStereotype 
+			- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
+			- _myState = 8192;
+			- _name = "WkFlPattern";
+			- _modifiedTimeWeak = 11.11.2015::23:3:50;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "ActivityDiagram"; 
+			}
+		}
+		{ IStereotype 
+			- _id = GUID dc1b9b73-d1df-421f-8ca7-1ad3a9b2daae;
+			- _myState = 8192;
+			- _name = "include";
+			- _modifiedTimeWeak = 11.11.2015::23:4:3;
+			- _m2Classes = { IRPYRawContainer 
+				- size = 1;
+				- value = "State"; 
+			}
+		}
 	}
-	- weakCGTime = 11.9.2015::13:25:59;
+	- weakCGTime = 11.11.2015::23:4:3;
 	- strongCGTime = 3.11.2015::17:10:7;
 	- _defaultComposite = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 	- _eventsBaseID = -1;
@@ -506,8 +526,8 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 			- _id = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 5.18.2015::19:34:25;
-			- weakCGTime = 5.18.2015::19:34:25;
+			- _modifiedTimeWeak = 11.9.2015::13:25:59;
+			- weakCGTime = 11.9.2015::13:25:59;
 			- strongCGTime = 3.11.2015::17:10:7;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

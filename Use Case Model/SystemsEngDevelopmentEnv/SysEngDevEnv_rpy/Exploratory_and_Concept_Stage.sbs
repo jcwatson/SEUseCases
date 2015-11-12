@@ -2,8 +2,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
-		- _filename = "System_Engineering_Operations.sbs";
-		- _subsystem = "System Engineering Operations::Product Development Domain";
+		- _filename = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv.rpy";
+		- _subsystem = "";
 		- _class = "";
 		- _name = "SE Life Cycle Workflow Use Cases";
 		- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
@@ -11,11 +11,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 5d69c9d4-3a32-49fc-829e-51b39c74246d;
 	- _myState = 8192;
 	- _name = "Exploratory and Concept Stage";
-	- _modifiedTimeWeak = 11.11.2015::16:0:40;
+	- _modifiedTimeWeak = 11.11.2015::19:42:17;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
-		- _filename = "Documents_Generated\\Review_Document_Models_and_Documents\\Review_Document_-Analyze_Stakeholders_Needs.sbs";
-		- _subsystem = "System Engineering Operations::Product Development Domain::Documents Generated::Review Document Models and Documents::Review Document -Analyze Stakeholders Needs::Items to Review";
+		- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Review_Document_-Analyze_Stakeholders_Needs.sbs";
+		- _subsystem = "Generated Documents::Review Document Models and Documents::Review Document -Analyze Stakeholders Needs::Items to Review";
 		- _class = "";
 		- _name = "Use Case being  Reviewed";
 		- _id = GUID f5acf1de-a859-4352-8b35-2f9e37a005a1;
@@ -457,7 +457,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "Exploratory and Concept Stage Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.11.2015::16:0:41";
+			- _lastModifiedTime = "11.11.2015::19:42:17";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID ff4926df-a6ac-4b04-9c83-f69a46cedb29;
 				- m_type = 0;
@@ -673,7 +673,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 					- m_pParent = GUID e7048d9a-b418-4ea0-b683-65b60ebfee24;
 					- m_name = { CGIText 
-						- m_str = "SE Development System";
+						- m_str = "Systems Engineering";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -771,7 +771,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Program Management";
 						- _name = "itsResponse to a Customer Request";
 						- _id = GUID ead9521f-a962-4de9-a0e1-527139a2c27d;
@@ -941,7 +941,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Program Management";
 						- _name = "itsDerive System Requirements";
 						- _id = GUID 20e81b9f-a77e-4db2-b93a-9ad3609b8709;
@@ -1156,7 +1156,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Program Management";
 						- _name = "itsAnalyze System Life-cycle Costs";
 						- _id = GUID bb919ec8-84b4-4bc5-8e95-d05a5b79085c;
@@ -1371,7 +1371,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Program Management";
 						- _name = "itsAnalyze Stakeholders Needs_1";
 						- _id = GUID 03b0f3da-4293-443c-8b17-b6f37a9cab17;
@@ -1584,7 +1584,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pInverseModelObject = { IAssociationEndHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Stakeholder";
 						- _name = "itsAnalyze Stakeholders Needs";
 						- _id = GUID 9d31ba6e-cfd5-4aee-8aa2-93ed8de042aa;
@@ -1689,7 +1689,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
 						- _name = "Stakeholder";
 						- _id = GUID ad033bc4-009c-4395-9da6-3c272207b006;
@@ -1737,7 +1737,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
 						- _name = "Program Management";
 						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
@@ -1798,7 +1798,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 11.11.2015::16:0:40;
+	- weakCGTime = 11.11.2015::19:42:17;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a4a4050b-d10d-49f3-91c4-5fe6ec60261f;
 	- _eventsBaseID = -1;
@@ -1809,9 +1809,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID a4a4050b-d10d-49f3-91c4-5fe6ec60261f;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 9.22.2015::19:37:22;
+			- _modifiedTimeWeak = 11.11.2015::16:0:40;
 			- _lastID = 1;
-			- weakCGTime = 9.22.2015::19:37:22;
+			- weakCGTime = 11.11.2015::16:0:40;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2794,7 +2794,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Conduct a Review()";
 								- _id = GUID 5f10e503-3b49-42a3-94f6-2613b4827c42;
@@ -2822,7 +2822,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Perform a Trade Study()";
 								- _id = GUID 9f5d60b2-e797-4b1f-b658-d0e5a0e67ff8;
@@ -6511,7 +6511,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
 						- _name = "Program Management";
 						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
@@ -6519,7 +6519,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Program Management";
 						- _name = "itsResponse to a Customer Request";
 						- _id = GUID ead9521f-a962-4de9-a0e1-527139a2c27d;
@@ -7768,7 +7768,7 @@ Also
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Conduct a Review()";
 								- _id = GUID 32bd5f2d-7389-4622-81d7-60559915ca64;
@@ -7805,7 +7805,7 @@ Also
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Analyze Requirements()";
 								- _id = GUID 88572fe6-289f-4677-af44-3fd46540529f;
@@ -7821,7 +7821,7 @@ Also
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Import Reference Material(Engineering Artifact)";
 								- _id = GUID af3edff7-ed32-438b-ad0a-30d646fe837e;
@@ -7837,7 +7837,7 @@ Also
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Import Reference Material(Engineering Artifact)";
 								- _id = GUID af3edff7-ed32-438b-ad0a-30d646fe837e;
@@ -11798,7 +11798,7 @@ Also
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
 						- _name = "Stakeholder";
 						- _id = GUID ad033bc4-009c-4395-9da6-3c272207b006;
@@ -11806,7 +11806,7 @@ Also
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Stakeholder";
 						- _name = "itsAnalyze Stakeholders Needs";
 						- _id = GUID 9d31ba6e-cfd5-4aee-8aa2-93ed8de042aa;
@@ -11824,7 +11824,7 @@ Also
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
 						- _name = "Program Management";
 						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
@@ -11832,7 +11832,7 @@ Also
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Program Management";
 						- _name = "itsAnalyze Stakeholders Needs_1";
 						- _id = GUID 03b0f3da-4293-443c-8b17-b6f37a9cab17;
@@ -12888,7 +12888,7 @@ A System Requirement Specification may also be produced including many of the ca
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 								- _class = "SE Development System";
 								- _name = "Define System Context()";
 								- _id = GUID 59b9845a-28c6-4be4-a77d-8deaca5d6222;
@@ -16127,7 +16127,7 @@ A System Requirement Specification may also be produced including many of the ca
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
 						- _name = "Program Management";
 						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
@@ -16135,7 +16135,7 @@ A System Requirement Specification may also be produced including many of the ca
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Program Management";
 						- _name = "itsDerive System Requirements";
 						- _id = GUID 20e81b9f-a77e-4db2-b93a-9ad3609b8709;
@@ -16242,7 +16242,7 @@ A System Requirement Specification may also be produced including many of the ca
 					- _otherClass = { IClassifierHandle 
 						- _m2Class = "IActor";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
 						- _name = "Program Management";
 						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
@@ -16250,7 +16250,7 @@ A System Requirement Specification may also be produced including many of the ca
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::SE Life Cycle Workflow Use Cases::Actors";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "Program Management";
 						- _name = "itsAnalyze System Life-cycle Costs";
 						- _id = GUID bb919ec8-84b4-4bc5-8e95-d05a5b79085c;

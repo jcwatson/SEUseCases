@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 3a04fbcd-2fe6-42da-b48b-82a46d0ca9a2;
 	- _myState = 8192;
 	- _name = "Context Definitions";
-	- _modifiedTimeWeak = 11.11.2015::14:58:35;
+	- _modifiedTimeWeak = 11.12.2015::19:14:54;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "Information_Model.sbs";
@@ -1003,7 +1003,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "Product_Development_Domain_Structure.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Systems Engineering Development System";
+						- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
 						- _class = "";
 						- _name = "SE Development System";
 						- _id = GUID 2b5e590b-3367-47bf-beb0-30bbe333ec00;
@@ -1108,7 +1108,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "Product_Development_Domain_Structure.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Stakeholdes";
+						- _subsystem = "Product Development Domain Structure::Stakeholdes";
 						- _class = "";
 						- _name = "Systems Engineering";
 						- _id = GUID a66a1419-4ed7-4b9c-9b3b-874a62f1b484;
@@ -1189,7 +1189,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "Product_Development_Domain_Structure.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Stakeholdes";
+						- _subsystem = "Product Development Domain Structure::Stakeholdes";
 						- _class = "Systems Engineering";
 						- _name = "SE Devel";
 						- _id = GUID 3c4c2888-a114-41ff-acd2-bd6e2ec7e9ef;
@@ -1388,7 +1388,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Roles::Engineering Roles";
+						- _subsystem = "Information Model::Engineering Roles and Disciplines";
 						- _class = "";
 						- _name = "Systems Engineer";
 						- _id = GUID 1c54e64e-93e7-427d-9f0f-87525d89acb2;
@@ -1468,7 +1468,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "Product_Development_Domain_Structure.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Stakeholdes";
+						- _subsystem = "Product Development Domain Structure::Stakeholdes";
 						- _class = "Systems Engineering";
 						- _name = "SE";
 						- _id = GUID 603e3a2f-cfdc-43b7-aaa4-dc1656e518de;
@@ -1662,7 +1662,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Roles::Engineering Roles";
+						- _subsystem = "Information Model::Engineering Roles and Disciplines";
 						- _class = "";
 						- _name = "Specialty Engineer";
 						- _id = GUID 0925ce07-5e3a-4a26-8aff-f9e8e8e97336;
@@ -1742,7 +1742,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "Product_Development_Domain_Structure.sbs";
-						- _subsystem = "System Engineering Operations::Product Development Domain::Product Development Domain Structure::Stakeholdes";
+						- _subsystem = "Product Development Domain Structure::Stakeholdes";
 						- _class = "Systems Engineering";
 						- _name = "specEnging";
 						- _id = GUID 5e9f6d07-7236-4275-862e-a94d44027f96;
@@ -1941,7 +1941,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IClass";
 						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Roles::Engineering Roles";
+						- _subsystem = "Information Model::Engineering Roles and Disciplines";
 						- _class = "";
 						- _name = "Specialty Engineering";
 						- _id = GUID 0903640f-f4bc-40b7-92c6-cdb610642da5;
@@ -2022,7 +2022,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IPart";
 						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Roles::Engineering Roles";
+						- _subsystem = "Information Model::Engineering Roles and Disciplines";
 						- _class = "Specialty Engineering";
 						- _name = "specEng";
 						- _id = GUID 32e0f18c-e1dd-4fd4-b01a-f79bb95076f3;
@@ -2187,11 +2187,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 11.11.2015::14:58:35;
+	- weakCGTime = 11.12.2015::19:14:54;
 	- strongCGTime = 3.29.2015::15:52:32;
-	- AssociationElements = { IRPYRawContainer 
-		- size = 0;
-	}
 	- _defaultComposite = GUID 02f5ac2c-642a-434a-928a-05a9a7c52a0e;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
@@ -2201,8 +2198,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 02f5ac2c-642a-434a-928a-05a9a7c52a0e;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.4.2015::16:41:28;
-			- weakCGTime = 11.4.2015::16:41:28;
+			- _modifiedTimeWeak = 11.11.2015::14:58:35;
+			- weakCGTime = 11.11.2015::14:58:35;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2284,9 +2281,6 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
 			}
 			- _classModifier = Unspecified;
 		}
@@ -2409,7 +2403,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 				}
 			}
-			- _modifiedTimeWeak = 4.14.2015::22:23:19;
+			- _modifiedTimeWeak = 11.12.2015::19:14:54;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _filename = "Information_Model.sbs";
@@ -2421,9 +2415,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}{\\f1\\fswiss\\fcharset0 Calibri-Italic;}}
 {\\colortbl ;\\red0\\green0\\blue0;}
-\\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 The system whose life cycle is under consideration.[2]\\par
+\\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 The system whose life cycle is under consideration. [2] \\par
 \\par
-A specific system in the context of a set of systems that is the primary focus of evaluation, analysis or development. \\cf0\\f1\\par
+(1) The system whose life cycle is under consideration. (ISO/IEC/IEEE 2015) \\par
+(2) The system of interest to an observer. (Bertalanffy 1968) \\par
+[3, SEBoK Glossary]\\cf0\\f1\\par
 }
 ";
 			}
@@ -2463,7 +2459,7 @@ A specific system in the context of a set of systems that is the primary focus o
 					}
 				}
 			}
-			- weakCGTime = 4.14.2015::22:23:19;
+			- weakCGTime = 11.12.2015::19:14:54;
 			- strongCGTime = 4.14.2015::22:21:47;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;

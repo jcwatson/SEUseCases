@@ -3,14 +3,14 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 11.11.2015::18:18:54;
+	- _modifiedTimeWeak = 11.12.2015::18:58:36;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
 	}
 	- _lastID = 41;
 	- Declaratives = { IRPYRawContainer 
-		- size = 10;
+		- size = 9;
 		- value = 
 		{ ISubsystem 
 			- fileName = "Analyze_Stakeholder_Needs_Artifacts";
@@ -80,7 +80,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- _modifiedTimeWeak = 11.10.2015::13:9:56;
+			- _modifiedTimeWeak = 11.12.2015::19:7:56;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
@@ -1215,7 +1215,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- weakCGTime = 11.10.2015::13:9:56;
+			- weakCGTime = 11.12.2015::19:7:56;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _defaultComposite = GUID 127fe8ad-766e-481f-9586-c51b83b7a23d;
 			- _eventsBaseID = -1;
@@ -1259,20 +1259,20 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.10.2015::13:12:13;
+					- _modifiedTimeWeak = 11.12.2015::18:19:6;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
 					}
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\f0\\fs22 The review package describes what has changed. Typically this is measured against the previous baseline.  The review package contains all the changed items and any additional needed information to complete the context of those changed items. \\par
+\\viewkind4\\uc1\\pard\\f0\\fs22 The review package describes what is the proposed change being reviewed. Typically this is measured against the previous baseline.  The review package contains all the changed items and any additional needed information to complete the context of those changed items. \\par
 The review package should highlight what items have been added, deleted or updated, e.g. document change bars, red lines, text color changes, annotation, etc. \\par
-The review package can consist of any type of artifact, including SysML models, documents, code, parts of the system, prototypes, etc.\\f1\\fs20\\par
+The review package can consist of any type of artifact, including models, documents, code, parts of the system, prototypes, etc.\\f1\\fs20\\par
 }
 ";
 					}
-					- weakCGTime = 11.10.2015::13:12:13;
+					- weakCGTime = 11.12.2015::18:19:6;
 					- strongCGTime = 3.31.2015::21:15:8;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -1345,19 +1345,19 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 3.31.2015::21:14:26;
+					- _modifiedTimeWeak = 11.12.2015::19:7:56;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
 					}
 					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f2\\fnil\\fcharset0 MS Sans Serif;}}
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\froman\\fprq2\\fcharset0 Times New Roman;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f2\\fnil\\fcharset0 MS Sans Serif;}}
 {\\colortbl ;\\red0\\green0\\blue0;}
-\\viewkind4\\uc1\\pard\\ltrpar\\sa160\\sl252\\slmult1\\f0\\fs24 Regulatory compliance documents establish a set or rules, principles or usages that describe the goals that an organization, a system or equipment should implement to ensure the awareness of and take steps to comply with relevant \\cf1\\f1\\fs22 laws \\cf0\\f0\\fs24 and \\cf1\\f1\\fs22 regulations.\\cf0\\f2\\fs17\\par
+\\viewkind4\\uc1\\pard\\sa160\\sl252\\slmult1\\f0\\fs24 Regulatory compliance documents establish a set of rules, principles or usages that describe the goals that an organization, a system or equipment should implement to ensure the awareness of and take steps to comply with relevant \\cf1\\f1\\fs22 laws \\cf0\\f0\\fs24 and \\cf1\\f1\\fs22 regulations.\\cf0\\f2\\fs17\\par
 }
 ";
 					}
-					- weakCGTime = 3.31.2015::21:14:26;
+					- weakCGTime = 11.12.2015::19:7:56;
 					- strongCGTime = 3.31.2015::20:20:25;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -1370,7 +1370,7 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 					- _myState = 8192;
 					- _name = "Review Results";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
+						- size = 2;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -1380,24 +1380,31 @@ The set of comments in the Review Comments artifact can be of multiple forms, e.
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
 					}
-					- _modifiedTimeWeak = 11.10.2015::14:40:56;
+					- _modifiedTimeWeak = 11.12.2015::19:9:2;
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
 \\viewkind4\\uc1\\pard\\fs20 Review Results are archived after a review. \\par
-\\par
 The review results contains:\\par
-     1.  The list of reviewers\\par
-     2,  A list \\f1\\fs22 all the changed items referenced in the Review Package. \\par
-       3.   All comments from reviews\\par
-       4.   The adjudication results for each comment\\par
-       5.   A list of open action Items resulting from the review and a plan for closing each of them\\par
+     1. The list of reviewers\\par
+     2. A list \\f1\\fs22 all the changed items referenced in the Review Package. \\par
+      3.  All comments from reviews\\par
+      4.  The adjudication results for each comment\\par
+      5.  A list of open action Items resulting from the review and a plan for closing each of them\\par
 \\par
 }
 ";
 					}
-					- weakCGTime = 11.10.2015::14:40:56;
-					- strongCGTime = 11.10.2015::13:10:8;
+					- weakCGTime = 11.12.2015::19:9:2;
+					- strongCGTime = 11.12.2015::18:20:39;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -1411,7 +1418,7 @@ The review results contains:\\par
 			- _id = GUID 55811343-13cb-48e1-8be3-e8205e2e1cf5;
 			- _myState = 8192;
 			- _name = "Common Terms";
-			- _modifiedTimeWeak = 11.11.2015::17:26:4;
+			- _modifiedTimeWeak = 11.12.2015::18:54:53;
 			- _lastID = 49;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -1721,7 +1728,7 @@ The review results contains:\\par
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.11.2015::18:9:58";
+					- _lastModifiedTime = "11.12.2015::19:55:2";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 8ca9c00c-d1c4-4301-af92-417ed02633d1;
 						- m_type = 0;
@@ -4571,7 +4578,7 @@ The review results contains:\\par
 					}
 				}
 			}
-			- weakCGTime = 11.11.2015::18:18:58;
+			- weakCGTime = 11.12.2015::18:54:53;
 			- strongCGTime = 4.14.2015::16:4:3;
 			- _defaultComposite = GUID aed56898-4eed-4916-a5e6-d6f4f8a9ee01;
 			- _eventsBaseID = -1;
@@ -5575,14 +5582,14 @@ de-off decisions when performance exceeds the threshold. [9]\\f1\\fs17\\par
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 4.18.2015::18:4:22;
+					- _modifiedTimeWeak = 11.12.2015::15:10:59;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 2f96cc84-b904-453f-9661-2b03ad12bfb0;
 					}
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\lang1024\\f0\\fs22 A critical subset of the performance parameters representing those capabilities and characteristics so significant that failure to meet the threshold value of performance can be cause for the concept or system selected to be \\ulwave reevaluated\\ulnone  or the project to be reassessed or terminated. (Adapted from Glossary of Defense Acquisition Acronyms and Terms, Defense Acquisition University Press, January 2001). [9]\\lang1033\\f1\\fs17\\par
+\\viewkind4\\uc1\\pard\\sa200\\sl276\\slmult1\\lang1024\\f0\\fs22 A critical subset of the performance parameters representing those capabilities and characteristics so significant that failure to meet the threshold value of performance can be cause for the concept or system selected to be re-evaluated or the project to be reassessed or terminated. (Adapted from Glossary of Defense Acquisition Acronyms and Terms, Defense Acquisition University Press, January 2001). [9]\\lang1033\\f1\\fs17\\par
 }
 ";
 					}
@@ -5622,7 +5629,7 @@ de-off decisions when performance exceeds the threshold. [9]\\f1\\fs17\\par
 							}
 						}
 					}
-					- weakCGTime = 4.18.2015::18:4:22;
+					- weakCGTime = 11.12.2015::15:10:59;
 					- strongCGTime = 4.18.2015::18:3:11;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -5732,7 +5739,7 @@ This term is useful when a generalized behavior requires input or output data wi
 				{ IClass 
 					- _id = GUID 3095471a-18b2-4457-93d7-6355593a6a58;
 					- _myState = 8192;
-					- _name = "Interaction";
+					- _name = "Request";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -5745,12 +5752,12 @@ This term is useful when a generalized behavior requires input or output data wi
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
 					}
-					- _modifiedTimeWeak = 11.9.2015::14:19:29;
+					- _modifiedTimeWeak = 11.11.2015::21:27:40;
 					- _description = { IDescription 
-						- _text = "This can be one or more question or answer that would be exchanged during an interaction with another domain or individual.  ";
+						- _text = "This is a request to have in interaction with another domain. The interaction can be one or more question or answer that would be exchanged during an interaction with another domain or individual.  ";
 					}
-					- weakCGTime = 11.9.2015::14:19:29;
-					- strongCGTime = 11.9.2015::14:18:21;
+					- weakCGTime = 11.11.2015::21:27:40;
+					- strongCGTime = 11.11.2015::21:25:49;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -5760,7 +5767,7 @@ This term is useful when a generalized behavior requires input or output data wi
 				{ IClass 
 					- _id = GUID 57fbc4a3-7d53-4c37-bb3e-03b6d2a1938d;
 					- _myState = 8192;
-					- _name = "Answer";
+					- _name = "Response";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -5773,9 +5780,12 @@ This term is useful when a generalized behavior requires input or output data wi
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
 					}
-					- _modifiedTimeWeak = 11.9.2015::14:17:24;
-					- weakCGTime = 11.9.2015::14:17:24;
-					- strongCGTime = 11.9.2015::14:17:24;
+					- _modifiedTimeWeak = 11.11.2015::21:26:31;
+					- _description = { IDescription 
+						- _text = "A response from a previous interaction";
+					}
+					- weakCGTime = 11.11.2015::21:26:31;
+					- strongCGTime = 11.11.2015::21:26:0;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -5786,15 +5796,10 @@ This term is useful when a generalized behavior requires input or output data wi
 			- _configurationRelatedTime = 11.5.2015::15:42:59;
 		}
 		{ ISubsystem 
-			- fileName = "Conceptual_Model_Definitions_-_2003";
-			- _id = GUID 4e7bfe24-07c5-404f-86b4-73f2883e1e8a;
-			- _name = "Conceptual Model Definitions - 2003";
-		}
-		{ ISubsystem 
 			- _id = GUID 4114c406-d32a-4647-b4f5-afc39cd20296;
 			- _myState = 8192;
 			- _name = "Configuration Management";
-			- _modifiedTimeWeak = 11.11.2015::16:38:54;
+			- _modifiedTimeWeak = 11.12.2015::18:58:36;
 			- _lastID = 4;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -5950,7 +5955,7 @@ This term is useful when a generalized behavior requires input or output data wi
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.11.2015::16:38:54";
+					- _lastModifiedTime = "11.12.2015::16:48:25";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID abc90f49-e3f5-4a10-be58-996eabee7043;
 						- m_type = 0;
@@ -5974,7 +5979,7 @@ This term is useful when a generalized behavior requires input or output data wi
 						}
 						- m_drawBehavior = 0;
 						- m_bIsPreferencesInitialized = 0;
-						- elementList = 9;
+						- elementList = 10;
 						{ CGIClass 
 							- _id = GUID 14c16a58-aa1e-4856-8ed7-991665b3aa3f;
 							- m_type = 78;
@@ -6066,7 +6071,7 @@ This term is useful when a generalized behavior requires input or output data wi
 								- m_nOrientationCtrlPt = 8;
 							}
 							- m_drawBehavior = 4096;
-							- m_transform = 3.96296 0 0 4.54545 8 20 ;
+							- m_transform = 4.12037 0 0 7.87879 8 20 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -6154,7 +6159,7 @@ This term is useful when a generalized behavior requires input or output data wi
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4102;
-							- m_transform = 0.23796 0 0 0.165775 601.524 11.4599 ;
+							- m_transform = 0.271954 0 0 0.245989 599.456 -32.9305 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -6250,7 +6255,7 @@ This term is useful when a generalized behavior requires input or output data wi
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4102;
-							- m_transform = 0.1983 0 0 0.203209 55.6034 -0.855583 ;
+							- m_transform = 0.311614 0 0 0.326204 557.377 234.679 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -6333,7 +6338,7 @@ This term is useful when a generalized behavior requires input or output data wi
 							}
 							- m_pParent = GUID 14c16a58-aa1e-4856-8ed7-991665b3aa3f;
 							- m_name = { CGIText 
-								- m_str = "Cost Estimate";
+								- m_str = "Technical Impact Estimate";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -6346,7 +6351,7 @@ This term is useful when a generalized behavior requires input or output data wi
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4102;
-							- m_transform = 0.311615 0 0 0.176471 17.3768 337.941 ;
+							- m_transform = 0.498584 0 0 0.326204 17.0029 234.679 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -6442,7 +6447,7 @@ This term is useful when a generalized behavior requires input or output data wi
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4102;
-							- m_transform = 0.254957 0 0 0.181818 301.49 6.18186 ;
+							- m_transform = 0.254957 0 0 0.192513 317.49 -15.3369 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -6538,7 +6543,7 @@ This term is useful when a generalized behavior requires input or output data wi
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4102;
-							- m_transform = 0.298395 0 0 0.190731 389.403 333.25 ;
+							- m_transform = 0.298395 0 0 0.219252 35.403 731.867 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -6634,7 +6639,7 @@ This term is useful when a generalized behavior requires input or output data wi
 								- m_nOrientationCtrlPt = 5;
 							}
 							- m_drawBehavior = 4102;
-							- m_transform = 0.147309 0 0 0.026738 467.705 315.203 ;
+							- m_transform = 0.147309 0 0 0.026738 113.705 735.203 ;
 							- m_bIsPreferencesInitialized = 1;
 							- m_AdditionalLabel = { CGIText 
 								- m_str = "";
@@ -6736,6 +6741,102 @@ This term is useful when a generalized behavior requires input or output data wi
 							- m_ShowName = 0;
 							- m_ShowStereotype = 1;
 						}
+						{ CGIClass 
+							- _id = GUID 0ac051b0-403d-4410-ad45-15bdc5d776ab;
+							- _properties = { IPropertyContainer 
+								- Subjects = { IRPYRawContainer 
+									- size = 2;
+									- value = 
+									{ IPropertySubject 
+										- _Name = "General";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Graphics";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "FitBoxToItsTextuals";
+														- _Value = "False";
+														- _Type = Bool;
+													}
+												}
+											}
+										}
+									}
+									{ IPropertySubject 
+										- _Name = "ObjectModelGe";
+										- Metaclasses = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertyMetaclass 
+												- _Name = "Block";
+												- Properties = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IProperty 
+														- _Name = "Compartments";
+														- _Value = "Description,";
+														- _Type = MultiLine;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							- m_type = 87;
+							- m_pModelObject = { IHandle 
+								- _m2Class = "IClass";
+								- _id = GUID 1853a4a3-99de-4fdb-af6d-04915ba0e628;
+							}
+							- m_pParent = GUID 14c16a58-aa1e-4856-8ed7-991665b3aa3f;
+							- m_name = { CGIText 
+								- m_str = "Project Change Request";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 5;
+							}
+							- m_drawBehavior = 4102;
+							- m_transform = 0.271955 0 0 0.192513 17.4561 -15.3369 ;
+							- m_bIsPreferencesInitialized = 1;
+							- m_AdditionalLabel = { CGIText 
+								- m_str = "";
+								- m_style = "Arial" 10 0 0 0 1 ;
+								- m_color = { IColor 
+									- m_fgColor = 0;
+									- m_bgColor = 0;
+									- m_bgFlag = 0;
+								}
+								- m_position = 1 0 0  ;
+								- m_nIdent = 0;
+								- m_bImplicitSetRectPoints = 0;
+								- m_nOrientationCtrlPt = 1;
+							}
+							- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
+							- m_nNameFormat = 0;
+							- m_nIsNameFormat = 0;
+							- frameset = "<frameset rows=100%>
+<frame name=DescriptionCompartment>";
+							- Compartments = { IRPYRawContainer 
+								- size = 0;
+							}
+							- Attrs = { IRPYRawContainer 
+								- size = 0;
+							}
+							- Operations = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
 						
 						- m_access = 'Z';
 						- m_modified = 'N';
@@ -6755,7 +6856,7 @@ This term is useful when a generalized behavior requires input or output data wi
 					}
 				}
 			}
-			- weakCGTime = 11.11.2015::16:38:54;
+			- weakCGTime = 11.12.2015::18:58:36;
 			- strongCGTime = 11.2.2015::15:46:32;
 			- _defaultComposite = GUID e4686edc-604d-4117-aee1-b8df1fe222db;
 			- _eventsBaseID = -1;
@@ -6799,32 +6900,23 @@ This term is useful when a generalized behavior requires input or output data wi
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.2.2015::15:47:3;
+					- _modifiedTimeWeak = 11.12.2015::16:48:10;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 2f96cc84-b904-453f-9661-2b03ad12bfb0;
 					}
 					- _description = { IDescription 
 						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 MS Sans Serif;}}
-{\\colortbl ;\\red0\\green0\\blue0;\\red0\\green0\\blue255;}
+{\\colortbl ;\\red0\\green0\\blue0;}
 \\viewkind4\\uc1\\pard\\cf1\\f0\\fs20 The gate\\u8208?controlled step\\u8208?by\\u8208?step elaboration of business, budget, functional, performance, and physical characteristics, mutually agreed to by buyer and seller, and under formal change control.\\par
-Baselines can be modified between formal decision gates by mutual consent through the change control process. [2]\\par
+Baselines can be modified between formal decision gates by mutual consent through the change control process. [2, INCOSE Handbook \\ulwave Appendix\\ulnone  C]\\par
 \\par
-\\cf2\\ul\\protect\\f1\\fs17 SEBoK Definition\\cf0\\protect0  [3]\\par
+A specification or product that has been formally reviewed and agreed upon, that thereafter serves as the basis for further development, and that can be changed only through formal change control procedures. (ISO/IEEE 2008) [3, SEBoK Glossary]\\cf0\\ul\\f1\\fs17\\par
 \\par
 }
 ";
-						- Hyperlinks = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IExternalHyperlink 
-								- _name = "SEBoK Definition";
-								- _textType = "FREE";
-								- _target = "http://sebokwiki.org/wiki/Baseline_(glossary)";
-							}
-						}
 					}
-					- weakCGTime = 11.2.2015::15:47:3;
+					- weakCGTime = 11.12.2015::16:48:10;
 					- strongCGTime = 11.2.2015::15:47:3;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -6856,7 +6948,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.2.2015::15:47:3;
+					- _modifiedTimeWeak = 11.12.2015::15:28:38;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 2f96cc84-b904-453f-9661-2b03ad12bfb0;
@@ -6869,7 +6961,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 3. Unique specification,\\par
 4. Formal control of form, fit, and function \\par
 \\par
-[2] INCOSE SE Handbook\\f1\\fs17\\par
+[2, INCOSE SE Handbook]\\f1\\fs17\\par
 }
 ";
 					}
@@ -6909,7 +7001,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							}
 						}
 					}
-					- weakCGTime = 11.2.2015::15:47:3;
+					- weakCGTime = 11.12.2015::15:28:38;
 					- strongCGTime = 11.2.2015::15:47:3;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -6941,18 +7033,23 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::16:38:54;
+					- _modifiedTimeWeak = 11.12.2015::16:32:57;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
 					}
 					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20 The change impact report provides the results of an task performed as a result of a change request. It lists the artifacts and system elements that will be impacted by the change.  For \\ulwave emenents\\ulnone  this can include any element property including behavior, attributes and interfaces that will be affected by the change request. It should also include any observed risks. \\par
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}{\\f1\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs20 The change impact analysis summary provides the results after performing a \"Measure Change Impact Assessment\" task.   .\\par
+\\par
+This task allows the user to select one or more elements that could theoretically change and provides to the user a list of all impacted elements. Elements can be any type of artifact including documents, models, requirements or configuration items and an element\\rquote s properties including behavior, attributes and interfaces. The results also provide the inter-relationships between each of the items presented. \\par
+\\par
+The search can be adjusted by depth of change, the types of elements included and by the types of relationships included.  The presentation is ideally graphical. \\par
+\\f1\\par
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::16:38:54;
+					- weakCGTime = 11.12.2015::16:32:57;
 					- strongCGTime = 11.11.2015::16:38:54;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -6963,7 +7060,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 				{ IClass 
 					- _id = GUID a996735f-fd3a-4c08-8da0-a2a7ca0ba52c;
 					- _myState = 8192;
-					- _name = "Cost Estimate";
+					- _name = "Technical Impact Estimate";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -6984,16 +7081,25 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.5.2015::15:52:1;
+					- _modifiedTimeWeak = 11.12.2015::18:58:36;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
 					}
 					- _description = { IDescription 
-						- _text = "The Engineering Cost Estimate can be associated with a single change request or could be associated with the costs of a major release or development. The costs should include costs associated with the engineering development, validation and verification. It includes items such as man-hours and resource costs such as test equipment, facilities, tools, etc. It should also indicate a preliminary plan estimating when this effort could be made available for validation, verification and customer release.   ";
+						- _text = "This artifact could be associated with a single change request, a major release or an initial development. 
+
+This artifact captures an estimate that should include a schedule, technical feasibility and all costs associated with the engineering development, validation and verification efforts. It includes items such as:
+   - The Change Impact Analysis Summary providing of the extent of changes including the impacted CIs.
+   - Human resource costs and Man-hours
+   - Other life cycle costs that may be impacted during operations, manufacturing, support or retirement
+   - Equipment resource costs for development, validation and verification such as test equipment, facilities, tools, etc.
+   - A preliminary plan estimating the expected duration for development, field upgrades, manufacturing upgrades. The plan should consider availability of people and equipment.  
+   - An estimate when these capabilities could be made available for validation, verification and customer release
+   - Any perceived risks and possible mitigation plans   ";
 					}
-					- weakCGTime = 11.5.2015::15:52:1;
-					- strongCGTime = 11.5.2015::15:52:1;
+					- weakCGTime = 11.12.2015::18:58:36;
+					- strongCGTime = 11.11.2015::20:4:42;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -7024,20 +7130,21 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.10.2015::13:7:35;
+					- _modifiedTimeWeak = 11.12.2015::16:13:57;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
 					}
 					- _description = { IDescription 
 						- _text = "This information includes items such as:
+   -  A list of features added to the system
    -  A list of change requests resolved in this release 
-   -  A list of configuration items (CI) that are required to change
-   -  Any special installation or upgrade instructions or notes. 
-   -  The cost to develop and upgrade systems in the field and in manufacturing  
+   -  A list of configuration items (CI) that are required to be updated or replaced
+   -  Any special installation instructions, upgrade instructions or notes. 
+   -  The cost to develop and upgrade the systems in the field and in manufacturing  
    -  Effectivity of the change on existing systems in the field and in manufacturing";
 					}
-					- weakCGTime = 11.10.2015::13:7:35;
+					- weakCGTime = 11.12.2015::16:13:57;
 					- strongCGTime = 11.9.2015::22:31:2;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -7062,7 +7169,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 				{ IClass 
 					- _id = GUID 1853a4a3-99de-4fdb-af6d-04915ba0e628;
 					- _myState = 8192;
-					- _name = "Change Request";
+					- _name = "Project Change Request";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -7083,9 +7190,16 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::16:13:4;
-					- weakCGTime = 11.11.2015::16:13:4;
-					- strongCGTime = 11.11.2015::16:13:4;
+					- _modifiedTimeWeak = 11.12.2015::16:0:40;
+					- _theMainDiagram = { IHandle 
+						- _m2Class = "IDiagram";
+						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
+					}
+					- _description = { IDescription 
+						- _text = "Requests to update any formal baselines that have been established. In many cases, the need for change requests is identified during the project assessment and control process, Can originate from any life cycle process. [10, INCOSE Handbook, Appendix E]  ";
+					}
+					- weakCGTime = 11.12.2015::16:0:40;
+					- strongCGTime = 11.12.2015::15:18:2;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -8230,7 +8344,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _id = GUID 08b6490a-136b-45a0-b15d-ac1cd6fa8667;
 				}
 			}
-			- _modifiedTimeWeak = 11.11.2015::18:18:54;
+			- _modifiedTimeWeak = 11.11.2015::18:47:44;
 			- _lastID = 4;
 			- Declaratives = { IRPYRawContainer 
 				- size = 3;
@@ -8666,7 +8780,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.11.2015::18:18:54";
+					- _lastModifiedTime = "11.11.2015::18:58:19";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 68922718-7981-489d-a9f7-c96494f9b4b4;
 						- m_type = 0;
@@ -9250,7 +9364,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _configurationRelatedTime = 1.2.1990::0:0:0;
 				}
 			}
-			- weakCGTime = 11.11.2015::18:18:54;
+			- weakCGTime = 11.11.2015::18:47:44;
 			- strongCGTime = 4.18.2015::18:7:34;
 			- _defaultComposite = GUID a85a4783-2875-4468-83ee-1a66b0e8d35a;
 			- _eventsBaseID = -1;
@@ -9277,8 +9391,8 @@ Baselines can be modified between formal decision gates by mutual consent throug
 			- _id = GUID 3144d13c-67e2-4ad6-ac2d-e5aafa61acfc;
 			- _myState = 8192;
 			- _name = "Verification and Validation Related Terms";
-			- _modifiedTimeWeak = 5.9.2015::22:42:34;
-			- weakCGTime = 5.9.2015::22:42:34;
+			- _modifiedTimeWeak = 11.12.2015::1:41:3;
+			- weakCGTime = 11.12.2015::1:41:3;
 			- strongCGTime = 5.9.2015::22:42:34;
 			- _defaultComposite = GUID 96dbe4a0-4f30-4616-9bdc-c6b9dd652b0e;
 			- _eventsBaseID = -1;
@@ -9303,7 +9417,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Concept Documents";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9313,18 +9427,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:3;
+					- weakCGTime = 11.12.2015::1:41:3;
+					- strongCGTime = 11.12.2015::1:41:3;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9336,7 +9442,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Final RVTM";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9346,18 +9452,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:3;
+					- weakCGTime = 11.12.2015::1:41:3;
+					- strongCGTime = 11.12.2015::1:41:3;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9369,7 +9467,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Applicable Laws and Regulations";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9379,18 +9477,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:4;
+					- weakCGTime = 11.12.2015::1:41:4;
+					- strongCGTime = 11.12.2015::1:41:4;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9402,7 +9492,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Industry Standards";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9412,18 +9502,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:5;
+					- weakCGTime = 11.12.2015::1:41:5;
+					- strongCGTime = 11.12.2015::1:41:5;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9435,7 +9517,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Agreements";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9445,18 +9527,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:5;
+					- weakCGTime = 11.12.2015::1:41:5;
+					- strongCGTime = 11.12.2015::1:41:5;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9468,7 +9542,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Project Procedures and Standards";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9478,18 +9552,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:6;
+					- weakCGTime = 11.12.2015::1:41:6;
+					- strongCGTime = 11.12.2015::1:41:6;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9501,7 +9567,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Project Directives";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9511,18 +9577,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:7;
+					- weakCGTime = 11.12.2015::1:41:7;
+					- strongCGTime = 11.12.2015::1:41:7;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9534,7 +9592,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Organization-Enterprise Policy Procedures and Standards";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9544,18 +9602,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:7;
+					- weakCGTime = 11.12.2015::1:41:7;
+					- strongCGTime = 11.12.2015::1:41:7;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9567,7 +9617,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Project Infrastructure";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9577,18 +9627,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:8;
+					- weakCGTime = 11.12.2015::1:41:8;
+					- strongCGTime = 11.12.2015::1:41:8;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9600,7 +9642,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Validation Enabling Systems";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9610,18 +9652,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:8;
+					- weakCGTime = 11.12.2015::1:41:8;
+					- strongCGTime = 11.12.2015::1:41:8;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9633,7 +9667,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Validation Strategy";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9643,18 +9677,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:9;
+					- weakCGTime = 11.12.2015::1:41:9;
+					- strongCGTime = 11.12.2015::1:41:9;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9666,7 +9692,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Validation Enabling System Requirements";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9676,18 +9702,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:9;
+					- weakCGTime = 11.12.2015::1:41:9;
+					- strongCGTime = 11.12.2015::1:41:9;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9699,7 +9717,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Validation Constraints on Design";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9709,18 +9727,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:9;
+					- weakCGTime = 11.12.2015::1:41:9;
+					- strongCGTime = 11.12.2015::1:41:9;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9732,7 +9742,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Validated System";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9742,18 +9752,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:9;
+					- weakCGTime = 11.12.2015::1:41:9;
+					- strongCGTime = 11.12.2015::1:41:9;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9765,7 +9767,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _myState = 8192;
 					- _name = "Validation Report";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -9775,18 +9777,10 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 5.9.2015::22:42:19;
-					- weakCGTime = 5.9.2015::22:42:19;
-					- strongCGTime = 5.9.2015::22:42:19;
+					- _modifiedTimeWeak = 11.12.2015::1:41:9;
+					- weakCGTime = 11.12.2015::1:41:9;
+					- strongCGTime = 11.12.2015::1:41:9;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -9800,7 +9794,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 			- _id = GUID 144d9bad-b054-4df1-b127-f61eb172b95b;
 			- _myState = 8192;
 			- _name = "Engineering Roles and Disciplines";
-			- _modifiedTimeWeak = 11.11.2015::17:48:17;
+			- _modifiedTimeWeak = 11.12.2015::19:1:6;
 			- _lastID = 4;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -10229,7 +10223,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.11.2015::18:9:58";
+					- _lastModifiedTime = "11.12.2015::19:55:2";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 52f19606-0407-478a-a9bb-7eae83c2b55a;
 						- m_type = 0;
@@ -10400,12 +10394,12 @@ Baselines can be modified between formal decision gates by mutual consent throug
 								- _filename = "Product_Development_Domain_Structure.sbs";
 								- _subsystem = "Product Development Domain Structure::Stakeholdes";
 								- _class = "";
-								- _name = "System Stakeholder";
+								- _name = "Stakeholder";
 								- _id = GUID 866e8c5d-da84-4e29-81c0-48395c2ee74e;
 							}
 							- m_pParent = GUID ee4064ea-875c-4956-b2ab-a0558b0956ab;
 							- m_name = { CGIText 
-								- m_str = "System Stakeholder";
+								- m_str = "Stakeholder";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -10563,7 +10557,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 								- _filename = "Product_Development_Domain_Structure.sbs";
 								- _subsystem = "Product Development Domain Structure::Stakeholdes";
 								- _class = "Customer";
-								- _name = "System Stakeholder";
+								- _name = "Stakeholder";
 								- _id = GUID 8f91cbb7-b4b5-4711-9a8b-422acafa4dfe;
 							}
 							- m_pParent = ;
@@ -10726,7 +10720,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 								- _filename = "Product_Development_Domain_Structure.sbs";
 								- _subsystem = "Product Development Domain Structure::Stakeholdes";
 								- _class = "Program Management";
-								- _name = "System Stakeholder";
+								- _name = "Stakeholder";
 								- _id = GUID 0adf4e75-c5f1-4893-8eb9-8adb72019ba9;
 							}
 							- m_pParent = ;
@@ -12442,7 +12436,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 								- _filename = "Product_Development_Domain_Structure.sbs";
 								- _subsystem = "Product Development Domain Structure::Stakeholdes";
 								- _class = "Supplier";
-								- _name = "System Stakeholder";
+								- _name = "Stakeholder";
 								- _id = GUID 4083dc81-42ef-41bd-9657-4228d87ae8ef;
 							}
 							- m_pParent = ;
@@ -12777,7 +12771,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 								- _filename = "Product_Development_Domain_Structure.sbs";
 								- _subsystem = "Product Development Domain Structure::Stakeholdes";
 								- _class = "Support";
-								- _name = "System Stakeholder";
+								- _name = "Stakeholder";
 								- _id = GUID 88c5cea7-d14b-4a62-b6cb-b3e5307d4a4e;
 							}
 							- m_pParent = ;
@@ -14748,7 +14742,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					}
 				}
 			}
-			- weakCGTime = 11.11.2015::18:18:59;
+			- weakCGTime = 11.12.2015::19:1:6;
 			- strongCGTime = 11.11.2015::17:25:46;
 			- AssociationElements = { IRPYRawContainer 
 				- size = 2;
@@ -15077,7 +15071,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 			- _defaultComposite = GUID 8873c3a7-1850-4123-a5a8-4a67aaf217b7;
 			- _eventsBaseID = -1;
 			- Classes = { IRPYRawContainer 
-				- size = 24;
+				- size = 22;
 				- value = 
 				{ IClass 
 					- _id = GUID 8873c3a7-1850-4123-a5a8-4a67aaf217b7;
@@ -15235,7 +15229,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::16:4:4;
+					- _modifiedTimeWeak = 11.11.2015::18:44:29;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Product_Development_Domain_Structure.sbs";
@@ -15249,7 +15243,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 
 ";
 					}
-					- weakCGTime = 11.11.2015::16:4:4;
+					- weakCGTime = 11.11.2015::18:44:29;
 					- strongCGTime = 11.5.2015::15:51:6;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -15262,7 +15256,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 								- _filename = "Product_Development_Domain_Structure.sbs";
 								- _subsystem = "Product Development Domain Structure::Stakeholdes";
 								- _class = "";
-								- _name = "System Stakeholder";
+								- _name = "Stakeholder";
 								- _id = GUID 866e8c5d-da84-4e29-81c0-48395c2ee74e;
 							}
 							- _inheritanceType = iPublic;
@@ -15356,7 +15350,7 @@ Baselines can be modified between formal decision gates by mutual consent throug
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.5.2015::15:51:6;
+					- _modifiedTimeWeak = 11.12.2015::15:5:0;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Product_Development_Domain_Structure.sbs";
@@ -15368,9 +15362,9 @@ Baselines can be modified between formal decision gates by mutual consent throug
 					- _description = { IDescription 
 						- _text = "Verification and Validation Engineer
 
-Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration Plan, execute the tests, produce a V&V test report, Requirements Verification Matrix";
+Responsibilities are to produce a Test Plan, Test Procedures, Test Integration Plan, execute the tests, produce a V&V test report, Requirements Verification Matrix";
 					}
-					- weakCGTime = 11.5.2015::15:51:6;
+					- weakCGTime = 11.12.2015::15:5:0;
 					- strongCGTime = 11.5.2015::15:51:6;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -15397,7 +15391,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 					- _myState = 8192;
 					- _name = "Support Engineer";
 					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
+						- size = 1;
 						- value = 
 						{ IHandle 
 							- _m2Class = "IStereotype";
@@ -15407,16 +15401,8 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _name = "Block";
 							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
 						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
 					}
-					- _modifiedTimeWeak = 11.5.2015::15:51:6;
+					- _modifiedTimeWeak = 11.12.2015::15:12:21;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Product_Development_Domain_Structure.sbs";
@@ -15425,8 +15411,8 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 						- _name = "Product Development Domain Structure";
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
 					}
-					- weakCGTime = 11.5.2015::15:51:6;
-					- strongCGTime = 11.5.2015::15:51:6;
+					- weakCGTime = 11.12.2015::15:12:21;
+					- strongCGTime = 11.12.2015::15:12:20;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -15471,16 +15457,16 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::14:38:55;
+					- _modifiedTimeWeak = 11.12.2015::19:2:3;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 0ef75b75-a4cd-431d-9e2d-6aa6c79844c7;
 					}
 					- _description = { IDescription 
-						- _text = "Engineering is the discipline, art, and profession that applies scientific theory to design, develop, and analyze technological solutions. In the contemporary era, it is generally considered to consist of the major basic branches of chemical engineering, civil engineering, electrical engineering, and mechanical engineering.There are numerous other engineering subdisciplines and interdisciplinary subjects that are derived from concentrations, combinations, or extensions of the major engineering branches. 
+						- _text = "Engineering is the discipline, art, and profession that applies scientific theory to design, develop, and analyze technological solutions. In the contemporary era, it is generally considered to consist of the major basic branches of chemical engineering, civil engineering, electrical engineering, and mechanical engineering. There are numerous other engineering sub-disciplines and interdisciplinary subjects that are derived from concentrations, combinations, or extensions of the major engineering branches. 
 [8, Wikipedia, List of engineering branches]";
 					}
-					- weakCGTime = 11.11.2015::14:38:55;
+					- weakCGTime = 11.12.2015::19:2:3;
 					- strongCGTime = 11.5.2015::15:51:6;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -15546,7 +15532,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.10.2015::22:57:16;
+					- _modifiedTimeWeak = 11.12.2015::19:56:1;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Product_Development_Domain_Structure.sbs";
@@ -15556,12 +15542,13 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
 					}
 					- _description = { IDescription 
-						- _text = "A systems engineer is a person or role who supports an interdisciplinary approach and means to enable the realization of successful systems. In particular, the systems engineer often serves to elicit and translate customer needs into specifications that can be realized by the system development team. In order to help realize successful systems, the systems engineer supports a set of life cycle processes beginning early in conceptual design and continuing throughout the life cycle of the system through its m
-anufacture, deployment, use and disposal. The systems engineer must analyze, specify, design, and verify the system to ensure that it's functional, interface, performance, physical, and other quality characteristics, and cost are balanced to meet the needs of the system stakeholders. 
-A systems engineer helps ensure the elements of the system fit together to accomplish the objectives of the whole, and ultimately satisfy the needs of the customers and other stakeholders who will acquire and use the system.
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\f0\\fs22 A systems engineer is \\ldblquote a person who practices systems engineering\\rdblquote  and whose systems engineering capabilities and experience include sustained practice, specialization, leadership or authority over systems engineering activities. Systems engineering activities may be conducted by any competent person regardless of job title or professional affiliation. (Created for SEBoK) [3, SEBoK Glossary]\\f1\\fs20\\par
+\\par
+}
 ";
 					}
-					- weakCGTime = 11.10.2015::22:57:16;
+					- weakCGTime = 11.12.2015::19:56:1;
 					- strongCGTime = 11.5.2015::15:51:6;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -15727,66 +15714,6 @@ A systems engineer helps ensure the elements of the system fit together to accom
 					- _classModifier = Unspecified;
 				}
 				{ IClass 
-					- _id = GUID 2278357d-2f96-4a34-8678-44a95fbdba61;
-					- _myState = 8192;
-					- _name = "V&V Engineer_copy";
-					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-							- _subsystem = "SysML::Blocks";
-							- _class = "";
-							- _name = "Block";
-							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
-						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
-					}
-					- _modifiedTimeWeak = 11.10.2015::15:33:23;
-					- _theMainDiagram = { IHandle 
-						- _m2Class = "IDiagram";
-						- _filename = "Product_Development_Domain_Structure.sbs";
-						- _subsystem = "Product Development Domain Structure";
-						- _class = "";
-						- _name = "Product Development Domain Structure";
-						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
-					}
-					- _description = { IDescription 
-						- _text = "Verification and Validation Engineer
-
-Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration Plan, execute the tests, produce a V&V test report, Requirements Verification Matrix";
-					}
-					- weakCGTime = 11.10.2015::15:33:23;
-					- strongCGTime = 11.10.2015::15:33:23;
-					- Inheritances = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IGeneralization 
-							- _id = GUID feea59f3-826a-441a-81bf-8b6c28419a5d;
-							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IClass";
-								- _id = GUID 67296413-24a2-48b3-ac96-91f482eefa98;
-							}
-							- _inheritanceType = iPublic;
-							- _isVirtual = 0;
-						}
-					}
-					- _multiplicity = "";
-					- _itsStateChart = { IHandle 
-						- _m2Class = "";
-					}
-					- _classModifier = Unspecified;
-				}
-				{ IClass 
 					- _id = GUID 0925ce07-5e3a-4a26-8aff-f9e8e8e97336;
 					- _myState = 8192;
 					- _name = "Specialty Engineer";
@@ -15810,15 +15737,18 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::15:13:39;
+					- _modifiedTimeWeak = 11.12.2015::18:27:28;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 2f96cc84-b904-453f-9661-2b03ad12bfb0;
 					}
 					- _description = { IDescription 
-						- _text = "Specialty Engineer applies Speciality Engineering discipline principles in areas of cost analysis, safety, security, RAM, performance analysis, etc.";
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 Specialty Engineer applies \\f1\\fs22 Specialty \\f0\\fs20 Engineering discipline principles in areas of cost analysis, safety, security, RAM, performance analysis, etc.\\par
+}
+";
 					}
-					- weakCGTime = 11.11.2015::15:13:39;
+					- weakCGTime = 11.12.2015::18:27:28;
 					- strongCGTime = 11.10.2015::15:33:56;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -15890,14 +15820,14 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::17:48:17;
+					- _modifiedTimeWeak = 11.12.2015::18:24:24;
 					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\fs20 This speciality engineering entity is\\f1  responsible to ensure all requirements associated with the operational safety of the system meet the overall stakeholder\\rquote s needs.\\f0\\par
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f2\\fswiss\\fprq2\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 This \\f1\\fs22 specialty \\f0\\fs20 engineering entity is\\f2  responsible to ensure all requirements associated with the operational safety of the system meet the overall stakeholder\\rquote s needs.\\f0\\par
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::17:48:17;
+					- weakCGTime = 11.12.2015::18:24:24;
 					- strongCGTime = 11.11.2015::16:55:24;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -15993,14 +15923,14 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::17:48:17;
+					- _modifiedTimeWeak = 11.12.2015::19:2:27;
 					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
-\\viewkind4\\uc1\\pard\\fs20 This speciality engineering entity is \\f1\\fs22 responsible for executing a defined analytical study focused on mitigating risk\\f0\\fs20\\par
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 This \\f1\\fs22 specialty \\f0\\fs20 engineering entity is \\f1\\fs22 responsible for executing a defined analytical study focused on mitigating risk\\f0\\fs20\\par
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::17:48:17;
+					- weakCGTime = 11.12.2015::19:2:27;
 					- strongCGTime = 11.11.2015::16:58:39;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -16046,14 +15976,14 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::17:48:17;
+					- _modifiedTimeWeak = 11.12.2015::19:4:39;
 					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
-\\viewkind4\\uc1\\pard\\fs20 This speciality engineering entity is \\f1\\fs22 responsible to ensure all requirements associated with environmental factors including temperature, humidity, UV exposure, radiation, magnetic forces, vibration, and others, meet the overall stakeholder\\rquote s needs and all appropriate regulatory requirements. \\f0\\fs20\\par
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 This \\f1\\fs22 specialty \\f0\\fs20 engineering entity is \\f1\\fs22 responsible to ensure all requirements associated with environmental factors including temperature, humidity, UV exposure, radiation, magnetic forces, vibration, and others, meet the overall stakeholder\\rquote s needs and all appropriate regulatory requirements. \\f0\\fs20\\par
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::17:48:17;
+					- weakCGTime = 11.12.2015::19:4:39;
 					- strongCGTime = 11.11.2015::16:56:8;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -16099,11 +16029,14 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::17:48:17;
+					- _modifiedTimeWeak = 11.12.2015::19:1:6;
 					- _description = { IDescription 
-						- _text = "This speciality engineering entity is responsible to ensure all requirements associated with electronic emissions meet the overall stakeholder's needs and meet associated regulatory agency requirements. ";
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 This \\f1\\fs22 specialty \\f0\\fs20 engineering entity is responsible to ensure all requirements associated with electronic emissions meet the overall stakeholder's needs and meet associated regulatory agency requirements. \\par
+}
+";
 					}
-					- weakCGTime = 11.11.2015::17:48:17;
+					- weakCGTime = 11.12.2015::19:1:6;
 					- strongCGTime = 11.11.2015::16:55:53;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -16119,45 +16052,6 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _isVirtual = 0;
 						}
 					}
-					- _multiplicity = "";
-					- _itsStateChart = { IHandle 
-						- _m2Class = "";
-					}
-					- _classModifier = Unspecified;
-				}
-				{ IClass 
-					- _id = GUID 4ec1650f-2adc-427b-b229-fdc0e4928c4f;
-					- _myState = 8192;
-					- _name = "V & V Engineer";
-					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-							- _subsystem = "SysML::Blocks";
-							- _class = "";
-							- _name = "Block";
-							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
-						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
-					}
-					- _modifiedTimeWeak = 11.11.2015::17:48:17;
-					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Arial;}{\\f1\\fnil\\fcharset0 Arial;}}
-\\viewkind4\\uc1\\pard\\f0\\fs20 This role of System Engineering is responsible to ensure all requirements of the system are verified and the overall system is validated to meet the overall stakeholder\\rquote s needs. \\f1\\par
-}
-";
-					}
-					- weakCGTime = 11.11.2015::17:48:17;
-					- strongCGTime = 11.11.2015::16:53:29;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -16188,11 +16082,14 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::17:48:17;
+					- _modifiedTimeWeak = 11.12.2015::19:7:0;
 					- _description = { IDescription 
-						- _text = "This speciality engineering entity is responsible to ensure all requirements associated with reliability, maintainability and availability meet the overall stakeholder's needs. ";
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 This \\f1\\fs22 specialty \\f0\\fs20 engineering entity is responsible to ensure all requirements associated with reliability, availability and maintainability meet the overall stakeholder's needs. \\par
+}
+";
 					}
-					- weakCGTime = 11.11.2015::17:48:17;
+					- weakCGTime = 11.12.2015::19:7:0;
 					- strongCGTime = 11.11.2015::16:51:17;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -16238,14 +16135,14 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::17:48:17;
+					- _modifiedTimeWeak = 11.12.2015::19:5:43;
 					- _description = { IDescription 
-						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
-\\viewkind4\\uc1\\pard\\fs20 This speciality engineering entity\\f1\\fs22  is responsible to ensure all requirements  meet the overall stakeholder\\rquote s needs associated with areas of engineering including systems communications, network hardware and design, enclosures, computing hardware, system management, system time keeping and other,  meet the overall stakeholder\\rquote s needs.\\f0\\fs20\\par
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 This \\f1\\fs22 specialty \\f0\\fs20 engineering entity\\f1\\fs22  is responsible to ensure all requirements  meet the overall stakeholder\\rquote s needs associated with areas of engineering including systems communications, network hardware and design, enclosures, computing hardware, system management, system time keeping and other,  meet the overall stakeholder\\rquote s needs.\\f0\\fs20\\par
 }
 ";
 					}
-					- weakCGTime = 11.11.2015::17:48:17;
+					- weakCGTime = 11.12.2015::19:5:43;
 					- strongCGTime = 11.11.2015::16:55:46;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -16291,11 +16188,14 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::17:48:17;
+					- _modifiedTimeWeak = 11.12.2015::18:28:46;
 					- _description = { IDescription 
-						- _text = "This speciality engineering entity is responsible to ensure all requirements associated with size weight and power meets the overall stakeholder's needs. ";
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 This s\\f1\\fs22 pecialty \\f0\\fs20 engineering entity is responsible to ensure all requirements associated with size weight and power meets the overall stakeholder's needs. \\par
+}
+";
 					}
-					- weakCGTime = 11.11.2015::17:48:17;
+					- weakCGTime = 11.12.2015::18:28:46;
 					- strongCGTime = 11.11.2015::16:55:16;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -16341,11 +16241,14 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.11.2015::17:48:17;
+					- _modifiedTimeWeak = 11.12.2015::18:25:36;
 					- _description = { IDescription 
-						- _text = "This speciality engineering entity is responsible to ensure all requirements associated with data security and system security meets the overall stakeholder's needs.";
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+\\viewkind4\\uc1\\pard\\ltrpar\\fs20 This \\f1\\fs22 specialty \\f0\\fs20 engineering entity is responsible to ensure all requirements associated with data security and system security meets the overall stakeholder's needs.\\par
+}
+";
 					}
-					- weakCGTime = 11.11.2015::17:48:17;
+					- weakCGTime = 11.12.2015::18:25:36;
 					- strongCGTime = 11.11.2015::16:55:5;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
@@ -16368,10 +16271,10 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 					- _classModifier = Unspecified;
 				}
 			}
-			- _configurationRelatedTime = 11.11.2015::14:38:38;
+			- _configurationRelatedTime = 11.12.2015::15:8:7;
 		}
 	}
-	- weakCGTime = 11.11.2015::18:18:54;
+	- weakCGTime = 11.12.2015::18:58:36;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
@@ -16382,8 +16285,8 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 			- _id = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.11.2015::17:13:40;
-			- weakCGTime = 11.11.2015::17:13:40;
+			- _modifiedTimeWeak = 11.12.2015::18:19:6;
+			- weakCGTime = 11.12.2015::18:19:6;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -16424,7 +16327,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 				}
 			}
 			- _name = "Item Type Table View";
-			- _modifiedTimeWeak = 11.11.2015::16:14:48;
+			- _modifiedTimeWeak = 11.12.2015::16:51:45;
 			- LayoutHandle = { IHandle 
 				- _m2Class = "ITableLayout";
 				- _filename = "Model_Walkthrough.sbs";
@@ -16441,7 +16344,12 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 					- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 				}
 				{ IHandle 
-					- _m2Class = "";
+					- _m2Class = "ISubsystem";
+					- _filename = "Product_Development_Domain_Structure.sbs";
+					- _subsystem = "";
+					- _class = "";
+					- _name = "Product Development Domain Structure";
+					- _id = GUID b2fd3195-49dd-4b59-ad74-413fa43b0f78;
 				}
 			}
 		}
@@ -16479,7 +16387,7 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 				}
 			}
 			- _name = "Term Management View";
-			- _modifiedTimeWeak = 11.11.2015::16:40:35;
+			- _modifiedTimeWeak = 11.12.2015::16:50:14;
 			- LayoutHandle = { IHandle 
 				- _m2Class = "ITableLayout";
 				- _filename = "Model_Walkthrough.sbs";
@@ -16501,6 +16409,6 @@ Respponsibilities are to produce a Test Plan, Test Proceudres, Test Integration 
 			}
 		}
 	}
-	- _configurationRelatedTime = 11.11.2015::17:25:56;
+	- _configurationRelatedTime = 11.12.2015::1:38:52;
 }
 
