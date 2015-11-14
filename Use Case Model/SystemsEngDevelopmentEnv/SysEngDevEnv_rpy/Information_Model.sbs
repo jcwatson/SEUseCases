@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 11.13.2015::19:12:28;
+	- _modifiedTimeWeak = 11.14.2015::14:58:35;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
@@ -4578,7 +4578,7 @@ The review results contains:\\par
 					}
 				}
 			}
-			- weakCGTime = 11.12.2015::18:54:53;
+			- weakCGTime = 11.14.2015::15:4:5;
 			- strongCGTime = 4.14.2015::16:4:3;
 			- _defaultComposite = GUID aed56898-4eed-4916-a5e6-d6f4f8a9ee01;
 			- _eventsBaseID = -1;
@@ -9878,7 +9878,7 @@ The INCOSE Handbook called this a Project Change Request. The term Change Reques
 			- _id = GUID 144d9bad-b054-4df1-b127-f61eb172b95b;
 			- _myState = 8192;
 			- _name = "Engineering Roles and Disciplines";
-			- _modifiedTimeWeak = 11.12.2015::19:1:6;
+			- _modifiedTimeWeak = 11.14.2015::14:59:31;
 			- _lastID = 4;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -14826,7 +14826,7 @@ The INCOSE Handbook called this a Project Change Request. The term Change Reques
 					}
 				}
 			}
-			- weakCGTime = 11.12.2015::19:1:6;
+			- weakCGTime = 11.14.2015::14:59:31;
 			- strongCGTime = 11.11.2015::17:25:46;
 			- AssociationElements = { IRPYRawContainer 
 				- size = 2;
@@ -15171,6 +15171,120 @@ The INCOSE Handbook called this a Project Change Request. The term Change Reques
 					- _classModifier = Unspecified;
 				}
 				{ IClass 
+					- _id = GUID 67296413-24a2-48b3-ac96-91f482eefa98;
+					- _myState = 8192;
+					- _name = "Engineer";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 11.12.2015::19:2:3;
+					- _theMainDiagram = { IHandle 
+						- _m2Class = "IDiagram";
+						- _id = GUID 0ef75b75-a4cd-431d-9e2d-6aa6c79844c7;
+					}
+					- _description = { IDescription 
+						- _text = "Engineering is the discipline, art, and profession that applies scientific theory to design, develop, and analyze technological solutions. In the contemporary era, it is generally considered to consist of the major basic branches of chemical engineering, civil engineering, electrical engineering, and mechanical engineering. There are numerous other engineering sub-disciplines and interdisciplinary subjects that are derived from concentrations, combinations, or extensions of the major engineering branches. 
+[8, Wikipedia, List of engineering branches]";
+					}
+					- weakCGTime = 11.12.2015::19:2:3;
+					- strongCGTime = 11.5.2015::15:51:6;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- Associations = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IAssociationEnd 
+							- _id = GUID da8e69e6-70ab-43d0-a486-2475f4158a16;
+							- _myState = 10240;
+							- _name = "itsEngineering Discipline";
+							- _modifiedTimeWeak = 11.10.2015::15:28:33;
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _class = "";
+								- _name = "Engineering Discipline";
+								- _id = GUID 7294901a-2b2b-4464-af5f-f44ae88471af;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "IAssociationEnd";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _class = "Engineering Discipline";
+								- _name = "itsEngineer";
+								- _id = GUID 6f7ef491-5330-4471-a3f6-e4074eba5471;
+							}
+							- _linkName = "";
+							- _linkType = Assoc;
+							- _navigability = Navigable;
+							- m_associationClass = { IHandle 
+								- _m2Class = "IAssociationClass";
+								- _id = GUID f7aff29a-69af-45cc-b290-f37400b9a07b;
+							}
+						}
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID d7450de9-d9dd-4930-b356-50254f19133b;
+					- _myState = 8192;
+					- _name = "Electrical Engineer";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+					}
+					- _modifiedTimeWeak = 11.11.2015::16:43:54;
+					- weakCGTime = 11.11.2015::16:43:54;
+					- strongCGTime = 11.11.2015::16:43:52;
+					- Inheritances = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IGeneralization 
+							- _id = GUID f179fba7-1200-42aa-8565-738427b8c472;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IClass";
+								- _id = GUID 67296413-24a2-48b3-ac96-91f482eefa98;
+							}
+							- _inheritanceType = iPublic;
+							- _isVirtual = 0;
+						}
+					}
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
 					- _id = GUID d40f0019-aff3-4fe2-b641-4bf4d4a96cd6;
 					- _myState = 8192;
 					- _name = "Mechanical Engineer";
@@ -15235,45 +15349,6 @@ The INCOSE Handbook called this a Project Change Request. The term Change Reques
 						- value = 
 						{ IGeneralization 
 							- _id = GUID 1f2c9a8b-9ca2-4112-a008-1febc4435747;
-							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IClass";
-								- _id = GUID 67296413-24a2-48b3-ac96-91f482eefa98;
-							}
-							- _inheritanceType = iPublic;
-							- _isVirtual = 0;
-						}
-					}
-					- _multiplicity = "";
-					- _itsStateChart = { IHandle 
-						- _m2Class = "";
-					}
-					- _classModifier = Unspecified;
-				}
-				{ IClass 
-					- _id = GUID d7450de9-d9dd-4930-b356-50254f19133b;
-					- _myState = 8192;
-					- _name = "Electrical Engineer";
-					- Stereotypes = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-							- _subsystem = "SysML::Blocks";
-							- _class = "";
-							- _name = "Block";
-							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
-						}
-					}
-					- _modifiedTimeWeak = 11.11.2015::16:43:54;
-					- weakCGTime = 11.11.2015::16:43:54;
-					- strongCGTime = 11.11.2015::16:43:52;
-					- Inheritances = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IGeneralization 
-							- _id = GUID f179fba7-1200-42aa-8565-738427b8c472;
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _dependsOn = { INObjectHandle 
 								- _m2Class = "IClass";
@@ -15411,66 +15486,6 @@ The INCOSE Handbook called this a Project Change Request. The term Change Reques
 					- _classModifier = Unspecified;
 				}
 				{ IClass 
-					- _id = GUID fd562123-69d2-4970-a601-894d95f1e2d4;
-					- _myState = 8192;
-					- _name = "V&V Engineer";
-					- Stereotypes = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-							- _subsystem = "SysML::Blocks";
-							- _class = "";
-							- _name = "Block";
-							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
-						}
-						{ IHandle 
-							- _m2Class = "IStereotype";
-							- _filename = "SE_Dev_Profile.sbs";
-							- _subsystem = "SE_Dev_Profile";
-							- _class = "";
-							- _name = "Definition";
-							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
-						}
-					}
-					- _modifiedTimeWeak = 11.12.2015::15:5:0;
-					- _theMainDiagram = { IHandle 
-						- _m2Class = "IDiagram";
-						- _filename = "Product_Development_Domain_Structure.sbs";
-						- _subsystem = "Product Development Domain Structure";
-						- _class = "";
-						- _name = "Product Development Domain Structure";
-						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
-					}
-					- _description = { IDescription 
-						- _text = "Verification and Validation Engineer
-
-Responsibilities are to produce a Test Plan, Test Procedures, Test Integration Plan, execute the tests, produce a V&V test report, Requirements Verification Matrix";
-					}
-					- weakCGTime = 11.12.2015::15:5:0;
-					- strongCGTime = 11.5.2015::15:51:6;
-					- Inheritances = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IGeneralization 
-							- _id = GUID 99b30822-f695-49b6-b408-4c86258ee23c;
-							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _dependsOn = { INObjectHandle 
-								- _m2Class = "IClass";
-								- _id = GUID 67296413-24a2-48b3-ac96-91f482eefa98;
-							}
-							- _inheritanceType = iPublic;
-							- _isVirtual = 0;
-						}
-					}
-					- _multiplicity = "";
-					- _itsStateChart = { IHandle 
-						- _m2Class = "";
-					}
-					- _classModifier = Unspecified;
-				}
-				{ IClass 
 					- _id = GUID e1dbe4fe-0c3b-43d7-8d8b-5e9a2faff078;
 					- _myState = 8192;
 					- _name = "Support Engineer";
@@ -15518,9 +15533,9 @@ Responsibilities are to produce a Test Plan, Test Procedures, Test Integration P
 					- _classModifier = Unspecified;
 				}
 				{ IClass 
-					- _id = GUID 67296413-24a2-48b3-ac96-91f482eefa98;
+					- _id = GUID d529e104-e735-4d65-8f54-c6651497002f;
 					- _myState = 8192;
-					- _name = "Engineer";
+					- _name = "System Architect";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -15541,54 +15556,38 @@ Responsibilities are to produce a Test Plan, Test Procedures, Test Integration P
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.12.2015::19:2:3;
+					- _modifiedTimeWeak = 11.10.2015::22:51:21;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
-						- _id = GUID 0ef75b75-a4cd-431d-9e2d-6aa6c79844c7;
+						- _filename = "Product_Development_Domain_Structure.sbs";
+						- _subsystem = "Product Development Domain Structure";
+						- _class = "";
+						- _name = "Product Development Domain Structure";
+						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
 					}
 					- _description = { IDescription 
-						- _text = "Engineering is the discipline, art, and profession that applies scientific theory to design, develop, and analyze technological solutions. In the contemporary era, it is generally considered to consist of the major basic branches of chemical engineering, civil engineering, electrical engineering, and mechanical engineering. There are numerous other engineering sub-disciplines and interdisciplinary subjects that are derived from concentrations, combinations, or extensions of the major engineering branches. 
-[8, Wikipedia, List of engineering branches]";
+						- _text = "Looks across all aspects of the system to ensure the overall system meets the stakeholders' needs. ";
 					}
-					- weakCGTime = 11.12.2015::19:2:3;
+					- _lastID = 1;
+					- weakCGTime = 11.10.2015::22:51:21;
 					- strongCGTime = 11.5.2015::15:51:6;
+					- Inheritances = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IGeneralization 
+							- _id = GUID 73b54f33-c46d-4590-ac15-ee54593e448f;
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- _dependsOn = { INObjectHandle 
+								- _m2Class = "IClass";
+								- _id = GUID 1c54e64e-93e7-427d-9f0f-87525d89acb2;
+							}
+							- _inheritanceType = iPublic;
+							- _isVirtual = 0;
+						}
+					}
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
-					}
-					- Associations = { IRPYRawContainer 
-						- size = 1;
-						- value = 
-						{ IAssociationEnd 
-							- _id = GUID da8e69e6-70ab-43d0-a486-2475f4158a16;
-							- _myState = 10240;
-							- _name = "itsEngineering Discipline";
-							- _modifiedTimeWeak = 11.10.2015::15:28:33;
-							- _multiplicity = "1";
-							- _otherClass = { IClassifierHandle 
-								- _m2Class = "IClass";
-								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
-								- _class = "";
-								- _name = "Engineering Discipline";
-								- _id = GUID 7294901a-2b2b-4464-af5f-f44ae88471af;
-							}
-							- _inverse = { IHandle 
-								- _m2Class = "IAssociationEnd";
-								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
-								- _class = "Engineering Discipline";
-								- _name = "itsEngineer";
-								- _id = GUID 6f7ef491-5330-4471-a3f6-e4074eba5471;
-							}
-							- _linkName = "";
-							- _linkType = Assoc;
-							- _navigability = Navigable;
-							- m_associationClass = { IHandle 
-								- _m2Class = "IAssociationClass";
-								- _id = GUID f7aff29a-69af-45cc-b290-f37400b9a07b;
-							}
-						}
 					}
 					- _classModifier = Unspecified;
 				}
@@ -15655,9 +15654,9 @@ Responsibilities are to produce a Test Plan, Test Procedures, Test Integration P
 					- _classModifier = Unspecified;
 				}
 				{ IClass 
-					- _id = GUID d529e104-e735-4d65-8f54-c6651497002f;
+					- _id = GUID fd562123-69d2-4970-a601-894d95f1e2d4;
 					- _myState = 8192;
-					- _name = "System Architect";
+					- _name = "V&V Engineer";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -15678,7 +15677,7 @@ Responsibilities are to produce a Test Plan, Test Procedures, Test Integration P
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.10.2015::22:51:21;
+					- _modifiedTimeWeak = 11.12.2015::15:5:0;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _filename = "Product_Development_Domain_Structure.sbs";
@@ -15688,20 +15687,21 @@ Responsibilities are to produce a Test Plan, Test Procedures, Test Integration P
 						- _id = GUID 6b333c0f-624b-401e-bcf2-e59ea05cc4b3;
 					}
 					- _description = { IDescription 
-						- _text = "Looks across all aspects of the system to ensure the overall system meets the stakeholders' needs. ";
+						- _text = "Verification and Validation Engineer
+
+Responsibilities are to produce a Test Plan, Test Procedures, Test Integration Plan, execute the tests, produce a V&V test report, Requirements Verification Matrix";
 					}
-					- _lastID = 1;
-					- weakCGTime = 11.10.2015::22:51:21;
+					- weakCGTime = 11.12.2015::15:5:0;
 					- strongCGTime = 11.5.2015::15:51:6;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
 						- value = 
 						{ IGeneralization 
-							- _id = GUID 73b54f33-c46d-4590-ac15-ee54593e448f;
+							- _id = GUID 99b30822-f695-49b6-b408-4c86258ee23c;
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
 							- _dependsOn = { INObjectHandle 
 								- _m2Class = "IClass";
-								- _id = GUID 1c54e64e-93e7-427d-9f0f-87525d89acb2;
+								- _id = GUID 67296413-24a2-48b3-ac96-91f482eefa98;
 							}
 							- _inheritanceType = iPublic;
 							- _isVirtual = 0;
@@ -16358,7 +16358,7 @@ Responsibilities are to produce a Test Plan, Test Procedures, Test Integration P
 			- _configurationRelatedTime = 11.12.2015::15:8:7;
 		}
 	}
-	- weakCGTime = 11.13.2015::19:12:28;
+	- weakCGTime = 11.14.2015::14:58:35;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
@@ -16369,8 +16369,8 @@ Responsibilities are to produce a Test Plan, Test Procedures, Test Integration P
 			- _id = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.12.2015::18:58:36;
-			- weakCGTime = 11.12.2015::18:58:36;
+			- _modifiedTimeWeak = 11.13.2015::19:12:28;
+			- weakCGTime = 11.13.2015::19:12:28;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

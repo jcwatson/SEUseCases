@@ -11,9 +11,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID c27fc8c5-127d-4141-8990-da58e0eda24b;
 	- _myState = 8192;
 	- _name = "Worflow Patterns";
-	- _modifiedTimeWeak = 11.11.2015::23:3:50;
+	- _modifiedTimeWeak = 11.14.2015::16:23:46;
 	- _lastID = 1;
-	- weakCGTime = 11.11.2015::23:3:50;
+	- weakCGTime = 11.14.2015::16:23:46;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID df02ea96-e8b4-49e6-ae1b-3fa1ceb45ceb;
 	- _eventsBaseID = -1;
@@ -24,9 +24,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID df02ea96-e8b4-49e6-ae1b-3fa1ceb45ceb;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 10.30.2015::20:32:6;
+			- _modifiedTimeWeak = 11.14.2015::16:23:46;
 			- _lastID = 1;
-			- weakCGTime = 10.30.2015::20:32:6;
+			- weakCGTime = 11.14.2015::16:23:46;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- StateCharts = { IRPYRawContainer 
@@ -48,9 +48,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
 						}
 					}
-					- _modifiedTimeWeak = 10.30.2015::20:32:6;
+					- _modifiedTimeWeak = 11.14.2015::16:23:46;
 					- _lastID = 52;
-					- weakCGTime = 10.30.2015::20:32:6;
+					- weakCGTime = 11.14.2015::16:23:46;
 					- strongCGTime = 9.23.2014::1:12:46;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -713,8 +713,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
-								- _class = "SE Development System";
+								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _class = "Systems Engineering";
 								- _name = "Import Reference Material(Engineering Artifact)";
 								- _id = GUID af3edff7-ed32-438b-ad0a-30d646fe837e;
 							}
@@ -733,8 +733,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
-								- _class = "SE Development System";
+								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _class = "Systems Engineering";
 								- _name = "Measure Change Impact(Change Impact Analysis Summary)";
 								- _id = GUID ca33dd23-ea30-4b0b-8b88-73448fa47e4d;
 							}
@@ -753,8 +753,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
-								- _class = "SE Development System";
+								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _class = "Systems Engineering";
 								- _name = "Conduct a Review()";
 								- _id = GUID 32bd5f2d-7389-4622-81d7-60559915ca64;
 							}
@@ -1273,8 +1273,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								}
 							}
 							- _name = "activitydiagram_0";
-							- _modifiedTimeWeak = 10.30.2015::20:31:51;
-							- _lastModifiedTime = "10.30.2015::20:32:6";
+							- _modifiedTimeWeak = 11.14.2015::16:23:46;
+							- _lastModifiedTime = "11.14.2015::16:24:20";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID 48402b53-bd64-4c08-bdba-a6f7cf0c43d5;
 								- m_type = 0;
@@ -3681,6 +3681,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 									}
 									- m_nInheritanceMask = 0;
 									- m_pDefaultComponentRelation = ;
+									- m_moveAndLineTimeStamp = 1.2.1990::0:0:0;
 									- m_NameDisplayMode = ShowLabel;
 									- m_ActDescLablDiaplayMode = DisplayAction;
 								}
