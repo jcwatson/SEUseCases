@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 11.12.2015::18:58:36;
+	- _modifiedTimeWeak = 11.13.2015::19:12:28;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
@@ -1728,7 +1728,7 @@ The review results contains:\\par
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.12.2015::19:55:2";
+					- _lastModifiedTime = "11.13.2015::21:8:7";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 8ca9c00c-d1c4-4301-af92-417ed02633d1;
 						- m_type = 0;
@@ -5799,8 +5799,8 @@ This term is useful when a generalized behavior requires input or output data wi
 			- _id = GUID 4114c406-d32a-4647-b4f5-afc39cd20296;
 			- _myState = 8192;
 			- _name = "Configuration Management";
-			- _modifiedTimeWeak = 11.12.2015::18:58:36;
-			- _lastID = 4;
+			- _modifiedTimeWeak = 11.13.2015::20:39:15;
+			- _lastID = 5;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -5955,7 +5955,7 @@ This term is useful when a generalized behavior requires input or output data wi
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.12.2015::16:48:25";
+					- _lastModifiedTime = "11.13.2015::19:12:35";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID abc90f49-e3f5-4a10-be58-996eabee7043;
 						- m_type = 0;
@@ -6530,7 +6530,7 @@ This term is useful when a generalized behavior requires input or output data wi
 							}
 							- m_pParent = GUID 14c16a58-aa1e-4856-8ed7-991665b3aa3f;
 							- m_name = { CGIText 
-								- m_str = "Release Review Package";
+								- m_str = "Release Plan";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -6794,7 +6794,7 @@ This term is useful when a generalized behavior requires input or output data wi
 							}
 							- m_pParent = GUID 14c16a58-aa1e-4856-8ed7-991665b3aa3f;
 							- m_name = { CGIText 
-								- m_str = "Project Change Request";
+								- m_str = "Change Request";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -6856,12 +6856,12 @@ This term is useful when a generalized behavior requires input or output data wi
 					}
 				}
 			}
-			- weakCGTime = 11.12.2015::18:58:36;
+			- weakCGTime = 11.13.2015::20:39:15;
 			- strongCGTime = 11.2.2015::15:46:32;
 			- _defaultComposite = GUID e4686edc-604d-4117-aee1-b8df1fe222db;
 			- _eventsBaseID = -1;
 			- Classes = { IRPYRawContainer 
-				- size = 7;
+				- size = 8;
 				- value = 
 				{ IClass 
 					- _id = GUID e4686edc-604d-4117-aee1-b8df1fe222db;
@@ -7081,24 +7081,30 @@ The search can be adjusted by depth of change, the types of elements included an
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.12.2015::18:58:36;
+					- _modifiedTimeWeak = 11.13.2015::21:17:50;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
 					}
 					- _description = { IDescription 
-						- _text = "This artifact could be associated with a single change request, a major release or an initial development. 
-
-This artifact captures an estimate that should include a schedule, technical feasibility and all costs associated with the engineering development, validation and verification efforts. It includes items such as:
-   - The Change Impact Analysis Summary providing of the extent of changes including the impacted CIs.
-   - Human resource costs and Man-hours
-   - Other life cycle costs that may be impacted during operations, manufacturing, support or retirement
-   - Equipment resource costs for development, validation and verification such as test equipment, facilities, tools, etc.
-   - A preliminary plan estimating the expected duration for development, field upgrades, manufacturing upgrades. The plan should consider availability of people and equipment.  
-   - An estimate when these capabilities could be made available for validation, verification and customer release
-   - Any perceived risks and possible mitigation plans   ";
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fcharset0 Arial;}{\\f1\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\f0\\fs18 This includes an impact assessment of proposed changes,\\f1\\fs20  \\f0\\fs18 including the impact on project plans, costs,\\par
+benefits, risks, quality, and schedule.\\f1\\fs20  [4, 15288 section 6.3.5.3 c]\\par
+\\par
+This artifact could be associated with a single change request, a major release or an initial development. \\par
+\\par
+This artifact captures an estimate that should include a schedule, technical feasibility and all costs associated with the engineering development, validation and verification efforts. It includes items such as:\\par
+   - The Change Impact Analysis Summary providing of the extent of changes including the impacted CIs.\\par
+   - Human resource costs and Man-hours\\par
+   - Other life cycle costs that may be impacted during operations, manufacturing, support or retirement\\par
+   - Equipment resource costs for development, validation and verification such as test equipment, facilities, tools, etc.\\par
+   - A preliminary plan estimating the expected duration for development, field upgrades, manufacturing upgrades. The plan should consider availability of people and equipment.  \\par
+   - An estimate when these capabilities could be made available for validation, verification and customer release\\par
+   - Any perceived risks and possible mitigation plans   \\par
+}
+";
 					}
-					- weakCGTime = 11.12.2015::18:58:36;
+					- weakCGTime = 11.13.2015::21:17:50;
 					- strongCGTime = 11.11.2015::20:4:42;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -7109,7 +7115,7 @@ This artifact captures an estimate that should include a schedule, technical fea
 				{ IClass 
 					- _id = GUID a1e81ab6-6388-42b9-961c-2c975c605f5e;
 					- _myState = 8192;
-					- _name = "Release Review Package";
+					- _name = "Release Plan";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -7130,7 +7136,7 @@ This artifact captures an estimate that should include a schedule, technical fea
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.12.2015::16:13:57;
+					- _modifiedTimeWeak = 11.13.2015::19:3:55;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
@@ -7142,10 +7148,11 @@ This artifact captures an estimate that should include a schedule, technical fea
    -  A list of configuration items (CI) that are required to be updated or replaced
    -  Any special installation instructions, upgrade instructions or notes. 
    -  The cost to develop and upgrade the systems in the field and in manufacturing  
-   -  Effectivity of the change on existing systems in the field and in manufacturing";
+   -  Effectivity of the change on existing systems in the field and in manufacturing
+   -  Project schedule including milestones, activities and deliverables with start and end dates";
 					}
-					- weakCGTime = 11.12.2015::16:13:57;
-					- strongCGTime = 11.9.2015::22:31:2;
+					- weakCGTime = 11.13.2015::19:3:55;
+					- strongCGTime = 11.13.2015::19:3:55;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -7169,7 +7176,7 @@ This artifact captures an estimate that should include a schedule, technical fea
 				{ IClass 
 					- _id = GUID 1853a4a3-99de-4fdb-af6d-04915ba0e628;
 					- _myState = 8192;
-					- _name = "Project Change Request";
+					- _name = "Change Request";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -7190,16 +7197,93 @@ This artifact captures an estimate that should include a schedule, technical fea
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.12.2015::16:0:40;
+					- _modifiedTimeWeak = 11.13.2015::19:21:26;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
 					}
 					- _description = { IDescription 
-						- _text = "Requests to update any formal baselines that have been established. In many cases, the need for change requests is identified during the project assessment and control process, Can originate from any life cycle process. [10, INCOSE Handbook, Appendix E]  ";
+						- _text = "Requests to update any formal baselines that have been established. In many cases, the need for change requests is identified during the project assessment and control process, Can originate from any life cycle process.
+[10, INCOSE Handbook, Appendix E]  
+The INCOSE Handbook called this a Project Change Request. The term Change Request seems to cover a broader originating scope other than just when a project is active. ";
 					}
-					- weakCGTime = 11.12.2015::16:0:40;
-					- strongCGTime = 11.12.2015::15:18:2;
+					- weakCGTime = 11.13.2015::19:21:26;
+					- strongCGTime = 11.13.2015::19:12:35;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID 0712c672-597f-4931-b389-c2130e027d2c;
+					- _myState = 8192;
+					- _name = "Specification Change Notice";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "SE_Dev_Profile.sbs";
+							- _subsystem = "SE_Dev_Profile";
+							- _class = "";
+							- _name = "Definition";
+							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+						}
+					}
+					- _modifiedTimeWeak = 11.13.2015::20:43:9;
+					- _description = { IDescription 
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\fs20 Used to propose, transmit, and record \\ulwave chnages\\ulnone  to baseline specifications. [10, INCOSE Handbook, section 5.5.2]\\par
+}
+";
+					}
+					- Tags = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ITag 
+							- _id = GUID 3fbd98e6-a562-42a2-b812-6d92c4cae304;
+							- _myState = 8192;
+							- _name = "Acronym";
+							- _modifiedTimeWeak = 11.13.2015::20:43:9;
+							- ValueSpecifications = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ILiteralSpecification 
+									- _id = GUID bd0ae828-fb20-4b6c-8a6a-ef98e0cac243;
+									- _modifiedTimeWeak = 11.13.2015::20:43:9;
+									- _value = "SCN";
+								}
+							}
+							- _typeOf = { IHandle 
+								- _m2Class = "IType";
+								- _filename = "PredefinedTypes.sbs";
+								- _subsystem = "PredefinedTypes";
+								- _class = "";
+								- _name = "RhpString";
+								- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+							}
+							- _isOrdered = 0;
+							- _base = { IHandle 
+								- _m2Class = "ITag";
+								- _filename = "SE_Dev_Profile.sbs";
+								- _subsystem = "SE_Dev_Profile";
+								- _class = "Definition";
+								- _name = "Acronym";
+								- _id = GUID d7864f58-2469-478e-b6fe-dcbdc6e53250;
+							}
+						}
+					}
+					- weakCGTime = 11.13.2015::20:43:9;
+					- strongCGTime = 11.13.2015::20:42:59;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -10223,7 +10307,7 @@ This artifact captures an estimate that should include a schedule, technical fea
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.12.2015::19:55:2";
+					- _lastModifiedTime = "11.13.2015::21:8:7";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 52f19606-0407-478a-a9bb-7eae83c2b55a;
 						- m_type = 0;
@@ -16274,7 +16358,7 @@ Responsibilities are to produce a Test Plan, Test Procedures, Test Integration P
 			- _configurationRelatedTime = 11.12.2015::15:8:7;
 		}
 	}
-	- weakCGTime = 11.12.2015::18:58:36;
+	- weakCGTime = 11.13.2015::19:12:28;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
@@ -16285,8 +16369,8 @@ Responsibilities are to produce a Test Plan, Test Procedures, Test Integration P
 			- _id = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.12.2015::18:19:6;
-			- weakCGTime = 11.12.2015::18:19:6;
+			- _modifiedTimeWeak = 11.12.2015::18:58:36;
+			- weakCGTime = 11.12.2015::18:58:36;
 			- strongCGTime = 3.29.2015::15:52:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

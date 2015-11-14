@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
 	- _myState = 8192;
 	- _name = "Actors";
-	- _modifiedTimeWeak = 11.12.2015::20:16:22;
+	- _modifiedTimeWeak = 11.13.2015::21:57:13;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "";
@@ -275,7 +275,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.12.2015::21:4:34";
+			- _lastModifiedTime = "11.13.2015::23:29:51";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 6c62f6c2-2799-4d15-ae90-0149540f7e84;
 				- m_type = 0;
@@ -2553,7 +2553,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 11.12.2015::20:16:22;
+	- weakCGTime = 11.13.2015::21:57:13;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 	- _eventsBaseID = -1;
@@ -2564,8 +2564,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.11.2015::19:43:52;
-			- weakCGTime = 11.11.2015::19:43:52;
+			- _modifiedTimeWeak = 11.12.2015::20:16:22;
+			- weakCGTime = 11.12.2015::20:16:22;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -3521,7 +3521,7 @@ expectations.[2]\\cf0\\i\\f0\\fs17\\par
 			- _id = GUID 39b605fc-45d2-4de2-8ad9-25d1917f4351;
 			- _myState = 8192;
 			- _name = "Configuration Control Board";
-			- _modifiedTimeWeak = 11.12.2015::20:45:7;
+			- _modifiedTimeWeak = 11.13.2015::22:53:16;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IUCDiagram";
 				- _filename = "Product_and_Service_Life_Management_Stage.sbs";
@@ -3531,12 +3531,12 @@ expectations.[2]\\cf0\\i\\f0\\fs17\\par
 				- _id = GUID 565c6835-486c-4336-b968-a775e9cc1af4;
 			}
 			- _description = { IDescription 
-				- _text = "Configuration Control Board (CCB) is responsible for providing a central point to coordinate, review, evaluate, and approve all proposed changed to baselined configurations and configuration, including hardware, software and firmware. 
+				- _text = "Configuration Control Board (CCB) provides a central a central point to coordinate, review, evaluate, and approve all proposed changes to baselined documentation and configurations and configuration, including hardware, software and firmware. The review board is composed of members from the various disciplines, including SE, software and hardware engineering, project management, product assurance, and configuration management. [10, INCOSE Handbook, section 5.5.2.2]
 
-The CCB contains members from all relevant stakeholders, which can include members from Program Management, Manufacturing, all Engineering disciplines and Support, 
+The CCB can contain members from all relevant stakeholders. Some additional members can also be from all engineering disciplines, Manufacturing and Support, 
 ";
 			}
-			- weakCGTime = 11.12.2015::20:45:7;
+			- weakCGTime = 11.13.2015::22:53:16;
 			- strongCGTime = 11.11.2015::17:55:56;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
