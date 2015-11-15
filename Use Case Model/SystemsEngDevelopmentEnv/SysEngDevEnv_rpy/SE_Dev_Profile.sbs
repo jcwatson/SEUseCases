@@ -28,7 +28,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- _name = "SE_Dev_Profile";
-	- _modifiedTimeWeak = 11.11.2015::23:4:3;
+	- _modifiedTimeWeak = 11.15.2015::14:53:41;
 	- _description = { IDescription 
 		- _text = "This profile is a default profile for a project or program.  The intent is to use a copy of this profile to capture those profile elements specific to a project or program.  The reason it is here is to solve a program level issue associated with sharing a common Property file across multiple models.  
 It does this by using the property in this profile called \"Model::Profile::PropertyFile\".  Here you can reference a file containing default properties that can be common to and shared across multiple models.  By using this technique, it overrides the Factory and site property files but not the project level.
@@ -515,7 +515,7 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 			}
 		}
 	}
-	- weakCGTime = 11.11.2015::23:4:3;
+	- weakCGTime = 11.15.2015::14:53:41;
 	- strongCGTime = 3.11.2015::17:10:7;
 	- _defaultComposite = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 	- _eventsBaseID = -1;
@@ -526,8 +526,8 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 			- _id = GUID edeabaa3-348a-468a-b48d-7d094a6fa3d0;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.9.2015::13:25:59;
-			- weakCGTime = 11.9.2015::13:25:59;
+			- _modifiedTimeWeak = 11.11.2015::23:4:3;
+			- weakCGTime = 11.11.2015::23:4:3;
 			- strongCGTime = 3.11.2015::17:10:7;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -660,8 +660,8 @@ For definitions originating from the Concept Model Semantic Dictionary, draft 12
 					- _id = GUID 39bf6572-6f61-4cbf-b651-64241e075688;
 				}
 			}
-			- _modifiedTimeWeak = 5.18.2015::19:33:33;
-			- _lastID = 4;
+			- _modifiedTimeWeak = 11.15.2015::14:53:41;
+			- _lastID = 5;
 			- Literals = { IRPYRawContainer 
 				- size = 4;
 				- value = 
