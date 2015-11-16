@@ -813,7 +813,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _body = "";
 		}
 	}
-	- _modifiedTimeWeak = 11.15.2015::15:33:40;
+	- _modifiedTimeWeak = 11.16.2015::16:53:0;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID bf097a8d-2c8d-4b22-8f23-fce72ebb39d0;
@@ -6617,7 +6617,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								- _target = { IHandle 
 									- _m2Class = "IClass";
 									- _filename = "Product_Development_Domain_Structure.sbs";
-									- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
+									- _subsystem = "Product Development Domain Structure::Systems Engineering::SE Development System";
 									- _class = "";
 									- _name = "SE Development System";
 									- _id = GUID 2b5e590b-3367-47bf-beb0-30bbe333ec00;
@@ -6629,7 +6629,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								- _target = { IHandle 
 									- _m2Class = "IClass";
 									- _filename = "Product_Development_Domain_Structure.sbs";
-									- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
+									- _subsystem = "Product Development Domain Structure::Systems Engineering::SE Development System";
 									- _class = "";
 									- _name = "SE Development System";
 									- _id = GUID 2b5e590b-3367-47bf-beb0-30bbe333ec00;
@@ -7729,7 +7729,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 11.14.2015::14:47:9;
+			- _modifiedTimeWeak = 11.16.2015::16:53:0;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 77dc102e-3b1b-4b1b-a154-2020564e5461;
@@ -22764,7 +22764,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 4.13.2015::12:14:23;
+					- _modifiedTimeWeak = 11.16.2015::16:53:0;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 77dc102e-3b1b-4b1b-a154-2020564e5461;
@@ -23124,7 +23124,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "5.18.2015::19:31:59";
+							- _lastModifiedTime = "11.16.2015::16:53:0";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 341213c0-8285-4d43-a40b-a32dde34eead;
 								- m_type = 0;
@@ -23363,7 +23363,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 									- m_pModelObject = { IHandle 
 										- _m2Class = "IClass";
 										- _filename = "Product_Development_Domain_Structure.sbs";
-										- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
+										- _subsystem = "Product Development Domain Structure::Systems Engineering::SE Development System";
 										- _class = "";
 										- _name = "SE Development System";
 										- _id = GUID 2b5e590b-3367-47bf-beb0-30bbe333ec00;
@@ -24238,7 +24238,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 											- _dependsOn = { INObjectHandle 
 												- _m2Class = "IClass";
 												- _filename = "Product_Development_Domain_Structure.sbs";
-												- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
+												- _subsystem = "Product Development Domain Structure::Systems Engineering::SE Development System";
 												- _class = "";
 												- _name = "SE Development System";
 												- _id = GUID 2b5e590b-3367-47bf-beb0-30bbe333ec00;
@@ -24310,7 +24310,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 4.13.2015::12:14:23;
+					- weakCGTime = 11.16.2015::16:53:0;
 					- strongCGTime = 3.29.2015::15:52:37;
 					- _defaultComposite = GUID 6be02381-dc4e-4f2c-abfa-122c0715a3ed;
 					- _eventsBaseID = -1;
@@ -25861,7 +25861,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 				}
 			}
-			- weakCGTime = 11.14.2015::14:47:9;
+			- weakCGTime = 11.16.2015::16:53:0;
 			- strongCGTime = 4.8.2015::16:22:49;
 			- _defaultComposite = GUID 0055d724-0bc3-457d-a875-3770cd49cd78;
 			- _eventsBaseID = -1;
@@ -32130,7 +32130,7 @@ Post Conditions\\b0  -\\par
 			- _configurationRelatedTime = 3.12.2014::12:18:27;
 		}
 	}
-	- weakCGTime = 11.15.2015::15:33:40;
+	- weakCGTime = 11.16.2015::16:53:0;
 	- strongCGTime = 4.10.2015::19:19:41;
 	- _defaultComposite = GUID b5e6522c-4213-4f31-8750-48c4843ab519;
 	- _eventsBaseID = -1;

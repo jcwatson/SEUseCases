@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
 	- _myState = 8192;
 	- _name = "Actors";
-	- _modifiedTimeWeak = 11.13.2015::21:57:13;
+	- _modifiedTimeWeak = 11.16.2015::18:41:51;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "";
@@ -275,7 +275,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.13.2015::23:29:51";
+			- _lastModifiedTime = "11.16.2015::19:0:43";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 6c62f6c2-2799-4d15-ae90-0149540f7e84;
 				- m_type = 0;
@@ -2553,7 +2553,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 11.13.2015::21:57:13;
+	- weakCGTime = 11.16.2015::18:41:51;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 	- _eventsBaseID = -1;
@@ -2564,8 +2564,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.12.2015::20:16:22;
-			- weakCGTime = 11.12.2015::20:16:22;
+			- _modifiedTimeWeak = 11.13.2015::21:57:13;
+			- weakCGTime = 11.13.2015::21:57:13;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2575,7 +2575,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- Actors = { IRPYRawContainer 
-		- size = 11;
+		- size = 12;
 		- value = 
 		{ IActor 
 			- _id = GUID 1d952e78-b8a0-4a0b-8756-6fe73444e0e4;
@@ -3694,6 +3694,122 @@ The CCB can contain members from all relevant stakeholders. Some additional memb
 					}
 					- _linkName = "";
 					- _linkType = Aggreg;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID e4fb1079-214a-4180-90bf-a0b1a41e8b3e;
+			- _myState = 8192;
+			- _name = "Change Control Board";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "SE_Dev_Profile.sbs";
+					- _subsystem = "SE_Dev_Profile";
+					- _class = "";
+					- _name = "Definition";
+					- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
+				}
+			}
+			- _modifiedTimeWeak = 11.16.2015::19:2:49;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IUCDiagram";
+				- _filename = "Product_and_Service_Life_Management_Stage.sbs";
+				- _subsystem = "SE Life Cycle Workflow Use Cases::Product and Service Life Management Stage";
+				- _class = "";
+				- _name = "Process Change Request";
+				- _id = GUID 565c6835-486c-4336-b968-a775e9cc1af4;
+			}
+			- _description = { IDescription 
+				- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}}
+\\viewkind4\\uc1\\pard\\f0\\fs22\\ldblquote A Change Control Board (CCB) with representatives from appropriate areas of the project is set up to effectively analyze, control and manage changes being proposed to the project.\\rdblquote  \\ldblquote CCBs may be comprised of members from both the customer and the supplier.\\rdblquote  \\rdblquote The board includes representation from project management since the CCB decisions will have an impact on schedule, budget, and resources.\\rdblquote  [3, SEBoK, The Influence of Project S
+tructure and Governance on Systems Engineering and Project Management Relationships]\\f1\\fs20\\par
+\\par
+}
+";
+			}
+			- Tags = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ ITag 
+					- _id = GUID 9dd25faf-0bbb-4b83-8d9d-b759fa3ff044;
+					- _myState = 8192;
+					- _name = "Acronym";
+					- _modifiedTimeWeak = 11.16.2015::19:2:49;
+					- ValueSpecifications = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ ILiteralSpecification 
+							- _id = GUID de881b65-4740-4815-ae8b-f37c7ee87773;
+							- _modifiedTimeWeak = 11.16.2015::19:2:49;
+							- _value = "CCB";
+						}
+					}
+					- _typeOf = { IHandle 
+						- _m2Class = "IType";
+						- _filename = "PredefinedTypes.sbs";
+						- _subsystem = "PredefinedTypes";
+						- _class = "";
+						- _name = "RhpString";
+						- _id = GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35;
+					}
+					- _isOrdered = 0;
+					- _base = { IHandle 
+						- _m2Class = "ITag";
+						- _filename = "SE_Dev_Profile.sbs";
+						- _subsystem = "SE_Dev_Profile";
+						- _class = "Definition";
+						- _name = "Acronym";
+						- _id = GUID d7864f58-2469-478e-b6fe-dcbdc6e53250;
+					}
+				}
+			}
+			- weakCGTime = 11.16.2015::19:2:49;
+			- strongCGTime = 11.16.2015::19:2:42;
+			- Inheritances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IGeneralization 
+					- _id = GUID 9a322dc8-7d68-4e16-bb06-ffe70c792bee;
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "IActor";
+						- _id = GUID ad033bc4-009c-4395-9da6-3c272207b006;
+					}
+					- _inheritanceType = iPublic;
+					- _isVirtual = 0;
+				}
+			}
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 264329ea-0854-4add-9416-4773c991ee50;
+					- _myState = 10240;
+					- _name = "itsProcess Change Request";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Product_and_Service_Life_Management_Stage.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Product and Service Life Management Stage";
+						- _class = "";
+						- _name = "Process Change Request";
+						- _id = GUID 0b2ce3df-7f42-4ebf-b40a-fe10007aabe2;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
 					- _navigability = Navigable;
 				}
 			}
