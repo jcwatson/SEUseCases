@@ -92,7 +92,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- _name = "Product and Service Life Management Stage";
-	- _modifiedTimeWeak = 11.17.2015::21:9:34;
+	- _modifiedTimeWeak = 11.17.2015::22:39:24;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Review_Document_-_Process_Change_Request.sbs";
@@ -106,7 +106,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	}
 	- _lastID = 10;
 	- Declaratives = { IRPYRawContainer 
-		- size = 3;
+		- size = 2;
 		- value = 
 		{ IUCDiagram 
 			- _id = GUID 565c6835-486c-4336-b968-a775e9cc1af4;
@@ -2849,1661 +2849,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				- _id = GUID 6a02d8c1-5bc8-481c-af89-a42c05be3ac5;
 			}
 		}
-		{ IDiagram 
-			- _id = GUID f53608cc-fa99-4f82-a5d6-03bdda940e1a;
-			- _myState = 8192;
-			- _properties = { IPropertyContainer 
-				- Subjects = { IRPYRawContainer 
-					- size = 2;
-					- value = 
-					{ IPropertySubject 
-						- _Name = "Format";
-						- Metaclasses = { IRPYRawContainer 
-							- size = 6;
-							- value = 
-							{ IPropertyMetaclass 
-								- _Name = "Association";
-								- Properties = { IRPYRawContainer 
-									- size = 4;
-									- value = 
-									{ IProperty 
-										- _Name = "Font.Font";
-										- _Value = "Tahoma";
-										- _Type = String;
-									}
-									{ IProperty 
-										- _Name = "Font.Size";
-										- _Value = "8";
-										- _Type = Int;
-									}
-									{ IProperty 
-										- _Name = "Line.LineColor";
-										- _Value = "128,128,128";
-										- _Type = Color;
-									}
-									{ IProperty 
-										- _Name = "Line.LineWidth";
-										- _Value = "1";
-										- _Type = Int;
-									}
-								}
-							}
-							{ IPropertyMetaclass 
-								- _Name = "Class";
-								- Properties = { IRPYRawContainer 
-									- size = 8;
-									- value = 
-									{ IProperty 
-										- _Name = "DefaultSize";
-										- _Value = "0,34,84,148";
-										- _Type = String;
-									}
-									{ IProperty 
-										- _Name = "Fill.FillColor";
-										- _Value = "255,255,255";
-										- _Type = Color;
-									}
-									{ IProperty 
-										- _Name = "Font.Font";
-										- _Value = "Tahoma";
-										- _Type = String;
-									}
-									{ IProperty 
-										- _Name = "Font.Size";
-										- _Value = "8";
-										- _Type = Int;
-									}
-									{ IProperty 
-										- _Name = "Font.Weight@Child.NameCompartment@Name";
-										- _Value = "700";
-										- _Type = Int;
-									}
-									{ IProperty 
-										- _Name = "Line.LineColor";
-										- _Value = "109,163,217";
-										- _Type = Color;
-									}
-									{ IProperty 
-										- _Name = "Line.LineStyle";
-										- _Value = "0";
-										- _Type = Int;
-									}
-									{ IProperty 
-										- _Name = "Line.LineWidth";
-										- _Value = "1";
-										- _Type = Int;
-									}
-								}
-							}
-							{ IPropertyMetaclass 
-								- _Name = "DiagramFrame";
-								- Properties = { IRPYRawContainer 
-									- size = 8;
-									- value = 
-									{ IProperty 
-										- _Name = "DefaultSize";
-										- _Value = "20,20,590,500";
-										- _Type = String;
-									}
-									{ IProperty 
-										- _Name = "Fill.FillColor";
-										- _Value = "247,247,247";
-										- _Type = Color;
-									}
-									{ IProperty 
-										- _Name = "Fill.Transparent_Fill";
-										- _Value = "0";
-										- _Type = Int;
-									}
-									{ IProperty 
-										- _Name = "Font.Font";
-										- _Value = "Tahoma";
-										- _Type = String;
-									}
-									{ IProperty 
-										- _Name = "Font.Size";
-										- _Value = "8";
-										- _Type = Int;
-									}
-									{ IProperty 
-										- _Name = "Font.Weight@Child.NameCompartment@Name";
-										- _Value = "700";
-										- _Type = Int;
-									}
-									{ IProperty 
-										- _Name = "Line.LineColor";
-										- _Value = "194,192,192";
-										- _Type = Color;
-									}
-									{ IProperty 
-										- _Name = "Line.LineWidth";
-										- _Value = "1";
-										- _Type = Int;
-									}
-								}
-							}
-							{ IPropertyMetaclass 
-								- _Name = "Inheritance";
-								- Properties = { IRPYRawContainer 
-									- size = 4;
-									- value = 
-									{ IProperty 
-										- _Name = "Font.Font";
-										- _Value = "Tahoma";
-										- _Type = String;
-									}
-									{ IProperty 
-										- _Name = "Font.Size";
-										- _Value = "8";
-										- _Type = Int;
-									}
-									{ IProperty 
-										- _Name = "Line.LineColor";
-										- _Value = "128,128,128";
-										- _Type = Color;
-									}
-									{ IProperty 
-										- _Name = "Line.LineWidth";
-										- _Value = "1";
-										- _Type = Int;
-									}
-								}
-							}
-							{ IPropertyMetaclass 
-								- _Name = "Polyline";
-								- Properties = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IProperty 
-										- _Name = "Line.LineWidth";
-										- _Value = "0";
-										- _Type = Int;
-									}
-								}
-							}
-							{ IPropertyMetaclass 
-								- _Name = "Rectangle";
-								- Properties = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IProperty 
-										- _Name = "Line.LineWidth";
-										- _Value = "0";
-										- _Type = Int;
-									}
-								}
-							}
-						}
-					}
-					{ IPropertySubject 
-						- _Name = "ObjectModelGe";
-						- Metaclasses = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertyMetaclass 
-								- _Name = "Association";
-								- Properties = { IRPYRawContainer 
-									- size = 9;
-									- value = 
-									{ IProperty 
-										- _Name = "ShowName";
-										- _Value = "Name";
-										- _Type = Enum;
-										- _ExtraTypeInfo = "Name,Label,None";
-									}
-									{ IProperty 
-										- _Name = "ShowSourceMultiplicity";
-										- _Value = "False";
-										- _Type = Bool;
-									}
-									{ IProperty 
-										- _Name = "ShowSourceQualifier";
-										- _Value = "True";
-										- _Type = Bool;
-									}
-									{ IProperty 
-										- _Name = "ShowSourceRole";
-										- _Value = "False";
-										- _Type = Bool;
-									}
-									{ IProperty 
-										- _Name = "ShowStereotype";
-										- _Value = "None";
-										- _Type = Enum;
-										- _ExtraTypeInfo = "Label,Bitmap,None";
-									}
-									{ IProperty 
-										- _Name = "ShowTargetMultiplicity";
-										- _Value = "False";
-										- _Type = Bool;
-									}
-									{ IProperty 
-										- _Name = "ShowTargetQualifier";
-										- _Value = "True";
-										- _Type = Bool;
-									}
-									{ IProperty 
-										- _Name = "ShowTargetRole";
-										- _Value = "False";
-										- _Type = Bool;
-									}
-									{ IProperty 
-										- _Name = "line_style";
-										- _Value = "rectilinear_arrows";
-										- _Type = Enum;
-										- _ExtraTypeInfo = "straight_arrows,rectilinear_arrows,spline_arrows";
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-			- _name = "Process Change Request Information Flow";
-			- Stereotypes = { IRPYRawContainer 
-				- size = 1;
-				- value = 
-				{ IHandle 
-					- _m2Class = "IStereotype";
-					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
-					- _subsystem = "SysML::Diagrams";
-					- _class = "";
-					- _name = "Block Definition Diagram";
-					- _id = GUID 6c142614-3349-49e9-8c6b-0236be5f6b61;
-				}
-			}
-			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.17.2015::20:42:9";
-			- _graphicChart = { CGIClassChart 
-				- _id = GUID 380411f8-5e14-4b05-b8ae-f322141b074c;
-				- m_type = 0;
-				- m_pModelObject = { IHandle 
-					- _m2Class = "IDiagram";
-					- _id = GUID f53608cc-fa99-4f82-a5d6-03bdda940e1a;
-				}
-				- m_pParent = ;
-				- m_name = { CGIText 
-					- m_str = "";
-					- m_style = "Arial" 10 0 0 0 1 ;
-					- m_color = { IColor 
-						- m_fgColor = 0;
-						- m_bgColor = 0;
-						- m_bgFlag = 0;
-					}
-					- m_position = 1 0 0  ;
-					- m_nIdent = 0;
-					- m_bImplicitSetRectPoints = 0;
-					- m_nOrientationCtrlPt = 8;
-				}
-				- m_drawBehavior = 0;
-				- m_bIsPreferencesInitialized = 0;
-				- elementList = 14;
-				{ CGIClass 
-					- _id = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-					- m_type = 78;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IClass";
-						- _id = GUID 9bd5a820-d959-48a9-b303-eae9b1e6ad70;
-					}
-					- m_pParent = ;
-					- m_name = { CGIText 
-						- m_str = "TopLevel";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 0;
-					- m_bIsPreferencesInitialized = 0;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 0 ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Attrs = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Operations = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
-				{ CGIDiagramFrame 
-					- _id = GUID 9a1027f3-fb8f-44ce-af30-8bfd86994b3c;
-					- m_type = 203;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 3.53704 0 0 3.63636 20 20 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 0 0  0 132  216 132  216 0  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
-				{ CGIClass 
-					- _id = GUID ac2f98a5-dd56-4a68-85cf-7f4680e03647;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 2;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "FitBoxToItsTextuals";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-							{ IPropertySubject 
-								- _Name = "ObjectModelGe";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Block";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Compartments";
-												- _Value = "";
-												- _Type = MultiLine;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 87;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IClass";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "";
-						- _name = "Change Request";
-						- _id = GUID 1853a4a3-99de-4fdb-af6d-04915ba0e628;
-					}
-					- m_pParent = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-					- m_name = { CGIText 
-						- m_str = "Change Request";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 4102;
-					- m_transform = 0.0736544 0 0 0.0588235 35.8527 112.647 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Attrs = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Operations = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
-				{ CGIClass 
-					- _id = GUID 671953cd-2ece-458c-8338-e983c553aa65;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 2;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "FitBoxToItsTextuals";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-							{ IPropertySubject 
-								- _Name = "ObjectModelGe";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Block";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Compartments";
-												- _Value = "";
-												- _Type = MultiLine;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 87;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IClass";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "";
-						- _name = "Change Impact Assessment";
-						- _id = GUID a996735f-fd3a-4c08-8da0-a2a7ca0ba52c;
-					}
-					- m_pParent = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-					- m_name = { CGIText 
-						- m_str = "Change Impact Assessment";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 4102;
-					- m_transform = 0.0963173 0 0 0.0588235 203.807 112.647 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Attrs = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Operations = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
-				{ CGIClass 
-					- _id = GUID a2784057-2abe-4ca4-947f-2b2fe929ec08;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "ObjectModelGe";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Block";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Compartments";
-												- _Value = "";
-												- _Type = MultiLine;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 87;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IClass";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "";
-						- _name = "Preliminary Change Package";
-						- _id = GUID a1e81ab6-6388-42b9-961c-2c975c605f5e;
-					}
-					- m_pParent = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-					- m_name = { CGIText 
-						- m_str = "Preliminary Change Package";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 4102;
-					- m_transform = 0.0793201 0 0 0.0588235 551.841 106.647 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Attrs = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Operations = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
-				{ CGIClass 
-					- _id = GUID 2bcf119a-1cce-4700-ab46-1c69c762e7cc;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "ObjectModelGe";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Block";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Compartments";
-												- _Value = "";
-												- _Type = MultiLine;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 87;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IClass";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "";
-						- _name = "Preliminary Project Plan";
-						- _id = GUID 0712c672-597f-4931-b389-c2130e027d2c;
-					}
-					- m_pParent = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-					- m_name = { CGIText 
-						- m_str = "Preliminary Project Plan";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 4102;
-					- m_transform = 0.0793201 0 0 0.0588235 383.841 106.647 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Attrs = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Operations = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
-				{ CGIAssociationEnd 
-					- _id = GUID 14306216-9563-4bf5-94d3-793eb9736c7e;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ShowLabels";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 92;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "Change Request";
-						- _name = "itsChange Impact Assessment_2";
-						- _id = GUID b57061a9-ab7f-43a9-8e9d-d6b110a24942;
-					}
-					- m_pParent = ;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID ac2f98a5-dd56-4a68-85cf-7f4680e03647;
-					- m_sourceType = 'F';
-					- m_pTarget = GUID 671953cd-2ece-458c-8338-e983c553aa65;
-					- m_targetType = 'T';
-					- m_direction = ' ';
-					- m_rpn = { CGIText 
-						- m_str = "CCB and SE Assess";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -50 -5  57 -5  57 9  -50 9  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 0.672897 0 0 3.42857 159.645 131.143 ;
-						- m_nHorizontalSpacing = -33;
-						- m_nVerticalSpacing = -3;
-						- m_nOrientationCtrlPt = 7;
-					}
-					- m_anglePoint1 = 0 0 ;
-					- m_anglePoint2 = 0 0 ;
-					- m_line_style = 2;
-					- m_SourcePort = 898 737 ;
-					- m_TargetPort = 127 737 ;
-					- m_pInverseModelObject = { IAssociationEndHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "Change Impact Assessment";
-						- _name = "itsChange Request";
-						- _id = GUID 6b3d2a88-88a0-48c6-a01f-280b82bae7cb;
-					}
-					- m_pInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_pInverseInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_bShowSourceMultiplicity = 0;
-					- m_bShowSourceRole = 0;
-					- m_bShowTargetMultiplicity = 0;
-					- m_bShowTargetRole = 0;
-					- m_bShowLinkName = 1;
-					- m_bShowSpecificType = 0;
-					- m_bInstance = 0;
-					- m_bShowQualifier1 = 1;
-					- m_bShowQualifier2 = 1;
-					- m_sourceRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 2;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 3;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 4;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 6;
-					}
-					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 5;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nHorizontalSpacing = -7;
-						- m_nOrientationCtrlPt = 4;
-					}
-					- m_sourceQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 6;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_targetQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 7;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_specificType = symmetric_type;
-				}
-				{ CGIAssociationEnd 
-					- _id = GUID bffd4ff8-76f4-413b-9158-2168387832a4;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ShowLabels";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 92;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "Change Impact Assessment";
-						- _name = "itsPreliminary Project Plan";
-						- _id = GUID f5741693-bd5e-4c67-8448-d2c5c176de2c;
-					}
-					- m_pParent = ;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID 671953cd-2ece-458c-8338-e983c553aa65;
-					- m_sourceType = 'F';
-					- m_pTarget = GUID 2bcf119a-1cce-4700-ab46-1c69c762e7cc;
-					- m_targetType = 'T';
-					- m_direction = ' ';
-					- m_rpn = { CGIText 
-						- m_str = "CCB Approves";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -33 -4  55 -4  55 10  -33 10  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 0.681818 0 0 2.14286 346.5 122.571 ;
-						- m_nHorizontalSpacing = -27;
-						- m_nVerticalSpacing = -14;
-						- m_nOrientationCtrlPt = 7;
-					}
-					- m_anglePoint1 = 0 0 ;
-					- m_anglePoint2 = 0 0 ;
-					- m_line_style = 2;
-					- m_SourcePort = 936 737 ;
-					- m_TargetPort = 153 873 ;
-					- m_pInverseModelObject = { IAssociationEndHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "Preliminary Project Plan";
-						- _name = "itsChange Impact Assessment";
-						- _id = GUID ccd61b92-8b0c-434a-b2ab-9a845f0543eb;
-					}
-					- m_pInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_pInverseInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_bShowSourceMultiplicity = 0;
-					- m_bShowSourceRole = 0;
-					- m_bShowTargetMultiplicity = 0;
-					- m_bShowTargetRole = 0;
-					- m_bShowLinkName = 1;
-					- m_bShowSpecificType = 0;
-					- m_bInstance = 0;
-					- m_bShowQualifier1 = 1;
-					- m_bShowQualifier2 = 1;
-					- m_sourceRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 2;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 3;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 4;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 6;
-					}
-					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 5;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nHorizontalSpacing = -7;
-						- m_nOrientationCtrlPt = 4;
-					}
-					- m_sourceQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 6;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_targetQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 7;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_specificType = symmetric_type;
-				}
-				{ CGIAssociationEnd 
-					- _id = GUID c2fe9c84-6f7d-45ba-82e8-e3ee03689377;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ShowLabels";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 92;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "Preliminary Project Plan";
-						- _name = "itsPreliminary Change Package";
-						- _id = GUID da47afe2-d35a-40f1-85e1-c4330a380674;
-					}
-					- m_pParent = ;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID 2bcf119a-1cce-4700-ab46-1c69c762e7cc;
-					- m_sourceType = 'F';
-					- m_pTarget = GUID a2784057-2abe-4ca4-947f-2b2fe929ec08;
-					- m_targetType = 'T';
-					- m_direction = ' ';
-					- m_rpn = { CGIText 
-						- m_str = "Eng Updates Architecture";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -53 -6  58 -6  58 8  -53 8  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 0.702703 0 0 2.14286 529.243 126.857 ;
-						- m_nHorizontalSpacing = -39;
-						- m_nVerticalSpacing = -10;
-						- m_nOrientationCtrlPt = 7;
-					}
-					- m_anglePoint1 = 0 0 ;
-					- m_anglePoint2 = 0 0 ;
-					- m_line_style = 2;
-					- m_SourcePort = 910 839 ;
-					- m_TargetPort = 242 805 ;
-					- m_pInverseModelObject = { IAssociationEndHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "Preliminary Change Package";
-						- _name = "itsPreliminary Project Plan";
-						- _id = GUID 0d9b1457-ac65-4dfd-a3d4-3196f629ec68;
-					}
-					- m_pInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_pInverseInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_bShowSourceMultiplicity = 0;
-					- m_bShowSourceRole = 0;
-					- m_bShowTargetMultiplicity = 0;
-					- m_bShowTargetRole = 0;
-					- m_bShowLinkName = 1;
-					- m_bShowSpecificType = 0;
-					- m_bInstance = 0;
-					- m_bShowQualifier1 = 1;
-					- m_bShowQualifier2 = 1;
-					- m_sourceRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 2;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 3;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 4;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 6;
-					}
-					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 5;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nHorizontalSpacing = -7;
-						- m_nOrientationCtrlPt = 4;
-					}
-					- m_sourceQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 6;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_targetQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 7;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_specificType = symmetric_type;
-				}
-				{ CGIClass 
-					- _id = GUID eb72298d-8906-499c-95c5-0bdabf3c9e68;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 2;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "FitBoxToItsTextuals";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-							{ IPropertySubject 
-								- _Name = "ObjectModelGe";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 2;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Block";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Compartments";
-												- _Value = "";
-												- _Type = MultiLine;
-											}
-										}
-									}
-									{ IPropertyMetaclass 
-										- _Name = "Class";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Compartments";
-												- _Value = "";
-												- _Type = MultiLine;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 87;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IClass";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Common Terms";
-						- _class = "";
-						- _name = "Project Plan";
-						- _id = GUID cdc0b373-9701-481d-b0a3-93f33068929a;
-					}
-					- m_pParent = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-					- m_name = { CGIText 
-						- m_str = "Project Plan";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 5;
-					}
-					- m_drawBehavior = 4102;
-					- m_transform = 0.0623229 0 0 0.0588235 707.875 100.647 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_AdditionalLabel = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_polygon = 4 2 329  2 1451  1061 1451  1061 329  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Attrs = { IRPYRawContainer 
-						- size = 0;
-					}
-					- Operations = { IRPYRawContainer 
-						- size = 0;
-					}
-				}
-				{ CGIAssociationEnd 
-					- _id = GUID a014bbb8-d486-4c7b-a5dd-d6774dafe12c;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "General";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Graphics";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ShowLabels";
-												- _Value = "False";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 92;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Configuration Management";
-						- _class = "Preliminary Change Package";
-						- _name = "itsProject Plan";
-						- _id = GUID 6cad5adf-7314-4044-9b9d-8d4186dc461d;
-					}
-					- m_pParent = ;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_bIsPreferencesInitialized = 1;
-					- m_pSource = GUID a2784057-2abe-4ca4-947f-2b2fe929ec08;
-					- m_sourceType = 'F';
-					- m_pTarget = GUID eb72298d-8906-499c-95c5-0bdabf3c9e68;
-					- m_targetType = 'T';
-					- m_direction = ' ';
-					- m_rpn = { CGIText 
-						- m_str = "CCB Approves";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -37 -5  51 -5  51 9  -37 9  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 0.681818 0 0 2.57143 667.227 126.857 ;
-						- m_nHorizontalSpacing = -30;
-						- m_nOrientationCtrlPt = 7;
-					}
-					- m_anglePoint1 = 0 0 ;
-					- m_anglePoint2 = 0 0 ;
-					- m_line_style = 2;
-					- m_SourcePort = 985 737 ;
-					- m_TargetPort = 644 788 ;
-					- m_pInverseModelObject = { IAssociationEndHandle 
-						- _m2Class = "IAssociationEnd";
-						- _filename = "Information_Model.sbs";
-						- _subsystem = "Information Model::Common Terms";
-						- _class = "Project Plan";
-						- _name = "itsPreliminary Change Package";
-						- _id = GUID 4ce69c63-df76-4ec9-b818-74bbe53cfa07;
-					}
-					- m_pInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_pInverseInstance = { IObjectLinkHandle 
-						- _m2Class = "";
-					}
-					- m_bShowSourceMultiplicity = 0;
-					- m_bShowSourceRole = 0;
-					- m_bShowTargetMultiplicity = 0;
-					- m_bShowTargetRole = 0;
-					- m_bShowLinkName = 1;
-					- m_bShowSpecificType = 0;
-					- m_bInstance = 0;
-					- m_bShowQualifier1 = 1;
-					- m_bShowQualifier2 = 1;
-					- m_sourceRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 2;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetRole = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 3;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 4;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_targetMultiplicity = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 5;
-						- m_bImplicitSetRectPoints = 0;
-					}
-					- m_sourceQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 6;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_targetQualifier = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 7;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_specificType = symmetric_type;
-				}
-				{ CGIFreeShape 
-					- _id = GUID 61f5cf18-1cea-443f-afe4-9c9797b8bdba;
-					- m_type = 185;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 -6 -12 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 66 288  480 288  480 312  66 312  ;
-				}
-				{ CGIFreeShape 
-					- _id = GUID 40a0d058-9b75-4711-9d43-f931585c5df9;
-					- m_type = 185;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 0.8 0 63.6 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 258 318  636 318  636 348  258 348  ;
-				}
-				{ CGIFreeShape 
-					- _id = GUID e27ba490-6706-4fae-bd27-b4f72494b8e9;
-					- m_type = 183;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 2 516 360  516 402  ;
-				}
-				
-				- m_access = 'Z';
-				- m_modified = 'N';
-				- m_fileVersion = "";
-				- m_nModifyDate = 0;
-				- m_nCreateDate = 0;
-				- m_creator = "";
-				- m_bScaleWithZoom = 1;
-				- m_arrowStyle = 'S';
-				- m_pRoot = GUID 7e20c350-ea44-4de8-bf7d-6cf18aa43b57;
-				- m_currentLeftTop = 0 0 ;
-				- m_currentRightBottom = 0 0 ;
-			}
-			- _defaultSubsystem = { IHandle 
-				- _m2Class = "ISubsystem";
-				- _id = GUID 6a02d8c1-5bc8-481c-af89-a42c05be3ac5;
-			}
-		}
 	}
-	- weakCGTime = 11.17.2015::21:9:34;
+	- weakCGTime = 11.17.2015::22:39:24;
 	- strongCGTime = 11.15.2015::15:38:11;
 	- _defaultComposite = GUID 9bd5a820-d959-48a9-b303-eae9b1e6ad70;
 	- _eventsBaseID = 12801;
@@ -4514,9 +2861,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 9bd5a820-d959-48a9-b303-eae9b1e6ad70;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.13.2015::21:19:12;
-			- weakCGTime = 11.13.2015::21:19:12;
-			- strongCGTime = 3.29.2015::15:52:25;
+			- _modifiedTimeWeak = 11.17.2015::21:15:7;
+			- weakCGTime = 11.17.2015::21:15:7;
+			- strongCGTime = 11.15.2015::15:38:11;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
@@ -4674,7 +3021,7 @@ There are many aspects to sustainability including:\\par
 					- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
 				}
 			}
-			- _modifiedTimeWeak = 11.13.2015::21:19:12;
+			- _modifiedTimeWeak = 11.17.2015::21:47:15;
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 Arial;}{\\f2\\fswiss\\fcharset0 Calibri;}{\\f3\\fswiss\\fprq2\\fcharset0 Arial,Bold;}{\\f4\\fswiss\\fcharset0 Arial;}}
 \\viewkind4\\uc1\\pard\\ltrpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to process a request for change and if it is not rejected the change request is integrated into a future product release.  \\par
@@ -4791,7 +3138,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 				}
 			}
 			- _lastID = 2;
-			- weakCGTime = 11.17.2015::20:41:46;
+			- weakCGTime = 11.17.2015::21:47:15;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- Operations = { IRPYRawContainer 
 				- size = 1;
@@ -4818,18 +3165,18 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 					- _id = GUID c6855fab-49e0-41b3-9621-21a86945a824;
 					- _myState = 8192;
 					- _name = "Process Change Request";
-					- _modifiedTimeWeak = 11.17.2015::20:41:46;
-					- _lastID = 187;
-					- weakCGTime = 11.17.2015::20:41:46;
+					- _modifiedTimeWeak = 11.17.2015::21:47:15;
+					- _lastID = 189;
+					- weakCGTime = 11.17.2015::21:47:15;
 					- strongCGTime = 10.26.2015::17:39:53;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
 					}
 					- _classModifier = Unspecified;
-					- _defNumber = 45;
+					- _defNumber = 46;
 					- Transitions = { IRPYRawContainer 
-						- size = 39;
+						- size = 40;
 						- value = 
 						{ IDefaultDrvdTrans 
 							- _id = GUID 170d3a7b-8dcb-4b6c-982c-f58090cf5ae9;
@@ -5923,7 +4270,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- _id = GUID fe69ed4f-3377-4ccd-87cf-71a943d98e12;
 								}
 							}
-							- _modifiedTimeWeak = 11.17.2015::20:35:2;
+							- _modifiedTimeWeak = 11.17.2015::21:44:44;
 							- _itsLabel = { ILabel 
 								- _id = GUID 9bba3d38-6778-4e32-a4a3-8b579325c994;
 								- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -5931,9 +4278,37 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 								- _itsGuard = NULL;
 								- _itsAction = NULL;
 							}
-							- _itsTarget = GUID 1a42496b-6fd8-4b6b-8dde-79ffb7b3c61a;
+							- _itsTarget = GUID 700d86a1-1b51-44be-a621-a5626d54d9fe;
 							- _staticReaction = 0;
 							- _itsSource = GUID 0b84cba4-0f53-4472-b896-4685b0890adf;
+						}
+						{ ITransition 
+							- _id = GUID c94ee7e4-5bba-4ee9-b0d5-8f4a967a6307;
+							- _myState = 2048;
+							- _name = "controlflow_188";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "ControlFlow";
+									- _id = GUID 51c3acf0-07f1-4786-825e-c01378393cfc;
+								}
+							}
+							- _modifiedTimeWeak = 11.17.2015::21:46:1;
+							- _itsLabel = { ILabel 
+								- _id = GUID 98774fc1-14d1-4bd4-9b34-29e073d75b25;
+								- _modifiedTimeWeak = 1.2.1990::0:0:0;
+								- _itsTrigger = NULL;
+								- _itsGuard = NULL;
+								- _itsAction = NULL;
+							}
+							- _itsTarget = GUID 1a42496b-6fd8-4b6b-8dde-79ffb7b3c61a;
+							- _staticReaction = 0;
+							- _itsSource = GUID 700d86a1-1b51-44be-a621-a5626d54d9fe;
 						}
 					}
 					- Connectors = { IRPYRawContainer 
@@ -6364,7 +4739,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 						{ IFork 
 							- _id = GUID 1a42496b-6fd8-4b6b-8dde-79ffb7b3c61a;
 							- _name = "fork_2";
-							- _modifiedTimeWeak = 11.17.2015::20:35:2;
+							- _modifiedTimeWeak = 11.17.2015::21:46:1;
 							- _parent = GUID a1e39863-3547-4da9-a3e5-48c6092d6253;
 							- _connectorType = Fork;
 						}
@@ -6607,11 +4982,11 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 						}
 					}
 					- States = { IRPYRawContainer 
-						- size = 29;
+						- size = 30;
 						- value = 
 						{ IState 
 							- _id = GUID a1e39863-3547-4da9-a3e5-48c6092d6253;
-							- _modifiedTimeWeak = 11.16.2015::21:42:4;
+							- _modifiedTimeWeak = 11.17.2015::21:43:51;
 							- _parent = ;
 							- _defaultTrans = GUID 170d3a7b-8dcb-4b6c-982c-f58090cf5ae9;
 						}
@@ -7126,8 +5501,20 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 								- _id = GUID ff0257ff-61f0-4e06-aafb-ea62530a5864;
 							}
 						}
+						{ IState 
+							- _id = GUID 700d86a1-1b51-44be-a621-a5626d54d9fe;
+							- _name = "Merge Change Request Branch into Release Branch";
+							- _modifiedTimeWeak = 11.17.2015::21:47:15;
+							- _parent = GUID a1e39863-3547-4da9-a3e5-48c6092d6253;
+							- _stateType = Action;
+							- _defaultTrans = ;
+							- _swimlane = { IHandle 
+								- _m2Class = "ISwimlane";
+								- _id = GUID dfb272d3-c200-4d12-9453-f752d830ed50;
+							}
+						}
 					}
-					- _version = 11.17.2015::15:35:2;
+					- _version = 11.17.2015::16:48:54;
 					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = GUID c86ca3ab-ac0a-4bff-9847-b47d416bf207;
 					- Views = { IRPYRawContainer 
@@ -7765,8 +6152,8 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 								}
 							}
 							- _name = "activitydiagram_0";
-							- _modifiedTimeWeak = 11.17.2015::19:18:5;
-							- _lastModifiedTime = "11.17.2015::20:41:46";
+							- _modifiedTimeWeak = 11.17.2015::21:31:44;
+							- _lastModifiedTime = "11.17.2015::21:49:3";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID f4883619-f03c-4245-a0e6-ff73e68fd337;
 								- m_type = 0;
@@ -7790,7 +6177,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 								}
 								- m_drawBehavior = 4096;
 								- m_bIsPreferencesInitialized = 1;
-								- elementList = 109;
+								- elementList = 111;
 								{ CGIState 
 									- _id = GUID 41be454a-9150-4bf5-8cc1-3e948c9e2e2f;
 									- m_type = 5;
@@ -9050,8 +7437,8 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
-									- m_SourcePort = 629 939 ;
-									- m_TargetPort = 562 330 ;
+									- m_SourcePort = 496 939 ;
+									- m_TargetPort = 799 330 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -9529,17 +7916,17 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_position = 4 -6 -9  43 -9  43 5  -6 5  ;
 										- m_nIdent = 0;
 										- m_bImplicitSetRectPoints = 0;
-										- m_transform = 1 0 0 1 437 708 ;
-										- m_nHorizontalSpacing = -64;
-										- m_nVerticalSpacing = -13;
+										- m_transform = 1 0 0 1 431 725 ;
+										- m_nHorizontalSpacing = -83;
+										- m_nVerticalSpacing = -5;
 										- m_nOrientationCtrlPt = 0;
 									}
-									- m_arrow = 1 427 744  ;
+									- m_arrow = 1 427 736  ;
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
 									- m_SourcePort = 877 939 ;
-									- m_TargetPort = 3 694 ;
+									- m_TargetPort = 2 525 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -11257,7 +9644,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nOrientationCtrlPt = 8;
 									}
 									- m_drawBehavior = 4096;
-									- m_transform = 1 0 0 1 -32 379 ;
+									- m_transform = 1 0 0 1 -32 392 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_points = 2 51 490  1177 490  ;
 								}
@@ -11539,7 +9926,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nOrientationCtrlPt = 5;
 									}
 									- m_drawBehavior = 4104;
-									- m_transform = 0.165875 0 0 0.0183244 557.392 295.02 ;
+									- m_transform = 0.200919 0 0 0.0183244 557.509 295.02 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -11591,7 +9978,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nOrientationCtrlPt = 8;
 									}
 									- m_drawBehavior = 0;
-									- m_transform = 0.85274 0 0 0.402876 598.017 321.508 ;
+									- m_transform = 0.85274 0 0 0.402876 748.099 337.391 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_position = 4 0 0  0 25  25 25  25 0  ;
 									- m_pInheritsFrom = { IHandle 
@@ -11669,8 +10056,8 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
-									- m_SourcePort = 296 631 ;
-									- m_TargetPort = 10 2 ;
+									- m_SourcePort = 1000 610 ;
+									- m_TargetPort = 12 2 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -14024,7 +12411,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
 									- m_SourcePort = 8 6 ;
-									- m_TargetPort = 194 184 ;
+									- m_TargetPort = 110 98 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -14330,7 +12717,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nOrientationCtrlPt = 5;
 									}
 									- m_drawBehavior = 4104;
-									- m_transform = 0.130053 0 0 0.0186382 287.807 331.03 ;
+									- m_transform = 0.130053 0 0 0.0186382 238.348 326.381 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -14607,7 +12994,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nOrientationCtrlPt = 5;
 									}
 									- m_drawBehavior = 65544;
-									- m_transform = 0.0732702 0 0 0.0210895 657.563 327.336 ;
+									- m_transform = 0.0732702 0 0 0.0210895 653.299 331.21 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -14654,13 +13041,13 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_position = 4 -6 -9  139 -9  139 9  -6 9  ;
 										- m_nIdent = 0;
 										- m_bImplicitSetRectPoints = 1;
-										- m_transform = 0.675862 0 0 2.11111 671.055 770 ;
-										- m_nHorizontalSpacing = 106;
-										- m_nVerticalSpacing = 1;
+										- m_transform = 0.675862 0 0 2.11111 705.055 778 ;
+										- m_nHorizontalSpacing = 2;
+										- m_nVerticalSpacing = -1;
 										- m_nOrientationCtrlPt = 2;
 									}
 									- m_drawBehavior = 524296;
-									- m_transform = -5.14086 0 -0 -21.1402 853.383 1289.55 ;
+									- m_transform = -4.2442 0 -0 -21.1402 767.142 1289.55 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -14752,8 +13139,8 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
-									- m_SourcePort = 4 6 ;
-									- m_TargetPort = 514 136 ;
+									- m_SourcePort = 6 6 ;
+									- m_TargetPort = 724 63 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -14785,7 +13172,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nOrientationCtrlPt = 2;
 									}
 									- m_drawBehavior = 524296;
-									- m_transform = -6.04978 0 -0 -19.3193 459.783 1275.07 ;
+									- m_transform = -6.04978 0 -0 -19.3193 320.638 1275.07 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -14872,12 +13259,12 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_position = 4 -6 -9  111 -9  111 5  -6 5  ;
 										- m_nIdent = 0;
 										- m_bImplicitSetRectPoints = 0;
-										- m_transform = 1 0 0 1 246 781 ;
-										- m_nHorizontalSpacing = -12;
-										- m_nVerticalSpacing = 51;
+										- m_transform = 1 0 0 1 240 774 ;
+										- m_nHorizontalSpacing = -15;
+										- m_nVerticalSpacing = 61;
 										- m_nOrientationCtrlPt = 0;
 									}
-									- m_arrow = 3 353 760  234 760  234 567  ;
+									- m_arrow = 3 330 751  234 751  234 567  ;
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
@@ -14989,7 +13376,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
-									- m_SourcePort = 194 184 ;
+									- m_SourcePort = 110 98 ;
 									- m_TargetPort = 4 2 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -15061,14 +13448,16 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 											- m_bgColor = 0;
 											- m_bgFlag = 0;
 										}
-										- m_position = 1 0 0  ;
+										- m_position = 4 -6 -9  90 -9  90 9  -6 9  ;
 										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nVerticalSpacing = -19;
+										- m_bImplicitSetRectPoints = 1;
+										- m_transform = 0.71875 0 0 2 409.313 798 ;
+										- m_nHorizontalSpacing = -4;
+										- m_nVerticalSpacing = -30;
 										- m_nOrientationCtrlPt = 0;
 									}
 									- m_drawBehavior = 524296;
-									- m_transform = 0 20.7843 -6.55689 0 1173.68 540.391 ;
+									- m_transform = 0 20.7843 -6.55689 0 1173.68 374.117 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -15141,6 +13530,160 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_bIsPreferencesInitialized = 1;
 									- m_pSource = GUID 2b961581-b342-460b-9f23-c3f5e714913a;
 									- m_sourceType = 'F';
+									- m_pTarget = GUID 8522aeae-7ef7-4f30-84a9-4bbe69fbf9e6;
+									- m_targetType = 'T';
+									- m_direction = ' ';
+									- m_rpn = { CGIText 
+										- m_str = "";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 0;
+									}
+									- m_anglePoint1 = 0 0 ;
+									- m_anglePoint2 = 0 0 ;
+									- m_line_style = 2;
+									- m_SourcePort = 6 6 ;
+									- m_TargetPort = -2 573 ;
+									- m_pInheritsFrom = { IHandle 
+										- _m2Class = "";
+									}
+									- m_nInheritanceMask = 0;
+									- m_bShowName = 1;
+								}
+								{ CGIActionState 
+									- _id = GUID 8522aeae-7ef7-4f30-84a9-4bbe69fbf9e6;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "FitBoxToItsTextuals";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 132;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "IState";
+										- _id = GUID 700d86a1-1b51-44be-a621-a5626d54d9fe;
+									}
+									- m_pParent = GUID cadf77f5-6268-4a4b-b0d6-2c66b3b3636d;
+									- m_name = { CGIText 
+										- m_str = "Merge Change Request Branch into Release Branch";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 5;
+									}
+									- m_drawBehavior = 4104;
+									- m_transform = 0.161982 0 0 0.0186381 453.345 324.957 ;
+									- m_bIsPreferencesInitialized = 1;
+									- m_AdditionalLabel = { CGIText 
+										- m_str = "";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 1;
+									}
+									- m_polygon = 4 0 -17  0 1043  1095 1043  1095 -17  ;
+									- m_nNameFormat = 0;
+									- m_nIsNameFormat = 0;
+									- Compartments = { IRPYRawContainer 
+										- size = 0;
+									}
+									- nAndLineCount = 0;
+									- m_pInheritsFrom = { IHandle 
+										- _m2Class = "";
+									}
+									- m_nInheritanceMask = 0;
+									- m_pDefaultComponentRelation = ;
+									- m_NameDisplayMode = ShowName;
+									- m_ActDescLablDiaplayMode = DisplayDescription;
+								}
+								{ CGITrans 
+									- _id = GUID a2028792-3c71-4ccf-8953-3af4b351736a;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "ShowLabels";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 28;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "ITransition";
+										- _id = GUID c94ee7e4-5bba-4ee9-b0d5-8f4a967a6307;
+									}
+									- m_pParent = ;
+									- m_name = { CGIText 
+										- m_str = "ControlFlow";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_drawBehavior = 4096;
+									- m_bIsPreferencesInitialized = 1;
+									- m_pSource = GUID 8522aeae-7ef7-4f30-84a9-4bbe69fbf9e6;
+									- m_sourceType = 'F';
 									- m_pTarget = GUID 651c5e71-307e-4ddf-8744-6d7649b3daaf;
 									- m_targetType = 'T';
 									- m_direction = ' ';
@@ -15157,12 +13700,11 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_bImplicitSetRectPoints = 0;
 										- m_nOrientationCtrlPt = 0;
 									}
-									- m_arrow = 1 671 836  ;
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
-									- m_SourcePort = 6 6 ;
-									- m_TargetPort = 19 5 ;
+									- m_SourcePort = 614 885 ;
+									- m_TargetPort = 11 5 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -15248,7 +13790,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 						{ ISwimlane 
 							- _id = GUID dfb272d3-c200-4d12-9453-f752d830ed50;
 							- _name = "SE";
-							- _modifiedTimeWeak = 11.16.2015::20:27:46;
+							- _modifiedTimeWeak = 11.17.2015::21:43:51;
 							- _represents = { IHandle 
 								- _m2Class = "IClass";
 								- _filename = "Product_Development_Domain_Structure.sbs";
@@ -21375,6 +19917,19 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_drawBehavior = 524296;
 									- m_transform = -2.75901e-005 -17.6667 8.29545 -5.87582e-005 -99.281 671.51 ;
 									- m_bIsPreferencesInitialized = 1;
+									- m_AdditionalLabel = { CGIText 
+										- m_str = "";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
 									- m_position = 4 0 0  0 12  12 12  12 0  ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -22307,9 +20862,9 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 					- _id = GUID 1e28ae5f-f0d9-40bd-a898-98b11675fb14;
 					- _myState = 8192;
 					- _name = "Update Architecture and Specifications";
-					- _modifiedTimeWeak = 11.17.2015::13:57:16;
-					- _lastID = 128;
-					- weakCGTime = 11.17.2015::13:57:16;
+					- _modifiedTimeWeak = 11.17.2015::21:43:30;
+					- _lastID = 130;
+					- weakCGTime = 11.17.2015::21:43:30;
 					- strongCGTime = 11.16.2015::20:18:26;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -22318,7 +20873,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 					- _classModifier = Unspecified;
 					- _defNumber = 27;
 					- Transitions = { IRPYRawContainer 
-						- size = 35;
+						- size = 34;
 						- value = 
 						{ ITransition 
 							- _id = GUID bc748dbc-8a5d-47e2-89a2-a24c15e75d38;
@@ -22512,7 +21067,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- _id = GUID fe69ed4f-3377-4ccd-87cf-71a943d98e12;
 								}
 							}
-							- _modifiedTimeWeak = 11.9.2015::14:30:26;
+							- _modifiedTimeWeak = 11.17.2015::21:40:32;
 							- _itsLabel = { ILabel 
 								- _id = GUID e9132d43-ede3-4c49-b04e-a32239c34ef5;
 								- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -22520,7 +21075,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 								- _itsGuard = NULL;
 								- _itsAction = NULL;
 							}
-							- _itsTarget = GUID 2d4f6a2e-c27e-4995-9e64-323a2f3625ef;
+							- _itsTarget = GUID 74583bce-e8f0-4d69-acd1-35febf1a6a2d;
 							- _staticReaction = 0;
 							- _itsSource = GUID 014a95da-45bc-4e25-b6ee-0d52adae0686;
 						}
@@ -22877,7 +21432,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- _id = GUID 51c3acf0-07f1-4786-825e-c01378393cfc;
 								}
 							}
-							- _modifiedTimeWeak = 11.9.2015::14:31:14;
+							- _modifiedTimeWeak = 11.17.2015::21:41:47;
 							- _itsLabel = { ILabel 
 								- _id = GUID 1a2834ae-4d53-4de5-8115-5ac1aa0c21ad;
 								- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -22887,7 +21442,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 							}
 							- _itsTarget = GUID fee96b90-b3ba-48f5-8f38-929c50731f1f;
 							- _staticReaction = 0;
-							- _itsSource = GUID e75875b5-5cb0-4acc-b5dc-c665662f2bca;
+							- _itsSource = GUID e02a0f4b-9d9e-4f25-88ef-3fce7c3148fe;
 						}
 						{ ITransition 
 							- _id = GUID 55976996-cb92-41e6-b604-a010f8af18b6;
@@ -22920,34 +21475,6 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 							- _itsTarget = GUID e75875b5-5cb0-4acc-b5dc-c665662f2bca;
 							- _staticReaction = 0;
 							- _itsSource = GUID 93b4c3f0-c641-4903-82c0-83de0fd246da;
-						}
-						{ ITransition 
-							- _id = GUID 1740795a-f68c-4d1b-a4be-9618e54eb754;
-							- _myState = 2048;
-							- _name = "controlflow_92";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "ControlFlow";
-									- _id = GUID 51c3acf0-07f1-4786-825e-c01378393cfc;
-								}
-							}
-							- _modifiedTimeWeak = 11.9.2015::17:3:29;
-							- _itsLabel = { ILabel 
-								- _id = GUID a2c7cab1-a93f-47b6-b934-733e0c11f4dc;
-								- _modifiedTimeWeak = 1.2.1990::0:0:0;
-								- _itsTrigger = NULL;
-								- _itsGuard = NULL;
-								- _itsAction = NULL;
-							}
-							- _itsTarget = GUID 74583bce-e8f0-4d69-acd1-35febf1a6a2d;
-							- _staticReaction = 0;
-							- _itsSource = GUID 2d4f6a2e-c27e-4995-9e64-323a2f3625ef;
 						}
 						{ ITransition 
 							- _id = GUID af4d8f96-3258-495a-8b06-39c794a1cacf;
@@ -23021,7 +21548,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- _id = GUID 51c3acf0-07f1-4786-825e-c01378393cfc;
 								}
 							}
-							- _modifiedTimeWeak = 11.14.2015::15:30:4;
+							- _modifiedTimeWeak = 11.17.2015::21:42:10;
 							- _itsLabel = { ILabel 
 								- _id = GUID 8b9fb9e7-106c-426f-8d4a-436b3b39f2cf;
 								- _modifiedTimeWeak = 1.2.1990::0:0:0;
@@ -23029,7 +21556,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 								- _itsGuard = NULL;
 								- _itsAction = NULL;
 							}
-							- _itsTarget = GUID e02a0f4b-9d9e-4f25-88ef-3fce7c3148fe;
+							- _itsTarget = GUID e75875b5-5cb0-4acc-b5dc-c665662f2bca;
 							- _staticReaction = 0;
 							- _itsSource = GUID 9f3f5658-6d83-4508-a0a3-ee62029e4241;
 						}
@@ -23088,34 +21615,6 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 							- _itsTarget = GUID dc2532a9-1f82-4d8c-9afe-e67545113854;
 							- _staticReaction = 0;
 							- _itsSource = GUID 30e0b42e-cb0b-4ae2-9e81-537d753ff156;
-						}
-						{ ITransition 
-							- _id = GUID 995e0b1d-aca0-4c92-a08f-d4b2310200b9;
-							- _myState = 2048;
-							- _name = "controlflow_108";
-							- Stereotypes = { IRPYRawContainer 
-								- size = 1;
-								- value = 
-								{ IHandle 
-									- _m2Class = "IStereotype";
-									- _filename = "PredefinedTypes.sbs";
-									- _subsystem = "PredefinedTypes";
-									- _class = "";
-									- _name = "ControlFlow";
-									- _id = GUID 51c3acf0-07f1-4786-825e-c01378393cfc;
-								}
-							}
-							- _modifiedTimeWeak = 11.14.2015::15:30:36;
-							- _itsLabel = { ILabel 
-								- _id = GUID 617f83dd-21c5-4fd1-a8d4-198e44c88900;
-								- _modifiedTimeWeak = 1.2.1990::0:0:0;
-								- _itsTrigger = NULL;
-								- _itsGuard = NULL;
-								- _itsAction = NULL;
-							}
-							- _itsTarget = GUID e75875b5-5cb0-4acc-b5dc-c665662f2bca;
-							- _staticReaction = 0;
-							- _itsSource = GUID e02a0f4b-9d9e-4f25-88ef-3fce7c3148fe;
 						}
 						{ ITransition 
 							- _id = GUID e050d1f1-d53e-49ff-903e-276a9432379e;
@@ -23320,6 +21819,34 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 							- _itsTarget = GUID e75875b5-5cb0-4acc-b5dc-c665662f2bca;
 							- _staticReaction = 0;
 							- _itsSource = GUID b3cbf6b3-fef5-4d8f-8802-891a536962db;
+						}
+						{ ITransition 
+							- _id = GUID eef604e2-b956-4353-9e85-daf4319747d9;
+							- _myState = 2048;
+							- _name = "controlflow_129";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "PredefinedTypes.sbs";
+									- _subsystem = "PredefinedTypes";
+									- _class = "";
+									- _name = "ControlFlow";
+									- _id = GUID 51c3acf0-07f1-4786-825e-c01378393cfc;
+								}
+							}
+							- _modifiedTimeWeak = 11.17.2015::21:42:45;
+							- _itsLabel = { ILabel 
+								- _id = GUID 4a8dedae-9b2a-4c8a-a8cd-7221b1658ee1;
+								- _modifiedTimeWeak = 1.2.1990::0:0:0;
+								- _itsTrigger = NULL;
+								- _itsGuard = NULL;
+								- _itsAction = NULL;
+							}
+							- _itsTarget = GUID e02a0f4b-9d9e-4f25-88ef-3fce7c3148fe;
+							- _staticReaction = 0;
+							- _itsSource = GUID e75875b5-5cb0-4acc-b5dc-c665662f2bca;
 						}
 					}
 					- Connectors = { IRPYRawContainer 
@@ -23579,7 +22106,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- _id = GUID 80f3771a-7820-4e54-9d7c-ef3dee85323e;
 								}
 							}
-							- _modifiedTimeWeak = 11.16.2015::20:0:0;
+							- _modifiedTimeWeak = 11.17.2015::21:42:45;
 							- _parent = GUID eace0600-5500-4d8a-9a40-e9b55475d0c2;
 							- _connectorType = Junction;
 						}
@@ -23719,11 +22246,11 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 						}
 					}
 					- States = { IRPYRawContainer 
-						- size = 21;
+						- size = 20;
 						- value = 
 						{ IState 
 							- _id = GUID eace0600-5500-4d8a-9a40-e9b55475d0c2;
-							- _modifiedTimeWeak = 11.16.2015::19:55:21;
+							- _modifiedTimeWeak = 11.17.2015::21:43:30;
 							- _parent = ;
 							- _defaultTrans = GUID 0f0427ed-f216-4bf7-9e50-450ad7844288;
 						}
@@ -23746,21 +22273,10 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 							- _stateType = Action;
 							- _defaultTrans = ;
 						}
-						{ IState 
-							- _id = GUID 2d4f6a2e-c27e-4995-9e64-323a2f3625ef;
-							- _name = "Merge Change Request Branch into planned release branch";
-							- _modifiedTimeWeak = 11.9.2015::17:25:18;
-							- _description = { IDescription 
-								- _text = "For all artifacts (CI) that are affected by the change including documents, specifications, requirements, models, analysis artifacts, etc.";
-							}
-							- _parent = GUID eace0600-5500-4d8a-9a40-e9b55475d0c2;
-							- _stateType = Action;
-							- _defaultTrans = ;
-						}
 						{ ICallOperation 
 							- _id = GUID 74583bce-e8f0-4d69-acd1-35febf1a6a2d;
 							- _name = "Analyze Requirement Changes";
-							- _modifiedTimeWeak = 11.9.2015::16:59:58;
+							- _modifiedTimeWeak = 11.17.2015::21:40:39;
 							- _parent = GUID eace0600-5500-4d8a-9a40-e9b55475d0c2;
 							- _stateType = CallOperation;
 							- _defaultTrans = ;
@@ -23897,9 +22413,6 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 						{ IObjectNode 
 							- _id = GUID b6f6e56c-fa02-49f9-8e51-b6782f8359b9;
 							- _name = "Project";
-							- Dependencies = { IRPYRawContainer 
-								- size = 0;
-							}
 							- Stereotypes = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -23963,10 +22476,11 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 						}
 						{ IState 
 							- _id = GUID e02a0f4b-9d9e-4f25-88ef-3fce7c3148fe;
-							- _name = "Select Artifacts and Reserve";
-							- _modifiedTimeWeak = 11.14.2015::15:30:36;
+							- _name = "Select Artifacts and Reserve in open Branch";
+							- _modifiedTimeWeak = 11.17.2015::21:42:45;
 							- _description = { IDescription 
-								- _text = "Checkout all items needed, e.g.  specification, models, requirements, etc. ";
+								- _text = "Checkout all items that are affected by the change including documents, specifications, requirements, models, analysis artifacts, etc.
+";
 							}
 							- _parent = GUID eace0600-5500-4d8a-9a40-e9b55475d0c2;
 							- _stateType = Action;
@@ -23995,7 +22509,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 							}
 						}
 					}
-					- _version = 11.17.2015::10:26:15;
+					- _version = 11.17.2015::16:43:30;
 					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = GUID 86814b61-8573-4579-a6d4-7f503fe76c69;
 					- Views = { IRPYRawContainer 
@@ -24579,8 +23093,8 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 								}
 							}
 							- _name = "activitydiagram_0";
-							- _modifiedTimeWeak = 11.17.2015::13:57:16;
-							- _lastModifiedTime = "11.17.2015::15:26:15";
+							- _modifiedTimeWeak = 11.17.2015::21:30:37;
+							- _lastModifiedTime = "11.17.2015::21:43:31";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID adabacfe-0b8e-4126-aa2c-e240fbabc326;
 								- m_type = 0;
@@ -24604,7 +23118,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 								}
 								- m_drawBehavior = 4096;
 								- m_bIsPreferencesInitialized = 1;
-								- elementList = 77;
+								- elementList = 75;
 								{ CGIState 
 									- _id = GUID 071ef323-dfd3-40c0-874e-081f6d47e6e7;
 									- m_type = 5;
@@ -24935,83 +23449,6 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_bShowName = 1;
 								}
 								{ CGIActionState 
-									- _id = GUID 977d42b4-c545-42a8-aa90-34fed93a576d;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "FitBoxToItsTextuals";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 132;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "IState";
-										- _id = GUID 2d4f6a2e-c27e-4995-9e64-323a2f3625ef;
-									}
-									- m_pParent = GUID 071ef323-dfd3-40c0-874e-081f6d47e6e7;
-									- m_name = { CGIText 
-										- m_str = "Merge Change Request Branch into planned release branch";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 5;
-									}
-									- m_drawBehavior = 4104;
-									- m_transform = 0.357077 0 0 0.0933962 244 341.588 ;
-									- m_bIsPreferencesInitialized = 1;
-									- m_AdditionalLabel = { CGIText 
-										- m_str = "";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 1;
-									}
-									- m_polygon = 4 0 -17  0 1043  1095 1043  1095 -17  ;
-									- m_nNameFormat = 0;
-									- m_nIsNameFormat = 0;
-									- Compartments = { IRPYRawContainer 
-										- size = 0;
-									}
-									- nAndLineCount = 0;
-									- m_pInheritsFrom = { IHandle 
-										- _m2Class = "";
-									}
-									- m_nInheritanceMask = 0;
-									- m_pDefaultComponentRelation = ;
-									- m_NameDisplayMode = ShowName;
-									- m_ActDescLablDiaplayMode = DisplayDescription;
-								}
-								{ CGIActionState 
 									- _id = GUID 9dfb04fd-3328-453d-be77-dcb61b29ed44;
 									- _properties = { IPropertyContainer 
 										- Subjects = { IRPYRawContainer 
@@ -25251,7 +23688,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nOrientationCtrlPt = 5;
 									}
 									- m_drawBehavior = 4104;
-									- m_transform = 0.343379 0 0 0.0377358 261 263.635 ;
+									- m_transform = 0.343379 0 0 0.0377358 261 378.635 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -25300,8 +23737,8 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_position = 4 409 48  646 48  646 66  409 66  ;
 										- m_nIdent = 0;
 										- m_bImplicitSetRectPoints = 1;
-										- m_transform = 0.683544 0 0 2.05556 146.43 81.3333 ;
-										- m_nHorizontalSpacing = 155;
+										- m_transform = 0.683544 0 0 2.05556 170.43 204.333 ;
+										- m_nHorizontalSpacing = 167;
 										- m_nOrientationCtrlPt = 2;
 									}
 									- m_drawBehavior = 524296;
@@ -26152,7 +24589,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_bIsPreferencesInitialized = 1;
 									- m_pSource = GUID 562a54f4-abb9-48e5-ae49-4d9104006068;
 									- m_sourceType = 'F';
-									- m_pTarget = GUID 977d42b4-c545-42a8-aa90-34fed93a576d;
+									- m_pTarget = GUID 9dfb04fd-3328-453d-be77-dcb61b29ed44;
 									- m_targetType = 'T';
 									- m_direction = ' ';
 									- m_rpn = { CGIText 
@@ -26172,7 +24609,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
 									- m_SourcePort = 5 2 ;
-									- m_TargetPort = 549 37 ;
+									- m_TargetPort = 547 251 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -26414,7 +24851,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_position = 4 -6 -9  96 -9  96 9  -6 9  ;
 										- m_nIdent = 0;
 										- m_bImplicitSetRectPoints = 1;
-										- m_transform = 0.715686 0 0 1.83333 556.294 1203.5 ;
+										- m_transform = 0.843137 0 0 1.83333 569.059 1189.5 ;
 										- m_nHorizontalSpacing = -5;
 										- m_nVerticalSpacing = -36;
 										- m_nOrientationCtrlPt = 0;
@@ -27809,7 +26246,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nOrientationCtrlPt = 8;
 									}
 									- m_drawBehavior = 4096;
-									- m_transform = 0.0714286 0 0 0.0817439 426.143 211 ;
+									- m_transform = 0.0714286 0 0 0.0817439 423.143 150 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_position = 4 -2 0  -2 367  418 367  418 0  ;
 									- m_pInheritsFrom = { IHandle 
@@ -27866,7 +26303,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									}
 									- m_drawBehavior = 4096;
 									- m_bIsPreferencesInitialized = 1;
-									- m_pSource = GUID 02afefe5-894c-4768-bf5c-539b393dbbdd;
+									- m_pSource = GUID 612c3391-4147-476e-b67e-87cd5e8e1477;
 									- m_sourceType = 'F';
 									- m_pTarget = GUID 1963086b-c9ed-4c1a-a782-e1e32dda0f97;
 									- m_targetType = 'T';
@@ -27887,7 +26324,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
-									- m_SourcePort = 208 367 ;
+									- m_SourcePort = 553 646 ;
 									- m_TargetPort = 518 222 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
@@ -27964,89 +26401,12 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nVerticalSpacing = 419;
 										- m_nOrientationCtrlPt = 0;
 									}
-									- m_arrow = 2 48 1031  48 226  ;
+									- m_arrow = 2 48 1031  48 165  ;
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
 									- m_SourcePort = 8 525 ;
 									- m_TargetPort = -2 184 ;
-									- m_pInheritsFrom = { IHandle 
-										- _m2Class = "";
-									}
-									- m_nInheritanceMask = 0;
-									- m_bShowName = 1;
-								}
-								{ CGITrans 
-									- _id = GUID c179df51-468c-4ece-9e59-49c231f8584f;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "ShowLabels";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 28;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "ITransition";
-										- _id = GUID 1740795a-f68c-4d1b-a4be-9618e54eb754;
-									}
-									- m_pParent = ;
-									- m_name = { CGIText 
-										- m_str = "ControlFlow";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_drawBehavior = 4096;
-									- m_bIsPreferencesInitialized = 1;
-									- m_pSource = GUID 977d42b4-c545-42a8-aa90-34fed93a576d;
-									- m_sourceType = 'F';
-									- m_pTarget = GUID 9dfb04fd-3328-453d-be77-dcb61b29ed44;
-									- m_targetType = 'T';
-									- m_direction = ' ';
-									- m_rpn = { CGIText 
-										- m_str = "";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 0;
-									}
-									- m_anglePoint1 = 0 0 ;
-									- m_anglePoint2 = 0 0 ;
-									- m_line_style = 2;
-									- m_SourcePort = 532 957 ;
-									- m_TargetPort = 513 487 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -28490,7 +26850,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_bIsPreferencesInitialized = 1;
 									- m_pSource = GUID 5fd3c192-e67a-45bb-b5e5-dceff35d532b;
 									- m_sourceType = 'F';
-									- m_pTarget = GUID 612c3391-4147-476e-b67e-87cd5e8e1477;
+									- m_pTarget = GUID 02afefe5-894c-4768-bf5c-539b393dbbdd;
 									- m_targetType = 'T';
 									- m_direction = ' ';
 									- m_rpn = { CGIText 
@@ -28510,7 +26870,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
 									- m_SourcePort = 512 754 ;
-									- m_TargetPort = 540 388 ;
+									- m_TargetPort = 208 0 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -28585,15 +26945,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									- frameset = "<frameset rows=100%>
 <frame name=InstanceSlotListCompartment>";
 									- Compartments = { IRPYRawContainer 
-										- size = 1;
-										- value = 
-										{ CGICompartment 
-											- _id = GUID 1ba076c7-99a1-4965-8fc1-309f92789b94;
-											- m_name = "InstanceSlot";
-											- m_displayOption = All;
-											- m_bShowInherited = 0;
-											- m_bOrdered = 0;
-										}
+										- size = 0;
 									}
 									- nAndLineCount = 0;
 									- m_pInheritsFrom = { IHandle 
@@ -28851,7 +27203,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nOrientationCtrlPt = 5;
 									}
 									- m_drawBehavior = 65544;
-									- m_transform = 0.0859232 0 0 0.0506208 57.8282 134.646 ;
+									- m_transform = 0.0859232 0 0 0.0506208 110.828 203.646 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -28945,88 +27297,12 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_bImplicitSetRectPoints = 0;
 										- m_nOrientationCtrlPt = 0;
 									}
+									- m_arrow = 1 155 289  ;
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
-									- m_SourcePort = 1084 442 ;
-									- m_TargetPort = 7 0 ;
-									- m_pInheritsFrom = { IHandle 
-										- _m2Class = "";
-									}
-									- m_nInheritanceMask = 0;
-									- m_bShowName = 1;
-								}
-								{ CGITrans 
-									- _id = GUID dbfcd6c9-ae2a-45ea-93fe-adb6ac75a6a3;
-									- _properties = { IPropertyContainer 
-										- Subjects = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IPropertySubject 
-												- _Name = "General";
-												- Metaclasses = { IRPYRawContainer 
-													- size = 1;
-													- value = 
-													{ IPropertyMetaclass 
-														- _Name = "Graphics";
-														- Properties = { IRPYRawContainer 
-															- size = 1;
-															- value = 
-															{ IProperty 
-																- _Name = "ShowLabels";
-																- _Value = "False";
-																- _Type = Bool;
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-									- m_type = 28;
-									- m_pModelObject = { IHandle 
-										- _m2Class = "ITransition";
-										- _id = GUID 995e0b1d-aca0-4c92-a08f-d4b2310200b9;
-									}
-									- m_pParent = ;
-									- m_name = { CGIText 
-										- m_str = "ControlFlow";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 8;
-									}
-									- m_drawBehavior = 4096;
-									- m_bIsPreferencesInitialized = 1;
-									- m_pSource = GUID 612c3391-4147-476e-b67e-87cd5e8e1477;
-									- m_sourceType = 'F';
-									- m_pTarget = GUID 02afefe5-894c-4768-bf5c-539b393dbbdd;
-									- m_targetType = 'T';
-									- m_direction = ' ';
-									- m_rpn = { CGIText 
-										- m_str = "";
-										- m_style = "Arial" 10 0 0 0 1 ;
-										- m_color = { IColor 
-											- m_fgColor = 0;
-											- m_bgColor = 0;
-											- m_bgFlag = 0;
-										}
-										- m_position = 1 0 0  ;
-										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nOrientationCtrlPt = 0;
-									}
-									- m_anglePoint1 = 0 0 ;
-									- m_anglePoint2 = 0 0 ;
-									- m_line_style = 2;
-									- m_SourcePort = 548 934 ;
-									- m_TargetPort = 208 0 ;
+									- m_SourcePort = 514 264 ;
+									- m_TargetPort = 5 0 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -29067,7 +27343,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 									}
 									- m_pParent = GUID 071ef323-dfd3-40c0-874e-081f6d47e6e7;
 									- m_name = { CGIText 
-										- m_str = "";
+										- m_str = "Select Artifacts and Reserve in open Branch";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -29080,7 +27356,7 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nOrientationCtrlPt = 5;
 									}
 									- m_drawBehavior = 4104;
-									- m_transform = 0.252055 0 0 0.0641509 301 126.091 ;
+									- m_transform = 0.370776 0 0 0.090566 234 242.54 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -29126,14 +27402,16 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 											- m_bgColor = 0;
 											- m_bgFlag = 0;
 										}
-										- m_position = 1 0 0  ;
+										- m_position = 4 -60 -9  85 -9  85 9  -60 9  ;
 										- m_nIdent = 0;
-										- m_bImplicitSetRectPoints = 0;
-										- m_nVerticalSpacing = 19;
+										- m_bImplicitSetRectPoints = 1;
+										- m_transform = 0.696552 0 0 2.44444 204.793 189 ;
+										- m_nHorizontalSpacing = -3;
+										- m_nVerticalSpacing = 47;
 										- m_nOrientationCtrlPt = 4;
 									}
 									- m_drawBehavior = 524296;
-									- m_transform = -1.31953e-005 -15.5882 3.96739 -5.18455e-005 -47.6087 592.354 ;
+									- m_transform = -8.97019e-006 -11.0417 2.69704 -3.67239e-005 -32.3645 565.988 ;
 									- m_bIsPreferencesInitialized = 1;
 									- m_AdditionalLabel = { CGIText 
 										- m_str = "";
@@ -29892,12 +28170,89 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 										- m_nVerticalSpacing = 569;
 										- m_nOrientationCtrlPt = 0;
 									}
-									- m_arrow = 2 23 1364  23 226  ;
+									- m_arrow = 2 23 1364  23 165  ;
 									- m_anglePoint1 = 0 0 ;
 									- m_anglePoint2 = 0 0 ;
 									- m_line_style = 2;
 									- m_SourcePort = 5 523 ;
 									- m_TargetPort = -2 183 ;
+									- m_pInheritsFrom = { IHandle 
+										- _m2Class = "";
+									}
+									- m_nInheritanceMask = 0;
+									- m_bShowName = 1;
+								}
+								{ CGITrans 
+									- _id = GUID b6f62f62-5ea6-4c4a-99be-7dfd2748ac10;
+									- _properties = { IPropertyContainer 
+										- Subjects = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IPropertySubject 
+												- _Name = "General";
+												- Metaclasses = { IRPYRawContainer 
+													- size = 1;
+													- value = 
+													{ IPropertyMetaclass 
+														- _Name = "Graphics";
+														- Properties = { IRPYRawContainer 
+															- size = 1;
+															- value = 
+															{ IProperty 
+																- _Name = "ShowLabels";
+																- _Value = "False";
+																- _Type = Bool;
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									- m_type = 28;
+									- m_pModelObject = { IHandle 
+										- _m2Class = "ITransition";
+										- _id = GUID eef604e2-b956-4353-9e85-daf4319747d9;
+									}
+									- m_pParent = ;
+									- m_name = { CGIText 
+										- m_str = "ControlFlow";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 8;
+									}
+									- m_drawBehavior = 4096;
+									- m_bIsPreferencesInitialized = 1;
+									- m_pSource = GUID 02afefe5-894c-4768-bf5c-539b393dbbdd;
+									- m_sourceType = 'F';
+									- m_pTarget = GUID 612c3391-4147-476e-b67e-87cd5e8e1477;
+									- m_targetType = 'T';
+									- m_direction = ' ';
+									- m_rpn = { CGIText 
+										- m_str = "";
+										- m_style = "Arial" 10 0 0 0 1 ;
+										- m_color = { IColor 
+											- m_fgColor = 0;
+											- m_bgColor = 0;
+											- m_bgFlag = 0;
+										}
+										- m_position = 1 0 0  ;
+										- m_nIdent = 0;
+										- m_bImplicitSetRectPoints = 0;
+										- m_nOrientationCtrlPt = 0;
+									}
+									- m_anglePoint1 = 0 0 ;
+									- m_anglePoint2 = 0 0 ;
+									- m_line_style = 2;
+									- m_SourcePort = 208 367 ;
+									- m_TargetPort = 553 171 ;
 									- m_pInheritsFrom = { IHandle 
 										- _m2Class = "";
 									}
@@ -30090,9 +28445,6 @@ d.\\tab If accepted by CCB Project Management updates the \\b Project Plan\\b0 .
 				}
 			}
 			- _classModifier = Unspecified;
-			- Diagrams = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -30214,9 +28566,6 @@ Post Conditions\\b0  -\\par
 				- size = 0;
 			}
 		}
-	}
-	- InstanceSpecifications = { IRPYRawContainer 
-		- size = 0;
 	}
 	- _configurationRelatedTime = 11.17.2015::20:38:18;
 }
