@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 	- _myState = 8192;
 	- _name = "Information Model";
-	- _modifiedTimeWeak = 11.16.2015::18:41:10;
+	- _modifiedTimeWeak = 11.17.2015::19:17:44;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 2ae8d5ff-c330-4ce2-b33e-7398af5f5af7;
@@ -4695,7 +4695,7 @@ The review results contains:\\par
 			- _id = GUID 55811343-13cb-48e1-8be3-e8205e2e1cf5;
 			- _myState = 8192;
 			- _name = "Common Terms";
-			- _modifiedTimeWeak = 11.15.2015::17:19:52;
+			- _modifiedTimeWeak = 11.17.2015::20:42:9;
 			- _lastID = 49;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
@@ -5005,7 +5005,7 @@ The review results contains:\\par
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.16.2015::19:0:44";
+					- _lastModifiedTime = "11.17.2015::20:46:24";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 8ca9c00c-d1c4-4301-af92-417ed02633d1;
 						- m_type = 0;
@@ -7855,12 +7855,12 @@ The review results contains:\\par
 					}
 				}
 			}
-			- weakCGTime = 11.15.2015::17:19:52;
+			- weakCGTime = 11.17.2015::20:42:9;
 			- strongCGTime = 4.14.2015::16:4:3;
 			- _defaultComposite = GUID aed56898-4eed-4916-a5e6-d6f4f8a9ee01;
 			- _eventsBaseID = -1;
 			- Classes = { IRPYRawContainer 
-				- size = 20;
+				- size = 21;
 				- value = 
 				{ IClass 
 					- _id = GUID aed56898-4eed-4916-a5e6-d6f4f8a9ee01;
@@ -9069,6 +9069,72 @@ This term is useful when a generalized behavior requires input or output data wi
 					}
 					- _classModifier = Unspecified;
 				}
+				{ IClass 
+					- _id = GUID cdc0b373-9701-481d-b0a3-93f33068929a;
+					- _myState = 8192;
+					- _name = "Project Plan";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+					}
+					- _modifiedTimeWeak = 11.17.2015::20:42:9;
+					- _theMainDiagram = { IHandle 
+						- _m2Class = "IDiagram";
+						- _filename = "Product_and_Service_Life_Management_Stage.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Product and Service Life Management Stage";
+						- _class = "";
+						- _name = "Process Change Request Information Flow";
+						- _id = GUID f53608cc-fa99-4f82-a5d6-03bdda940e1a;
+					}
+					- _description = { IDescription 
+						- _textRTF = "{\\rtf1\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+{\\colortbl ;\\red0\\green0\\blue0;}
+\\viewkind4\\uc1\\pard\\cf1\\fs20 A project plan includes project cost and schedules for the full life cycle. This includes\\f1\\fs22  hardware and software design and implementation, updates to verification plans, manufacturing plans, supplier plans, support plans and system retirement plans.\\cf0\\f0\\fs20\\par
+}
+";
+					}
+					- weakCGTime = 11.17.2015::20:42:9;
+					- strongCGTime = 11.17.2015::20:42:9;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- Associations = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IAssociationEnd 
+							- _id = GUID 4ce69c63-df76-4ec9-b818-74bbe53cfa07;
+							- _myState = 10240;
+							- _name = "itsPreliminary Change Package";
+							- _modifiedTimeWeak = 11.17.2015::19:25:39;
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID a1e81ab6-6388-42b9-961c-2c975c605f5e;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "IAssociationEnd";
+								- _id = GUID 6cad5adf-7314-4044-9b9d-8d4186dc461d;
+							}
+							- _linkName = "";
+							- _linkType = Assoc;
+							- _navigability = NonNavigable;
+							- m_associationClass = { IHandle 
+								- _m2Class = "IAssociationClass";
+								- _id = GUID d13b9a81-8351-4a5a-a721-0fb0dddf94c0;
+							}
+						}
+					}
+					- _classModifier = Unspecified;
+				}
 			}
 			- _configurationRelatedTime = 11.5.2015::15:42:59;
 		}
@@ -9076,8 +9142,8 @@ This term is useful when a generalized behavior requires input or output data wi
 			- _id = GUID 4114c406-d32a-4647-b4f5-afc39cd20296;
 			- _myState = 8192;
 			- _name = "Configuration Management";
-			- _modifiedTimeWeak = 11.16.2015::18:41:34;
-			- _lastID = 6;
+			- _modifiedTimeWeak = 11.17.2015::20:42:9;
+			- _lastID = 8;
 			- Declaratives = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -9232,7 +9298,7 @@ This term is useful when a generalized behavior requires input or output data wi
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.13.2015::19:12:35";
+					- _lastModifiedTime = "11.17.2015::15:37:17";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID abc90f49-e3f5-4a10-be58-996eabee7043;
 						- m_type = 0;
@@ -9615,7 +9681,7 @@ This term is useful when a generalized behavior requires input or output data wi
 							}
 							- m_pParent = GUID 14c16a58-aa1e-4856-8ed7-991665b3aa3f;
 							- m_name = { CGIText 
-								- m_str = "Technical Impact Estimate";
+								- m_str = "Change Impact Assessment";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -9807,7 +9873,7 @@ This term is useful when a generalized behavior requires input or output data wi
 							}
 							- m_pParent = GUID 14c16a58-aa1e-4856-8ed7-991665b3aa3f;
 							- m_name = { CGIText 
-								- m_str = "Release Plan";
+								- m_str = "Preliminary Change Package";
 								- m_style = "Arial" 10 0 0 0 1 ;
 								- m_color = { IColor 
 									- m_fgColor = 0;
@@ -10133,12 +10199,632 @@ This term is useful when a generalized behavior requires input or output data wi
 					}
 				}
 			}
-			- weakCGTime = 11.16.2015::18:41:34;
+			- weakCGTime = 11.17.2015::20:42:9;
 			- strongCGTime = 11.2.2015::15:46:32;
+			- AssociationElements = { IRPYRawContainer 
+				- size = 4;
+				- value = 
+				{ IAssociationClass 
+					- _id = GUID ef3af5ee-3685-4a5e-8feb-c790f64e82e4;
+					- _myState = 8192;
+					- _name = "CCB and SE Assess";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- weakCGTime = 1.2.1990::0:0:0;
+					- strongCGTime = 1.2.1990::0:0:0;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- Associations = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IPart 
+							- _id = GUID 09eb61c8-e576-4e16-ad8b-803f4138ae38;
+							- _myState = 8192;
+							- _name = "itsChange Impact Assessment_2";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Blocks";
+									- _class = "";
+									- _name = "ParticipantProperty";
+									- _id = GUID 7da2bffd-6f3f-405e-b835-a19d5e2134da;
+								}
+							}
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- Tags = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ITag 
+									- _id = GUID 09a20ed1-476f-4820-9aca-b163a513ec1a;
+									- _myState = 8192;
+									- _name = "end";
+									- _modifiedTimeWeak = 11.17.2015::19:19:26;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IInstanceValue 
+											- _id = GUID 9a4d61b9-0323-4ac4-9974-b89185fa782d;
+											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _value = { IHandle 
+												- _m2Class = "IAssociationEnd";
+												- _id = GUID b57061a9-ab7f-43a9-8e9d-d6b110a24942;
+											}
+										}
+									}
+									- myTypeOf = { IType 
+										- _id = GUID e8bf1aa1-90e8-4bc9-a928-0c66fcc564a9;
+										- _myState = 8192;
+										- _modifiedTimeWeak = 1.2.1990::0:0:0;
+										- _declaration = "AssociationEnd";
+										- _kind = Language;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+										- _subsystem = "SysML::Blocks";
+										- _class = "ParticipantProperty";
+										- _name = "end";
+										- _id = GUID 618b998e-cbde-402d-9072-db655d45a580;
+									}
+								}
+							}
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID a996735f-fd3a-4c08-8da0-a2a7ca0ba52c;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "";
+							}
+						}
+						{ IPart 
+							- _id = GUID 4634bd6f-3681-47f1-9eac-edb90c21cda4;
+							- _myState = 8192;
+							- _name = "itsChange Request";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Blocks";
+									- _class = "";
+									- _name = "ParticipantProperty";
+									- _id = GUID 7da2bffd-6f3f-405e-b835-a19d5e2134da;
+								}
+							}
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- Tags = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ITag 
+									- _id = GUID f5a71a53-5fa0-4345-a149-5242611aaaaf;
+									- _myState = 8192;
+									- _name = "end";
+									- _modifiedTimeWeak = 11.17.2015::19:19:26;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IInstanceValue 
+											- _id = GUID 7887ec7e-f548-4c0c-97b2-d63e15d76420;
+											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _value = { IHandle 
+												- _m2Class = "IAssociationEnd";
+												- _id = GUID 6b3d2a88-88a0-48c6-a01f-280b82bae7cb;
+											}
+										}
+									}
+									- myTypeOf = { IType 
+										- _id = GUID 2e89ba82-d141-45df-ad81-9526c35fef38;
+										- _myState = 8192;
+										- _modifiedTimeWeak = 1.2.1990::0:0:0;
+										- _declaration = "AssociationEnd";
+										- _kind = Language;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+										- _subsystem = "SysML::Blocks";
+										- _class = "ParticipantProperty";
+										- _name = "end";
+										- _id = GUID 618b998e-cbde-402d-9072-db655d45a580;
+									}
+								}
+							}
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID 1853a4a3-99de-4fdb-af6d-04915ba0e628;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "";
+							}
+						}
+					}
+					- _classModifier = Unspecified;
+					- _isClass = 0;
+					- m_end1 = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b57061a9-ab7f-43a9-8e9d-d6b110a24942;
+					}
+					- m_end2 = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6b3d2a88-88a0-48c6-a01f-280b82bae7cb;
+					}
+				}
+				{ IAssociationClass 
+					- _id = GUID 99ac02b0-39b2-4f49-9d50-bd5bcab3f4fe;
+					- _myState = 8192;
+					- _name = "CCB Approves";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- weakCGTime = 1.2.1990::0:0:0;
+					- strongCGTime = 1.2.1990::0:0:0;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- Associations = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IPart 
+							- _id = GUID e45caef1-cc73-4014-8773-1e559f7c7ce2;
+							- _myState = 8192;
+							- _name = "itsPreliminary Project Plan";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Blocks";
+									- _class = "";
+									- _name = "ParticipantProperty";
+									- _id = GUID 7da2bffd-6f3f-405e-b835-a19d5e2134da;
+								}
+							}
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- Tags = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ITag 
+									- _id = GUID 5206d7d2-cb19-4222-921a-fcd70ea3c1dc;
+									- _myState = 8192;
+									- _name = "end";
+									- _modifiedTimeWeak = 11.17.2015::19:20:10;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IInstanceValue 
+											- _id = GUID 793660fc-a902-43e1-9ab6-5a5fbe6ee8dd;
+											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _value = { IHandle 
+												- _m2Class = "IAssociationEnd";
+												- _id = GUID f5741693-bd5e-4c67-8448-d2c5c176de2c;
+											}
+										}
+									}
+									- myTypeOf = { IType 
+										- _id = GUID 58713c0d-7b05-4224-9e95-18e863a169c9;
+										- _myState = 8192;
+										- _modifiedTimeWeak = 1.2.1990::0:0:0;
+										- _declaration = "AssociationEnd";
+										- _kind = Language;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+										- _subsystem = "SysML::Blocks";
+										- _class = "ParticipantProperty";
+										- _name = "end";
+										- _id = GUID 618b998e-cbde-402d-9072-db655d45a580;
+									}
+								}
+							}
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID 0712c672-597f-4931-b389-c2130e027d2c;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "";
+							}
+						}
+						{ IPart 
+							- _id = GUID 41d93aea-a5b5-4e01-b86d-f19993ace73a;
+							- _myState = 8192;
+							- _name = "itsChange Impact Assessment";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Blocks";
+									- _class = "";
+									- _name = "ParticipantProperty";
+									- _id = GUID 7da2bffd-6f3f-405e-b835-a19d5e2134da;
+								}
+							}
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- Tags = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ITag 
+									- _id = GUID 3cf7ffb5-274b-4a37-938f-abec24b0fc80;
+									- _myState = 8192;
+									- _name = "end";
+									- _modifiedTimeWeak = 11.17.2015::19:20:10;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IInstanceValue 
+											- _id = GUID 8c5928e1-6525-4d2d-a260-bb28fd7a0948;
+											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _value = { IHandle 
+												- _m2Class = "IAssociationEnd";
+												- _id = GUID ccd61b92-8b0c-434a-b2ab-9a845f0543eb;
+											}
+										}
+									}
+									- myTypeOf = { IType 
+										- _id = GUID 3d6f7d90-3fa7-4325-8048-0a882617e4db;
+										- _myState = 8192;
+										- _modifiedTimeWeak = 1.2.1990::0:0:0;
+										- _declaration = "AssociationEnd";
+										- _kind = Language;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+										- _subsystem = "SysML::Blocks";
+										- _class = "ParticipantProperty";
+										- _name = "end";
+										- _id = GUID 618b998e-cbde-402d-9072-db655d45a580;
+									}
+								}
+							}
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID a996735f-fd3a-4c08-8da0-a2a7ca0ba52c;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "";
+							}
+						}
+					}
+					- _classModifier = Unspecified;
+					- _isClass = 0;
+					- m_end1 = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f5741693-bd5e-4c67-8448-d2c5c176de2c;
+					}
+					- m_end2 = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID ccd61b92-8b0c-434a-b2ab-9a845f0543eb;
+					}
+				}
+				{ IAssociationClass 
+					- _id = GUID 30ffb005-798a-4968-8575-6bf9974f9f4e;
+					- _myState = 8192;
+					- _name = "Eng Updates Architecture";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- weakCGTime = 1.2.1990::0:0:0;
+					- strongCGTime = 1.2.1990::0:0:0;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- Associations = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IPart 
+							- _id = GUID d4fffc40-37eb-4edd-a21c-c98c7151e459;
+							- _myState = 8192;
+							- _name = "itsPreliminary Change Package";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Blocks";
+									- _class = "";
+									- _name = "ParticipantProperty";
+									- _id = GUID 7da2bffd-6f3f-405e-b835-a19d5e2134da;
+								}
+							}
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- Tags = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ITag 
+									- _id = GUID 0a55f2c3-02d9-49f9-bf2f-03e7327f207b;
+									- _myState = 8192;
+									- _name = "end";
+									- _modifiedTimeWeak = 11.17.2015::19:20:49;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IInstanceValue 
+											- _id = GUID 7a82adce-2e4d-4552-9fbd-73a7df2dcf97;
+											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _value = { IHandle 
+												- _m2Class = "IAssociationEnd";
+												- _id = GUID da47afe2-d35a-40f1-85e1-c4330a380674;
+											}
+										}
+									}
+									- myTypeOf = { IType 
+										- _id = GUID 49ab2ad3-780f-4c5a-af02-09e109d7f396;
+										- _myState = 8192;
+										- _modifiedTimeWeak = 1.2.1990::0:0:0;
+										- _declaration = "AssociationEnd";
+										- _kind = Language;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+										- _subsystem = "SysML::Blocks";
+										- _class = "ParticipantProperty";
+										- _name = "end";
+										- _id = GUID 618b998e-cbde-402d-9072-db655d45a580;
+									}
+								}
+							}
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID a1e81ab6-6388-42b9-961c-2c975c605f5e;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "";
+							}
+						}
+						{ IPart 
+							- _id = GUID f5021df6-12c9-4175-b7cb-41c797643459;
+							- _myState = 8192;
+							- _name = "itsPreliminary Project Plan";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Blocks";
+									- _class = "";
+									- _name = "ParticipantProperty";
+									- _id = GUID 7da2bffd-6f3f-405e-b835-a19d5e2134da;
+								}
+							}
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- Tags = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ITag 
+									- _id = GUID 45540a2c-275e-45a9-8892-378f39c43fb7;
+									- _myState = 8192;
+									- _name = "end";
+									- _modifiedTimeWeak = 11.17.2015::19:20:49;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IInstanceValue 
+											- _id = GUID bd3edded-7b7c-4f75-9219-3575cc6dfef0;
+											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _value = { IHandle 
+												- _m2Class = "IAssociationEnd";
+												- _id = GUID 0d9b1457-ac65-4dfd-a3d4-3196f629ec68;
+											}
+										}
+									}
+									- myTypeOf = { IType 
+										- _id = GUID 91dfcab7-8ce0-4d68-9686-cb0e95f80673;
+										- _myState = 8192;
+										- _modifiedTimeWeak = 1.2.1990::0:0:0;
+										- _declaration = "AssociationEnd";
+										- _kind = Language;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+										- _subsystem = "SysML::Blocks";
+										- _class = "ParticipantProperty";
+										- _name = "end";
+										- _id = GUID 618b998e-cbde-402d-9072-db655d45a580;
+									}
+								}
+							}
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID 0712c672-597f-4931-b389-c2130e027d2c;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "";
+							}
+						}
+					}
+					- _classModifier = Unspecified;
+					- _isClass = 0;
+					- m_end1 = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID da47afe2-d35a-40f1-85e1-c4330a380674;
+					}
+					- m_end2 = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 0d9b1457-ac65-4dfd-a3d4-3196f629ec68;
+					}
+				}
+				{ IAssociationClass 
+					- _id = GUID d13b9a81-8351-4a5a-a721-0fb0dddf94c0;
+					- _myState = 8192;
+					- _name = "CCB Approves";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- weakCGTime = 1.2.1990::0:0:0;
+					- strongCGTime = 1.2.1990::0:0:0;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- Associations = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IPart 
+							- _id = GUID 628993b4-25e3-4b7d-9896-fd1e62aa249c;
+							- _myState = 8192;
+							- _name = "itsProject Plan";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Blocks";
+									- _class = "";
+									- _name = "ParticipantProperty";
+									- _id = GUID 7da2bffd-6f3f-405e-b835-a19d5e2134da;
+								}
+							}
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- Tags = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ITag 
+									- _id = GUID 28a25764-6235-44cb-ab02-81e3ca0de6f2;
+									- _myState = 8192;
+									- _name = "end";
+									- _modifiedTimeWeak = 11.17.2015::19:25:39;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IInstanceValue 
+											- _id = GUID 8f8fe9e1-8e01-4d83-b7f2-07f238a58df5;
+											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _value = { IHandle 
+												- _m2Class = "IAssociationEnd";
+												- _id = GUID 6cad5adf-7314-4044-9b9d-8d4186dc461d;
+											}
+										}
+									}
+									- myTypeOf = { IType 
+										- _id = GUID f2a7d6d2-614d-48ba-b3d6-fc156f6a9907;
+										- _myState = 8192;
+										- _modifiedTimeWeak = 1.2.1990::0:0:0;
+										- _declaration = "AssociationEnd";
+										- _kind = Language;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+										- _subsystem = "SysML::Blocks";
+										- _class = "ParticipantProperty";
+										- _name = "end";
+										- _id = GUID 618b998e-cbde-402d-9072-db655d45a580;
+									}
+								}
+							}
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID cdc0b373-9701-481d-b0a3-93f33068929a;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "";
+							}
+						}
+						{ IPart 
+							- _id = GUID 77a30d99-5d65-422a-8273-4f3a1810b51e;
+							- _myState = 8192;
+							- _name = "itsPreliminary Change Package";
+							- Stereotypes = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ IHandle 
+									- _m2Class = "IStereotype";
+									- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+									- _subsystem = "SysML::Blocks";
+									- _class = "";
+									- _name = "ParticipantProperty";
+									- _id = GUID 7da2bffd-6f3f-405e-b835-a19d5e2134da;
+								}
+							}
+							- _modifiedTimeWeak = 1.2.1990::0:0:0;
+							- Tags = { IRPYRawContainer 
+								- size = 1;
+								- value = 
+								{ ITag 
+									- _id = GUID 5ab490a7-1817-4739-ac54-43fdbff08d70;
+									- _myState = 8192;
+									- _name = "end";
+									- _modifiedTimeWeak = 11.17.2015::19:25:39;
+									- ValueSpecifications = { IRPYRawContainer 
+										- size = 1;
+										- value = 
+										{ IInstanceValue 
+											- _id = GUID 1b17ec05-7b7c-45a1-aca3-44ccb613e40e;
+											- _modifiedTimeWeak = 1.2.1990::0:0:0;
+											- _value = { IHandle 
+												- _m2Class = "IAssociationEnd";
+												- _id = GUID 4ce69c63-df76-4ec9-b818-74bbe53cfa07;
+											}
+										}
+									}
+									- myTypeOf = { IType 
+										- _id = GUID 882bb1a7-8af0-4c6c-82fc-338e41521d32;
+										- _myState = 8192;
+										- _modifiedTimeWeak = 1.2.1990::0:0:0;
+										- _declaration = "AssociationEnd";
+										- _kind = Language;
+									}
+									- _isOrdered = 0;
+									- _base = { IHandle 
+										- _m2Class = "ITag";
+										- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+										- _subsystem = "SysML::Blocks";
+										- _class = "ParticipantProperty";
+										- _name = "end";
+										- _id = GUID 618b998e-cbde-402d-9072-db655d45a580;
+									}
+								}
+							}
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID a1e81ab6-6388-42b9-961c-2c975c605f5e;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "";
+							}
+						}
+					}
+					- _classModifier = Unspecified;
+					- _isClass = 0;
+					- m_end1 = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6cad5adf-7314-4044-9b9d-8d4186dc461d;
+					}
+					- m_end2 = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4ce69c63-df76-4ec9-b818-74bbe53cfa07;
+					}
+				}
+			}
 			- _defaultComposite = GUID e4686edc-604d-4117-aee1-b8df1fe222db;
 			- _eventsBaseID = -1;
 			- Classes = { IRPYRawContainer 
-				- size = 8;
+				- size = 9;
 				- value = 
 				{ IClass 
 					- _id = GUID e4686edc-604d-4117-aee1-b8df1fe222db;
@@ -10337,7 +11023,7 @@ The search can be adjusted by depth of change, the types of elements included an
 				{ IClass 
 					- _id = GUID a996735f-fd3a-4c08-8da0-a2a7ca0ba52c;
 					- _myState = 8192;
-					- _name = "Technical Impact Estimate";
+					- _name = "Change Impact Assessment";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -10358,7 +11044,7 @@ The search can be adjusted by depth of change, the types of elements included an
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.13.2015::21:17:50;
+					- _modifiedTimeWeak = 11.17.2015::19:20:10;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
@@ -10381,18 +11067,66 @@ This artifact captures an estimate that should include a schedule, technical fea
 }
 ";
 					}
-					- weakCGTime = 11.13.2015::21:17:50;
-					- strongCGTime = 11.11.2015::20:4:42;
+					- weakCGTime = 11.17.2015::19:20:10;
+					- strongCGTime = 11.17.2015::15:37:17;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
+					}
+					- Associations = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IAssociationEnd 
+							- _id = GUID 6b3d2a88-88a0-48c6-a01f-280b82bae7cb;
+							- _myState = 10240;
+							- _name = "itsChange Request";
+							- _modifiedTimeWeak = 11.17.2015::19:19:26;
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID 1853a4a3-99de-4fdb-af6d-04915ba0e628;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "IAssociationEnd";
+								- _id = GUID b57061a9-ab7f-43a9-8e9d-d6b110a24942;
+							}
+							- _linkName = "";
+							- _linkType = Assoc;
+							- _navigability = NonNavigable;
+							- m_associationClass = { IHandle 
+								- _m2Class = "IAssociationClass";
+								- _id = GUID ef3af5ee-3685-4a5e-8feb-c790f64e82e4;
+							}
+						}
+						{ IAssociationEnd 
+							- _id = GUID f5741693-bd5e-4c67-8448-d2c5c176de2c;
+							- _myState = 10240;
+							- _name = "itsPreliminary Project Plan";
+							- _modifiedTimeWeak = 11.17.2015::19:20:10;
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID 0712c672-597f-4931-b389-c2130e027d2c;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "IAssociationEnd";
+								- _id = GUID ccd61b92-8b0c-434a-b2ab-9a845f0543eb;
+							}
+							- _linkName = "";
+							- _linkType = Assoc;
+							- _navigability = Navigable;
+							- m_associationClass = { IHandle 
+								- _m2Class = "IAssociationClass";
+								- _id = GUID 99ac02b0-39b2-4f49-9d50-bd5bcab3f4fe;
+							}
+						}
 					}
 					- _classModifier = Unspecified;
 				}
 				{ IClass 
 					- _id = GUID a1e81ab6-6388-42b9-961c-2c975c605f5e;
 					- _myState = 8192;
-					- _name = "Release Plan";
+					- _name = "Preliminary Change Package";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -10413,7 +11147,7 @@ This artifact captures an estimate that should include a schedule, technical fea
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.13.2015::19:3:55;
+					- _modifiedTimeWeak = 11.17.2015::19:25:39;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
@@ -10428,8 +11162,8 @@ This artifact captures an estimate that should include a schedule, technical fea
    -  Effectivity of the change on existing systems in the field and in manufacturing
    -  Project schedule including milestones, activities and deliverables with start and end dates";
 					}
-					- weakCGTime = 11.13.2015::19:3:55;
-					- strongCGTime = 11.13.2015::19:3:55;
+					- weakCGTime = 11.17.2015::19:25:39;
+					- strongCGTime = 11.17.2015::13:45:53;
 					- Inheritances = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -10447,6 +11181,54 @@ This artifact captures an estimate that should include a schedule, technical fea
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
+					}
+					- Associations = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IAssociationEnd 
+							- _id = GUID 0d9b1457-ac65-4dfd-a3d4-3196f629ec68;
+							- _myState = 10240;
+							- _name = "itsPreliminary Project Plan";
+							- _modifiedTimeWeak = 11.17.2015::19:20:49;
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID 0712c672-597f-4931-b389-c2130e027d2c;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "IAssociationEnd";
+								- _id = GUID da47afe2-d35a-40f1-85e1-c4330a380674;
+							}
+							- _linkName = "";
+							- _linkType = Assoc;
+							- _navigability = NonNavigable;
+							- m_associationClass = { IHandle 
+								- _m2Class = "IAssociationClass";
+								- _id = GUID 30ffb005-798a-4968-8575-6bf9974f9f4e;
+							}
+						}
+						{ IAssociationEnd 
+							- _id = GUID 6cad5adf-7314-4044-9b9d-8d4186dc461d;
+							- _myState = 10240;
+							- _name = "itsProject Plan";
+							- _modifiedTimeWeak = 11.17.2015::19:25:39;
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID cdc0b373-9701-481d-b0a3-93f33068929a;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "IAssociationEnd";
+								- _id = GUID 4ce69c63-df76-4ec9-b818-74bbe53cfa07;
+							}
+							- _linkName = "";
+							- _linkType = Assoc;
+							- _navigability = Navigable;
+							- m_associationClass = { IHandle 
+								- _m2Class = "IAssociationClass";
+								- _id = GUID d13b9a81-8351-4a5a-a721-0fb0dddf94c0;
+							}
+						}
 					}
 					- _classModifier = Unspecified;
 				}
@@ -10474,7 +11256,7 @@ This artifact captures an estimate that should include a schedule, technical fea
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.13.2015::19:21:26;
+					- _modifiedTimeWeak = 11.17.2015::19:19:49;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 8a30f6a5-f69f-409a-a9e2-bd9d5855ac96;
@@ -10484,18 +11266,44 @@ This artifact captures an estimate that should include a schedule, technical fea
 [10, INCOSE Handbook, Appendix E]  
 The INCOSE Handbook called this a Project Change Request. The term Change Request seems to cover a broader originating scope other than just when a project is active. ";
 					}
-					- weakCGTime = 11.13.2015::19:21:26;
+					- weakCGTime = 11.17.2015::19:19:49;
 					- strongCGTime = 11.13.2015::19:12:35;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
+					}
+					- Associations = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IAssociationEnd 
+							- _id = GUID b57061a9-ab7f-43a9-8e9d-d6b110a24942;
+							- _myState = 10240;
+							- _name = "itsChange Impact Assessment_2";
+							- _modifiedTimeWeak = 11.17.2015::19:19:26;
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID a996735f-fd3a-4c08-8da0-a2a7ca0ba52c;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "IAssociationEnd";
+								- _id = GUID 6b3d2a88-88a0-48c6-a01f-280b82bae7cb;
+							}
+							- _linkName = "";
+							- _linkType = Assoc;
+							- _navigability = Navigable;
+							- m_associationClass = { IHandle 
+								- _m2Class = "IAssociationClass";
+								- _id = GUID ef3af5ee-3685-4a5e-8feb-c790f64e82e4;
+							}
+						}
 					}
 					- _classModifier = Unspecified;
 				}
 				{ IClass 
 					- _id = GUID 0712c672-597f-4931-b389-c2130e027d2c;
 					- _myState = 8192;
-					- _name = "Specification Change Notice";
+					- _name = "Preliminary Project Plan";
 					- Stereotypes = { IRPYRawContainer 
 						- size = 2;
 						- value = 
@@ -10516,9 +11324,23 @@ The INCOSE Handbook called this a Project Change Request. The term Change Reques
 							- _id = GUID 649b2631-21d5-4971-89e8-9eac97d9413a;
 						}
 					}
-					- _modifiedTimeWeak = 11.15.2015::17:12:43;
+					- _modifiedTimeWeak = 11.17.2015::19:20:49;
+					- _theMainDiagram = { IHandle 
+						- _m2Class = "IDiagram";
+						- _filename = "Product_and_Service_Life_Management_Stage.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Product and Service Life Management Stage";
+						- _class = "";
+						- _name = "Process Change Request Information Flow";
+						- _id = GUID f53608cc-fa99-4f82-a5d6-03bdda940e1a;
+					}
 					- _description = { IDescription 
-						- _text = "Used to propose, transmit, and record changes to baseline specifications. [10, INCOSE Handbook, section 5.5.2]";
+						- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fnil\\fcharset0 Arial;}{\\f1\\fswiss\\fprq2\\fcharset0 Calibri;}}
+{\\colortbl ;\\red0\\green0\\blue0;}
+\\viewkind4\\uc1\\pard\\ltrpar\\cf1\\fs20 A preliminary project plan reflects the plan changes resulting from a proposed change to the existing plan.  This includes changes in cost and schedules. The schedule changes typically include the \\f1\\fs22 tasks needed to update the hardware and software design and implementation, updates to verification plans, manufacturing plans changes, and supplier plans.\\cf0\\f0\\fs20\\par
+\\par
+\\par
+}
+";
 					}
 					- Tags = { IRPYRawContainer 
 						- size = 1;
@@ -10556,8 +11378,84 @@ The INCOSE Handbook called this a Project Change Request. The term Change Reques
 							}
 						}
 					}
-					- weakCGTime = 11.15.2015::17:12:43;
-					- strongCGTime = 11.13.2015::20:42:59;
+					- weakCGTime = 11.17.2015::19:20:49;
+					- strongCGTime = 11.17.2015::14:28:13;
+					- _multiplicity = "";
+					- _itsStateChart = { IHandle 
+						- _m2Class = "";
+					}
+					- Associations = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IAssociationEnd 
+							- _id = GUID ccd61b92-8b0c-434a-b2ab-9a845f0543eb;
+							- _myState = 10240;
+							- _name = "itsChange Impact Assessment";
+							- _modifiedTimeWeak = 11.17.2015::19:20:10;
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID a996735f-fd3a-4c08-8da0-a2a7ca0ba52c;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "IAssociationEnd";
+								- _id = GUID f5741693-bd5e-4c67-8448-d2c5c176de2c;
+							}
+							- _linkName = "";
+							- _linkType = Assoc;
+							- _navigability = NonNavigable;
+							- m_associationClass = { IHandle 
+								- _m2Class = "IAssociationClass";
+								- _id = GUID 99ac02b0-39b2-4f49-9d50-bd5bcab3f4fe;
+							}
+						}
+						{ IAssociationEnd 
+							- _id = GUID da47afe2-d35a-40f1-85e1-c4330a380674;
+							- _myState = 10240;
+							- _name = "itsPreliminary Change Package";
+							- _modifiedTimeWeak = 11.17.2015::19:20:49;
+							- _multiplicity = "1";
+							- _otherClass = { IClassifierHandle 
+								- _m2Class = "IClass";
+								- _id = GUID a1e81ab6-6388-42b9-961c-2c975c605f5e;
+							}
+							- _inverse = { IHandle 
+								- _m2Class = "IAssociationEnd";
+								- _id = GUID 0d9b1457-ac65-4dfd-a3d4-3196f629ec68;
+							}
+							- _linkName = "";
+							- _linkType = Assoc;
+							- _navigability = Navigable;
+							- m_associationClass = { IHandle 
+								- _m2Class = "IAssociationClass";
+								- _id = GUID 30ffb005-798a-4968-8575-6bf9974f9f4e;
+							}
+						}
+					}
+					- _classModifier = Unspecified;
+				}
+				{ IClass 
+					- _id = GUID faa7b52b-44b5-4b25-ab1d-00ec2d6e3248;
+					- _myState = 8192;
+					- _name = "Specification Change Notice";
+					- Stereotypes = { IRPYRawContainer 
+						- size = 1;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IStereotype";
+							- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+							- _subsystem = "SysML::Blocks";
+							- _class = "";
+							- _name = "Block";
+							- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+						}
+					}
+					- _modifiedTimeWeak = 11.17.2015::15:28:40;
+					- _description = { IDescription 
+						- _text = "Used to propose, transmit, and record changes to baseline specifications. [10, INCOSE Handbook, section 5.5.2]";
+					}
+					- weakCGTime = 11.17.2015::15:28:40;
+					- strongCGTime = 11.17.2015::15:28:31;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
 						- _m2Class = "";
@@ -10565,7 +11463,7 @@ The INCOSE Handbook called this a Project Change Request. The term Change Reques
 					- _classModifier = Unspecified;
 				}
 			}
-			- _configurationRelatedTime = 11.16.2015::18:41:34;
+			- _configurationRelatedTime = 11.17.2015::20:42:9;
 		}
 		{ ISubsystem 
 			- fileName = "Context_Definitions";
@@ -12090,7 +12988,7 @@ The INCOSE Handbook called this a Project Change Request. The term Change Reques
 			- _configurationRelatedTime = 1.2.1990::0:0:0;
 		}
 	}
-	- weakCGTime = 11.16.2015::18:41:10;
+	- weakCGTime = 11.17.2015::19:17:44;
 	- strongCGTime = 3.29.2015::15:52:32;
 	- _defaultComposite = GUID f7d400d2-1238-43d5-b628-328fedbf011d;
 	- _eventsBaseID = -1;
