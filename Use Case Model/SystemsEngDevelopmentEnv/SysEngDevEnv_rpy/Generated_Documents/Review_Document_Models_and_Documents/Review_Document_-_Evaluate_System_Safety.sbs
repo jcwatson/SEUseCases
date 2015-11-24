@@ -49,7 +49,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 08b6490a-136b-45a0-b15d-ac1cd6fa8667;
 		}
 	}
-	- _modifiedTimeWeak = 11.16.2015::22:49:31;
+	- _modifiedTimeWeak = 11.18.2015::22:18:4;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
@@ -9842,7 +9842,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 11.15.2015::19:10:39;
+			- _modifiedTimeWeak = 11.18.2015::22:18:4;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
@@ -9861,7 +9861,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						{ IDependency 
 							- _id = GUID 5075addb-ef5b-45a3-9861-283f9a964214;
 							- _myState = 2048;
-							- _name = "Table of Definitions";
+							- _name = "Table of Concept Terms";
 							- Stereotypes = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -9874,7 +9874,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _id = GUID c1fd0048-9b35-4746-bb1c-91d904768163;
 								}
 							}
-							- _modifiedTimeWeak = 4.12.2015::19:35:57;
+							- _modifiedTimeWeak = 11.18.2015::22:18:4;
 							- _dependsOn = { INObjectHandle 
 								- _m2Class = "ISubsystem";
 								- _id = GUID 012b2cdb-53a4-4ca1-ae38-fe05dc88e0ca;
@@ -9893,7 +9893,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 11.15.2015::19:12:1;
+					- _modifiedTimeWeak = 11.18.2015::22:18:4;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 705bb067-ef56-4eab-94c9-564c53da4fd5;
@@ -12025,8 +12025,8 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							}
 						}
 					}
-					- weakCGTime = 11.15.2015::19:12:1;
-					- strongCGTime = 4.12.2015::19:35:57;
+					- weakCGTime = 11.18.2015::22:18:4;
+					- strongCGTime = 11.18.2015::22:18:4;
 					- _defaultComposite = GUID ed975b4c-2873-4e4a-a15a-82499d28fae6;
 					- _eventsBaseID = -1;
 					- Classes = { IRPYRawContainer 
@@ -12343,7 +12343,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 				{ ISubsystem 
 					- _id = GUID 012b2cdb-53a4-4ca1-ae38-fe05dc88e0ca;
 					- _myState = 8192;
-					- _name = "Table of Definitions";
+					- _name = "Table of Concept Terms";
 					- Dependencies = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -12382,7 +12382,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 11.15.2015::15:2:19;
+					- _modifiedTimeWeak = 11.18.2015::22:18:4;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 7c887fc4-ea3b-4d25-9d92-601bae92ed79;
@@ -12429,7 +12429,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 						{ ISubsystem 
 							- _id = GUID caac4285-73d6-4acc-989d-118f70f4c274;
 							- _myState = 8192;
-							- _name = "Definitions Table";
+							- _name = "Concept Terms Table";
 							- Dependencies = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -12748,11 +12748,11 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									- _body = "";
 								}
 							}
-							- _modifiedTimeWeak = 11.15.2015::14:29:23;
+							- _modifiedTimeWeak = 11.18.2015::22:19:49;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Review_Document_-_Process_Change_Request.sbs";
-								- _subsystem = "Generated Documents::Review Document Models and Documents::Review Document - Process Change Request::Supporting Information::Table of Definitions";
+								- _subsystem = "Generated Documents::Review Document Models and Documents::Review Document - Process Change Request::Supporting Information::Table of Concept Terms";
 								- _class = "";
 								- _name = "Definition Table Design";
 								- _id = GUID 34469ab6-48b4-4c6f-a2d2-b576d8afae4d;
@@ -12794,8 +12794,8 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 								}
 							}
 							- _lastID = 2;
-							- weakCGTime = 11.15.2015::14:29:23;
-							- strongCGTime = 11.15.2015::14:29:23;
+							- weakCGTime = 11.18.2015::22:19:49;
+							- strongCGTime = 11.18.2015::22:19:49;
 							- _defaultComposite = GUID d02b4bca-42e8-4c4d-aeec-12a911a7feaa;
 							- _eventsBaseID = -1;
 							- Classes = { IRPYRawContainer 
@@ -13396,7 +13396,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "11.15.2015::15:6:0";
+							- _lastModifiedTime = "11.18.2015::22:19:49";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID 81543586-ff2b-4540-9699-1ea9cccd2d08;
 								- m_type = 0;
@@ -14208,7 +14208,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									}
 									- m_pParent = GUID 60ebe8ba-27f2-4a12-86dc-8c7589b31fef;
 									- m_name = { CGIText 
-										- m_str = "Definitions Table";
+										- m_str = "Concept Terms Table";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -14296,7 +14296,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									}
 									- m_pParent = GUID 60ebe8ba-27f2-4a12-86dc-8c7589b31fef;
 									- m_name = { CGIText 
-										- m_str = "Name";
+										- m_str = "Definitions Table::Name";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -14462,7 +14462,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									}
 									- m_pParent = GUID 60ebe8ba-27f2-4a12-86dc-8c7589b31fef;
 									- m_name = { CGIText 
-										- m_str = "Definition";
+										- m_str = "Definitions Table::Definition";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -14628,7 +14628,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 									}
 									- m_pParent = GUID 60ebe8ba-27f2-4a12-86dc-8c7589b31fef;
 									- m_name = { CGIText 
-										- m_str = "Acronym";
+										- m_str = "Definitions Table::Acronym";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -14760,8 +14760,8 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 							}
 						}
 					}
-					- weakCGTime = 11.15.2015::15:2:19;
-					- strongCGTime = 4.12.2015::19:44:21;
+					- weakCGTime = 11.18.2015::22:18:4;
+					- strongCGTime = 11.18.2015::22:18:4;
 					- _defaultComposite = GUID 0c9853ed-6865-46b9-b982-092ed6668668;
 					- _eventsBaseID = -1;
 					- Classes = { IRPYRawContainer 
@@ -15467,7 +15467,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					- _configurationRelatedTime = 1.2.1990::0:0:0;
 				}
 			}
-			- weakCGTime = 11.15.2015::19:10:39;
+			- weakCGTime = 11.18.2015::22:18:4;
 			- strongCGTime = 6.15.2015::15:16:3;
 			- _defaultComposite = GUID 0f765757-a2c4-4d05-86b4-5a8ba548a485;
 			- _eventsBaseID = -1;
@@ -15771,7 +15771,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.15.2015::15:2:59";
+			- _lastModifiedTime = "11.18.2015::22:19:49";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 9c4f16eb-ba73-4fb1-bc3b-582f4de20184;
 				- m_type = 0;
@@ -17270,7 +17270,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					}
 					- m_pParent = GUID 7e69864f-0c21-4286-afa7-2bf6f0bc9773;
 					- m_name = { CGIText 
-						- m_str = "Table of Definitions";
+						- m_str = "Table of Concept Terms";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -17861,7 +17861,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 					}
 					- m_pParent = GUID 712b29d7-dcc3-4783-905d-8f6d9b034928;
 					- m_name = { CGIText 
-						- m_str = "Definitions Table";
+						- m_str = "Concept Terms Table";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -17915,7 +17915,7 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 			}
 		}
 	}
-	- weakCGTime = 11.16.2015::22:49:31;
+	- weakCGTime = 11.18.2015::22:18:4;
 	- strongCGTime = 4.13.2015::15:55:23;
 	- _defaultComposite = GUID 09fea4e7-c951-4899-9985-aa80e188b14c;
 	- _eventsBaseID = -1;
@@ -17926,8 +17926,8 @@ The section called \"Items to Review\" contains the artifacts that are to be eva
 			- _id = GUID 09fea4e7-c951-4899-9985-aa80e188b14c;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.12.2015::21:28:59;
-			- weakCGTime = 11.12.2015::21:28:59;
+			- _modifiedTimeWeak = 11.16.2015::22:49:31;
+			- weakCGTime = 11.16.2015::22:49:31;
 			- strongCGTime = 4.13.2015::15:55:23;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

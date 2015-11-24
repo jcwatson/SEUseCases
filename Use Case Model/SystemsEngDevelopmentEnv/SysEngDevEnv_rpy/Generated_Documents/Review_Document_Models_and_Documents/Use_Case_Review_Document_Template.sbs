@@ -49,7 +49,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 08b6490a-136b-45a0-b15d-ac1cd6fa8667;
 		}
 	}
-	- _modifiedTimeWeak = 11.16.2015::22:49:32;
+	- _modifiedTimeWeak = 11.18.2015::22:19:14;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _id = GUID f975e65b-1f6e-4b79-b172-a23bb1d4a6b3;
@@ -10035,7 +10035,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 					- _body = "";
 				}
 			}
-			- _modifiedTimeWeak = 11.15.2015::19:2:29;
+			- _modifiedTimeWeak = 11.18.2015::22:19:14;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID f975e65b-1f6e-4b79-b172-a23bb1d4a6b3;
@@ -10054,7 +10054,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 						{ IDependency 
 							- _id = GUID 25ce42cd-5d75-477d-b5e9-a66a5f7c50c2;
 							- _myState = 2048;
-							- _name = "Table of Definitions";
+							- _name = "Table of Concept Terms";
 							- Stereotypes = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -10067,7 +10067,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 									- _id = GUID c1fd0048-9b35-4746-bb1c-91d904768163;
 								}
 							}
-							- _modifiedTimeWeak = 4.12.2015::19:35:57;
+							- _modifiedTimeWeak = 11.18.2015::22:19:14;
 							- _dependsOn = { INObjectHandle 
 								- _m2Class = "ISubsystem";
 								- _id = GUID 879afe80-a370-4ecc-b15f-c295fb3b1437;
@@ -10086,7 +10086,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 11.15.2015::19:6:59;
+					- _modifiedTimeWeak = 11.18.2015::22:19:14;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 439baea3-c65d-40e7-81cf-184fefe2da13;
@@ -12218,8 +12218,8 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 							}
 						}
 					}
-					- weakCGTime = 11.15.2015::19:6:59;
-					- strongCGTime = 4.13.2015::12:21:32;
+					- weakCGTime = 11.18.2015::22:19:14;
+					- strongCGTime = 11.18.2015::22:19:14;
 					- _defaultComposite = GUID 742d3d4e-4394-43e8-a391-c355c759d18b;
 					- _eventsBaseID = -1;
 					- Classes = { IRPYRawContainer 
@@ -12536,7 +12536,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 				{ ISubsystem 
 					- _id = GUID 879afe80-a370-4ecc-b15f-c295fb3b1437;
 					- _myState = 8192;
-					- _name = "Table of Definitions";
+					- _name = "Table of Concept Terms";
 					- Dependencies = { IRPYRawContainer 
 						- size = 1;
 						- value = 
@@ -12575,7 +12575,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 							- _id = GUID f22fcbe1-89a9-4098-a9a6-9862242fe606;
 						}
 					}
-					- _modifiedTimeWeak = 11.15.2015::15:7:45;
+					- _modifiedTimeWeak = 11.18.2015::22:19:14;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID f975e65b-1f6e-4b79-b172-a23bb1d4a6b3;
@@ -12623,7 +12623,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 						{ ISubsystem 
 							- _id = GUID 534fb606-2d8f-484b-b8b2-6160f57df922;
 							- _myState = 8192;
-							- _name = "Definitions Table";
+							- _name = "Concept Terms Table";
 							- Dependencies = { IRPYRawContainer 
 								- size = 1;
 								- value = 
@@ -12942,11 +12942,11 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 									- _body = "";
 								}
 							}
-							- _modifiedTimeWeak = 11.15.2015::14:29:23;
+							- _modifiedTimeWeak = 11.18.2015::22:25:28;
 							- _theMainDiagram = { IHandle 
 								- _m2Class = "IDiagram";
 								- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Review_Document_-_Process_Change_Request.sbs";
-								- _subsystem = "Generated Documents::Review Document Models and Documents::Review Document - Process Change Request::Supporting Information::Table of Definitions";
+								- _subsystem = "Generated Documents::Review Document Models and Documents::Review Document - Process Change Request::Supporting Information::Table of Concept Terms";
 								- _class = "";
 								- _name = "Definition Table Design";
 								- _id = GUID 34469ab6-48b4-4c6f-a2d2-b576d8afae4d;
@@ -12988,8 +12988,8 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 								}
 							}
 							- _lastID = 2;
-							- weakCGTime = 11.15.2015::14:29:23;
-							- strongCGTime = 11.15.2015::14:29:23;
+							- weakCGTime = 11.18.2015::22:25:28;
+							- strongCGTime = 11.18.2015::22:25:28;
 							- _defaultComposite = GUID 2d8c0694-3cb5-4077-b194-a448fbeb4f0e;
 							- _eventsBaseID = -1;
 							- Classes = { IRPYRawContainer 
@@ -13590,7 +13590,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 								}
 							}
 							- _modifiedTimeWeak = 1.2.1990::0:0:0;
-							- _lastModifiedTime = "11.15.2015::15:8:0";
+							- _lastModifiedTime = "11.18.2015::22:25:28";
 							- _graphicChart = { CGIClassChart 
 								- _id = GUID e2eac82b-6e18-4120-a82d-b7e29dc54359;
 								- m_type = 0;
@@ -13655,7 +13655,28 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 									- m_nNameFormat = 0;
 									- m_nIsNameFormat = 0;
 									- Compartments = { IRPYRawContainer 
-										- size = 0;
+										- size = 2;
+										- value = 
+										{ CGICompartment 
+											- _id = GUID 63d89cec-4821-4000-af00-c31c8b51e098;
+											- m_name = "Attribute";
+											- m_displayOption = Explicit;
+											- m_bShowInherited = 0;
+											- m_bOrdered = 0;
+											- Items = { IRPYRawContainer 
+												- size = 0;
+											}
+										}
+										{ CGICompartment 
+											- _id = GUID c9e240f7-c34d-47f8-b9d6-87f54cd3746e;
+											- m_name = "Operation";
+											- m_displayOption = Explicit;
+											- m_bShowInherited = 0;
+											- m_bOrdered = 0;
+											- Items = { IRPYRawContainer 
+												- size = 0;
+											}
+										}
 									}
 									- Attrs = { IRPYRawContainer 
 										- size = 0;
@@ -14381,7 +14402,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 									}
 									- m_pParent = GUID 2b036aee-7121-47d8-8908-7b81ee7180d6;
 									- m_name = { CGIText 
-										- m_str = "Definitions Table";
+										- m_str = "Concept Terms Table";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -14469,7 +14490,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 									}
 									- m_pParent = GUID 2b036aee-7121-47d8-8908-7b81ee7180d6;
 									- m_name = { CGIText 
-										- m_str = "Name";
+										- m_str = "Definitions Table::Name";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -14635,7 +14656,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 									}
 									- m_pParent = GUID 2b036aee-7121-47d8-8908-7b81ee7180d6;
 									- m_name = { CGIText 
-										- m_str = "Definition";
+										- m_str = "Definitions Table::Definition";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -14801,7 +14822,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 									}
 									- m_pParent = GUID 2b036aee-7121-47d8-8908-7b81ee7180d6;
 									- m_name = { CGIText 
-										- m_str = "Acronym";
+										- m_str = "Definitions Table::Acronym";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -14933,8 +14954,8 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 							}
 						}
 					}
-					- weakCGTime = 11.15.2015::15:7:45;
-					- strongCGTime = 4.13.2015::12:21:32;
+					- weakCGTime = 11.18.2015::22:19:14;
+					- strongCGTime = 11.18.2015::22:19:14;
 					- _defaultComposite = GUID 8da8913d-aafd-4a65-b43c-7d72d058e6b8;
 					- _eventsBaseID = -1;
 					- Classes = { IRPYRawContainer 
@@ -15644,7 +15665,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 					- _configurationRelatedTime = 1.2.1990::0:0:0;
 				}
 			}
-			- weakCGTime = 11.15.2015::19:2:29;
+			- weakCGTime = 11.18.2015::22:19:14;
 			- strongCGTime = 4.27.2015::16:53:25;
 			- _defaultComposite = GUID 4623e147-d177-49ab-a755-84e94638ccba;
 			- _eventsBaseID = -1;
@@ -15948,7 +15969,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.15.2015::15:24:15";
+			- _lastModifiedTime = "11.18.2015::22:25:28";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 92778acf-e925-4ed0-86b0-492c62f74cf6;
 				- m_type = 0;
@@ -17452,7 +17473,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 					}
 					- m_pParent = GUID 49b46f78-da02-4193-bc25-5f790da35389;
 					- m_name = { CGIText 
-						- m_str = "Table of Definitions";
+						- m_str = "Table of Concept Terms";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -17973,7 +17994,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 					}
 					- m_pParent = GUID 33b878da-546f-4ebe-9efa-0b7382edc5af;
 					- m_name = { CGIText 
-						- m_str = "Definitions Table";
+						- m_str = "Concept Terms Table";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -18027,7 +18048,7 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 			}
 		}
 	}
-	- weakCGTime = 11.16.2015::22:49:32;
+	- weakCGTime = 11.18.2015::22:19:14;
 	- strongCGTime = 4.13.2015::15:55:51;
 	- _defaultComposite = GUID 9aed2954-0666-4745-b525-537da4f55b3f;
 	- _eventsBaseID = -1;
@@ -18038,8 +18059,8 @@ The section called \"Items to be reviewed\" contains the artifacts that are to b
 			- _id = GUID 9aed2954-0666-4745-b525-537da4f55b3f;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.12.2015::21:28:59;
-			- weakCGTime = 11.12.2015::21:28:59;
+			- _modifiedTimeWeak = 11.16.2015::22:49:32;
+			- weakCGTime = 11.16.2015::22:49:32;
 			- strongCGTime = 4.13.2015::15:55:51;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
