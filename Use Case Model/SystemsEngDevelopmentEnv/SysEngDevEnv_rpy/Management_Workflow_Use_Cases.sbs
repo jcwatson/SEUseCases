@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
 		- _filename = "System_Development_Stage.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases";
+		- _subsystem = "SE Life Cycle Workflow Use Cases";
 		- _class = "";
 		- _name = "System Development Stage";
 		- _id = GUID 1cac8b15-93af-4e74-8c1e-6da70b8dc4d1;
@@ -365,7 +365,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "Management Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.10.2015::23:0:37";
+			- _lastModifiedTime = "12.2.2015::13:6:48";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID ab1ca819-1561-4569-86ae-29f0f0ef42ac;
 				- m_type = 0;
@@ -764,8 +764,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID fe4eb5fb-1d04-4ab7-bbe9-079bf695b50f;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 9.22.2015::19:42:27;
-			- weakCGTime = 9.22.2015::19:42:27;
+			- _modifiedTimeWeak = 11.10.2015::23:0:23;
+			- weakCGTime = 11.10.2015::23:0:23;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -862,9 +862,6 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -954,9 +951,6 @@ Primary Actor \\b0 - Engineering Manager\\par
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
@@ -1103,9 +1097,6 @@ vi.      If the requirement change impacts the architecture, follow the predefin
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
 			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
@@ -1189,9 +1180,6 @@ vi.      If the requirement change impacts the architecture, follow the predefin
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
-			}
-			- Associations = { IRPYRawContainer 
-				- size = 0;
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 

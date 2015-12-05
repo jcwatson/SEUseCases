@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.10.0 C++ 8169320
+I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { IComponent 
 	- _id = GUID bfdb8f53-2bc6-49d2-8bed-99a758995a97;
 	- _myState = 139264;
@@ -102,7 +102,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 		}
 	}
 	- HandlesInMe = { IRPYRawContainer 
-		- size = 24;
+		- size = 45;
 		- value = 
 		{ IHandle 
 			- _m2Class = "IProfile";
@@ -114,14 +114,6 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 		}
 		{ IHandle 
 			- _m2Class = "IProfile";
-			- _filename = "$SCRIPTROOT\\MSEM\\MSEM.sbs";
-			- _subsystem = "";
-			- _class = "";
-			- _name = "MSEM";
-			- _id = GUID f128df21-428e-4790-a6c2-544541b18e0e;
-		}
-		{ IHandle 
-			- _m2Class = "IProfile";
 			- _filename = "SE_Dev_Profile.sbs";
 			- _subsystem = "";
 			- _class = "";
@@ -130,51 +122,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 		}
 		{ IHandle 
 			- _m2Class = "IProfile";
-			- _filename = "..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\DocGen\\DocGen_Profile.sbs";
+			- _filename = "$SCRIPTROOT\\DocGen\\DocGen_Profile.sbs";
 			- _subsystem = "";
 			- _class = "";
 			- _name = "DocGen Profile";
 			- _id = GUID 2ded90a0-df63-48d4-997c-2dded836f245;
-		}
-		{ IHandle 
-			- _m2Class = "IProfile";
-			- _filename = "$SCRIPTROOT\\DiagramMarkers\\DiagramMarkers.sbs";
-			- _subsystem = "";
-			- _class = "";
-			- _name = "DiagramMarkers";
-			- _id = GUID bddef719-a68f-46fb-abc7-678eeca3283a;
-		}
-		{ IHandle 
-			- _m2Class = "IProfile";
-			- _filename = "$SCRIPTROOT\\MSEM\\IPM.sbs";
-			- _subsystem = "";
-			- _class = "";
-			- _name = "IPM";
-			- _id = GUID 92d09cf3-df1a-4bda-a3d7-8cf2729b94ae;
-		}
-		{ IHandle 
-			- _m2Class = "IProfile";
-			- _filename = "$SCRIPTROOT\\MDE\\MDE.sbs";
-			- _subsystem = "";
-			- _class = "";
-			- _name = "MDE";
-			- _id = GUID bc8c6401-e797-4e2b-8c3b-8260a0a6c8dc;
-		}
-		{ IHandle 
-			- _m2Class = "IProfile";
-			- _filename = "$SCRIPTROOT\\RequirementsExtensions\\Requirements_Extensions.sbs";
-			- _subsystem = "";
-			- _class = "";
-			- _name = "Requirements Extensions";
-			- _id = GUID 31bfc017-6665-402e-83d3-7b478a16d3de;
-		}
-		{ IHandle 
-			- _m2Class = "IProfile";
-			- _filename = "$SCRIPTROOT\\SpellChecker\\SpellChecker.sbs";
-			- _subsystem = "";
-			- _class = "";
-			- _name = "SpellChecker";
-			- _id = GUID 32ca40bc-f44e-4b81-a568-f05258e9a423;
 		}
 		{ IHandle 
 			- _m2Class = "IProfile";
@@ -218,19 +170,243 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 		}
 		{ IHandle 
 			- _m2Class = "ISubsystem";
-			- _filename = "System_Engineering_Operations.sbs";
+			- _filename = "Product_Development_Domain_Structure.sbs";
 			- _subsystem = "";
 			- _class = "";
-			- _name = "System Engineering Operations";
-			- _id = GUID 6cfa223b-3cca-4a39-932e-465247fcef40;
+			- _name = "Product Development Domain Structure";
+			- _id = GUID b2fd3195-49dd-4b59-ad74-413fa43b0f78;
 		}
 		{ IHandle 
 			- _m2Class = "ISubsystem";
-			- _filename = "SE_Development_System_Workflow_Use_Cases.sbs";
-			- _subsystem = "System Engineering Operations::System Engineering Development System::Document - SE Development System Workflow Documents";
+			- _filename = "Actors.sbs";
+			- _subsystem = "SE Life Cycle Workflow Use Cases";
+			- _class = "";
+			- _name = "Actors";
+			- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Exploratory_and_Concept_Stage.sbs";
+			- _subsystem = "SE Life Cycle Workflow Use Cases";
+			- _class = "";
+			- _name = "Exploratory and Concept Stage";
+			- _id = GUID 5d69c9d4-3a32-49fc-829e-51b39c74246d;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "System_Development_Stage.sbs";
+			- _subsystem = "SE Life Cycle Workflow Use Cases";
+			- _class = "";
+			- _name = "System Development Stage";
+			- _id = GUID 1cac8b15-93af-4e74-8c1e-6da70b8dc4d1;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Management_Workflow_Use_Cases.sbs";
+			- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage";
+			- _class = "";
+			- _name = "Management Workflow Use Cases";
+			- _id = GUID 9c9eecbf-70ef-447f-bcb2-895c6548c211;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "SE_Domain_Workflow_Use_Cases.sbs";
+			- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage";
+			- _class = "";
+			- _name = "SE Domain Workflow Use Cases";
+			- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Validation_and_Verification_Workflow_Use_Cases.sbs";
+			- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage";
+			- _class = "";
+			- _name = "Validation and Verification Workflow Use Cases";
+			- _id = GUID d50621e9-6d94-4e96-a575-8d3ee5c2e7f0;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Production_Stage.sbs";
+			- _subsystem = "SE Life Cycle Workflow Use Cases";
+			- _class = "";
+			- _name = "Production Stage";
+			- _id = GUID e8e5671e-b495-4d41-a575-df3971b040cf;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Product_and_Service_Life_Management_Stage.sbs";
+			- _subsystem = "SE Life Cycle Workflow Use Cases";
+			- _class = "";
+			- _name = "Product and Service Life Management Stage";
+			- _id = GUID 6a02d8c1-5bc8-481c-af89-a42c05be3ac5;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Worflow_Patterns.sbs";
+			- _subsystem = "SE Life Cycle Workflow Use Cases";
+			- _class = "";
+			- _name = "Worflow Patterns";
+			- _id = GUID c27fc8c5-127d-4141-8990-da58e0eda24b;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Information_Model.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Information Model";
+			- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Analyze_Stakeholder_Needs_Artifacts.sbs";
+			- _subsystem = "Information Model";
+			- _class = "";
+			- _name = "Analyze Stakeholder Needs Artifacts";
+			- _id = GUID 07a0630b-566b-4efe-891d-b365d5c76783;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Context_Definitions.sbs";
+			- _subsystem = "Information Model";
+			- _class = "";
+			- _name = "Context Definitions";
+			- _id = GUID 3a04fbcd-2fe6-42da-b48b-82a46d0ca9a2;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Generated_Documents\\Generated_Documents.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Generated Documents";
+			- _id = GUID ec647722-1ed8-4c1e-add4-60795884cdaa;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Generated_Documents\\Use_Case_Tables\\Use_Case_Tables.sbs";
+			- _subsystem = "Generated Documents";
+			- _class = "";
+			- _name = "Use Case Tables";
+			- _id = GUID 8a3e01bc-496b-4536-aad6-9e3179c9ee22;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Generated_Documents\\SE_Development_System_Workflow_Use_Cases\\SE_Development_System_Workflow_Use_Cases.sbs";
+			- _subsystem = "Generated Documents";
 			- _class = "";
 			- _name = "SE Development System Workflow Use Cases";
 			- _id = GUID c7e5f24a-df6e-42a9-b470-a8156ff560c4;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Review_Document_Models_and_Documents.sbs";
+			- _subsystem = "Generated Documents";
+			- _class = "";
+			- _name = "Review Document Models and Documents";
+			- _id = GUID a7d34dad-ac31-4bf9-969b-f615889f2ca7;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Generated_Review_Documents\\Generated_Review_Documents.sbs";
+			- _subsystem = "Generated Documents::Review Document Models and Documents";
+			- _class = "";
+			- _name = "Generated Review Documents";
+			- _id = GUID a7e8bddd-0872-46d9-8a31-53e769b69458;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
+			- _subsystem = "Generated Documents::Review Document Models and Documents";
+			- _class = "";
+			- _name = "Use Case Review Document Template";
+			- _id = GUID c45ac290-e7d6-4c81-8589-70c79c5eaed6;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Review_Document_-Analyze_Stakeholders_Needs.sbs";
+			- _subsystem = "Generated Documents::Review Document Models and Documents";
+			- _class = "";
+			- _name = "Review Document -Analyze Stakeholders Needs";
+			- _id = GUID 5e0efa4c-c327-4ba4-942d-dea17f87983b;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Review_Document_-_Evaluate_System_Safety.sbs";
+			- _subsystem = "Generated Documents::Review Document Models and Documents";
+			- _class = "";
+			- _name = "Review Document - Evaluate System Safety";
+			- _id = GUID 608e4bc4-3eea-4fdb-88e7-7d5bfea29b17;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Review_Document_-_Process_Change_Request.sbs";
+			- _subsystem = "Generated Documents::Review Document Models and Documents";
+			- _class = "";
+			- _name = "Review Document - Process Change Request";
+			- _id = GUID 0d8d955b-7562-476b-a2ab-e92033d5166a;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Playground_Temp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Playground Temp";
+			- _id = GUID e14f70a9-2bf9-4c79-a5e7-7eccacc7251b;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "John_W.sbs";
+			- _subsystem = "Playground Temp";
+			- _class = "";
+			- _name = "John W";
+			- _id = GUID 020784e3-4e45-4ed8-be41-43ceab262ad6;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Analyze_Stakeholders_Needs.sbs";
+			- _subsystem = "Playground Temp::John W";
+			- _class = "";
+			- _name = "Analyze Stakeholders Needs";
+			- _id = GUID 7283aeee-38c8-4576-b332-42d032b1a462;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Eldad_P.sbs";
+			- _subsystem = "Playground Temp";
+			- _class = "";
+			- _name = "Eldad P";
+			- _id = GUID 87827fc9-fbc1-4466-8d73-4a71bdb18543;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Rick_S.sbs";
+			- _subsystem = "Playground Temp";
+			- _class = "";
+			- _name = "Rick S";
+			- _id = GUID 2cc90d53-e945-48b7-a778-3e1d3bf56feb;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Dick_W.sbs";
+			- _subsystem = "Playground Temp";
+			- _class = "";
+			- _name = "Dick W";
+			- _id = GUID 05588822-7236-45c4-b727-2fbd5378a502;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Conceptual_Model_Definitions_-_2003.sbs";
+			- _subsystem = "Playground Temp";
+			- _class = "";
+			- _name = "Conceptual Model Definitions - 2003";
+			- _id = GUID 4e7bfe24-07c5-404f-86b4-73f2883e1e8a;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Definitions_from_Concept_Model.sbs";
+			- _subsystem = "Playground Temp::Conceptual Model Definitions - 2003";
+			- _class = "";
+			- _name = "Definitions from Concept Model";
+			- _id = GUID 9fb47b2f-4b24-4419-9bd7-4b00febba526;
 		}
 		{ IHandle 
 			- _m2Class = "ISubsystem";
@@ -239,30 +415,6 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 			- _class = "";
 			- _name = "Imported__Libraries";
 			- _id = GUID b7fb2034-0c0e-42bd-bc42-62da3ac643b6;
-		}
-		{ IHandle 
-			- _m2Class = "ISubsystem";
-			- _filename = "C:\\Users\\watsonjc\\Documents\\Work Folder\\LM_ProfilesAndScripts_8\\IssueManagementLibrary\\IssueManagementLibrary.sbs";
-			- _subsystem = "Imported__Libraries";
-			- _class = "";
-			- _name = "IssueManagementLibrary";
-			- _id = GUID 51e44ad1-c988-4f4b-b318-77138dd1d9b1;
-		}
-		{ IHandle 
-			- _m2Class = "ISubsystem";
-			- _filename = "Imported_Library\\..\\..\\..\\..\\..\\..\\..\\LM_ProfilesAndScripts_8\\MetricsViewLibrary\\Model_Metrics_View_Library.sbs";
-			- _subsystem = "Imported__Libraries";
-			- _class = "";
-			- _name = "Model Metrics View Library";
-			- _id = GUID fae44b01-4b2a-4341-a2db-b1551f4e7f46;
-		}
-		{ IHandle 
-			- _m2Class = "IProfile";
-			- _filename = "$SCRIPTROOT\\ProbabilityDistributionProfile\\ProbabilityDistributionProfile.sbs";
-			- _subsystem = "";
-			- _class = "";
-			- _name = "ProbabilityDistributionProfile";
-			- _id = GUID 4e9a70d5-4877-41cb-bc68-07a7424c2db8;
 		}
 		{ IHandle 
 			- _m2Class = "IProfile";
@@ -274,19 +426,11 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 		}
 		{ IHandle 
 			- _m2Class = "IProfile";
-			- _filename = "..\\..\\..\\..\\..\\..\\..\\..\\IBM\\Rational\\Rhapsody\\8.1\\Share\\Profiles\\MicroC\\ExtendedTableCapabilities.sbs";
+			- _filename = "$OMROOT\\Profiles\\MicroC\\ExtendedTableCapabilities.sbs";
 			- _subsystem = "";
 			- _class = "";
 			- _name = "ExtendedTableCapabilities";
 			- _id = GUID 305908cd-5da2-4b10-8ba9-bcff3246b79a;
-		}
-		{ IHandle 
-			- _m2Class = "ISubsystem";
-			- _filename = "Information_Model.sbs";
-			- _subsystem = "";
-			- _class = "";
-			- _name = "Information Model";
-			- _id = GUID 303e4fc1-00d6-4fe5-a49b-1820cffd395f;
 		}
 		{ IHandle 
 			- _m2Class = "IProfile";
@@ -295,6 +439,30 @@ I-Logix-RPY-Archive version 8.10.0 C++ 8169320
 			- _class = "";
 			- _name = "CGCompatibilityPre81Cpp";
 			- _id = GUID dcd2cdb5-4c74-4d47-99ca-1b358b271e5f;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Profiles\\ModelBasedDocumentGeneration\\ModelBasedDocumentGeneration.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "ModelBasedDocumentGeneration";
+			- _id = GUID 7b488349-0f81-419c-9a89-cfdfc5b3cff5;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$SCRIPTROOT\\ExportImport\\ExportImport.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "ExportImport";
+			- _id = GUID 2d884707-2787-40bd-b7e2-e74c48aa8db8;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "..\\..\\..\\..\\..\\Documents\\SystemModeling\\RhapsodyAdd-ins\\TechnicalMeasures\\TMProfileAndLibraryForRhapsody811AndAbove\\Technical_Measures_Library_and_Profile.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Technical Measures Library and Profile";
+			- _id = GUID 70f16c1c-0b77-4c59-b16e-eadff6e6d475;
 		}
 	}
 	- VariationPoints = { IRPYRawContainer 

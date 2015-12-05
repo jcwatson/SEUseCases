@@ -1,12 +1,12 @@
-I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 { IProfile 
-	- _id = GUID a32649f4-8029-4846-82f3-6deba65e416d;
+	- _id = GUID 803c9619-7509-44c3-bfdf-6fee2352ab55;
 	- _properties = { IPropertyContainer 
 		- Subjects = { IRPYRawContainer 
-			- size = 3;
+			- size = 2;
 			- value = 
 			{ IPropertySubject 
-				- _Name = "CPP_CG";
+				- _Name = "CG";
 				- Metaclasses = { IRPYRawContainer 
 					- size = 1;
 					- value = 
@@ -16,26 +16,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- size = 1;
 							- value = 
 							{ IProperty 
-								- _Name = "UsePre805DdsCG";
-								- _Value = "True";
-								- _Type = Bool;
-							}
-						}
-					}
-				}
-			}
-			{ IPropertySubject 
-				- _Name = "CPP_ReverseEngineering";
-				- Metaclasses = { IRPYRawContainer 
-					- size = 1;
-					- value = 
-					{ IPropertyMetaclass 
-						- _Name = "ImplementationTrait";
-						- Properties = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IProperty 
-								- _Name = "RoundtripOperationReturnTypeAsExistingType";
+								- _Name = "SortAssociationEndsAndPartsTogether";
 								- _Value = "False";
 								- _Type = Bool;
 							}
@@ -44,17 +25,17 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			{ IPropertySubject 
-				- _Name = "General";
+				- _Name = "CPP_CG";
 				- Metaclasses = { IRPYRawContainer 
 					- size = 1;
 					- value = 
 					{ IPropertyMetaclass 
-						- _Name = "Model";
+						- _Name = "State";
 						- Properties = { IRPYRawContainer 
 							- size = 1;
 							- value = 
 							{ IProperty 
-								- _Name = "TakeDefaultTypeValueFromProject";
+								- _Name = "EncloseFlowchartActionDescriptonTemplate";
 								- _Value = "True";
 								- _Type = Bool;
 							}
@@ -64,34 +45,34 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- _name = "CGCompatibilityPre805Cpp";
+	- _name = "CGCompatibilityPre813Cpp";
 	- Stereotypes = { IRPYRawContainer 
 		- size = 1;
 		- value = 
 		{ IHandle 
 			- _m2Class = "IStereotype";
-			- _filename = "PredefinedTypes.sbs";
-			- _subsystem = "PredefinedTypes";
+			- _filename = "";
+			- _subsystem = "";
 			- _class = "";
-			- _name = "Settings";
+			- _name = "";
 			- _id = GUID c4916b7f-5ca2-41a3-b8a9-6ac22b145b51;
 		}
 	}
-	- _modifiedTimeWeak = 6.10.2014::15:6:29;
-	- weakCGTime = 6.10.2014::15:6:29;
-	- strongCGTime = 6.10.2014::15:6:29;
-	- _defaultComposite = GUID a5fdf6ba-32ab-408a-b39d-f632f1df3582;
+	- _modifiedTimeWeak = 3.24.2015::12:28:19;
+	- weakCGTime = 3.24.2015::12:28:19;
+	- strongCGTime = 3.24.2015::12:28:19;
+	- _defaultComposite = GUID 578d0ff9-3d12-4d0d-88d1-94ad6e664658;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
 		- size = 1;
 		- value = 
 		{ IClass 
-			- _id = GUID a5fdf6ba-32ab-408a-b39d-f632f1df3582;
+			- _id = GUID 578d0ff9-3d12-4d0d-88d1-94ad6e664658;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 6.10.2014::15:6:29;
-			- weakCGTime = 6.10.2014::15:6:29;
-			- strongCGTime = 6.10.2014::15:6:29;
+			- _modifiedTimeWeak = 3.24.2015::12:28:1;
+			- weakCGTime = 3.24.2015::12:28:1;
+			- strongCGTime = 3.24.2015::12:28:1;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";

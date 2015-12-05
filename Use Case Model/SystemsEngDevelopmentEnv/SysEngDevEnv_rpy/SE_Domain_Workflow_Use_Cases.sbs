@@ -509,7 +509,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "SE Domain Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.11.2015::19:41:58";
+			- _lastModifiedTime = "12.2.2015::13:6:48";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID a7b8c694-b1d8-4ca8-a28e-266ece045eb3;
 				- m_type = 0;
@@ -5251,8 +5251,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.11.2015::19:41:38;
-			- weakCGTime = 11.11.2015::19:41:38;
+			- _modifiedTimeWeak = 11.14.2015::16:23:46;
+			- weakCGTime = 11.14.2015::16:23:46;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -5500,7 +5500,7 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 					- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
 				}
 			}
-			- _modifiedTimeWeak = 10.30.2015::14:59:54;
+			- _modifiedTimeWeak = 11.14.2015::16:23:46;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IUCDiagram";
 				- _id = GUID d76fa43d-2901-4b59-87b4-43e07dcec73a;
@@ -6400,7 +6400,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Import Reference Material(Engineering Artifact)";
 								- _id = GUID af3edff7-ed32-438b-ad0a-30d646fe837e;
@@ -6416,7 +6416,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Measure Change Impact(Change Impact Analysis Summary)";
 								- _id = GUID ca33dd23-ea30-4b0b-8b88-73448fa47e4d;
@@ -6432,7 +6432,7 @@ References and Citations: \\cf1\\b0\\f2\\par
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Conduct a Review()";
 								- _id = GUID 32bd5f2d-7389-4622-81d7-60559915ca64;
@@ -12072,9 +12072,6 @@ References and Citations: \\cf1\\b0\\f2\\par
 				- _id = GUID 17e0bd31-09fe-451a-a65f-a0bab844eee7;
 			}
 			- _classModifier = Unspecified;
-			- Diagrams = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -13109,7 +13106,7 @@ d.\\tab Determine and capture the level of security required for the information
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Measure Change Impact(Change Impact Analysis Summary)";
 								- _id = GUID bacccb23-c76c-4d04-8367-c8f5ed3d5674;
@@ -13141,7 +13138,7 @@ d.\\tab Determine and capture the level of security required for the information
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Conduct a Review()";
 								- _id = GUID 5f10e503-3b49-42a3-94f6-2613b4827c42;
@@ -13173,7 +13170,7 @@ d.\\tab Determine and capture the level of security required for the information
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Import Reference Material(Engineering Artifact)";
 								- _id = GUID bc1f668d-6306-4a81-8cd3-05ca7e66f58b;
@@ -16295,8 +16292,8 @@ d.\\tab Determine and capture the level of security required for the information
 							- _modifiedTimeWeak = 11.11.2015::13:28:37;
 							- _represents = { IHandle 
 								- _m2Class = "IClass";
-								- _filename = "Information_Model.sbs";
-								- _subsystem = "Information Model::Engineering Roles and Disciplines";
+								- _filename = "Product_Development_Domain_Structure.sbs";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering::Internal Roles and Disciplines";
 								- _class = "";
 								- _name = "Security SysEnging";
 								- _id = GUID 906b4315-89df-42cc-b679-3a172637bf7e;
@@ -16310,7 +16307,7 @@ d.\\tab Determine and capture the level of security required for the information
 							- _represents = { IHandle 
 								- _m2Class = "IClass";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Systems Engineering Development System";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering::SE Development System";
 								- _class = "";
 								- _name = "SE Development System";
 								- _id = GUID 2b5e590b-3367-47bf-beb0-30bbe333ec00;

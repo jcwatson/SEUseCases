@@ -457,7 +457,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "Exploratory and Concept Stage Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.11.2015::19:42:17";
+			- _lastModifiedTime = "12.2.2015::13:6:48";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID ff4926df-a6ac-4b04-9c83-f69a46cedb29;
 				- m_type = 0;
@@ -1809,9 +1809,9 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID a4a4050b-d10d-49f3-91c4-5fe6ec60261f;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.11.2015::19:42:17;
+			- _modifiedTimeWeak = 11.14.2015::16:23:46;
 			- _lastID = 1;
-			- weakCGTime = 11.11.2015::19:42:17;
+			- weakCGTime = 11.14.2015::16:23:46;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2794,7 +2794,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Conduct a Review()";
 								- _id = GUID 5f10e503-3b49-42a3-94f6-2613b4827c42;
@@ -2822,7 +2822,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Perform a Trade Study()";
 								- _id = GUID 9f5d60b2-e797-4b1f-b658-d0e5a0e67ff8;
@@ -6550,7 +6550,7 @@ See \\cf1\\ul\\protect Risk Management\\cf0\\protect0\\par
 					- _id = GUID 928b448a-8208-4b99-92e3-feb13d386405;
 				}
 			}
-			- _modifiedTimeWeak = 9.22.2015::19:37:23;
+			- _modifiedTimeWeak = 11.14.2015::16:23:46;
 			- _description = { IDescription 
 				- _textRTF = "{\\rtf1\\fbidis\\ansi\\ansicpg1252\\deff0\\deflang1033{\\fonttbl{\\f0\\fswiss\\fprq2\\fcharset0 Calibri;}{\\f1\\fnil\\fcharset0 FreeSerif;}{\\f2\\fnil\\fcharset0 Arial;}{\\f3\\fswiss\\fcharset0 Calibri;}{\\f4\\fswiss\\fprq2\\fcharset0 Arial,Bold;}}
 \\viewkind4\\uc1\\pard\\ltrpar\\nowidctlpar\\sa200\\sl276\\slmult1\\b\\f0\\fs22 Goal\\b0  - The goal of this workflow use case is to identify all stakeholders and better understand and capture their required needs \\f1\\fs20 expectations, goals, and objectives \\f0\\fs22 across the entire product life cycle.\\par
@@ -7767,7 +7767,7 @@ Also
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Conduct a Review()";
 								- _id = GUID 32bd5f2d-7389-4622-81d7-60559915ca64;
@@ -7804,7 +7804,7 @@ Also
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Analyze Requirements()";
 								- _id = GUID 88572fe6-289f-4677-af44-3fd46540529f;
@@ -7820,7 +7820,7 @@ Also
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Import Reference Material(Engineering Artifact)";
 								- _id = GUID af3edff7-ed32-438b-ad0a-30d646fe837e;
@@ -7836,7 +7836,7 @@ Also
 							- _operation = { IHandle 
 								- _m2Class = "IPrimitiveOperation";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Import Reference Material(Engineering Artifact)";
 								- _id = GUID af3edff7-ed32-438b-ad0a-30d646fe837e;
@@ -11843,9 +11843,6 @@ Also
 				}
 			}
 			- _classModifier = Unspecified;
-			- Diagrams = { IRPYRawContainer 
-				- size = 0;
-			}
 			- _EntryPoints = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -12891,7 +12888,7 @@ A System Requirement Specification may also be produced including many of the ca
 							- _referencedActivity = { IHandle 
 								- _m2Class = "IActivityGraph";
 								- _filename = "Product_Development_Domain_Structure.sbs";
-								- _subsystem = "Product Development Domain Structure::Stakeholdes";
+								- _subsystem = "Product Development Domain Structure::Systems Engineering";
 								- _class = "Systems Engineering";
 								- _name = "Define System Context()";
 								- _id = GUID 59b9845a-28c6-4be4-a77d-8deaca5d6222;

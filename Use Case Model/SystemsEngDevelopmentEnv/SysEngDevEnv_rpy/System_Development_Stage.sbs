@@ -2,8 +2,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
-		- _filename = "System_Engineering_Operations.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System";
+		- _filename = "C:\\Users\\John\\git\\SE.Use.Cases.for.Roadmap\\Use Case Model\\SystemsEngDevelopmentEnv\\SysEngDevEnv.rpy";
+		- _subsystem = "";
 		- _class = "";
 		- _name = "SE Life Cycle Workflow Use Cases";
 		- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
@@ -14,8 +14,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _modifiedTimeWeak = 3.30.2015::18:19:46;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
-		- _filename = "System_Engineering_Operations.sbs";
-		- _subsystem = "System Engineering Operations::System Engineering Development System::SE Life Cycle Workflow Use Cases";
+		- _filename = "";
+		- _subsystem = "SE Life Cycle Workflow Use Cases";
 		- _class = "";
 		- _name = "Lifecycle Use Case Organization";
 		- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -51,8 +51,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID a0aa9553-c6d0-479a-b0ed-689e968e0945;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 3.29.2015::15:52:25;
-			- weakCGTime = 3.29.2015::15:52:25;
+			- _modifiedTimeWeak = 3.30.2015::18:19:46;
+			- weakCGTime = 3.30.2015::18:19:46;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 

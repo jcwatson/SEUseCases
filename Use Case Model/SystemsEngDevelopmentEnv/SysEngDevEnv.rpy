@@ -1236,7 +1236,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- Subsystems = { IRPYRawContainer 
-		- size = 19;
+		- size = 20;
 		- value = 
 		{ IProfile 
 			- fileName = "SysML";
@@ -3578,8 +3578,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 													- _modifiedTimeWeak = 1.2.1990::0:0:0;
 													- _value = { IHandle 
 														- _m2Class = "IStereotype";
-														- _filename = "Worflow_Patterns.sbs";
-														- _subsystem = "SE Life Cycle Workflow Use Cases::Worflow Patterns";
+														- _filename = "SE_Dev_Profile.sbs";
+														- _subsystem = "SE_Dev_Profile";
 														- _class = "";
 														- _name = "WkFlPattern";
 														- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
@@ -3784,8 +3784,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 													- _modifiedTimeWeak = 1.2.1990::0:0:0;
 													- _value = { IHandle 
 														- _m2Class = "IStereotype";
-														- _filename = "Worflow_Patterns.sbs";
-														- _subsystem = "SE Life Cycle Workflow Use Cases::Worflow Patterns";
+														- _filename = "SE_Dev_Profile.sbs";
+														- _subsystem = "SE_Dev_Profile";
 														- _class = "";
 														- _name = "WkFlPattern";
 														- _id = GUID 85802e88-a0e2-448b-b8b4-050f4cb0ec94;
@@ -4809,7 +4809,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 					}
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
-					- _lastModifiedTime = "11.11.2015::17:0:58";
+					- _lastModifiedTime = "12.2.2015::13:6:48";
 					- _graphicChart = { CGIClassChart 
 						- _id = GUID 5fa92e41-f767-4fe4-817c-a9b877ad2321;
 						- m_type = 0;
@@ -5852,6 +5852,13 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- fileName = "ExportImport";
 			- _persistAs = "$SCRIPTROOT\\ExportImport";
 			- _id = GUID 2d884707-2787-40bd-b7e2-e74c48aa8db8;
+			- _isReference = 1;
+		}
+		{ IProfile 
+			- fileName = "Technical_Measures_Library_and_Profile";
+			- _persistAs = "..\\..\\..\\..\\..\\Documents\\SystemModeling\\RhapsodyAdd-ins\\TechnicalMeasures\\TMProfileAndLibraryForRhapsody811AndAbove";
+			- _id = GUID 70f16c1c-0b77-4c59-b16e-eadff6e6d475;
+			- _name = "Technical Measures Library and Profile";
 			- _isReference = 1;
 		}
 	}

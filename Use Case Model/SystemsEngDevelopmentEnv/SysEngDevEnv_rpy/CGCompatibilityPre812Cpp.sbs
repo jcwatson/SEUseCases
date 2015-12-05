@@ -1,24 +1,24 @@
-I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 { IProfile 
-	- _id = GUID 4b435a8c-5c01-4ecd-a419-aa0b116ac54d;
+	- _id = GUID 3026d3ea-02b4-49ae-b086-6982c27412f0;
 	- _properties = { IPropertyContainer 
 		- Subjects = { IRPYRawContainer 
 			- size = 1;
 			- value = 
 			{ IPropertySubject 
-				- _Name = "General";
+				- _Name = "CPP_ReverseEngineering";
 				- Metaclasses = { IRPYRawContainer 
 					- size = 1;
 					- value = 
 					{ IPropertyMetaclass 
-						- _Name = "Model";
+						- _Name = "Main";
 						- Properties = { IRPYRawContainer 
 							- size = 1;
 							- value = 
 							{ IProperty 
-								- _Name = "NamesRegExp";
-								- _Value = "^(([a-zA-Z_][a-zA-Z0-9_! @#$%^&-]*)|(operator.+))$";
-								- _Type = String;
+								- _Name = "useCodeCentricAbsolutePath";
+								- _Value = "True";
+								- _Type = Bool;
 							}
 						}
 					}
@@ -26,34 +26,34 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- _name = "SysML_Pre80";
+	- _name = "CGCompatibilityPre812Cpp";
 	- Stereotypes = { IRPYRawContainer 
 		- size = 1;
 		- value = 
 		{ IHandle 
 			- _m2Class = "IStereotype";
-			- _filename = "PredefinedTypes.sbs";
-			- _subsystem = "PredefinedTypes";
+			- _filename = "";
+			- _subsystem = "";
 			- _class = "";
-			- _name = "Settings";
+			- _name = "";
 			- _id = GUID c4916b7f-5ca2-41a3-b8a9-6ac22b145b51;
 		}
 	}
-	- _modifiedTimeWeak = 12.12.2013::21:36:57;
-	- weakCGTime = 12.12.2013::21:36:57;
-	- strongCGTime = 10.9.2012::12:42:38;
-	- _defaultComposite = GUID d755f183-35bf-4749-8aa0-e052ee0446be;
+	- _modifiedTimeWeak = 8.27.2014::6:51:55;
+	- weakCGTime = 8.27.2014::6:51:55;
+	- strongCGTime = 8.27.2014::6:51:55;
+	- _defaultComposite = GUID f3734714-b33c-456b-bb84-9a6189f3c1a6;
 	- _eventsBaseID = -1;
 	- Classes = { IRPYRawContainer 
 		- size = 1;
 		- value = 
 		{ IClass 
-			- _id = GUID d755f183-35bf-4749-8aa0-e052ee0446be;
+			- _id = GUID f3734714-b33c-456b-bb84-9a6189f3c1a6;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 12.12.2013::21:36:57;
-			- weakCGTime = 12.12.2013::21:36:57;
-			- strongCGTime = 10.9.2012::12:42:38;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
