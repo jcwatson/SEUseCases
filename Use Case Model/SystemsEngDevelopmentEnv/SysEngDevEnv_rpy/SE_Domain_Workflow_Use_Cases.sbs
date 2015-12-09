@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID 81c5a56b-9b7c-4c90-97ad-f11f8d46ddf9;
 	- _myState = 8192;
 	- _name = "SE Domain Workflow Use Cases";
-	- _modifiedTimeWeak = 11.14.2015::16:23:46;
+	- _modifiedTimeWeak = 12.8.2015::20:25:44;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "Generated_Documents\\Review_Document_Models_and_Documents\\Use_Case_Review_Document_Template.sbs";
@@ -509,7 +509,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 			- _name = "SE Domain Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "12.2.2015::13:6:48";
+			- _lastModifiedTime = "12.8.2015::20:25:44";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID a7b8c694-b1d8-4ca8-a28e-266ece045eb3;
 				- m_type = 0;
@@ -1319,7 +1319,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
-						- _class = "Program Management";
+						- _class = "Project Management";
 						- _name = "itsDerive Product Architecture";
 						- _id = GUID 757f79fe-c4e7-41ee-a769-a38da8d33b36;
 					}
@@ -2404,7 +2404,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
-						- _class = "Program Management";
+						- _class = "Project Management";
 						- _name = "itsManage Product Lines";
 						- _id = GUID f030f0d4-10c8-4d0e-9cfb-ab178b233d25;
 					}
@@ -2574,7 +2574,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
-						- _class = "Program Management";
+						- _class = "Project Management";
 						- _name = "itsAnalyze Behavior Correctness";
 						- _id = GUID 886e17da-e768-4f4d-a189-0024855e9c73;
 					}
@@ -2720,12 +2720,12 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _filename = "Actors.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
-						- _name = "Program Management";
+						- _name = "Project Management";
 						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
 					}
 					- m_pParent = GUID 9245a093-1680-48a9-8d12-a86a35d2f9b8;
 					- m_name = { CGIText 
-						- m_str = "Program Management";
+						- m_str = "Project Management";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -5240,7 +5240,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 11.14.2015::16:23:46;
+	- weakCGTime = 12.8.2015::20:25:44;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 8777ceb2-ac79-4178-a12b-8cced3a0374e;
 	- _eventsBaseID = -1;
@@ -5429,7 +5429,7 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 				{ IAssociationEnd 
 					- _id = GUID 23b3f8ad-d85e-47a7-b7a5-fdfa3a272d0d;
 					- _myState = 10240;
-					- _name = "itsProgram Management";
+					- _name = "itsProject Management";
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
@@ -5437,14 +5437,14 @@ Output -\\b0  Typical deliverables for this effort include Subsystem Requirement
 						- _filename = "Actors.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
-						- _name = "Program Management";
+						- _name = "Project Management";
 						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
-						- _class = "Program Management";
+						- _class = "Project Management";
 						- _name = "itsDerive Product Architecture";
 						- _id = GUID 757f79fe-c4e7-41ee-a769-a38da8d33b36;
 					}
@@ -16872,7 +16872,7 @@ The results are captured and provided to the requesting party.  \\par
 				{ IAssociationEnd 
 					- _id = GUID fee189d8-de31-45dc-905c-da4a1fd403b6;
 					- _myState = 10240;
-					- _name = "itsProgram Management";
+					- _name = "itsProject Management";
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
@@ -16880,14 +16880,14 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "Actors.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
-						- _name = "Program Management";
+						- _name = "Project Management";
 						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
-						- _class = "Program Management";
+						- _class = "Project Management";
 						- _name = "itsAnalyze Behavior Correctness";
 						- _id = GUID 886e17da-e768-4f4d-a189-0024855e9c73;
 					}
@@ -17040,7 +17040,7 @@ The results are captured and provided to the requesting party.  \\par
 				{ IAssociationEnd 
 					- _id = GUID e91b681a-03a2-472f-82a8-dcf1c3bf1f84;
 					- _myState = 10240;
-					- _name = "itsProgram Management";
+					- _name = "itsProject Management";
 					- _modifiedTimeWeak = 1.2.1990::0:0:0;
 					- _multiplicity = "1";
 					- _otherClass = { IClassifierHandle 
@@ -17048,14 +17048,14 @@ The results are captured and provided to the requesting party.  \\par
 						- _filename = "Actors.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
 						- _class = "";
-						- _name = "Program Management";
+						- _name = "Project Management";
 						- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
 					}
 					- _inverse = { IHandle 
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Actors.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
-						- _class = "Program Management";
+						- _class = "Project Management";
 						- _name = "itsManage Product Lines";
 						- _id = GUID f030f0d4-10c8-4d0e-9cfb-ab178b233d25;
 					}

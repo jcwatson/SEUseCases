@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
 	- _myState = 8192;
 	- _name = "Actors";
-	- _modifiedTimeWeak = 11.16.2015::18:41:51;
+	- _modifiedTimeWeak = 12.8.2015::20:23:24;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "";
@@ -275,7 +275,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.16.2015::19:0:43";
+			- _lastModifiedTime = "12.8.2015::20:25:45";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 6c62f6c2-2799-4d15-ae90-0149540f7e84;
 				- m_type = 0;
@@ -1232,7 +1232,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					}
 					- m_pParent = GUID 5d3e21cb-3b74-46de-8967-0259468d8b15;
 					- m_name = { CGIText 
-						- m_str = "Program Management";
+						- m_str = "Project Management";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -2553,7 +2553,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			}
 		}
 	}
-	- weakCGTime = 12.3.2015::14:49:26;
+	- weakCGTime = 12.8.2015::20:23:24;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 	- _eventsBaseID = -1;
@@ -2564,8 +2564,8 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.16.2015::18:41:51;
-			- weakCGTime = 11.16.2015::18:41:51;
+			- _modifiedTimeWeak = 12.3.2015::14:49:26;
+			- weakCGTime = 12.3.2015::14:49:26;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2670,13 +2670,16 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		{ IActor 
 			- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
 			- _myState = 8192;
-			- _name = "Program Management";
-			- _modifiedTimeWeak = 11.11.2015::17:48:17;
+			- _name = "Project Management";
+			- _modifiedTimeWeak = 12.8.2015::20:26:7;
 			- _description = { IDescription 
-				- _text = "** consider product manager";
+				- _text = "(1) The application of knowledge, skills, tools, and techniques to project activities to meet the project requirements. (PMI 2013)
+
+(2) The collection of work activities concerned with planning and estimating, measuring and controlling, leading and coordinating, and managing risk factors for a project. (Fairley 2009)
+[3, SEBoK Glossary]";
 			}
-			- weakCGTime = 11.11.2015::17:48:17;
-			- strongCGTime = 11.11.2015::16:0:40;
+			- weakCGTime = 12.8.2015::20:26:7;
+			- strongCGTime = 12.8.2015::20:25:42;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
 				- value = 
@@ -2729,7 +2732,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _filename = "SE_Domain_Workflow_Use_Cases.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage::SE Domain Workflow Use Cases";
 						- _class = "Analyze Behavior Correctness";
-						- _name = "itsProgram Management";
+						- _name = "itsProject Management";
 						- _id = GUID fee189d8-de31-45dc-905c-da4a1fd403b6;
 					}
 					- _linkName = "";
@@ -2767,7 +2770,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _filename = "SE_Domain_Workflow_Use_Cases.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage::SE Domain Workflow Use Cases";
 						- _class = "Manage Product Lines";
-						- _name = "itsProgram Management";
+						- _name = "itsProject Management";
 						- _id = GUID e91b681a-03a2-472f-82a8-dcf1c3bf1f84;
 					}
 					- _linkName = "";
@@ -2805,7 +2808,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _filename = "SE_Domain_Workflow_Use_Cases.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage::SE Domain Workflow Use Cases";
 						- _class = "Derive Product Architecture";
-						- _name = "itsProgram Management";
+						- _name = "itsProject Management";
 						- _id = GUID 23b3f8ad-d85e-47a7-b7a5-fdfa3a272d0d;
 					}
 					- _linkName = "";
@@ -2843,7 +2846,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _filename = "Exploratory_and_Concept_Stage.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Exploratory and Concept Stage";
 						- _class = "Response to a Customer Request";
-						- _name = "itsProgram Management";
+						- _name = "itsProject Management";
 						- _id = GUID 12f29bfe-eb19-4938-adaa-c3e3acb7cd16;
 					}
 					- _linkName = "";
@@ -2881,7 +2884,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _filename = "Exploratory_and_Concept_Stage.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Exploratory and Concept Stage";
 						- _class = "Analyze Stakeholders Needs";
-						- _name = "itsProgram Management";
+						- _name = "itsProject Management";
 						- _id = GUID 06fc1c90-255f-4777-a0b7-c8f3b74ced71;
 					}
 					- _linkName = "";
@@ -2919,7 +2922,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _filename = "Exploratory_and_Concept_Stage.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Exploratory and Concept Stage";
 						- _class = "Derive System Requirements";
-						- _name = "itsProgram Management";
+						- _name = "itsProject Management";
 						- _id = GUID 550da9df-63b7-4a3b-9627-7385d3407f5b;
 					}
 					- _linkName = "";
@@ -2957,7 +2960,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						- _filename = "Exploratory_and_Concept_Stage.sbs";
 						- _subsystem = "SE Life Cycle Workflow Use Cases::Exploratory and Concept Stage";
 						- _class = "Analyze System Life-cycle Costs";
-						- _name = "itsProgram Management";
+						- _name = "itsProject Management";
 						- _id = GUID 21e1c22f-b2c0-4943-9984-c4978f479d06;
 					}
 					- _linkName = "";
