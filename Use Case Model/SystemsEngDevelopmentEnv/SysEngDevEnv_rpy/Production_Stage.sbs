@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 { ISubsystem 
 	- _ownerHandle = { IHandle 
 		- _m2Class = "ISubsystem";
@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 	- _id = GUID e8e5671e-b495-4d41-a575-df3971b040cf;
 	- _myState = 8192;
 	- _name = "Production Stage";
-	- _modifiedTimeWeak = 11.11.2015::19:41:17;
+	- _modifiedTimeWeak = 12.14.2015::16:13:55;
 	- _description = { IDescription 
 		- _text = "This section captures the set of systems engineer process use cases. Therefore it does not include all use cases for all domains.  Often System Engineers are the primary actor for these use cases but the use case can be driven from another stakeholder where the systems engineer is a contributor. 
 The use cases shown are not executed in any particular order nor are they executed one at a time. Typically multiple use cases are being executed parallel and often one is providing more refinement to another.   ";
@@ -369,7 +369,7 @@ The use cases shown are not executed in any particular order nor are they execut
 			}
 			- _name = "Production Stage Workflow Use Cases";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.11.2015::19:41:17";
+			- _lastModifiedTime = "12.14.2015::16:14:35";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 6b4afca5-fc1b-4589-9f29-1b5a68332b1f;
 				- m_type = 0;
@@ -393,7 +393,7 @@ The use cases shown are not executed in any particular order nor are they execut
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 4;
+				- elementList = 6;
 				{ CGIClass 
 					- _id = GUID 6e254b42-c4b1-4f45-9178-63129f5c7949;
 					- m_type = 78;
@@ -607,6 +607,224 @@ The use cases shown are not executed in any particular order nor are they execut
 						- size = 0;
 					}
 				}
+				{ CGIBasicClass 
+					- _id = GUID f2871a3d-caa2-48ad-b1e1-c5b85c04a899;
+					- m_type = 124;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IActor";
+						- _filename = "Actors.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "";
+						- _name = "Manufacturing";
+						- _id = GUID 1d952e78-b8a0-4a0b-8756-6fe73444e0e4;
+					}
+					- m_pParent = GUID 6e254b42-c4b1-4f45-9178-63129f5c7949;
+					- m_name = { CGIText 
+						- m_str = "Manufacturing";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 5;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.0387812 0 0 0.0735552 49.1745 173.464 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_AdditionalLabel = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_polygon = 4 176 252  176 1394  1259 1394  1259 252  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+				}
+				{ CGIAssociationEnd 
+					- _id = GUID 77c9e00f-fc40-41e0-b38a-c9b047a931e7;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "General";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Graphics";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ShowLabels";
+												- _Value = "False";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 94;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Actors.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "Manufacturing";
+						- _name = "itsSupport Produceability Engineering";
+						- _id = GUID 6fa8775c-8da3-477a-987e-136c40c33945;
+					}
+					- m_pParent = ;
+					- m_name = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_drawBehavior = 4096;
+					- m_bIsPreferencesInitialized = 1;
+					- m_pSource = GUID f2871a3d-caa2-48ad-b1e1-c5b85c04a899;
+					- m_sourceType = 'F';
+					- m_pTarget = GUID 6f172e79-f2ce-45af-9c6f-e74348b5715a;
+					- m_targetType = 'T';
+					- m_direction = ' ';
+					- m_rpn = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 7;
+					}
+					- m_anglePoint1 = 0 0 ;
+					- m_anglePoint2 = 0 0 ;
+					- m_line_style = 0;
+					- m_SourcePort = 1207 741 ;
+					- m_TargetPort = 14 599 ;
+					- m_pInverseModelObject = { IAssociationEndHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 24dcb995-7c54-494a-85eb-b324e7c02d97;
+					}
+					- m_pInstance = { IObjectLinkHandle 
+						- _m2Class = "";
+					}
+					- m_pInverseInstance = { IObjectLinkHandle 
+						- _m2Class = "";
+					}
+					- m_bShowSourceMultiplicity = 0;
+					- m_bShowSourceRole = 0;
+					- m_bShowTargetMultiplicity = 0;
+					- m_bShowTargetRole = 0;
+					- m_bShowLinkName = 0;
+					- m_bShowSpecificType = 0;
+					- m_bInstance = 0;
+					- m_bShowQualifier1 = 0;
+					- m_bShowQualifier2 = 0;
+					- m_sourceRole = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 2;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_targetRole = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 3;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_sourceMultiplicity = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 4;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_targetMultiplicity = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 5;
+						- m_bImplicitSetRectPoints = 0;
+					}
+					- m_sourceQualifier = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 6;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_targetQualifier = { CGIText 
+						- m_str = "";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 7;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 8;
+					}
+					- m_specificType = symmetric_type;
+				}
 				
 				- m_access = 'Z';
 				- m_modified = 'N';
@@ -626,7 +844,7 @@ The use cases shown are not executed in any particular order nor are they execut
 			}
 		}
 	}
-	- weakCGTime = 11.11.2015::19:41:17;
+	- weakCGTime = 12.14.2015::16:13:55;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID 5ec5536e-ebe3-48f0-b0ab-549c7e8c4bc3;
 	- _eventsBaseID = -1;
@@ -724,6 +942,36 @@ The use cases shown are not executed in any particular order nor are they execut
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 24dcb995-7c54-494a-85eb-b324e7c02d97;
+					- _myState = 10240;
+					- _name = "itsManufacturing";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _filename = "Actors.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "";
+						- _name = "Manufacturing";
+						- _id = GUID 1d952e78-b8a0-4a0b-8756-6fe73444e0e4;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Actors.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Actors";
+						- _class = "Manufacturing";
+						- _name = "itsSupport Produceability Engineering";
+						- _id = GUID 6fa8775c-8da3-477a-987e-136c40c33945;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = NonNavigable;
+				}
 			}
 			- _classModifier = Unspecified;
 			- _EntryPoints = { IRPYRawContainer 

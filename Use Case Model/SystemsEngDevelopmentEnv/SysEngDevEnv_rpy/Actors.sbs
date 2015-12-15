@@ -11,7 +11,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 	- _id = GUID d3fbc632-ba58-461c-8443-17a96c04ed6e;
 	- _myState = 8192;
 	- _name = "Actors";
-	- _modifiedTimeWeak = 12.8.2015::20:23:24;
+	- _modifiedTimeWeak = 12.14.2015::16:14:1;
 	- _theMainDiagram = { IHandle 
 		- _m2Class = "IDiagram";
 		- _filename = "";
@@ -275,7 +275,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 				}
 			}
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "12.8.2015::20:25:45";
+			- _lastModifiedTime = "12.14.2015::16:15:0";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 6c62f6c2-2799-4d15-ae90-0149540f7e84;
 				- m_type = 0;
@@ -2553,7 +2553,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 			}
 		}
 	}
-	- weakCGTime = 12.8.2015::20:23:24;
+	- weakCGTime = 12.15.2015::19:16:38;
 	- strongCGTime = 3.29.2015::15:52:25;
 	- _defaultComposite = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 	- _eventsBaseID = -1;
@@ -2564,8 +2564,8 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 			- _id = GUID a56ae290-3dde-4f74-9503-ec093e767402;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 12.3.2015::14:49:26;
-			- weakCGTime = 12.3.2015::14:49:26;
+			- _modifiedTimeWeak = 12.8.2015::20:23:24;
+			- weakCGTime = 12.8.2015::20:23:24;
 			- strongCGTime = 3.29.2015::15:52:25;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -2581,7 +2581,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 			- _id = GUID 1d952e78-b8a0-4a0b-8756-6fe73444e0e4;
 			- _myState = 8192;
 			- _name = "Manufacturing";
-			- _modifiedTimeWeak = 11.12.2015::20:46:21;
+			- _modifiedTimeWeak = 12.14.2015::16:14:1;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IUCDiagram";
 				- _filename = "Product_and_Service_Life_Management_Stage.sbs";
@@ -2597,7 +2597,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 }
 ";
 			}
-			- weakCGTime = 11.12.2015::20:46:21;
+			- weakCGTime = 12.14.2015::16:14:1;
 			- strongCGTime = 11.11.2015::16:2:49;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -2618,7 +2618,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 2;
+				- size = 3;
 				- value = 
 				{ IAssociationEnd 
 					- _id = GUID 23903624-d95a-4f7f-9b86-9dac9952cf94;
@@ -2664,6 +2664,32 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 					- _linkType = Assoc;
 					- _navigability = NonNavigable;
 				}
+				{ IAssociationEnd 
+					- _id = GUID 6fa8775c-8da3-477a-987e-136c40c33945;
+					- _myState = 10240;
+					- _name = "itsSupport Produceability Engineering";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Production_Stage.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Production Stage";
+						- _class = "";
+						- _name = "Support Produceability Engineering";
+						- _id = GUID 9531f0a6-4c95-4815-beec-5d7782acbfbe;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Production_Stage.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::Production Stage";
+						- _class = "Support Produceability Engineering";
+						- _name = "itsManufacturing";
+						- _id = GUID 24dcb995-7c54-494a-85eb-b324e7c02d97;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
 			}
 			- _classModifier = Unspecified;
 		}
@@ -2671,14 +2697,22 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 			- _id = GUID 2afa7681-729c-4549-8186-cfbc3a075f27;
 			- _myState = 8192;
 			- _name = "Project Management";
-			- _modifiedTimeWeak = 12.8.2015::20:26:7;
+			- _modifiedTimeWeak = 12.14.2015::16:10:39;
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IUCDiagram";
+				- _filename = "Management_Workflow_Use_Cases.sbs";
+				- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage::Management Workflow Use Cases";
+				- _class = "";
+				- _name = "Management Workflow Use Cases";
+				- _id = GUID 26d60c5a-1b3c-4dd0-a57c-81eaf1dd6228;
+			}
 			- _description = { IDescription 
 				- _text = "(1) The application of knowledge, skills, tools, and techniques to project activities to meet the project requirements. (PMI 2013)
 
 (2) The collection of work activities concerned with planning and estimating, measuring and controlling, leading and coordinating, and managing risk factors for a project. (Fairley 2009)
 [3, SEBoK Glossary]";
 			}
-			- weakCGTime = 12.8.2015::20:26:7;
+			- weakCGTime = 12.14.2015::16:10:39;
 			- strongCGTime = 12.8.2015::20:25:42;
 			- Inheritances = { IRPYRawContainer 
 				- size = 1;
@@ -2699,7 +2733,7 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 				- _m2Class = "";
 			}
 			- Associations = { IRPYRawContainer 
-				- size = 7;
+				- size = 10;
 				- value = 
 				{ IAssociationEnd 
 					- _id = GUID 886e17da-e768-4f4d-a189-0024855e9c73;
@@ -2962,6 +2996,84 @@ I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 						- _class = "Analyze System Life-cycle Costs";
 						- _name = "itsProject Management";
 						- _id = GUID 21e1c22f-b2c0-4943-9984-c4978f479d06;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 66676670-95ea-47ca-8847-ab464bff496f;
+					- _myState = 10240;
+					- _name = "itsPlan a Development Cycle";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Management_Workflow_Use_Cases.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage::Management Workflow Use Cases";
+						- _class = "";
+						- _name = "Plan a Development Cycle";
+						- _id = GUID a58193ab-7bf9-4ffe-8f5c-8f5359a2a644;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Management_Workflow_Use_Cases.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage::Management Workflow Use Cases";
+						- _class = "Plan a Development Cycle";
+						- _name = "itsProject Management";
+						- _id = GUID 248f15f5-7a04-4f8e-a4bc-ae5c126eb9ac;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID aa5f9a6e-6717-43b0-8766-85be762833c2;
+					- _myState = 10240;
+					- _name = "itsManage SE Development Progress";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Management_Workflow_Use_Cases.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage::Management Workflow Use Cases";
+						- _class = "";
+						- _name = "Manage SE Development Progress";
+						- _id = GUID 3caf7e04-9be5-450a-886c-f97c58758c90;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Management_Workflow_Use_Cases.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage::Management Workflow Use Cases";
+						- _class = "Manage SE Development Progress";
+						- _name = "itsProject Management";
+						- _id = GUID e087f5b4-2c6d-476b-bad8-6b048315f56e;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 940ca92d-741d-4ea5-a1f4-1cae089d72b5;
+					- _myState = 10240;
+					- _name = "itsManage SE Development Environment";
+					- _modifiedTimeWeak = 1.2.1990::0:0:0;
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _filename = "Management_Workflow_Use_Cases.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage::Management Workflow Use Cases";
+						- _class = "";
+						- _name = "Manage SE Development Environment";
+						- _id = GUID 57e386bf-fc88-4d49-a5c8-32c559692af4;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _filename = "Management_Workflow_Use_Cases.sbs";
+						- _subsystem = "SE Life Cycle Workflow Use Cases::System Development Stage::Management Workflow Use Cases";
+						- _class = "Manage SE Development Environment";
+						- _name = "itsProject Management";
+						- _id = GUID f39725b2-71f4-4fcd-a9ed-6e35994fe1a3;
 					}
 					- _linkName = "";
 					- _linkType = Assoc;
@@ -3858,10 +3970,6 @@ tructure and Governance on Systems Engineering and Project Management Relationsh
 				{ TableDataDefinition 
 					- _myTable = { IHandle 
 						- _m2Class = "ITableLayout";
-						- _filename = "";
-						- _subsystem = "";
-						- _class = "";
-						- _name = "";
 						- _id = GUID 7ecd3e2f-bcaf-4f88-9e98-8895133401b2;
 					}
 					- _modelElement = { IHandle 
@@ -3877,10 +3985,6 @@ tructure and Governance on Systems Engineering and Project Management Relationsh
 				{ TableDataDefinition 
 					- _myTable = { IHandle 
 						- _m2Class = "ITableLayout";
-						- _filename = "";
-						- _subsystem = "";
-						- _class = "";
-						- _name = "";
 						- _id = GUID 7ecd3e2f-bcaf-4f88-9e98-8895133401b2;
 					}
 					- _modelElement = { IHandle 
@@ -3892,10 +3996,6 @@ tructure and Governance on Systems Engineering and Project Management Relationsh
 				{ TableDataDefinition 
 					- _myTable = { IHandle 
 						- _m2Class = "ITableLayout";
-						- _filename = "";
-						- _subsystem = "";
-						- _class = "";
-						- _name = "";
 						- _id = GUID 7ecd3e2f-bcaf-4f88-9e98-8895133401b2;
 					}
 					- _modelElement = { IHandle 

@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 { IComponent 
 	- _id = GUID bfdb8f53-2bc6-49d2-8bed-99a758995a97;
 	- _myState = 139264;
@@ -102,7 +102,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- HandlesInMe = { IRPYRawContainer 
-		- size = 45;
+		- size = 47;
 		- value = 
 		{ IHandle 
 			- _m2Class = "IProfile";
@@ -463,6 +463,22 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _class = "";
 			- _name = "Technical Measures Library and Profile";
 			- _id = GUID 70f16c1c-0b77-4c59-b16e-eadff6e6d475;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre812Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre812Cpp";
+			- _id = GUID 3026d3ea-02b4-49ae-b086-6982c27412f0;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "CGCompatibilityPre813Cpp.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "CGCompatibilityPre813Cpp";
+			- _id = GUID 803c9619-7509-44c3-bfdf-6fee2352ab55;
 		}
 	}
 	- VariationPoints = { IRPYRawContainer 

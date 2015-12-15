@@ -1,4 +1,4 @@
-I-Logix-RPY-Archive version 8.10.0 C++ 6930133
+I-Logix-RPY-Archive version 8.11.0 C++ 9499822
 { IProject 
 	- _id = GUID d84478ea-c8fb-444f-aecc-3acdf582da60;
 	- _myState = 8192;
@@ -901,61 +901,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 						}
 					}
 					{ IPropertyMetaclass 
-						- _Name = "ClassDiagram";
-						- Properties = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IProperty 
-								- _Name = "Fillcolor";
-								- _Value = "255,255,255";
-								- _Type = Color;
-							}
-						}
-					}
-					{ IPropertyMetaclass 
-						- _Name = "Comment";
-						- Properties = { IRPYRawContainer 
-							- size = 6;
-							- value = 
-							{ IProperty 
-								- _Name = "CommentNotation";
-								- _Value = "Box_Style";
-								- _Type = Enum;
-								- _ExtraTypeInfo = "Note_Style,Box_Style";
-							}
-							{ IProperty 
-								- _Name = "Compartments";
-								- _Value = "Description,";
-								- _Type = MultiLine;
-							}
-							{ IProperty 
-								- _Name = "ShowAnnotationContents";
-								- _Value = "Description";
-								- _Type = Enum;
-								- _ExtraTypeInfo = "Name,Description,Label";
-							}
-							{ IProperty 
-								- _Name = "ShowForm";
-								- _Value = "Pushpin";
-								- _Type = Enum;
-								- _ExtraTypeInfo = "Plain,Note,Pushpin";
-							}
-							{ IProperty 
-								- _Name = "ShowName";
-								- _Value = "Relative";
-								- _Type = Enum;
-								- _ExtraTypeInfo = "Full_path,Relative,Name_only,Label";
-							}
-							{ IProperty 
-								- _Name = "ShowStereotype";
-								- _Value = "Label";
-								- _Type = Enum;
-								- _ExtraTypeInfo = "Label,Bitmap,None";
-							}
-						}
-					}
-					{ IPropertyMetaclass 
-						- _Name = "block";
+						- _Name = "Block";
 						- Properties = { IRPYRawContainer 
 							- size = 9;
 							- value = 
@@ -1001,6 +947,60 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								- _Name = "ShowPortsInterfaces";
 								- _Value = "False";
 								- _Type = Bool;
+							}
+							{ IProperty 
+								- _Name = "ShowStereotype";
+								- _Value = "Label";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "Label,Bitmap,None";
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "ClassDiagram";
+						- Properties = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IProperty 
+								- _Name = "Fillcolor";
+								- _Value = "255,255,255";
+								- _Type = Color;
+							}
+						}
+					}
+					{ IPropertyMetaclass 
+						- _Name = "Comment";
+						- Properties = { IRPYRawContainer 
+							- size = 6;
+							- value = 
+							{ IProperty 
+								- _Name = "CommentNotation";
+								- _Value = "Box_Style";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "Note_Style,Box_Style";
+							}
+							{ IProperty 
+								- _Name = "Compartments";
+								- _Value = "Description,";
+								- _Type = MultiLine;
+							}
+							{ IProperty 
+								- _Name = "ShowAnnotationContents";
+								- _Value = "Description";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "Name,Description,Label";
+							}
+							{ IProperty 
+								- _Name = "ShowForm";
+								- _Value = "Pushpin";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "Plain,Note,Pushpin";
+							}
+							{ IProperty 
+								- _Name = "ShowName";
+								- _Value = "Relative";
+								- _Type = Enum;
+								- _ExtraTypeInfo = "Full_path,Relative,Name_only,Label";
 							}
 							{ IProperty 
 								- _Name = "ShowStereotype";
@@ -1171,7 +1171,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 052b8171-a32b-4f45-a829-5585f79f9deb;
 		}
 	}
-	- _modifiedTimeWeak = 11.11.2015::17:4:8;
+	- _modifiedTimeWeak = 12.14.2015::15:21:10;
 	- _lastID = 33;
 	- _unitSccProjName = "ClearCase";
 	- _unitSccProjPath = "ClearCase";
@@ -1236,7 +1236,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 		}
 	}
 	- Subsystems = { IRPYRawContainer 
-		- size = 20;
+		- size = 22;
 		- value = 
 		{ IProfile 
 			- fileName = "SysML";
@@ -1287,7 +1287,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 6bca94b1-3700-4982-9b60-2821c4b41793;
 			- _myState = 8192;
 			- _name = "SE Life Cycle Workflow Use Cases";
-			- _modifiedTimeWeak = 11.11.2015::17:0:58;
+			- _modifiedTimeWeak = 12.14.2015::15:21:10;
 			- _theMainDiagram = { IHandle 
 				- _m2Class = "IDiagram";
 				- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -1300,7 +1300,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _id = GUID c469f8a5-924d-4311-8ccb-368e28548a19;
 					- _myState = 8192;
 					- _name = "Use Case Table Views";
-					- _modifiedTimeWeak = 9.23.2015::21:5:8;
+					- _modifiedTimeWeak = 12.14.2015::15:21:10;
 					- _theMainDiagram = { IHandle 
 						- _m2Class = "IDiagram";
 						- _id = GUID 5eb2f333-93d6-437c-aabe-47136547f99d;
@@ -4099,7 +4099,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 							- _configurationRelatedTime = 1.2.1990::0:0:0;
 						}
 					}
-					- weakCGTime = 9.23.2015::21:5:8;
+					- weakCGTime = 12.14.2015::15:21:10;
 					- strongCGTime = 3.29.2015::15:52:25;
 					- _defaultComposite = GUID 57acf9df-3d8f-404d-889f-d6f81f515dc3;
 					- _eventsBaseID = -1;
@@ -4190,7 +4190,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 													- value = 
 													{ IProperty 
 														- _Name = "TableFilters";
-														- _Value = "";
+														- _Value = "Priority,,High,,TRUE,,FALSE,,FALSE,,FALSE,,FALSE,,FALSE,,FALSE";
 														- _Type = String;
 													}
 													{ IProperty 
@@ -4205,7 +4205,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 								}
 							}
 							- _name = "Use Case Priority and Maturity Table View";
-							- _modifiedTimeWeak = 9.23.2015::21:5:8;
+							- _modifiedTimeWeak = 12.14.2015::15:21:10;
 							- LayoutHandle = { IHandle 
 								- _m2Class = "ITableLayout";
 								- _id = GUID 0de9637a-ba26-43f4-9159-5beb301e6c29;
@@ -5783,7 +5783,7 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 					- _name = "Worflow Patterns";
 				}
 			}
-			- weakCGTime = 11.11.2015::17:0:58;
+			- weakCGTime = 12.14.2015::15:21:10;
 			- strongCGTime = 11.11.2015::17:0:58;
 			- _defaultComposite = GUID 096ed2a3-f9af-4729-b836-e0906b514d83;
 			- _eventsBaseID = -1;
@@ -5860,6 +5860,14 @@ I-Logix-RPY-Archive version 8.10.0 C++ 6930133
 			- _id = GUID 70f16c1c-0b77-4c59-b16e-eadff6e6d475;
 			- _name = "Technical Measures Library and Profile";
 			- _isReference = 1;
+		}
+		{ IProfile 
+			- fileName = "CGCompatibilityPre812Cpp";
+			- _id = GUID 3026d3ea-02b4-49ae-b086-6982c27412f0;
+		}
+		{ IProfile 
+			- fileName = "CGCompatibilityPre813Cpp";
+			- _id = GUID 803c9619-7509-44c3-bfdf-6fee2352ab55;
 		}
 	}
 	- Diagrams = { IRPYRawContainer 
